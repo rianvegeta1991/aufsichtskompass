@@ -1,0 +1,19 @@
+{
+  "regelwerk": "dora-rts-1190",
+  "fassungen": [
+    {
+      "id": "2025-06-18",
+      "stand": "Wed, 18 Jun 2025 01:03:58 GMT",
+      "abgerufen": "2026-09-27T10:10:25Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32025R1190",
+        "celex": "32025R1190",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20250618030358000\"",
+      "hash": "58bef9d3e4b64454298bc8738f9789ba98fb69b4b86a997a2d4be3af2ea17610",
+      "fundstellen": 101
+    }
+  ]
+}

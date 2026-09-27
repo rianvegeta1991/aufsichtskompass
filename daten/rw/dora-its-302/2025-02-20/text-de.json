@@ -1,0 +1,401 @@
+{
+  "001.001": {
+    "h": "67c1bf629270a187a433ed32f434511d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen verwenden für die Übermittlung der in Artikel 19 Absatz 4 der Verordnung (EU) 2022/2554 genannten Erstmeldung, Zwischenmeldung und Abschlussmeldung die Vorlage in Anhang I wie folgt:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Finanzunternehmen, die eine Erstmeldung übermitteln, füllen diejenigen Datenfelder der Vorlage aus, die den nach Artikel 2 der Delegierten Verordnung (EU) 2025/301 der Kommission () geforderten Informationen entsprechen, und können, wenn sie bereits über diese Informationen verfügen, diejenigen Datenfelder ausfüllen, die nicht für eine Erstmeldung, sondern für eine Zwischen- oder Abschlussmeldung ausgefüllt werden müssen."
+          },
+          {
+            "m": "b)",
+            "t": "Finanzunternehmen, die eine Zwischenmeldung übermitteln, füllen diejenigen Datenfelder der Vorlage aus, die den nach Artikel 3 der Delegierten Verordnung (EU) 2025/301 geforderten Informationen entsprechen, und können, wenn sie bereits über diese Informationen verfügen, diejenigen Datenfelder ausfüllen, die nicht für eine Zwischenmeldung, sondern für eine Abschlussmeldung ausgefüllt werden müssen."
+          },
+          {
+            "m": "c)",
+            "t": "Finanzunternehmen, die eine Abschlussmeldung übermitteln, füllen diejenigen Datenfelder der Vorlage aus, die den nach Artikel 4 der Delegierten Verordnung (EU) 2025/301 geforderten Informationen entsprechen."
+          }
+        ]
+      }
+    ]
+  },
+  "001.002": {
+    "h": "20e8633dad8dd1baf3d7e41175d5f73f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen stellen sicher, dass die in der Erstmeldung sowie in der Zwischenmeldung und der Abschlussmeldung enthaltenen Informationen vollständig und korrekt sind."
+      }
+    ]
+  },
+  "001.003": {
+    "h": "2ebf8efdaa9582dd001d4cffaede82cc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen geben, soweit möglich, Schätzwerte auf der Grundlage anderer verfügbarer Daten und Informationen an, wenn zum Zeitpunkt der Erstmeldung oder der Zwischenmeldung keine genauen Daten verfügbar sind."
+      }
+    ]
+  },
+  "001.004": {
+    "h": "5ad748753db20da95cce1322c5827f03",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Übermittlung einer Zwischen- oder Abschlussmeldung verwenden Finanzunternehmen die Vorlage in Anhang I, um alle erforderlichen Informationen zu übermitteln und gegebenenfalls die Informationen zu aktualisieren, die zuvor in der Erstmeldung oder in der Zwischenmeldung übermittelt wurden."
+      }
+    ]
+  },
+  "001.005": {
+    "h": "092a15f6e355a54334c206d15cea8e7b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beim Ausfüllen der Vorlage in Anhang I beachten die Finanzunternehmen das Datenglossar und die Anleitung in Anhang II."
+      }
+    ]
+  },
+  "004.001": {
+    "h": "d11dd554a8913f97478f8a30059566a1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen nutzen sichere elektronische Kanäle, die von ihrer zuständigen Behörde für die Übermittlung der Erst-, Zwischen- und Abschlussmeldung bereitgestellt werden."
+      }
+    ]
+  },
+  "004.002": {
+    "h": "25a1368f6b60faf8d30191cc5c76a90f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen, die nicht in der Lage sind, die von ihrer zuständigen Behörde bereitgestellten sicheren elektronischen Kanäle zu nutzen, unterrichten ihre zuständige Behörde im Einvernehmen mit der zuständigen Behörde auf andere sichere Weise über einen schwerwiegenden IKT-bezogenen Vorfall. Auf Verlangen der zuständigen Behörde übermitteln Finanzunternehmen die Erst-, Zwischen- oder Abschlussmeldung erneut über den von ihrer zuständigen Behörde bereitgestellten sicheren elektronischen Kanal, sobald sie dazu in der Lage sind."
+      }
+    ]
+  },
+  "006.001": {
+    "h": "6c359328d32768ded55d5e019706e06d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen, die die Verpflichtung zur Meldung schwerwiegender IKT-bezogener Vorfälle gemäß Artikel 19 Absatz 5 der Verordnung (EU) 2022/2554 ausgelagert haben, unterrichten ihre zuständige Behörde über die Vereinbarung zur Auslagerung, sobald diese abgeschlossen wurde, spätestens jedoch vor der ersten Meldung."
+      }
+    ]
+  },
+  "006.002": {
+    "h": "e5ca67e5d048f84a24e8604a99f9495b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen teilen der zuständigen Behörde den Namen, die Kontaktdaten und den Identifikationscode des Dritten mit, der die Meldungen schwerwiegender IKT-bezogener Vorfälle für sie übermitteln wird."
+      }
+    ]
+  },
+  "006.003": {
+    "h": "e64efcce1c521e3dd051c895deaa183c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen unterrichten ihre zuständige Behörde, sobald sie ihre Meldepflichten gemäß Artikel 19 Absatz 5 der Verordnung (EU) 2022/2554 nicht mehr auslagern."
+      }
+    ]
+  },
+  "007.001": {
+    "h": "3d98a16cae9957ecd014332d10e96be4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein Drittdienstleister, an den Meldepflichten gemäß Artikel 19 Absatz 5 der Verordnung (EU) 2022/2554 ausgelagert wurden, kann die Vorlage in Anhang I dieser Verordnung verwenden, um aggregierte Informationen über einen schwerwiegenden IKT-bezogenen Vorfall, der sich auf mehrere Finanzunternehmen auswirkt, in einer einzigen Meldung bereitzustellen und diese Meldung im Namen aller betroffenen Finanzunternehmen der zuständigen Behörde zu übermitteln, sofern alle folgenden Voraussetzungen erfüllt sind:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Der zu meldende schwerwiegende IKT-bezogene Vorfall hat bei einem IKT- Drittdienstleister seinen Ursprung oder wird von diesem verursacht."
+          },
+          {
+            "m": "b)",
+            "t": "Dieser Drittdienstleister erbringt die betreffende IKT-Dienstleistung für mehr als ein Finanzunternehmen oder für eine Gruppe."
+          },
+          {
+            "m": "c)",
+            "t": "Der IKT-bezogene Vorfall wird von jedem in der aggregierten Meldung erfassten Finanzunternehmen als schwerwiegend eingestuft."
+          },
+          {
+            "m": "d)",
+            "t": "Der schwerwiegende IKT-bezogene Vorfall betrifft Finanzunternehmen im selben Mitgliedstaat und die aggregierte Meldung bezieht sich auf Finanzunternehmen, die von derselben zuständigen Behörde beaufsichtigt werden."
+          },
+          {
+            "m": "e)",
+            "t": "Die zuständigen Behörden haben dieser Art von Finanzunternehmen ausdrücklich gestattet, aggregierte Meldungen zu übermitteln."
+          }
+        ]
+      }
+    ]
+  },
+  "007.002": {
+    "h": "f74330b747ef0274bb339a9e19a51de1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Absatz 1 gilt nicht für Kreditinstitute, die gemäß Artikel 2 Nummer 16 der Verordnung (EU) Nr. 468/2014 der Europäischen Zentralbank () als von erheblicher Bedeutung angesehen werden, Betreiber von Handelsplätzen und zentrale Gegenparteien, die nur die Vorlage in Anhang I verwenden, um Meldungen schwerwiegender IKT-bezogener Vorfälle einzeln an ihre zuständige Behörde zu übermitteln."
+      }
+    ]
+  },
+  "007.003": {
+    "h": "d4b6755d24c41b7d7bee1843f30ca80c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verlangen die zuständigen Behörden Informationen über die individuellen Auswirkungen des schwerwiegenden IKT-bezogenen Vorfalls auf ein einzelnes Finanzunternehmen, so übermittelt das Finanzunternehmen auf Ersuchen der zuständigen Behörde eine Einzelmeldung über den schwerwiegenden IKT-bezogenen Vorfall."
+      }
+    ]
+  },
+  "008.001": {
+    "h": "0c450c63e5dd61923b8273881b667107",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen, die den zuständigen Behörden gemäß Artikel 19 Absatz 2 der Verordnung (EU) 2022/2554 erhebliche Cyberbedrohungen melden, verwenden die Vorlage in Anhang III dieser Verordnung und befolgen das Datenglossar und die Anleitung in Anhang IV dieser Verordnung."
+      }
+    ]
+  },
+  "008.002": {
+    "h": "d43c9256120f5babf7137540c8737a26",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen stellen sicher, dass die in der Meldung erheblicher Cyberbedrohungen enthaltenen Informationen vollständig und korrekt sind."
+      }
+    ]
+  },
+  "art_2": {
+    "h": "5d95e468015c7053e1b4f85006510585",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen können die Erstmeldung, die Zwischenmeldung und die Abschlussmeldung zusammenlegen und zwei oder alle Meldungen gleichzeitig übermitteln, wenn der reguläre Geschäftsbetrieb wiederhergestellt ist oder die Ursachenanalyse abgeschlossen wurde und die Fristen gemäß Artikel 5 der Delegierten Verordnung (EU) 2025/301 eingehalten werden."
+      }
+    ]
+  },
+  "art_3": {
+    "h": "312f61602c4af8899a802a34a6434472",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen, die Informationen über wiederholte nicht schwerwiegende IKT-bezogene Vorfälle bereitstellen, die zusammen die Voraussetzungen für einen schwerwiegenden IKT-bezogenen Vorfall gemäß Artikel 8 Absatz 2 der Delegierten Verordnung (EU) 2024/1772 erfüllen, übermitteln diese Informationen in aggregierter Form."
+      }
+    ]
+  },
+  "art_5": {
+    "h": "089ab4bbf7c556f5f1ce2dac64095a21",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kommt das Finanzunternehmen nach eingehender Prüfung zu dem Schluss, dass der zuvor als „schwerwiegend“ gemeldete IKT-bezogene Vorfall zu keinem Zeitpunkt die in Artikel 8 der Delegierten Verordnung (EU) 2024/1772 festgelegten Einstufungskriterien und Schwellenwerte erfüllte, so teilt es der zuständigen Behörde mit, dass es den IKT-bezogenen Vorfall von „schwerwiegend“ auf „nicht schwerwiegend“ zurückgestuft hat, und macht in der Vorlage in Anhang II dieser Verordnung in den Feldern „Art der Meldung“ und „Sonstige Informationen“ entsprechende Angaben zu dieser Rückstufung."
+      }
+    ]
+  },
+  "art_9": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "c5bcc88d29799121a5922b6b8c1972db",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 20 Absatz 4,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "f7c97853d443d97a2b2f97f42e279269",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Um sicherzustellen, dass Finanzunternehmen den für sie zuständigen Behörden schwerwiegende Sicherheitsvorfälle einheitlich melden und diesen Behörden Daten von guter Qualität zur Verfügung stellen, sollte festgelegt werden, welche Datenfelder Finanzunternehmen in den verschiedenen Meldephasen nach Artikel 19 Absatz 4 der Verordnung (EU) 2022/2554 bereitstellen müssen. Es ist wichtig, dass diese Informationen in einer Weise dargestellt werden, die einen zentralen Überblick über den Vorfall gibt. Daher muss für diese Zwecke eine einheitliche Meldevorlage festgelegt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_10": {
+    "h": "6e8666effc4e737044845797f0c90958",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(10)",
+            "t": "Die vorliegende Verordnung beruht auf dem Entwurf technischer Durchführungsstandards, der der Kommission von den Europäischen Aufsichtsbehörden übermittelt wurde."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_11": {
+    "h": "8201b5c12c1c690bb1cc59e52865c03d",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(11)",
+            "t": "Die Europäischen Aufsichtsbehörden haben zu diesem Entwurf öffentliche Konsultationen durchgeführt, die damit verbundenen potenziellen Kosten- und Nutzeneffekte analysiert und die Stellungnahme der nach Artikel 37 der Verordnungen (EU) Nr. 1093/2010 (), (EU) Nr. 1094/2010 () und (EU) Nr. 1095/2010 () des Europäischen Parlaments und des Rates eingesetzten Interessengruppe Bankensektor eingeholt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_12": {
+    "h": "1ea1788056712b5ac12dc58dc2f64362",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(12)",
+            "t": "Der Europäische Datenschutzbeauftragte wurde gemäß Artikel 42 Absatz 1 der Verordnung (EU) 2018/1725 des Europäischen Parlaments und des Rates () konsultiert und gab am 22. Juli 2024 eine befürwortende Stellungnahme ab. Jede Verarbeitung personenbezogener Daten im Anwendungsbereich dieser Verordnung sollte im Einklang mit den geltenden Datenschutzgrundsätzen und -bestimmungen der Verordnung (EU) 2018/1725 erfolgen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "bdeb9f42f2f9a0f7d5b7b32a820a8a6c",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Finanzunternehmen sollten diejenigen Datenfelder der Meldevorlage ausfüllen, die den Informationsanforderungen der betreffenden Meldung entsprechen. Finanzunternehmen, die bereits über Informationen verfügen, die sie zu einem späteren Meldezeitpunkt, d. h. in der Zwischen- oder Abschlussmeldung, bereitstellen müssen, sollten die Möglichkeit haben, die Übermittlung der Daten vorzuziehen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "4cea73de97de337fea17178c52dea3ff",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Da mehrere oder wiederholte Vorfälle einen schwerwiegenden Vorfall im Sinne von Artikel 8 der Delegierten Verordnung (EU) 2024/1772 der Kommission () darstellen können, sollten die Meldevorlage und die Datenfelder so gestaltet sein, dass die Finanzunternehmen solche wiederholten Vorfälle melden können."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "c792922c7cc3d5437c7d37a5839bd97a",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Um sicherzustellen, dass korrekte und aktuelle Informationen zur Verfügung stehen, sollte die Meldevorlage es den Finanzunternehmen ermöglichen, bei der Übermittlung der Zwischen- und Abschlussmeldung alle zuvor bereits übermittelten Informationen zu aktualisieren und erforderlichenfalls schwerwiegende Vorfälle in nicht schwerwiegend zurückzustufen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "9d9681f5f5f16e6a27cbfc79e933b800",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Die rechtliche Identifizierung der Unternehmen sollte an die Kennungen angepasst werden, die in den gemäß Artikel 28 Absatz 9 der Verordnung (EU) 2022/2554 erlassenen technischen Durchführungsstandards festgelegt sind."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "a9e806f86eb4eb7a126c556ce66149d5",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Wenn Finanzunternehmen die Meldepflichten für schwerwiegende IKT-bezogene Vorfälle an einen Dritten auslagern, sollten die zuständigen Behörden die Identität des Dritten, der Meldungen im Namen des Finanzunternehmens übermittelt, bereits vor der Übermittlung der Erstmeldung kennen, um die Legitimität des meldenden Dritten überprüfen zu können."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "4cb454b851bbd66063a45d187bb1e9de",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Um die Auswirkungen eines Vorfalls, der bei einem Drittdienstleister eingetreten ist oder von diesem verursacht wurde und mehrere Finanzunternehmen in demselben Mitgliedstaat betrifft, leicht einschätzen zu können und den Meldeaufwand für die Finanzunternehmen zu verringern, sollte die Meldevorlage die Übermittlung einer aggregierten Meldung mit aggregierten Informationen über die Auswirkungen des Vorfalls auf alle betroffenen Finanzunternehmen, die den Vorfall als schwerwiegend eingestuft haben, ermöglichen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "250d40d46bf86d1c7c63de66e6eeb006",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Die Meldevorlage sollte technologieneutral gestaltet sein, damit sie in verschiedene Lösungen für die Meldung von Sicherheitsvorfällen implementiert werden kann, die zwecks Umsetzung der Anforderungen der Verordnung (EU) 2022/2554 bereits bestehen oder noch entwickelt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "9b046d2ef8f08eb0bc73bdb7f2b59a6e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Die Gestaltung der Meldevorlage und der Datenfelder sollte die Meldung schwerwiegender IKT-bezogener Vorfälle durch Dritte, an die Finanzunternehmen ihre Meldepflicht gemäß Artikel 19 Absatz 5 der Verordnung (EU) 2022/2554 ausgelagert haben, erleichtern."
+          }
+        ]
+      }
+    ]
+  }
+}

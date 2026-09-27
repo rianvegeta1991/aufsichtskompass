@@ -1,0 +1,5253 @@
+{
+  "regelwerk": "dsgvo",
+  "fassung": "2025-02-05",
+  "abgerufen": "2026-09-27T10:10:29Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32016R0679",
+    "celex": "32016R0679",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        },
+        {
+          "id": "cit_3",
+          "art": "bezugsvermerk",
+          "nummer": "3",
+          "pfad": "bezug/3",
+          "text": true
+        },
+        {
+          "id": "cit_4",
+          "art": "bezugsvermerk",
+          "nummer": "4",
+          "pfad": "bezug/4",
+          "text": true
+        },
+        {
+          "id": "cit_5",
+          "art": "bezugsvermerk",
+          "nummer": "5",
+          "pfad": "bezug/5",
+          "text": true
+        },
+        {
+          "id": "cit_6",
+          "art": "bezugsvermerk",
+          "nummer": "6",
+          "pfad": "bezug/6",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        },
+        {
+          "id": "rct_12",
+          "art": "erwaegungsgrund",
+          "nummer": "12",
+          "pfad": "eg/12",
+          "text": true
+        },
+        {
+          "id": "rct_13",
+          "art": "erwaegungsgrund",
+          "nummer": "13",
+          "pfad": "eg/13",
+          "text": true
+        },
+        {
+          "id": "rct_14",
+          "art": "erwaegungsgrund",
+          "nummer": "14",
+          "pfad": "eg/14",
+          "text": true
+        },
+        {
+          "id": "rct_15",
+          "art": "erwaegungsgrund",
+          "nummer": "15",
+          "pfad": "eg/15",
+          "text": true
+        },
+        {
+          "id": "rct_16",
+          "art": "erwaegungsgrund",
+          "nummer": "16",
+          "pfad": "eg/16",
+          "text": true
+        },
+        {
+          "id": "rct_17",
+          "art": "erwaegungsgrund",
+          "nummer": "17",
+          "pfad": "eg/17",
+          "text": true
+        },
+        {
+          "id": "rct_18",
+          "art": "erwaegungsgrund",
+          "nummer": "18",
+          "pfad": "eg/18",
+          "text": true
+        },
+        {
+          "id": "rct_19",
+          "art": "erwaegungsgrund",
+          "nummer": "19",
+          "pfad": "eg/19",
+          "text": true
+        },
+        {
+          "id": "rct_20",
+          "art": "erwaegungsgrund",
+          "nummer": "20",
+          "pfad": "eg/20",
+          "text": true
+        },
+        {
+          "id": "rct_21",
+          "art": "erwaegungsgrund",
+          "nummer": "21",
+          "pfad": "eg/21",
+          "text": true
+        },
+        {
+          "id": "rct_22",
+          "art": "erwaegungsgrund",
+          "nummer": "22",
+          "pfad": "eg/22",
+          "text": true
+        },
+        {
+          "id": "rct_23",
+          "art": "erwaegungsgrund",
+          "nummer": "23",
+          "pfad": "eg/23",
+          "text": true
+        },
+        {
+          "id": "rct_24",
+          "art": "erwaegungsgrund",
+          "nummer": "24",
+          "pfad": "eg/24",
+          "text": true
+        },
+        {
+          "id": "rct_25",
+          "art": "erwaegungsgrund",
+          "nummer": "25",
+          "pfad": "eg/25",
+          "text": true
+        },
+        {
+          "id": "rct_26",
+          "art": "erwaegungsgrund",
+          "nummer": "26",
+          "pfad": "eg/26",
+          "text": true
+        },
+        {
+          "id": "rct_27",
+          "art": "erwaegungsgrund",
+          "nummer": "27",
+          "pfad": "eg/27",
+          "text": true
+        },
+        {
+          "id": "rct_28",
+          "art": "erwaegungsgrund",
+          "nummer": "28",
+          "pfad": "eg/28",
+          "text": true
+        },
+        {
+          "id": "rct_29",
+          "art": "erwaegungsgrund",
+          "nummer": "29",
+          "pfad": "eg/29",
+          "text": true
+        },
+        {
+          "id": "rct_30",
+          "art": "erwaegungsgrund",
+          "nummer": "30",
+          "pfad": "eg/30",
+          "text": true
+        },
+        {
+          "id": "rct_31",
+          "art": "erwaegungsgrund",
+          "nummer": "31",
+          "pfad": "eg/31",
+          "text": true
+        },
+        {
+          "id": "rct_32",
+          "art": "erwaegungsgrund",
+          "nummer": "32",
+          "pfad": "eg/32",
+          "text": true
+        },
+        {
+          "id": "rct_33",
+          "art": "erwaegungsgrund",
+          "nummer": "33",
+          "pfad": "eg/33",
+          "text": true
+        },
+        {
+          "id": "rct_34",
+          "art": "erwaegungsgrund",
+          "nummer": "34",
+          "pfad": "eg/34",
+          "text": true
+        },
+        {
+          "id": "rct_35",
+          "art": "erwaegungsgrund",
+          "nummer": "35",
+          "pfad": "eg/35",
+          "text": true
+        },
+        {
+          "id": "rct_36",
+          "art": "erwaegungsgrund",
+          "nummer": "36",
+          "pfad": "eg/36",
+          "text": true
+        },
+        {
+          "id": "rct_37",
+          "art": "erwaegungsgrund",
+          "nummer": "37",
+          "pfad": "eg/37",
+          "text": true
+        },
+        {
+          "id": "rct_38",
+          "art": "erwaegungsgrund",
+          "nummer": "38",
+          "pfad": "eg/38",
+          "text": true
+        },
+        {
+          "id": "rct_39",
+          "art": "erwaegungsgrund",
+          "nummer": "39",
+          "pfad": "eg/39",
+          "text": true
+        },
+        {
+          "id": "rct_40",
+          "art": "erwaegungsgrund",
+          "nummer": "40",
+          "pfad": "eg/40",
+          "text": true
+        },
+        {
+          "id": "rct_41",
+          "art": "erwaegungsgrund",
+          "nummer": "41",
+          "pfad": "eg/41",
+          "text": true
+        },
+        {
+          "id": "rct_42",
+          "art": "erwaegungsgrund",
+          "nummer": "42",
+          "pfad": "eg/42",
+          "text": true
+        },
+        {
+          "id": "rct_43",
+          "art": "erwaegungsgrund",
+          "nummer": "43",
+          "pfad": "eg/43",
+          "text": true
+        },
+        {
+          "id": "rct_44",
+          "art": "erwaegungsgrund",
+          "nummer": "44",
+          "pfad": "eg/44",
+          "text": true
+        },
+        {
+          "id": "rct_45",
+          "art": "erwaegungsgrund",
+          "nummer": "45",
+          "pfad": "eg/45",
+          "text": true
+        },
+        {
+          "id": "rct_46",
+          "art": "erwaegungsgrund",
+          "nummer": "46",
+          "pfad": "eg/46",
+          "text": true
+        },
+        {
+          "id": "rct_47",
+          "art": "erwaegungsgrund",
+          "nummer": "47",
+          "pfad": "eg/47",
+          "text": true
+        },
+        {
+          "id": "rct_48",
+          "art": "erwaegungsgrund",
+          "nummer": "48",
+          "pfad": "eg/48",
+          "text": true
+        },
+        {
+          "id": "rct_49",
+          "art": "erwaegungsgrund",
+          "nummer": "49",
+          "pfad": "eg/49",
+          "text": true
+        },
+        {
+          "id": "rct_50",
+          "art": "erwaegungsgrund",
+          "nummer": "50",
+          "pfad": "eg/50",
+          "text": true
+        },
+        {
+          "id": "rct_51",
+          "art": "erwaegungsgrund",
+          "nummer": "51",
+          "pfad": "eg/51",
+          "text": true
+        },
+        {
+          "id": "rct_52",
+          "art": "erwaegungsgrund",
+          "nummer": "52",
+          "pfad": "eg/52",
+          "text": true
+        },
+        {
+          "id": "rct_53",
+          "art": "erwaegungsgrund",
+          "nummer": "53",
+          "pfad": "eg/53",
+          "text": true
+        },
+        {
+          "id": "rct_54",
+          "art": "erwaegungsgrund",
+          "nummer": "54",
+          "pfad": "eg/54",
+          "text": true
+        },
+        {
+          "id": "rct_55",
+          "art": "erwaegungsgrund",
+          "nummer": "55",
+          "pfad": "eg/55",
+          "text": true
+        },
+        {
+          "id": "rct_56",
+          "art": "erwaegungsgrund",
+          "nummer": "56",
+          "pfad": "eg/56",
+          "text": true
+        },
+        {
+          "id": "rct_57",
+          "art": "erwaegungsgrund",
+          "nummer": "57",
+          "pfad": "eg/57",
+          "text": true
+        },
+        {
+          "id": "rct_58",
+          "art": "erwaegungsgrund",
+          "nummer": "58",
+          "pfad": "eg/58",
+          "text": true
+        },
+        {
+          "id": "rct_59",
+          "art": "erwaegungsgrund",
+          "nummer": "59",
+          "pfad": "eg/59",
+          "text": true
+        },
+        {
+          "id": "rct_60",
+          "art": "erwaegungsgrund",
+          "nummer": "60",
+          "pfad": "eg/60",
+          "text": true
+        },
+        {
+          "id": "rct_61",
+          "art": "erwaegungsgrund",
+          "nummer": "61",
+          "pfad": "eg/61",
+          "text": true
+        },
+        {
+          "id": "rct_62",
+          "art": "erwaegungsgrund",
+          "nummer": "62",
+          "pfad": "eg/62",
+          "text": true
+        },
+        {
+          "id": "rct_63",
+          "art": "erwaegungsgrund",
+          "nummer": "63",
+          "pfad": "eg/63",
+          "text": true
+        },
+        {
+          "id": "rct_64",
+          "art": "erwaegungsgrund",
+          "nummer": "64",
+          "pfad": "eg/64",
+          "text": true
+        },
+        {
+          "id": "rct_65",
+          "art": "erwaegungsgrund",
+          "nummer": "65",
+          "pfad": "eg/65",
+          "text": true
+        },
+        {
+          "id": "rct_66",
+          "art": "erwaegungsgrund",
+          "nummer": "66",
+          "pfad": "eg/66",
+          "text": true
+        },
+        {
+          "id": "rct_67",
+          "art": "erwaegungsgrund",
+          "nummer": "67",
+          "pfad": "eg/67",
+          "text": true
+        },
+        {
+          "id": "rct_68",
+          "art": "erwaegungsgrund",
+          "nummer": "68",
+          "pfad": "eg/68",
+          "text": true
+        },
+        {
+          "id": "rct_69",
+          "art": "erwaegungsgrund",
+          "nummer": "69",
+          "pfad": "eg/69",
+          "text": true
+        },
+        {
+          "id": "rct_70",
+          "art": "erwaegungsgrund",
+          "nummer": "70",
+          "pfad": "eg/70",
+          "text": true
+        },
+        {
+          "id": "rct_71",
+          "art": "erwaegungsgrund",
+          "nummer": "71",
+          "pfad": "eg/71",
+          "text": true
+        },
+        {
+          "id": "rct_72",
+          "art": "erwaegungsgrund",
+          "nummer": "72",
+          "pfad": "eg/72",
+          "text": true
+        },
+        {
+          "id": "rct_73",
+          "art": "erwaegungsgrund",
+          "nummer": "73",
+          "pfad": "eg/73",
+          "text": true
+        },
+        {
+          "id": "rct_74",
+          "art": "erwaegungsgrund",
+          "nummer": "74",
+          "pfad": "eg/74",
+          "text": true
+        },
+        {
+          "id": "rct_75",
+          "art": "erwaegungsgrund",
+          "nummer": "75",
+          "pfad": "eg/75",
+          "text": true
+        },
+        {
+          "id": "rct_76",
+          "art": "erwaegungsgrund",
+          "nummer": "76",
+          "pfad": "eg/76",
+          "text": true
+        },
+        {
+          "id": "rct_77",
+          "art": "erwaegungsgrund",
+          "nummer": "77",
+          "pfad": "eg/77",
+          "text": true
+        },
+        {
+          "id": "rct_78",
+          "art": "erwaegungsgrund",
+          "nummer": "78",
+          "pfad": "eg/78",
+          "text": true
+        },
+        {
+          "id": "rct_79",
+          "art": "erwaegungsgrund",
+          "nummer": "79",
+          "pfad": "eg/79",
+          "text": true
+        },
+        {
+          "id": "rct_80",
+          "art": "erwaegungsgrund",
+          "nummer": "80",
+          "pfad": "eg/80",
+          "text": true
+        },
+        {
+          "id": "rct_81",
+          "art": "erwaegungsgrund",
+          "nummer": "81",
+          "pfad": "eg/81",
+          "text": true
+        },
+        {
+          "id": "rct_82",
+          "art": "erwaegungsgrund",
+          "nummer": "82",
+          "pfad": "eg/82",
+          "text": true
+        },
+        {
+          "id": "rct_83",
+          "art": "erwaegungsgrund",
+          "nummer": "83",
+          "pfad": "eg/83",
+          "text": true
+        },
+        {
+          "id": "rct_84",
+          "art": "erwaegungsgrund",
+          "nummer": "84",
+          "pfad": "eg/84",
+          "text": true
+        },
+        {
+          "id": "rct_85",
+          "art": "erwaegungsgrund",
+          "nummer": "85",
+          "pfad": "eg/85",
+          "text": true
+        },
+        {
+          "id": "rct_86",
+          "art": "erwaegungsgrund",
+          "nummer": "86",
+          "pfad": "eg/86",
+          "text": true
+        },
+        {
+          "id": "rct_87",
+          "art": "erwaegungsgrund",
+          "nummer": "87",
+          "pfad": "eg/87",
+          "text": true
+        },
+        {
+          "id": "rct_88",
+          "art": "erwaegungsgrund",
+          "nummer": "88",
+          "pfad": "eg/88",
+          "text": true
+        },
+        {
+          "id": "rct_89",
+          "art": "erwaegungsgrund",
+          "nummer": "89",
+          "pfad": "eg/89",
+          "text": true
+        },
+        {
+          "id": "rct_90",
+          "art": "erwaegungsgrund",
+          "nummer": "90",
+          "pfad": "eg/90",
+          "text": true
+        },
+        {
+          "id": "rct_91",
+          "art": "erwaegungsgrund",
+          "nummer": "91",
+          "pfad": "eg/91",
+          "text": true
+        },
+        {
+          "id": "rct_92",
+          "art": "erwaegungsgrund",
+          "nummer": "92",
+          "pfad": "eg/92",
+          "text": true
+        },
+        {
+          "id": "rct_93",
+          "art": "erwaegungsgrund",
+          "nummer": "93",
+          "pfad": "eg/93",
+          "text": true
+        },
+        {
+          "id": "rct_94",
+          "art": "erwaegungsgrund",
+          "nummer": "94",
+          "pfad": "eg/94",
+          "text": true
+        },
+        {
+          "id": "rct_95",
+          "art": "erwaegungsgrund",
+          "nummer": "95",
+          "pfad": "eg/95",
+          "text": true
+        },
+        {
+          "id": "rct_96",
+          "art": "erwaegungsgrund",
+          "nummer": "96",
+          "pfad": "eg/96",
+          "text": true
+        },
+        {
+          "id": "rct_97",
+          "art": "erwaegungsgrund",
+          "nummer": "97",
+          "pfad": "eg/97",
+          "text": true
+        },
+        {
+          "id": "rct_98",
+          "art": "erwaegungsgrund",
+          "nummer": "98",
+          "pfad": "eg/98",
+          "text": true
+        },
+        {
+          "id": "rct_99",
+          "art": "erwaegungsgrund",
+          "nummer": "99",
+          "pfad": "eg/99",
+          "text": true
+        },
+        {
+          "id": "rct_100",
+          "art": "erwaegungsgrund",
+          "nummer": "100",
+          "pfad": "eg/100",
+          "text": true
+        },
+        {
+          "id": "rct_101",
+          "art": "erwaegungsgrund",
+          "nummer": "101",
+          "pfad": "eg/101",
+          "text": true
+        },
+        {
+          "id": "rct_102",
+          "art": "erwaegungsgrund",
+          "nummer": "102",
+          "pfad": "eg/102",
+          "text": true
+        },
+        {
+          "id": "rct_103",
+          "art": "erwaegungsgrund",
+          "nummer": "103",
+          "pfad": "eg/103",
+          "text": true
+        },
+        {
+          "id": "rct_104",
+          "art": "erwaegungsgrund",
+          "nummer": "104",
+          "pfad": "eg/104",
+          "text": true
+        },
+        {
+          "id": "rct_105",
+          "art": "erwaegungsgrund",
+          "nummer": "105",
+          "pfad": "eg/105",
+          "text": true
+        },
+        {
+          "id": "rct_106",
+          "art": "erwaegungsgrund",
+          "nummer": "106",
+          "pfad": "eg/106",
+          "text": true
+        },
+        {
+          "id": "rct_107",
+          "art": "erwaegungsgrund",
+          "nummer": "107",
+          "pfad": "eg/107",
+          "text": true
+        },
+        {
+          "id": "rct_108",
+          "art": "erwaegungsgrund",
+          "nummer": "108",
+          "pfad": "eg/108",
+          "text": true
+        },
+        {
+          "id": "rct_109",
+          "art": "erwaegungsgrund",
+          "nummer": "109",
+          "pfad": "eg/109",
+          "text": true
+        },
+        {
+          "id": "rct_110",
+          "art": "erwaegungsgrund",
+          "nummer": "110",
+          "pfad": "eg/110",
+          "text": true
+        },
+        {
+          "id": "rct_111",
+          "art": "erwaegungsgrund",
+          "nummer": "111",
+          "pfad": "eg/111",
+          "text": true
+        },
+        {
+          "id": "rct_112",
+          "art": "erwaegungsgrund",
+          "nummer": "112",
+          "pfad": "eg/112",
+          "text": true
+        },
+        {
+          "id": "rct_113",
+          "art": "erwaegungsgrund",
+          "nummer": "113",
+          "pfad": "eg/113",
+          "text": true
+        },
+        {
+          "id": "rct_114",
+          "art": "erwaegungsgrund",
+          "nummer": "114",
+          "pfad": "eg/114",
+          "text": true
+        },
+        {
+          "id": "rct_115",
+          "art": "erwaegungsgrund",
+          "nummer": "115",
+          "pfad": "eg/115",
+          "text": true
+        },
+        {
+          "id": "rct_116",
+          "art": "erwaegungsgrund",
+          "nummer": "116",
+          "pfad": "eg/116",
+          "text": true
+        },
+        {
+          "id": "rct_117",
+          "art": "erwaegungsgrund",
+          "nummer": "117",
+          "pfad": "eg/117",
+          "text": true
+        },
+        {
+          "id": "rct_118",
+          "art": "erwaegungsgrund",
+          "nummer": "118",
+          "pfad": "eg/118",
+          "text": true
+        },
+        {
+          "id": "rct_119",
+          "art": "erwaegungsgrund",
+          "nummer": "119",
+          "pfad": "eg/119",
+          "text": true
+        },
+        {
+          "id": "rct_120",
+          "art": "erwaegungsgrund",
+          "nummer": "120",
+          "pfad": "eg/120",
+          "text": true
+        },
+        {
+          "id": "rct_121",
+          "art": "erwaegungsgrund",
+          "nummer": "121",
+          "pfad": "eg/121",
+          "text": true
+        },
+        {
+          "id": "rct_122",
+          "art": "erwaegungsgrund",
+          "nummer": "122",
+          "pfad": "eg/122",
+          "text": true
+        },
+        {
+          "id": "rct_123",
+          "art": "erwaegungsgrund",
+          "nummer": "123",
+          "pfad": "eg/123",
+          "text": true
+        },
+        {
+          "id": "rct_124",
+          "art": "erwaegungsgrund",
+          "nummer": "124",
+          "pfad": "eg/124",
+          "text": true
+        },
+        {
+          "id": "rct_125",
+          "art": "erwaegungsgrund",
+          "nummer": "125",
+          "pfad": "eg/125",
+          "text": true
+        },
+        {
+          "id": "rct_126",
+          "art": "erwaegungsgrund",
+          "nummer": "126",
+          "pfad": "eg/126",
+          "text": true
+        },
+        {
+          "id": "rct_127",
+          "art": "erwaegungsgrund",
+          "nummer": "127",
+          "pfad": "eg/127",
+          "text": true
+        },
+        {
+          "id": "rct_128",
+          "art": "erwaegungsgrund",
+          "nummer": "128",
+          "pfad": "eg/128",
+          "text": true
+        },
+        {
+          "id": "rct_129",
+          "art": "erwaegungsgrund",
+          "nummer": "129",
+          "pfad": "eg/129",
+          "text": true
+        },
+        {
+          "id": "rct_130",
+          "art": "erwaegungsgrund",
+          "nummer": "130",
+          "pfad": "eg/130",
+          "text": true
+        },
+        {
+          "id": "rct_131",
+          "art": "erwaegungsgrund",
+          "nummer": "131",
+          "pfad": "eg/131",
+          "text": true
+        },
+        {
+          "id": "rct_132",
+          "art": "erwaegungsgrund",
+          "nummer": "132",
+          "pfad": "eg/132",
+          "text": true
+        },
+        {
+          "id": "rct_133",
+          "art": "erwaegungsgrund",
+          "nummer": "133",
+          "pfad": "eg/133",
+          "text": true
+        },
+        {
+          "id": "rct_134",
+          "art": "erwaegungsgrund",
+          "nummer": "134",
+          "pfad": "eg/134",
+          "text": true
+        },
+        {
+          "id": "rct_135",
+          "art": "erwaegungsgrund",
+          "nummer": "135",
+          "pfad": "eg/135",
+          "text": true
+        },
+        {
+          "id": "rct_136",
+          "art": "erwaegungsgrund",
+          "nummer": "136",
+          "pfad": "eg/136",
+          "text": true
+        },
+        {
+          "id": "rct_137",
+          "art": "erwaegungsgrund",
+          "nummer": "137",
+          "pfad": "eg/137",
+          "text": true
+        },
+        {
+          "id": "rct_138",
+          "art": "erwaegungsgrund",
+          "nummer": "138",
+          "pfad": "eg/138",
+          "text": true
+        },
+        {
+          "id": "rct_139",
+          "art": "erwaegungsgrund",
+          "nummer": "139",
+          "pfad": "eg/139",
+          "text": true
+        },
+        {
+          "id": "rct_140",
+          "art": "erwaegungsgrund",
+          "nummer": "140",
+          "pfad": "eg/140",
+          "text": true
+        },
+        {
+          "id": "rct_141",
+          "art": "erwaegungsgrund",
+          "nummer": "141",
+          "pfad": "eg/141",
+          "text": true
+        },
+        {
+          "id": "rct_142",
+          "art": "erwaegungsgrund",
+          "nummer": "142",
+          "pfad": "eg/142",
+          "text": true
+        },
+        {
+          "id": "rct_143",
+          "art": "erwaegungsgrund",
+          "nummer": "143",
+          "pfad": "eg/143",
+          "text": true
+        },
+        {
+          "id": "rct_144",
+          "art": "erwaegungsgrund",
+          "nummer": "144",
+          "pfad": "eg/144",
+          "text": true
+        },
+        {
+          "id": "rct_145",
+          "art": "erwaegungsgrund",
+          "nummer": "145",
+          "pfad": "eg/145",
+          "text": true
+        },
+        {
+          "id": "rct_146",
+          "art": "erwaegungsgrund",
+          "nummer": "146",
+          "pfad": "eg/146",
+          "text": true
+        },
+        {
+          "id": "rct_147",
+          "art": "erwaegungsgrund",
+          "nummer": "147",
+          "pfad": "eg/147",
+          "text": true
+        },
+        {
+          "id": "rct_148",
+          "art": "erwaegungsgrund",
+          "nummer": "148",
+          "pfad": "eg/148",
+          "text": true
+        },
+        {
+          "id": "rct_149",
+          "art": "erwaegungsgrund",
+          "nummer": "149",
+          "pfad": "eg/149",
+          "text": true
+        },
+        {
+          "id": "rct_150",
+          "art": "erwaegungsgrund",
+          "nummer": "150",
+          "pfad": "eg/150",
+          "text": true
+        },
+        {
+          "id": "rct_151",
+          "art": "erwaegungsgrund",
+          "nummer": "151",
+          "pfad": "eg/151",
+          "text": true
+        },
+        {
+          "id": "rct_152",
+          "art": "erwaegungsgrund",
+          "nummer": "152",
+          "pfad": "eg/152",
+          "text": true
+        },
+        {
+          "id": "rct_153",
+          "art": "erwaegungsgrund",
+          "nummer": "153",
+          "pfad": "eg/153",
+          "text": true
+        },
+        {
+          "id": "rct_154",
+          "art": "erwaegungsgrund",
+          "nummer": "154",
+          "pfad": "eg/154",
+          "text": true
+        },
+        {
+          "id": "rct_155",
+          "art": "erwaegungsgrund",
+          "nummer": "155",
+          "pfad": "eg/155",
+          "text": true
+        },
+        {
+          "id": "rct_156",
+          "art": "erwaegungsgrund",
+          "nummer": "156",
+          "pfad": "eg/156",
+          "text": true
+        },
+        {
+          "id": "rct_157",
+          "art": "erwaegungsgrund",
+          "nummer": "157",
+          "pfad": "eg/157",
+          "text": true
+        },
+        {
+          "id": "rct_158",
+          "art": "erwaegungsgrund",
+          "nummer": "158",
+          "pfad": "eg/158",
+          "text": true
+        },
+        {
+          "id": "rct_159",
+          "art": "erwaegungsgrund",
+          "nummer": "159",
+          "pfad": "eg/159",
+          "text": true
+        },
+        {
+          "id": "rct_160",
+          "art": "erwaegungsgrund",
+          "nummer": "160",
+          "pfad": "eg/160",
+          "text": true
+        },
+        {
+          "id": "rct_161",
+          "art": "erwaegungsgrund",
+          "nummer": "161",
+          "pfad": "eg/161",
+          "text": true
+        },
+        {
+          "id": "rct_162",
+          "art": "erwaegungsgrund",
+          "nummer": "162",
+          "pfad": "eg/162",
+          "text": true
+        },
+        {
+          "id": "rct_163",
+          "art": "erwaegungsgrund",
+          "nummer": "163",
+          "pfad": "eg/163",
+          "text": true
+        },
+        {
+          "id": "rct_164",
+          "art": "erwaegungsgrund",
+          "nummer": "164",
+          "pfad": "eg/164",
+          "text": true
+        },
+        {
+          "id": "rct_165",
+          "art": "erwaegungsgrund",
+          "nummer": "165",
+          "pfad": "eg/165",
+          "text": true
+        },
+        {
+          "id": "rct_166",
+          "art": "erwaegungsgrund",
+          "nummer": "166",
+          "pfad": "eg/166",
+          "text": true
+        },
+        {
+          "id": "rct_167",
+          "art": "erwaegungsgrund",
+          "nummer": "167",
+          "pfad": "eg/167",
+          "text": true
+        },
+        {
+          "id": "rct_168",
+          "art": "erwaegungsgrund",
+          "nummer": "168",
+          "pfad": "eg/168",
+          "text": true
+        },
+        {
+          "id": "rct_169",
+          "art": "erwaegungsgrund",
+          "nummer": "169",
+          "pfad": "eg/169",
+          "text": true
+        },
+        {
+          "id": "rct_170",
+          "art": "erwaegungsgrund",
+          "nummer": "170",
+          "pfad": "eg/170",
+          "text": true
+        },
+        {
+          "id": "rct_171",
+          "art": "erwaegungsgrund",
+          "nummer": "171",
+          "pfad": "eg/171",
+          "text": true
+        },
+        {
+          "id": "rct_172",
+          "art": "erwaegungsgrund",
+          "nummer": "172",
+          "pfad": "eg/172",
+          "text": true
+        },
+        {
+          "id": "rct_173",
+          "art": "erwaegungsgrund",
+          "nummer": "173",
+          "pfad": "eg/173",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_I",
+      "art": "kapitel",
+      "nummer": "I",
+      "titel": {
+        "de": "Allgemeine Bestimmungen"
+      },
+      "pfad": "kap/I",
+      "kinder": [
+        {
+          "id": "art_1",
+          "art": "artikel",
+          "nummer": "1",
+          "titel": {
+            "de": "Gegenstand und Ziele"
+          },
+          "pfad": "art/1",
+          "kinder": [
+            {
+              "id": "001.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/1/abs/1",
+              "text": true
+            },
+            {
+              "id": "001.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/1/abs/2",
+              "text": true
+            },
+            {
+              "id": "001.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/1/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_2",
+          "art": "artikel",
+          "nummer": "2",
+          "titel": {
+            "de": "Sachlicher Anwendungsbereich"
+          },
+          "pfad": "art/2",
+          "kinder": [
+            {
+              "id": "002.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/2/abs/1",
+              "text": true
+            },
+            {
+              "id": "002.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/2/abs/2",
+              "text": true
+            },
+            {
+              "id": "002.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/2/abs/3",
+              "text": true
+            },
+            {
+              "id": "002.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/2/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_3",
+          "art": "artikel",
+          "nummer": "3",
+          "titel": {
+            "de": "Räumlicher Anwendungsbereich"
+          },
+          "pfad": "art/3",
+          "kinder": [
+            {
+              "id": "003.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/3/abs/1",
+              "text": true
+            },
+            {
+              "id": "003.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/3/abs/2",
+              "text": true
+            },
+            {
+              "id": "003.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/3/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_4",
+          "art": "artikel",
+          "nummer": "4",
+          "titel": {
+            "de": "Begriffsbestimmungen"
+          },
+          "pfad": "art/4",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_II",
+      "art": "kapitel",
+      "nummer": "II",
+      "titel": {
+        "de": "Grundsätze"
+      },
+      "pfad": "kap/II",
+      "kinder": [
+        {
+          "id": "art_5",
+          "art": "artikel",
+          "nummer": "5",
+          "titel": {
+            "de": "Grundsätze für die Verarbeitung personenbezogener Daten"
+          },
+          "pfad": "art/5",
+          "kinder": [
+            {
+              "id": "005.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/5/abs/1",
+              "text": true
+            },
+            {
+              "id": "005.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/5/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_6",
+          "art": "artikel",
+          "nummer": "6",
+          "titel": {
+            "de": "Rechtmäßigkeit der Verarbeitung"
+          },
+          "pfad": "art/6",
+          "kinder": [
+            {
+              "id": "006.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/6/abs/1",
+              "text": true
+            },
+            {
+              "id": "006.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/6/abs/2",
+              "text": true
+            },
+            {
+              "id": "006.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/6/abs/3",
+              "text": true
+            },
+            {
+              "id": "006.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/6/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_7",
+          "art": "artikel",
+          "nummer": "7",
+          "titel": {
+            "de": "Bedingungen für die Einwilligung"
+          },
+          "pfad": "art/7",
+          "kinder": [
+            {
+              "id": "007.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/7/abs/1",
+              "text": true
+            },
+            {
+              "id": "007.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/7/abs/2",
+              "text": true
+            },
+            {
+              "id": "007.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/7/abs/3",
+              "text": true
+            },
+            {
+              "id": "007.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/7/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_8",
+          "art": "artikel",
+          "nummer": "8",
+          "titel": {
+            "de": "Bedingungen für die Einwilligung eines Kindes in Bezug auf Dienste der Informationsgesellschaft"
+          },
+          "pfad": "art/8",
+          "kinder": [
+            {
+              "id": "008.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/8/abs/1",
+              "text": true
+            },
+            {
+              "id": "008.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/8/abs/2",
+              "text": true
+            },
+            {
+              "id": "008.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/8/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_9",
+          "art": "artikel",
+          "nummer": "9",
+          "titel": {
+            "de": "Verarbeitung besonderer Kategorien personenbezogener Daten"
+          },
+          "pfad": "art/9",
+          "kinder": [
+            {
+              "id": "009.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/9/abs/1",
+              "text": true
+            },
+            {
+              "id": "009.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/9/abs/2",
+              "text": true
+            },
+            {
+              "id": "009.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/9/abs/3",
+              "text": true
+            },
+            {
+              "id": "009.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/9/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_10",
+          "art": "artikel",
+          "nummer": "10",
+          "titel": {
+            "de": "Verarbeitung von personenbezogenen Daten über strafrechtliche Verurteilungen und Straftaten"
+          },
+          "pfad": "art/10",
+          "text": true
+        },
+        {
+          "id": "art_11",
+          "art": "artikel",
+          "nummer": "11",
+          "titel": {
+            "de": "Verarbeitung, für die eine Identifizierung der betroffenen Person nicht erforderlich ist"
+          },
+          "pfad": "art/11",
+          "kinder": [
+            {
+              "id": "011.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/11/abs/1",
+              "text": true
+            },
+            {
+              "id": "011.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/11/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_III",
+      "art": "kapitel",
+      "nummer": "III",
+      "titel": {
+        "de": "Rechte der betroffenen Person"
+      },
+      "pfad": "kap/III",
+      "kinder": [
+        {
+          "id": "kap_III_abschnitt_1",
+          "art": "abschnitt",
+          "nummer": "1",
+          "titel": {
+            "de": "Transparenz und Modalitäten"
+          },
+          "pfad": "kap/III/abschnitt/1",
+          "kinder": [
+            {
+              "id": "art_12",
+              "art": "artikel",
+              "nummer": "12",
+              "titel": {
+                "de": "Transparente Information, Kommunikation und Modalitäten für die Ausübung der Rechte der betroffenen Person"
+              },
+              "pfad": "art/12",
+              "kinder": [
+                {
+                  "id": "012.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/12/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "012.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/12/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "012.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/12/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "012.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/12/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "012.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/12/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "012.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/12/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "012.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/12/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "012.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/12/abs/8",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_III_abschnitt_2",
+          "art": "abschnitt",
+          "nummer": "2",
+          "titel": {
+            "de": "Informationspflicht und Recht auf Auskunft zu personenbezogenen Daten"
+          },
+          "pfad": "kap/III/abschnitt/2",
+          "kinder": [
+            {
+              "id": "art_13",
+              "art": "artikel",
+              "nummer": "13",
+              "titel": {
+                "de": "Informationspflicht bei Erhebung von personenbezogenen Daten bei der betroffenen Person"
+              },
+              "pfad": "art/13",
+              "kinder": [
+                {
+                  "id": "013.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/13/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "013.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/13/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "013.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/13/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "013.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/13/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_14",
+              "art": "artikel",
+              "nummer": "14",
+              "titel": {
+                "de": "Informationspflicht, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben wurden"
+              },
+              "pfad": "art/14",
+              "kinder": [
+                {
+                  "id": "014.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/14/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "014.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/14/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "014.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/14/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "014.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/14/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "014.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/14/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_15",
+              "art": "artikel",
+              "nummer": "15",
+              "titel": {
+                "de": "Auskunftsrecht der betroffenen Person"
+              },
+              "pfad": "art/15",
+              "kinder": [
+                {
+                  "id": "015.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/15/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "015.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/15/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "015.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/15/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "015.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/15/abs/4",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_III_abschnitt_3",
+          "art": "abschnitt",
+          "nummer": "3",
+          "titel": {
+            "de": "Berichtigung und Löschung"
+          },
+          "pfad": "kap/III/abschnitt/3",
+          "kinder": [
+            {
+              "id": "art_16",
+              "art": "artikel",
+              "nummer": "16",
+              "titel": {
+                "de": "Recht auf Berichtigung"
+              },
+              "pfad": "art/16",
+              "text": true
+            },
+            {
+              "id": "art_17",
+              "art": "artikel",
+              "nummer": "17",
+              "titel": {
+                "de": "Recht auf Löschung („Recht auf Vergessenwerden“)"
+              },
+              "pfad": "art/17",
+              "kinder": [
+                {
+                  "id": "017.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/17/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "017.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/17/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "017.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/17/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_18",
+              "art": "artikel",
+              "nummer": "18",
+              "titel": {
+                "de": "Recht auf Einschränkung der Verarbeitung"
+              },
+              "pfad": "art/18",
+              "kinder": [
+                {
+                  "id": "018.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/18/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "018.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/18/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "018.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/18/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_19",
+              "art": "artikel",
+              "nummer": "19",
+              "titel": {
+                "de": "Mitteilungspflicht im Zusammenhang mit der Berichtigung oder Löschung personenbezogener Daten oder der Einschränkung der Verarbeitung"
+              },
+              "pfad": "art/19",
+              "text": true
+            },
+            {
+              "id": "art_20",
+              "art": "artikel",
+              "nummer": "20",
+              "titel": {
+                "de": "Recht auf Datenübertragbarkeit"
+              },
+              "pfad": "art/20",
+              "kinder": [
+                {
+                  "id": "020.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/20/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "020.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/20/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "020.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/20/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "020.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/20/abs/4",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_III_abschnitt_4",
+          "art": "abschnitt",
+          "nummer": "4",
+          "titel": {
+            "de": "Widerspruchsrecht und automatisierte Entscheidungsfindung im Einzelfall"
+          },
+          "pfad": "kap/III/abschnitt/4",
+          "kinder": [
+            {
+              "id": "art_21",
+              "art": "artikel",
+              "nummer": "21",
+              "titel": {
+                "de": "Widerspruchsrecht"
+              },
+              "pfad": "art/21",
+              "kinder": [
+                {
+                  "id": "021.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/21/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "021.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/21/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "021.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/21/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "021.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/21/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "021.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/21/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "021.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/21/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_22",
+              "art": "artikel",
+              "nummer": "22",
+              "titel": {
+                "de": "Automatisierte Entscheidungen im Einzelfall einschließlich Profiling"
+              },
+              "pfad": "art/22",
+              "kinder": [
+                {
+                  "id": "022.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/22/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "022.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/22/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "022.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/22/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "022.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/22/abs/4",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_III_abschnitt_5",
+          "art": "abschnitt",
+          "nummer": "5",
+          "titel": {
+            "de": "Beschränkungen"
+          },
+          "pfad": "kap/III/abschnitt/5",
+          "kinder": [
+            {
+              "id": "art_23",
+              "art": "artikel",
+              "nummer": "23",
+              "titel": {
+                "de": "Beschränkungen"
+              },
+              "pfad": "art/23",
+              "kinder": [
+                {
+                  "id": "023.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/23/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "023.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/23/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_IV",
+      "art": "kapitel",
+      "nummer": "IV",
+      "titel": {
+        "de": "Verantwortlicher und Auftragsverarbeiter"
+      },
+      "pfad": "kap/IV",
+      "kinder": [
+        {
+          "id": "kap_IV_abschnitt_1",
+          "art": "abschnitt",
+          "nummer": "1",
+          "titel": {
+            "de": "Allgemeine Pflichten"
+          },
+          "pfad": "kap/IV/abschnitt/1",
+          "kinder": [
+            {
+              "id": "art_24",
+              "art": "artikel",
+              "nummer": "24",
+              "titel": {
+                "de": "Verantwortung des für die Verarbeitung Verantwortlichen"
+              },
+              "pfad": "art/24",
+              "kinder": [
+                {
+                  "id": "024.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/24/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "024.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/24/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "024.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/24/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_25",
+              "art": "artikel",
+              "nummer": "25",
+              "titel": {
+                "de": "Datenschutz durch Technikgestaltung und durch datenschutzfreundliche Voreinstellungen"
+              },
+              "pfad": "art/25",
+              "kinder": [
+                {
+                  "id": "025.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/25/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "025.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/25/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "025.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/25/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_26",
+              "art": "artikel",
+              "nummer": "26",
+              "titel": {
+                "de": "Gemeinsam für die Verarbeitung Verantwortliche"
+              },
+              "pfad": "art/26",
+              "kinder": [
+                {
+                  "id": "026.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/26/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "026.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/26/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "026.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/26/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_27",
+              "art": "artikel",
+              "nummer": "27",
+              "titel": {
+                "de": "Vertreter von nicht in der Union niedergelassenen Verantwortlichen oder Auftragsverarbeitern"
+              },
+              "pfad": "art/27",
+              "kinder": [
+                {
+                  "id": "027.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/27/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "027.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/27/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "027.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/27/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "027.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/27/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "027.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/27/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_28",
+              "art": "artikel",
+              "nummer": "28",
+              "titel": {
+                "de": "Auftragsverarbeiter"
+              },
+              "pfad": "art/28",
+              "kinder": [
+                {
+                  "id": "028.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/28/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "028.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/28/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "028.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/28/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "028.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/28/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "028.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/28/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "028.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/28/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "028.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/28/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "028.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/28/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "028.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/28/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "028.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/28/abs/10",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_29",
+              "art": "artikel",
+              "nummer": "29",
+              "titel": {
+                "de": "Verarbeitung unter der Aufsicht des Verantwortlichen oder des Auftragsverarbeiters"
+              },
+              "pfad": "art/29",
+              "text": true
+            },
+            {
+              "id": "art_30",
+              "art": "artikel",
+              "nummer": "30",
+              "titel": {
+                "de": "Verzeichnis von Verarbeitungstätigkeiten"
+              },
+              "pfad": "art/30",
+              "kinder": [
+                {
+                  "id": "030.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/30/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "030.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/30/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "030.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/30/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "030.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/30/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "030.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/30/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_31",
+              "art": "artikel",
+              "nummer": "31",
+              "titel": {
+                "de": "Zusammenarbeit mit der Aufsichtsbehörde"
+              },
+              "pfad": "art/31",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "kap_IV_abschnitt_2",
+          "art": "abschnitt",
+          "nummer": "2",
+          "titel": {
+            "de": "Sicherheit personenbezogener Daten"
+          },
+          "pfad": "kap/IV/abschnitt/2",
+          "kinder": [
+            {
+              "id": "art_32",
+              "art": "artikel",
+              "nummer": "32",
+              "titel": {
+                "de": "Sicherheit der Verarbeitung"
+              },
+              "pfad": "art/32",
+              "kinder": [
+                {
+                  "id": "032.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/32/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "032.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/32/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "032.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/32/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "032.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/32/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_33",
+              "art": "artikel",
+              "nummer": "33",
+              "titel": {
+                "de": "Meldung von Verletzungen des Schutzes personenbezogener Daten an die Aufsichtsbehörde"
+              },
+              "pfad": "art/33",
+              "kinder": [
+                {
+                  "id": "033.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/33/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "033.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/33/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "033.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/33/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "033.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/33/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "033.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/33/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_34",
+              "art": "artikel",
+              "nummer": "34",
+              "titel": {
+                "de": "Benachrichtigung der von einer Verletzung des Schutzes personenbezogener Daten betroffenen Person"
+              },
+              "pfad": "art/34",
+              "kinder": [
+                {
+                  "id": "034.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/34/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "034.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/34/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "034.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/34/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "034.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/34/abs/4",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_IV_abschnitt_3",
+          "art": "abschnitt",
+          "nummer": "3",
+          "titel": {
+            "de": "Datenschutz-Folgenabschätzung und vorherige Konsultation"
+          },
+          "pfad": "kap/IV/abschnitt/3",
+          "kinder": [
+            {
+              "id": "art_35",
+              "art": "artikel",
+              "nummer": "35",
+              "titel": {
+                "de": "Datenschutz-Folgenabschätzung"
+              },
+              "pfad": "art/35",
+              "kinder": [
+                {
+                  "id": "035.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/35/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "035.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/35/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "035.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/35/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "035.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/35/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "035.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/35/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "035.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/35/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "035.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/35/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "035.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/35/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "035.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/35/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "035.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/35/abs/10",
+                  "text": true
+                },
+                {
+                  "id": "035.011",
+                  "art": "absatz",
+                  "nummer": "11",
+                  "pfad": "art/35/abs/11",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_36",
+              "art": "artikel",
+              "nummer": "36",
+              "titel": {
+                "de": "Vorherige Konsultation"
+              },
+              "pfad": "art/36",
+              "kinder": [
+                {
+                  "id": "036.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/36/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "036.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/36/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "036.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/36/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "036.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/36/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "036.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/36/abs/5",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_IV_abschnitt_4",
+          "art": "abschnitt",
+          "nummer": "4",
+          "titel": {
+            "de": "Datenschutzbeauftragter"
+          },
+          "pfad": "kap/IV/abschnitt/4",
+          "kinder": [
+            {
+              "id": "art_37",
+              "art": "artikel",
+              "nummer": "37",
+              "titel": {
+                "de": "Benennung eines Datenschutzbeauftragten"
+              },
+              "pfad": "art/37",
+              "kinder": [
+                {
+                  "id": "037.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/37/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "037.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/37/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "037.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/37/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "037.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/37/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "037.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/37/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "037.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/37/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "037.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/37/abs/7",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_38",
+              "art": "artikel",
+              "nummer": "38",
+              "titel": {
+                "de": "Stellung des Datenschutzbeauftragten"
+              },
+              "pfad": "art/38",
+              "kinder": [
+                {
+                  "id": "038.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/38/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "038.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/38/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "038.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/38/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "038.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/38/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "038.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/38/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "038.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/38/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_39",
+              "art": "artikel",
+              "nummer": "39",
+              "titel": {
+                "de": "Aufgaben des Datenschutzbeauftragten"
+              },
+              "pfad": "art/39",
+              "kinder": [
+                {
+                  "id": "039.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/39/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "039.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/39/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_IV_abschnitt_5",
+          "art": "abschnitt",
+          "nummer": "5",
+          "titel": {
+            "de": "Verhaltensregeln und Zertifizierung"
+          },
+          "pfad": "kap/IV/abschnitt/5",
+          "kinder": [
+            {
+              "id": "art_40",
+              "art": "artikel",
+              "nummer": "40",
+              "titel": {
+                "de": "Verhaltensregeln"
+              },
+              "pfad": "art/40",
+              "kinder": [
+                {
+                  "id": "040.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/40/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "040.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/40/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "040.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/40/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "040.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/40/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "040.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/40/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "040.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/40/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "040.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/40/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "040.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/40/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "040.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/40/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "040.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/40/abs/10",
+                  "text": true
+                },
+                {
+                  "id": "040.011",
+                  "art": "absatz",
+                  "nummer": "11",
+                  "pfad": "art/40/abs/11",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_41",
+              "art": "artikel",
+              "nummer": "41",
+              "titel": {
+                "de": "Überwachung der genehmigten Verhaltensregeln"
+              },
+              "pfad": "art/41",
+              "kinder": [
+                {
+                  "id": "041.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/41/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "041.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/41/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "041.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/41/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "041.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/41/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "041.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/41/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "041.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/41/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_42",
+              "art": "artikel",
+              "nummer": "42",
+              "titel": {
+                "de": "Zertifizierung"
+              },
+              "pfad": "art/42",
+              "kinder": [
+                {
+                  "id": "042.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/42/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "042.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/42/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "042.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/42/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "042.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/42/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "042.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/42/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "042.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/42/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "042.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/42/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "042.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/42/abs/8",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_43",
+              "art": "artikel",
+              "nummer": "43",
+              "titel": {
+                "de": "Zertifizierungsstellen"
+              },
+              "pfad": "art/43",
+              "kinder": [
+                {
+                  "id": "043.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/43/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "043.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/43/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "043.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/43/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "043.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/43/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "043.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/43/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "043.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/43/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "043.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/43/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "043.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/43/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "043.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/43/abs/9",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_V",
+      "art": "kapitel",
+      "nummer": "V",
+      "titel": {
+        "de": "Übermittlungen personenbezogener Daten an Drittländer oder an internationale Organisationen"
+      },
+      "pfad": "kap/V",
+      "kinder": [
+        {
+          "id": "art_44",
+          "art": "artikel",
+          "nummer": "44",
+          "titel": {
+            "de": "Allgemeine Grundsätze der Datenübermittlung"
+          },
+          "pfad": "art/44",
+          "text": true
+        },
+        {
+          "id": "art_45",
+          "art": "artikel",
+          "nummer": "45",
+          "titel": {
+            "de": "Datenübermittlung auf der Grundlage eines Angemessenheitsbeschlusses"
+          },
+          "pfad": "art/45",
+          "kinder": [
+            {
+              "id": "045.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/45/abs/1",
+              "text": true
+            },
+            {
+              "id": "045.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/45/abs/2",
+              "text": true
+            },
+            {
+              "id": "045.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/45/abs/3",
+              "text": true
+            },
+            {
+              "id": "045.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/45/abs/4",
+              "text": true
+            },
+            {
+              "id": "045.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/45/abs/5",
+              "text": true
+            },
+            {
+              "id": "045.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/45/abs/6",
+              "text": true
+            },
+            {
+              "id": "045.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/45/abs/7",
+              "text": true
+            },
+            {
+              "id": "045.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/45/abs/8",
+              "text": true
+            },
+            {
+              "id": "045.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/45/abs/9",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_46",
+          "art": "artikel",
+          "nummer": "46",
+          "titel": {
+            "de": "Datenübermittlung vorbehaltlich geeigneter Garantien"
+          },
+          "pfad": "art/46",
+          "kinder": [
+            {
+              "id": "046.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/46/abs/1",
+              "text": true
+            },
+            {
+              "id": "046.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/46/abs/2",
+              "text": true
+            },
+            {
+              "id": "046.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/46/abs/3",
+              "text": true
+            },
+            {
+              "id": "046.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/46/abs/4",
+              "text": true
+            },
+            {
+              "id": "046.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/46/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_47",
+          "art": "artikel",
+          "nummer": "47",
+          "titel": {
+            "de": "Verbindliche interne Datenschutzvorschriften"
+          },
+          "pfad": "art/47",
+          "kinder": [
+            {
+              "id": "047.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/47/abs/1",
+              "text": true
+            },
+            {
+              "id": "047.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/47/abs/2",
+              "text": true
+            },
+            {
+              "id": "047.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/47/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_48",
+          "art": "artikel",
+          "nummer": "48",
+          "titel": {
+            "de": "Nach dem Unionsrecht nicht zulässige Übermittlung oder Offenlegung"
+          },
+          "pfad": "art/48",
+          "text": true
+        },
+        {
+          "id": "art_49",
+          "art": "artikel",
+          "nummer": "49",
+          "titel": {
+            "de": "Ausnahmen für bestimmte Fälle"
+          },
+          "pfad": "art/49",
+          "kinder": [
+            {
+              "id": "049.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/49/abs/1",
+              "text": true
+            },
+            {
+              "id": "049.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/49/abs/2",
+              "text": true
+            },
+            {
+              "id": "049.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/49/abs/3",
+              "text": true
+            },
+            {
+              "id": "049.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/49/abs/4",
+              "text": true
+            },
+            {
+              "id": "049.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/49/abs/5",
+              "text": true
+            },
+            {
+              "id": "049.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/49/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_50",
+          "art": "artikel",
+          "nummer": "50",
+          "titel": {
+            "de": "Internationale Zusammenarbeit zum Schutz personenbezogener Daten"
+          },
+          "pfad": "art/50",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_VI",
+      "art": "kapitel",
+      "nummer": "VI",
+      "titel": {
+        "de": "Unabhängige Aufsichtsbehörden"
+      },
+      "pfad": "kap/VI",
+      "kinder": [
+        {
+          "id": "kap_VI_abschnitt_1",
+          "art": "abschnitt",
+          "nummer": "1",
+          "titel": {
+            "de": "Unabhängigkeit"
+          },
+          "pfad": "kap/VI/abschnitt/1",
+          "kinder": [
+            {
+              "id": "art_51",
+              "art": "artikel",
+              "nummer": "51",
+              "titel": {
+                "de": "Aufsichtsbehörde"
+              },
+              "pfad": "art/51",
+              "kinder": [
+                {
+                  "id": "051.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/51/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "051.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/51/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "051.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/51/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "051.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/51/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_52",
+              "art": "artikel",
+              "nummer": "52",
+              "titel": {
+                "de": "Unabhängigkeit"
+              },
+              "pfad": "art/52",
+              "kinder": [
+                {
+                  "id": "052.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/52/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "052.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/52/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "052.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/52/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "052.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/52/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "052.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/52/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "052.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/52/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_53",
+              "art": "artikel",
+              "nummer": "53",
+              "titel": {
+                "de": "Allgemeine Bedingungen für die Mitglieder der Aufsichtsbehörde"
+              },
+              "pfad": "art/53",
+              "kinder": [
+                {
+                  "id": "053.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/53/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "053.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/53/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "053.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/53/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "053.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/53/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_54",
+              "art": "artikel",
+              "nummer": "54",
+              "titel": {
+                "de": "Errichtung der Aufsichtsbehörde"
+              },
+              "pfad": "art/54",
+              "kinder": [
+                {
+                  "id": "054.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/54/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "054.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/54/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_VI_abschnitt_2",
+          "art": "abschnitt",
+          "nummer": "2",
+          "titel": {
+            "de": "Zuständigkeit, Aufgaben und Befugnisse"
+          },
+          "pfad": "kap/VI/abschnitt/2",
+          "kinder": [
+            {
+              "id": "art_55",
+              "art": "artikel",
+              "nummer": "55",
+              "titel": {
+                "de": "Zuständigkeit"
+              },
+              "pfad": "art/55",
+              "kinder": [
+                {
+                  "id": "055.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/55/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "055.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/55/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "055.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/55/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_56",
+              "art": "artikel",
+              "nummer": "56",
+              "titel": {
+                "de": "Zuständigkeit der federführenden Aufsichtsbehörde"
+              },
+              "pfad": "art/56",
+              "kinder": [
+                {
+                  "id": "056.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/56/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "056.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/56/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "056.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/56/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "056.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/56/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "056.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/56/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "056.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/56/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_57",
+              "art": "artikel",
+              "nummer": "57",
+              "titel": {
+                "de": "Aufgaben"
+              },
+              "pfad": "art/57",
+              "kinder": [
+                {
+                  "id": "057.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/57/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "057.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/57/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "057.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/57/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "057.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/57/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_58",
+              "art": "artikel",
+              "nummer": "58",
+              "titel": {
+                "de": "Befugnisse"
+              },
+              "pfad": "art/58",
+              "kinder": [
+                {
+                  "id": "058.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/58/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "058.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/58/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "058.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/58/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "058.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/58/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "058.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/58/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "058.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/58/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_59",
+              "art": "artikel",
+              "nummer": "59",
+              "titel": {
+                "de": "Tätigkeitsbericht"
+              },
+              "pfad": "art/59",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_VII",
+      "art": "kapitel",
+      "nummer": "VII",
+      "titel": {
+        "de": "Zusammenarbeit und Kohärenz"
+      },
+      "pfad": "kap/VII",
+      "kinder": [
+        {
+          "id": "kap_VII_abschnitt_1",
+          "art": "abschnitt",
+          "nummer": "1",
+          "titel": {
+            "de": "Zusammenarbeit"
+          },
+          "pfad": "kap/VII/abschnitt/1",
+          "kinder": [
+            {
+              "id": "art_60",
+              "art": "artikel",
+              "nummer": "60",
+              "titel": {
+                "de": "Zusammenarbeit zwischen der federführenden Aufsichtsbehörde und den anderen betroffenen Aufsichtsbehörden"
+              },
+              "pfad": "art/60",
+              "kinder": [
+                {
+                  "id": "060.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/60/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "060.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/60/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "060.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/60/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "060.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/60/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "060.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/60/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "060.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/60/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "060.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/60/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "060.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/60/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "060.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/60/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "060.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/60/abs/10",
+                  "text": true
+                },
+                {
+                  "id": "060.011",
+                  "art": "absatz",
+                  "nummer": "11",
+                  "pfad": "art/60/abs/11",
+                  "text": true
+                },
+                {
+                  "id": "060.012",
+                  "art": "absatz",
+                  "nummer": "12",
+                  "pfad": "art/60/abs/12",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_61",
+              "art": "artikel",
+              "nummer": "61",
+              "titel": {
+                "de": "Gegenseitige Amtshilfe"
+              },
+              "pfad": "art/61",
+              "kinder": [
+                {
+                  "id": "061.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/61/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "061.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/61/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "061.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/61/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "061.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/61/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "061.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/61/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "061.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/61/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "061.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/61/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "061.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/61/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "061.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/61/abs/9",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_62",
+              "art": "artikel",
+              "nummer": "62",
+              "titel": {
+                "de": "Gemeinsame Maßnahmen der Aufsichtsbehörden"
+              },
+              "pfad": "art/62",
+              "kinder": [
+                {
+                  "id": "062.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/62/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "062.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/62/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "062.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/62/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "062.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/62/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "062.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/62/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "062.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/62/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "062.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/62/abs/7",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_VII_abschnitt_2",
+          "art": "abschnitt",
+          "nummer": "2",
+          "titel": {
+            "de": "Kohärenz"
+          },
+          "pfad": "kap/VII/abschnitt/2",
+          "kinder": [
+            {
+              "id": "art_63",
+              "art": "artikel",
+              "nummer": "63",
+              "titel": {
+                "de": "Kohärenzverfahren"
+              },
+              "pfad": "art/63",
+              "text": true
+            },
+            {
+              "id": "art_64",
+              "art": "artikel",
+              "nummer": "64",
+              "titel": {
+                "de": "Stellungnahme Ausschusses"
+              },
+              "pfad": "art/64",
+              "kinder": [
+                {
+                  "id": "064.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/64/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "064.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/64/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "064.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/64/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "064.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/64/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "064.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/64/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "064.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/64/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "064.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/64/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "064.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/64/abs/8",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_65",
+              "art": "artikel",
+              "nummer": "65",
+              "titel": {
+                "de": "Streitbeilegung durch den Ausschuss"
+              },
+              "pfad": "art/65",
+              "kinder": [
+                {
+                  "id": "065.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/65/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "065.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/65/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "065.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/65/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "065.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/65/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "065.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/65/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "065.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/65/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_66",
+              "art": "artikel",
+              "nummer": "66",
+              "titel": {
+                "de": "Dringlichkeitsverfahren"
+              },
+              "pfad": "art/66",
+              "kinder": [
+                {
+                  "id": "066.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/66/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "066.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/66/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "066.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/66/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "066.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/66/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_67",
+              "art": "artikel",
+              "nummer": "67",
+              "titel": {
+                "de": "Informationsaustausch"
+              },
+              "pfad": "art/67",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "kap_VII_abschnitt_3",
+          "art": "abschnitt",
+          "nummer": "3",
+          "titel": {
+            "de": "Europäischer Datenschutzausschuss"
+          },
+          "pfad": "kap/VII/abschnitt/3",
+          "kinder": [
+            {
+              "id": "art_68",
+              "art": "artikel",
+              "nummer": "68",
+              "titel": {
+                "de": "Europäischer Datenschutzausschuss"
+              },
+              "pfad": "art/68",
+              "kinder": [
+                {
+                  "id": "068.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/68/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "068.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/68/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "068.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/68/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "068.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/68/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "068.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/68/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "068.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/68/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_69",
+              "art": "artikel",
+              "nummer": "69",
+              "titel": {
+                "de": "Unabhängigkeit"
+              },
+              "pfad": "art/69",
+              "kinder": [
+                {
+                  "id": "069.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/69/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "069.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/69/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_70",
+              "art": "artikel",
+              "nummer": "70",
+              "titel": {
+                "de": "Aufgaben des Ausschusses"
+              },
+              "pfad": "art/70",
+              "kinder": [
+                {
+                  "id": "070.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/70/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "070.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/70/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "070.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/70/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "070.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/70/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_71",
+              "art": "artikel",
+              "nummer": "71",
+              "titel": {
+                "de": "Berichterstattung"
+              },
+              "pfad": "art/71",
+              "kinder": [
+                {
+                  "id": "071.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/71/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "071.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/71/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_72",
+              "art": "artikel",
+              "nummer": "72",
+              "titel": {
+                "de": "Verfahrensweise"
+              },
+              "pfad": "art/72",
+              "kinder": [
+                {
+                  "id": "072.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/72/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "072.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/72/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_73",
+              "art": "artikel",
+              "nummer": "73",
+              "titel": {
+                "de": "Vorsitz"
+              },
+              "pfad": "art/73",
+              "kinder": [
+                {
+                  "id": "073.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/73/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "073.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/73/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_74",
+              "art": "artikel",
+              "nummer": "74",
+              "titel": {
+                "de": "Aufgaben des Vorsitzes"
+              },
+              "pfad": "art/74",
+              "kinder": [
+                {
+                  "id": "074.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/74/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "074.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/74/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_75",
+              "art": "artikel",
+              "nummer": "75",
+              "titel": {
+                "de": "Sekretariat"
+              },
+              "pfad": "art/75",
+              "kinder": [
+                {
+                  "id": "075.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/75/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "075.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/75/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "075.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/75/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "075.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/75/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "075.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/75/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "075.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/75/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_76",
+              "art": "artikel",
+              "nummer": "76",
+              "titel": {
+                "de": "Vertraulichkeit"
+              },
+              "pfad": "art/76",
+              "kinder": [
+                {
+                  "id": "076.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/76/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "076.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/76/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_VIII",
+      "art": "kapitel",
+      "nummer": "VIII",
+      "titel": {
+        "de": "Rechtsbehelfe, Haftung und Sanktionen"
+      },
+      "pfad": "kap/VIII",
+      "kinder": [
+        {
+          "id": "art_77",
+          "art": "artikel",
+          "nummer": "77",
+          "titel": {
+            "de": "Recht auf Beschwerde bei einer Aufsichtsbehörde"
+          },
+          "pfad": "art/77",
+          "kinder": [
+            {
+              "id": "077.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/77/abs/1",
+              "text": true
+            },
+            {
+              "id": "077.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/77/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_78",
+          "art": "artikel",
+          "nummer": "78",
+          "titel": {
+            "de": "Recht auf wirksamen gerichtlichen Rechtsbehelf gegen eine Aufsichtsbehörde"
+          },
+          "pfad": "art/78",
+          "kinder": [
+            {
+              "id": "078.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/78/abs/1",
+              "text": true
+            },
+            {
+              "id": "078.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/78/abs/2",
+              "text": true
+            },
+            {
+              "id": "078.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/78/abs/3",
+              "text": true
+            },
+            {
+              "id": "078.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/78/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_79",
+          "art": "artikel",
+          "nummer": "79",
+          "titel": {
+            "de": "Recht auf wirksamen gerichtlichen Rechtsbehelf gegen Verantwortliche oder Auftragsverarbeiter"
+          },
+          "pfad": "art/79",
+          "kinder": [
+            {
+              "id": "079.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/79/abs/1",
+              "text": true
+            },
+            {
+              "id": "079.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/79/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_80",
+          "art": "artikel",
+          "nummer": "80",
+          "titel": {
+            "de": "Vertretung von betroffenen Personen"
+          },
+          "pfad": "art/80",
+          "kinder": [
+            {
+              "id": "080.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/80/abs/1",
+              "text": true
+            },
+            {
+              "id": "080.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/80/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_81",
+          "art": "artikel",
+          "nummer": "81",
+          "titel": {
+            "de": "Aussetzung des Verfahrens"
+          },
+          "pfad": "art/81",
+          "kinder": [
+            {
+              "id": "081.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/81/abs/1",
+              "text": true
+            },
+            {
+              "id": "081.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/81/abs/2",
+              "text": true
+            },
+            {
+              "id": "081.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/81/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_82",
+          "art": "artikel",
+          "nummer": "82",
+          "titel": {
+            "de": "Haftung und Recht auf Schadenersatz"
+          },
+          "pfad": "art/82",
+          "kinder": [
+            {
+              "id": "082.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/82/abs/1",
+              "text": true
+            },
+            {
+              "id": "082.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/82/abs/2",
+              "text": true
+            },
+            {
+              "id": "082.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/82/abs/3",
+              "text": true
+            },
+            {
+              "id": "082.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/82/abs/4",
+              "text": true
+            },
+            {
+              "id": "082.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/82/abs/5",
+              "text": true
+            },
+            {
+              "id": "082.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/82/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_83",
+          "art": "artikel",
+          "nummer": "83",
+          "titel": {
+            "de": "Allgemeine Bedingungen für die Verhängung von Geldbußen"
+          },
+          "pfad": "art/83",
+          "kinder": [
+            {
+              "id": "083.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/83/abs/1",
+              "text": true
+            },
+            {
+              "id": "083.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/83/abs/2",
+              "text": true
+            },
+            {
+              "id": "083.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/83/abs/3",
+              "text": true
+            },
+            {
+              "id": "083.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/83/abs/4",
+              "text": true
+            },
+            {
+              "id": "083.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/83/abs/5",
+              "text": true
+            },
+            {
+              "id": "083.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/83/abs/6",
+              "text": true
+            },
+            {
+              "id": "083.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/83/abs/7",
+              "text": true
+            },
+            {
+              "id": "083.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/83/abs/8",
+              "text": true
+            },
+            {
+              "id": "083.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/83/abs/9",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_84",
+          "art": "artikel",
+          "nummer": "84",
+          "titel": {
+            "de": "Sanktionen"
+          },
+          "pfad": "art/84",
+          "kinder": [
+            {
+              "id": "084.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/84/abs/1",
+              "text": true
+            },
+            {
+              "id": "084.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/84/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_IX",
+      "art": "kapitel",
+      "nummer": "IX",
+      "titel": {
+        "de": "Vorschriften für besondere Verarbeitungssituationen"
+      },
+      "pfad": "kap/IX",
+      "kinder": [
+        {
+          "id": "art_85",
+          "art": "artikel",
+          "nummer": "85",
+          "titel": {
+            "de": "Verarbeitung und Freiheit der Meinungsäußerung und Informationsfreiheit"
+          },
+          "pfad": "art/85",
+          "kinder": [
+            {
+              "id": "085.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/85/abs/1",
+              "text": true
+            },
+            {
+              "id": "085.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/85/abs/2",
+              "text": true
+            },
+            {
+              "id": "085.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/85/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_86",
+          "art": "artikel",
+          "nummer": "86",
+          "titel": {
+            "de": "Verarbeitung und Zugang der Öffentlichkeit zu amtlichen Dokumenten"
+          },
+          "pfad": "art/86",
+          "text": true
+        },
+        {
+          "id": "art_87",
+          "art": "artikel",
+          "nummer": "87",
+          "titel": {
+            "de": "Verarbeitung der nationalen Kennziffer"
+          },
+          "pfad": "art/87",
+          "text": true
+        },
+        {
+          "id": "art_88",
+          "art": "artikel",
+          "nummer": "88",
+          "titel": {
+            "de": "Datenverarbeitung im Beschäftigungskontext"
+          },
+          "pfad": "art/88",
+          "kinder": [
+            {
+              "id": "088.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/88/abs/1",
+              "text": true
+            },
+            {
+              "id": "088.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/88/abs/2",
+              "text": true
+            },
+            {
+              "id": "088.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/88/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_89",
+          "art": "artikel",
+          "nummer": "89",
+          "titel": {
+            "de": "Garantien und Ausnahmen in Bezug auf die Verarbeitung zu im öffentlichen Interesse liegenden Archivzwecken, zu wissenschaftlichen oder historischen Forschungszwecken und zu statistischen Zwecken"
+          },
+          "pfad": "art/89",
+          "kinder": [
+            {
+              "id": "089.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/89/abs/1",
+              "text": true
+            },
+            {
+              "id": "089.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/89/abs/2",
+              "text": true
+            },
+            {
+              "id": "089.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/89/abs/3",
+              "text": true
+            },
+            {
+              "id": "089.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/89/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_90",
+          "art": "artikel",
+          "nummer": "90",
+          "titel": {
+            "de": "Geheimhaltungspflichten"
+          },
+          "pfad": "art/90",
+          "kinder": [
+            {
+              "id": "090.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/90/abs/1",
+              "text": true
+            },
+            {
+              "id": "090.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/90/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_91",
+          "art": "artikel",
+          "nummer": "91",
+          "titel": {
+            "de": "Bestehende Datenschutzvorschriften von Kirchen und religiösen Vereinigungen oder Gemeinschaften"
+          },
+          "pfad": "art/91",
+          "kinder": [
+            {
+              "id": "091.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/91/abs/1",
+              "text": true
+            },
+            {
+              "id": "091.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/91/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_X",
+      "art": "kapitel",
+      "nummer": "X",
+      "titel": {
+        "de": "Delegierte Rechtsakte und Durchführungsrechtsakte"
+      },
+      "pfad": "kap/X",
+      "kinder": [
+        {
+          "id": "art_92",
+          "art": "artikel",
+          "nummer": "92",
+          "titel": {
+            "de": "Ausübung der Befugnisübertragung"
+          },
+          "pfad": "art/92",
+          "kinder": [
+            {
+              "id": "092.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/92/abs/1",
+              "text": true
+            },
+            {
+              "id": "092.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/92/abs/2",
+              "text": true
+            },
+            {
+              "id": "092.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/92/abs/3",
+              "text": true
+            },
+            {
+              "id": "092.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/92/abs/4",
+              "text": true
+            },
+            {
+              "id": "092.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/92/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_93",
+          "art": "artikel",
+          "nummer": "93",
+          "titel": {
+            "de": "Ausschussverfahren"
+          },
+          "pfad": "art/93",
+          "kinder": [
+            {
+              "id": "093.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/93/abs/1",
+              "text": true
+            },
+            {
+              "id": "093.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/93/abs/2",
+              "text": true
+            },
+            {
+              "id": "093.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/93/abs/3",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_XI",
+      "art": "kapitel",
+      "nummer": "XI",
+      "titel": {
+        "de": "Schlussbestimmungen"
+      },
+      "pfad": "kap/XI",
+      "kinder": [
+        {
+          "id": "art_94",
+          "art": "artikel",
+          "nummer": "94",
+          "titel": {
+            "de": "Aufhebung der Richtlinie 95/46/EG"
+          },
+          "pfad": "art/94",
+          "kinder": [
+            {
+              "id": "094.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/94/abs/1",
+              "text": true
+            },
+            {
+              "id": "094.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/94/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_95",
+          "art": "artikel",
+          "nummer": "95",
+          "titel": {
+            "de": "Verhältnis zur Richtlinie 2002/58/EG"
+          },
+          "pfad": "art/95",
+          "text": true
+        },
+        {
+          "id": "art_96",
+          "art": "artikel",
+          "nummer": "96",
+          "titel": {
+            "de": "Verhältnis zu bereits geschlossenen Übereinkünften"
+          },
+          "pfad": "art/96",
+          "text": true
+        },
+        {
+          "id": "art_97",
+          "art": "artikel",
+          "nummer": "97",
+          "titel": {
+            "de": "Berichte der Kommission"
+          },
+          "pfad": "art/97",
+          "kinder": [
+            {
+              "id": "097.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/97/abs/1",
+              "text": true
+            },
+            {
+              "id": "097.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/97/abs/2",
+              "text": true
+            },
+            {
+              "id": "097.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/97/abs/3",
+              "text": true
+            },
+            {
+              "id": "097.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/97/abs/4",
+              "text": true
+            },
+            {
+              "id": "097.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/97/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_98",
+          "art": "artikel",
+          "nummer": "98",
+          "titel": {
+            "de": "Überprüfung anderer Rechtsakte der Union zum Datenschutz"
+          },
+          "pfad": "art/98",
+          "text": true
+        },
+        {
+          "id": "art_99",
+          "art": "artikel",
+          "nummer": "99",
+          "titel": {
+            "de": "Inkrafttreten und Anwendung"
+          },
+          "pfad": "art/99",
+          "kinder": [
+            {
+              "id": "099.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/99/abs/1",
+              "text": true
+            },
+            {
+              "id": "099.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/99/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

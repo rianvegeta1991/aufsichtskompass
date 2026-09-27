@@ -1,0 +1,34 @@
+{
+  "stand": "2026-09-27",
+  "hinweis": "Regelwerke, die absichtlich NICHT als eigener Katalogeintrag geführt werden, sondern nur als Fußnote an passenden Fundstellen erscheinen. Anzeige im Kontext-Panel des Viewers.",
+  "fussnoten": [
+    {
+      "id": "kamarisk-auslagerung",
+      "quelle": "KAMaRisk",
+      "text": "Vergleichbare Regelung für Kapitalverwaltungsgesellschaften: KAMaRisk, Abschnitt zur Auslagerung.",
+      "url": "https://www.bafin.de/",
+      "gilt_fuer": { "regelwerke": ["dora", "dora-rts-1773", "dora-rts-532"], "themen": ["drittparteien-auslagerung"] },
+      "geprueft": false
+    },
+    {
+      "id": "kamarisk-iks",
+      "quelle": "KAMaRisk",
+      "text": "Für Kapitalverwaltungsgesellschaften enthält die KAMaRisk eine vergleichbare Anforderung an das interne Kontrollsystem.",
+      "url": "https://www.bafin.de/",
+      "gilt_fuer": { "regelwerke": ["mago-va", "marisk"], "themen": ["iks"] },
+      "geprueft": false
+    },
+    {
+      "id": "kamarisk-notfall",
+      "quelle": "KAMaRisk",
+      "text": "Zum Notfallmanagement bestehen für Kapitalverwaltungsgesellschaften eigene Vorgaben in der KAMaRisk.",
+      "url": "https://www.bafin.de/",
+      "gilt_fuer": { "regelwerke": ["dora"], "themen": ["bcm-backup"] },
+      "geprueft": false
+    }
+  ],
+  "nicht_aufgenommen": [
+    { "kurzname": "VAIT", "grund": "Laut Auftrag nicht aufnehmen - auch nicht im Archiv. Das Archiv der App enthält nur Vorgängerfassungen der aufgenommenen Regelwerke." },
+    { "kurzname": "BAIT", "grund": "Laut Auftrag nicht aufnehmen - auch nicht im Archiv." }
+  ]
+}

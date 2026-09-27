@@ -1,0 +1,19 @@
+{
+  "regelwerk": "dsgvo",
+  "fassungen": [
+    {
+      "id": "2025-02-05",
+      "stand": "Wed, 05 Feb 2025 15:31:18 GMT",
+      "abgerufen": "2026-09-27T10:10:29Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32016R0679",
+        "celex": "32016R0679",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20250205163118000\"",
+      "hash": "d3ea1d0b08af167303a0dd5bd42727ff5391562b0bb1cc21374cbdefcb277672",
+      "fundstellen": 568
+    }
+  ]
+}

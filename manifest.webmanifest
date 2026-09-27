@@ -1,0 +1,17 @@
+{
+  "name": "Aufsichtskompass – IT-Compliance & IT-Governance",
+  "short_name": "Aufsichtskompass",
+  "description": "Regelwerks-Bibliothek, Interdependenzen, Screening und Lernbereich für IT-Compliance und IT-Governance in der Versicherungsbranche.",
+  "lang": "de",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#C6093B",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

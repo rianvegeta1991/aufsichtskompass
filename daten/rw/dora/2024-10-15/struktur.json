@@ -1,0 +1,3524 @@
+{
+  "regelwerk": "dora",
+  "fassung": "2024-10-15",
+  "abgerufen": "2026-09-27T10:10:22Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32022R2554",
+    "celex": "32022R2554",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de",
+    "en"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Bezugsvermerke"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        },
+        {
+          "id": "cit_3",
+          "art": "bezugsvermerk",
+          "nummer": "3",
+          "pfad": "bezug/3",
+          "text": true
+        },
+        {
+          "id": "cit_4",
+          "art": "bezugsvermerk",
+          "nummer": "4",
+          "pfad": "bezug/4",
+          "text": true
+        },
+        {
+          "id": "cit_5",
+          "art": "bezugsvermerk",
+          "nummer": "5",
+          "pfad": "bezug/5",
+          "text": true
+        },
+        {
+          "id": "cit_6",
+          "art": "bezugsvermerk",
+          "nummer": "6",
+          "pfad": "bezug/6",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Erwägungsgründe"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        },
+        {
+          "id": "rct_12",
+          "art": "erwaegungsgrund",
+          "nummer": "12",
+          "pfad": "eg/12",
+          "text": true
+        },
+        {
+          "id": "rct_13",
+          "art": "erwaegungsgrund",
+          "nummer": "13",
+          "pfad": "eg/13",
+          "text": true
+        },
+        {
+          "id": "rct_14",
+          "art": "erwaegungsgrund",
+          "nummer": "14",
+          "pfad": "eg/14",
+          "text": true
+        },
+        {
+          "id": "rct_15",
+          "art": "erwaegungsgrund",
+          "nummer": "15",
+          "pfad": "eg/15",
+          "text": true
+        },
+        {
+          "id": "rct_16",
+          "art": "erwaegungsgrund",
+          "nummer": "16",
+          "pfad": "eg/16",
+          "text": true
+        },
+        {
+          "id": "rct_17",
+          "art": "erwaegungsgrund",
+          "nummer": "17",
+          "pfad": "eg/17",
+          "text": true
+        },
+        {
+          "id": "rct_18",
+          "art": "erwaegungsgrund",
+          "nummer": "18",
+          "pfad": "eg/18",
+          "text": true
+        },
+        {
+          "id": "rct_19",
+          "art": "erwaegungsgrund",
+          "nummer": "19",
+          "pfad": "eg/19",
+          "text": true
+        },
+        {
+          "id": "rct_20",
+          "art": "erwaegungsgrund",
+          "nummer": "20",
+          "pfad": "eg/20",
+          "text": true
+        },
+        {
+          "id": "rct_21",
+          "art": "erwaegungsgrund",
+          "nummer": "21",
+          "pfad": "eg/21",
+          "text": true
+        },
+        {
+          "id": "rct_22",
+          "art": "erwaegungsgrund",
+          "nummer": "22",
+          "pfad": "eg/22",
+          "text": true
+        },
+        {
+          "id": "rct_23",
+          "art": "erwaegungsgrund",
+          "nummer": "23",
+          "pfad": "eg/23",
+          "text": true
+        },
+        {
+          "id": "rct_24",
+          "art": "erwaegungsgrund",
+          "nummer": "24",
+          "pfad": "eg/24",
+          "text": true
+        },
+        {
+          "id": "rct_25",
+          "art": "erwaegungsgrund",
+          "nummer": "25",
+          "pfad": "eg/25",
+          "text": true
+        },
+        {
+          "id": "rct_26",
+          "art": "erwaegungsgrund",
+          "nummer": "26",
+          "pfad": "eg/26",
+          "text": true
+        },
+        {
+          "id": "rct_27",
+          "art": "erwaegungsgrund",
+          "nummer": "27",
+          "pfad": "eg/27",
+          "text": true
+        },
+        {
+          "id": "rct_28",
+          "art": "erwaegungsgrund",
+          "nummer": "28",
+          "pfad": "eg/28",
+          "text": true
+        },
+        {
+          "id": "rct_29",
+          "art": "erwaegungsgrund",
+          "nummer": "29",
+          "pfad": "eg/29",
+          "text": true
+        },
+        {
+          "id": "rct_30",
+          "art": "erwaegungsgrund",
+          "nummer": "30",
+          "pfad": "eg/30",
+          "text": true
+        },
+        {
+          "id": "rct_31",
+          "art": "erwaegungsgrund",
+          "nummer": "31",
+          "pfad": "eg/31",
+          "text": true
+        },
+        {
+          "id": "rct_32",
+          "art": "erwaegungsgrund",
+          "nummer": "32",
+          "pfad": "eg/32",
+          "text": true
+        },
+        {
+          "id": "rct_33",
+          "art": "erwaegungsgrund",
+          "nummer": "33",
+          "pfad": "eg/33",
+          "text": true
+        },
+        {
+          "id": "rct_34",
+          "art": "erwaegungsgrund",
+          "nummer": "34",
+          "pfad": "eg/34",
+          "text": true
+        },
+        {
+          "id": "rct_35",
+          "art": "erwaegungsgrund",
+          "nummer": "35",
+          "pfad": "eg/35",
+          "text": true
+        },
+        {
+          "id": "rct_36",
+          "art": "erwaegungsgrund",
+          "nummer": "36",
+          "pfad": "eg/36",
+          "text": true
+        },
+        {
+          "id": "rct_37",
+          "art": "erwaegungsgrund",
+          "nummer": "37",
+          "pfad": "eg/37",
+          "text": true
+        },
+        {
+          "id": "rct_38",
+          "art": "erwaegungsgrund",
+          "nummer": "38",
+          "pfad": "eg/38",
+          "text": true
+        },
+        {
+          "id": "rct_39",
+          "art": "erwaegungsgrund",
+          "nummer": "39",
+          "pfad": "eg/39",
+          "text": true
+        },
+        {
+          "id": "rct_40",
+          "art": "erwaegungsgrund",
+          "nummer": "40",
+          "pfad": "eg/40",
+          "text": true
+        },
+        {
+          "id": "rct_41",
+          "art": "erwaegungsgrund",
+          "nummer": "41",
+          "pfad": "eg/41",
+          "text": true
+        },
+        {
+          "id": "rct_42",
+          "art": "erwaegungsgrund",
+          "nummer": "42",
+          "pfad": "eg/42",
+          "text": true
+        },
+        {
+          "id": "rct_43",
+          "art": "erwaegungsgrund",
+          "nummer": "43",
+          "pfad": "eg/43",
+          "text": true
+        },
+        {
+          "id": "rct_44",
+          "art": "erwaegungsgrund",
+          "nummer": "44",
+          "pfad": "eg/44",
+          "text": true
+        },
+        {
+          "id": "rct_45",
+          "art": "erwaegungsgrund",
+          "nummer": "45",
+          "pfad": "eg/45",
+          "text": true
+        },
+        {
+          "id": "rct_46",
+          "art": "erwaegungsgrund",
+          "nummer": "46",
+          "pfad": "eg/46",
+          "text": true
+        },
+        {
+          "id": "rct_47",
+          "art": "erwaegungsgrund",
+          "nummer": "47",
+          "pfad": "eg/47",
+          "text": true
+        },
+        {
+          "id": "rct_48",
+          "art": "erwaegungsgrund",
+          "nummer": "48",
+          "pfad": "eg/48",
+          "text": true
+        },
+        {
+          "id": "rct_49",
+          "art": "erwaegungsgrund",
+          "nummer": "49",
+          "pfad": "eg/49",
+          "text": true
+        },
+        {
+          "id": "rct_50",
+          "art": "erwaegungsgrund",
+          "nummer": "50",
+          "pfad": "eg/50",
+          "text": true
+        },
+        {
+          "id": "rct_51",
+          "art": "erwaegungsgrund",
+          "nummer": "51",
+          "pfad": "eg/51",
+          "text": true
+        },
+        {
+          "id": "rct_52",
+          "art": "erwaegungsgrund",
+          "nummer": "52",
+          "pfad": "eg/52",
+          "text": true
+        },
+        {
+          "id": "rct_53",
+          "art": "erwaegungsgrund",
+          "nummer": "53",
+          "pfad": "eg/53",
+          "text": true
+        },
+        {
+          "id": "rct_54",
+          "art": "erwaegungsgrund",
+          "nummer": "54",
+          "pfad": "eg/54",
+          "text": true
+        },
+        {
+          "id": "rct_55",
+          "art": "erwaegungsgrund",
+          "nummer": "55",
+          "pfad": "eg/55",
+          "text": true
+        },
+        {
+          "id": "rct_56",
+          "art": "erwaegungsgrund",
+          "nummer": "56",
+          "pfad": "eg/56",
+          "text": true
+        },
+        {
+          "id": "rct_57",
+          "art": "erwaegungsgrund",
+          "nummer": "57",
+          "pfad": "eg/57",
+          "text": true
+        },
+        {
+          "id": "rct_58",
+          "art": "erwaegungsgrund",
+          "nummer": "58",
+          "pfad": "eg/58",
+          "text": true
+        },
+        {
+          "id": "rct_59",
+          "art": "erwaegungsgrund",
+          "nummer": "59",
+          "pfad": "eg/59",
+          "text": true
+        },
+        {
+          "id": "rct_60",
+          "art": "erwaegungsgrund",
+          "nummer": "60",
+          "pfad": "eg/60",
+          "text": true
+        },
+        {
+          "id": "rct_61",
+          "art": "erwaegungsgrund",
+          "nummer": "61",
+          "pfad": "eg/61",
+          "text": true
+        },
+        {
+          "id": "rct_62",
+          "art": "erwaegungsgrund",
+          "nummer": "62",
+          "pfad": "eg/62",
+          "text": true
+        },
+        {
+          "id": "rct_63",
+          "art": "erwaegungsgrund",
+          "nummer": "63",
+          "pfad": "eg/63",
+          "text": true
+        },
+        {
+          "id": "rct_64",
+          "art": "erwaegungsgrund",
+          "nummer": "64",
+          "pfad": "eg/64",
+          "text": true
+        },
+        {
+          "id": "rct_65",
+          "art": "erwaegungsgrund",
+          "nummer": "65",
+          "pfad": "eg/65",
+          "text": true
+        },
+        {
+          "id": "rct_66",
+          "art": "erwaegungsgrund",
+          "nummer": "66",
+          "pfad": "eg/66",
+          "text": true
+        },
+        {
+          "id": "rct_67",
+          "art": "erwaegungsgrund",
+          "nummer": "67",
+          "pfad": "eg/67",
+          "text": true
+        },
+        {
+          "id": "rct_68",
+          "art": "erwaegungsgrund",
+          "nummer": "68",
+          "pfad": "eg/68",
+          "text": true
+        },
+        {
+          "id": "rct_69",
+          "art": "erwaegungsgrund",
+          "nummer": "69",
+          "pfad": "eg/69",
+          "text": true
+        },
+        {
+          "id": "rct_70",
+          "art": "erwaegungsgrund",
+          "nummer": "70",
+          "pfad": "eg/70",
+          "text": true
+        },
+        {
+          "id": "rct_71",
+          "art": "erwaegungsgrund",
+          "nummer": "71",
+          "pfad": "eg/71",
+          "text": true
+        },
+        {
+          "id": "rct_72",
+          "art": "erwaegungsgrund",
+          "nummer": "72",
+          "pfad": "eg/72",
+          "text": true
+        },
+        {
+          "id": "rct_73",
+          "art": "erwaegungsgrund",
+          "nummer": "73",
+          "pfad": "eg/73",
+          "text": true
+        },
+        {
+          "id": "rct_74",
+          "art": "erwaegungsgrund",
+          "nummer": "74",
+          "pfad": "eg/74",
+          "text": true
+        },
+        {
+          "id": "rct_75",
+          "art": "erwaegungsgrund",
+          "nummer": "75",
+          "pfad": "eg/75",
+          "text": true
+        },
+        {
+          "id": "rct_76",
+          "art": "erwaegungsgrund",
+          "nummer": "76",
+          "pfad": "eg/76",
+          "text": true
+        },
+        {
+          "id": "rct_77",
+          "art": "erwaegungsgrund",
+          "nummer": "77",
+          "pfad": "eg/77",
+          "text": true
+        },
+        {
+          "id": "rct_78",
+          "art": "erwaegungsgrund",
+          "nummer": "78",
+          "pfad": "eg/78",
+          "text": true
+        },
+        {
+          "id": "rct_79",
+          "art": "erwaegungsgrund",
+          "nummer": "79",
+          "pfad": "eg/79",
+          "text": true
+        },
+        {
+          "id": "rct_80",
+          "art": "erwaegungsgrund",
+          "nummer": "80",
+          "pfad": "eg/80",
+          "text": true
+        },
+        {
+          "id": "rct_81",
+          "art": "erwaegungsgrund",
+          "nummer": "81",
+          "pfad": "eg/81",
+          "text": true
+        },
+        {
+          "id": "rct_82",
+          "art": "erwaegungsgrund",
+          "nummer": "82",
+          "pfad": "eg/82",
+          "text": true
+        },
+        {
+          "id": "rct_83",
+          "art": "erwaegungsgrund",
+          "nummer": "83",
+          "pfad": "eg/83",
+          "text": true
+        },
+        {
+          "id": "rct_84",
+          "art": "erwaegungsgrund",
+          "nummer": "84",
+          "pfad": "eg/84",
+          "text": true
+        },
+        {
+          "id": "rct_85",
+          "art": "erwaegungsgrund",
+          "nummer": "85",
+          "pfad": "eg/85",
+          "text": true
+        },
+        {
+          "id": "rct_86",
+          "art": "erwaegungsgrund",
+          "nummer": "86",
+          "pfad": "eg/86",
+          "text": true
+        },
+        {
+          "id": "rct_87",
+          "art": "erwaegungsgrund",
+          "nummer": "87",
+          "pfad": "eg/87",
+          "text": true
+        },
+        {
+          "id": "rct_88",
+          "art": "erwaegungsgrund",
+          "nummer": "88",
+          "pfad": "eg/88",
+          "text": true
+        },
+        {
+          "id": "rct_89",
+          "art": "erwaegungsgrund",
+          "nummer": "89",
+          "pfad": "eg/89",
+          "text": true
+        },
+        {
+          "id": "rct_90",
+          "art": "erwaegungsgrund",
+          "nummer": "90",
+          "pfad": "eg/90",
+          "text": true
+        },
+        {
+          "id": "rct_91",
+          "art": "erwaegungsgrund",
+          "nummer": "91",
+          "pfad": "eg/91",
+          "text": true
+        },
+        {
+          "id": "rct_92",
+          "art": "erwaegungsgrund",
+          "nummer": "92",
+          "pfad": "eg/92",
+          "text": true
+        },
+        {
+          "id": "rct_93",
+          "art": "erwaegungsgrund",
+          "nummer": "93",
+          "pfad": "eg/93",
+          "text": true
+        },
+        {
+          "id": "rct_94",
+          "art": "erwaegungsgrund",
+          "nummer": "94",
+          "pfad": "eg/94",
+          "text": true
+        },
+        {
+          "id": "rct_95",
+          "art": "erwaegungsgrund",
+          "nummer": "95",
+          "pfad": "eg/95",
+          "text": true
+        },
+        {
+          "id": "rct_96",
+          "art": "erwaegungsgrund",
+          "nummer": "96",
+          "pfad": "eg/96",
+          "text": true
+        },
+        {
+          "id": "rct_97",
+          "art": "erwaegungsgrund",
+          "nummer": "97",
+          "pfad": "eg/97",
+          "text": true
+        },
+        {
+          "id": "rct_98",
+          "art": "erwaegungsgrund",
+          "nummer": "98",
+          "pfad": "eg/98",
+          "text": true
+        },
+        {
+          "id": "rct_99",
+          "art": "erwaegungsgrund",
+          "nummer": "99",
+          "pfad": "eg/99",
+          "text": true
+        },
+        {
+          "id": "rct_100",
+          "art": "erwaegungsgrund",
+          "nummer": "100",
+          "pfad": "eg/100",
+          "text": true
+        },
+        {
+          "id": "rct_101",
+          "art": "erwaegungsgrund",
+          "nummer": "101",
+          "pfad": "eg/101",
+          "text": true
+        },
+        {
+          "id": "rct_102",
+          "art": "erwaegungsgrund",
+          "nummer": "102",
+          "pfad": "eg/102",
+          "text": true
+        },
+        {
+          "id": "rct_103",
+          "art": "erwaegungsgrund",
+          "nummer": "103",
+          "pfad": "eg/103",
+          "text": true
+        },
+        {
+          "id": "rct_104",
+          "art": "erwaegungsgrund",
+          "nummer": "104",
+          "pfad": "eg/104",
+          "text": true
+        },
+        {
+          "id": "rct_105",
+          "art": "erwaegungsgrund",
+          "nummer": "105",
+          "pfad": "eg/105",
+          "text": true
+        },
+        {
+          "id": "rct_106",
+          "art": "erwaegungsgrund",
+          "nummer": "106",
+          "pfad": "eg/106",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_I",
+      "art": "kapitel",
+      "nummer": "I",
+      "titel": {
+        "de": "Allgemeine Bestimmungen",
+        "en": "General provisions"
+      },
+      "pfad": "kap/I",
+      "kinder": [
+        {
+          "id": "art_1",
+          "art": "artikel",
+          "nummer": "1",
+          "titel": {
+            "de": "Gegenstand",
+            "en": "Subject matter"
+          },
+          "pfad": "art/1",
+          "kinder": [
+            {
+              "id": "001.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/1/abs/1",
+              "text": true
+            },
+            {
+              "id": "001.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/1/abs/2",
+              "text": true
+            },
+            {
+              "id": "001.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/1/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_2",
+          "art": "artikel",
+          "nummer": "2",
+          "titel": {
+            "de": "Geltungsbereich",
+            "en": "Scope"
+          },
+          "pfad": "art/2",
+          "kinder": [
+            {
+              "id": "002.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/2/abs/1",
+              "text": true
+            },
+            {
+              "id": "002.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/2/abs/2",
+              "text": true
+            },
+            {
+              "id": "002.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/2/abs/3",
+              "text": true
+            },
+            {
+              "id": "002.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/2/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_3",
+          "art": "artikel",
+          "nummer": "3",
+          "titel": {
+            "de": "Begriffsbestimmungen",
+            "en": "Definitions"
+          },
+          "pfad": "art/3",
+          "text": true
+        },
+        {
+          "id": "art_4",
+          "art": "artikel",
+          "nummer": "4",
+          "titel": {
+            "de": "Grundsatz der Verhältnismäßigkeit",
+            "en": "Proportionality principle"
+          },
+          "pfad": "art/4",
+          "kinder": [
+            {
+              "id": "004.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/4/abs/1",
+              "text": true
+            },
+            {
+              "id": "004.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/4/abs/2",
+              "text": true
+            },
+            {
+              "id": "004.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/4/abs/3",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_II",
+      "art": "kapitel",
+      "nummer": "II",
+      "titel": {
+        "de": "IKT-Risikomanagement",
+        "en": "ICT risk management"
+      },
+      "pfad": "kap/II",
+      "kinder": [
+        {
+          "id": "kap_II_abschnitt_I",
+          "art": "abschnitt",
+          "nummer": "I",
+          "pfad": "kap/II/abschnitt/I",
+          "kinder": [
+            {
+              "id": "art_5",
+              "art": "artikel",
+              "nummer": "5",
+              "titel": {
+                "de": "Governance und Organisation",
+                "en": "Governance and organisation"
+              },
+              "pfad": "art/5",
+              "kinder": [
+                {
+                  "id": "005.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/5/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "005.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/5/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "005.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/5/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "005.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/5/abs/4",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_II_abschnitt_II",
+          "art": "abschnitt",
+          "nummer": "II",
+          "pfad": "kap/II/abschnitt/II",
+          "kinder": [
+            {
+              "id": "art_6",
+              "art": "artikel",
+              "nummer": "6",
+              "titel": {
+                "de": "IKT-Risikomanagementrahmen",
+                "en": "ICT risk management framework"
+              },
+              "pfad": "art/6",
+              "kinder": [
+                {
+                  "id": "006.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/6/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "006.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/6/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "006.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/6/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "006.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/6/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "006.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/6/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "006.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/6/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "006.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/6/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "006.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/6/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "006.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/6/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "006.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/6/abs/10",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_7",
+              "art": "artikel",
+              "nummer": "7",
+              "titel": {
+                "de": "IKT-Systeme, -Protokolle und -Tools",
+                "en": "ICT systems, protocols and tools"
+              },
+              "pfad": "art/7",
+              "text": true
+            },
+            {
+              "id": "art_8",
+              "art": "artikel",
+              "nummer": "8",
+              "titel": {
+                "de": "Identifizierung",
+                "en": "Identification"
+              },
+              "pfad": "art/8",
+              "kinder": [
+                {
+                  "id": "008.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/8/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "008.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/8/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "008.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/8/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "008.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/8/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "008.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/8/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "008.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/8/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "008.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/8/abs/7",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_9",
+              "art": "artikel",
+              "nummer": "9",
+              "titel": {
+                "de": "Schutz und Prävention",
+                "en": "Protection and prevention"
+              },
+              "pfad": "art/9",
+              "kinder": [
+                {
+                  "id": "009.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/9/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "009.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/9/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "009.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/9/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "009.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/9/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_10",
+              "art": "artikel",
+              "nummer": "10",
+              "titel": {
+                "de": "Erkennung",
+                "en": "Detection"
+              },
+              "pfad": "art/10",
+              "kinder": [
+                {
+                  "id": "010.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/10/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "010.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/10/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "010.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/10/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "010.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/10/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_11",
+              "art": "artikel",
+              "nummer": "11",
+              "titel": {
+                "de": "Reaktion und Wiederherstellung",
+                "en": "Response and recovery"
+              },
+              "pfad": "art/11",
+              "kinder": [
+                {
+                  "id": "011.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/11/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "011.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/11/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "011.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/11/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "011.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/11/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "011.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/11/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "011.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/11/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "011.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/11/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "011.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/11/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "011.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/11/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "011.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/11/abs/10",
+                  "text": true
+                },
+                {
+                  "id": "011.011",
+                  "art": "absatz",
+                  "nummer": "11",
+                  "pfad": "art/11/abs/11",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_12",
+              "art": "artikel",
+              "nummer": "12",
+              "titel": {
+                "de": "Richtlinie und Verfahren zum Backup sowie Verfahren und Methoden zur Wiedergewinnung und Wiederherstellung",
+                "en": "Backup policies and procedures, restoration and recovery procedures and methods"
+              },
+              "pfad": "art/12",
+              "kinder": [
+                {
+                  "id": "012.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/12/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "012.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/12/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "012.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/12/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "012.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/12/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "012.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/12/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "012.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/12/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "012.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/12/abs/7",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_13",
+              "art": "artikel",
+              "nummer": "13",
+              "titel": {
+                "de": "Lernprozesse und Weiterentwicklung",
+                "en": "Learning and evolving"
+              },
+              "pfad": "art/13",
+              "kinder": [
+                {
+                  "id": "013.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/13/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "013.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/13/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "013.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/13/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "013.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/13/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "013.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/13/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "013.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/13/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "013.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/13/abs/7",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_14",
+              "art": "artikel",
+              "nummer": "14",
+              "titel": {
+                "de": "Kommunikation",
+                "en": "Communication"
+              },
+              "pfad": "art/14",
+              "kinder": [
+                {
+                  "id": "014.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/14/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "014.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/14/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "014.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/14/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_15",
+              "art": "artikel",
+              "nummer": "15",
+              "titel": {
+                "de": "Weitere Harmonisierung von Tools, Methoden, Prozessen und Richtlinien für IKT-Risikomanagement",
+                "en": "Further harmonisation of ICT risk management tools, methods, processes and policies"
+              },
+              "pfad": "art/15",
+              "text": true
+            },
+            {
+              "id": "art_16",
+              "art": "artikel",
+              "nummer": "16",
+              "titel": {
+                "de": "Vereinfachter IKT-Risikomanagementrahmen",
+                "en": "Simplified ICT risk management framework"
+              },
+              "pfad": "art/16",
+              "kinder": [
+                {
+                  "id": "016.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/16/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "016.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/16/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "016.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/16/abs/3",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_III",
+      "art": "kapitel",
+      "nummer": "III",
+      "titel": {
+        "de": "Behandlung, Klassifizierung und Berichterstattung IKT-bezogener Vorfälle",
+        "en": "ICT-related incident management, classification and reporting"
+      },
+      "pfad": "kap/III",
+      "kinder": [
+        {
+          "id": "art_17",
+          "art": "artikel",
+          "nummer": "17",
+          "titel": {
+            "de": "Prozess für die Behandlung IKT-bezogener Vorfälle",
+            "en": "ICT-related incident management process"
+          },
+          "pfad": "art/17",
+          "kinder": [
+            {
+              "id": "017.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/17/abs/1",
+              "text": true
+            },
+            {
+              "id": "017.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/17/abs/2",
+              "text": true
+            },
+            {
+              "id": "017.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/17/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_18",
+          "art": "artikel",
+          "nummer": "18",
+          "titel": {
+            "de": "Klassifizierung von IKT-bezogenen Vorfällen und Cyberbedrohungen",
+            "en": "Classification of ICT-related incidents and cyber threats"
+          },
+          "pfad": "art/18",
+          "kinder": [
+            {
+              "id": "018.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/18/abs/1",
+              "text": true
+            },
+            {
+              "id": "018.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/18/abs/2",
+              "text": true
+            },
+            {
+              "id": "018.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/18/abs/3",
+              "text": true
+            },
+            {
+              "id": "018.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/18/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_19",
+          "art": "artikel",
+          "nummer": "19",
+          "titel": {
+            "de": "Meldung schwerwiegender IKT-bezogener Vorfälle und freiwillige Meldung erheblicher Cyberbedrohungen",
+            "en": "Reporting of major ICT-related incidents and voluntary notification of significant cyber threats"
+          },
+          "pfad": "art/19",
+          "kinder": [
+            {
+              "id": "019.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/19/abs/1",
+              "text": true
+            },
+            {
+              "id": "019.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/19/abs/2",
+              "text": true
+            },
+            {
+              "id": "019.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/19/abs/3",
+              "text": true
+            },
+            {
+              "id": "019.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/19/abs/4",
+              "text": true
+            },
+            {
+              "id": "019.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/19/abs/5",
+              "text": true
+            },
+            {
+              "id": "019.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/19/abs/6",
+              "text": true
+            },
+            {
+              "id": "019.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/19/abs/7",
+              "text": true
+            },
+            {
+              "id": "019.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/19/abs/8",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_20",
+          "art": "artikel",
+          "nummer": "20",
+          "titel": {
+            "de": "Harmonisierung von Inhalt und Vorlagen von Meldungen",
+            "en": "Harmonisation of reporting content and templates"
+          },
+          "pfad": "art/20",
+          "text": true
+        },
+        {
+          "id": "art_21",
+          "art": "artikel",
+          "nummer": "21",
+          "titel": {
+            "de": "Zentralisierung der Berichterstattung über schwerwiegende IKT-bezogene Vorfälle",
+            "en": "Centralisation of reporting of major ICT-related incidents"
+          },
+          "pfad": "art/21",
+          "kinder": [
+            {
+              "id": "021.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/21/abs/1",
+              "text": true
+            },
+            {
+              "id": "021.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/21/abs/2",
+              "text": true
+            },
+            {
+              "id": "021.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/21/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_22",
+          "art": "artikel",
+          "nummer": "22",
+          "titel": {
+            "de": "Rückmeldungen von Aufsichtsbehörden",
+            "en": "Supervisory feedback"
+          },
+          "pfad": "art/22",
+          "kinder": [
+            {
+              "id": "022.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/22/abs/1",
+              "text": true
+            },
+            {
+              "id": "022.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/22/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_23",
+          "art": "artikel",
+          "nummer": "23",
+          "titel": {
+            "de": "Zahlungsbezogene Betriebs- oder Sicherheitsvorfälle, die Kreditinstitute, Zahlungsinstitute, Kontoinformationsdienstleister und E-Geld-Institute betreffen",
+            "en": "Operational or security payment-related incidents concerning credit institutions, payment institutions, account information service providers, and electronic money institutions"
+          },
+          "pfad": "art/23",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_IV",
+      "art": "kapitel",
+      "nummer": "IV",
+      "titel": {
+        "de": "Testen der digitalen operationalen Resilienz",
+        "en": "Digital operational resilience testing"
+      },
+      "pfad": "kap/IV",
+      "kinder": [
+        {
+          "id": "art_24",
+          "art": "artikel",
+          "nummer": "24",
+          "titel": {
+            "de": "Allgemeine Anforderungen für das Testen der digitalen operationalen Resilienz",
+            "en": "General requirements for the performance of digital operational resilience testing"
+          },
+          "pfad": "art/24",
+          "kinder": [
+            {
+              "id": "024.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/24/abs/1",
+              "text": true
+            },
+            {
+              "id": "024.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/24/abs/2",
+              "text": true
+            },
+            {
+              "id": "024.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/24/abs/3",
+              "text": true
+            },
+            {
+              "id": "024.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/24/abs/4",
+              "text": true
+            },
+            {
+              "id": "024.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/24/abs/5",
+              "text": true
+            },
+            {
+              "id": "024.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/24/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_25",
+          "art": "artikel",
+          "nummer": "25",
+          "titel": {
+            "de": "Testen von IKT-Tools und -Systemen",
+            "en": "Testing of ICT tools and systems"
+          },
+          "pfad": "art/25",
+          "kinder": [
+            {
+              "id": "025.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/25/abs/1",
+              "text": true
+            },
+            {
+              "id": "025.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/25/abs/2",
+              "text": true
+            },
+            {
+              "id": "025.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/25/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_26",
+          "art": "artikel",
+          "nummer": "26",
+          "titel": {
+            "de": "Erweiterte Tests von IKT-Tools, -Systemen und -Prozessen auf Basis von TLPT",
+            "en": "Advanced testing of ICT tools, systems and processes based on TLPT"
+          },
+          "pfad": "art/26",
+          "kinder": [
+            {
+              "id": "026.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/26/abs/1",
+              "text": true
+            },
+            {
+              "id": "026.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/26/abs/2",
+              "text": true
+            },
+            {
+              "id": "026.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/26/abs/3",
+              "text": true
+            },
+            {
+              "id": "026.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/26/abs/4",
+              "text": true
+            },
+            {
+              "id": "026.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/26/abs/5",
+              "text": true
+            },
+            {
+              "id": "026.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/26/abs/6",
+              "text": true
+            },
+            {
+              "id": "026.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/26/abs/7",
+              "text": true
+            },
+            {
+              "id": "026.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/26/abs/8",
+              "text": true
+            },
+            {
+              "id": "026.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/26/abs/9",
+              "text": true
+            },
+            {
+              "id": "026.010",
+              "art": "absatz",
+              "nummer": "10",
+              "pfad": "art/26/abs/10",
+              "text": true
+            },
+            {
+              "id": "026.011",
+              "art": "absatz",
+              "nummer": "11",
+              "pfad": "art/26/abs/11",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_27",
+          "art": "artikel",
+          "nummer": "27",
+          "titel": {
+            "de": "Anforderungen an Tester bezüglich der Durchführung von TLPT",
+            "en": "Requirements for testers for the carrying out of TLPT"
+          },
+          "pfad": "art/27",
+          "kinder": [
+            {
+              "id": "027.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/27/abs/1",
+              "text": true
+            },
+            {
+              "id": "027.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/27/abs/2",
+              "text": true
+            },
+            {
+              "id": "027.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/27/abs/3",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_V",
+      "art": "kapitel",
+      "nummer": "V",
+      "titel": {
+        "de": "Management des IKT-Drittparteienrisikos",
+        "en": "Managing of ICT third-party risk"
+      },
+      "pfad": "kap/V",
+      "kinder": [
+        {
+          "id": "kap_V_abschnitt_I",
+          "art": "abschnitt",
+          "nummer": "I",
+          "titel": {
+            "de": "Schlüsselprinzipien für ein solides Management des IKT-Drittparteienrisikos",
+            "en": "Key principles for a sound management of ICT third-party risk"
+          },
+          "pfad": "kap/V/abschnitt/I",
+          "kinder": [
+            {
+              "id": "art_28",
+              "art": "artikel",
+              "nummer": "28",
+              "titel": {
+                "de": "Allgemeine Prinzipien",
+                "en": "General principles"
+              },
+              "pfad": "art/28",
+              "kinder": [
+                {
+                  "id": "028.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/28/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "028.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/28/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "028.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/28/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "028.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/28/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "028.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/28/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "028.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/28/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "028.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/28/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "028.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/28/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "028.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/28/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "028.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/28/abs/10",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_29",
+              "art": "artikel",
+              "nummer": "29",
+              "titel": {
+                "de": "Vorläufige Bewertung des IKT-Konzentrationsrisikos auf Unternehmensebene",
+                "en": "Preliminary assessment of ICT concentration risk at entity level"
+              },
+              "pfad": "art/29",
+              "kinder": [
+                {
+                  "id": "029.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/29/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "029.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/29/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_30",
+              "art": "artikel",
+              "nummer": "30",
+              "titel": {
+                "de": "Wesentliche Vertragsbestimmungen",
+                "en": "Key contractual provisions"
+              },
+              "pfad": "art/30",
+              "kinder": [
+                {
+                  "id": "030.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/30/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "030.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/30/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "030.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/30/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "030.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/30/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "030.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/30/abs/5",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_V_abschnitt_II",
+          "art": "abschnitt",
+          "nummer": "II",
+          "titel": {
+            "de": "Überwachungsrahmen für kritische IKT-Drittdienstleister",
+            "en": "Oversight Framework of critical ICT third-party service providers"
+          },
+          "pfad": "kap/V/abschnitt/II",
+          "kinder": [
+            {
+              "id": "art_31",
+              "art": "artikel",
+              "nummer": "31",
+              "titel": {
+                "de": "Einstufung kritischer IKT-Drittdienstleister",
+                "en": "Designation of critical ICT third-party service providers"
+              },
+              "pfad": "art/31",
+              "kinder": [
+                {
+                  "id": "031.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/31/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "031.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/31/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "031.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/31/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "031.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/31/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "031.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/31/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "031.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/31/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "031.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/31/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "031.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/31/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "031.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/31/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "031.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/31/abs/10",
+                  "text": true
+                },
+                {
+                  "id": "031.011",
+                  "art": "absatz",
+                  "nummer": "11",
+                  "pfad": "art/31/abs/11",
+                  "text": true
+                },
+                {
+                  "id": "031.012",
+                  "art": "absatz",
+                  "nummer": "12",
+                  "pfad": "art/31/abs/12",
+                  "text": true
+                },
+                {
+                  "id": "031.013",
+                  "art": "absatz",
+                  "nummer": "13",
+                  "pfad": "art/31/abs/13",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_32",
+              "art": "artikel",
+              "nummer": "32",
+              "titel": {
+                "de": "Struktur des Überwachungsrahmens",
+                "en": "Structure of the Oversight Framework"
+              },
+              "pfad": "art/32",
+              "kinder": [
+                {
+                  "id": "032.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/32/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "032.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/32/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "032.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/32/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "032.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/32/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "032.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/32/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "032.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/32/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "032.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/32/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "032.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/32/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "032.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/32/abs/9",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_33",
+              "art": "artikel",
+              "nummer": "33",
+              "titel": {
+                "de": "Aufgaben der federführenden Überwachungsbehörde",
+                "en": "Tasks of the Lead Overseer"
+              },
+              "pfad": "art/33",
+              "kinder": [
+                {
+                  "id": "033.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/33/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "033.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/33/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "033.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/33/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "033.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/33/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "033.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/33/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_34",
+              "art": "artikel",
+              "nummer": "34",
+              "titel": {
+                "de": "Operative Zusammenarbeit zwischen den federführenden Überwachungsbehörden",
+                "en": "Operational coordination between Lead Overseers"
+              },
+              "pfad": "art/34",
+              "kinder": [
+                {
+                  "id": "034.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/34/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "034.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/34/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "034.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/34/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_35",
+              "art": "artikel",
+              "nummer": "35",
+              "titel": {
+                "de": "Befugnisse der federführenden Überwachungsbehörde",
+                "en": "Powers of the Lead Overseer"
+              },
+              "pfad": "art/35",
+              "kinder": [
+                {
+                  "id": "035.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/35/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "035.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/35/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "035.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/35/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "035.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/35/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "035.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/35/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "035.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/35/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "035.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/35/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "035.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/35/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "035.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/35/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "035.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/35/abs/10",
+                  "text": true
+                },
+                {
+                  "id": "035.011",
+                  "art": "absatz",
+                  "nummer": "11",
+                  "pfad": "art/35/abs/11",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_36",
+              "art": "artikel",
+              "nummer": "36",
+              "titel": {
+                "de": "Ausübung der Befugnisse der federführenden Überwachungsbehörde außerhalb der Union",
+                "en": "Exercise of the powers of the Lead Overseer outside the Union"
+              },
+              "pfad": "art/36",
+              "kinder": [
+                {
+                  "id": "036.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/36/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "036.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/36/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "036.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/36/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_37",
+              "art": "artikel",
+              "nummer": "37",
+              "titel": {
+                "de": "Auskunftsersuchen",
+                "en": "Request for information"
+              },
+              "pfad": "art/37",
+              "kinder": [
+                {
+                  "id": "037.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/37/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "037.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/37/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "037.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/37/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "037.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/37/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "037.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/37/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_38",
+              "art": "artikel",
+              "nummer": "38",
+              "titel": {
+                "de": "Allgemeine Untersuchungen",
+                "en": "General investigations"
+              },
+              "pfad": "art/38",
+              "kinder": [
+                {
+                  "id": "038.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/38/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "038.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/38/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "038.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/38/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "038.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/38/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "038.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/38/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_39",
+              "art": "artikel",
+              "nummer": "39",
+              "titel": {
+                "de": "Inspektionen",
+                "en": "Inspections"
+              },
+              "pfad": "art/39",
+              "kinder": [
+                {
+                  "id": "039.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/39/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "039.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/39/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "039.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/39/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "039.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/39/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "039.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/39/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "039.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/39/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "039.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/39/abs/7",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_40",
+              "art": "artikel",
+              "nummer": "40",
+              "titel": {
+                "de": "Laufende Überwachung",
+                "en": "Ongoing oversight"
+              },
+              "pfad": "art/40",
+              "kinder": [
+                {
+                  "id": "040.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/40/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "040.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/40/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "040.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/40/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "040.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/40/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_41",
+              "art": "artikel",
+              "nummer": "41",
+              "titel": {
+                "de": "Harmonisierung der Voraussetzungen für die Durchführung der Überwachungstätigkeiten",
+                "en": "Harmonisation of conditions enabling the conduct of the oversight activities"
+              },
+              "pfad": "art/41",
+              "kinder": [
+                {
+                  "id": "041.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/41/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "041.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/41/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_42",
+              "art": "artikel",
+              "nummer": "42",
+              "titel": {
+                "de": "Folgemaßnahmen zuständiger Behörden",
+                "en": "Follow-up by competent authorities"
+              },
+              "pfad": "art/42",
+              "kinder": [
+                {
+                  "id": "042.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/42/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "042.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/42/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "042.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/42/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "042.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/42/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "042.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/42/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "042.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/42/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "042.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/42/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "042.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/42/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "042.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/42/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "042.010",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "art/42/abs/10",
+                  "text": true
+                },
+                {
+                  "id": "042.011",
+                  "art": "absatz",
+                  "nummer": "11",
+                  "pfad": "art/42/abs/11",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_43",
+              "art": "artikel",
+              "nummer": "43",
+              "titel": {
+                "de": "Überwachungsgebühren",
+                "en": "Oversight fees"
+              },
+              "pfad": "art/43",
+              "kinder": [
+                {
+                  "id": "043.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/43/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "043.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/43/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_44",
+              "art": "artikel",
+              "nummer": "44",
+              "titel": {
+                "de": "Internationale Zusammenarbeit",
+                "en": "International cooperation"
+              },
+              "pfad": "art/44",
+              "kinder": [
+                {
+                  "id": "044.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/44/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "044.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/44/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_VI",
+      "art": "kapitel",
+      "nummer": "VI",
+      "titel": {
+        "de": "Vereinbarungen über den Austausch von Informationen",
+        "en": "Information-sharing arrangements"
+      },
+      "pfad": "kap/VI",
+      "kinder": [
+        {
+          "id": "art_45",
+          "art": "artikel",
+          "nummer": "45",
+          "titel": {
+            "de": "Vereinbarungen über den Austausch von Informationen und Erkenntnissen zu Cyberbedrohungen",
+            "en": "Information-sharing arrangements on cyber threat information and intelligence"
+          },
+          "pfad": "art/45",
+          "kinder": [
+            {
+              "id": "045.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/45/abs/1",
+              "text": true
+            },
+            {
+              "id": "045.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/45/abs/2",
+              "text": true
+            },
+            {
+              "id": "045.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/45/abs/3",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_VII",
+      "art": "kapitel",
+      "nummer": "VII",
+      "titel": {
+        "de": "Zuständige Behörden",
+        "en": "Competent authorities"
+      },
+      "pfad": "kap/VII",
+      "kinder": [
+        {
+          "id": "art_46",
+          "art": "artikel",
+          "nummer": "46",
+          "titel": {
+            "de": "Zuständige Behörden",
+            "en": "Competent authorities"
+          },
+          "pfad": "art/46",
+          "text": true
+        },
+        {
+          "id": "art_47",
+          "art": "artikel",
+          "nummer": "47",
+          "titel": {
+            "de": "Zusammenarbeit mit den durch die Richtlinie (EU) 2022/2555 geschaffenen Strukturen und Behörden",
+            "en": "Cooperation with structures and authorities established by Directive (EU) 2022/2555"
+          },
+          "pfad": "art/47",
+          "kinder": [
+            {
+              "id": "047.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/47/abs/1",
+              "text": true
+            },
+            {
+              "id": "047.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/47/abs/2",
+              "text": true
+            },
+            {
+              "id": "047.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/47/abs/3",
+              "text": true
+            },
+            {
+              "id": "047.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/47/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_48",
+          "art": "artikel",
+          "nummer": "48",
+          "titel": {
+            "de": "Zusammenarbeit der Behörden",
+            "en": "Cooperation between authorities"
+          },
+          "pfad": "art/48",
+          "kinder": [
+            {
+              "id": "048.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/48/abs/1",
+              "text": true
+            },
+            {
+              "id": "048.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/48/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_49",
+          "art": "artikel",
+          "nummer": "49",
+          "titel": {
+            "de": "Sektorübergreifende Übungen, Kommunikation und Zusammenarbeit im Finanzbereich",
+            "en": "Financial cross-sector exercises, communication and cooperation"
+          },
+          "pfad": "art/49",
+          "kinder": [
+            {
+              "id": "049.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/49/abs/1",
+              "text": true
+            },
+            {
+              "id": "049.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/49/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_50",
+          "art": "artikel",
+          "nummer": "50",
+          "titel": {
+            "de": "Verwaltungsrechtliche Sanktionen und Abhilfemaßnahmen",
+            "en": "Administrative penalties and remedial measures"
+          },
+          "pfad": "art/50",
+          "kinder": [
+            {
+              "id": "050.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/50/abs/1",
+              "text": true
+            },
+            {
+              "id": "050.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/50/abs/2",
+              "text": true
+            },
+            {
+              "id": "050.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/50/abs/3",
+              "text": true
+            },
+            {
+              "id": "050.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/50/abs/4",
+              "text": true
+            },
+            {
+              "id": "050.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/50/abs/5",
+              "text": true
+            },
+            {
+              "id": "050.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/50/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_51",
+          "art": "artikel",
+          "nummer": "51",
+          "titel": {
+            "de": "Ausübung der Befugnis zur Auferlegung von verwaltungsrechtlichen Sanktionen und Abhilfemaßnahmen",
+            "en": "Exercise of the power to impose administrative penalties and remedial measures"
+          },
+          "pfad": "art/51",
+          "kinder": [
+            {
+              "id": "051.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/51/abs/1",
+              "text": true
+            },
+            {
+              "id": "051.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/51/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_52",
+          "art": "artikel",
+          "nummer": "52",
+          "titel": {
+            "de": "Strafrechtliche Sanktionen",
+            "en": "Criminal penalties"
+          },
+          "pfad": "art/52",
+          "kinder": [
+            {
+              "id": "052.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/52/abs/1",
+              "text": true
+            },
+            {
+              "id": "052.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/52/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_53",
+          "art": "artikel",
+          "nummer": "53",
+          "titel": {
+            "de": "Mitteilungspflichten",
+            "en": "Notification duties"
+          },
+          "pfad": "art/53",
+          "text": true
+        },
+        {
+          "id": "art_54",
+          "art": "artikel",
+          "nummer": "54",
+          "titel": {
+            "de": "Öffentliche Bekanntmachung verwaltungsrechtlicher Sanktionen",
+            "en": "Publication of administrative penalties"
+          },
+          "pfad": "art/54",
+          "kinder": [
+            {
+              "id": "054.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/54/abs/1",
+              "text": true
+            },
+            {
+              "id": "054.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/54/abs/2",
+              "text": true
+            },
+            {
+              "id": "054.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/54/abs/3",
+              "text": true
+            },
+            {
+              "id": "054.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/54/abs/4",
+              "text": true
+            },
+            {
+              "id": "054.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/54/abs/5",
+              "text": true
+            },
+            {
+              "id": "054.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/54/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_55",
+          "art": "artikel",
+          "nummer": "55",
+          "titel": {
+            "de": "Wahrung des Berufsgeheimnisses",
+            "en": "Professional secrecy"
+          },
+          "pfad": "art/55",
+          "kinder": [
+            {
+              "id": "055.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/55/abs/1",
+              "text": true
+            },
+            {
+              "id": "055.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/55/abs/2",
+              "text": true
+            },
+            {
+              "id": "055.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/55/abs/3",
+              "text": true
+            },
+            {
+              "id": "055.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/55/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_56",
+          "art": "artikel",
+          "nummer": "56",
+          "titel": {
+            "de": "Datenschutz",
+            "en": "Data Protection"
+          },
+          "pfad": "art/56",
+          "kinder": [
+            {
+              "id": "056.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/56/abs/1",
+              "text": true
+            },
+            {
+              "id": "056.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/56/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_VIII",
+      "art": "kapitel",
+      "nummer": "VIII",
+      "titel": {
+        "de": "Delegierte Rechtsakte",
+        "en": "Delegated acts"
+      },
+      "pfad": "kap/VIII",
+      "kinder": [
+        {
+          "id": "art_57",
+          "art": "artikel",
+          "nummer": "57",
+          "titel": {
+            "de": "Ausübung der Befugnisübertragung",
+            "en": "Exercise of the delegation"
+          },
+          "pfad": "art/57",
+          "kinder": [
+            {
+              "id": "057.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/57/abs/1",
+              "text": true
+            },
+            {
+              "id": "057.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/57/abs/2",
+              "text": true
+            },
+            {
+              "id": "057.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/57/abs/3",
+              "text": true
+            },
+            {
+              "id": "057.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/57/abs/4",
+              "text": true
+            },
+            {
+              "id": "057.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/57/abs/5",
+              "text": true
+            },
+            {
+              "id": "057.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/57/abs/6",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_IX",
+      "art": "kapitel",
+      "nummer": "IX",
+      "titel": {
+        "de": "Übergangs- und Schlussbestimmungen",
+        "en": "Transitional and final provisions"
+      },
+      "pfad": "kap/IX",
+      "kinder": [
+        {
+          "id": "kap_IX_abschnitt_I",
+          "art": "abschnitt",
+          "nummer": "I",
+          "pfad": "kap/IX/abschnitt/I",
+          "kinder": [
+            {
+              "id": "art_58",
+              "art": "artikel",
+              "nummer": "58",
+              "titel": {
+                "de": "Überprüfungsklausel",
+                "en": "Review clause"
+              },
+              "pfad": "art/58",
+              "kinder": [
+                {
+                  "id": "058.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/58/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "058.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/58/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "058.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/58/abs/3",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_IX_abschnitt_II",
+          "art": "abschnitt",
+          "nummer": "II",
+          "titel": {
+            "de": "Änderungen",
+            "en": "Amendments"
+          },
+          "pfad": "kap/IX/abschnitt/II",
+          "kinder": [
+            {
+              "id": "art_59",
+              "art": "artikel",
+              "nummer": "59",
+              "titel": {
+                "de": "Änderungen der Verordnung (EG) Nr. 1060/2009",
+                "en": "Amendments to Regulation (EC) No 1060/2009"
+              },
+              "pfad": "art/59",
+              "text": true
+            },
+            {
+              "id": "art_60",
+              "art": "artikel",
+              "nummer": "60",
+              "titel": {
+                "de": "Änderungen der Verordnung (EU) Nr. 648/2012",
+                "en": "Amendments to Regulation (EU) No 648/2012"
+              },
+              "pfad": "art/60",
+              "text": true
+            },
+            {
+              "id": "art_61",
+              "art": "artikel",
+              "nummer": "61",
+              "titel": {
+                "de": "Änderungen der Verordnung (EU) Nr. 909/2014",
+                "en": "Amendments to Regulation (EU) No 909/2014"
+              },
+              "pfad": "art/61",
+              "text": true
+            },
+            {
+              "id": "art_62",
+              "art": "artikel",
+              "nummer": "62",
+              "titel": {
+                "de": "Änderungen der Verordnung (EU) Nr. 600/2014",
+                "en": "Amendments to Regulation (EU) No 600/2014"
+              },
+              "pfad": "art/62",
+              "text": true
+            },
+            {
+              "id": "art_63",
+              "art": "artikel",
+              "nummer": "63",
+              "titel": {
+                "de": "Änderungen der Verordnung (EU) 2016/1011",
+                "en": "Amendment to Regulation (EU) 2016/1011"
+              },
+              "pfad": "art/63",
+              "text": true
+            },
+            {
+              "id": "art_64",
+              "art": "artikel",
+              "nummer": "64",
+              "titel": {
+                "de": "Inkrafttreten und Anwendung",
+                "en": "Entry into force and application"
+              },
+              "pfad": "art/64",
+              "text": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,916 @@
+{
+  "regelwerk": "dora-rts-1190",
+  "fassung": "2025-06-18",
+  "abgerufen": "2026-09-27T10:10:25Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32025R1190",
+    "celex": "32025R1190",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        },
+        {
+          "id": "rct_12",
+          "art": "erwaegungsgrund",
+          "nummer": "12",
+          "pfad": "eg/12",
+          "text": true
+        },
+        {
+          "id": "rct_13",
+          "art": "erwaegungsgrund",
+          "nummer": "13",
+          "pfad": "eg/13",
+          "text": true
+        },
+        {
+          "id": "rct_14",
+          "art": "erwaegungsgrund",
+          "nummer": "14",
+          "pfad": "eg/14",
+          "text": true
+        },
+        {
+          "id": "rct_15",
+          "art": "erwaegungsgrund",
+          "nummer": "15",
+          "pfad": "eg/15",
+          "text": true
+        },
+        {
+          "id": "rct_16",
+          "art": "erwaegungsgrund",
+          "nummer": "16",
+          "pfad": "eg/16",
+          "text": true
+        },
+        {
+          "id": "rct_17",
+          "art": "erwaegungsgrund",
+          "nummer": "17",
+          "pfad": "eg/17",
+          "text": true
+        },
+        {
+          "id": "rct_18",
+          "art": "erwaegungsgrund",
+          "nummer": "18",
+          "pfad": "eg/18",
+          "text": true
+        },
+        {
+          "id": "rct_19",
+          "art": "erwaegungsgrund",
+          "nummer": "19",
+          "pfad": "eg/19",
+          "text": true
+        },
+        {
+          "id": "rct_20",
+          "art": "erwaegungsgrund",
+          "nummer": "20",
+          "pfad": "eg/20",
+          "text": true
+        },
+        {
+          "id": "rct_21",
+          "art": "erwaegungsgrund",
+          "nummer": "21",
+          "pfad": "eg/21",
+          "text": true
+        },
+        {
+          "id": "rct_22",
+          "art": "erwaegungsgrund",
+          "nummer": "22",
+          "pfad": "eg/22",
+          "text": true
+        },
+        {
+          "id": "rct_23",
+          "art": "erwaegungsgrund",
+          "nummer": "23",
+          "pfad": "eg/23",
+          "text": true
+        },
+        {
+          "id": "rct_24",
+          "art": "erwaegungsgrund",
+          "nummer": "24",
+          "pfad": "eg/24",
+          "text": true
+        },
+        {
+          "id": "rct_25",
+          "art": "erwaegungsgrund",
+          "nummer": "25",
+          "pfad": "eg/25",
+          "text": true
+        },
+        {
+          "id": "rct_26",
+          "art": "erwaegungsgrund",
+          "nummer": "26",
+          "pfad": "eg/26",
+          "text": true
+        },
+        {
+          "id": "rct_27",
+          "art": "erwaegungsgrund",
+          "nummer": "27",
+          "pfad": "eg/27",
+          "text": true
+        },
+        {
+          "id": "rct_28",
+          "art": "erwaegungsgrund",
+          "nummer": "28",
+          "pfad": "eg/28",
+          "text": true
+        },
+        {
+          "id": "rct_29",
+          "art": "erwaegungsgrund",
+          "nummer": "29",
+          "pfad": "eg/29",
+          "text": true
+        },
+        {
+          "id": "rct_30",
+          "art": "erwaegungsgrund",
+          "nummer": "30",
+          "pfad": "eg/30",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_1",
+      "art": "artikel",
+      "nummer": "1",
+      "titel": {
+        "de": "Begriffsbestimmungen"
+      },
+      "pfad": "art/1",
+      "text": true
+    },
+    {
+      "id": "art_2",
+      "art": "artikel",
+      "nummer": "2",
+      "titel": {
+        "de": "Bestimmung der Finanzunternehmen, die zur Durchführung eines TLPT verpflichtet sind"
+      },
+      "pfad": "art/2",
+      "kinder": [
+        {
+          "id": "002.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/2/abs/1",
+          "text": true
+        },
+        {
+          "id": "002.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/2/abs/2",
+          "text": true
+        },
+        {
+          "id": "002.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/2/abs/3",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_3",
+      "art": "artikel",
+      "nummer": "3",
+      "titel": {
+        "de": "TCT- und TLPT-Testmanager"
+      },
+      "pfad": "art/3",
+      "kinder": [
+        {
+          "id": "003.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/3/abs/1",
+          "text": true
+        },
+        {
+          "id": "003.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/3/abs/2",
+          "text": true
+        },
+        {
+          "id": "003.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/3/abs/3",
+          "text": true
+        },
+        {
+          "id": "003.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/3/abs/4",
+          "text": true
+        },
+        {
+          "id": "003.005",
+          "art": "absatz",
+          "nummer": "5",
+          "pfad": "art/3/abs/5",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_4",
+      "art": "artikel",
+      "nummer": "4",
+      "titel": {
+        "de": "Von den Finanzunternehmen zu treffende organisatorische Vorkehrungen"
+      },
+      "pfad": "art/4",
+      "kinder": [
+        {
+          "id": "004.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/4/abs/1",
+          "text": true
+        },
+        {
+          "id": "004.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/4/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_5",
+      "art": "artikel",
+      "nummer": "5",
+      "titel": {
+        "de": "Risikomanagement bei TLPT"
+      },
+      "pfad": "art/5",
+      "kinder": [
+        {
+          "id": "005.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/5/abs/1",
+          "text": true
+        },
+        {
+          "id": "005.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/5/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_6",
+      "art": "artikel",
+      "nummer": "6",
+      "titel": {
+        "de": "Risikomanagement bei gebündelten oder gemeinsamen TLPT"
+      },
+      "pfad": "art/6",
+      "kinder": [
+        {
+          "id": "006.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/6/abs/1",
+          "text": true
+        },
+        {
+          "id": "006.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/6/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_7",
+      "art": "artikel",
+      "nummer": "7",
+      "titel": {
+        "de": "Auswahl der TLPT-Anbieter"
+      },
+      "pfad": "art/7",
+      "kinder": [
+        {
+          "id": "007.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/7/abs/1",
+          "text": true
+        },
+        {
+          "id": "007.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/7/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_8",
+      "art": "artikel",
+      "nummer": "8",
+      "titel": {
+        "de": "Besondere Anforderungen bei gebündelten oder gemeinsamen TLPT"
+      },
+      "pfad": "art/8",
+      "kinder": [
+        {
+          "id": "008.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/8/abs/1",
+          "text": true
+        },
+        {
+          "id": "008.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/8/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_9",
+      "art": "artikel",
+      "nummer": "9",
+      "titel": {
+        "de": "Vorbereitungsphase"
+      },
+      "pfad": "art/9",
+      "kinder": [
+        {
+          "id": "009.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/9/abs/1",
+          "text": true
+        },
+        {
+          "id": "009.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/9/abs/2",
+          "text": true
+        },
+        {
+          "id": "009.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/9/abs/3",
+          "text": true
+        },
+        {
+          "id": "009.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/9/abs/4",
+          "text": true
+        },
+        {
+          "id": "009.005",
+          "art": "absatz",
+          "nummer": "5",
+          "pfad": "art/9/abs/5",
+          "text": true
+        },
+        {
+          "id": "009.006",
+          "art": "absatz",
+          "nummer": "6",
+          "pfad": "art/9/abs/6",
+          "text": true
+        },
+        {
+          "id": "009.007",
+          "art": "absatz",
+          "nummer": "7",
+          "pfad": "art/9/abs/7",
+          "text": true
+        },
+        {
+          "id": "009.008",
+          "art": "absatz",
+          "nummer": "8",
+          "pfad": "art/9/abs/8",
+          "text": true
+        },
+        {
+          "id": "009.009",
+          "art": "absatz",
+          "nummer": "9",
+          "pfad": "art/9/abs/9",
+          "text": true
+        },
+        {
+          "id": "009.010",
+          "art": "absatz",
+          "nummer": "10",
+          "pfad": "art/9/abs/10",
+          "text": true
+        },
+        {
+          "id": "009.011",
+          "art": "absatz",
+          "nummer": "11",
+          "pfad": "art/9/abs/11",
+          "text": true
+        },
+        {
+          "id": "009.012",
+          "art": "absatz",
+          "nummer": "12",
+          "pfad": "art/9/abs/12",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_10",
+      "art": "artikel",
+      "nummer": "10",
+      "titel": {
+        "de": "Testphase: Bedrohungsanalyse"
+      },
+      "pfad": "art/10",
+      "kinder": [
+        {
+          "id": "010.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/10/abs/1",
+          "text": true
+        },
+        {
+          "id": "010.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/10/abs/2",
+          "text": true
+        },
+        {
+          "id": "010.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/10/abs/3",
+          "text": true
+        },
+        {
+          "id": "010.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/10/abs/4",
+          "text": true
+        },
+        {
+          "id": "010.005",
+          "art": "absatz",
+          "nummer": "5",
+          "pfad": "art/10/abs/5",
+          "text": true
+        },
+        {
+          "id": "010.006",
+          "art": "absatz",
+          "nummer": "6",
+          "pfad": "art/10/abs/6",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_11",
+      "art": "artikel",
+      "nummer": "11",
+      "titel": {
+        "de": "Testphase: Red-Team-Test"
+      },
+      "pfad": "art/11",
+      "kinder": [
+        {
+          "id": "011.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/11/abs/1",
+          "text": true
+        },
+        {
+          "id": "011.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/11/abs/2",
+          "text": true
+        },
+        {
+          "id": "011.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/11/abs/3",
+          "text": true
+        },
+        {
+          "id": "011.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/11/abs/4",
+          "text": true
+        },
+        {
+          "id": "011.005",
+          "art": "absatz",
+          "nummer": "5",
+          "pfad": "art/11/abs/5",
+          "text": true
+        },
+        {
+          "id": "011.006",
+          "art": "absatz",
+          "nummer": "6",
+          "pfad": "art/11/abs/6",
+          "text": true
+        },
+        {
+          "id": "011.007",
+          "art": "absatz",
+          "nummer": "7",
+          "pfad": "art/11/abs/7",
+          "text": true
+        },
+        {
+          "id": "011.008",
+          "art": "absatz",
+          "nummer": "8",
+          "pfad": "art/11/abs/8",
+          "text": true
+        },
+        {
+          "id": "011.009",
+          "art": "absatz",
+          "nummer": "9",
+          "pfad": "art/11/abs/9",
+          "text": true
+        },
+        {
+          "id": "011.010",
+          "art": "absatz",
+          "nummer": "10",
+          "pfad": "art/11/abs/10",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_12",
+      "art": "artikel",
+      "nummer": "12",
+      "titel": {
+        "de": "Abschlussphase"
+      },
+      "pfad": "art/12",
+      "kinder": [
+        {
+          "id": "012.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/12/abs/1",
+          "text": true
+        },
+        {
+          "id": "012.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/12/abs/2",
+          "text": true
+        },
+        {
+          "id": "012.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/12/abs/3",
+          "text": true
+        },
+        {
+          "id": "012.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/12/abs/4",
+          "text": true
+        },
+        {
+          "id": "012.005",
+          "art": "absatz",
+          "nummer": "5",
+          "pfad": "art/12/abs/5",
+          "text": true
+        },
+        {
+          "id": "012.006",
+          "art": "absatz",
+          "nummer": "6",
+          "pfad": "art/12/abs/6",
+          "text": true
+        },
+        {
+          "id": "012.007",
+          "art": "absatz",
+          "nummer": "7",
+          "pfad": "art/12/abs/7",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_13",
+      "art": "artikel",
+      "nummer": "13",
+      "titel": {
+        "de": "Plan mit Abhilfemaßnahmen"
+      },
+      "pfad": "art/13",
+      "kinder": [
+        {
+          "id": "013.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/13/abs/1",
+          "text": true
+        },
+        {
+          "id": "013.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/13/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_14",
+      "art": "artikel",
+      "nummer": "14",
+      "titel": {
+        "de": "Bescheinigung"
+      },
+      "pfad": "art/14",
+      "kinder": [
+        {
+          "id": "014.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/14/abs/1",
+          "text": true
+        },
+        {
+          "id": "014.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/14/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_15",
+      "art": "artikel",
+      "nummer": "15",
+      "titel": {
+        "de": "Einsatz interner Tester"
+      },
+      "pfad": "art/15",
+      "kinder": [
+        {
+          "id": "015.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/15/abs/1",
+          "text": true
+        },
+        {
+          "id": "015.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/15/abs/2",
+          "text": true
+        },
+        {
+          "id": "015.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/15/abs/3",
+          "text": true
+        },
+        {
+          "id": "015.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/15/abs/4",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_16",
+      "art": "artikel",
+      "nummer": "16",
+      "titel": {
+        "de": "Zusammenarbeit und gegenseitige Anerkennung"
+      },
+      "pfad": "art/16",
+      "kinder": [
+        {
+          "id": "016.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/16/abs/1",
+          "text": true
+        },
+        {
+          "id": "016.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/16/abs/2",
+          "text": true
+        },
+        {
+          "id": "016.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/16/abs/3",
+          "text": true
+        },
+        {
+          "id": "016.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/16/abs/4",
+          "text": true
+        },
+        {
+          "id": "016.005",
+          "art": "absatz",
+          "nummer": "5",
+          "pfad": "art/16/abs/5",
+          "text": true
+        },
+        {
+          "id": "016.006",
+          "art": "absatz",
+          "nummer": "6",
+          "pfad": "art/16/abs/6",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_17",
+      "art": "artikel",
+      "nummer": "17",
+      "titel": {
+        "de": "Inkrafttreten"
+      },
+      "pfad": "art/17",
+      "text": true
+    }
+  ]
+}

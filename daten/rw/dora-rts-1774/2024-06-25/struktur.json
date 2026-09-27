@@ -1,0 +1,1631 @@
+{
+  "regelwerk": "dora-rts-1774",
+  "fassung": "2024-06-25",
+  "abgerufen": "2026-09-27T10:10:22Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32024R1774",
+    "celex": "32024R1774",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        },
+        {
+          "id": "rct_12",
+          "art": "erwaegungsgrund",
+          "nummer": "12",
+          "pfad": "eg/12",
+          "text": true
+        },
+        {
+          "id": "rct_13",
+          "art": "erwaegungsgrund",
+          "nummer": "13",
+          "pfad": "eg/13",
+          "text": true
+        },
+        {
+          "id": "rct_14",
+          "art": "erwaegungsgrund",
+          "nummer": "14",
+          "pfad": "eg/14",
+          "text": true
+        },
+        {
+          "id": "rct_15",
+          "art": "erwaegungsgrund",
+          "nummer": "15",
+          "pfad": "eg/15",
+          "text": true
+        },
+        {
+          "id": "rct_16",
+          "art": "erwaegungsgrund",
+          "nummer": "16",
+          "pfad": "eg/16",
+          "text": true
+        },
+        {
+          "id": "rct_17",
+          "art": "erwaegungsgrund",
+          "nummer": "17",
+          "pfad": "eg/17",
+          "text": true
+        },
+        {
+          "id": "rct_18",
+          "art": "erwaegungsgrund",
+          "nummer": "18",
+          "pfad": "eg/18",
+          "text": true
+        },
+        {
+          "id": "rct_19",
+          "art": "erwaegungsgrund",
+          "nummer": "19",
+          "pfad": "eg/19",
+          "text": true
+        },
+        {
+          "id": "rct_20",
+          "art": "erwaegungsgrund",
+          "nummer": "20",
+          "pfad": "eg/20",
+          "text": true
+        },
+        {
+          "id": "rct_21",
+          "art": "erwaegungsgrund",
+          "nummer": "21",
+          "pfad": "eg/21",
+          "text": true
+        },
+        {
+          "id": "rct_22",
+          "art": "erwaegungsgrund",
+          "nummer": "22",
+          "pfad": "eg/22",
+          "text": true
+        },
+        {
+          "id": "rct_23",
+          "art": "erwaegungsgrund",
+          "nummer": "23",
+          "pfad": "eg/23",
+          "text": true
+        },
+        {
+          "id": "rct_24",
+          "art": "erwaegungsgrund",
+          "nummer": "24",
+          "pfad": "eg/24",
+          "text": true
+        },
+        {
+          "id": "rct_25",
+          "art": "erwaegungsgrund",
+          "nummer": "25",
+          "pfad": "eg/25",
+          "text": true
+        },
+        {
+          "id": "rct_26",
+          "art": "erwaegungsgrund",
+          "nummer": "26",
+          "pfad": "eg/26",
+          "text": true
+        },
+        {
+          "id": "rct_27",
+          "art": "erwaegungsgrund",
+          "nummer": "27",
+          "pfad": "eg/27",
+          "text": true
+        },
+        {
+          "id": "rct_28",
+          "art": "erwaegungsgrund",
+          "nummer": "28",
+          "pfad": "eg/28",
+          "text": true
+        },
+        {
+          "id": "rct_29",
+          "art": "erwaegungsgrund",
+          "nummer": "29",
+          "pfad": "eg/29",
+          "text": true
+        },
+        {
+          "id": "rct_30",
+          "art": "erwaegungsgrund",
+          "nummer": "30",
+          "pfad": "eg/30",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_I",
+      "art": "teil",
+      "nummer": "I",
+      "titel": {
+        "de": "ALLGEMEINER GRUNDSATZ"
+      },
+      "pfad": "kap/I",
+      "kinder": [
+        {
+          "id": "art_1",
+          "art": "artikel",
+          "nummer": "1",
+          "titel": {
+            "de": "Gesamtrisikoprofil und -komplexität"
+          },
+          "pfad": "art/1",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_II",
+      "art": "teil",
+      "nummer": "II",
+      "titel": {
+        "de": "WEITERE HARMONISIERUNG VON TOOLS, METHODEN, PROZESSEN UND RICHTLINIEN FÜR IKT-RISIKOMANAGEMENT IM EINKLANG MIT ARTIKEL 15 DER VERORDNUNG (EU) 2022/2554"
+      },
+      "pfad": "kap/II"
+    },
+    {
+      "id": "kap_I",
+      "art": "kapitel",
+      "nummer": "I",
+      "titel": {
+        "de": "Richtlinien, Verfahren, Protokolle und Tools für IKT-Sicherheit"
+      },
+      "pfad": "kap/I",
+      "kinder": [
+        {
+          "id": "kap_I_abschnitt_1",
+          "art": "abschnitt",
+          "nummer": "1",
+          "pfad": "kap/I/abschnitt/1",
+          "kinder": [
+            {
+              "id": "art_2",
+              "art": "artikel",
+              "nummer": "2",
+              "titel": {
+                "de": "Allgemeine Elemente der Richtlinien, Verfahren, Protokolle und Tools für IKT-Sicherheit"
+              },
+              "pfad": "art/2",
+              "kinder": [
+                {
+                  "id": "002.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/2/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "002.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/2/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_I_abschnitt_2",
+          "art": "abschnitt",
+          "nummer": "2",
+          "pfad": "kap/I/abschnitt/2",
+          "kinder": [
+            {
+              "id": "art_3",
+              "art": "artikel",
+              "nummer": "3",
+              "titel": {
+                "de": "IKT-Risikomanagement"
+              },
+              "pfad": "art/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "kap_I_abschnitt_3",
+          "art": "abschnitt",
+          "nummer": "3",
+          "titel": {
+            "de": "Management von IKT-Assets"
+          },
+          "pfad": "kap/I/abschnitt/3",
+          "kinder": [
+            {
+              "id": "art_4",
+              "art": "artikel",
+              "nummer": "4",
+              "titel": {
+                "de": "Richtlinie für das Management von IKT-Assets"
+              },
+              "pfad": "art/4",
+              "kinder": [
+                {
+                  "id": "004.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/4/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "004.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/4/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_5",
+              "art": "artikel",
+              "nummer": "5",
+              "titel": {
+                "de": "Verfahren für das Management von IKT-Assets"
+              },
+              "pfad": "art/5",
+              "kinder": [
+                {
+                  "id": "005.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/5/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "005.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/5/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_I_abschnitt_4",
+          "art": "abschnitt",
+          "nummer": "4",
+          "titel": {
+            "de": "Verschlüsselung und Kryptografie"
+          },
+          "pfad": "kap/I/abschnitt/4",
+          "kinder": [
+            {
+              "id": "art_6",
+              "art": "artikel",
+              "nummer": "6",
+              "titel": {
+                "de": "Verschlüsselung und kryptografische Kontrollen"
+              },
+              "pfad": "art/6",
+              "kinder": [
+                {
+                  "id": "006.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/6/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "006.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/6/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "006.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/6/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "006.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/6/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "006.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/6/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_7",
+              "art": "artikel",
+              "nummer": "7",
+              "titel": {
+                "de": "Management kryptografischer Schlüssel"
+              },
+              "pfad": "art/7",
+              "kinder": [
+                {
+                  "id": "007.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/7/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "007.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/7/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "007.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/7/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "007.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/7/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "007.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/7/abs/5",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_I_abschnitt_5",
+          "art": "abschnitt",
+          "nummer": "5",
+          "titel": {
+            "de": "IKT-Betriebssicherheit"
+          },
+          "pfad": "kap/I/abschnitt/5",
+          "kinder": [
+            {
+              "id": "art_8",
+              "art": "artikel",
+              "nummer": "8",
+              "titel": {
+                "de": "Richtlinien und Verfahren für IKT-Vorgänge"
+              },
+              "pfad": "art/8",
+              "kinder": [
+                {
+                  "id": "008.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/8/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "008.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/8/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_9",
+              "art": "artikel",
+              "nummer": "9",
+              "titel": {
+                "de": "Kapazitäts- und Leistungsmanagement"
+              },
+              "pfad": "art/9",
+              "kinder": [
+                {
+                  "id": "009.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/9/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "009.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/9/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_10",
+              "art": "artikel",
+              "nummer": "10",
+              "titel": {
+                "de": "Schwachstellen- und Patch-Management"
+              },
+              "pfad": "art/10",
+              "kinder": [
+                {
+                  "id": "010.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/10/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "010.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/10/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "010.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/10/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "010.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/10/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_11",
+              "art": "artikel",
+              "nummer": "11",
+              "titel": {
+                "de": "Daten- und Systemsicherheit"
+              },
+              "pfad": "art/11",
+              "kinder": [
+                {
+                  "id": "011.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/11/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "011.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/11/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_12",
+              "art": "artikel",
+              "nummer": "12",
+              "titel": {
+                "de": "Datenaufzeichnung"
+              },
+              "pfad": "art/12",
+              "kinder": [
+                {
+                  "id": "012.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/12/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "012.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/12/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_I_abschnitt_6",
+          "art": "abschnitt",
+          "nummer": "6",
+          "titel": {
+            "de": "Netzwerksicherheit"
+          },
+          "pfad": "kap/I/abschnitt/6",
+          "kinder": [
+            {
+              "id": "art_13",
+              "art": "artikel",
+              "nummer": "13",
+              "titel": {
+                "de": "Management der Netzwerksicherheit"
+              },
+              "pfad": "art/13",
+              "text": true
+            },
+            {
+              "id": "art_14",
+              "art": "artikel",
+              "nummer": "14",
+              "titel": {
+                "de": "Sicherung von Informationen bei der Übermittlung"
+              },
+              "pfad": "art/14",
+              "kinder": [
+                {
+                  "id": "014.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/14/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "014.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/14/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_I_abschnitt_7",
+          "art": "abschnitt",
+          "nummer": "7",
+          "titel": {
+            "de": "IKT-Projekt- und -Änderungsmanagement"
+          },
+          "pfad": "kap/I/abschnitt/7",
+          "kinder": [
+            {
+              "id": "art_15",
+              "art": "artikel",
+              "nummer": "15",
+              "titel": {
+                "de": "IKT-Projektmanagement"
+              },
+              "pfad": "art/15",
+              "kinder": [
+                {
+                  "id": "015.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/15/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "015.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/15/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "015.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/15/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "015.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/15/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "015.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/15/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_16",
+              "art": "artikel",
+              "nummer": "16",
+              "titel": {
+                "de": "Beschaffung, Entwicklung und Wartung von IKT-Systemen"
+              },
+              "pfad": "art/16",
+              "kinder": [
+                {
+                  "id": "016.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/16/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "016.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/16/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "016.003",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "art/16/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "016.004",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "art/16/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "016.005",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "art/16/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "016.006",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "art/16/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "016.007",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "art/16/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "016.008",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "art/16/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "016.009",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "art/16/abs/9",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "art_17",
+              "art": "artikel",
+              "nummer": "17",
+              "titel": {
+                "de": "IKT-Änderungsmanagement"
+              },
+              "pfad": "art/17",
+              "kinder": [
+                {
+                  "id": "017.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/17/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "017.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/17/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "kap_I_abschnitt_8",
+          "art": "abschnitt",
+          "nummer": "8",
+          "pfad": "kap/I/abschnitt/8",
+          "kinder": [
+            {
+              "id": "art_18",
+              "art": "artikel",
+              "nummer": "18",
+              "titel": {
+                "de": "Physische Sicherheit und Sicherheit vor Umweltereignissen"
+              },
+              "pfad": "art/18",
+              "kinder": [
+                {
+                  "id": "018.001",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "art/18/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "018.002",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "art/18/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_II",
+      "art": "kapitel",
+      "nummer": "II",
+      "titel": {
+        "de": "Richtlinien für Personalpolitik und Zugangskontrolle"
+      },
+      "pfad": "kap/II",
+      "kinder": [
+        {
+          "id": "art_19",
+          "art": "artikel",
+          "nummer": "19",
+          "titel": {
+            "de": "Richtlinien für Personalpolitik"
+          },
+          "pfad": "art/19",
+          "text": true
+        },
+        {
+          "id": "art_20",
+          "art": "artikel",
+          "nummer": "20",
+          "titel": {
+            "de": "Identitätsmanagement"
+          },
+          "pfad": "art/20",
+          "kinder": [
+            {
+              "id": "020.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/20/abs/1",
+              "text": true
+            },
+            {
+              "id": "020.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/20/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_21",
+          "art": "artikel",
+          "nummer": "21",
+          "titel": {
+            "de": "Zugangskontrolle"
+          },
+          "pfad": "art/21",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_III",
+      "art": "kapitel",
+      "nummer": "III",
+      "titel": {
+        "de": "Erkennung IKT-bezogener Vorfälle und Reaktion"
+      },
+      "pfad": "kap/III",
+      "kinder": [
+        {
+          "id": "art_22",
+          "art": "artikel",
+          "nummer": "22",
+          "titel": {
+            "de": "Richtlinien für die Behandlung IKT-bezogener Vorfälle"
+          },
+          "pfad": "art/22",
+          "text": true
+        },
+        {
+          "id": "art_23",
+          "art": "artikel",
+          "nummer": "23",
+          "titel": {
+            "de": "Erkennung anormaler Aktivitäten und Kriterien für die Erkennung IKT-bezogener Vorfälle und die Reaktion auf solche Vorfälle"
+          },
+          "pfad": "art/23",
+          "kinder": [
+            {
+              "id": "023.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/23/abs/1",
+              "text": true
+            },
+            {
+              "id": "023.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/23/abs/2",
+              "text": true
+            },
+            {
+              "id": "023.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/23/abs/3",
+              "text": true
+            },
+            {
+              "id": "023.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/23/abs/4",
+              "text": true
+            },
+            {
+              "id": "023.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/23/abs/5",
+              "text": true
+            },
+            {
+              "id": "023.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/23/abs/6",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_IV",
+      "art": "kapitel",
+      "nummer": "IV",
+      "titel": {
+        "de": "Management der IKT-Geschäftsfortführung"
+      },
+      "pfad": "kap/IV",
+      "kinder": [
+        {
+          "id": "art_24",
+          "art": "artikel",
+          "nummer": "24",
+          "titel": {
+            "de": "Komponenten der IKT-Geschäftsfortführungsleitlinie"
+          },
+          "pfad": "art/24",
+          "kinder": [
+            {
+              "id": "024.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/24/abs/1",
+              "text": true
+            },
+            {
+              "id": "024.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/24/abs/2",
+              "text": true
+            },
+            {
+              "id": "024.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/24/abs/3",
+              "text": true
+            },
+            {
+              "id": "024.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/24/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_25",
+          "art": "artikel",
+          "nummer": "25",
+          "titel": {
+            "de": "Test des IKT-Geschäftsfortführungsplans"
+          },
+          "pfad": "art/25",
+          "kinder": [
+            {
+              "id": "025.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/25/abs/1",
+              "text": true
+            },
+            {
+              "id": "025.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/25/abs/2",
+              "text": true
+            },
+            {
+              "id": "025.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/25/abs/3",
+              "text": true
+            },
+            {
+              "id": "025.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/25/abs/4",
+              "text": true
+            },
+            {
+              "id": "025.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/25/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_26",
+          "art": "artikel",
+          "nummer": "26",
+          "titel": {
+            "de": "IKT-Reaktions- und Wiederherstellungspläne"
+          },
+          "pfad": "art/26",
+          "kinder": [
+            {
+              "id": "026.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/26/abs/1",
+              "text": true
+            },
+            {
+              "id": "026.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/26/abs/2",
+              "text": true
+            },
+            {
+              "id": "026.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/26/abs/3",
+              "text": true
+            },
+            {
+              "id": "026.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/26/abs/4",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_V",
+      "art": "kapitel",
+      "nummer": "V",
+      "titel": {
+        "de": "Bericht über die Überprüfung des IKT-Risikomanagementrahmens"
+      },
+      "pfad": "kap/V",
+      "kinder": [
+        {
+          "id": "art_27",
+          "art": "artikel",
+          "nummer": "27",
+          "titel": {
+            "de": "Format und Inhalt des Berichts über die Überprüfung des IKT-Risikomanagementrahmens"
+          },
+          "pfad": "art/27",
+          "kinder": [
+            {
+              "id": "027.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/27/abs/1",
+              "text": true
+            },
+            {
+              "id": "027.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/27/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_III",
+      "art": "teil",
+      "nummer": "III",
+      "titel": {
+        "de": "VEREINFACHTER IKT-RISIKOMANAGEMENTRAHMEN FÜR DIE IN ARTIKEL 16 ABSATZ 1 DER VERORDNUNG (EU) 2022/2554 GENANNTEN FINANZUNTERNEHMEN"
+      },
+      "pfad": "kap/III"
+    },
+    {
+      "id": "kap_I",
+      "art": "kapitel",
+      "nummer": "I",
+      "titel": {
+        "de": "Vereinfachter IKT-Risikomanagementrahmen"
+      },
+      "pfad": "kap/I",
+      "kinder": [
+        {
+          "id": "art_28",
+          "art": "artikel",
+          "nummer": "28",
+          "titel": {
+            "de": "Governance und Organisation"
+          },
+          "pfad": "art/28",
+          "kinder": [
+            {
+              "id": "028.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/28/abs/1",
+              "text": true
+            },
+            {
+              "id": "028.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/28/abs/2",
+              "text": true
+            },
+            {
+              "id": "028.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/28/abs/3",
+              "text": true
+            },
+            {
+              "id": "028.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/28/abs/4",
+              "text": true
+            },
+            {
+              "id": "028.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/28/abs/5",
+              "text": true
+            },
+            {
+              "id": "028.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/28/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_29",
+          "art": "artikel",
+          "nummer": "29",
+          "titel": {
+            "de": "Informationssicherheitsleitlinien und -maßnahmen"
+          },
+          "pfad": "art/29",
+          "kinder": [
+            {
+              "id": "029.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/29/abs/1",
+              "text": true
+            },
+            {
+              "id": "029.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/29/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_30",
+          "art": "artikel",
+          "nummer": "30",
+          "titel": {
+            "de": "Klassifizierung von Informations- und IKT-Assets"
+          },
+          "pfad": "art/30",
+          "kinder": [
+            {
+              "id": "030.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/30/abs/1",
+              "text": true
+            },
+            {
+              "id": "030.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/30/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_31",
+          "art": "artikel",
+          "nummer": "31",
+          "titel": {
+            "de": "IKT-Risikomanagement"
+          },
+          "pfad": "art/31",
+          "kinder": [
+            {
+              "id": "031.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/31/abs/1",
+              "text": true
+            },
+            {
+              "id": "031.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/31/abs/2",
+              "text": true
+            },
+            {
+              "id": "031.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/31/abs/3",
+              "text": true
+            },
+            {
+              "id": "031.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/31/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_32",
+          "art": "artikel",
+          "nummer": "32",
+          "titel": {
+            "de": "Physische Sicherheit und Sicherheit vor Umweltereignissen"
+          },
+          "pfad": "art/32",
+          "kinder": [
+            {
+              "id": "032.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/32/abs/1",
+              "text": true
+            },
+            {
+              "id": "032.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/32/abs/2",
+              "text": true
+            },
+            {
+              "id": "032.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/32/abs/3",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_II",
+      "art": "kapitel",
+      "nummer": "II",
+      "titel": {
+        "de": "Weitere Elemente der Systeme, Protokolle und Tools zur Minimierung der Auswirkungen von IKT-Risiken"
+      },
+      "pfad": "kap/II",
+      "kinder": [
+        {
+          "id": "art_33",
+          "art": "artikel",
+          "nummer": "33",
+          "titel": {
+            "de": "Zugangskontrolle"
+          },
+          "pfad": "art/33",
+          "text": true
+        },
+        {
+          "id": "art_34",
+          "art": "artikel",
+          "nummer": "34",
+          "titel": {
+            "de": "IKT-Betriebssicherheit"
+          },
+          "pfad": "art/34",
+          "text": true
+        },
+        {
+          "id": "art_35",
+          "art": "artikel",
+          "nummer": "35",
+          "titel": {
+            "de": "Daten-, System- und Netzwerksicherheit"
+          },
+          "pfad": "art/35",
+          "text": true
+        },
+        {
+          "id": "art_36",
+          "art": "artikel",
+          "nummer": "36",
+          "titel": {
+            "de": "IKT-Sicherheitstests"
+          },
+          "pfad": "art/36",
+          "kinder": [
+            {
+              "id": "036.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/36/abs/1",
+              "text": true
+            },
+            {
+              "id": "036.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/36/abs/2",
+              "text": true
+            },
+            {
+              "id": "036.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/36/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_37",
+          "art": "artikel",
+          "nummer": "37",
+          "titel": {
+            "de": "Beschaffung, Entwicklung und Wartung von IKT-Systemen"
+          },
+          "pfad": "art/37",
+          "text": true
+        },
+        {
+          "id": "art_38",
+          "art": "artikel",
+          "nummer": "38",
+          "titel": {
+            "de": "IKT-Projekt- und -Änderungsmanagement"
+          },
+          "pfad": "art/38",
+          "kinder": [
+            {
+              "id": "038.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/38/abs/1",
+              "text": true
+            },
+            {
+              "id": "038.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/38/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_III",
+      "art": "kapitel",
+      "nummer": "III",
+      "titel": {
+        "de": "Management der IKT-Geschäftsfortführung"
+      },
+      "pfad": "kap/III",
+      "kinder": [
+        {
+          "id": "art_39",
+          "art": "artikel",
+          "nummer": "39",
+          "titel": {
+            "de": "Komponenten des IKT-Geschäftsfortführungsplans"
+          },
+          "pfad": "art/39",
+          "kinder": [
+            {
+              "id": "039.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/39/abs/1",
+              "text": true
+            },
+            {
+              "id": "039.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/39/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_40",
+          "art": "artikel",
+          "nummer": "40",
+          "titel": {
+            "de": "Testen der Geschäftsfortführungspläne"
+          },
+          "pfad": "art/40",
+          "kinder": [
+            {
+              "id": "040.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/40/abs/1",
+              "text": true
+            },
+            {
+              "id": "040.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/40/abs/2",
+              "text": true
+            },
+            {
+              "id": "040.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/40/abs/3",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_IV",
+      "art": "kapitel",
+      "nummer": "IV",
+      "titel": {
+        "de": "Bericht über die Überprüfung des vereinfachten IKT-Risikomanagementrahmens"
+      },
+      "pfad": "kap/IV",
+      "kinder": [
+        {
+          "id": "art_41",
+          "art": "artikel",
+          "nummer": "41",
+          "titel": {
+            "de": "Format und Inhalt des Berichts über die Überprüfung des vereinfachten IKT-Risikomanagementrahmens"
+          },
+          "pfad": "art/41",
+          "kinder": [
+            {
+              "id": "041.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/41/abs/1",
+              "text": true
+            },
+            {
+              "id": "041.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/41/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_IV",
+      "art": "teil",
+      "nummer": "IV",
+      "titel": {
+        "de": "SCHLUSSBESTIMMUNGEN"
+      },
+      "pfad": "kap/IV",
+      "kinder": [
+        {
+          "id": "art_42",
+          "art": "artikel",
+          "nummer": "42",
+          "titel": {
+            "de": "Inkrafttreten"
+          },
+          "pfad": "art/42",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

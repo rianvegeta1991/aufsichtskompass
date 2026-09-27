@@ -1,0 +1,3558 @@
+{
+  "002.001": {
+    "h": "59d2cb29b4c395509b87555c75a5997f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen stellen sicher, dass ihre IKT-Sicherheitsrichtlinien, die Informationssicherheit und die damit verbundenen Verfahren, Protokolle und Tools nach Artikel 9 Absatz 2 der Verordnung (EU) 2022/2554 in ihren IKT-Risikomanagementrahmen eingebettet sind. Die Finanzunternehmen legen Richtlinien, Verfahren, Protokolle und Tools für IKT-Sicherheit nach diesem Kapitel fest, die"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Netzwerksicherheit gewährleisten;"
+          },
+          {
+            "m": "b)",
+            "t": "Schutzvorkehrungen gegen Eindringen und Missbrauch von Daten umfassen;"
+          },
+          {
+            "m": "c)",
+            "t": "die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit von Daten wahren, einschließlich durch den Einsatz kryptografischer Techniken;"
+          },
+          {
+            "m": "d)",
+            "t": "eine präzise und rasche Datenübermittlung ohne wesentliche Störungen und unangemessene Verzögerungen gewährleisten."
+          }
+        ]
+      }
+    ]
+  },
+  "002.002": {
+    "h": "f08585753e117ec5e53382ed98ed0eb9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen stellen sicher, dass die in Absatz 1 genannten IKT-Sicherheitsrichtlinien"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "auf die Ziele für die Informationssicherheit des Finanzunternehmens abgestimmt sind, die in der in Artikel 6 Absatz 8 der Verordnung (EU) 2022/2554 genannten Strategie für die digitale operationale Resilienz enthalten sind;"
+          },
+          {
+            "m": "b)",
+            "t": "das Datum der förmlichen Genehmigung der IKT-Sicherheitsrichtlinien durch das Leitungsorgan enthalten;"
+          },
+          {
+            "m": "c)",
+            "t": "Indikatoren und Maßnahmen für Folgendes umfassen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Überwachung der Implementierung der Richtlinien, Verfahren, Protokolle und Tools für IKT-Sicherheit,"
+              },
+              {
+                "m": "ii)",
+                "t": "Erfassung von Ausnahmen von dieser Implementierung,"
+              },
+              {
+                "m": "iii)",
+                "t": "Gewährleistung, dass bei Ausnahmen im Sinne von Ziffer ii die digitale operationale Resilienz des Finanzunternehmens sichergestellt ist;"
+              }
+            ]
+          },
+          {
+            "m": "d)",
+            "t": "die Verantwortlichkeiten der Mitarbeiter auf allen Ebenen festlegen, um die IKT-Sicherheit des Finanzunternehmens zu gewährleisten;"
+          },
+          {
+            "m": "e)",
+            "t": "die Folgen einer Nichteinhaltung der IKT-Sicherheitsrichtlinien durch Mitarbeiter des Finanzunternehmens spezifizieren, sofern einschlägige Bestimmungen nicht in anderen Richtlinien des Finanzunternehmens enthalten sind;"
+          },
+          {
+            "m": "f)",
+            "t": "ein Verzeichnis der erforderlichen Dokumentation umfassen;"
+          },
+          {
+            "m": "g)",
+            "t": "die Regelungen für die Aufgabentrennung nach dem Modell der drei Verteidigungslinien oder gegebenenfalls einem anderen internen Modell für Risikomanagement und Kontrolle spezifizieren, um Interessenkonflikte zu vermeiden;"
+          },
+          {
+            "m": "h)",
+            "t": "führende Praktiken und gegebenenfalls Normen im Sinne des Artikels 2 Nummer 1 der Verordnung (EU) Nr. 1025/2012 berücksichtigen;"
+          },
+          {
+            "m": "i)",
+            "t": "die Aufgaben und Verantwortlichkeiten für die Entwicklung, Implementierung und Aufrechterhaltung von Richtlinien, Verfahren, Protokollen und Tools für IKT-Sicherheit festlegen;"
+          },
+          {
+            "m": "j)",
+            "t": "im Einklang mit Artikel 6 Absatz 5 der Verordnung (EU) 2022/2554 überprüft werden;"
+          },
+          {
+            "m": "k)",
+            "t": "wesentliche Änderungen in Bezug auf das Finanzunternehmen, einschließlich wesentlicher Änderungen der Tätigkeiten oder Prozesse des Finanzunternehmens, der Cyberbedrohungslage oder der geltenden rechtlichen Verpflichtungen, berücksichtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "004.001": {
+    "h": "a63695c963ad4380b60609cb402c083f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der in Artikel 9 Absatz 2 der Verordnung (EU) 2022/2554 genannten IKT-Sicherheitsrichtlinien, -verfahren, -protokolle und -Tools eine Richtlinie für das Management von IKT-Assets."
+      }
+    ]
+  },
+  "004.002": {
+    "h": "2ea937328887cad84c9b9f6b57b25c2c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannte Richtlinie für das Management von IKT-Assets enthält"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Vorschriften für die Überwachung und das Management des Lebenszyklus von IKT-Assets, die gemäß Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 ermittelt und klassifiziert werden;"
+          },
+          {
+            "m": "b)",
+            "t": "Vorschriften, wonach das Finanzunternehmen in seinen Aufzeichnungen Folgendes erfasst:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die eindeutige Kennung jedes IKT-Assets,"
+              },
+              {
+                "m": "ii)",
+                "t": "Informationen über den physischen oder logischen Standort aller IKT-Assets,"
+              },
+              {
+                "m": "iii)",
+                "t": "die Klassifizierung aller IKT-Assets gemäß Artikel 8 Absatz 1 der Verordnung (EU) 2022/2254,"
+              },
+              {
+                "m": "iv)",
+                "t": "die Identität der Eigentümer von IKT-Assets,"
+              },
+              {
+                "m": "v)",
+                "t": "die Unternehmensfunktionen oder -dienstleistungen, die durch das IKT-Asset unterstützt werden,"
+              },
+              {
+                "m": "vi)",
+                "t": "die für die IKT-Geschäftsfortführung geltenden Anforderungen, einschließlich der Vorgaben für die Wiederherstellungszeit und die Wiederherstellungspunkte,"
+              },
+              {
+                "m": "vii)",
+                "t": "die Möglichkeit eines Zugriffs auf das IKT-Asset über externe Netzwerke, einschließlich des Internets,"
+              },
+              {
+                "m": "viii)",
+                "t": "die Verbindungen und Interdependenzen zwischen IKT-Assets und den Unternehmensfunktionen, die die einzelnen IKT-Assets nutzen,"
+              },
+              {
+                "m": "ix)",
+                "t": "für alle IKT-Assets gegebenenfalls die Fristen bis zum Ende des Zeitraums, in dem die regelmäßigen, erweiterten und kundenspezifischen Unterstützungsdienstleistungen des IKT-Drittdienstleisters bereitgestellt werden und nach dem diese IKT-Assets nicht mehr von ihrem Anbieter oder einem IKT-Drittdienstleister unterstützt werden;"
+              }
+            ]
+          },
+          {
+            "m": "c)",
+            "t": "Vorschriften für Finanzunternehmen, bei denen es sich nicht um Kleinstunternehmen handelt, wonach diese Finanzunternehmen Aufzeichnungen über die Informationen führen, die für die Durchführung einer spezifischen IKT-Risikobewertung aller IKT-Altsysteme nach Artikel 8 Absatz 7 der Verordnung (EU) 2022/2554 erforderlich sind."
+          }
+        ]
+      }
+    ]
+  },
+  "005.001": {
+    "h": "5411b704489f902a8c6950788c95f132",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren ein Verfahren für das Management von IKT-Assets."
+      }
+    ]
+  },
+  "005.002": {
+    "h": "d13f3e68b96374968efbd8e658e7e21b",
+    "b": [
+      {
+        "art": "p",
+        "t": "In dem in Absatz 1 genannten Verfahren für das Management von IKT-Assets werden die Kriterien festgelegt, nach denen die Bewertung der Kritikalität von Informationsassets und IKT-Assets, die Unternehmensfunktionen unterstützen, vorgenommen wird. Bei dieser Bewertung wird Folgendes berücksichtigt:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "das IKT-Risiko im Zusammenhang mit diesen Unternehmensfunktionen und deren Abhängigkeit von den Informationsassets oder IKT-Assets;"
+          },
+          {
+            "m": "b)",
+            "t": "mögliche Auswirkungen des Verlusts der Vertraulichkeit, Integrität und Verfügbarkeit solcher Informationsassets und IKT-Assets auf die Geschäftsprozesse und -tätigkeiten der Finanzunternehmen."
+          }
+        ]
+      }
+    ]
+  },
+  "006.001": {
+    "h": "da69e46202941d2768420c4615e22428",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der in Artikel 9 Absatz 2 der Verordnung (EU) 2022/2554 genannten IKT-Sicherheitsrichtlinien, -verfahren, -protokolle und -Tools eine Richtlinie für Verschlüsselung und kryptografische Kontrollen."
+      }
+    ]
+  },
+  "006.002": {
+    "h": "c8ecf35e3f93e4c5acf342ba3d4f4da0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen konzipieren die in Absatz 1 genannte Richtlinie für Verschlüsselung und kryptografische Kontrollen auf der Grundlage der Ergebnisse einer genehmigten Datenklassifizierung sowie der IKT-Risikobewertung. Diese Richtlinie enthält Vorschriften zu allen folgenden Aspekten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Verschlüsselung von Daten, die gespeichert sind oder gerade übermittelt werden;"
+          },
+          {
+            "m": "b)",
+            "t": "Verschlüsselung von Daten, die gerade verwendet werden, soweit erforderlich;"
+          },
+          {
+            "m": "c)",
+            "t": "Verschlüsselung der internen Netzwerkverbindungen und der Datenübermittlungen mit externen Parteien;"
+          },
+          {
+            "m": "d)",
+            "t": "Management kryptografischer Schlüssel nach Artikel 7, um die Regeln für die korrekte Verwendung, den Schutz und den Lebenszyklus kryptografischer Schlüssel festzulegen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Ist eine Verschlüsselung gerade verwendeter Daten nicht möglich, verarbeiten die Finanzunternehmen für die Zwecke von Buchstabe b gerade verwendete Daten in einer getrennten und geschützten Umgebung oder ergreifen gleichwertige Maßnahmen, um die Vertraulichkeit, Integrität, Authentizität und Verfügbarkeit der Daten zu gewährleisten."
+      }
+    ]
+  },
+  "006.003": {
+    "h": "7be167c1bd65c1985ddb496c0f18a5cf",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen nehmen in die in Absatz 1 genannte Richtlinie für Verschlüsselung und kryptografische Kontrollen Kriterien für die Auswahl kryptografischer Techniken und Nutzungspraktiken auf, wobei führende Praktiken und Normen im Sinne des Artikels 2 Nummer 1 der Verordnung (EU) Nr. 1025/2012 sowie die Klassifizierung einschlägiger IKT-Assets gemäß Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 zu berücksichtigen sind. Finanzunternehmen, die nicht in der Lage sind, die führenden Praktiken oder Normen einzuhalten oder die zuverlässigsten Techniken anzuwenden, ergreifen Abhilfe- und Überwachungsmaßnahmen, die die Resilienz gegenüber Cyberbedrohungen gewährleisten."
+      }
+    ]
+  },
+  "006.004": {
+    "h": "6bb7c26cb39d2cd542a44cbdbd5523bc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen nehmen in die in Absatz 1 genannte Richtlinie für Verschlüsselung und kryptografische Kontrollen Bestimmungen auf, in denen geregelt ist, wie die kryptografische Technologie aufgrund von Entwicklungen im Bereich der Kryptoanalyse gegebenenfalls zu aktualisieren oder zu ändern ist. Mit solchen Aktualisierungen oder Änderungen wird sichergestellt, dass die kryptografische Technologie nach Maßgabe von Artikel 10 Absatz 2 Buchstabe a gegen Cyberbedrohungen resilient bleibt. Finanzunternehmen, die nicht in der Lage sind, die kryptografische Technologie zu aktualisieren oder zu ändern, ergreifen Abhilfe- und Überwachungsmaßnahmen, die die Resilienz gegenüber Cyberbedrohungen sicherstellen."
+      }
+    ]
+  },
+  "006.005": {
+    "h": "e3565fc9abb61ee946f882d97af37c33",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen nehmen in die in Absatz 1 genannte Richtlinie für Verschlüsselung und kryptografische Kontrollen eine Anforderung auf, nach der die Annahme von Abhilfe- und Überwachungsmaßnahmen im Einklang mit den Absätzen 3 und 4 aufzuzeichnen und zu begründen ist."
+      }
+    ]
+  },
+  "007.001": {
+    "h": "e1a64a85282292f5404d99217b0d5807",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen nehmen in die in Artikel 6 Absatz 2 Buchstabe d genannte Richtlinie für das Management kryptografischer Schlüssel Anforderungen auf, die für das Management kryptografischer Schlüssel über ihren gesamten Lebenszyklus hinweg gelten, einschließlich mit Blick auf die Generierung, Erneuerung, Speicherung, Sicherung, Archivierung, den Abruf, die Übermittlung, Rücknahme, den Widerruf und die Vernichtung dieser kryptografischen Schlüssel."
+      }
+    ]
+  },
+  "007.002": {
+    "h": "176db4c95d76f09bdb094bc1de8b6119",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen ermitteln und implementieren Kontrollen, um kryptografische Schlüssel während ihres gesamten Lebenszyklus vor Verlust, unbefugtem Zugriff, Offenlegung und Änderung zu schützen. Die Finanzunternehmen konzipieren diese Kontrollen auf der Grundlage der Ergebnisse der genehmigten Datenklassifizierung und der IKT-Risikobewertung."
+      }
+    ]
+  },
+  "007.003": {
+    "h": "eac3c8ad922ed4893c778e3d43bc3a81",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln und implementieren Methoden, um die kryptografischen Schlüssel im Verlustfall oder bei Beeinträchtigungen oder Beschädigungen dieser Schlüssel auszutauschen."
+      }
+    ]
+  },
+  "007.004": {
+    "h": "6e1020870c7d9f6ccb7dc59c9a2fe23f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen erstellen und führen für mindestens diejenigen IKT-Assets, die kritische oder wichtige Funktionen unterstützen, ein Register aller Zertifikate und Zertifikatspeicher. Die Finanzunternehmen halten dieses Register auf dem neuesten Stand."
+      }
+    ]
+  },
+  "007.005": {
+    "h": "e17209f3987ae87a3739d229a47cae08",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen stellen sicher, dass die Zertifikate vor Ablauf unverzüglich erneuert werden."
+      }
+    ]
+  },
+  "008.001": {
+    "h": "bba25a4084777913b83cfd3d4e7b3dd1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der in Artikel 9 Absatz 2 der Verordnung (EU) 2022/2554 genannten IKT-Sicherheitsrichtlinien, -verfahren, -protokolle und -Tools Richtlinien und Verfahren für das Management der IKT-Vorgänge. In diesen Richtlinien und Verfahren wird festgelegt, wie Finanzunternehmen ihre IKT-Assets betreiben, überwachen, kontrollieren und wiederherstellen, einschließlich der Dokumentation der IKT-Vorgänge."
+      }
+    ]
+  },
+  "008.002": {
+    "h": "29dbd6023c513821429c827f18161020",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Richtlinien und Verfahren für IKT-Vorgänge enthalten alle folgenden Elemente:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "eine Beschreibung der IKT-Assets, einschließlich aller folgenden Elemente:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Anforderungen an die sichere Installation, Wartung, Konfiguration und Deinstallation eines IKT-Systems,"
+              },
+              {
+                "m": "ii)",
+                "t": "Anforderungen an das Management von Informationsassets, die von IKT-Assets genutzt werden, einschließlich ihrer automatisierten und manuellen Verarbeitung und Behandlung,"
+              },
+              {
+                "m": "iii)",
+                "t": "Anforderungen an die Ermittlung und Kontrolle von IKT-Altsystemen;"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "Kontrollen und Überwachung für IKT-Systeme, einschließlich aller folgenden Elemente:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Anforderungen an die Sicherung und Wiederherstellung von IKT-Systemen,"
+              },
+              {
+                "m": "ii)",
+                "t": "Anforderungen an zeitliche Abläufe unter Berücksichtigung der Interdependenzen zwischen den IKT-Systemen,"
+              },
+              {
+                "m": "iii)",
+                "t": "Protokolle für Prüfpfad- und Systemprotokollinformationen,"
+              },
+              {
+                "m": "iv)",
+                "t": "Anforderungen, mit denen sichergestellt wird, dass bei der Durchführung einer internen Prüfung und anderer Tests Störungen des Geschäftsbetriebs minimiert werden,"
+              },
+              {
+                "m": "v)",
+                "t": "Anforderungen an die Trennung von IKT-Produktionsumgebungen von Entwicklungs-, Test- und anderen Nicht-Produktionsumgebungen,"
+              },
+              {
+                "m": "vi)",
+                "t": "Anforderungen hinsichtlich der Durchführung von Entwicklungs- und Testtätigkeiten in Umgebungen, die von der Produktionsumgebung getrennt sind,"
+              },
+              {
+                "m": "vii)",
+                "t": "Anforderungen im Zusammenhang mit Situationen, in denen die Entwicklungs- und Testtätigkeiten in Produktionsumgebungen durchgeführt werden;"
+              }
+            ]
+          },
+          {
+            "m": "c)",
+            "t": "Fehlerbehandlung bei IKT-Systemen, einschließlich aller folgenden Elemente:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Verfahren und Protokolle für die Fehlerbehandlung,"
+              },
+              {
+                "m": "ii)",
+                "t": "Unterstützung und Ansprechpartner im Eskalationsfall, einschließlich externer Ansprechpartner für die Unterstützung im Falle unerwarteter operationaler oder technischer Probleme,"
+              },
+              {
+                "m": "iii)",
+                "t": "Verfahren für den Neustart, das Zurücksetzen und die Wiederherstellung von IKT-Systemen im Falle einer Störung des IKT-Systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe b Ziffer v werden bei der Trennung alle Komponenten der Umgebung berücksichtigt, einschließlich Konten, Daten oder Verbindungen, wie in Artikel 13 Absatz 1 Buchstabe a festgelegt."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe b Ziffer vii ist in den in Absatz 1 genannten Richtlinien und Verfahren vorzusehen, dass die Fälle, in denen Tests in einer Produktionsumgebung durchgeführt werden, eindeutig zu identifizieren, zu begründen und zeitlich zu begrenzen sind und von der betreffenden Funktion im Einklang mit Artikel 16 Absatz 6 genehmigt werden. Die Finanzunternehmen stellen während der Entwicklungs- und Testtätigkeiten in der Produktionsumgebung die Verfügbarkeit, Vertraulichkeit, Integrität und Authentizität von IKT-Systemen und -Produktionsdaten sicher."
+      }
+    ]
+  },
+  "009.001": {
+    "h": "73b0e897687d46709af7d3b1c625d1c8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der in Artikel 9 Absatz 2 der Verordnung (EU) 2022/2554 genannten IKT-Sicherheitsrichtlinien, -verfahren, -protokolle und -Tools Verfahren für das Kapazitäts- und Leistungsmanagement, die Folgendes betreffen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Ermittlung der Anforderungen an die Kapazität ihrer IKT-Systeme,"
+          },
+          {
+            "m": "b)",
+            "t": "die Anwendung von Methoden zur Ressourcenoptimierung,"
+          },
+          {
+            "m": "c)",
+            "t": "Überwachungsverfahren, um Folgendes aufrechtzuerhalten und zu verbessern:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die Verfügbarkeit von Daten und IKT-Systemen,"
+              },
+              {
+                "m": "ii)",
+                "t": "die Effizienz der IKT-Systeme,"
+              },
+              {
+                "m": "iii)",
+                "t": "die Verhinderung von IKT-Kapazitätsengpässen."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "009.002": {
+    "h": "60dc5e87a4846e81c2ecb13c7682ac5a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Durch die in Absatz 1 genannten Verfahren für das Kapazitäts- und Leistungsmanagement wird sichergestellt, dass die Finanzunternehmen geeignete Maßnahmen ergreifen, um den Besonderheiten von IKT-Systemen mit langen oder komplexen Beschaffungs- oder Genehmigungsverfahren oder von ressourcenintensiven IKT-Systemen Rechnung zu tragen."
+      }
+    ]
+  },
+  "010.001": {
+    "h": "116cbad0359edb2415a3fa5422cc0549",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der in Artikel 9 Absatz 2 der Verordnung (EU) 2022/2554 genannten IKT-Sicherheitsrichtlinien, -verfahren, -protokolle und -Tools Verfahren für das Schwachstellen-Management."
+      }
+    ]
+  },
+  "010.002": {
+    "h": "a324ba7d30295bca69cf8e829a35f32a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Verfahren für das Schwachstellen-Management sorgen dafür, dass"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "relevante und vertrauenswürdige Informationsressourcen ermittelt und aktualisiert werden, um für Schwachstellen zu sensibilisieren und das Bewusstsein dafür aufrechtzuerhalten,"
+          },
+          {
+            "m": "b)",
+            "t": "die Durchführung automatisierter Schwachstellenbewertungen und -scans bei IKT-Assets gewährleistet und dabei sichergestellt wird, dass deren Häufigkeit und Umfang der im Einklang mit Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 festgelegten Klassifizierung und dem Gesamtrisikoprofil des IKT-Assets entsprechen,"
+          },
+          {
+            "m": "c)",
+            "t": "überprüft wird, ob",
+            "u": [
+              {
+                "m": "i)",
+                "t": "IKT-Drittdienstleister Schwachstellen angehen, die im Zusammenhang mit den IKT-Dienstleistungen für das Finanzunternehmen stehen,"
+              },
+              {
+                "m": "ii)",
+                "t": "diese Dienstleister dem Finanzunternehmen zumindest die kritischen Schwachstellen und Statistiken und Trends zeitnah melden;"
+              }
+            ]
+          },
+          {
+            "m": "d)",
+            "t": "nachverfolgt wird, wie Folgendes verwendet wird:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Bibliotheken Dritter, einschließlich Open-Source-Bibliotheken, die für IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen genutzt werden,"
+              },
+              {
+                "m": "ii)",
+                "t": "IKT-Dienstleistungen, die das Finanzunternehmen selbst entwickelt hat oder von einem IKT-Drittdienstleister speziell für das Finanzunternehmen angepasst oder entwickelt wurden;"
+              }
+            ]
+          },
+          {
+            "m": "e)",
+            "t": "Verfahren für die verantwortungsvolle Offenlegung von Schwachstellen gegenüber Kunden, Gegenparteien und der Öffentlichkeit festgelegt werden,"
+          },
+          {
+            "m": "f)",
+            "t": "die Einführung von Patches und anderen Abhilfemaßnahmen priorisiert wird, um die ermittelten Schwachstellen zu beheben,"
+          },
+          {
+            "m": "g)",
+            "t": "die Behebung von Schwachstellen überwacht und geprüft wird,"
+          },
+          {
+            "m": "h)",
+            "t": "eine Aufzeichnung aller festgestellten Schwachstellen, die IKT-Systeme betreffen, und die Überwachung der Behebung dieser Schwachstellen verlangt werden."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe b führen die Finanzunternehmen die automatisierten Schwachstellenbewertungen und -scans für IKT-Assets bei IKT-Assets, die kritische oder wichtige Funktionen unterstützen, mindestens einmal wöchentlich durch."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe c fordern die Finanzunternehmen IKT-Drittdienstleister auf, die einschlägigen Schwachstellen zu untersuchen, die Ursachen zu ermitteln und geeignete Abhilfemaßnahmen zu ergreifen."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe d überwachen die Finanzunternehmen, gegebenenfalls in Zusammenarbeit mit dem IKT-Drittdienstleister, die aktuelle Version der Bibliotheken Dritter sowie mögliche Aktualisierungen. Was gebrauchsfertige (Standard-)IKT-Assets oder Komponenten von IKT-Assets betrifft, die für die Ausführung von IKT-Dienstleistungen erworben und verwendet werden, die keine kritischen oder wichtigen Funktionen unterstützen, wird die Nutzung von Bibliotheken Dritter, einschließlich Open-Source-Bibliotheken, von den Finanzunternehmen soweit wie möglich nachverfolgt."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe f berücksichtigen die Finanzunternehmen die Kritikalität der Schwachstelle, die im Einklang mit Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 festgelegte Klassifizierung sowie das Risikoprofil der IKT-Assets, die von den ermittelten Schwachstellen betroffen sind."
+      }
+    ]
+  },
+  "010.003": {
+    "h": "3ffdac308bac924e77cb1a06ca209f99",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der in Artikel 9 Absatz 2 der Verordnung (EU) 2022/2554 genannten IKT-Sicherheitsrichtlinien, -verfahren, -protokolle und -Tools Verfahren für das Patch-Management."
+      }
+    ]
+  },
+  "010.004": {
+    "h": "5f0627136dd0c4de5da75f94258496a4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 3 genannten Verfahren für das Patch-Management dienen dazu,"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "soweit möglich verfügbare Software- und Hardware-Patches und -Aktualisierungen mithilfe automatisierter Tools zu ermitteln und zu bewerten;"
+          },
+          {
+            "m": "b)",
+            "t": "Notfallverfahren für das Patching und die Aktualisierung von IKT-Assets zu ermitteln;"
+          },
+          {
+            "m": "c)",
+            "t": "Software- und Hardware-Patches und die Aktualisierungen gemäß Artikel 8 Absatz 2 Buchstabe b Ziffern v, vi und vii zu testen und einzuführen;"
+          },
+          {
+            "m": "d)",
+            "t": "Fristen für die Installation von Software- und Hardware-Patches und von Aktualisierungen zu setzen sowie Eskalationsverfahren für den Fall festzulegen, dass diese Fristen nicht eingehalten werden können."
+          }
+        ]
+      }
+    ]
+  },
+  "011.001": {
+    "h": "c83b42e7d037d51948007a690f32d0b6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der in Artikel 9 Absatz 2 der Verordnung (EU) 2022/2554 genannten IKT-Sicherheitsrichtlinien, -verfahren, -protokolle und -Tools ein Verfahren für die Daten- und Systemsicherheit."
+      }
+    ]
+  },
+  "011.002": {
+    "h": "7c4fa8115a5fa4efd104dff6b11aac6b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das in Absatz 1 genannte Verfahren für die Daten- und Systemsicherheit umfasst alle folgenden Elemente im Zusammenhang mit der Daten- und IKT-Systemsicherheit im Einklang mit der gemäß Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 festgelegten Klassifizierung:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die in Artikel 21 dieser Verordnung genannten Zugangsbeschränkungen zur Unterstützung der Anforderungen im Zusammenhang mit dem Schutz für jede Klassifizierungsstufe;"
+          },
+          {
+            "m": "b)",
+            "t": "die Ermittlung von Mindestanforderungen an eine sichere Konfigurationsbasis für IKT-Assets, durch die die Exposition dieser IKT-Assets gegenüber Cyberbedrohungen minimiert wird, sowie Maßnahmen zur regelmäßigen Überprüfung, ob diese Mindestanforderungen wirksam verwendet werden;"
+          },
+          {
+            "m": "c)",
+            "t": "die Ermittlung von Sicherheitsmaßnahmen, um zu gewährleisten, dass ausschließlich zugelassene Software in IKT-Systemen und Endgeräten installiert wird;"
+          },
+          {
+            "m": "d)",
+            "t": "die Ermittlung von Sicherheitsmaßnahmen gegen Schadprogramme;"
+          },
+          {
+            "m": "e)",
+            "t": "die Ermittlung von Sicherheitsmaßnahmen, um zu gewährleisten, dass ausschließlich zugelassene Datenträger, Systeme und Endgeräte für die Übermittlung und Speicherung von Daten des Finanzunternehmens verwendet werden;"
+          },
+          {
+            "m": "f)",
+            "t": "die folgenden Anforderungen, um die sichere Nutzung tragbarer Endgeräte und privater nicht tragbarer Endgeräte zu gewährleisten:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die Anforderung einer Lösung für das Management der Endgeräte und die Löschung von Daten des Finanzunternehmens durch Fernzugriff,"
+              },
+              {
+                "m": "ii)",
+                "t": "die Anforderung, Sicherheitsmechanismen zu verwenden, die von den Mitarbeitern oder IKT-Drittdienstleistern nicht auf unbefugte Weise geändert, entfernt oder umgangen werden können,"
+              },
+              {
+                "m": "iii)",
+                "t": "die Anforderung, mobile Datenspeicher nur dann zu verwenden, wenn das IKT-Restrisiko unter der in Artikel 3 Absatz 1 Buchstabe a genannten Risikotoleranzschwelle des Finanzunternehmens liegt;"
+              }
+            ]
+          },
+          {
+            "m": "g)",
+            "t": "das Verfahren zur sicheren Löschung von Daten in den Räumlichkeiten des Finanzunternehmens oder von extern gespeicherten Daten, die das Finanzunternehmen nicht mehr erheben oder speichern muss;"
+          },
+          {
+            "m": "h)",
+            "t": "das Verfahren zur sicheren Entsorgung oder Außerbetriebnahme von Datenspeichern in den Räumlichkeiten des Finanzunternehmens oder von extern aufbewahrten Datenspeichern, die vertrauliche Informationen enthalten;"
+          },
+          {
+            "m": "i)",
+            "t": "die Ermittlung und Implementierung von Sicherheitsmaßnahmen zur Verhinderung von Datenverlust und Datenlecks bei Systemen und Endgeräten;"
+          },
+          {
+            "m": "j)",
+            "t": "die Implementierung von Sicherheitsmaßnahmen, um zu gewährleisten, dass Telearbeit und die Nutzung privater Endgeräte nicht die IKT-Sicherheit des Finanzunternehmens beeinträchtigen;"
+          },
+          {
+            "m": "k)",
+            "t": "für IKT-Assets oder -Dienstleistungen, die von einem IKT- Drittdienstleister betrieben werden, die Ermittlung und Umsetzung von Anforderungen an die Aufrechterhaltung der digitalen operationalen Resilienz im Einklang mit den Ergebnissen der Datenklassifizierung und der IKT-Risikobewertung."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe b werden im Rahmen der dort genannten sicheren Konfigurationsbasis die führenden Praktiken und geeigneten Techniken berücksichtigt, die in den Normen im Sinne des Artikels 2 Nummer 1 der Verordnung (EU) Nr. 1025/2012 festgelegt sind."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe k berücksichtigen Finanzunternehmen Folgendes:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Implementierung der vom Anbieter empfohlenen Einstellungen für Komponenten, die vom Finanzunternehmen betrieben werden;"
+          },
+          {
+            "m": "b)",
+            "t": "eine klare Aufteilung der die Informationssicherheit betreffenden Aufgaben und Verantwortlichkeiten zwischen dem Finanzunternehmen und dem IKT-Drittdienstleister im Einklang mit dem in Artikel 28 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 genannten Grundsatz der vollen Verantwortlichkeit des Finanzunternehmens für seinen IKT-Drittdienstleister und für Finanzunternehmen nach Artikel 28 Absatz 2 der genannten Verordnung sowie im Einklang mit der Richtlinie des Finanzunternehmens für die Nutzung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen;"
+          },
+          {
+            "m": "c)",
+            "t": "die Notwendigkeit, innerhalb des Finanzunternehmens angemessene Kompetenzen für das Management und die Sicherheit der in Anspruch genommenen Dienstleistungen sicherzustellen und aufrechtzuerhalten;"
+          },
+          {
+            "m": "d)",
+            "t": "technische und organisatorische Maßnahmen zur Minimierung der Risiken im Zusammenhang mit der Infrastruktur, die der IKT-Drittdienstleister für seine IKT-Dienstleistungen nutzt, unter Berücksichtigung führender Praktiken und Normen im Sinne des Artikels 2 Nummer 1 der Verordnung (EU) Nr. 1025/2012."
+          }
+        ]
+      }
+    ]
+  },
+  "012.001": {
+    "h": "3dc4d68de88b6959d47c46187250ae6b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der Schutzvorkehrungen gegen Eindringen und Missbrauch von Daten Verfahren, Protokolle und Tools für die Datenaufzeichnung."
+      }
+    ]
+  },
+  "012.002": {
+    "h": "8702bb66afa3b6305381e39391334db2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Verfahren, Protokolle und Tools für die Datenaufzeichnung umfassen alle folgenden Elemente:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Ermittlung der aufzuzeichnenden Ereignisse, die Speicherfrist für die Datenaufzeichnungen und die Maßnahmen zur Sicherung und Verarbeitung der Aufzeichnungsdaten unter Berücksichtigung des Zwecks, für den die Datenaufzeichnungen erstellt werden;"
+          },
+          {
+            "m": "b)",
+            "t": "die Abstimmung des Detaillierungsgrads der Datenaufzeichnungen auf deren Zweck und Verwendung, um die wirksame Erkennung anomaler Aktivitäten nach Artikel 24 zu ermöglichen;"
+          },
+          {
+            "m": "c)",
+            "t": "die Anforderung, Ereignisse aufzuzeichnen, die sämtliche der folgenden Aspekte betreffen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "logische und physische Zugangskontrolle nach Artikel 21 und Identitätsmanagement,"
+              },
+              {
+                "m": "ii)",
+                "t": "Kapazitätsmanagement,"
+              },
+              {
+                "m": "iii)",
+                "t": "Änderungsmanagement,"
+              },
+              {
+                "m": "iv)",
+                "t": "IKT-Vorgänge, einschließlich IKT-Systemaktivitäten,"
+              },
+              {
+                "m": "v)",
+                "t": "Netzwerkverkehrsaktivitäten, einschließlich der Leistung der IKT-Netzwerke;"
+              }
+            ]
+          },
+          {
+            "m": "d)",
+            "t": "Maßnahmen zum Schutz von Datenaufzeichnungssystemen und -informationen vor Manipulation, Löschung und unbefugtem Zugriff mit Blick auf gespeicherte, übermittelte oder gegebenenfalls gerade verwendete Daten;"
+          },
+          {
+            "m": "e)",
+            "t": "Maßnahmen zur Erkennung eines Ausfalls von Datenaufzeichnungssystemen;"
+          },
+          {
+            "m": "f)",
+            "t": "unbeschadet etwaiger im Unionsrecht oder nationalen Recht festgelegter anwendbarer rechtlicher Anforderungen die Synchronisierung der Uhren jedes IKT-Systems des Finanzunternehmens auf der Grundlage einer dokumentierten zuverlässigen Referenzzeitquelle."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe a legen die Finanzunternehmen die Speicherfrist fest und tragen dabei den Geschäftszielen und den Zielen für die Informationssicherheit, dem Grund, weshalb das Ereignis aufgezeichnet wurde, und den Ergebnissen der IKT-Risikobewertung Rechnung."
+      }
+    ]
+  },
+  "014.001": {
+    "h": "040239f57391383c8885fe1b18c3dd36",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der Schutzvorkehrungen zur Wahrung der Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit von Daten Richtlinien, Verfahren, Protokolle und Tools zum Schutz von Informationen, die übermittelt werden. Die Finanzunternehmen gewährleisten insbesondere Folgendes:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten während der Übermittlung über das Netzwerk und die Festlegung von Verfahren, um zu bewerten, ob diese Anforderungen eingehalten werden;"
+          },
+          {
+            "m": "b)",
+            "t": "die Verhinderung und Erkennung von Datenlecks und die sichere Übertragung von Informationen zwischen dem Finanzunternehmen und externen Parteien;"
+          },
+          {
+            "m": "c)",
+            "t": "die Implementierung, Dokumentation und regelmäßige Überprüfung der Anforderungen an Vertraulichkeits- oder Geheimhaltungsvereinbarungen, die dem Bedarf des Finanzunternehmens hinsichtlich des Schutzes von Informationen im Zusammenhang mit den Mitarbeitern des Finanzunternehmens und Dritten Rechnung tragen."
+          }
+        ]
+      }
+    ]
+  },
+  "014.002": {
+    "h": "51abc8867b68c24b5b88b02e2c860a37",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen konzipieren die Richtlinien, Protokolle und Tools zum Schutz von Informationen bei der Übermittlung nach Absatz 1 auf der Grundlage der Ergebnisse einer genehmigten Datenklassifizierung und der IKT-Risikobewertung."
+      }
+    ]
+  },
+  "015.001": {
+    "h": "711b7be63bd12af5ec68e8b55472ddf1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen der Schutzvorkehrungen zur Wahrung der Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten entwickeln, dokumentieren und implementieren die Finanzunternehmen Richtlinien für das IKT-Projektmanagement."
+      }
+    ]
+  },
+  "015.002": {
+    "h": "e2f13f8fe9c50bbd08b9f548f5b7a070",
+    "b": [
+      {
+        "art": "p",
+        "t": "In den in Absatz 1 genannten Richtlinien für das IKT-Projektmanagement werden die Elemente festgelegt, die ein wirksames Management der IKT-Projekte in Bezug auf die Beschaffung, die Wartung sowie gegebenenfalls die Entwicklung der IKT-Systeme des Finanzunternehmens gewährleisten."
+      }
+    ]
+  },
+  "015.003": {
+    "h": "bcfff11adae52fae7ea68df4b756bc90",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Richtlinien für das IKT-Projektmanagement müssen alles Folgende beinhalten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Ziele des IKT-Projekts,"
+          },
+          {
+            "m": "b)",
+            "t": "die Governance des IKT-Projekts, samt Aufgaben und Zuständigkeiten,"
+          },
+          {
+            "m": "c)",
+            "t": "die Planung, den zeitlichen Rahmen und die Etappen des IKT-Projekts,"
+          },
+          {
+            "m": "d)",
+            "t": "eine IKT-Projektrisikobewertung,"
+          },
+          {
+            "m": "e)",
+            "t": "die relevanten Etappenziele,"
+          },
+          {
+            "m": "f)",
+            "t": "die Anforderungen an das Änderungsmanagement,"
+          },
+          {
+            "m": "g)",
+            "t": "das Testen aller Anforderungen, einschließlich der Sicherheitsanforderungen, und das zugehörige Genehmigungsverfahren bei der Einführung eines IKT-Systems in der Produktionsumgebung."
+          }
+        ]
+      }
+    ]
+  },
+  "015.004": {
+    "h": "cbd83398e54b79cf630eafaa6a868904",
+    "b": [
+      {
+        "art": "p",
+        "t": "Durch Bereitstellung der erforderlichen Informationen und Fachkenntnisse aus dem Geschäftsbereich oder den geschäftlichen Funktionen, auf die sich das IKT-Projekt auswirkt, gewährleisten die in Absatz 1 genannten Richtlinien für das IKT-Projektmanagement die sichere Durchführung des Projekts."
+      }
+    ]
+  },
+  "015.005": {
+    "h": "17f5b7b9ca024dd91be06ad3c8bae963",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der in Absatz 3 Buchstabe d genannten IKT-Projektrisikobewertung entsprechend müssen die in Absatz 1 genannten Richtlinien für das IKT-Projektmanagement vorsehen, dass das Leitungsorgan wie folgt über die Einleitung von IKT-Projekten, die sich auf kritische oder wichtige Funktionen des Finanzunternehmens auswirken, deren Fortschritte und die damit verbundenen Risiken unterrichtet wird:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "einzeln oder zusammengefasst, je nach Bedeutung und Umfang der IKT-Projekte,"
+          },
+          {
+            "m": "b)",
+            "t": "in regelmäßigen Abständen sowie erforderlichenfalls bei einzelnen Ereignissen."
+          }
+        ]
+      }
+    ]
+  },
+  "016.001": {
+    "h": "bcbdaf0b14e675c2999db36215185f00",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen der Schutzvorkehrungen zur Wahrung der Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten entwickeln, dokumentieren und implementieren die Finanzunternehmen Richtlinien für die Beschaffung, die Entwicklung und die Wartung von IKT-Systemen. Diese Richtlinien müssen"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Sicherheitskonzepte und Methoden für die Beschaffung, Entwicklung und Wartung von IKT-Systemen enthalten,"
+          },
+          {
+            "m": "b)",
+            "t": "verlangen, dass Folgendes angegeben wird:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die technischen Spezifikationen und technischen IKT-Spezifikationen im Sinne von Artikel 2 Nummern 4 und 5 der Verordnung (EU) Nr. 1025/2012,"
+              },
+              {
+                "m": "ii)",
+                "t": "die Anforderungen für die Beschaffung, die Entwicklung und die Wartung von IKT-Systemen mit besonderem Schwerpunkt auf den Anforderungen an die IKT-Sicherheit und auf deren Genehmigung durch die betreffende Geschäftsfunktion und den IKT-Asset-Eigentümer gemäß den internen Governance-Regelungen des Finanzunternehmens;"
+              }
+            ]
+          },
+          {
+            "m": "c)",
+            "t": "Maßnahmen vorsehen, mit denen das Risiko einer unbeabsichtigten Veränderung oder einer vorsätzlichen Manipulation der IKT-Systeme während der Entwicklung, Wartung und Einführung dieser IKT-Systeme in der Produktionsumgebung gemindert wird."
+          }
+        ]
+      }
+    ]
+  },
+  "016.002": {
+    "h": "103c7932f3ae6b6e8108aeb8b4fa729d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren für die Tests und die Genehmigung aller IKT-Systeme vor ihrer Nutzung und nach ihrer Wartung gemäß Artikel 8 Absatz 2 Buchstabe b Ziffern v, vi und vii ein Verfahren für die Beschaffung, die Entwicklung und die Wartung von IKT-Systemen. Der Testumfang muss der Kritikalität der betreffenden Geschäftsprozesse und IKT-Assets angemessen sein. Die Tests müssen so ausgelegt sein, dass überprüft werden kann, ob neue IKT-Systeme ihrer geplanten Bestimmung angemessen sind, was auch die Qualität der intern entwickelten Software einschließt."
+      },
+      {
+        "art": "p",
+        "t": "Zentrale Gegenparteien beziehen in die Ausgestaltung und Durchführung der in Unterabsatz 1 genannten Tests neben den in Unterabsatz 1 genannten Anforderungen soweit relevant die folgenden Parteien ein:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Clearingmitglieder und Kunden,"
+          },
+          {
+            "m": "b)",
+            "t": "interoperable zentrale Gegenparteien,"
+          },
+          {
+            "m": "c)",
+            "t": "andere interessierte Parteien."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Zentralverwahrer beziehen in die Ausgestaltung und Durchführung der in Unterabsatz 1 genannten Tests neben den in Unterabsatz 1 genannten Anforderungen soweit relevant die folgenden Parteien ein:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Nutzer,"
+          },
+          {
+            "m": "b)",
+            "t": "kritische Versorgungsbetriebe und kritische Dienstleister,"
+          },
+          {
+            "m": "c)",
+            "t": "andere Zentralverwahrer,"
+          },
+          {
+            "m": "d)",
+            "t": "andere Marktinfrastrukturen,"
+          },
+          {
+            "m": "e)",
+            "t": "alle sonstigen Institute, mit denen die Zentralverwahrer laut ihrer Geschäftsfortführungsleitlinie wechselseitige Abhängigkeiten verbinden."
+          }
+        ]
+      }
+    ]
+  },
+  "016.003": {
+    "h": "5d667dadf80180282242317cf9a553ed",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen des in Absatz 2 genannten Verfahrens sind Quellcodeprüfungen durchzuführen, die sowohl statische als auch dynamische Tests umfassen. Bei diesen Tests muss die Sicherheit internetexponierter Systeme und Anwendungen gemäß Artikel 8 Absatz 2 Buchstabe b Ziffern v, vi und vii getestet werden. Finanzunternehmen müssen"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Schwachstellen und Anomalien im Quellcode ermitteln und analysieren,"
+          },
+          {
+            "m": "b)",
+            "t": "einen Aktionsplan festlegen, um diese Schwachstellen und Anomalien zu beheben,"
+          },
+          {
+            "m": "c)",
+            "t": "die Umsetzung dieses Aktionsplans überwachen."
+          }
+        ]
+      }
+    ]
+  },
+  "016.004": {
+    "h": "64f175df5391140666b5c025ea28784e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen des in Absatz 2 genannten Verfahrens muss spätestens zur Integrationsphase die Sicherheit von Softwarepaketen gemäß Artikel 8 Absatz 2 Buchstabe b Ziffern v, vi und vii getestet werden."
+      }
+    ]
+  },
+  "016.005": {
+    "h": "f846389599f0eec05e04b3f5538f710a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das in Absatz 2 genannte Verfahren muss Folgendes vorsehen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "in Nichtproduktionsumgebungen dürfen nur anonymisierte, pseudonymisierte oder randomisierte Produktionsdaten gespeichert werden,"
+          },
+          {
+            "m": "b)",
+            "t": "Finanzunternehmen müssen die Integrität und Vertraulichkeit von Daten in Nichtproduktionsumgebungen schützen."
+          }
+        ]
+      }
+    ]
+  },
+  "016.006": {
+    "h": "35a060268ea155dc3efd3d4aa1ff4322",
+    "b": [
+      {
+        "art": "p",
+        "t": "Abweichend von Absatz 5 kann das in Absatz 2 genannte Verfahren vorsehen, dass Produktionsdaten nur für bestimmte Testanlässe, für begrenzte Zeiträume und nach Genehmigung durch die betreffende Funktion sowie nach Meldung solcher Anlässe an die IKT-Risikomanagement-Funktion gespeichert werden."
+      }
+    ]
+  },
+  "016.007": {
+    "h": "37bcd8fac984c1b6028578f704fa6492",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das in Absatz 2 genannte Verfahren muss Kontrollen zum Schutz der Integrität des Quellcodes von IKT-Systemen vorsehen, die intern oder von einem IKT-Drittdienstleister entwickelt und dem Finanzunternehmen von einem IKT-Drittdienstleister geliefert werden."
+      }
+    ]
+  },
+  "016.008": {
+    "h": "33b66424bd44c94c127c8a0183daf8db",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das in Absatz 2 genannte Verfahren muss vorsehen, dass proprietäre Software und nach Möglichkeit der Quellcode, der von IKT-Drittdienstleistern bereitgestellt wird oder aus Open-Source-Projekten stammt, vor ihrer Einführung in der Produktionsumgebung gemäß Absatz 3 analysiert und getestet werden."
+      }
+    ]
+  },
+  "016.009": {
+    "h": "f9e4d0a7239e2e3c6fcef03bf49ae07a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Absätze 1 bis 8 gelten auch für IKT-Systeme, die von nicht bei der IKT-Funktion angesiedelten Nutzern nach einem risikobasierten Ansatz entwickelt oder betrieben werden."
+      }
+    ]
+  },
+  "017.001": {
+    "h": "feb99f9aa19245f2dabf10c8241a94b8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen der Schutzvorkehrungen zur Wahrung der Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten sehen die Finanzunternehmen in den in Artikel 9 Absatz 4 Buchstabe e der Verordnung (EU) 2022/2554 genannten IKT-Änderungsmanagementverfahren für alle Änderungen an Software, Hardware, Firmware-Komponenten, Systemen oder Sicherheitsparametern alles Folgende vor:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "eine Überprüfung, ob die IKT-Sicherheitsanforderungen erfüllt sind,"
+          },
+          {
+            "m": "b)",
+            "t": "Mechanismen, die gewährleisten, dass die Funktionen, die Änderungen genehmigen, und die Funktionen, die für die Beantragung und Umsetzung dieser Änderungen zuständig sind, unabhängig sind,"
+          },
+          {
+            "m": "c)",
+            "t": "eine klare Beschreibung der Aufgaben und Zuständigkeiten, um zu gewährleisten, dass",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Änderungen angegeben und geplant werden,"
+              },
+              {
+                "m": "ii)",
+                "t": "ein angemessener Übergang vorgesehen ist,"
+              },
+              {
+                "m": "iii)",
+                "t": "die Änderungen kontrolliert getestet und finalisiert werden,"
+              },
+              {
+                "m": "iv)",
+                "t": "eine wirksame Qualitätssicherung gewährleistet ist,"
+              }
+            ]
+          },
+          {
+            "m": "d)",
+            "t": "die Dokumentation und Kommunikation der Änderungen im Detail, wozu u. a. Folgendes zählt:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Zweck und Umfang der Änderung,"
+              },
+              {
+                "m": "ii)",
+                "t": "Zeitplan für die Umsetzung der Änderung,"
+              },
+              {
+                "m": "iii)",
+                "t": "die erwarteten Ergebnisse;"
+              }
+            ]
+          },
+          {
+            "m": "e)",
+            "t": "die Angabe von Ausweichverfahren und -zuständigkeiten, einschließlich Verfahren und Zuständigkeiten für den Abbruch von Änderungen oder die Wiederherstellung, wenn Änderungen nicht erfolgreich implementiert wurden,"
+          },
+          {
+            "m": "f)",
+            "t": "Verfahren, Protokolle und Tools für den Umgang mit Notfalländerungen, die angemessene Schutzvorkehrungen vorsehen,"
+          },
+          {
+            "m": "g)",
+            "t": "Verfahren zur Dokumentation, Neubewertung, Bewertung und Genehmigung von Notfalländerungen, nachdem diese vorgenommen wurden, einschließlich Ausweichlösungen und Patches,"
+          },
+          {
+            "m": "h)",
+            "t": "Angabe der potenziellen Auswirkungen einer Änderung auf bestehende IKT-Sicherheitsmaßnahmen und Bewertung, ob eine solche Änderung zusätzliche IKT-Sicherheitsmaßnahmen erfordert."
+          }
+        ]
+      }
+    ]
+  },
+  "017.002": {
+    "h": "7a99901acd6a643dafe587ab04efe23e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wenn zentrale Gegenparteien und Zentralverwahrer an ihren IKT-Systemen erhebliche Änderungen vorgenommen haben, unterziehen sie diese strengen Tests unter Simulation von Stressbedingungen."
+      },
+      {
+        "art": "p",
+        "t": "Zentrale Gegenparteien beziehen in die Ausgestaltung und Durchführung der in Unterabsatz 1 genannten Tests soweit relevant die folgenden Parteien ein:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Clearingmitglieder und Kunden,"
+          },
+          {
+            "m": "b)",
+            "t": "interoperable zentrale Gegenparteien,"
+          },
+          {
+            "m": "c)",
+            "t": "andere interessierte Parteien."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Zentralverwahrer beziehen in die Ausgestaltung und Durchführung der in Unterabsatz 1 genannten Tests soweit relevant die folgende Parteien ein:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Nutzer,"
+          },
+          {
+            "m": "b)",
+            "t": "kritische Versorgungsbetriebe und kritische Dienstleister,"
+          },
+          {
+            "m": "c)",
+            "t": "andere Zentralverwahrer,"
+          },
+          {
+            "m": "d)",
+            "t": "andere Marktinfrastrukturen,"
+          },
+          {
+            "m": "e)",
+            "t": "alle sonstigen Institute, mit denen die Zentralverwahrer laut ihrer IKT-Geschäftsfortführungsleitlinie wechselseitige Abhängigkeiten verbinden."
+          }
+        ]
+      }
+    ]
+  },
+  "018.001": {
+    "h": "593ed4b37c98f0933b75b231b4e98e6c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen der Schutzvorkehrungen zur Wahrung der Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten verfassen, dokumentieren und implementieren die Finanzunternehmen Richtlinien für die physische Sicherheit und die Sicherheit vor Umweltereignissen. Die Finanzunternehmen gestalten diese Richtlinien unter Berücksichtigung der Cyberbedrohungslage gemäß der nach Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 vorgenommenen Klassifizierung und unter Berücksichtigung des Gesamtrisikoprofils der IKT-Assets und der zugänglichen Informationsassets."
+      }
+    ]
+  },
+  "018.002": {
+    "h": "8a7c796bb3229139533af1b552b5dce8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Richtlinien für die physische Sicherheit und die Sicherheit vor Umweltereignissen müssen alles Folgende beinhalten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "einen Verweis auf den Abschnitt der Richtlinien, in dem es um die in Artikel 21 Absatz 1 Buchstabe g genannte Kontrolle der Zugangs- und Zugriffsrechte geht,"
+          },
+          {
+            "m": "b)",
+            "t": "die Maßnahmen, mit denen die Räumlichkeiten und Rechenzentren des Finanzunternehmens und die vom Finanzunternehmen designierten sensiblen Bereiche, in denen IKT- und Informationsassets untergebracht sind, vor Angriffen, Unfällen und Umweltbedrohungen und -gefahren geschützt werden,"
+          },
+          {
+            "m": "c)",
+            "t": "die Maßnahmen, mit denen die IKT-Assets inner- und außerhalb der Räumlichkeiten des Finanzunternehmens unter Berücksichtigung der Ergebnisse der IKT-Risikobewertung für diese IKT-Assets gesichert werden,"
+          },
+          {
+            "m": "d)",
+            "t": "Maßnahmen, mit denen die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit von IKT-Assets, Informationsassets und Einrichtungen für die physische Zugangskontrolle des Finanzunternehmens durch angemessene Wartung sichergestellt werden soll,"
+          },
+          {
+            "m": "e)",
+            "t": "Maßnahmen, mit denen die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten gewahrt werden sollen, einschließlich",
+            "u": [
+              {
+                "m": "i)",
+                "t": "der Vorgabe eines „leeren Schreibtischs“,"
+              },
+              {
+                "m": "ii)",
+                "t": "der Vorgabe eines „leeren Bildschirms“ bei Datenverarbeitungsanlagen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens b müssen die Maßnahmen zum Schutz vor Umweltbedrohungen und -gefahren der Bedeutung der Räumlichkeiten, der Rechenzentren und der designierten sensiblen Bereiche und der Kritikalität der dort untergebrachten Geschäftstätigkeiten oder IKT-Systeme angemessen sein."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens c müssen die in Absatz 1 genannten Richtlinien für die physische Sicherheit und die Sicherheit vor Umweltereignissen angemessene Schutzmaßnahmen für unbeaufsichtigte IKT-Assets enthalten."
+      }
+    ]
+  },
+  "020.001": {
+    "h": "c41648e6f7b4c984aaeadb6ddd04806c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Um die Zuweisung der Nutzerzugriffsrechte gemäß Artikel 21 zu ermöglichen, entwickeln, dokumentieren und implementieren die Finanzunternehmen im Rahmen der Kontrolle der Zugangs- und Zugriffsrechte Richtlinien und Verfahren für das Identitätsmanagement, die die eindeutige Identifizierung und Authentifizierung der natürlichen Personen und Systeme, die auf Informationen der Finanzunternehmen zugreifen, gewährleisten."
+      }
+    ]
+  },
+  "020.002": {
+    "h": "f738edce5c0bcacf30f7a296e7c3ef95",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Richtlinien für das Identitätsmanagement müssen alles Folgende vorsehen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "unbeschadet des Artikels 21 Absatz 1 Buchstabe c ist jedem Mitarbeiter des Finanzunternehmens oder Mitarbeitern der IKT-Drittdienstleister, die auf die Informationsassets und IKT-Assets des Finanzunternehmens zugreifen, eine eindeutige Identität zuzuweisen, die einem eindeutigen Nutzerkonto zugeordnet werden kann,"
+          },
+          {
+            "m": "b)",
+            "t": "einen Lebenszyklusmanagementprozess für Identitäten und Konten, der die Erstellung, Änderung, Überprüfung und Aktualisierung, die vorübergehende Deaktivierung und die Beendigung aller Konten umfasst."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens a führen die Finanzunternehmen Aufzeichnungen über alle zugeordneten Identitäten. Diese Aufzeichnungen werden unbeschadet der im geltenden Unionsrecht und im nationalen Recht festgelegten Speicherpflichten nach einer Umstrukturierung des Finanzunternehmens oder nach Ablauf der Vertragsbeziehung aufbewahrt."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens b greifen die Finanzunternehmen beim Lebenszyklusmanagementprozess für Identitäten soweit möglich und angemessen auf automatisierte Lösungen zurück."
+      }
+    ]
+  },
+  "023.001": {
+    "h": "328a70c175ac20f849408354abfe0839",
+    "b": [
+      {
+        "art": "p",
+        "t": "Um IKT-bezogene Vorfälle und anormale Aktivitäten wirkungsvoll zu erkennen und wirkungsvoll darauf reagieren zu können. legen die Finanzunternehmen klare Aufgaben und Zuständigkeiten fest."
+      }
+    ]
+  },
+  "023.002": {
+    "h": "ca37cc5baf99da004559f147d7be693a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der in Artikel 10 Absatz 1 der Verordnung (EU) 2022/2554 genannte Mechanismus zur umgehenden Erkennung anomaler Aktivitäten, darunter auch Probleme bei der Leistung von IKT-Netzwerken und IKT-bezogene Vorfälle, muss es den Finanzunternehmen ermöglichen,"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "alles Folgende zu sammeln, zu überwachen und zu analysieren:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "interne und externe Faktoren, darunter zumindest die gemäß Artikel 12 gesammelten Protokolle, die Informationen von Unternehmens- und IKT-Funktionen sowie alle etwaigen, von Nutzern des Finanzunternehmens gemeldeten Probleme,"
+              },
+              {
+                "m": "ii)",
+                "t": "potenzielle interne und externe Cyberbedrohungen unter Berücksichtigung der üblicherweise von Angreifern verwendeten Szenarien und der auf Bedrohungsanalysen beruhenden Szenarien,"
+              },
+              {
+                "m": "iii)",
+                "t": "Meldungen IKT-bezogener Vorfälle durch einen IKT-Drittdienstleister des Finanzunternehmens, die in den Systemen und Netzwerken des IKT-Drittdienstleisters entdeckt wurden und Auswirkungen auf das Finanzunternehmen haben könnten,"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "anomale Aktivitäten und Verhaltensweisen festzustellen und Tools einzusetzen, die zumindest für IKT- und Informationsassets, die kritische oder wichtige Funktionen unterstützen, Warnmeldungen generieren, die auf anomale Aktivitäten und Verhaltensweisen aufmerksam machen,"
+          },
+          {
+            "m": "c)",
+            "t": "die unter Buchstabe b genannten Warnmeldungen zu priorisieren, damit die festgestellten IKT-bezogenen Vorfälle innerhalb der von den Finanzunternehmen festgelegten erwarteten Abwicklungszeit sowohl während als auch außerhalb der Arbeitszeiten gelöst werden können,"
+          },
+          {
+            "m": "d)",
+            "t": "sämtliche relevanten Informationen über alle anomalen Aktivitäten und Verhaltensweisen automatisch oder manuell aufzuzeichnen, zu analysieren und auszuwerten."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens b beinhalten die dort genannten Tools auch solche, die nach vorab definierten Regeln automatische Warnmeldungen zur Feststellung von Anomalien generieren, die die Vollständigkeit und Integrität der Datenquellen oder gesammelten Protokolle beeinträchtigen."
+      }
+    ]
+  },
+  "023.003": {
+    "h": "c99dbc9510fd72b462cf572ac5f34926",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen schützen jede Aufzeichnung anomaler Aktivitäten vor Manipulation und unbefugtem Zugriff und zwar unabhängig davon, ob diese Daten gespeichert sind oder gerade übermittelt oder verwendet werden."
+      }
+    ]
+  },
+  "023.004": {
+    "h": "d5e9d8602f802fd9f628035ad3c88ca0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für jede festgestellte anomale Aktivität protokollieren die Finanzunternehmen alle relevanten Informationen, die"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Feststellung von Datum und Uhrzeit der anomalen Aktivität ermöglichen,"
+          },
+          {
+            "m": "b)",
+            "t": "die Feststellung von Datum und Uhrzeit der Erkennung der anomalen Aktivität ermöglichen,"
+          },
+          {
+            "m": "c)",
+            "t": "die Feststellung der Art der anomalen Aktivität ermöglichen."
+          }
+        ]
+      }
+    ]
+  },
+  "023.005": {
+    "h": "6b79ea2342da358a990f82801cc211f8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wenn die Finanzunternehmen die in Artikel 10 Absatz 2 der Verordnung (EU) 2022/2554 genannten Erkennungs- und Reaktionsprozesse für IKT-bezogene Vorfälle auslösen, tragen sie dabei allen folgenden Kriterien Rechnung:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Hinweisen darauf, dass in einem IKT-System oder -Netzwerk möglicherweise eine böswillige Aktivität stattgefunden hat oder dieses IKT-System oder -Netzwerk korrumpiert sein könnte,"
+          },
+          {
+            "m": "b)",
+            "t": "Datenverlusten, die im Hinblick auf die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit von Daten festgestellt wurden,"
+          },
+          {
+            "m": "c)",
+            "t": "festgestellten schädlichen Auswirkungen auf die Transaktionen und Operationen des Finanzunternehmens,"
+          },
+          {
+            "m": "d)",
+            "t": "der Nichtverfügbarkeit von IKT-Systemen und -Netzwerken."
+          }
+        ]
+      }
+    ]
+  },
+  "023.006": {
+    "h": "5a284ceaefdc81d9ab0fca4bd21e1220",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Absatzes 5 tragen die Finanzunternehmen auch der Kritikalität der betroffenen Dienstleistung Rechnung."
+      }
+    ]
+  },
+  "024.001": {
+    "h": "add236501408a0011a5c4245e9e8f8a6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen nehmen in die in Artikel 11 Absatz 1 der Verordnung (EU) 2022/2554 genannte IKT-Geschäftsfortführungsleitlinie Folgendes auf:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "eine Beschreibung",
+            "u": [
+              {
+                "m": "i)",
+                "t": "der Ziele der IKT-Geschäftsfortführungsleitlinie, darunter auch der Wechselwirkungen zwischen der IKT- und der allgemeinen Geschäftsfortführung, unter Berücksichtigung der Ergebnisse der in Artikel 11 Absatz 5 der Verordnung (EU) 2022/2554 genannten Business-Impact-Analyse,"
+              },
+              {
+                "m": "ii)",
+                "t": "des Umfangs der Geschäftsfortführungsvorkehrungen, -pläne, -verfahren und -mechanismen samt etwaiger Beschränkungen und Ausschlüsse,"
+              },
+              {
+                "m": "iii)",
+                "t": "des von den Geschäftsfortführungsvorkehrungen, -plänen, -verfahren und -mechanismen abzudeckenden Zeitraums,"
+              },
+              {
+                "m": "iv)",
+                "t": "der Kriterien für die Aktivierung und Deaktivierung von IKT-Geschäftsfortführungsplänen, IKT-Reaktions- und Wiederherstellungsplänen und Krisenkommunikationsplänen;"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "Bestimmungen zu:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Governance und Organisation zur Umsetzung der IKT-Geschäftsfortführungsleitlinie, einschließlich Aufgaben, Zuständigkeiten und Eskalationsverfahren, wobei zu gewährleisten ist, dass ausreichende Ressourcen zur Verfügung stehen,"
+              },
+              {
+                "m": "ii)",
+                "t": "der Abstimmung zwischen den IKT-Geschäftsfortführungsplänen und den allgemeinen Geschäftsfortführungsplänen, was zumindest alles Folgende angeht:",
+                "u": [
+                  {
+                    "m": "1.",
+                    "t": "die potenziellen Ausfallszenarien, einschließlich der in Artikel 26 Absatz 2 genannten Szenarien,"
+                  },
+                  {
+                    "m": "2.",
+                    "t": "die Ziele für die Wiederherstellung des Geschäftsbetriebs, wobei festzulegen ist, dass das Finanzunternehmen den Betrieb seiner kritischen oder wichtigen Funktionen nach einer Störung entsprechend den Vorgaben für die Wiederherstellungszeit und den Wiederherstellungspunkt wiederherstellen können muss;"
+                  }
+                ]
+              },
+              {
+                "m": "iii)",
+                "t": "der Entwicklung von IKT-Geschäftsfortführungsplänen für schwerwiegende Betriebsstörungen als Teil dieser Pläne und der Priorisierung der IKT-Geschäftsfortführungsmaßnahmen nach einem risikobasierten Ansatz,"
+              },
+              {
+                "m": "iv)",
+                "t": "Entwicklung, Tests und Überprüfung der IKT-Reaktions- und Wiederherstellungspläne gemäß den Artikeln 25 und 26,"
+              },
+              {
+                "m": "v)",
+                "t": "der Überprüfung der Wirksamkeit umgesetzter Geschäftsfortführungsvorkehrungen, -pläne, -verfahren und -mechanismen gemäß Artikel 26,"
+              },
+              {
+                "m": "vi)",
+                "t": "der Abstimmung der IKT-Geschäftsfortführungsleitlinie mit:",
+                "u": [
+                  {
+                    "m": "1.",
+                    "t": "der in Artikel 14 Absatz 2 der Verordnung (EU) 2022/2554 genannten Kommunikationsstrategie,"
+                  },
+                  {
+                    "m": "2.",
+                    "t": "den in Artikel 11 Absatz 2 Buchstabe e der Verordnung (EU) 2022/2554 genannten Kommunikations- und Krisenmanagementmaßnahmen."
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "024.002": {
+    "h": "fc657dc1636378910139d9503eac6ae8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zentrale Gegenparteien stellen zusätzlich zu den Anforderungen in Absatz 1 sicher, dass ihre IKT-Geschäftsfortführungsleitlinie"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "für ihre kritischen Funktionen eine Wiederherstellungszeit von maximal 2 Stunden vorsieht,"
+          },
+          {
+            "m": "b)",
+            "t": "externen Verbindungen und wechselseitigen Abhängigkeiten innerhalb der Finanzinfrastrukturen Rechnung trägt, darunter Handelsplätzen, die von der zentralen Gegenpartei gecleart werden, Wertpapierliefer- und -abrechnungssystemen sowie Zahlungssystemen und Kreditinstituten, die von der zentralen Gegenpartei oder einer verbundenen zentralen Gegenpartei genutzt werden;"
+          },
+          {
+            "m": "c)",
+            "t": "Vorkehrungen im Hinblick darauf verlangt,",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die Fortführung kritischer oder wichtiger Funktionen der zentralen Gegenpartei ausgehend von Katastrophenszenarien sicherzustellen,"
+              },
+              {
+                "m": "ii)",
+                "t": "einen sekundären Verarbeitungsstandort zu unterhalten, der die Fortführung kritischer oder wichtiger Funktionen der zentralen Gegenpartei in gleicher Weise wie am Primärstandort gewährleisten kann,"
+              },
+              {
+                "m": "iii)",
+                "t": "einen sekundären Geschäftsstandort zu unterhalten oder zur sofortigen Verfügung zu haben, damit die Mitarbeiter die Dienstleistung weiter erbringen können, wenn der Primärstandort nicht verfügbar ist,"
+              },
+              {
+                "m": "iv)",
+                "t": "die Einrichtung zusätzlicher Verarbeitungsstandorte zu erwägen, insbesondere falls die unterschiedlichen Risikoprofile des primären und des sekundären Standorts keine hinreichende Gewähr dafür bieten, dass die Ziele der zentralen Gegenpartei hinsichtlich der Geschäftsfortführung in allen Szenarien erreicht werden können."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe a führen die zentralen Gegenparteien Tagesabschlussprozesse und Zahlungen unter allen Umständen fristgerecht durch."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe c Ziffer i müssen die dort genannten Vorkehrungen die Verfügbarkeit angemessener Humanressourcen, die Höchstdauer eines Ausfalls der kritischen Funktionen, den Failover zu einem sekundären Standort und die Wiederherstellung an diesem sekundären Standort regeln."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe c Ziffer ii muss der dort genannte sekundäre Verarbeitungsstandort ein anderes geografisches Risikoprofil aufweisen als der Primärstandort."
+      }
+    ]
+  },
+  "024.003": {
+    "h": "85f9b0b711387a4a6e41896f84efa019",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zentralverwahrer stellen zusätzlich zu den Anforderungen in Absatz 1 sicher, dass ihre IKT-Geschäftsfortführungsleitlinie"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "etwaigen Verbindungen und wechselseitigen Abhängigkeiten gegenüber Nutzern, kritischen Versorgungsbetrieben und kritischen Dienstleistern, anderen Zentralverwahrern und anderen Marktinfrastrukturen Rechnung trägt,"
+          },
+          {
+            "m": "b)",
+            "t": "verlangt, dass die Vorkehrungen für die Geschäftsfortführung vorsehen, dass die Vorgabe für die Wiederherstellungszeit für ihre kritischen oder wichtigen Funktionen maximal zwei Stunden beträgt."
+          }
+        ]
+      }
+    ]
+  },
+  "024.004": {
+    "h": "2a3398e8d49ebf1764cd4bf8615224b8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Handelsplätze stellen zusätzlich zu den Anforderungen in Absatz 1 sicher, dass ihre IKT-Geschäftsfortführungsleitlinie gewährleistet, dass"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "der Handel nach einer Störung innerhalb von zwei Stunden oder einer geringfügig längeren Frist wieder aufgenommen werden kann,"
+          },
+          {
+            "m": "b)",
+            "t": "der Datenverlust bei allen IT-Diensten des Handelsplatzes nach einer Störung nahezu null beträgt."
+          }
+        ]
+      }
+    ]
+  },
+  "025.001": {
+    "h": "11d340c9c45d25cffd9db93b37ed87f9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beim Test der IKT-Geschäftsfortführungspläne gemäß Artikel 11 Absatz 6 der Verordnung (EU) 2022/2554 berücksichtigen die Finanzunternehmen ihre Business-Impact-Analyse (BIA) und die in Artikel 3 Absatz 1 Buchstabe b der vorliegenden Verordnung genannte IKT-Risikobewertung."
+      }
+    ]
+  },
+  "025.002": {
+    "h": "2646ed9849be85458433529273c43609",
+    "b": [
+      {
+        "art": "p",
+        "t": "Durch den in Absatz 1 genannten Test ihrer IKT-Geschäftsfortführungspläne beurteilen die Finanzunternehmen, ob sie die Fortführung ihrer kritischen oder wichtigen Funktionen gewährleisten können. Diese Tests müssen"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "ausgehend von Testszenarien durchgeführt werden, bei denen potenzielle Störungen simuliert werden und die eine angemessene Zahl von schwerwiegenden, aber plausiblen Szenarien umfassen,"
+          },
+          {
+            "m": "b)",
+            "t": "gegebenenfalls Tests der von IKT-Drittanbietern erbrachten IKT-Dienstleistungen umfassen,"
+          },
+          {
+            "m": "c)",
+            "t": "bei den in Artikel 11 Absatz 6 Unterabsatz 2 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen, bei denen es sich nicht um Kleinstunternehmen handelt, Szenarien für Umstellungen von der primären IKT-Infrastruktur auf die redundanten Kapazitäten, Backups und Systeme enthalten,"
+          },
+          {
+            "m": "d)",
+            "t": "darauf ausgelegt sein, die Annahmen, auf denen die Geschäftsfortführungspläne beruhen, einschließlich der Governance-Regelungen und Krisenkommunikationspläne, infrage zu stellen,"
+          },
+          {
+            "m": "e)",
+            "t": "Verfahren enthalten, mit denen überprüft wird, ob die Mitarbeiter der Finanzunternehmen, die IKT-Drittdienstleister, die IKT-Systeme und die IKT-Dienste angemessen auf die gemäß Artikel 26 Absatz 2 gebührend berücksichtigten Szenarien reagieren."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens a nehmen die Finanzunternehmen in ihre Tests stets die bei Ausarbeitung der Geschäftsfortführungspläne berücksichtigten Szenarien auf."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens b berücksichtigen die Finanzunternehmen in gebührendem Umfang gegebenenfalls Szenarien, in denen die Insolvenz oder der Ausfall der IKT-Drittdienstleister oder politische Risiken im Sitzland der IKT-Drittdienstleister unterstellt werden."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens c wird bei den Tests überprüft, ob zumindest kritische oder wichtige Funktionen für ausreichend lange Zeit angemessen aufrechterhalten werden können und ob der normale Betrieb wiederhergestellt werden kann."
+      }
+    ]
+  },
+  "025.003": {
+    "h": "6137e12ccc1e3c2967f8d587e4225526",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zentrale Gegenparteien beziehen in die in Absatz 1 genannten Tests ihrer IKT-Geschäftsfortführungspläne neben den Anforderungen in Absatz 2 folgende Parteien ein:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Clearingmitglieder,"
+          },
+          {
+            "m": "b)",
+            "t": "externe Dienstleister,"
+          },
+          {
+            "m": "c)",
+            "t": "relevante Institute in der Finanzinfrastruktur, mit denen zentrale Gegenparteien laut ihrer Geschäftsfortführungsleitlinie wechselseitige Abhängigkeiten verbinden."
+          }
+        ]
+      }
+    ]
+  },
+  "025.004": {
+    "h": "55d6380a498ac1178840de245c824e0f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zentralverwahrer beziehen in die in Absatz 1 genannten Tests ihrer IKT-Geschäftsfortführungspläne neben den Anforderungen in Absatz 2 gegebenenfalls folgende Parteien ein:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Nutzer der Zentralverwahrer,"
+          },
+          {
+            "m": "b)",
+            "t": "kritische Versorgungsbetriebe und kritische Dienstleister,"
+          },
+          {
+            "m": "c)",
+            "t": "andere Zentralverwahrer,"
+          },
+          {
+            "m": "d)",
+            "t": "andere Marktinfrastrukturen,"
+          },
+          {
+            "m": "e)",
+            "t": "alle sonstigen Institute, mit denen die Zentralverwahrer laut ihrer Geschäftsfortführungsleitlinie wechselseitige Abhängigkeiten verbinden."
+          }
+        ]
+      }
+    ]
+  },
+  "025.005": {
+    "h": "1278cfc8dafa1a0a42219b5555071fc8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen dokumentieren die Ergebnisse der in Absatz 1 genannten Tests. Alle bei diesen Tests festgestellten Schwachstellen werden analysiert, angegangen und dem Leitungsorgan zur Kenntnis gebracht."
+      }
+    ]
+  },
+  "026.001": {
+    "h": "914de318eb620f3f341d5c43b874a0a7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Ausarbeitung der in Artikel 11 Absatz 3 der Verordnung (EU) 2022/2554 genannten IKT-Reaktions- und Wiederherstellungspläne berücksichtigen die Finanzunternehmen die Ergebnisse der Business-Impact-Analyse (BIA) des Finanzunternehmens. Diese IKT-Reaktions- und Wiederherstellungspläne müssen"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Bedingungen für die Aktivierung oder Deaktivierung der Pläne sowie etwaige für deren Aktivierung oder Deaktivierung geltenden Ausnahmen festlegen;"
+          },
+          {
+            "m": "b)",
+            "t": "beschreiben, welche Maßnahmen zu ergreifen sind, um die Verfügbarkeit, Integrität, Kontinuität und Wiederherstellung zumindest der IKT-Systeme und -Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen des Finanzunternehmens sicherzustellen;"
+          },
+          {
+            "m": "c)",
+            "t": "so konzipiert sein, dass sie den Zielen für die Wiederherstellung des Geschäftsbetriebs der Finanzunternehmen gerecht werden;"
+          },
+          {
+            "m": "d)",
+            "t": "dokumentiert und den an der Ausführung der IKT-Reaktions- und Wiederherstellungspläne beteiligten Mitarbeitern zur Verfügung gestellt werden und im Notfall leicht zugänglich sein;"
+          },
+          {
+            "m": "e)",
+            "t": "sowohl kurz- als auch langfristige Wiederherstellungsoptionen vorsehen, insbesondere auch die teilweise Systemwiederherstellung;"
+          },
+          {
+            "m": "f)",
+            "t": "die Ziele der IKT-Reaktions- und Wiederherstellungspläne sowie die Bedingungen festlegen, unter denen die Durchführung dieser Pläne für erfolgreich erklärt werden kann."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe d legen die Finanzunternehmen die Aufgaben und Zuständigkeiten klar fest."
+      }
+    ]
+  },
+  "026.002": {
+    "h": "0cc35d0dc589c00488020b05e6df2a51",
+    "b": [
+      {
+        "art": "p",
+        "t": "In den in Absatz 1 genannten IKT-Reaktions- und Wiederherstellungsplänen werden relevante Szenarien genannt, insbesondere auch Szenarien mit schwerwiegenden Betriebsstörungen und erhöhter Wahrscheinlichkeit, dass Störungen auftreten. In diesen Plänen werden Szenarien ausgearbeitet, die sich auf aktuelle Informationen über Bedrohungen und auf die Lehren aus früheren Betriebsstörungen stützen. Von den Finanzunternehmen werden alle folgenden Szenarien gebührend berücksichtigt:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Cyberangriffe und Umstellungen von der primären IKT-Infrastruktur auf die redundanten Kapazitäten, Backups und redundanten Systeme;"
+          },
+          {
+            "m": "b)",
+            "t": "Szenarien, in denen die Qualität der Bereitstellung einer kritischen oder wichtigen Funktion auf ein inakzeptables Niveau absinkt oder diese Funktion ganz ausfällt und in denen die potenziellen Auswirkungen der Insolvenz oder sonstiger Ausfälle eines relevanten IKT-Drittdienstleisters gebührend berücksichtigt werden;"
+          },
+          {
+            "m": "c)",
+            "t": "teilweiser oder vollständiger Ausfall von Räumlichkeiten, insbesondere auch von Büro- und Geschäftsräumen, sowie von Rechenzentren;"
+          },
+          {
+            "m": "d)",
+            "t": "erheblicher Ausfall von IKT-Assets oder der Kommunikationsinfrastruktur;"
+          },
+          {
+            "m": "e)",
+            "t": "Nichtverfügbarkeit einer kritischen Anzahl von Mitarbeitern oder von Mitarbeitern, die für die Gewährleistung der Betriebskontinuität zuständig sind;"
+          },
+          {
+            "m": "f)",
+            "t": "Auswirkungen von Ereignissen im Zusammenhang mit Klimawandel und Umweltzerstörung, Naturkatastrophen, Pandemien und physischen Angriffen, insbesondere auch durch Eindringen und Terroranschläge;"
+          },
+          {
+            "m": "g)",
+            "t": "Angriffe durch Insider;"
+          },
+          {
+            "m": "h)",
+            "t": "politische und soziale Instabilität, sofern relevant auch im Sitzland des IKT-Drittdienstleisters und am Standort der Datenspeicherung und -verarbeitung;"
+          },
+          {
+            "m": "i)",
+            "t": "weitverbreitete Stromausfälle."
+          }
+        ]
+      }
+    ]
+  },
+  "026.003": {
+    "h": "145294ba59c8d4728293dbb85d329572",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sind die primären Wiederherstellungsmaßnahmen möglicherweise wegen Kosten, Risiken, Logistik oder unvorhergesehener Umstände kurzfristig nicht durchführbar, so werden in den in Absatz 1 genannten IKT-Reaktions- und Wiederherstellungsplänen auch Alternativen erwogen."
+      }
+    ]
+  },
+  "026.004": {
+    "h": "f77ff73989f56d07f4389b78c9d129ef",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen der in Absatz 1 genannten IKT-Reaktions- und Wiederherstellungspläne werden von den Finanzunternehmen Kontinuitätsmaßnahmen geprüft und durchgeführt, um Ausfälle von IKT-Drittdienstleistern, die IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen des Finanzunternehmens bereitstellen, zu mindern."
+      }
+    ]
+  },
+  "027.001": {
+    "h": "6cadc225bd96a0c3377e3f1b3e1d969c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen legen den in Artikel 6 Absatz 5 der Verordnung (EU) 2022/2554 genannten Bericht über die Überprüfung des IKT-Risikomanagementrahmens in einem durchsuchbaren elektronischen Format vor."
+      }
+    ]
+  },
+  "027.002": {
+    "h": "ea14cbe0a516718117bf489e5ca32d30",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen nehmen in den in Absatz 1 genannten Bericht alle folgenden Informationen auf:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "einen einleitenden Abschnitt, der Folgendes enthält:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "eine eindeutige Angabe des Finanzunternehmens, das Gegenstand des Berichts ist, und, sofern relevant, eine Beschreibung seiner Gruppenstruktur;"
+              },
+              {
+                "m": "ii)",
+                "t": "eine Beschreibung des Kontexts des Berichts mit Blick auf Art, Umfang und Komplexität der Dienstleistungen, Tätigkeiten und Geschäfte des Finanzunternehmens, seine Organisation, die ermittelten kritischen Funktionen, die Strategie, die wichtigsten laufenden Projekte oder Tätigkeiten, die Beziehungen und seine Abhängigkeit von internen und per Vertrag vergebenen IKT-Dienstleistungen und -Systemen oder die Auswirkungen, die ein Totalverlust oder eine schwerwiegende Verschlechterung derartiger Systeme hinsichtlich kritischer oder wichtiger Funktionen und der Markteffizienz hätte;"
+              },
+              {
+                "m": "iii)",
+                "t": "eine Zusammenfassung der wichtigsten Veränderungen des IKT-Risikomanagementrahmens seit dem letzten vorgelegten Bericht;"
+              },
+              {
+                "m": "iv)",
+                "t": "eine Kurzzusammenfassung des aktuellen und auf kurze Sicht bestehenden IKT-Risikoprofils, der Bedrohungslage, der erachteten Wirksamkeit seiner Kontrollen und der Sicherheitslage des Finanzunternehmens;"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "das Datum der Genehmigung des Berichts durch das Leitungsorgan des Finanzunternehmens;"
+          },
+          {
+            "m": "c)",
+            "t": "eine Beschreibung des Grunds für die Überprüfung des IKT-Risikomanagementrahmens nach Artikel 6 Absatz 5 der Verordnung (EU) 2022/2554;"
+          },
+          {
+            "m": "d)",
+            "t": "das Anfangs- und Enddatum des Überprüfungszeitraums;"
+          },
+          {
+            "m": "e)",
+            "t": "eine Angabe der für die Überprüfung verantwortlichen Funktion;"
+          },
+          {
+            "m": "f)",
+            "t": "eine Beschreibung der wichtigsten Veränderungen und Verbesserungen des IKT-Risikomanagementrahmens seit der letzten Überprüfung;"
+          },
+          {
+            "m": "g)",
+            "t": "eine Zusammenfassung der Ergebnisse der Überprüfung und eine detaillierte Analyse und Bewertung der Schwere der Schwächen, Mängel und Lücken des IKT-Risikomanagementrahmens im Überprüfungszeitraum;"
+          },
+          {
+            "m": "h)",
+            "t": "eine Beschreibung der Maßnahmen zur Behebung festgestellter Schwächen, Mängel und Lücken, die alles Folgende enthält:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "eine Zusammenfassung der Maßnahmen, die zur Behebung festgestellter Schwächen, Mängel und Lücken ergriffen wurden;"
+              },
+              {
+                "m": "ii)",
+                "t": "ein voraussichtliches Datum für die Durchführung der Maßnahmen und Daten für die interne Kontrolle der Durchführung, einschließlich Informationen über den Stand der Durchführung dieser Maßnahmen zum Zeitpunkt der Ausarbeitung des Berichts, gegebenenfalls mit einer Erläuterung, ob die Gefahr besteht, dass Fristen nicht eingehalten werden;"
+              },
+              {
+                "m": "iii)",
+                "t": "die zu verwendenden Tools und die Nennung der für die Durchführung der Maßnahmen verantwortlichen Funktion, wobei anzugeben ist, ob es sich um interne oder externe Tools/Instrumente und Funktionen handelt;"
+              },
+              {
+                "m": "iv)",
+                "t": "eine Beschreibung der Auswirkungen der im Rahmen der Maßnahmen geplanten Veränderungen auf die finanziellen, personellen und materiellen Ressourcen des Finanzunternehmens, insbesondere auch auf die für die Durchführung etwaiger Korrekturmaßnahmen vorgesehenen Ressourcen;"
+              },
+              {
+                "m": "v)",
+                "t": "gegebenenfalls Informationen über das Verfahren zur Unterrichtung der zuständigen Behörde;"
+              },
+              {
+                "m": "vi)",
+                "t": "falls die festgestellten Schwächen, Mängel oder Lücken nicht Gegenstand von Korrekturmaßnahmen sind, eine ausführliche Erläuterung der Kriterien, die zur Analyse der Auswirkungen dieser Schwächen, Mängel oder Lücken herangezogen wurden, um das damit verbundene IKT-Restrisiko zu bewerten, sowie der Kriterien für das Eingehen des damit verbundenen Restrisikos;"
+              }
+            ]
+          },
+          {
+            "m": "i)",
+            "t": "Informationen über geplante Weiterentwicklungen des IKT-Risikomanagementrahmens;"
+          },
+          {
+            "m": "j)",
+            "t": "Schlussfolgerungen aus der Überprüfung des IKT-Risikomanagementrahmens;"
+          },
+          {
+            "m": "k)",
+            "t": "Informationen über frühere Überprüfungen, insbesondere auch",
+            "u": [
+              {
+                "m": "i)",
+                "t": "eine Liste aller bisherigen Überprüfungen;"
+              },
+              {
+                "m": "ii)",
+                "t": "gegebenenfalls den Stand der Umsetzung der im letzten Bericht genannten Korrekturmaßnahmen;"
+              },
+              {
+                "m": "iii)",
+                "t": "falls sich die in früheren Überprüfungen vorgeschlagenen Korrekturmaßnahmen als unwirksam erwiesen oder zu unerwarteten Herausforderungen geführt haben, eine Beschreibung der Möglichkeiten für eine Verbesserung dieser Korrekturmaßnahmen oder der unerwarteten Herausforderungen;"
+              }
+            ]
+          },
+          {
+            "m": "l)",
+            "t": "die zur Ausarbeitung des Berichts herangezogenen Informationsquellen, die insbesondere auch alles Folgende beinhalten müssen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "bei den in Artikel 6 Absatz 6 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen, bei denen es sich nicht um Kleinstunternehmen handelt, die Ergebnisse der internen Revisionen;"
+              },
+              {
+                "m": "ii)",
+                "t": "die Ergebnisse der Compliance-Bewertungen;"
+              },
+              {
+                "m": "iii)",
+                "t": "die Ergebnisse der Tests der digitalen operationalen Resilienz und gegebenenfalls die Ergebnisse der erweiterten Tests von IKT-Tools, -Systemen und -Prozessen auf Basis bedrohungsorientierter Penetrationstests (TLPT — Threat-Led Penetration Testing);"
+              },
+              {
+                "m": "iv)",
+                "t": "externe Quellen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Wurde die Überprüfung nach aufsichtsrechtlichen Anweisungen oder Feststellungen, die sich aus einschlägigen Tests der digitalen operationalen Resilienz oder Auditverfahren ergeben, eingeleitet, so muss der Bericht für die Zwecke des Buchstabens c ausdrückliche Verweise auf diese Anweisungen oder Feststellungen enthalten, die Aufschluss über den Grund für die Einleitung der Überprüfung geben. Wurde die Überprüfung nach IKT-bezogenen Vorfällen eingeleitet, so muss der Bericht eine Liste aller IKT-bezogenen Vorfälle mit einer Analyse der Ursachen dieser Vorfälle enthalten."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe f enthält die Beschreibung eine Analyse der Auswirkungen der Veränderungen auf die Strategie für die digitale operationale Resilienz des Finanzunternehmens, auf den internen IKT-Kontrollrahmen des Finanzunternehmens und auf die IKT-Risikomanagement-Governance des Finanzunternehmens."
+      }
+    ]
+  },
+  "028.001": {
+    "h": "4285f9e4e5e8847e9efd7c8c10f34324",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen müssen über einen internen Governance- und Kontrollrahmen verfügen, der ein wirksames und umsichtiges Management von IKT-Risiken gewährleistet, um ein hohes Niveau an digitaler operationaler Resilienz zu erreichen."
+      }
+    ]
+  },
+  "028.002": {
+    "h": "1a1e307b484eba733b36e797a94625c4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen stellen im Zuge ihres vereinfachten IKT-Risikomanagementrahmens sicher, dass ihr Leitungsorgan"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Gesamtverantwortung dafür trägt, dass der vereinfachte IKT-Risikomanagementrahmen im Einklang mit der Risikobereitschaft des Finanzunternehmens die Verwirklichung der Geschäftsstrategie des Finanzunternehmens ermöglicht, und sicherstellt, dass IKT-Risiken in diesem Zusammenhang berücksichtigt werden;"
+          },
+          {
+            "m": "b)",
+            "t": "für alle IKT-bezogenen Funktionen klare Aufgaben und Zuständigkeiten festlegt;"
+          },
+          {
+            "m": "c)",
+            "t": "die Ziele für die Informationssicherheit und die IKT-Anforderungen festlegt;"
+          },
+          {
+            "m": "d)",
+            "t": "Folgendes genehmigt, überwacht und regelmäßig überprüft:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die in Artikel 30 Absatz 1 dieser Verordnung genannte Klassifizierung der Informations-Assets des Finanzunternehmens, die Liste der ermittelten Hauptrisiken sowie die Business-Impact-Analyse und die zugehörigen Richtlinien;"
+              },
+              {
+                "m": "ii)",
+                "t": "die in Artikel 16 Absatz 1 Buchstabe f der Verordnung (EU) 2022/2554 genannten Geschäftsfortführungspläne des Finanzunternehmens sowie Gegen- und Wiederherstellungsmaßnahmen;"
+              }
+            ]
+          },
+          {
+            "m": "e)",
+            "t": "die nötigen Budgetmittel zuweist und mindestens einmal jährlich überprüft, um den Anforderungen des Finanzunternehmens an die digitale operationale Resilienz in Bezug auf alle Arten von Ressourcen gerecht werden zu können, einschließlich einschlägiger Programme zur Sensibilisierung für IKT-Sicherheit und Schulungen zur digitalen operationalen Resilienz sowie Vermittlung von IKT-Kompetenzen für alle Mitarbeiter;"
+          },
+          {
+            "m": "f)",
+            "t": "die in den Kapiteln I, II und III dieses Titels enthaltenen Richtlinien und Maßnahmen festlegt und umsetzt, um das IKT-Risiko, dem das Finanzunternehmen ausgesetzt ist, zu ermitteln, zu bewerten und zu managen;"
+          },
+          {
+            "m": "g)",
+            "t": "die notwendigen Verfahren, IKT-Protokolle und Tools ermittelt und implementiert, um sämtliche Informations- und IKT-Assets zu schützen;"
+          },
+          {
+            "m": "h)",
+            "t": "sicherstellt, dass die Mitarbeiter des Finanzunternehmens über ausreichende Kenntnisse und Fähigkeiten entsprechend den zu managenden IKT-Risiken verfügen und diesbezüglich stets auf dem neuesten Stand gehalten werden, um die IKT-Risiken und deren Auswirkungen auf die Geschäftstätigkeit des Finanzunternehmens verstehen und bewerten zu können;"
+          },
+          {
+            "m": "i)",
+            "t": "die Modalitäten des Meldewesens festlegt, die insbesondere auch die Häufigkeit, die Form und den Inhalt der Meldungen an das Leitungsorgan über die Informationssicherheit und die digitale operationale Resilienz regeln."
+          }
+        ]
+      }
+    ]
+  },
+  "028.003": {
+    "h": "2d4b4f0955321e25d352df1f1bad9c62",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen können die Überprüfung der Einhaltung der Anforderungen für das IKT-Risikomanagement im Einklang mit den sektorspezifischen Rechtsvorschriften der Union und der Mitgliedstaaten an gruppeninterne IKT-Unternehmen oder an IKT-Drittdienstleister auslagern. Im Falle einer solchen Auslagerung bleiben die Finanzunternehmen weiterhin uneingeschränkt für die Überprüfung der Einhaltung der IKT-Risikomanagementanforderungen verantwortlich."
+      }
+    ]
+  },
+  "028.004": {
+    "h": "8bcf8599e47fc2150b1fb9c8c5987579",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen sorgen für eine angemessene Trennung und die Unabhängigkeit von Kontrollfunktionen und internen Revisionsfunktionen."
+      }
+    ]
+  },
+  "028.005": {
+    "h": "d2a4884020eaaaa2e59217dd869fcd97",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen stellen sicher, dass ihr vereinfachter IKT-Risikomanagementrahmen im Einklang mit dem Revisionsplan des betreffenden Finanzunternehmens einer internen Revision durch Revisoren unterzogen wird. Die Revisoren müssen über ausreichendes Wissen und ausreichende Fähigkeiten und Fachkenntnisse im Bereich IKT-Risiken verfügen und unabhängig sein. Häufigkeit und Schwerpunkt der IKT-Revisionen müssen den IKT-Risiken des Finanzunternehmens angemessen sein."
+      }
+    ]
+  },
+  "028.006": {
+    "h": "62f9f12031df8c4707f8bafcd1944ba7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auf der Grundlage der Ergebnisse der in Absatz 5 genannten Revision stellen die in Absatz 1 genannten Finanzunternehmen die rechtzeitige Überprüfung und Auswertung kritischer Erkenntnisse der IKT-Revision sicher."
+      }
+    ]
+  },
+  "029.001": {
+    "h": "7d21c57ef3908a2dea71806b4e756fe9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen erarbeiten, dokumentieren und implementieren im Zusammenhang mit dem vereinfachten IKT-Risikomanagementrahmen eine Informationssicherheitsleitlinie. Diese Informationssicherheitsleitlinie enthält die übergeordneten Grundsätze und Regeln zum Schutz der Vertraulichkeit, Integrität, Verfügbarkeit und Authentizität von Daten und der von diesen Finanzunternehmen erbrachten Dienstleistungen."
+      }
+    ]
+  },
+  "029.002": {
+    "h": "a6243293f254f63f88e85d26d16de9bf",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auf der Grundlage ihrer in Absatz 1 genannten Informationssicherheitsleitlinie legen die in Absatz 1 genannten Finanzunternehmen IKT-Sicherheitsmaßnahmen zur Minderung ihres IKT-Risikos fest und setzen diese um, einschließlich Risikominderungsmaßnahmen, die von IKT-Drittdienstleistern umgesetzt werden."
+      },
+      {
+        "art": "p",
+        "t": "Die IKT-Sicherheitsmaßnahmen müssen alle in den Artikeln 30 bis 38 genannten Maßnahmen umfassen."
+      }
+    ]
+  },
+  "030.001": {
+    "h": "3e5eb104684232929a3f2b18ef2e99c6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Zuge des in Artikel 16 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 genannten vereinfachten IKT-Risikomanagementrahmens ermitteln, klassifizieren und dokumentieren die in Absatz 1 jenes Artikels genannten Finanzunternehmen alle kritischen oder wichtigen Funktionen, die Informations- und IKT-Assets, die diese Funktionen unterstützen, und deren wechselseitige Abhängigkeiten. Die Finanzunternehmen überprüfen diese Ermittlung und Klassifizierung bei Bedarf."
+      }
+    ]
+  },
+  "030.002": {
+    "h": "8537fa3c72139a01bfb89ed975fe7cbb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen ermitteln alle kritischen oder wichtigen Funktionen, die von IKT-Drittdienstleistern unterstützt werden."
+      }
+    ]
+  },
+  "031.001": {
+    "h": "8efd33ed51d22a9b261b73f2780e3412",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen nehmen in ihren vereinfachten IKT-Risikomanagementrahmen alles Folgende auf:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "eine Bestimmung der Risikotoleranzschwellen für das IKT-Risiko im Einklang mit der Risikobereitschaft des Finanzunternehmens;"
+          },
+          {
+            "m": "b)",
+            "t": "die Ermittlung und Bewertung der IKT-Risiken, denen das Finanzunternehmen ausgesetzt ist;"
+          },
+          {
+            "m": "c)",
+            "t": "die Festlegung von Abmilderungsstrategien zumindest für die IKT-Risiken, die jenseits der Risikotoleranzschwellen des Finanzunternehmens liegen;"
+          },
+          {
+            "m": "d)",
+            "t": "die Überwachung der Wirksamkeit der unter Buchstabe c genannten Abmilderungsstrategien;"
+          },
+          {
+            "m": "e)",
+            "t": "die Ermittlung und Bewertung etwaiger IKT- und Informationssicherheitsrisiken, die sich aus größeren Veränderungen des IKT-Systems oder der IKT-Dienstleistungen, -Prozesse oder -Verfahren sowie aus den Testergebnissen in Bezug auf die IKT-Sicherheit und nach schwerwiegenden IKT-bezogenen Vorfällen ergeben."
+          }
+        ]
+      }
+    ]
+  },
+  "031.002": {
+    "h": "8fbe328f2fd270f39f8005a356216daa",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen führen die IKT-Risikobewertung dem IKT-Risikoprofil der Finanzunternehmen entsprechend regelmäßig durch und dokumentieren sie."
+      }
+    ]
+  },
+  "031.003": {
+    "h": "fd342d7ed1ac73d36870b4b4e9d57bce",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen überwachen fortlaufend Bedrohungen und Schwachstellen, die für ihre kritischen oder wichtigen Funktionen sowie für Informations- und IKT-Assets relevant sind und überprüfen regelmäßig die Risikoszenarien, die sich auf diese kritischen oder wichtigen Funktionen auswirken."
+      }
+    ]
+  },
+  "031.004": {
+    "h": "90e3c7a767c7d2fd75e3125bd8c6c281",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen legen Alarmschwellen und -kriterien für die Auslösung und Einleitung von Reaktionsprozessen bei IKT-bezogenen Vorfällen fest."
+      }
+    ]
+  },
+  "032.001": {
+    "h": "c96e91498f97c44d6aab608fc26a3395",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen ermitteln und implementieren physische Sicherheitsmaßnahmen, die ausgehend von der Bedrohungslage und entsprechend der in Artikel 30 Absatz 1 der vorliegenden Verordnung genannten Klassifizierung sowie auf Basis des Gesamtrisikoprofils der IKT-Assets und der zugänglichen Informationsassets konzipiert werden."
+      }
+    ]
+  },
+  "032.002": {
+    "h": "c577e8e21bd64f55ec76aa42a02b696a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Maßnahmen schützen die Räumlichkeiten der Finanzunternehmen und, sofern anwendbar, die Rechenzentren von Finanzunternehmen, in denen IKT- und Informationsassets untergebracht sind, vor unbefugtem Zugriff, Angriffen und Unfällen sowie vor Umweltbedrohungen und -gefahren."
+      }
+    ]
+  },
+  "032.003": {
+    "h": "2846195327967e71ea29e41433d60792",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Schutz vor Umweltbedrohungen und -gefahren muss der Bedeutung der betreffenden Räumlichkeiten und, sofern anwendbar, der Rechenzentren und der Kritikalität der dort untergebrachten Geschäftstätigkeiten oder IKT-Systeme angemessen sein."
+      }
+    ]
+  },
+  "036.001": {
+    "h": "50ea346da3a35621f748cade697a5752",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen erstellen und implementieren einen Plan für IKT-Sicherheitstests, um die Wirksamkeit ihrer gemäß den Artikeln 33, 34 und 35 sowie 37 und 38 der vorliegenden Verordnung entwickelten IKT-Sicherheitsmaßnahmen zu bestätigen. Die Finanzunternehmen stellen sicher, dass in diesem Plan Bedrohungen und Schwachstellen berücksichtigt werden, die im Zuge des in Artikel 31 genannten vereinfachten IKT-Risikomanagementrahmens ermittelt wurden."
+      }
+    ]
+  },
+  "036.002": {
+    "h": "63c9e1f5ba2703dd4952399a265a8b46",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen überprüfen, bewerten und testen IKT-Sicherheitsmaßnahmen unter Berücksichtigung des Gesamtrisikoprofils der IKT-Assets des Finanzunternehmens."
+      }
+    ]
+  },
+  "036.003": {
+    "h": "be10897e9834cc129aa4bae59f256209",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen überwachen und evaluieren die Ergebnisse der Sicherheitstests und bringen ihre Sicherheitsmaßnahmen im Falle von IKT-Systemen zur Unterstützung kritischer oder wichtiger Funktionen unverzüglich entsprechend auf Stand."
+      }
+    ]
+  },
+  "038.001": {
+    "h": "c368068785e925b7fc4a7106db952aeb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen erarbeiten, dokumentieren und implementieren ein IKT-Projektmanagementverfahren und legen die Aufgaben und Zuständigkeiten für dessen Umsetzung fest. Dieses Verfahren erstreckt sich auf alle Phasen der IKT-Projekte von ihrer Einleitung bis zu ihrem Abschluss."
+      }
+    ]
+  },
+  "038.002": {
+    "h": "6bd60ae0db38ac0316605bb76dfc4d55",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen entwickeln, dokumentieren und implementieren ein Verfahren für das IKT-Änderungsmanagement, um sicherzustellen, dass alle Änderungen an IKT-Systemen auf kontrollierte Weise und mit angemessenen Schutzvorkehrungen aufgezeichnet, getestet, bewertet, genehmigt, implementiert und verifiziert werden, um die digitale operationale Resilienz des Finanzunternehmens zu wahren."
+      }
+    ]
+  },
+  "039.001": {
+    "h": "bac896776369f42082ce8311b9d5bc11",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen erarbeiten ihre IKT-Geschäftsfortführungspläne unter Berücksichtigung der Ergebnisse der Analyse des Risikos und der potenziellen Auswirkungen von schwerwiegenden Betriebsstörungen und von Szenarien, denen ihre IKT-Assets zur Unterstützung kritischer oder wichtiger Funktionen ausgesetzt sein könnten, insbesondere auch dem Szenario eines Cyberangriffs."
+      }
+    ]
+  },
+  "039.002": {
+    "h": "76bd85f0ca90bdc525aa22004f1185ac",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten IKT-Geschäftsfortführungspläne müssen"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "vom Leitungsorgan des Finanzunternehmens genehmigt sein;"
+          },
+          {
+            "m": "b)",
+            "t": "dokumentiert und im Not- oder Krisenfall leicht zugänglich sein;"
+          },
+          {
+            "m": "c)",
+            "t": "genügend Mittel für ihre Ausführung vorsehen;"
+          },
+          {
+            "m": "d)",
+            "t": "die geplanten Wiederherstellungsniveaus und Zeitrahmen für die Wiederherstellung und Wiederaufnahme von Funktionen sowie die wichtigsten internen und externen Abhängigkeiten, insbesondere auch IKT-Drittdienstleister, nennen;"
+          },
+          {
+            "m": "e)",
+            "t": "festlegen, welche Bedingungen zur Aktivierung der IKT-Geschäftsfortführungspläne führen können und welche Maßnahmen zu ergreifen sind, um die Verfügbarkeit, Kontinuität und Wiederherstellung der IKT-Assets der Finanzunternehmen zur Unterstützung kritischer oder wichtiger Funktionen sicherzustellen;"
+          },
+          {
+            "m": "f)",
+            "t": "die Wiedergewinnungs- und Wiederherstellungsmaßnahmen für kritische oder wichtige Geschäftsfunktionen, unterstützende Prozesse, Informationsassets und deren Interdependenzen ermitteln, um nachteilige Auswirkungen auf das Funktionieren der Finanzunternehmen zu vermeiden;"
+          },
+          {
+            "m": "g)",
+            "t": "Verfahren und Maßnahmen für die Datensicherung vorsehen, die den Umfang der Daten, die der Sicherung unterliegen, und die Mindesthäufigkeit der Sicherung auf der Grundlage der Kritikalität der diese Daten nutzenden Funktionen festlegen;"
+          },
+          {
+            "m": "h)",
+            "t": "Alternativen für den Fall erwägen, dass eine Wiederherstellung wegen Kosten, Risiken, Logistik oder unvorhergesehener Umstände kurzfristig nicht durchführbar sein könnte;"
+          },
+          {
+            "m": "i)",
+            "t": "die Regelungen für die interne und externe Kommunikation, insbesondere auch Eskalationspläne, festlegen;"
+          },
+          {
+            "m": "j)",
+            "t": "aktualisiert werden, um den Lehren aus Vorfällen, Tests, neuen Risiken und ermittelten Bedrohungen, veränderten Wiederherstellungszielen sowie größeren Veränderungen der Organisation des Finanzunternehmens und der IKT-Assets zur Unterstützung kritischer oder geschäftlicher Funktionen Rechnung zu tragen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe f sehen die dort genannten Maßnahmen die Minderung von Ausfällen kritischer Drittdienstleister vor."
+      }
+    ]
+  },
+  "040.001": {
+    "h": "e2a13a8fe885fc7b0698bdbdc0c3e0ca",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen testen ihre in Artikel 39 der vorliegenden Verordnung genannten Geschäftsfortführungspläne, insbesondere auch die dort genannten Szenarien, mindestens einmal jährlich im Hinblick auf die Sicherungs- und Wiedergewinnungsverfahren oder bei jeder größeren Veränderung des Geschäftsfortführungsplans."
+      }
+    ]
+  },
+  "040.002": {
+    "h": "5458d7a35b9254bda547e28cc12c05d9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Tests der Geschäftsfortführungspläne müssen zeigen, dass die in jenem Absatz genannten Finanzunternehmen in der Lage sind, die Funktionsfähigkeit ihrer Geschäftstätigkeit aufrechtzuerhalten, bis kritische Vorgänge wiederhergestellt sind, und etwaige Mängel in diesen Plänen zu erkennen."
+      }
+    ]
+  },
+  "040.003": {
+    "h": "09e193f2e8885584e3945355d715fead",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Finanzunternehmen müssen die Ergebnisse der Tests der Geschäftsfortführungspläne dokumentieren, und etwaige bei diesen Tests festgestellte Mängel müssen analysiert, behoben und dem Leitungsorgan gemeldet werden."
+      }
+    ]
+  },
+  "041.001": {
+    "h": "6b30bd026046d5c3684dd39d9e49e911",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen legen den in Absatz 2 jenes Artikels genannten Bericht über die Überprüfung des IKT-Risikomanagementrahmens in einem durchsuchbaren elektronischen Format vor."
+      }
+    ]
+  },
+  "041.002": {
+    "h": "b1cec12f596f4aa1ada03dfa2770b844",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der in Absatz 1 genannte Bericht muss alle folgenden Informationen enthalten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "einen einleitenden Abschnitt, der Folgendes enthält:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "eine Beschreibung des Kontexts des Berichts mit Blick auf Art, Umfang und Komplexität der Dienstleistungen, Tätigkeiten und Geschäfte des Finanzunternehmens, die Organisation, die ermittelten kritischen Funktionen, die Strategie, die wichtigsten laufenden Projekte oder Tätigkeiten und die Beziehungen des Finanzunternehmens sowie die Abhängigkeit des Finanzunternehmens von internen und ausgelagerten IKT-Dienstleistungen und -Systemen oder die Auswirkungen, die ein Totalverlust oder eine schwerwiegende Verschlechterung derartiger Systeme hinsichtlich kritischer oder wichtiger Funktionen und der Markteffizienz hätte;"
+              },
+              {
+                "m": "ii)",
+                "t": "eine Kurzzusammenfassung des ermittelten aktuellen und auf kurze Sicht bestehenden IKT-Risikoprofils, der Bedrohungslage, der erachteten Wirksamkeit seiner Kontrollen und der Sicherheitslage des Finanzunternehmens;"
+              },
+              {
+                "m": "iii)",
+                "t": "Informationen über das Gebiet, über das Bericht erstattet wird;"
+              },
+              {
+                "m": "iv)",
+                "t": "eine Zusammenfassung der wichtigsten Veränderungen des IKT-Risikomanagementrahmens seit dem letzten Bericht;"
+              },
+              {
+                "m": "v)",
+                "t": "eine Zusammenfassung und eine Beschreibung der Auswirkungen der wichtigsten Veränderungen des IKT-Risikomanagementrahmens seit dem letzten Bericht;"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "das Datum der Genehmigung des Berichts durch das Leitungsorgan des Finanzunternehmens, sofern anwendbar;"
+          },
+          {
+            "m": "c)",
+            "t": "eine Beschreibung der Gründe für die Überprüfung, insbesondere auch,",
+            "u": [
+              {
+                "m": "i)",
+                "t": "falls die Überprüfung nach aufsichtsrechtlichen Anweisungen eingeleitet wurde: Belege für diese Anweisungen;"
+              },
+              {
+                "m": "ii)",
+                "t": "falls die Überprüfung nach Auftreten von IKT-bezogenen Vorfällen eingeleitet wurde: die Liste aller IKT-bezogenen Vorfälle mit zugehöriger Ursachenanalyse;"
+              }
+            ]
+          },
+          {
+            "m": "d)",
+            "t": "das Anfangs- und Enddatum des Überprüfungszeitraums;"
+          },
+          {
+            "m": "e)",
+            "t": "die für die Überprüfung zuständige Person;"
+          },
+          {
+            "m": "f)",
+            "t": "eine Zusammenfassung der Ergebnisse und eine Eigenbewertung der Schwere der Schwächen, Mängel und Lücken, die im IKT-Risikomanagementrahmen für den Überprüfungszeitraum festgestellt wurden, einschließlich einer detaillierten Analyse derselben;"
+          },
+          {
+            "m": "g)",
+            "t": "ermittelte Abhilfemaßnahmen zur Behebung von Schwächen, Mängeln und Lücken im vereinfachten IKT-Risikomanagementrahmen und voraussichtliches Datum für die Implementierung dieser Maßnahmen, einschließlich Folgemaßnahmen für in früheren Berichten festgestellte Schwächen, Mängel und Lücken, sofern diese Schwächen, Mängel und Lücken noch nicht behoben sind;"
+          },
+          {
+            "m": "h)",
+            "t": "allgemeine Schlussfolgerungen zur Überprüfung des vereinfachten IKT-Risikomanagementrahmens, einschließlich weiterer geplanter Entwicklungen."
+          }
+        ]
+      }
+    ]
+  },
+  "art_1": {
+    "h": "16e1f498cb08f8f345fb9d88bc9cca30",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Entwicklung und Implementierung der Richtlinien, Verfahren, Protokolle und Tools für IKT-Sicherheit nach Titel II und des vereinfachten IKT-Risikomanagementrahmens nach Titel III werden Größe und Gesamtrisikoprofil des Finanzunternehmens sowie die Art und der Umfang seiner Dienstleistungen, Tätigkeiten und Geschäfte und die Elemente berücksichtigt, die deren Komplexität erhöhen oder verringern, darunter:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Verschlüsselung und Kryptografie;"
+          },
+          {
+            "m": "b)",
+            "t": "IKT-Betriebssicherheit;"
+          },
+          {
+            "m": "c)",
+            "t": "Netzwerksicherheit;"
+          },
+          {
+            "m": "d)",
+            "t": "IKT-Projekt- und -Änderungsmanagement;"
+          },
+          {
+            "m": "e)",
+            "t": "die potenziellen Auswirkungen des IKT-Risikos auf die Vertraulichkeit, Integrität und Verfügbarkeit von Daten sowie von Störungen, die die Kontinuität und Verfügbarkeit der Tätigkeiten des Finanzunternehmens beeinträchtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "art_13": {
+    "h": "aa60d0e9208d7db955e078a1e94b95f6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren im Rahmen der Schutzvorkehrungen, die die Sicherheit der Netzwerke gegen Eindringen und Missbrauch von Daten gewährleisten, Richtlinien, Verfahren, Protokolle und Tools für das Management der Netzwerksicherheit, in denen alle folgenden Aspekte behandelt werden:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Trennung und Segmentierung von IKT-Systemen und -Netzwerken unter Berücksichtigung",
+            "u": [
+              {
+                "m": "i)",
+                "t": "der Kritikalität oder Bedeutung der Funktion, die von diesen IKT-Systemen und -Netzwerken unterstützt wird,"
+              },
+              {
+                "m": "ii)",
+                "t": "der im Einklang mit Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 festgelegten Klassifizierung,"
+              },
+              {
+                "m": "iii)",
+                "t": "des Gesamtrisikoprofils der IKT-Assets, die diese IKT-Systeme und -Netzwerke nutzen;"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "die Dokumentation aller Netzwerkverbindungen und Datenflüsse des Finanzunternehmens;"
+          },
+          {
+            "m": "c)",
+            "t": "die Nutzung eines gesonderten und speziellen Netzwerks für die Verwaltung von IKT-Assets;"
+          },
+          {
+            "m": "d)",
+            "t": "die Ermittlung und Implementierung von Kontrollen für den Netzwerkzugang, um Verbindungen zum Netzwerk des Finanzunternehmens durch ein nicht zugelassenes Gerät oder System oder einen Endpunkt, der die Sicherheitsanforderungen des Finanzunternehmens nicht erfüllt, zu verhindern und zu erkennen;"
+          },
+          {
+            "m": "e)",
+            "t": "die Verschlüsselung von Netzwerkverbindungen über Unternehmensnetzwerke, öffentliche Netzwerke, inländische Netzwerke, Netzwerke Dritter und drahtlose Netzwerke für die verwendeten Kommunikationsprotokolle unter Berücksichtigung der Ergebnisse der genehmigten Datenklassifizierung, der Ergebnisse der IKT-Risikobewertung und der Verschlüsselung von Netzwerkverbindungen gemäß Artikel 6 Absatz 2;"
+          },
+          {
+            "m": "f)",
+            "t": "die Konzeption der Netzwerke im Einklang mit den vom Finanzunternehmen festgelegten IKT-Sicherheitsanforderungen unter Berücksichtigung führender Praktiken zur Gewährleistung der Vertraulichkeit, Integrität und Verfügbarkeit des Netzwerks;"
+          },
+          {
+            "m": "g)",
+            "t": "die Sicherung des Netzwerkverkehrs zwischen den internen Netzwerken und dem Internet und anderen externen Verbindungen;"
+          },
+          {
+            "m": "h)",
+            "t": "die Ermittlung der Aufgaben und Verantwortlichkeiten sowie der Etappen für die Spezifikation, Implementierung, Genehmigung, Änderung und Überprüfung der Firewall-Regeln und Verbindungsfilter;"
+          },
+          {
+            "m": "i)",
+            "t": "die Überprüfung der Netzwerkarchitektur und des Konzepts für die Netzwerksicherheit einmal jährlich und für Kleinstunternehmen in regelmäßigen Abständen, um potenzielle Schwachstellen zu ermitteln;"
+          },
+          {
+            "m": "j)",
+            "t": "die Maßnahmen zur vorübergehenden Isolierung von Teilnetzwerken sowie von Netzwerkkomponenten und -geräten, soweit erforderlich;"
+          },
+          {
+            "m": "k)",
+            "t": "die Implementierung einer sicheren Konfigurationsbasis für alle Netzwerkkomponenten und die Absicherung des Netzwerks und der Netzwerkgeräte im Einklang mit etwaigen Anweisungen des Anbieters und gegebenenfalls mit Normen im Sinne des Artikels 2 Nummer 1 der Verordnung (EU) Nr. 1025/2012 sowie führenden Praktiken;"
+          },
+          {
+            "m": "l)",
+            "t": "die Verfahren zur Begrenzung, Sperrung und Beendigung von System- und Fernsitzungen nach einer bestimmten Inaktivitätszeit;"
+          },
+          {
+            "m": "m)",
+            "t": "für Vereinbarungen über Netzwerkdienstleistungen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die Ermittlung und Spezifikation von IKT- und Informationssicherheitsmaßnahmen, der Dienstleistungsgüte und von Managementanforderungen für alle Netzwerkdienste;"
+              },
+              {
+                "m": "ii)",
+                "t": "die Feststellung, ob diese Dienstleistungen von einem gruppeninternen IKT-Dienstleister oder von IKT-Drittdienstleistern erbracht werden."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe h überprüfen die Finanzunternehmen regelmäßig die Firewall-Regeln und die Verbindungsfilter im Einklang mit der gemäß Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 festgelegten Klassifizierung und dem Gesamtrisikoprofil der beteiligten IKT-Systeme. Bei IKT-Systemen, die kritische oder wichtige Funktionen unterstützen, überprüfen Finanzunternehmen mindestens alle sechs Monate, ob die bestehenden Firewall-Regeln und Verbindungsfilter angemessen sind."
+      }
+    ]
+  },
+  "art_19": {
+    "h": "1af0b7f8211d31a92769cef16f8735c4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen nehmen in ihre Richtlinien für Personalpolitik oder in ihre anderen einschlägigen Richtlinien alle nachstehend genannten IKT-sicherheitsbezogenen Elemente auf:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Angabe und Zuweisung etwaiger spezifischer Zuständigkeiten im Bereich der IKT-Sicherheit,"
+          },
+          {
+            "m": "b)",
+            "t": "die Vorgabe für die Mitarbeiter des Finanzunternehmens und des IKT-Drittdienstleisters, die IKT-Assets des Finanzunternehmens nutzen oder auf diese zugreifen,",
+            "u": [
+              {
+                "m": "i)",
+                "t": "sich über die Richtlinien, Verfahren und Protokolle des Finanzunternehmens zur IKT-Sicherheit zu informieren und diese einzuhalten,"
+              },
+              {
+                "m": "ii)",
+                "t": "auf dem Laufenden darüber zu sein, welche Kanäle das Finanzunternehmen für die Meldung anomaler Verhaltensweisen geschaffen hat, wozu — soweit relevant — die gemäß der Richtlinie (EU) 2019/1937 des Europäischen Parlaments und des Rates () eingerichteten Meldekanäle zählen,"
+              },
+              {
+                "m": "iii)",
+                "t": "dem Finanzunternehmen nach Beendigung des Beschäftigungsverhältnisses alle in ihrem Besitz befindlichen IKT-Assets und materiellen Informationsassets, die Eigentum des Finanzunternehmens sind, auszuhändigen."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "art_21": {
+    "h": "8dda425da66a5d2f4563ff6ab443952a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen der Kontrolle der Zugangs- und Zugriffsrechte entwickeln, dokumentieren und implementieren die Finanzunternehmen Richtlinien, die alles Folgende vorsehen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Zuweisung der Rechte auf Zugang zu IKT-Assets nach dem Grundsatz „Kenntnis nur, wenn nötig“ („Need-to-know“), nach dem Grundsatz der Nutzungsnotwendigkeit („Need-to-use“) und nach dem Grundsatz der minimalen Berechtigung („Least privileges“), auch für den Fern- und Notfallzugang,"
+          },
+          {
+            "m": "b)",
+            "t": "die Abtrennung der Aufgaben, einen ungerechtfertigten Zugang zu kritischen Daten zu verhindern oder die Zuweisung einer Kombination von Zugriffsrechten zu verhindern, die zur Umgehung von Kontrollen genutzt werden können,"
+          },
+          {
+            "m": "c)",
+            "t": "eine Bestimmung zur Zurechenbarkeit, die die Nutzung generischer und gemeinsam genutzter Nutzerkonten so weit wie möglich einschränkt und die sicherstellt, dass die in den IKT-Systemen vorgenommenen Handlungen jederzeit einem Nutzer zugeordnet werden können,"
+          },
+          {
+            "m": "d)",
+            "t": "eine Bestimmung zur Beschränkung des Zugangs zu IKT-Assets, die Kontrollen und Tools zur Verhinderung eines unbefugten Zugangs vorsieht,"
+          },
+          {
+            "m": "e)",
+            "t": "Kontoverwaltungsverfahren für die Gewährung, Änderung oder Entziehung von Zugangsrechten für Nutzerkonten und generische Konten, insbesondere auch für generische Administratorkonten, die alles Folgende beinhalten:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die Zuweisung der Aufgaben und Zuständigkeiten für die Gewährung, Überprüfung und Entziehung von Zugangsrechten,"
+              },
+              {
+                "m": "ii)",
+                "t": "die Zuweisung eines bevorrechtigten Zugangs, eines Notfallzugangs und eines Administratorzugangs nach dem Grundsatz der Nutzungsnotwendigkeit oder ad hoc bei allen IKT-Systemen,"
+              },
+              {
+                "m": "iii)",
+                "t": "den umgehenden Entzug der Zugangsrechte bei Beendigung des Beschäftigungsverhältnisses oder wenn der Zugang nicht länger erforderlich ist,"
+              },
+              {
+                "m": "iv)",
+                "t": "die Aktualisierung der Zugangsrechte, wenn Änderungen notwendig sind, mindestens aber einmal jährlich bei allen IKT-Systemen mit Ausnahme derjenigen, die kritische oder wichtige Funktionen unterstützen, und mindestens alle sechs Monate bei IKT-Systemen, die kritische oder wichtige Funktionen unterstützen;"
+              }
+            ]
+          },
+          {
+            "m": "f)",
+            "t": "Authentifizierungsmethoden, die alles Folgende vorsehen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die Nutzung von Authentifizierungsmethoden ist der gemäß Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 vorgenommenen Klassifizierung und dem Gesamtrisikoprofil der IKT-Assets angemessen und trägt führenden Praktiken Rechnung,"
+              },
+              {
+                "m": "ii)",
+                "t": "die Nutzung starker Authentifizierungsmethoden entspricht den führenden Praktiken und Techniken für den Fernzugang zum Netz des Finanzunternehmens, für den bevorrechtigten Zugang, für den Zugang zu IKT-Assets, die kritische oder wichtige Funktionen unterstützen oder IKT-Assets, die öffentlich zugänglich sind,"
+              }
+            ]
+          },
+          {
+            "m": "g)",
+            "t": "physische Zugangskontrollen, die Folgendes einschließen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die Identifizierung und Protokollierung natürlicher Personen mit Zugangsberechtigung für Räumlichkeiten, Rechenzentren und die vom Finanzunternehmen designierten sensiblen Bereiche, in denen IKT- und Informationsassets untergebracht sind,"
+              },
+              {
+                "m": "ii)",
+                "t": "die Gewährung der Rechte auf physischen Zugang zu kritischen IKT-Assets nur für befugte Personen nach dem Grundsatz „Kenntnis nur, wenn nötig“ und dem Grundsatz der minimalen Berechtigung sowie ad hoc,"
+              },
+              {
+                "m": "iii)",
+                "t": "die Überwachung des physischen Zugangs zu Räumlichkeiten, Rechenzentren und die vom Finanzunternehmen designierten sensiblen Bereiche, in denen IKT- und/oder Informationsassets untergebracht sind,"
+              },
+              {
+                "m": "iv)",
+                "t": "die Überprüfung der physischen Zugangsrechte, um zu gewährleisten, dass unnötige Zugangsrechte umgehend entzogen werden."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe e Ziffer i legen die Finanzunternehmen die Speicherfrist fest und tragen dabei den Geschäftszielen und den Zielen für die Informationssicherheit, den Gründen für die Protokollierung des Ereignisses und den Ergebnissen der IKT-Risikobewertung Rechnung."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe e Ziffer ii verwenden die Finanzunternehmen für die Ausführung administrativer Aufgaben in IKT-Systemen nach Möglichkeit spezielle Konten. Für das Management des bevorrechtigten Zugangs greifen die Finanzunternehmen soweit möglich und angemessen auf automatisierte Lösungen zurück."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe g Ziffer i müssen die Identifizierung und Protokollierung der Bedeutung der Räumlichkeiten, der Rechenzentren und der designierten sensiblen Bereiche und der Kritikalität der dort untergebrachten Geschäftstätigkeiten oder IKT-Systeme angemessen sein."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe g Ziffer iii muss die Überwachung der gemäß Artikel 8 Absatz 1 der Verordnung (EU) 2022/2554 vorgenommenen Klassifizierung und der Kritikalität des Zugangsbereichs angemessen sein."
+      }
+    ]
+  },
+  "art_22": {
+    "h": "f30b115a43b40422bdcb9cccf0d50b0f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen des Mechanismus zur Erkennung anomaler Aktivitäten, worunter auch Probleme bei der Leistung von IKT-Netzwerken und IKT-bezogene Vorfälle fallen, entwickeln, dokumentieren und implementieren die Finanzunternehmen Richtlinien für IKT-bezogene Vorfälle, in deren Rahmen sie"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "den in Artikel 17 der Verordnung (EU) 2022/2554 genannten Prozess für die Behandlung IKT-bezogener Vorfälle dokumentieren,"
+          },
+          {
+            "m": "b)",
+            "t": "eine Liste der relevanten Kontakte erstellen, die mit internen Funktionen und externen Interessenträgern, die direkt an der IKT-Betriebssicherheit beteiligt sind, unter anderem in Bezug auf Folgendes unterhalten werden:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die Erkennung und Überwachung von Cyberbedrohungen,"
+              },
+              {
+                "m": "ii)",
+                "t": "die Erkennung anomaler Aktivitäten,"
+              },
+              {
+                "m": "iii)",
+                "t": "das Schwachstellenmanagement;"
+              }
+            ]
+          },
+          {
+            "m": "c)",
+            "t": "technische, organisatorische und operative Mechanismen zur Unterstützung des Prozesses für die Behandlung IKT-bezogener Vorfälle einrichten, implementieren und betreiben, darunter auch Mechanismen, die eine rasche Erkennung anomaler Tätigkeiten und Verhaltensweisen gemäß Artikel 23 ermöglichen,"
+          },
+          {
+            "m": "d)",
+            "t": "gemäß Artikel 15 der Delegierten Verordnung (EU) 2024/1772 () und gemäß allen nach Unionsrecht geltenden Speichervorschriften alle Nachweise im Zusammenhang mit IKT-bezogenen Vorfällen so lange aufbewahren, wie es für die Zwecke der Datenerhebung unbedingt erforderlich und der Kritikalität der betreffenden Unternehmensfunktionen, unterstützenden Prozesse sowie IKT- und Informationsassets angemessen ist,"
+          },
+          {
+            "m": "e)",
+            "t": "Mechanismen zur Analyse bedeutender oder wiederkehrender IKT-bezogener Vorfälle und -Muster in Bezug auf Anzahl und Auftreten IKT-bezogener Vorfälle einrichten und implementieren."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens d bewahren die Finanzunternehmen die dort genannten Nachweise auf sichere Weise auf."
+      }
+    ]
+  },
+  "art_3": {
+    "h": "da7223d842d999b6e05635c519d6b5b5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen entwickeln, dokumentieren und implementieren Richtlinien und Verfahren für das IKT-Risikomanagement, die alle folgenden Elemente umfassen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "einen Verweis auf die Genehmigung der nach Artikel 6 Absatz 8 Buchstabe b der Verordnung (EU) 2022/2554 festgelegten Risikotoleranzschwelle für IKT-Risiken;"
+          },
+          {
+            "m": "b)",
+            "t": "ein Verfahren und eine Methodik für die Durchführung der IKT-Risikobewertung, um Folgendes zu ermitteln:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Schwachstellen und Bedrohungen, die die unterstützten Unternehmensfunktionen, die IKT-Systeme und die IKT-Assets, die diese Funktionen unterstützen, beeinträchtigen oder beeinträchtigen könnten,"
+              },
+              {
+                "m": "ii)",
+                "t": "die quantitativen oder qualitativen Indikatoren zur Messung der Auswirkungen und der Wahrscheinlichkeit eines Auftretens der unter Ziffer i genannten Schwachstellen und Bedrohungen;"
+              }
+            ]
+          },
+          {
+            "m": "c)",
+            "t": "das Verfahren zur Ermittlung, Implementierung und Dokumentation von Maßnahmen für die Behandlung von IKT-Risiken mit Blick auf die ermittelten und bewerteten IKT-Risiken, einschließlich der Festlegung von Maßnahmen für die Behandlung von IKT-Risiken, die erforderlich sind, um diese unter die Risikotoleranzschwelle nach Buchstabe a zu senken;"
+          },
+          {
+            "m": "d)",
+            "t": "für IKT-Restrisiken, die nach der Implementierung der Maßnahmen für die Behandlung von IKT-Risiken gemäß Buchstabe c weiter bestehen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Bestimmungen über die Ermittlung dieser IKT-Restrisiken,"
+              },
+              {
+                "m": "ii)",
+                "t": "die Zuweisung von Aufgaben und Verantwortlichkeiten mit Blick auf",
+                "u": [
+                  {
+                    "m": "1.",
+                    "t": "das Eingehen von IKT-Restrisiken, die die Risikotoleranzschwelle nach Buchstabe a des Finanzunternehmens überschreiten,"
+                  },
+                  {
+                    "m": "2.",
+                    "t": "das Überprüfungsverfahren gemäß Buchstabe d Ziffer iv,"
+                  }
+                ]
+              },
+              {
+                "m": "iii)",
+                "t": "die Erstellung eines Inventars der eingegangenen IKT-Restrisiken, einschließlich einer Begründung, weshalb sie eingegangen wurden,"
+              },
+              {
+                "m": "iv)",
+                "t": "Bestimmungen über die Überprüfung der eingegangenen IKT-Restrisiken, die mindestens einmal jährlich vorgenommen wird, einschließlich zur",
+                "u": [
+                  {
+                    "m": "1.",
+                    "t": "Ermittlung etwaiger Änderungen der IKT-Restrisiken,"
+                  },
+                  {
+                    "m": "2.",
+                    "t": "Bewertung der verfügbaren Abhilfemaßnahmen,"
+                  },
+                  {
+                    "m": "3.",
+                    "t": "Bewertung, ob die Gründe für das Eingehen der IKT-Restrisiken zum Zeitpunkt der Überprüfung noch gültig und anwendbar sind;"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "m": "e)",
+            "t": "Bestimmungen über die Überwachung",
+            "u": [
+              {
+                "m": "i)",
+                "t": "jeglicher Änderungen der IKT-Risiken und der Cyberbedrohungslage,"
+              },
+              {
+                "m": "ii)",
+                "t": "interner und externer Schwachstellen und Bedrohungen,"
+              },
+              {
+                "m": "iii)",
+                "t": "des IKT-Risikos des Finanzunternehmens, damit Änderungen, die sich auf sein IKT-Risikoprofil auswirken könnten, rasch erkannt werden können;"
+              }
+            ]
+          },
+          {
+            "m": "f)",
+            "t": "Bestimmungen über ein Verfahren, mit dem sichergestellt wird, dass alle Änderungen der Geschäftsstrategie und der Strategie für die digitale operationale Resilienz des Finanzunternehmens berücksichtigt werden."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Absatz 1 Buchstabe c stellt das dort genannte Verfahren sicher, dass"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Wirksamkeit der implementierten Maßnahmen für die Behandlung von IKT-Risiken überwacht wird;"
+          },
+          {
+            "m": "b)",
+            "t": "bewertet wird, ob die festgelegten Risikotoleranzschwellen des Finanzunternehmens erreicht wurden;"
+          },
+          {
+            "m": "c)",
+            "t": "bewertet wird, ob das Finanzunternehmen tätig geworden ist, um diese Maßnahmen erforderlichenfalls zu korrigieren oder zu verbessern."
+          }
+        ]
+      }
+    ]
+  },
+  "art_33": {
+    "h": "0b998960c60f393311bb8290de6bb4a9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen erarbeiten, dokumentieren und implementieren Verfahren für die Kontrolle des logischen und physischen Zugangs und setzen diese Verfahren durch, überwachen sie und überprüfen sie regelmäßig. Diese Verfahren umfassen die folgenden Elemente der Kontrolle des logischen und physischen Zugangs:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Verwaltung der Rechte auf Zugang zu Informationsassets, IKT-Assets und den durch sie unterstützten Funktionen sowie zu kritischen Betriebsstandorten des Finanzunternehmens nach dem Grundsatz „Kenntnis nur, wenn nötig“ („Need-to-know“), nach dem Grundsatz der Nutzungsnotwendigkeit („Need-to-use“) und nach dem Grundsatz der minimalen Berechtigung („Least privileges“), auch für den Fern- und Notfallzugang;"
+          },
+          {
+            "m": "b)",
+            "t": "Zurechenbarkeit der Nutzer, die sicherstellt, dass die Nutzer, die Handlungen in den IKT-Systemen vorgenommen haben, identifiziert werden können;"
+          },
+          {
+            "m": "c)",
+            "t": "Kontoverwaltungsverfahren für die Gewährung, Veränderung oder Entziehung von Zugangsrechten für Nutzerkonten und generische Konten, insbesondere auch für generische Administratorkonten;"
+          },
+          {
+            "m": "d)",
+            "t": "Authentifizierungsmethoden, die der in Artikel 30 Absatz 1 genannten Klassifizierung und dem Gesamtrisikoprofil der IKT-Assets angemessen sind und auf führenden Praktiken beruhen;"
+          },
+          {
+            "m": "e)",
+            "t": "regelmäßige Überprüfung der Zugangsrechte und Entziehung nicht mehr benötigter Zugangsrechte."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe c weist das Finanzunternehmen den privilegierten Zugang, den Notfallzugang und den Administratorzugang bei allen IKT-Systemen nach dem Grundsatz der Nutzungsnotwendigkeit oder ad hoc zu und protokolliert den Zugang nach Maßgabe von Artikel 34 Absatz 1 Buchstabe f in einer Log-Datei."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe d wenden die Finanzunternehmen starke Authentifizierungsmethoden an, die sich auf führende Praktiken für den Fernzugriff auf das Netz der Finanzunternehmen, für den privilegierten Zugang und für den Zugang zu IKT-Assets zur Unterstützung kritischer oder wichtiger Funktionen stützen, die öffentlich verfügbar sind."
+      }
+    ]
+  },
+  "art_34": {
+    "h": "f929f616810a1d5730df6fd204f21b67",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen müssen im Rahmen ihrer Systeme, Protokolle und Tools sowie bei allen IKT-Assets"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "den Lebenszyklus aller IKT-Assets überwachen und managen;"
+          },
+          {
+            "m": "b)",
+            "t": "überwachen, ob die IKT-Assets von IKT-Drittdienstleistern der Finanzunternehmen unterstützt werden, sofern anwendbar;"
+          },
+          {
+            "m": "c)",
+            "t": "die Kapazitätsanforderungen ihrer IKT-Assets und Maßnahmen ermitteln, um die Verfügbarkeit und Effizienz der IKT-Systeme zu wahren und zu verbessern und IKT-Kapazitätsengpässen vorzubeugen, bevor sie auftreten;"
+          },
+          {
+            "m": "d)",
+            "t": "eine automatisierte Schwachstellensuche sowie Bewertungen der IKT-Assets durchführen, die der in Artikel 30 Absatz 1 genannten Klassifizierung und dem Gesamtrisikoprofil des betreffenden IKT-Assets angemessen sind, und Patches zur Behebung ermittelter Schwachstellen installieren;"
+          },
+          {
+            "m": "e)",
+            "t": "die mit veralteten oder nicht unterstützten IKT-Assets oder mit IKT-Altsystemen verbundenen Risiken managen;"
+          },
+          {
+            "m": "f)",
+            "t": "Vorfälle im Zusammenhang mit der logischen und physischen Zugangskontrolle, dem IKT-Betrieb, einschließlich System- und Netzwerkverkehr, sowie dem IKT-Änderungsmanagement protokollieren;"
+          },
+          {
+            "m": "g)",
+            "t": "Maßnahmen ermitteln und umsetzen, um Informationen über anomale Aktivitäten und anomales Verhalten bei kritischen oder wichtigen IKT-Vorgängen zu überwachen und zu analysieren;"
+          },
+          {
+            "m": "h)",
+            "t": "Maßnahmen zur Überwachung relevanter und aktueller Informationen über Cyberbedrohungen umsetzen;"
+          },
+          {
+            "m": "i)",
+            "t": "Maßnahmen zur Erkennung etwaiger Informationslecks, Schadcodes und anderer Sicherheitsbedrohungen sowie öffentlich bekannter Schwachstellen in Software und Hardware umsetzen und die Verfügbarkeit entsprechender neuer Sicherheitsupdates prüfen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Buchstabe f stimmen die Finanzunternehmen den Detaillierungsgrad der Protokolle auf deren Zweck und auf die Nutzung des IKT-Assets ab, der diese Protokolle produziert."
+      }
+    ]
+  },
+  "art_35": {
+    "h": "25da15d628ef050a6ecd3c9f50cf3a91",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen entwickeln und implementieren im Rahmen ihrer Systeme, Protokolle und Tools Schutzvorrichtungen, die die Sicherheit der Netzwerke gegen Eindringen und den Missbrauch von Daten gewährleisten und die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten wahren. Insbesondere tragen die Finanzunternehmen unter Berücksichtigung der in Artikel 30 Absatz 1 genannten Klassifizierung für alles Folgende Sorge:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Ermittlung und Umsetzung von Maßnahmen zum Schutz von Daten, die gerade verwendet oder übermittelt werden, sowie von Daten, die gespeichert sind;"
+          },
+          {
+            "m": "b)",
+            "t": "Ermittlung und Umsetzung von Sicherheitsmaßnahmen für die Nutzung von Software, Datenträgern, Systemen und Endgeräten, die Daten des Finanzunternehmens übertragen und speichern;"
+          },
+          {
+            "m": "c)",
+            "t": "Ermittlung und Umsetzung von Maßnahmen zur Verhinderung und Aufdeckung unbefugter Verbindungen mit dem Netz des Finanzunternehmens und zur Sicherung des Netzverkehrs zwischen den internen Netzwerken des Finanzunternehmens und dem Internet und anderen externen Verbindungen;"
+          },
+          {
+            "m": "d)",
+            "t": "Ermittlung und Umsetzung von Maßnahmen zur Gewährleistung der Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten bei Netzwerkübertragungen;"
+          },
+          {
+            "m": "e)",
+            "t": "ein Verfahren zur sicheren Löschung von Daten in den Räumlichkeiten oder von extern gespeicherten Daten, die das Finanzunternehmen nicht mehr erheben oder speichern muss;"
+          },
+          {
+            "m": "f)",
+            "t": "ein Verfahren zur sicheren Entsorgung oder Außerbetriebnahme von Datenspeichern in den Räumlichkeiten oder von extern gelagerten Datenspeichern, die vertrauliche Informationen enthalten;"
+          },
+          {
+            "m": "g)",
+            "t": "Ermittlung und Umsetzung von Maßnahmen, mit denen sichergestellt wird, dass Telearbeit und die Nutzung privater Endgeräte die Fähigkeit des Finanzunternehmens, seine kritischen Tätigkeiten angemessen, rechtzeitig und sicher auszuführen, nicht beeinträchtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "art_37": {
+    "h": "04f2e9cb69b80b32f2b3786ca62eea26",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen konzipieren und implementieren, sofern angemessen, ein Verfahren für die Beschaffung, Entwicklung und Wartung von IKT-Systemen entsprechend einem risikobasierten Ansatz. Dieses Verfahren muss"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "sicherstellen, dass die funktionalen und nichtfunktionalen Anforderungen, insbesondere auch die Anforderungen an die Informationssicherheit, von der betreffenden Unternehmensfunktion klar spezifiziert und genehmigt werden, bevor IKT-Systeme beschafft oder entwickelt werden;"
+          },
+          {
+            "m": "b)",
+            "t": "sicherstellen, dass IKT-Systeme vor ihrer erstmaligen Nutzung und vor der Einführung von Änderungen an der Produktionsumgebung getestet und genehmigt werden;"
+          },
+          {
+            "m": "c)",
+            "t": "Maßnahmen zur Minderung des Risikos einer unbeabsichtigten Veränderung oder einer vorsätzlichen Manipulation der IKT-Systeme während der Entwicklung und Implementierung in der Produktionsumgebung vorsehen."
+          }
+        ]
+      }
+    ]
+  },
+  "art_42": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "2149e9e388eb88b2fccf9862479aef36",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 15 Unterabsatz 4 und Artikel 16 Absatz 3 Unterabsatz 4,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "af2c542fa89a218cd6529147d9e138df",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Die Verordnung (EU) 2022/2554 gilt für ein breites Spektrum von Finanzunternehmen, die sich in Bezug auf Größe, Struktur, interne Organisation sowie Art und Komplexität ihrer Tätigkeiten unterscheiden und daher mehr oder weniger Komplexitäts- oder Risikoelemente aufweisen. Um sicherzustellen, dass dieser Vielfalt gebührend Rechnung getragen wird, sollten sämtliche Anforderungen in Bezug auf Richtlinien, Verfahren, Protokolle und Tools für IKT-Sicherheit sowie einen vereinfachten IKT-Risikomanagementrahmen in einem angemessenen Verhältnis zu Größe, Struktur, interner Organisation, Art und Komplexität dieser Finanzunternehmen und den damit verbundenen Risiken stehen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_10": {
+    "h": "f378c45f082dea6e1dc85383553db984",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(10)",
+            "t": "Die Richtlinien, Verfahren, Protokolle und Tools für IKT-Sicherheit und -Betrieb sind von wesentlicher Bedeutung für die Wahrung der Vertraulichkeit, Integrität und Verfügbarkeit von Daten. Ein zentraler Aspekt ist dabei die strikte Trennung der IKT-Produktionsumgebungen von Entwicklungs-, Test- und anderen Nicht-Produktionsumgebungen. Diese Trennung ist eine wichtige IKT-Sicherheitsmaßnahme gegen einen unbeabsichtigten und unbefugten Zugriff auf Daten und die Änderung und Löschung von Daten in der Produktionsumgebung, die zu größeren Störungen der Geschäftstätigkeit der in Titel II genannten Finanzunternehmen führen können. Gleichwohl sollte es Finanzunternehmen angesichts der derzeitigen IKT-Entwicklungsverfahren im Ausnahmefall gestattet sein, auch in Produktionsumgebungen zu testen, sofern sie diese Tests begründen und die erforderliche Genehmigung erhalten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_11": {
+    "h": "90123f1f73682629dddc752731749a5c",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(11)",
+            "t": "IKT-Landschaften, IKT-Schwachstellen und Cyberbedrohungen verändern sich ständig, sodass für die Ermittlung, Bewertung und Behebung von IKT-Schwachstellen ein proaktiver und umfassender Ansatz benötigt wird. Ohne einen solchen Ansatz drohen Finanzunternehmen, ihren Kunden, Nutzern und Gegenparteien erhebliche Risiken in Bezug auf ihre digitale operationale Resilienz, die Sicherheit ihrer Netzwerke und die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit von Daten, die durch Richtlinien und Verfahren der IKT-Sicherheit geschützt werden sollen. Daher sollten in Titel II genannte Finanzunternehmen Schwachstellen in ihrem IKT-Umfeld ermitteln und beheben, und sowohl Finanzunternehmen als auch ihre IKT-Drittdienstleister sollten in einem Rahmen arbeiten, der einen kohärenten, transparenten und verantwortungsvollen Umgang mit Schwachstellen gewährleistet. Aus demselben Grund sollten Finanzunternehmen IKT-Schwachstellen mithilfe zuverlässiger Ressourcen und automatisierter Tools überwachen und prüfen, ob IKT-Drittdienstleister bei Schwachstellen bereitgestellter IKT-Dienste unverzüglich aktiv werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_12": {
+    "h": "83031eb856029ee61c2fb7f3b629d332",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(12)",
+            "t": "Patch-Management sollte ein wesentlicher Bestandteil dieser IKT-Sicherheitsrichtlinien und -verfahren sein, die dazu dienen, durch Erprobung und Einführung in einer kontrollierten Umgebung festgestellte Schwachstellen zu beseitigen und Störungen durch die Installation von Patches zu verhindern."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_13": {
+    "h": "5ead3e2294043a50f3a8089b0785a75b",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(13)",
+            "t": "Um im Hinblick auf potenzielle Sicherheitsbedrohungen, die für das Finanzunternehmen und seine Interessenträger relevant sein könnten, eine zeitnahe und transparente Kommunikation zu gewährleisten, sollten Finanzunternehmen Verfahren für eine verantwortungsvolle Offenlegung von IKT-Schwachstellen gegenüber Kunden, Gegenparteien und der Öffentlichkeit festlegen. Bei der Festlegung dieser Verfahren sollten Finanzunternehmen verschiedene Faktoren berücksichtigen und zum Beispiel prüfen, wie schwerwiegend die Schwachstelle ist, wie sie sich auf die Interessenträger auswirken kann und wie schnell für Abhilfe oder eine Minderung der Auswirkungen gesorgt werden kann."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_14": {
+    "h": "3a63e300c22e7888f38fc37bebbbea8c",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(14)",
+            "t": "Bei der Zuweisung von Zugangsrechten an Nutzer sollten in Titel II genannte Finanzunternehmen durch strenge Maßnahmen sicherstellen, dass eine eindeutige Identifizierung von Personen und Systemen, die auf die Informationen des Finanzunternehmens zugreifen, gewährleistet ist. Wird dies versäumt, so setzt sich das betreffende Finanzunternehmen dem Risiko von potenziell unbefugten Zugriffen, Datenschutzverletzungen und betrügerischen Aktivitäten und somit der Gefahr einer Beeinträchtigung der Vertraulichkeit, Integrität und Verfügbarkeit sensibler Finanzdaten aus. Auch wenn die Verwendung von generischen oder gemeinsam genutzten Konten unter Umständen, die die Finanzunternehmen festlegen, ausnahmsweise zulässig sein sollte, sollten die Finanzunternehmen doch sicherstellen, dass Handlungen, die über diese Konten erfolgen, zurechenbar bleiben. Ist dies nicht der Fall, so bietet sich potenziellen böswilligen Nutzern die Möglichkeit, Ermittlungs- und Korrekturmaßnahmen zu behindern, was bei den Finanzunternehmen die Gefahr von unentdeckten böswilligen Handlungen oder von Sanktionen wegen Nichteinhaltung erhöhen würde."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_15": {
+    "h": "5c93c1b5b490928e4a01b77fe86b1a7a",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(15)",
+            "t": "Angesichts der raschen Fortschritte in IKT-Umgebungen sollten die in Titel II genannten Finanzunternehmen robuste Richtlinien und Verfahren für das IKT-Projektmanagement implementieren, um die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten zu gewährleisten. In diesen Richtlinien und Verfahren für das IKT-Projektmanagement sollte festgelegt werden, welche Elemente für den Erfolg von IKT-Projekten erforderlich sind, einschließlich Änderungen, Beschaffung, Wartung und Entwicklung der IKT-Systeme des Finanzunternehmens, wobei es keine Rolle spielt, welche Methodik das Finanzunternehmen für das IKT-Projektmanagement gewählt hat. Im Rahmen dieser Richtlinien und Verfahren sollten Finanzunternehmen bedarfsgerechte Testverfahren und -methoden einführen, ohne jedoch Abstriche an ihrem risikobasierten Ansatz und einem sicheren, zuverlässigen und resilienten IKT-Umfeld zu machen. Zur Gewährleistung einer sicheren Durchführung von IKT-Projekten sollten Finanzunternehmen sicherstellen, dass Mitarbeiter aus bestimmten Geschäftsbereichen oder Funktionen, in denen das entsprechende IKT-Projekt Wirkung zeigen wird, die erforderlichen Informationen und Fachkenntnisse bereitstellen können. Um eine wirksame Aufsicht zu gewährleisten, sollten dem Leitungsorgan Berichte über IKT-Projekte und damit verbundene Risiken vorgelegt werden, insbesondere wenn diese Projekte kritische oder wichtige Funktionen betreffen. Finanzunternehmen sollten die Häufigkeit und die Einzelheiten der systematischen und laufenden Überprüfungen und Berichte auf Bedeutung und Umfang der betreffenden IKT-Projekte abstimmen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_16": {
+    "h": "1cd8148b92d6bbf7e47cd83deacde53c",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(16)",
+            "t": "Softwarepakete, die in Titel II genannte Finanzunternehmen erwerben und entwickeln, müssen im Einklang mit den gesetzten Zielen für Betriebs- und Informationssicherheit wirksam und sicher in das bestehende IKT-Umfeld eingebunden werden. Finanzunternehmen sollten solche Softwarepakete daher gründlich bewerten. Zu diesem Zweck und zur Ermittlung von Schwachstellen und potenziellen Sicherheitslücken in den Softwarepaketen und den umfassenderen IKT-Systemen sollten Finanzunternehmen IKT-Sicherheitstests durchführen. Um die Integrität der Software zu bewerten und sicherzustellen, dass ihre Verwendung keine Risiken für die IKT-Sicherheit birgt, sollten Finanzunternehmen auch Quellcodes erworbener Software und nach Möglichkeit von IKT-Drittanbietern bereitgestellter proprietärer Software unter Verwendung statischer und dynamischer Testmethoden überprüfen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_17": {
+    "h": "359f5faa81dc27140d931dd7eab053f1",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(17)",
+            "t": "Änderungen bergen unabhängig von ihrem Umfang bestimmte inhärente Risiken, können erhebliche Risiken für den Verlust der Vertraulichkeit, Integrität und Verfügbarkeit von Daten mit sich bringen und somit zu schwerwiegenden Betriebsstörungen führen. Um Finanzunternehmen vor potenziellen IKT-Schwachstellen und damit verbundenen erheblichen Risiken zu schützen, wird ein strenges Überprüfungsverfahren benötigt, um festzustellen, ob Änderungen die erforderlichen IKT-Sicherheitsanforderungen erfüllen. Deshalb sollten sich die in Titel II genannten Finanzunternehmen solide Richtlinien und Verfahren für das IKT-Änderungsmanagement geben und diese als wesentliches Element ihrer Richtlinien und Verfahren für die IKT-Sicherheit behandeln. Um Objektivität und Wirksamkeit des IKT-Änderungsmanagements zu wahren, Interessenkonflikte zu vermeiden und eine objektive Bewertung von IKT-Änderungen sicherzustellen, müssen die für die Genehmigung dieser Änderungen zuständigen Funktionen von den Funktionen getrennt sein, die Änderungen anstoßen und umsetzen. Zur Gewährleistung eines wirksamen Übergangs, einer kontrollierten Umsetzung von IKT-Änderungen und minimaler Störungen des Betriebs der IKT-Systeme sollten Finanzunternehmen Rollen und Zuständigkeiten eindeutig zuweisen, um sicherzustellen, dass IKT-Änderungen gut geplant und angemessen getestet werden und dass Qualität gewährleistet ist. Ferner sollten Finanzunternehmen Ausweichverfahren entwickeln und umsetzen, die gewährleisten, dass IKT-Systeme weiterhin wirksam funktionieren, und für ein Sicherheitsnetz sorgen. Finanzunternehmen sollten diese Ausweichverfahren eindeutig definieren und die entsprechenden Zuständigkeiten zuweisen, um eine rasche und wirksame Reaktion auf nicht erfolgreich verlaufene IKT-Änderungen zu gewährleisten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_18": {
+    "h": "0992d94d414b5066fe1bbca78f3943bf",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(18)",
+            "t": "Mit Blick auf die Erkennung, Steuerung und Meldung IKT-bezogener Vorfälle sollten in Titel II genannte Finanzunternehmen eine Strategie für IKT-bezogene Vorfälle mit den Komponenten eines IKT-Vorfallmanagements festlegen. Zu diesem Zweck sollten Finanzunternehmen alle relevanten Kontakte inner- und außerhalb der Organisation ermitteln, die eine ordnungsgemäße Koordinierung und Durchführung der verschiedenen Phasen dieses Prozesses unterstützen können. Zur Verbesserung der Erkennung IKT-bezogener Vorfälle und der Reaktion darauf und um bei diesen Vorfällen Trends zu ermitteln, die Finanzunternehmen wertvolle Informationen liefern können, um grundlegende Ursachen und Probleme wirksam auszumachen und anzugehen, sollten Finanzunternehmen IKT-bezogene Vorfälle und insbesondere solche, die sie unter anderem aufgrund ihres regelmäßigen Wiederauftretens für besonders wichtig halten, eingehend analysieren."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_19": {
+    "h": "7c323c814eea062a6ca686405beccb57",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(19)",
+            "t": "Im Interesse einer frühzeitigen und wirksamen Aufdeckung von Anomalien sollten in Titel II genannte Finanzunternehmen unterschiedliche Informationsquellen erfassen, überwachen und analysieren und entsprechende Rollen und Zuständigkeiten zuweisen. Bei internen Informationsquellen sind Protokolle eine höchst relevante Quelle, doch sollten sich Finanzunternehmen nicht allein auf Protokolle verlassen. Stattdessen sollten sie umfassendere Informationen prüfen und auch Meldungen anderer interner Funktionen einbeziehen, die oft eine wertvolle Quelle relevanter Informationen sind. Aus dem gleichen Grund sollten Finanzunternehmen Informationen aus externen Quellen analysieren und überwachen, einschließlich der von IKT-Drittanbietern bereitgestellten Informationen über Vorfälle, die ihre Systeme und Netze betreffen, sowie anderer Informationsquellen, die Finanzunternehmen für relevant halten. Soweit personenbezogene Daten betroffen sind, findet das Datenschutzrecht der Union Anwendung. Die personenbezogenen Daten sollten auf das für die Erkennung des Vorfalls erforderliche Maß beschränkt sein."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "2fb6cdc8f522bb0f5cfd42bc07984482",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Aus dem gleichen Grund sollten Finanzunternehmen, die der Verordnung (EU) 2022/2554 unterliegen, bei der Erfüllung der Anforderungen an Richtlinien, Verfahren, Protokolle und Tools für die IKT-Sicherheit sowie bei einem vereinfachten IKT-Risikomanagementrahmen über eine gewisse Flexibilität verfügen. Deshalb sollten Finanzunternehmen zur Erfüllung von Dokumentationsanforderungen, die sich aus diesen Anforderungen ergeben, sämtliche Unterlagen, über die sie bereits verfügen, verwenden dürfen. Die Entwicklung, Dokumentation und Umsetzung spezifischer Richtlinien für die IKT-Sicherheit sollte nur für bestimmte wesentliche Elemente verlangt werden, wobei auch die führenden Branchenpraktiken und -normen berücksichtigt werden sollten. Um spezifische technische Aspekte der Umsetzung abzudecken, müssen entsprechende Verfahren der IKT-Sicherheit entwickelt, dokumentiert und umgesetzt werden, unter anderem für das Kapazitäts- und Leistungsmanagement, den Umgang mit Schwachstellen und das Patch-Management, die Daten- und Systemsicherheit sowie die Protokollierung."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_20": {
+    "h": "e8aed0796706c207701d9d37c6c51b67",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(20)",
+            "t": "Zur Verbesserung der Erkennung IKT-bezogener Vorfälle sollten Finanzunternehmen diese Vorfälle dokumentieren. Um einerseits sicherzustellen, dass solche Nachweise ausreichend lang aufbewahrt werden, und andererseits einen übermäßigen Aufwand zu vermeiden, sollten Finanzunternehmen bei der Festlegung der Speicherfrist unter anderem die Kritikalität der betreffenden Daten und die sich aus dem Unionsrecht ergebenden Anforderungen an die Vorratsspeicherung berücksichtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_21": {
+    "h": "809716fe077f9effea0376d4d4224842",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(21)",
+            "t": "Um sicherzustellen, dass IKT-bezogene Vorfälle zeitnah erkannt werden, sollten in Titel II genannte Finanzunternehmen sich nicht auf die Kriterien für die Erkennung IKT-bezogener Vorfälle und die Reaktion darauf beschränken. Finanzunternehmen sollten jedes dieser Kriterien berücksichtigen, doch sollten die Auslösung der Verfahren für die Erkennung IKT-bezogener Vorfälle und die Reaktion darauf nicht davon abhängen, dass die in den Kriterien beschriebenen Umstände gleichzeitig auftreten, und sollte die Bedeutung der betroffenen IKT-Dienste angemessen berücksichtigt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_22": {
+    "h": "e532d5d77ebc8ea59ee41ee6fcdfa452",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(22)",
+            "t": "Bei der Entwicklung von IKT-Geschäftsfortführungsleitlinien sollten in Titel II genannte Finanzunternehmen die wesentlichen Komponenten des IKT-Risikomanagements berücksichtigen, darunter Management- und Kommunikationsstrategien für IKT-bezogene Vorfälle, Prozesse für das IKT-Änderungsmanagement und mit IKT-Drittanbietern verbundene Risiken."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_23": {
+    "h": "33afc772eef9cb0694716ee3c3db5568",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(23)",
+            "t": "Es muss festgelegt werden, welche Szenarien in Titel II genannte Finanzunternehmen bei der Umsetzung ihrer IKT-Reaktions- und Wiederherstellungspläne und bei der Erprobung von IKT-Geschäftsfortführungsplänen berücksichtigen sollten. Diese Szenarien sollten den Finanzunternehmen als Ausgangspunkt für die Analyse von Relevanz und Plausibilität jedes Szenarios und der Notwendigkeit alternativer Szenarien dienen. Finanzunternehmen sollten sich auf Szenarien konzentrieren, in denen sich Investitionen in Resilienzmaßnahmen als besonders effizient und wirksam erweisen könnten. Durch Erprobung von Umstellungen von der primären IKT-Infrastruktur auf redundante Kapazitäten, Backups und redundante Systeme sollten die Finanzinstitute prüfen, ob diese Kapazitäten, Backups und Systeme während eines ausreichend langen Zeitraums wirksam funktionieren und sicherstellen, dass der normale Betrieb der primären IKT-Infrastruktur im Einklang mit den Wiederherstellungszielen wiederaufgenommen wird."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_24": {
+    "h": "ec0d71d656061311e8af7a1ab8cc924e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(24)",
+            "t": "Es werden Anforderungen bezüglich des operationellen Risikos benötigt, insbesondere Anforderungen an das IKT-Projekt- und Änderungsmanagement und die IKT-Geschäftsfortführung, die auf den Anforderungen aufbauen, die gemäß den Verordnungen (EU) Nr. 648/2012 (), (EU) Nr. 600/2014 () und (EU) Nr. 909/2014 () des Europäischen Parlaments und des Rates bereits für zentrale Gegenparteien, Zentralverwahrer und Handelsplätze gelten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_25": {
+    "h": "bf95056debbf5bed76a5b21b34e54cf5",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(25)",
+            "t": "Gemäß Artikel 6 Absatz 5 der Verordnung (EU) 2022/2554 müssen Finanzunternehmen ihren IKT-Risikomanagementrahmen überprüfen und ihrer zuständigen Behörde einen Bericht über diese Überprüfung vorlegen. Damit die zuständigen Behörden die in diesen Berichten enthaltenen Informationen einfach verarbeiten können und eine angemessene Übermittlung dieser Informationen gewährleistet ist, sollten Finanzunternehmen diese Berichte in einem durchsuchbaren elektronischen Format übermitteln."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_26": {
+    "h": "f140d1180e348558c7d74232b3a2b756",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(26)",
+            "t": "Bei den Anforderungen an Finanzunternehmen, die dem in Artikel 16 der Verordnung (EU) 2022/2554 genannten vereinfachten IKT-Risikomanagementrahmen unterliegen, sollte der Schwerpunkt auf den wesentlichen Bereichen und Elementen liegen, die angesichts des Umfangs, des Risikos, der Größe und der Komplexität der betreffenden Finanzunternehmen mindestens erforderlich sind, um die Vertraulichkeit, Integrität, Verfügbarkeit und Authentizität der Daten und Dienste dieser Finanzunternehmen zu gewährleisten. Diese Finanzunternehmen sollten über einen internen Governance- und Kontrollrahmen mit klar festgelegten Zuständigkeiten verfügen, der die Grundlage für einen wirksamen und soliden Rahmen für das Risikomanagement bietet. Zur Verringerung des administrativen und operativen Aufwands sollten diese Finanzunternehmen nur eine Richtlinie entwickeln und dokumentieren, nämlich eine Richtlinie für Informationssicherheit, in der die übergeordneten Grundsätze und Vorschriften zum Schutz der Vertraulichkeit, Integrität, Verfügbarkeit und Authentizität der Daten und der Dienste dieser Finanzunternehmen festgelegt sind."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_27": {
+    "h": "3f53174600785e986a9dede2cb2f9615",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(27)",
+            "t": "Die Bestimmungen dieser Verordnung beziehen sich auf den IKT-Risikomanagementrahmen und legen spezifische Elemente, die gemäß Artikel 15 der Verordnung (EU) 2022/2554 für Finanzunternehmen gelten, sowie den vereinfachten IKT-Risikomanagementrahmen für die in Artikel 16 Absatz 1 der genannten Verordnung aufgeführten Finanzunternehmen fest. Um die Kohärenz zwischen dem normalen und dem vereinfachten IKT-Risikomanagementrahmen zu gewährleisten und um sicherzustellen, dass diese Bestimmungen zum gleichen Zeitpunkt anwendbar sind, ist es angezeigt, sie in einen einzigen Rechtsakt aufzunehmen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_28": {
+    "h": "f6dcfd73982c621e29dfb74c90b0982b",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(28)",
+            "t": "Diese Verordnung beruht auf dem Entwurf technischer Regulierungsstandards, der der Kommission von der Europäischen Bankenaufsichtsbehörde, der Europäischen Aufsichtsbehörde für das Versicherungswesen und die betriebliche Altersversorgung und der Europäischen Wertpapier- und Marktaufsichtsbehörde (Europäische Aufsichtsbehörden) in Absprache mit der Agentur der Europäischen Union für Cybersicherheit (ENISA) vorgelegt wurde."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_29": {
+    "h": "49b187603c03fca7fab8028cec79838a",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(29)",
+            "t": "Der in Artikel 54 der Verordnung (EU) Nr. 1093/2010 des Europäischen Parlaments und des Rates (), in Artikel 54 der Verordnung (EU) Nr. 1094/2010 des Europäischen Parlaments und des Rates () und in Artikel 54 der Verordnung (EU) Nr. 1095/2010 des Europäischen Parlaments und des Rates () genannte Gemeinsame Ausschuss der Europäischen Aufsichtsbehörden hat zu diesem Entwurf technischer Regulierungsstandards, auf dem die vorliegende Verordnung beruht, öffentliche Konsultationen durchgeführt, die damit verbundenen Kosten- und Nutzeneffekte analysiert und die Stellungnahme der nach Artikel 37 der Verordnung (EU) Nr. 1093/2010 eingesetzten Interessengruppe Bankensektor, der nach Artikel 37 der Verordnung (EU) Nr. 1094/2010 eingesetzten Interessengruppe Versicherung und Rückversicherung und der nach Artikel 37 der Verordnung (EU) Nr. 1095/2010 eingesetzten Interessengruppe Wertpapiere und Wertpapiermärkte eingeholt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "c439d649e45d053af418d37d311de17e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Um die ordnungsgemäße Umsetzung der in Titel II Kapitel I genannten Richtlinien, Verfahren, Protokolle und Tools für die IKT-Sicherheit im Zeitverlauf zu gewährleisten, ist es wichtig, dass Finanzunternehmen alle Aufgaben und Zuständigkeiten im Zusammenhang mit der IKT-Sicherheit korrekt zuweisen und aufrechterhalten und dass sie festlegen, welche Folgen die Nichteinhaltung von Richtlinien oder Verfahren der IKT-Sicherheit hat."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_30": {
+    "h": "ab4f6566775aaf436d101cbba04345d5",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(30)",
+            "t": "Soweit zur Erfüllung der in diesem Rechtsakt festgelegten Verpflichtungen die Verarbeitung personenbezogener Daten erforderlich ist, sollten die Verordnung (EU) 2016/679 () und die Verordnung (EU) 2018/1725 () des Europäischen Parlaments und des Rates uneingeschränkt Anwendung finden. Wenn beispielsweise personenbezogene Daten erhoben werden, um eine angemessene Erkennung von Vorfällen zu gewährleisten, sollte der Grundsatz der Datenminimierung eingehalten werden. Der Europäische Datenschutzbeauftragte wurde zum Entwurf dieses Rechtsakts konsultiert —"
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "ae6f126b11bcb5e0e2c52d27de4e465c",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Um das Risiko von Interessenkonflikten zu begrenzen, sollten Finanzunternehmen bei der Zuweisung von IKT-Aufgaben und -Zuständigkeiten für Aufgabentrennung sorgen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "80069cb0436177b48296c46adec0b92f",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Um Flexibilität zu gewährleisten und den Kontrollrahmen der Finanzunternehmen zu vereinfachen, sollten diese nicht verpflichtet sein, spezifische Bestimmungen über die Folgen der Nichteinhaltung der in Titel II Kapitel I genannten Richtlinien, Verfahren und Protokolle für die IKT-Sicherheit auszuarbeiten, wenn solche Bestimmungen bereits im Rahmen einer anderen solchen Richtlinie oder eines anderen solchen Verfahrens festgelegt sind."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "164c86ee2894006685854cb752061d99",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "In einem dynamischen Umfeld, in dem ständig neue IKT-Risiken entstehen, ist es wichtig, dass Finanzunternehmen sich bei der Entwicklung von Richtlinien für die IKT-Sicherheit auf führende Verfahren und gegebenenfalls Normen im Sinne von Artikel 2 Nummer 1 der Verordnung (EU) Nr. 1025/2012 des Europäischen Parlaments und des Rates () stützen. Dies sollte es den in Titel II genannten Finanzunternehmen ermöglichen, in einer sich wandelnden Landschaft gut informiert und vorbereitet zu sein."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "f21c4a8b7c7a5e7ebfe9632be986ebb1",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Zur Gewährleistung der digitalen operationalen Resilienz sollten in Titel II genannte Finanzunternehmen im Rahmen ihrer Richtlinien, Verfahren, Protokolle und Tools für die IKT-Sicherheit eine Richtlinie für das Management von IKT-Assets, Verfahren für das Kapazitäts- und Leistungsmanagement sowie Richtlinien und Verfahren für IKT-Tätigkeiten entwickeln und umsetzen. Diese Richtlinien und Verfahren sind notwendig, um die Überwachung des Status von IKT-Assets während ihres gesamten Lebenszyklus zu gewährleisten, damit sie wirksam genutzt und gepflegt werden (Management von IKT-Assets). Diese Richtlinien und Verfahren sollten zudem eine Optimierung der IKT-Systeme gewährleisten und sicherstellen, dass die Leistung und die Kapazitäten der IKT-Systeme den für Betriebs- und Informationssicherheit formulierten Zielen gerecht werden (Kapazitäts- und Leistungsmanagement). Schließlich sollten diese Richtlinien und Verfahren gewährleisten, dass das laufende Management und der laufende Betrieb der IKT-Systeme (IKT-Tätigkeiten) wirksam und reibungslos vonstattengehen, und so das Risiko eines Verlusts der Vertraulichkeit, Integrität und Verfügbarkeit von Daten minimieren. Diese Richtlinien und Verfahren sind somit erforderlich, um die Sicherheit der Netzwerke zu gewährleisten, angemessene Schutzvorkehrungen gegen Eindringen und Datenmissbrauch zu bieten und die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten zu wahren."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "c7f38582ff466d858a3c97876e825a57",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Um einen ordnungsgemäßen Umgang mit Risiken bei IKT-Altsystemem zu gewährleisten, sollten Finanzunternehmen Fristen für die Bereitstellung von IKT-Unterstützungsdiensten durch Dritte erfassen und überwachen. Angesichts der potenziellen Auswirkungen eines Verlusts der Vertraulichkeit, Integrität und Verfügbarkeit von Daten sollten sich Finanzunternehmen bei der Erfassung und Überwachung dieser Fristen auf IKT-Assets oder -Systeme konzentrieren, die für den Geschäftsbetrieb von kritischer Bedeutung sind."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "21365e390abc78342c6290b183852503",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Kryptografische Kontrollen können die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit der Daten gewährleisten. In Titel II genannte Finanzunternehmen sollten daher solche Kontrollen auf der Grundlage eines risikobasierten Ansatzes festlegen und durchführen. Zu diesem Zweck sollten Finanzunternehmen in einem zweistufigen Prozess Daten einstufen und IKT-Risiken umfassend bewerten und im Anschluss daran betreffende Daten, die gespeichert sind oder übermittelt werden, und erforderlichenfalls auch solche, die gerade verwendet werden, entsprechend verschlüsseln. Angesichts der Komplexität der Verschlüsselung in Verwendung befindlicher Daten sollten die in Titel II dieser Verordnung genannten Finanzunternehmen solche Daten nur verschlüsseln, wenn dies angesichts der Ergebnisse der IKT-Risikobewertung angemessen ist. Wenn die Verschlüsselung in Verwendung befindlicher Daten nicht möglich oder zu komplex ist, sollten in Titel II genannte Finanzunternehmen in der Lage sein, die Vertraulichkeit, Integrität und Verfügbarkeit der betreffenden Daten durch andere Maßnahmen für IKT-Sicherheit zu schützen. Vor dem Hintergrund der raschen technologischen Entwicklung im Bereich der Kryptografie sollten in Titel II genannte Finanzunternehmen über Entwicklungen in der Kryptoanalyse auf dem Laufenden bleiben und führende Praktiken und Normen berücksichtigen. In Titel II genannte Finanzunternehmen sollten daher einen flexiblen Ansatz verfolgen, der auf Risikominderung und -überwachung beruht, sodass sie vor dem Hintergrund der Dynamik kryptografischer Bedrohungen in der Lage sind, solche Bedrohungen, einschließlich Bedrohungen aufgrund der Fortschritte im Bereich der Quantentechnologie, zu bewältigen."
+          }
+        ]
+      }
+    ]
+  }
+}

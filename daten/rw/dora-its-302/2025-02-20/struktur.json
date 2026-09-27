@@ -1,0 +1,336 @@
+{
+  "regelwerk": "dora-its-302",
+  "fassung": "2025-02-20",
+  "abgerufen": "2026-09-27T10:10:25Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32025R0302",
+    "celex": "32025R0302",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        },
+        {
+          "id": "rct_12",
+          "art": "erwaegungsgrund",
+          "nummer": "12",
+          "pfad": "eg/12",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_1",
+      "art": "artikel",
+      "nummer": "1",
+      "titel": {
+        "de": "Vorlage für die Meldung schwerwiegender IKT-bezogener Vorfälle"
+      },
+      "pfad": "art/1",
+      "kinder": [
+        {
+          "id": "001.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/1/abs/1",
+          "text": true
+        },
+        {
+          "id": "001.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/1/abs/2",
+          "text": true
+        },
+        {
+          "id": "001.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/1/abs/3",
+          "text": true
+        },
+        {
+          "id": "001.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/1/abs/4",
+          "text": true
+        },
+        {
+          "id": "001.005",
+          "art": "absatz",
+          "nummer": "5",
+          "pfad": "art/1/abs/5",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_2",
+      "art": "artikel",
+      "nummer": "2",
+      "titel": {
+        "de": "Gleichzeitige Übermittlung der Erst-, Zwischen- und Abschlussmeldung"
+      },
+      "pfad": "art/2",
+      "text": true
+    },
+    {
+      "id": "art_3",
+      "art": "artikel",
+      "nummer": "3",
+      "titel": {
+        "de": "Wiederholte IKT-bezogene Vorfälle"
+      },
+      "pfad": "art/3",
+      "text": true
+    },
+    {
+      "id": "art_4",
+      "art": "artikel",
+      "nummer": "4",
+      "titel": {
+        "de": "Nutzung sicherer elektronischer Kanäle"
+      },
+      "pfad": "art/4",
+      "kinder": [
+        {
+          "id": "004.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/4/abs/1",
+          "text": true
+        },
+        {
+          "id": "004.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/4/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_5",
+      "art": "artikel",
+      "nummer": "5",
+      "titel": {
+        "de": "Rückstufung schwerwiegender IKT-bezogener Vorfälle"
+      },
+      "pfad": "art/5",
+      "text": true
+    },
+    {
+      "id": "art_6",
+      "art": "artikel",
+      "nummer": "6",
+      "titel": {
+        "de": "Unterrichtung über die Auslagerung der Berichtspflichten"
+      },
+      "pfad": "art/6",
+      "kinder": [
+        {
+          "id": "006.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/6/abs/1",
+          "text": true
+        },
+        {
+          "id": "006.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/6/abs/2",
+          "text": true
+        },
+        {
+          "id": "006.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/6/abs/3",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_7",
+      "art": "artikel",
+      "nummer": "7",
+      "titel": {
+        "de": "Aggregierte Meldung"
+      },
+      "pfad": "art/7",
+      "kinder": [
+        {
+          "id": "007.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/7/abs/1",
+          "text": true
+        },
+        {
+          "id": "007.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/7/abs/2",
+          "text": true
+        },
+        {
+          "id": "007.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/7/abs/3",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_8",
+      "art": "artikel",
+      "nummer": "8",
+      "titel": {
+        "de": "Meldung erheblicher Cyberbedrohungen"
+      },
+      "pfad": "art/8",
+      "kinder": [
+        {
+          "id": "008.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/8/abs/1",
+          "text": true
+        },
+        {
+          "id": "008.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/8/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_9",
+      "art": "artikel",
+      "nummer": "9",
+      "titel": {
+        "de": "Inkrafttreten"
+      },
+      "pfad": "art/9",
+      "text": true
+    }
+  ]
+}

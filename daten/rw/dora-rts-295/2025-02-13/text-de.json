@@ -1,0 +1,608 @@
+{
+  "001.001": {
+    "h": "59e0f4a7f18320bb2d39f973cb087138",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach Artikel 31 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 übermittelt der Drittdienstleister der Informations- und Kommunikationstechnologie (im Folgenden „IKT-Drittdienstleister“) in einem begründeten Antrag auf freiwillige Einstufung als kritisch gemäß Artikel 31 Absatz 11 der genannten Verordnung folgende Informationen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Name der juristischen Person,"
+          },
+          {
+            "m": "b)",
+            "t": "Rechtsträgerkennung der juristischen Person,"
+          },
+          {
+            "m": "c)",
+            "t": "Name der Kontaktperson und Kontaktdaten des kritischen IKT-Drittdienstleisters,"
+          },
+          {
+            "m": "d)",
+            "t": "Land, in dem die juristische Person ihren Sitz hat,"
+          },
+          {
+            "m": "e)",
+            "t": "eine Beschreibung der Unternehmensstruktur, die mindestens Angaben zu seinem Mutterunternehmen und anderen verbundenen Unternehmen enthält, die IKT-Dienstleistungen für Finanzunternehmen der Union erbringen. Diese Informationen umfassen gegebenenfalls:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Name der juristischen Personen,"
+              },
+              {
+                "m": "ii)",
+                "t": "Rechtsträgerkennung der juristischen Person,"
+              },
+              {
+                "m": "iii)",
+                "t": "Land, in dem die juristische Person ihren Sitz hat,"
+              }
+            ]
+          },
+          {
+            "m": "f)",
+            "t": "geschätzter Marktanteil des IKT-Drittdienstleisters im Finanzsektor der Union und geschätzter Marktanteil nach Art des Finanzunternehmens gemäß Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 ab dem Jahr des Antrags auf Einstufung als kritisch und für das Vorjahr der Antragstellung,"
+          },
+          {
+            "m": "g)",
+            "t": "eine Beschreibung aller IKT-Dienstleistungen, die für Finanzunternehmen der Union erbracht werden, einschließlich:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "einer Beschreibung der Art der Geschäftstätigkeit und der Art der IKT-Dienstleistungen, die für Finanzunternehmen erbracht werden,"
+              },
+              {
+                "m": "ii)",
+                "t": "einer Liste der durch IKT-Dienstleistungen unterstützten Funktionen der Finanzunternehmen, sofern verfügbar,"
+              },
+              {
+                "m": "iii)",
+                "t": "Angaben darüber, ob die für Finanzunternehmen erbrachten IKT-Dienstleistungen kritische oder wichtige Funktionen unterstützen, sofern verfügbar,"
+              }
+            ]
+          },
+          {
+            "m": "h)",
+            "t": "eine Liste der Finanzunternehmen, die die IKT-Dienstleistungen des IKT-Drittdienstleisters in Anspruch nehmen, einschließlich der folgenden Informationen für jedes einzelne Finanzunternehmen, sofern verfügbar:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Name der juristischen Person,"
+              },
+              {
+                "m": "ii)",
+                "t": "Rechtsträgerkennung der juristischen Person, sofern dem IKT-Drittdienstleister bekannt,"
+              },
+              {
+                "m": "iii)",
+                "t": "Art des Finanzunternehmens gemäß Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554,"
+              },
+              {
+                "m": "iv)",
+                "t": "geografischer Standort, von dem aus die IKT-Dienstleistungen für die betreffende juristische Person erbracht werden,"
+              }
+            ]
+          },
+          {
+            "m": "i)",
+            "t": "eine Liste der kritischen IKT-Drittdienstleister, die in der aktuellsten verfügbaren Fassung der von den ESA gemäß Artikel 31 Absatz 9 der Verordnung (EU) 2022/2554 veröffentlichten Liste dieser Dienstleister aufgeführt werden und die vom Antragsteller erbrachten Dienstleistungen in Anspruch nehmen, sofern verfügbar,"
+          },
+          {
+            "m": "j)",
+            "t": "eine Selbstbewertung in Bezug auf die folgenden Aspekte:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Grad der Substituierbarkeit für alle vom Antragsteller erbrachten IKT-Dienstleistungen unter Berücksichtigung der folgenden Punkte:",
+                "u": [
+                  {
+                    "m": "—",
+                    "t": "Marktanteil des IKT-Drittdienstleisters im Finanzsektor der Union,"
+                  },
+                  {
+                    "m": "—",
+                    "t": "Anzahl der bekannten relevanten Wettbewerber für jede Art von IKT-Dienstleistung oder Gruppe von IKT-Dienstleistungen,"
+                  },
+                  {
+                    "m": "—",
+                    "t": "einer Beschreibung der Besonderheiten der angebotenen IKT-Dienstleistungen, auch in Bezug auf alle proprietären Technologien, oder der besonderen Merkmale der Organisation oder Geschäftstätigkeit des IKT-Drittdienstleisters,"
+                  }
+                ]
+              },
+              {
+                "m": "ii)",
+                "t": "Kenntnis von gleichen IKT-Dienstleistungen, die durch andere als den antragstellenden IKT-Drittdienstleister erbracht werden,"
+              }
+            ]
+          },
+          {
+            "m": "k)",
+            "t": "Informationen über die künftige Geschäftsstrategie hinsichtlich der Bereitstellung von IKT-Dienstleistungen und -Infrastruktur für Finanzunternehmen in der Union, einschließlich aller geplanten Änderungen in Bezug auf die Gruppen- oder Managementstruktur, die Erschließung neuer Märkte oder Geschäftstätigkeiten,"
+          },
+          {
+            "m": "l)",
+            "t": "Angaben zu den Unterauftragnehmern des IKT-Drittdienstleisters, die als kritische IKT-Drittdienstleister eingestuft wurden,"
+          },
+          {
+            "m": "m)",
+            "t": "alle sonstigen Gründe, die für den Antrag des IKT-Drittdienstleisters auf Einstufung als kritisch relevant sind."
+          }
+        ]
+      }
+    ]
+  },
+  "001.002": {
+    "h": "b2e270d90fa0b2a5945fdcf53c8cdcab",
+    "b": [
+      {
+        "art": "p",
+        "t": "Gehört der IKT-Drittdienstleister zu einer Gruppe, so werden die in Absatz 1 genannten Informationen in Bezug auf die von der Gruppe als Ganzes erbrachten IKT-Dienstleistungen zur Verfügung gestellt."
+      }
+    ]
+  },
+  "002.001": {
+    "h": "3e766c126b1bb2f7a14f4e430416edbc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kritische IKT-Drittdienstleister stellen der federführenden Überwachungsbehörde auf Anfrage alle Informationen zur Verfügung, die sie benötigt, um ihre Überwachungsaufgaben gemäß den Vorschriften der Verordnung (EU) 2022/2554 wahrzunehmen."
+      }
+    ]
+  },
+  "002.002": {
+    "h": "10b5a761feef48360a3b85adb4042d4e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Informationen umfassen unter anderem:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Informationen über die Vereinbarungen, einschließlich entsprechender Vertragsunterlagen in Kopie, zwischen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "dem kritischen IKT-Drittdienstleister und den in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen,"
+              },
+              {
+                "m": "ii)",
+                "t": "dem kritischen IKT-Drittdienstleister und seinen Unterauftragnehmern, um die technologische Wertschöpfungskette der IKT-Dienstleistungen, die für Finanzunternehmen in der Union erbracht werden, zu erfassen,"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "Informationen über die Organisations- und Gruppenstruktur des kritischen IKT-Drittdienstleisters, einschließlich Angaben zu allen Unternehmen derselben Gruppe, die direkt oder indirekt IKT-Dienstleistungen für Finanzunternehmen in der Union erbringen,"
+          },
+          {
+            "m": "c)",
+            "t": "Informationen über die Großaktionäre, einschließlich ihrer Struktur und geografischen Verteilung, die den folgenden Kategorien angehören:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Unternehmen, die allein oder gemeinsam mit ihren verbundenen Unternehmen mindestens 25 % des Kapitals oder der Stimmrechte des kritischen IKT-Drittdienstleisters halten,"
+              },
+              {
+                "m": "ii)",
+                "t": "Unternehmen, die berechtigt sind, die Mehrheit der Mitglieder des Verwaltungs-, Leitungs- oder Aufsichtsorgans des kritischen IKT-Drittdienstleisters zu bestellen oder abzuberufen,"
+              },
+              {
+                "m": "iii)",
+                "t": "Unternehmen, die aufgrund einer Vereinbarung die Mehrheit der Stimmrechte der Aktionäre oder Gesellschafter des kritischen IKT-Drittdienstleisters kontrollieren,"
+              }
+            ]
+          },
+          {
+            "m": "d)",
+            "t": "Informationen über den Marktanteil des kritischen IKT-Drittdienstleisters für jede Art von Diensten auf den relevanten Märkten, auf denen er tätig ist,"
+          },
+          {
+            "m": "e)",
+            "t": "Informationen über die internen Governance-Regelungen des kritischen IKT-Drittdienstleisters, einschließlich der Organisationsstruktur mit den Zuständigkeits- und Rechenschaftspflichten,"
+          },
+          {
+            "m": "f)",
+            "t": "die Sitzungsprotokolle des Leitungsorgans des kritischen IKT-Drittdienstleisters und aller anderen relevanten internen Ausschüsse, die in irgendeiner Weise mit Tätigkeiten und Risiken bezüglich IKT-Drittdienstleistungen, die Funktionen von Finanzunternehmen in der Union unterstützen, in Zusammenhang stehen,"
+          },
+          {
+            "m": "g)",
+            "t": "Informationen über die IKT-Sicherheit des kritischen IKT-Drittdienstleisters, insbesondere über relevante Strategien, Ziele, Leit- und Richtlinien, Verfahren, Protokolle, Prozesse, Kontrollmaßnahmen zum Schutz sensibler Daten, Zugangskontrollen, Verschlüsselungsverfahren und Pläne für Reaktionsmaßnahmen bei Vorfällen sowie Informationen über die Einhaltung aller einschlägigen Vorschriften und gegebenenfalls nationalen und internationalen Standards,"
+          },
+          {
+            "m": "h)",
+            "t": "Informationen über technische und organisatorische Maßnahmen zur Gewährleistung des Datenschutzes und der Vertraulichkeit von Daten, sowohl bei personenbezogenen als auch nicht personenbezogenen Daten, umgesetzte Kontrollmaßnahmen zum Schutz sensibler Daten, Zugangskontrollen, Verschlüsselungsverfahren, Plan für Reaktionsmaßnahmen bei Datenschutzverletzungen, wenn die Verarbeitung personenbezogener Daten durch den IKT-Drittdienstleister den Rechtsvorschriften von Drittländern unterliegt, auch bei Zugriffsanfragen von Regierungen aus Drittländern, eine Liste der entsprechenden Länder und der geltenden Rechtsvorschriften,"
+          },
+          {
+            "m": "i)",
+            "t": "Informationen über die Mechanismen für Datenübertragbarkeit, Übertragbarkeit von Anwendungen und Interoperabilität, die der kritische IKT-Drittdienstleister den Finanzunternehmen der Union anbietet,"
+          },
+          {
+            "m": "j)",
+            "t": "Informationen über den Standort der Rechenzentren und IKT-Produktionszentren, die für die Erbringung von Dienstleistungen für Finanzunternehmen genutzt werden, einschließlich einer Liste aller relevanten Räumlichkeiten und Einrichtungen des kritischen IKT-Drittdienstleisters, auch außerhalb der Union,"
+          },
+          {
+            "m": "k)",
+            "t": "Informationen über die Erbringung von Dienstleistungen durch den kritischen IKT-Drittdienstleister aus Drittländern, einschließlich Informationen über einschlägige Rechtsvorschriften, die für die vom IKT-Drittdienstleister verarbeiteten personenbezogenen und nicht personenbezogenen Daten gelten,"
+          },
+          {
+            "m": "l)",
+            "t": "Informationen über Maßnahmen, die zur Bewältigung von Risiken im Zusammenhang mit der Erbringung von IKT-Dienstleistungen aus Drittländern durch den kritischen IKT-Drittdienstleister und seine Unterauftragnehmer ergriffen wurden,"
+          },
+          {
+            "m": "m)",
+            "t": "Informationen über den Risikomanagementrahmen und den Rahmen für die Behandlung von Vorfällen, insbesondere über die Leit- und Richtlinien, Verfahren, Instrumente, Mechanismen und Governance-Regelungen des kritischen IKT-Drittdienstleisters und seiner Unterauftragnehmer, einschließlich der Auflistung und Beschreibung schwerwiegender Vorfälle mit direkten oder indirekten Auswirkungen auf Finanzunternehmen in der Union, die relevante Einzelheiten enthält, anhand derer die Bedeutung des Vorfalls für Finanzunternehmen bestimmt und potenzielle grenzüberschreitende Auswirkungen bewertet werden können,"
+          },
+          {
+            "m": "n)",
+            "t": "Informationen über den Rahmen für das Änderungsmanagement, insbesondere über Leit- und Richtlinien, Verfahren und Kontrollen des kritischen IKT-Drittdienstleisters und seiner Unterauftragnehmer,"
+          },
+          {
+            "m": "o)",
+            "t": "Informationen über den allgemeinen Reaktions- und Wiederherstellungsrahmen des kritischen IKT-Drittdienstleisters, insbesondere über Geschäftsfortführungspläne und damit zusammenhängende Vereinbarungen und Verfahren, die Lebenszyklusstrategie für die Softwareentwicklung, Reaktions- und Wiederherstellungspläne und damit zusammenhängende Vereinbarungen und Verfahren, sowie Vereinbarungen und Verfahren zum Backup,"
+          },
+          {
+            "m": "p)",
+            "t": "Informationen über die Leistungsüberwachung, die Sicherheitsüberwachung und die Verfolgung von Sicherheitsvorfällen, über Meldemechanismen in Bezug auf die Leistungsfähigkeit der Dienste und die Sicherheitsvorfälle sowie über die Einhaltung der Dienstgütevereinbarungen und vereinbarter Dienstgüteziele oder vergleichbarer Vereinbarungen zwischen kritischen IKT-Drittdienstleistern und Finanzunternehmen in der Union,"
+          },
+          {
+            "m": "q)",
+            "t": "Informationen über den Rahmen für das IKT-Drittparteienmanagement des kritischen IKT-Drittdienstleisters, insbesondere über Strategien, Leit- und Richtlinien, Verfahren, Prozesse und Kontrollen, mit detaillierten Angaben zur Sorgfalts- und Risikobewertung aller relevanten IKT- und Gegenparteirisiken, die der kritische IKT-Drittdienstleister gegenüber seinen Unterauftragnehmern vor Abschluss einer Vereinbarung und zur Überwachung der Geschäftsbeziehung durchführt,"
+          },
+          {
+            "m": "r)",
+            "t": "Auszüge aus den Überwachungs- und Scansystemen des kritischen IKT-Drittdienstleisters und seiner Unterauftragnehmer, die unter anderem die Netzwerk-, Server-, Anwendungs- und Sicherheitsüberwachung, die Schwachstellensuche, die Protokollverwaltung, die Leistungsüberwachung, die Behandlung von Sicherheitsvorfällen sowie Messungen anhand von Zuverlässigkeitszielen, wie etwa den Dienstgütezielen, umfassen,"
+          },
+          {
+            "m": "s)",
+            "t": "Auszüge aus Produktions-, Vorproduktions- und Testsystemen oder -anwendungen, die vom kritischen IKT-Drittdienstleister und seinen Unterauftragnehmern genutzt werden, um direkt oder indirekt Dienstleistungen für Finanzunternehmen in der Union zu erbringen,"
+          },
+          {
+            "m": "t)",
+            "t": "Konformitätsberichte und verfügbare Prüfungsberichte sowie alle relevanten Feststellungen aus der Überprüfung, auch im Rahmen von Audits, die von nationalen Behörden in der Union und außerhalb der Union durchgeführt werden, wenn Vereinbarungen über die Zusammenarbeit mit den zuständigen Behörden einen solchen Informationsaustausch vorsehen, oder Zertifizierungen, die der kritische IKT-Drittdienstleister oder seine Unterauftragnehmer erlangt haben, einschließlich Berichten interner und externer Revisoren, Zertifizierungen oder Konformitätsbewertungen nach branchenspezifischen Standards; dies umfasst Informationen über alle Arten verfügbarer unabhängiger Tests zur Prüfung der Resilienz der IKT-Systeme des kritischen IKT-Drittdienstleisters, einschließlich aller Arten bedrohungsorientierter Penetrationstests, die vom IKT-Drittdienstleister durchgeführt werden,"
+          },
+          {
+            "m": "u)",
+            "t": "Informationen über alle Bewertungen, die vom kritischen IKT-Drittdienstleister oder in seinem Auftrag durchgeführt werden, um die Eignung und Integrität von Personen, die Schlüsselpositionen innerhalb des kritischen IKT-Drittdienstleisters innehaben, zu beurteilen,"
+          },
+          {
+            "m": "v)",
+            "t": "Informationen über etwaige Pläne mit Abhilfemaßnahmen zur Umsetzung der Empfehlungen gemäß Artikel 3 und einschlägige Informationen, die die Umsetzung der Abhilfemaßnahmen belegen,"
+          },
+          {
+            "m": "w)",
+            "t": "Informationen über für Mitarbeiter angebotene Schulungen und Programme zur Sensibilisierung für IKT-Sicherheit, gegebenenfalls einschließlich Informationen über Investitionen, Ressourcen und Methoden des kritischen IKT-Drittdienstleisters für die Schulung seines Personals im Hinblick auf den Umgang mit sensiblen Finanzdaten und die Wahrung eines hohen Maßes an Sicherheit,"
+          },
+          {
+            "m": "x)",
+            "t": "Informationen über die Geschäftstätigkeiten des kritischen IKT-Drittdienstleisters und Abschlüsse, einschließlich Informationen über die für IKT und Sicherheit vorgesehenen Budgetmittel und Ressourcen."
+          }
+        ]
+      }
+    ]
+  },
+  "003.001": {
+    "h": "170f8a5e13a867aa0ee8719ff54ed144",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der kritische IKT-Drittdienstleister legt der federführenden Überwachungsbehörde einen Bericht vor, der einen Plan mit Abhilfemaßnahmen in Bezug auf die Empfehlungen und die Abhilfemaßnahmen enthält, die der kritische IKT-Drittdienstleister umzusetzen beabsichtigt, um die in den Empfehlungen nach Artikel 35 Absatz 1 Buchstabe d der Verordnung (EU) 2022/2254 ermittelten Risiken zu mindern. Der Bericht muss mit den Fristen in Einklang stehen, die von der federführenden Überwachungsbehörde in den einzelnen Empfehlungen vorgegeben wurden."
+      }
+    ]
+  },
+  "003.002": {
+    "h": "2f53c9cf6bb6ca89c460357df6fda805",
+    "b": [
+      {
+        "art": "p",
+        "t": "Damit die Umsetzung der Maßnahmen oder Abhilfemaßnahmen, die der kritische IKT-Drittdienstleister im Zusammenhang mit den erhaltenen Empfehlungen ergriffen hat, überwacht werden kann, übermittelt der kritische IKT-Drittdienstleister der federführenden Überwachungsbehörde auf Anfrage folgende Unterlagen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Zwischenberichte über erzielte Fortschritte und entsprechende Nachweise, aus denen hervorgeht, welche Fortschritte bei der Umsetzung der in dem Bericht des kritischen IKT-Drittdienstleisters an die federführende Überwachungsbehörde beschriebenen Schritte und Maßnahmen innerhalb der von dieser vorgegebenen Fristen erzielt wurden,"
+          },
+          {
+            "m": "b)",
+            "t": "Abschlussberichte und entsprechende Nachweise, aus denen hervorgeht, welche Maßnahmen der kritische IKT-Drittdienstleister ergriffen oder welche Abhilfemaßnahmen er umgesetzt hat, um die in den erhaltenen Empfehlungen ermittelten Risiken zu mindern."
+          }
+        ]
+      }
+    ]
+  },
+  "004.001": {
+    "h": "ee8e2af332c375e8799e4d9e46afb0e2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der kritische IKT-Drittdienstleister stellt der federführenden Überwachungsbehörde die angeforderten Informationen über die in ihrem Ersuchen verlangten sicheren elektronischen Kanäle und in der von dieser Behörde vorgegebenen Form zur Verfügung."
+      }
+    ]
+  },
+  "004.002": {
+    "h": "2861ed3a4c73f2fa65bd5dd1fef296a0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Bereitstellung der Informationen an die federführende Überwachungsbehörde müssen die kritischen IKT-Drittdienstleister"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die von der federführenden Überwachungsbehörde in ihrem Ersuchen vorgegebene Struktur befolgen,"
+          },
+          {
+            "m": "b)",
+            "t": "die relevanten Informationen in den eingereichten Unterlagen so angeben, dass sie leicht zu finden sind."
+          }
+        ]
+      }
+    ]
+  },
+  "004.003": {
+    "h": "e9dfb82f35bac22cf38499afa8319c3b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Informationen, die die kritischen IKT-Drittdienstleister der leitenden Überwachungsbehörde übermitteln, offenlegen oder melden, müssen in einer in der internationalen Finanzwelt gebräuchlichen Sprache abgefasst sein."
+      }
+    ]
+  },
+  "006.001": {
+    "h": "71632bdd8ac752f92fdc0fc1fe0d16a6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen der Beaufsichtigung von Finanzunternehmen bewertet die zuständige Behörde die Auswirkungen der vom kritischen IKT-Drittdienstleister auf der Grundlage der Empfehlungen der federführenden Überwachungsbehörde ergriffenen Maßnahmen auf die Finanzunternehmen entsprechend dem Grundsatz der Verhältnismäßigkeit."
+      }
+    ]
+  },
+  "006.002": {
+    "h": "d6f5403368457cfb82490b3af6fcf82a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Durchführung der in Absatz 1 genannten Bewertung berücksichtigt die zuständige Behörde alle folgenden Elemente:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Angemessenheit und Kohärenz der von den Finanzunternehmen umgesetzten Korrektur- und Abhilfemaßnahmen, um die in den Empfehlungen ermittelten Risiken zu mindern,"
+          },
+          {
+            "m": "b)",
+            "t": "die von der federführenden Überwachungsbehörde vorgenommene Bewertung über die Einhaltung der im Bericht enthaltenen Maßnahmen und Schritte durch den kritischen IKT-Drittdienstleister, sofern sich dies auf die Exposition der in ihren Zuständigkeitsbereich fallenden Finanzunternehmen gegenüber den in den Empfehlungen ermittelten Risiken auswirkt,"
+          },
+          {
+            "m": "c)",
+            "t": "die Stellungnahmen aller anderen zuständigen Behörden, die gemäß Artikel 42 Absatz 5 der Verordnung (EU) 2022/2554 konsultiert wurden,"
+          },
+          {
+            "m": "d)",
+            "t": "ob die federführende Überwachungsbehörde die vom kritischen IKT-Drittdienstleister umgesetzten Maßnahmen und Abhilfemaßnahmen als angemessen erachtet hat, um die Exposition der in ihren Zuständigkeitsbereich fallenden Finanzunternehmen gegenüber den in den Empfehlungen ermittelten Risiken zu mindern."
+          }
+        ]
+      }
+    ]
+  },
+  "006.003": {
+    "h": "e5875480609e566cdf61454455774eb8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auf Anfrage der federführenden Überwachungsbehörde legt die zuständige Behörde die Ergebnisse der Bewertung nach Absatz 1 innerhalb einer angemessenen Frist vor. Bei der Anforderung der Ergebnisse dieser Bewertung berücksichtigt die federführende Überwachungsbehörde den Grundsatz der Verhältnismäßigkeit und das Ausmaß der in den Empfehlungen dargelegten Risiken, einschließlich der grenzüberschreitenden Auswirkungen dieser Risiken, wenn sie sich auf Finanzunternehmen auswirken, die in mehr als einem Mitgliedstaat tätig sind."
+      }
+    ]
+  },
+  "006.004": {
+    "h": "6921fde70f4dcb509150040f9a7d0c13",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die zuständige Behörde fordert gegebenenfalls die Finanzunternehmen auf, alle Informationen bereitzustellen, die für die Durchführung der in Absatz 1 genannten Bewertung erforderlich sind."
+      }
+    ]
+  },
+  "art_5": {
+    "h": "6db2b8abec469f475cfc03a8b59176a4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein kritischer IKT-Drittdienstleister, der Informationen über Vereinbarungen über die Unterauftragsvergabe übermitteln muss, stellt der federführenden Überwachungsbehörde die Informationen nach Maßgabe der Vorlage im Anhang zur Verfügung."
+      }
+    ]
+  },
+  "art_7": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "7a1e8a00d2444018e4d8615072c9bb4f",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 41 Absatz 2 Unterabsatz 2,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "d8b567babcc98e5c75cd8a66b0e3ac13",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Mit dem durch die Verordnung (EU) 2022/2554 geschaffenen Rahmen für die digitale operationale Resilienz im Finanzsektor wird ein Überwachungsrahmen der Union für die gemäß Artikel 31 der genannten Verordnung als kritisch eingestuften Drittdienstleister der Informations- und Kommunikationstechnologie (im Folgenden „IKT-Drittdienstleister“) im Finanzsektor eingeführt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_10": {
+    "h": "374349a7367afe66edb6d40292630f53",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(10)",
+            "t": "Die vorliegende Verordnung beruht auf dem Entwurf technischer Regulierungsstandards, der der Kommission von den ESA vorgelegt wurde."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_11": {
+    "h": "c37ae99f7d332bcfd07c4808fff1371f",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(11)",
+            "t": "Der Gemeinsame Ausschuss der ESA hat zu dem Entwurf technischer Regulierungsstandards, auf den sich diese Verordnung stützt, offene öffentliche Konsultationen durchgeführt, die damit verbundenen potenziellen Kosten- und Nutzeneffekte analysiert und die Stellungnahmen der nach Artikel 37 der Verordnung (EU) Nr. 1093/2010 des Europäischen Parlaments und des Rates () eingesetzten Interessengruppe „Bankensektor“, der nach Artikel 37 der Verordnung (EU) Nr. 1094/2010 des Europäischen Parlaments und des Rates () eingesetzten Interessengruppen „Versicherung und Rückversicherung“ und „Betriebliche Altersversorgung“ sowie der nach Artikel 37 der Verordnung (EU) Nr. 1095/2010 des Europäischen Parlaments und des Rates () eingesetzten Interessengruppe „Wertpapiere und Wertpapiermärkte“ eingeholt —"
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "2b9ea5240fead17feba966ea7c57f686",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "IKT-Drittdienstleister, die sich dafür entscheiden, einen freiwilligen Antrag auf Einstufung als kritisch zu stellen, sollten der betreffenden Europäischen Aufsichtsbehörde (ESA) alle erforderlichen Informationen zum Nachweis ihrer Kritikalität gemäß den in der Verordnung (EU) 2022/2554 festgelegten Grundsätzen und Kriterien zur Verfügung stellen. Aus diesem Grund sollten die in dem freiwilligen Antrag enthaltenen Informationen hinreichend detailliert und vollständig sein, um eine präzise und umfassende Bewertung der Kritikalität gemäß Artikel 31 Absatz 11 der genannten Verordnung zu ermöglichen. Die zuständige ESA sollte unvollständige Anträge ablehnen und die fehlenden Informationen anfordern."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "c2561ea009cc6f45e3c1c750959149ee",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Die rechtliche Identifizierung von IKT-Drittdienstleistern, die in den Anwendungsbereich dieses technischen Regulierungsstandards fallen, sollte der Kennung entsprechen, die in der gemäß Artikel 28 Absatz 9 der Verordnung (EU) 2022/2554 erlassenen Durchführungsverordnung der Kommission festgelegt ist."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "6702299e54e73d3cda851a424fb7c813",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Nachdem die federführende Überwachungsbehörde ihre Empfehlungen an kritische IKT-Drittdienstleister abgegeben hat, sollte sie als Folgemaßnahme deren Einhaltung durch die kritischen IKT-Drittdienstleister überwachen. Im Interesse einer effizienten und wirksamen Überwachung der von den kritischen IKT-Drittdienstleistern im Zusammenhang mit diesen Empfehlungen ergriffenen Maßnahmen oder Abhilfemaßnahmen sollte es der federführenden Überwachungsbehörde möglich sein, die in Artikel 35 Absatz 1 Buchstabe c der Verordnung (EU) 2022/2554 genannten Berichte anzufordern, die als Zwischenberichte über erzielte Fortschritte und Abschlussberichte konzipiert sein sollten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "3d8c6101f7e4dfb55cd72506d1eca8f9",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Für die Zwecke der Bewertung gemäß Artikel 42 Absatz 1 der Verordnung (EU) 2022/2554, wonach die federführende Überwachungsbehörde zu beurteilen hat, ob die von einem kritischen IKT-Drittdienstleister vorgelegte Erklärung ausreichend ist, sollte mit der Mitteilung des kritischen IKT-Drittdienstleisters über seine Absicht, den erhaltenen Empfehlungen Folge zu leisten, eine Beschreibung der Schritte und Maßnahmen, die zur Minderung der in den Empfehlungen dargelegten Risiken ergriffen wurden, einschließlich der entsprechenden Fristen, an die federführende Überwachungsbehörde übermittelt werden. Diese Erklärung sollte in Form eines Plans mit Abhilfemaßnahmen vorgelegt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "7f4c306da5d15e149067805ef5e72007",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Da die federführende Überwachungsbehörde die Vereinbarungen der kritischen IKT-Drittdienstleister über die Unterauftragsvergabe bewerten soll, muss eine Vorlage für die Bereitstellung von Informationen über diese Vereinbarungen ausgearbeitet werden. In der Vorlage sollte der Tatsache Rechnung getragen werden, dass kritische IKT-Drittdienstleister anders als Finanzunternehmen strukturiert sind."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "5bfe9d4c65b270153a9521c7c2cdae01",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Nachdem die federführende Überwachungsbehörde ihre Empfehlungen an einen kritischen IKT-Drittdienstleister abgegeben hat und die zuständigen Behörden die betreffenden Finanzunternehmen über die in diesen Empfehlungen ermittelten Risiken in Kenntnis gesetzt haben, sollte die federführende Überwachungsbehörde die Umsetzung der Maßnahmen und der Abhilfemaßnahmen, mit denen der betreffende kritische IKT-Drittdienstleister den Empfehlungen nachkommt, überwachen und bewerten. Die zuständigen Behörden sollten überwachen und bewerten, inwieweit die Finanzunternehmen den in diesen Empfehlungen ermittelten Risiken ausgesetzt sind. Damit bei der Wahrnehmung ihrer jeweiligen Aufgaben die gleichen Voraussetzungen bestehen, sollten sich die zuständigen Behörden und die federführende Überwachungsbehörde über alle wesentlichen Erkenntnisse austauschen, die sie für die Wahrnehmung ihrer jeweiligen Aufgaben benötigen, insbesondere wenn die in den Empfehlungen ermittelten Risiken schwerwiegend sind und bei einer großen Zahl von Finanzunternehmen in mehreren Mitgliedstaaten auftreten. Durch den Informationsaustausch soll sichergestellt werden, dass bei der Rückmeldung der federführenden Überwachungsbehörde an den kritischen IKT-Drittdienstleister über die Umsetzung der Maßnahmen und Abhilfemaßnahmen die Auswirkungen auf die Risiken für Finanzunternehmen berücksichtigt werden und dass die Aufsichtstätigkeiten der zuständigen Behörden auf der Grundlage der Bewertung durch die federführende Überwachungsbehörde durchgeführt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "d626294a556ea933db89a63588d3c9b6",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Um einen effizienten und wirksamen Informationsaustausch zu ermöglichen, sollten die zuständigen Behörden im Rahmen ihrer Aufsichtstätigkeiten bewerten, inwieweit die von ihnen beaufsichtigten Finanzunternehmen den in den Empfehlungen ermittelten Risiken ausgesetzt sind. Diese Bewertung sollte verhältnismäßig und risikobasiert erfolgen. Die federführende Überwachungsbehörde sollte die zuständigen Behörden in konkreten Fällen, in denen die in den Empfehlungen dargelegten Risiken schwerwiegend sind und bei einer großen Zahl von Finanzunternehmen in mehreren Mitgliedstaaten auftreten, um Übermittlung der Ergebnisse dieser Bewertung ersuchen. Im Sinne der bestmöglichen Nutzung der Ressourcen der zuständigen Behörden sollte die federführende Überwachungsbehörde bei der Anforderung der Ergebnisse dieser Bewertung stets berücksichtigen, dass der Zweck dieser Auskunftsersuchen darin bestehen sollte, die Umsetzung der Maßnahmen und Abhilfemaßnahmen der kritischen IKT-Drittdienstleister zu bewerten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "51cda20d3bf2a8b230259d02a586ec84",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Der Europäische Datenschutzbeauftragte wurde gemäß Artikel 42 Absatz 1 der Verordnung (EU) 2018/1725 des Europäischen Parlaments und des Rates () angehört und hat am 22. Juli 2024 eine Stellungnahme abgegeben."
+          }
+        ]
+      }
+    ]
+  }
+}

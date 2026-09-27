@@ -1,0 +1,516 @@
+{
+  "regelwerk": "dora-rts-1772",
+  "fassung": "2024-06-25",
+  "abgerufen": "2026-09-27T10:10:23Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32024R1772",
+    "celex": "32024R1772",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        },
+        {
+          "id": "rct_12",
+          "art": "erwaegungsgrund",
+          "nummer": "12",
+          "pfad": "eg/12",
+          "text": true
+        },
+        {
+          "id": "rct_13",
+          "art": "erwaegungsgrund",
+          "nummer": "13",
+          "pfad": "eg/13",
+          "text": true
+        },
+        {
+          "id": "rct_14",
+          "art": "erwaegungsgrund",
+          "nummer": "14",
+          "pfad": "eg/14",
+          "text": true
+        },
+        {
+          "id": "rct_15",
+          "art": "erwaegungsgrund",
+          "nummer": "15",
+          "pfad": "eg/15",
+          "text": true
+        },
+        {
+          "id": "rct_16",
+          "art": "erwaegungsgrund",
+          "nummer": "16",
+          "pfad": "eg/16",
+          "text": true
+        },
+        {
+          "id": "rct_17",
+          "art": "erwaegungsgrund",
+          "nummer": "17",
+          "pfad": "eg/17",
+          "text": true
+        },
+        {
+          "id": "rct_18",
+          "art": "erwaegungsgrund",
+          "nummer": "18",
+          "pfad": "eg/18",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_I",
+      "art": "kapitel",
+      "nummer": "I",
+      "titel": {
+        "de": "KLASSIFIZIERUNGSKRITERIEN"
+      },
+      "pfad": "kap/I",
+      "kinder": [
+        {
+          "id": "art_1",
+          "art": "artikel",
+          "nummer": "1",
+          "titel": {
+            "de": "Kunden, finanzielle Gegenparteien und Transaktionen"
+          },
+          "pfad": "art/1",
+          "kinder": [
+            {
+              "id": "001.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/1/abs/1",
+              "text": true
+            },
+            {
+              "id": "001.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/1/abs/2",
+              "text": true
+            },
+            {
+              "id": "001.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/1/abs/3",
+              "text": true
+            },
+            {
+              "id": "001.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/1/abs/4",
+              "text": true
+            },
+            {
+              "id": "001.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/1/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_2",
+          "art": "artikel",
+          "nummer": "2",
+          "titel": {
+            "de": "Reputationsschaden"
+          },
+          "pfad": "art/2",
+          "kinder": [
+            {
+              "id": "002.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/2/abs/1",
+              "text": true
+            },
+            {
+              "id": "002.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/2/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_3",
+          "art": "artikel",
+          "nummer": "3",
+          "titel": {
+            "de": "Dauer und Ausfallzeiten"
+          },
+          "pfad": "art/3",
+          "kinder": [
+            {
+              "id": "003.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/3/abs/1",
+              "text": true
+            },
+            {
+              "id": "003.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/3/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_4",
+          "art": "artikel",
+          "nummer": "4",
+          "titel": {
+            "de": "Geografische Ausbreitung"
+          },
+          "pfad": "art/4",
+          "text": true
+        },
+        {
+          "id": "art_5",
+          "art": "artikel",
+          "nummer": "5",
+          "titel": {
+            "de": "Verluste von Daten"
+          },
+          "pfad": "art/5",
+          "text": true
+        },
+        {
+          "id": "art_6",
+          "art": "artikel",
+          "nummer": "6",
+          "titel": {
+            "de": "Kritikalität der betroffenen Dienste"
+          },
+          "pfad": "art/6",
+          "text": true
+        },
+        {
+          "id": "art_7",
+          "art": "artikel",
+          "nummer": "7",
+          "titel": {
+            "de": "Wirtschaftliche Auswirkungen"
+          },
+          "pfad": "art/7",
+          "kinder": [
+            {
+              "id": "007.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/7/abs/1",
+              "text": true
+            },
+            {
+              "id": "007.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/7/abs/2",
+              "text": true
+            },
+            {
+              "id": "007.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/7/abs/3",
+              "text": true
+            },
+            {
+              "id": "007.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/7/abs/4",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_II",
+      "art": "kapitel",
+      "nummer": "II",
+      "titel": {
+        "de": "SCHWERWIEGENDE VORFÄLLE UND WESENTLICHKEITSSCHWELLEN"
+      },
+      "pfad": "kap/II",
+      "kinder": [
+        {
+          "id": "art_8",
+          "art": "artikel",
+          "nummer": "8",
+          "titel": {
+            "de": "Schwerwiegende Vorfälle"
+          },
+          "pfad": "art/8",
+          "kinder": [
+            {
+              "id": "008.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/8/abs/1",
+              "text": true
+            },
+            {
+              "id": "008.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/8/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_9",
+          "art": "artikel",
+          "nummer": "9",
+          "titel": {
+            "de": "Wesentlichkeitsschwellen für die Bestimmung schwerwiegender Vorfälle"
+          },
+          "pfad": "art/9",
+          "kinder": [
+            {
+              "id": "009.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/9/abs/1",
+              "text": true
+            },
+            {
+              "id": "009.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/9/abs/2",
+              "text": true
+            },
+            {
+              "id": "009.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/9/abs/3",
+              "text": true
+            },
+            {
+              "id": "009.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/9/abs/4",
+              "text": true
+            },
+            {
+              "id": "009.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/9/abs/5",
+              "text": true
+            },
+            {
+              "id": "009.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/9/abs/6",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_III",
+      "art": "kapitel",
+      "nummer": "III",
+      "titel": {
+        "de": "ERHEBLICHE CYBERBEDROHUNGEN"
+      },
+      "pfad": "kap/III",
+      "kinder": [
+        {
+          "id": "art_10",
+          "art": "artikel",
+          "nummer": "10",
+          "titel": {
+            "de": "Hohe Wesentlichkeitsschwellen für die Bestimmung erheblicher Cyberbedrohungen"
+          },
+          "pfad": "art/10",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_IV",
+      "art": "kapitel",
+      "nummer": "IV",
+      "titel": {
+        "de": "RELEVANZ SCHWERWIEGENDER VORFÄLLE FÜR DIE ZUSTÄNDIGEN BEHÖRDEN IN ANDEREN MITGLIEDSTAATEN UND EINZELHEITEN DER MELDUNGEN AN ANDERE ZUSTÄNDIGE BEHÖRDEN"
+      },
+      "pfad": "kap/IV",
+      "kinder": [
+        {
+          "id": "art_11",
+          "art": "artikel",
+          "nummer": "11",
+          "titel": {
+            "de": "Relevanz schwerwiegender Vorfälle für die zuständigen Behörden in anderen Mitgliedstaaten"
+          },
+          "pfad": "art/11",
+          "text": true
+        },
+        {
+          "id": "art_12",
+          "art": "artikel",
+          "nummer": "12",
+          "titel": {
+            "de": "An andere zuständige Behörden zu übermittelnde Einzelheiten zu schwerwiegenden Vorfällen"
+          },
+          "pfad": "art/12",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_V",
+      "art": "kapitel",
+      "nummer": "V",
+      "titel": {
+        "de": "SCHLUSSBESTIMMUNGEN"
+      },
+      "pfad": "kap/V",
+      "kinder": [
+        {
+          "id": "art_13",
+          "art": "artikel",
+          "nummer": "13",
+          "titel": {
+            "de": "Inkrafttreten"
+          },
+          "pfad": "art/13",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

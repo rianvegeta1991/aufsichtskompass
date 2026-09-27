@@ -1,0 +1,829 @@
+{
+  "001.001": {
+    "h": "ec58c90b0c607343c2c68eb21e09e9e7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 18 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 genannte Anzahl der von dem Vorfall betroffenen Kunden spiegelt die Anzahl aller betroffenen Kunden unabhängig davon, ob es sich um natürliche oder juristische Personen handelt, wider, die den vom Finanzunternehmen bereitgestellten Dienst während des Vorfalls nicht nutzen können bzw. konnten oder die durch den Vorfall beeinträchtigt wurden. Diese Anzahl umfasst auch Dritte, die als Nutznießer der betroffenen Dienste ausdrücklich unter die vertragliche Vereinbarung zwischen dem Finanzunternehmen und dem Kunden fallen."
+      }
+    ]
+  },
+  "001.002": {
+    "h": "436d60ab232425c80bec41925f603384",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 18 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 genannte Anzahl der von dem Vorfall betroffenen finanziellen Gegenparteien spiegelt die Anzahl aller betroffenen finanziellen Gegenparteien wider, die eine vertragliche Vereinbarung mit dem Finanzunternehmen geschlossen haben."
+      }
+    ]
+  },
+  "001.003": {
+    "h": "2d964d382ca3bacdb55c73e88e3e880e",
+    "b": [
+      {
+        "art": "p",
+        "t": "In Bezug auf die in Artikel 18 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 genannte Relevanz der von dem Vorfall betroffenen Kunden und finanziellen Gegenparteien berücksichtigt das Finanzunternehmen, in welchem Maße sich die Auswirkungen auf einen Kunden oder eine finanzielle Gegenpartei auf die Verwirklichung der Geschäftsziele des Finanzunternehmens auswirken werden und wie sich der Vorfall auf die Markteffizienz auswirken könnte."
+      }
+    ]
+  },
+  "001.004": {
+    "h": "ffcb9286a3de1541a336686d9d3f64d0",
+    "b": [
+      {
+        "art": "p",
+        "t": "In Bezug auf den Wert oder die Anzahl der von dem Vorfall betroffenen Transaktionen im Sinne von Artikel 18 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 berücksichtigt das Finanzunternehmen alle betroffenen Transaktionen über einen Geldbetrag, sofern mindestens ein Teil der Transaktion in der Union durchgeführt wird."
+      }
+    ]
+  },
+  "001.005": {
+    "h": "1ba8cc8cd43166de1b864bff0ee889db",
+    "b": [
+      {
+        "art": "p",
+        "t": "Lässt sich die tatsächliche Anzahl der betroffenen Kunden oder finanziellen Gegenparteien oder die tatsächliche Anzahl oder der tatsächliche Wert der betroffenen Transaktionen nicht bestimmen, so schätzt das Finanzunternehmen diese Zahlen oder Werte auf der Grundlage verfügbarer Daten aus vergleichbaren Referenzzeiträumen."
+      }
+    ]
+  },
+  "002.001": {
+    "h": "1daaa9ad599ba957c466316cd980734d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zur Bestimmung des in Artikel 18 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 genannten Reputationsschadens betrachten die Finanzunternehmen einen Reputationsschaden als eingetreten, wenn mindestens eines der folgenden Kriterien erfüllt ist:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "über den Vorfall wurde in den Medien berichtet;"
+          },
+          {
+            "m": "b)",
+            "t": "der Vorfall hat zu wiederholten Beschwerden verschiedener Kunden oder finanzieller Gegenparteien über kundenorientierte Dienstleistungen oder kritische Geschäftsbeziehungen geführt;"
+          },
+          {
+            "m": "c)",
+            "t": "das Finanzunternehmen wird aufgrund des Vorfalls nicht oder wahrscheinlich nicht in der Lage sein, regulatorische Anforderungen zu erfüllen;"
+          },
+          {
+            "m": "d)",
+            "t": "das Finanzunternehmen wird infolge des Vorfalls Kunden oder finanzielle Gegenparteien verlieren oder wahrscheinlich verlieren, was wesentliche Auswirkungen auf seine Geschäftstätigkeit haben wird."
+          }
+        ]
+      }
+    ]
+  },
+  "002.002": {
+    "h": "5135a80ec07eb2f88fa3b763397b7478",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Bewertung der Reputationswirkung des Vorfalls berücksichtigen die Finanzunternehmen die Sichtbarkeit, die der Vorfall in Bezug auf jedes in Absatz 1 aufgeführte Kriterium erlangt hat oder wahrscheinlich erlangen wird."
+      }
+    ]
+  },
+  "003.001": {
+    "h": "ff84ec8a3c72333d33f4a32c3d80d441",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen messen die in Artikel 18 Absatz 1 Buchstabe b der Verordnung (EU) 2022/2554 genannte Dauer eines Vorfalls ab dem Zeitpunkt des Eintritts des Vorfalls bis zum Zeitpunkt der Behebung des Vorfalls."
+      },
+      {
+        "art": "p",
+        "t": "Können die Finanzunternehmen den Eintrittszeitpunkt des Vorfalls nicht bestimmen, messen sie die Dauer des Vorfalls ab dem Zeitpunkt seiner Feststellung. Wissen Finanzunternehmen schon um den Vorfall, bevor er festgestellt wurde, messen sie die Dauer ab dem Zeitpunkt, zu dem der Vorfall in den Netzwerk- oder Systemprotokollen oder anderen Datenquellen aufgezeichnet wurde."
+      },
+      {
+        "art": "p",
+        "t": "Wissen Finanzunternehmen noch nicht, wann der Vorfall behoben sein wird, oder können sie Aufzeichnungen in Protokollen oder anderen Datenquellen nicht verifizieren, so ziehen sie Schätzungen heran."
+      }
+    ]
+  },
+  "003.002": {
+    "h": "be4707792529042b6b777e3167e9d093",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen messen die in Artikel 18 Absatz 1 Buchstabe b der Verordnung (EU) 2022/2554 genannten Ausfallzeiten bei einem Vorfall ab dem Zeitpunkt, zu dem der Dienst für Kunden, finanzielle Gegenparteien oder andere interne oder externe Nutzer ganz oder teilweise nicht mehr verfügbar ist, bis zu dem Zeitpunkt, zu dem die regulären Tätigkeiten oder Vorgänge in dem vor dem Vorfall herrschenden Umfang wiederhergestellt sind. Führen die Ausfallzeiten nach der Wiederherstellung der regulären Tätigkeiten oder Vorgänge zu einer Verzögerung bei der Bereitstellung von Dienstleistungen, so werden die Ausfallzeiten vom Beginn des Vorfalls bis zu dem Zeitpunkt gemessen, zu dem die verzögerte Dienstleistung in vollem Umfang erbracht ist."
+      },
+      {
+        "art": "p",
+        "t": "Können die Finanzunternehmen den Beginn der Ausfallzeiten nicht bestimmen, messen sie die Dauer der Ausfallzeiten ab dem Zeitpunkt ihrer Feststellung."
+      }
+    ]
+  },
+  "007.001": {
+    "h": "d21fcdbdec265ad853e89d9e86ba109f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zur Bestimmung der in Artikel 18 Absatz 1 Buchstabe f der Verordnung (EU) 2022/2554 genannten wirtschaftlichen Auswirkungen des Vorfalls berücksichtigen die Finanzunternehmen, ohne Einrechnung von finanziellen Wiedereinziehungen, die folgenden Arten von direkten und indirekten Kosten und Verlusten, die ihnen infolge des Vorfalls entstanden sind:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "enteignete Mittel oder finanzielle Vermögenswerte, für die sie haften, einschließlich gestohlener Vermögenswerte;"
+          },
+          {
+            "m": "b)",
+            "t": "Kosten für die Ersetzung oder Verlegung von Software, Hardware oder Infrastruktur;"
+          },
+          {
+            "m": "c)",
+            "t": "Personalkosten, einschließlich Kosten im Zusammenhang mit der Ersetzung oder Verlegung von Personal, der Einstellung zusätzlichen Personals, der Vergütung von Überstunden und der Wiederherstellung verloren gegangener oder beeinträchtigter Kompetenzen;"
+          },
+          {
+            "m": "d)",
+            "t": "Gebühren wegen Nichteinhaltung vertraglicher Verpflichtungen;"
+          },
+          {
+            "m": "e)",
+            "t": "Kosten für Ausgleichs- und Entschädigungszahlungen an Kunden;"
+          },
+          {
+            "m": "f)",
+            "t": "Verluste wegen entgangener Einnahmen;"
+          },
+          {
+            "m": "g)",
+            "t": "Kosten für die interne und externe Kommunikation;"
+          },
+          {
+            "m": "h)",
+            "t": "Beratungskosten, einschließlich Kosten für Rechtsberatung, forensische Dienstleistungen und Behebungsdienstleistungen."
+          }
+        ]
+      }
+    ]
+  },
+  "007.002": {
+    "h": "9dbc865c2316edf94132e652f573e125",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Absatz 1 genannten Kosten und Verluste schließen keine Kosten ein, die für den alltäglichen Geschäftsbetrieb notwendig sind, insbesondere"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "keine Kosten für die allgemeine Instandhaltung von Infrastruktur, Ausrüstung, Hardware und Software und keine Kosten für die laufende Fortbildung des Personals, um dessen Kompetenzen auf Stand zu halten;"
+          },
+          {
+            "m": "b)",
+            "t": "keine internen oder externen Kosten für die Verstärkung des Geschäftsbetriebs nach dem Vorfall, insbesondere auch keine Kosten für Upgrades, Verbesserungen und Initiativen zur Risikobewertung;"
+          },
+          {
+            "m": "c)",
+            "t": "keine Versicherungsprämien."
+          }
+        ]
+      }
+    ]
+  },
+  "007.003": {
+    "h": "a7c533072e9abac3e886a74cf8e04b3a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen berechnen die Höhe der Kosten und Verluste auf der Grundlage der zum Meldezeitpunkt verfügbaren Daten. Kann die tatsächliche Höhe der Kosten und Verluste nicht bestimmt werden, so schätzen die Finanzunternehmen die entsprechenden Beträge."
+      }
+    ]
+  },
+  "007.004": {
+    "h": "dfd4a20ec96ff203438d3f4b7286938c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Bewertung der wirtschaftlichen Auswirkungen des Vorfalls summieren die Finanzunternehmen die in Absatz 1 genannten Kosten und Verluste."
+      }
+    ]
+  },
+  "008.001": {
+    "h": "e0c672942c9b645ceebdf3a227767ba5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein Vorfall wird für die Zwecke von Artikel 19 Absatz 1 der Verordnung (EU) 2022/2554 als schwerwiegender Vorfall angesehen, wenn die in Artikel 6 genannten kritischen Dienste beeinträchtigt und eine der folgenden beiden Bedingungen erfüllt ist:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Die in Artikel 9 Absatz 5 Buchstabe b genannte Wesentlichkeitsschwelle ist erreicht;"
+          },
+          {
+            "m": "b)",
+            "t": "zwei oder mehr der in Artikel 9 Absätze 1 bis 6 genannten anderen Wesentlichkeitsschwellen sind erreicht."
+          }
+        ]
+      }
+    ]
+  },
+  "008.002": {
+    "h": "98486c76d48b357fd133ecae1b617f73",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wiederholte Vorfälle, die nach Absatz 1 einzeln betrachtet keine schwerwiegenden Vorfälle sind, werden zusammengenommen als schwerwiegender Vorfall betrachtet, wenn sie alle folgenden Bedingungen erfüllen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Sie sind innerhalb von sechs Monaten mindestens zwei Mal aufgetreten;"
+          },
+          {
+            "m": "b)",
+            "t": "sie haben dieselbe offensichtliche Ursache im Sinne von Artikel 20 Absatz 1 Buchstabe b der Verordnung (EU) 2022/2554;"
+          },
+          {
+            "m": "c)",
+            "t": "sie erfüllen zusammengenommen die in Absatz 1 festgelegten Kriterien für die Betrachtung als schwerwiegender Vorfall."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen bewerten das Vorliegen wiederholter Vorfälle monatlich."
+      },
+      {
+        "art": "p",
+        "t": "Dieser Absatz gilt nicht für Kleinstunternehmen und die in Artikel 16 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen."
+      }
+    ]
+  },
+  "009.001": {
+    "h": "66e13255a034f15c917e0f9519203dfb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Wesentlichkeitsschwelle für das Kriterium „Kunden, finanzielle Gegenparteien und Transaktionen“ ist erreicht, wenn eine der folgenden Bedingungen erfüllt ist:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Die Zahl der betroffenen Kunden beläuft sich auf mehr als 10 % aller Kunden, die die betroffene Dienstleistung nutzen;"
+          },
+          {
+            "m": "b)",
+            "t": "die Zahl der betroffenen Kunden, die die betroffene Dienstleistung nutzen, liegt bei mehr als 100 000;"
+          },
+          {
+            "m": "c)",
+            "t": "die Zahl der betroffenen finanziellen Gegenparteien beläuft sich auf mehr als 30 % aller finanziellen Gegenparteien, die Tätigkeiten im Zusammenhang mit der Bereitstellung der betroffenen Dienstleistung ausüben;"
+          },
+          {
+            "m": "d)",
+            "t": "die Zahl der betroffenen Transaktionen beläuft sich auf mehr als 10 % der täglichen durchschnittlichen Zahl von Transaktionen, die das Finanzunternehmen im Zusammenhang mit der betroffenen Dienstleistung durchführt;"
+          },
+          {
+            "m": "e)",
+            "t": "der Wert der betroffenen Transaktionen beträgt mehr als 10 % des täglichen Durchschnittswerts der Transaktionen, die das Finanzunternehmen im Zusammenhang mit der betroffenen Dienstleistung durchführt;"
+          },
+          {
+            "m": "f)",
+            "t": "betroffen sind Kunden oder finanzielle Gegenparteien, die nach Artikel 1 Absatz 3 als relevant eingestuft wurden."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Lässt sich die tatsächliche Anzahl der betroffenen Kunden oder finanziellen Gegenparteien oder die tatsächliche Anzahl oder der tatsächliche Wert der betroffenen Transaktionen nicht bestimmen, so schätzt das Finanzunternehmen diese Zahlen oder Werte auf der Grundlage verfügbarer Daten aus vergleichbaren Referenzzeiträumen."
+      }
+    ]
+  },
+  "009.002": {
+    "h": "e07551aedd49aaa2113d879ddd7df12d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Wesentlichkeitsschwelle für das Kriterium „Reputationsschaden“ ist erreicht, wenn eine der in Artikel 2 Buchstaben a bis d genannten Bedingungen erfüllt ist."
+      }
+    ]
+  },
+  "009.003": {
+    "h": "84ede2dd2bdb2216a43491077cf31c9b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Wesentlichkeitsschwelle für das Kriterium „Dauer und Ausfallzeiten“ ist erreicht, wenn eine der folgenden Bedingungen erfüllt ist:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Der Vorfall dauert mehr als 24 Stunden;"
+          },
+          {
+            "m": "b)",
+            "t": "die Ausfallzeiten bei IKT-Diensten zur Unterstützung kritischer oder wichtiger Funktionen betragen mehr als zwei Stunden."
+          }
+        ]
+      }
+    ]
+  },
+  "009.004": {
+    "h": "535cbe4bbb7260c5845c82db5b5e3ac1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Wesentlichkeitsschwelle für das Kriterium „geografische Ausbreitung“ ist erreicht, wenn der Vorfall im Sinne von Artikel 4 Auswirkungen in zwei oder mehr Mitgliedstaaten hat."
+      }
+    ]
+  },
+  "009.005": {
+    "h": "10336452a7a6ea149bd08a00ae5824b6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Wesentlichkeitsschwelle für das Kriterium „Verluste von Daten“ ist erreicht, wenn eine der folgenden Bedingungen erfüllt ist:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Eine in Artikel 5 genannte Auswirkung auf die Verfügbarkeit, Authentizität, Integrität oder Vertraulichkeit von Daten hat negative Auswirkungen auf die Verwirklichung der Geschäftsziele des Finanzunternehmens oder auf dessen Fähigkeit, regulatorische Anforderungen zu erfüllen, oder wird solche negativen Auswirkungen haben;"
+          },
+          {
+            "m": "b)",
+            "t": "es findet ein nicht unter Buchstabe a fallender erfolgreicher böswilliger und unbefugter Zugriff auf Netzwerk- und Informationssysteme statt, sofern dieser Zugriff zu Verlusten von Daten führen kann."
+          }
+        ]
+      }
+    ]
+  },
+  "009.006": {
+    "h": "ea40b496baaa26bf7372cba66274b82d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Wesentlichkeitsschwelle für das Kriterium „wirtschaftliche Auswirkungen“ ist erreicht, wenn die Kosten und Verluste, die dem Finanzunternehmen durch den Vorfall entstanden sind, 100 000 EUR übersteigen oder wahrscheinlich übersteigen werden."
+      }
+    ]
+  },
+  "art_10": {
+    "h": "c63d79d4ec511cd785aa7353ac123bf4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Artikel 18 Absatz 2 der Verordnung (EU) 2022/2554 wird eine Cyberbedrohung als erheblich angesehen, wenn alle folgenden Bedingungen erfüllt sind:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Die Cyberbedrohung könnte nach den verfügbaren Informationen des Finanzunternehmens bei Eintritt kritische oder wichtige Funktionen des Finanzunternehmens beeinträchtigen oder beeinträchtigt haben oder könnte andere Finanzunternehmen, Drittdienstleister, Kunden oder finanzielle Gegenparteien beeinträchtigen."
+          },
+          {
+            "m": "b)",
+            "t": "Die Cyberbedrohung hat eine hohe Eintrittswahrscheinlichkeit bei dem Finanzunternehmen oder bei anderen Finanzunternehmen, wenn mindestens die folgenden Elemente berücksichtigt werden:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "die mit der unter Buchstabe a genannten Cyberbedrohung zusammenhängenden einschlägigen Risiken, insbesondere auch potenzielle Schwachstellen der Systeme des Finanzunternehmens, die ausgenutzt werden können;"
+              },
+              {
+                "m": "ii)",
+                "t": "die Fähigkeiten und Absichten der Angreifer, soweit dem Finanzunternehmen bekannt;"
+              },
+              {
+                "m": "iii)",
+                "t": "das Anhalten der Bedrohung und etwaige Kenntnisse über bisherige Vorfälle, die sich auf das Finanzunternehmen oder dessen Drittdienstleister, Kunden oder finanzielle Gegenparteien ausgewirkt haben."
+              }
+            ]
+          },
+          {
+            "m": "c)",
+            "t": "Die Cyberbedrohung könnte bei Eintritt das folgende Kriterium oder einen der folgenden Schwellenwerte erfüllen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "das in Artikel 18 Absatz 1 Buchstabe e der Verordnung (EU) 2022/2554 genannte Kriterium der Kritikalität der Dienste, wie in Artikel 6 der vorliegenden Verordnung ausgeführt;"
+              },
+              {
+                "m": "ii)",
+                "t": "die in Artikel 9 Absatz 1 ausgeführte Wesentlichkeitsschwelle;"
+              },
+              {
+                "m": "iii)",
+                "t": "die in Artikel 9 Absatz 4 ausgeführte Wesentlichkeitsschwelle."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Kommt das Finanzunternehmen je nach Art der Cyberbedrohung und den verfügbaren Informationen zu dem Schluss, dass die in Artikel 9 Absätze 2, 3, 5 und 6 genannten Wesentlichkeitsschwellen erreicht werden könnten, so können diese Schwellenwerte ebenfalls berücksichtigt werden."
+      }
+    ]
+  },
+  "art_11": {
+    "h": "43283cee0aa0411b9345589597de1d48",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 19 Absatz 7 der Verordnung (EU) 2022/2554 genannte Bewertung, ob der schwerwiegende Vorfall für die zuständigen Behörden in anderen Mitgliedstaaten von Belang ist, stützt sich darauf, ob der Vorfall eine von einem anderen Mitgliedstaat ausgehende Ursache oder in einem anderen Mitgliedstaat erhebliche Auswirkungen in Bezug auf eines von Folgendem hat:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Kunden oder finanzielle Gegenparteien;"
+          },
+          {
+            "m": "b)",
+            "t": "eine Zweigniederlassung des Finanzunternehmens oder ein anderes Finanzunternehmen innerhalb der Gruppe;"
+          },
+          {
+            "m": "c)",
+            "t": "eine Finanzmarktinfrastruktur oder einen Drittdienstleister mit potenziellen Auswirkungen auf die Finanzunternehmen, für die Dienstleistungen erbracht werden."
+          }
+        ]
+      }
+    ]
+  },
+  "art_12": {
+    "h": "eb4f025fde00cf383088d6fe5e505e2c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Einzelheiten schwerwiegender Vorfälle, die von den zuständigen Behörden nach Artikel 19 Absatz 6 der Verordnung (EU) 2022/2554 an andere zuständige Behörden zu übermitteln sind, und die Benachrichtigungen, die die EBA, die ESMA oder die EIOPA und die EZB nach Artikel 19 Absatz 7 der genannten Verordnung an die jeweils zuständigen Behörden in anderen Mitgliedstaaten zu übermitteln haben, weisen denselben Umfang an Informationen — ohne Anonymisierung — auf wie die Meldungen schwerwiegender Vorfälle, die nach Artikel 19 Absatz 4 der Verordnung (EU) 2022/2554 von Finanzunternehmen vorzulegen sind."
+      }
+    ]
+  },
+  "art_13": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "art_4": {
+    "h": "c703fd99f23086aea76a5a1e0bd73f0e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Um die in Artikel 18 Absatz 1 Buchstabe c der Verordnung (EU) 2022/2554 genannte geografische Ausbreitung im Hinblick auf die von dem Vorfall betroffenen Gebiete zu bestimmen, bewerten Finanzunternehmen, ob der Vorfall Auswirkungen in anderen Mitgliedstaaten hat oder hatte, und insbesondere, wie erheblich die Auswirkungen in Bezug auf eines von Folgendem sind:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Kunden und finanzielle Gegenparteien in anderen Mitgliedstaaten;"
+          },
+          {
+            "m": "b)",
+            "t": "Zweigniederlassungen oder andere Finanzunternehmen innerhalb der Gruppe, die in anderen Mitgliedstaaten tätig sind;"
+          },
+          {
+            "m": "c)",
+            "t": "Finanzmarktinfrastrukturen oder Drittdienstleister mit möglichen Auswirkungen auf Finanzunternehmen in anderen Mitgliedstaaten, für die sie Dienstleistungen erbringen, soweit diese Informationen verfügbar sind."
+          }
+        ]
+      }
+    ]
+  },
+  "art_5": {
+    "h": "4efb1fe601f6b9897d897c08cd6a9158",
+    "b": [
+      {
+        "art": "p",
+        "t": "Um die in Artikel 18 Absatz 1 Buchstabe d der Verordnung (EU) 2022/2554 genannten Verluste von Daten, die durch den Vorfall verursacht werden, zu bestimmen, berücksichtigen die Finanzunternehmen Folgendes:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "in Bezug auf die Verfügbarkeit von Daten, ob der Vorfall die vom Finanzunternehmen, seinen Kunden oder seinen Gegenparteien nachgefragten Daten vorübergehend oder dauerhaft unzugänglich oder unbrauchbar gemacht hat;"
+          },
+          {
+            "m": "b)",
+            "t": "in Bezug auf die Authentizität der Daten, ob der Vorfall die Vertrauenswürdigkeit der Datenquelle kompromittiert hat;"
+          },
+          {
+            "m": "c)",
+            "t": "in Bezug auf die Integrität der Daten, ob der Vorfall zu einer nicht autorisierten Veränderung der Daten geführt hat, wodurch diese unrichtig oder unvollständig geworden sind;"
+          },
+          {
+            "m": "d)",
+            "t": "in Bezug auf die Vertraulichkeit der Daten, ob der Vorfall dazu geführt hat, dass eine unbefugte Partei oder ein unbefugtes System Zugang zu oder Kenntnis von den Daten erhalten hat."
+          }
+        ]
+      }
+    ]
+  },
+  "art_6": {
+    "h": "e20f85e609079249a17be97f330895be",
+    "b": [
+      {
+        "art": "p",
+        "t": "Um die in Artikel 18 Absatz 1 Buchstabe e der Verordnung (EU) 2022/2554 genannte Kritikalität der betroffenen Dienste zu bestimmen, bewerten die Finanzunternehmen, ob der Vorfall"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "IKT-Dienste oder Netzwerk- und Informationssysteme zur Unterstützung kritischer oder wichtiger Funktionen des Finanzunternehmens beeinträchtigt oder beeinträchtigt hat;"
+          },
+          {
+            "m": "b)",
+            "t": "von dem Finanzunternehmen erbrachte Finanzdienstleistungen beeinträchtigt oder beeinträchtigt hat, die einer Zulassung oder Registrierung bedürfen oder von den zuständigen Behörden beaufsichtigt werden;"
+          },
+          {
+            "m": "c)",
+            "t": "einen erfolgreichen, böswilligen und unbefugten Zugriff auf die Netzwerk- und Informationssysteme des Finanzunternehmens darstellt oder dargestellt hat."
+          }
+        ]
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "560fa87fe4848a7018a10afb8e750882",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 18 Absatz 4 Unterabsatz 3,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "30df1fa9ac7efd2a438fe491079fa4a7",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Die Verordnung (EU) 2022/2554 zielt darauf ab, die Anforderungen für die Meldung von IKT-bezogenen Vorfällen und von zahlungsbezogenen Betriebs- oder Sicherheitsvorfällen, die Kreditinstitute, Zahlungsinstitute, Kontoinformationsdienstleister und E-Geld-Institute betreffen, (im Folgenden „Vorfälle“) zu harmonisieren und zu straffen. Da die Meldeanforderungen für 20 unterschiedliche Arten von Finanzunternehmen gelten, sollten die Klassifizierungskriterien und Wesentlichkeitsschwellen für die Bestimmung schwerwiegender Vorfälle und erheblicher Cyberbedrohungen auf eine einfache, harmonisierte und kohärente Weise festgelegt werden, die den Besonderheiten der Dienstleistungen und Tätigkeiten aller relevanten Finanzunternehmen Rechnung trägt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_10": {
+    "h": "23f6f3d88cf09caeddede5c30e7bf074",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(10)",
+            "t": "Vorfälle, die IKT-Dienstleistungen oder Netzwerk- und Informationssysteme zur Unterstützung kritischer oder wichtiger Funktionen oder zulassungspflichtige Finanzdienstleistungen betreffen, oder ein böswilliger unbefugter Zugriff auf Netzwerk- und Informationssysteme zur Unterstützung kritischer oder wichtiger Funktionen sollten als Vorfälle angesehen werden, die kritische Dienstleistungen der Finanzunternehmen betreffen. Ein böswilliger, unbefugter Zugriff auf Netzwerk- und Informationssysteme zur Unterstützung kritischer oder wichtiger Funktionen von Finanzunternehmen birgt ernsthafte Risiken für das Finanzunternehmen und sollte, da auch andere Finanzunternehmen davon betroffen sein könnten, stets als schwerwiegender Vorfall betrachtet werden, der gemeldet werden muss."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_11": {
+    "h": "c4e025c7a82fe685c38a241920b6c61e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(11)",
+            "t": "Wiederholte Vorfälle mit offensichtlich ähnlicher Ursache, die einzeln betrachtet keine schwerwiegenden Vorfälle sind, können auf erhebliche Mängel und Schwächen in den Verfahren des Finanzunternehmens für das Management von Vorfällen und Risiken hinweisen. Deswegen sollten wiederholte Vorfälle insgesamt als schwerwiegend betrachtet werden, wenn sie über einen gewissen Zeitraum mehrfach auftreten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_12": {
+    "h": "3f90df802a85906a5f8bba237316190e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(12)",
+            "t": "Da Cyberbedrohungen negative Auswirkungen auf das Finanzunternehmen und den Finanzsektor haben können, sollte bei etwaigen von den Finanzunternehmen gemeldeten erheblichen Cyberbedrohungen auf die Eintrittswahrscheinlichkeit und die Kritikalität der potenziellen Auswirkungen hingewiesen werden. Um eine eindeutige und konsistente Bewertung der Signifikanz von Cyberbedrohungen sicherzustellen, sollte die Klassifizierung einer Cyberbedrohung als erheblich von der Wahrscheinlichkeit, dass die Klassifizierungskriterien für schwerwiegende Vorfälle und die zugehörigen Schwellenwerte bei Eintritt der Bedrohung erfüllt würden, sowie von der Art der Cyberbedrohung und den verfügbaren Informationen des Finanzunternehmens abhängen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_13": {
+    "h": "e8d806f9e44e0e1958643436c51f9637",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(13)",
+            "t": "Da die zuständigen Behörden in anderen Mitgliedstaaten über Vorfälle, die sich auf Finanzunternehmen und Kunden in ihrem Hoheitsgebiet auswirken, benachrichtigt werden müssen, sollte die in Artikel 19 Absatz 7 der Verordnung (EU) 2022/2554 vorgesehene Bewertung der Auswirkungen in einem anderen Hoheitsgebiet auf den Ursachen des Vorfalls, dem Ansteckungspotenzial über Drittdienstleister und Finanzmarktinfrastrukturen sowie den Auswirkungen des Vorfalls auf bedeutende Gruppen von Kunden oder finanziellen Gegenparteien beruhen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_14": {
+    "h": "f55f05785bce44b93670227e1a7cbd1b",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(14)",
+            "t": "Die in Artikel 19 Absätze 6 und 7 der Verordnung (EU) 2022/2554 genannten Melde- und Benachrichtigungsverfahren sollten es den jeweiligen Empfängern ermöglichen, die Auswirkungen der Vorfälle zu bewerten. Deswegen sollten die übermittelten Informationen alle Einzelheiten beinhalten, die in den Vorfallmeldungen des Finanzunternehmens an die zuständige Behörde enthalten sind."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_15": {
+    "h": "c94b5817339ca2d0d99da5d740d20575",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(15)",
+            "t": "Stellt ein Vorfall eine Verletzung des Schutzes personenbezogener Daten im Sinne der Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates () und der Richtlinie 2002/58/EG des Europäischen Parlaments und des Rates () dar, so sollte die vorliegende Verordnung die in den genannten Rechtsvorschriften der Union festgelegten Aufzeichnungs- und Benachrichtigungspflichten bei Verletzungen des Schutzes personenbezogener Daten unberührt lassen. Die zuständigen Behörden sollten mit den in der Verordnung (EU) 2016/679 und der Richtlinie 2002/58/EG genannten Behörden zusammenarbeiten und Informationen über alle relevanten Angelegenheiten austauschen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_16": {
+    "h": "30a0823148c3908eae234c94f2fd8ffc",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(16)",
+            "t": "Diese Verordnung beruht auf dem Entwurf technischer Regulierungsstandards, den die Europäischen Aufsichtsbehörden der Kommission in Abstimmung mit der Agentur der Europäischen Union für Cybersicherheit (ENISA) und der Europäischen Zentralbank (EZB) vorgelegt haben."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_17": {
+    "h": "d88eabeaa689766dd5e584e145eb488d",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(17)",
+            "t": "Der in Artikel 54 der Verordnung (EU) Nr. 1093/2010 des Europäischen Parlaments und des Rates (), in Artikel 54 der Verordnung (EU) Nr. 1094/2010 des Europäischen Parlaments und des Rates () und in Artikel 54 der Verordnung (EU) Nr. 1095/2010 des Europäischen Parlaments und des Rates () genannte Gemeinsame Ausschuss der Europäischen Aufsichtsbehörden hat zu diesem Entwurf technischer Regulierungsstandards, auf dem die vorliegende Verordnung beruht, öffentliche Konsultationen durchgeführt, die damit verbundenen Kosten- und Nutzeneffekte analysiert und die Stellungnahme der nach Artikel 37 der Verordnung (EU) Nr. 1093/2010 eingesetzten Interessengruppe Bankensektor, der nach Artikel 37 der Verordnung (EU) Nr. 1094/2010 eingesetzten Interessengruppe Versicherung und Rückversicherung und der nach Artikel 37 der Verordnung (EU) Nr. 1095/2010 eingesetzten Interessengruppe Wertpapiere und Wertpapiermärkte eingeholt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_18": {
+    "h": "3ce87d6f827573c7615edaa02397791d",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(18)",
+            "t": "Der Europäische Datenschutzbeauftragte wurde gemäß Artikel 42 Absatz 1 der Verordnung (EU) 2018/1725 des Europäischen Parlaments und des Rates () angehört und hat am 24. Januar 2024 eine Stellungnahme abgegeben —"
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "f70577862b4e5bd2bf53841df201fe03",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Um Verhältnismäßigkeit sicherzustellen, sollten die Klassifizierungskriterien und Wesentlichkeitsschwellen die Größe und das Gesamtrisikoprofil sowie die Art, den Umfang und die Komplexität der Dienstleistungen aller Finanzunternehmen widerspiegeln. Darüber hinaus sollten die Kriterien und Wesentlichkeitsschwellen so konzipiert sein, dass sie für alle Finanzunternehmen unabhängig von deren Größe und Risikoprofil in kohärenter Weise gelten und kleineren Finanzunternehmen keinen unverhältnismäßigen Meldeaufwand auferlegen. Jedoch sollte für Fälle, in denen eine erhebliche Zahl von Kunden von einem Vorfall betroffen ist, der den geltenden Schwellenwert für sich genommen nicht überschreitet, ein absoluter Schwellenwert festgelegt werden, der hauptsächlich auf größere Finanzunternehmen abstellt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "7fe3151ee25944836ab8edf9080818b3",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Im Falle bereits vor Inkrafttreten der Verordnung (EU) 2022/2554 bestehender Rahmenwerke für die Meldung von Vorfällen sollte den Finanzunternehmen Kontinuität gewährleistet werden. Deshalb sollten die Klassifizierungskriterien und Wesentlichkeitsschwellen auf die EBA-Leitlinien für die Meldung schwerwiegender Vorfälle gemäß der Richtlinie (EU) 2015/2366 des Europäischen Parlaments und des Rates (), auf die Leitlinien für die regelmäßige Unterrichtung und die Meldung wesentlicher Änderungen an die ESMA durch Transaktionsregister, auf den EZB/SSM-Rahmen für die Meldung von Cybervorfällen und auf andere einschlägige Leitlinien abgestimmt sein und sich daran orientieren. Die Klassifizierungskriterien und Schwellenwerte sollten auch für Finanzunternehmen geeignet sein, die vor der Verordnung (EU) 2022/2554 noch keinen Anforderungen für die Meldung von Vorfällen unterlagen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "cb19a5dba1a03e3f7752a86da236b9ff",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Was das Klassifizierungskriterium „Wert und Anzahl der betroffenen Transaktionen“ betrifft, so ist der Begriff der Transaktion weit gefasst und beinhaltet verschiedene Tätigkeiten und Dienstleistungen aus den für Finanzunternehmen geltenden sektorspezifischen Rechtsakten. Für die Zwecke dieses Klassifizierungskriteriums sollten Zahlungsvorgänge und alle Formen des Austauschs von Finanzinstrumenten, Kryptowerten, Waren oder anderen Vermögenswerten, auch in Form von Einschüssen, Sicherheiten oder Pfandrechten, sowohl gegen Bargeld als auch gegen jeden anderen Vermögenswert, abgedeckt werden. Alle Transaktionen mit Vermögenswerten, deren Wert als Geldbetrag ausgedrückt werden kann, sollten für die Zwecke der Klassifizierung berücksichtigt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "77fd4eccf2a0cba408694aad8d3abe92",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Die Klassifizierungskriterien sollten sicherstellen, dass alle relevanten Arten von schwerwiegenden Vorfällen erfasst werden. Cyberangriffe, die mit dem Eindringen in Netzwerk- oder Informationssysteme zusammenhängen, werden von vielen Klassifizierungskriterien möglicherweise nicht unbedingt erfasst. Jedoch sind sie bedeutsam, da jedes Eindringen in Netzwerk- und Informationssysteme dem Finanzunternehmen schaden kann. Dementsprechend sollten die Klassifizierungskriterien „betroffene kritische Dienstleistungen“ und „Verluste von Daten“ so festgelegt werden, dass diese Arten von schwerwiegenden Vorfällen erfasst werden, insbesondere auch unbefugtes Eindringen, das, auch wenn die Auswirkungen nicht unmittelbar bekannt sind, gravierende Folgen haben kann, vor allem Datenschutzverletzungen und Datenlecks."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "ed790f60ea98e602e190f571fcc3baf1",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Da die Kreditinstitute sowohl dem Rahmen für die Klassifizierung von Vorfällen nach Artikel 18 der Verordnung (EU) 2022/2554 als auch dem Rahmen für operationelle Risiken gemäß der Delegierten Verordnung (EU) 2018/959 der Kommission () unterliegen, sollte der Ansatz für die Bewertung der wirtschaftlichen Auswirkungen eines Vorfalls auf Basis der Kosten- und Verlustkalkulation so weit wie möglich bei beiden Rahmen konsistent sein, damit keine unvereinbaren oder widersprüchlicher Anforderungen eingeführt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "84d17c49c979cc316d915dfc8ae33395",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Das in Artikel 18 Absatz 1 Buchstabe c der Verordnung (EU) 2022/2554 festgelegte Kriterium der geografischen Ausbreitung eines Vorfalls sollte die grenzüberschreitenden Auswirkungen des Vorfalls in den Fokus nehmen, da die Auswirkungen eines Vorfalls auf die Tätigkeiten eines Finanzunternehmens innerhalb eines einzelnen Rechtsraums durch die anderen im genannten Artikel festgelegten Kriterien erfasst werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "45bba3de15373ef9f9cc2322115aa69a",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Da die Klassifizierungskriterien voneinander abhängen und miteinander verknüpft sind, sollte der Ansatz für die Ermittlung schwerwiegender Vorfälle, die nach Artikel 19 Absatz 1 der Verordnung (EU) 2022/2554 gemeldet werden müssen, auf einer Kriterienkombination beruhen, wobei bestimmte Kriterien, die eng mit den in Artikel 3 Absätze 8 und 10 der Verordnung (EU) 2022/2554 enthaltenen Begriffsbestimmungen eines IKT-bezogenen Vorfalls bzw. schwerwiegender IKT-bezogener Vorfälle zusammenhängen, bei der Klassifizierung stärker im Vordergrund stehen sollten als andere Kriterien."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "a3c7d27b1da51eeb4020a097f7de0d7d",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Um sicherzustellen, dass die Meldungen über schwerwiegende Vorfälle, die die zuständigen Behörden nach Artikel 19 Absatz 1 der Verordnung (EU) 2022/2554 erhalten, sowohl Aufsichtszwecken als auch der Verhinderung einer finanzsektorweiten Ansteckung dienen, sollten es die Wesentlichkeitsschwellen ermöglichen, schwerwiegende Vorfälle zu erfassen, indem sie unter anderem die Auswirkungen auf unternehmensspezifische kritische Dienstleistungen, die spezifischen absoluten und relativen Schwellenwerte für Kunden oder finanzielle Gegenparteien, auf wesentliche Auswirkungen auf das Finanzunternehmen hinweisende Transaktionen und die Signifikanz der Auswirkungen in anderen Mitgliedstaaten in den Fokus nehmen."
+          }
+        ]
+      }
+    ]
+  }
+}

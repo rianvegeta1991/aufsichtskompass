@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Aufsichtskompass">
+  <!-- Eigenes Zeichen: Kompassnadel. Kein Unternehmenslogo, keine fremde Marke. -->
+  <rect width="512" height="512" rx="96" fill="#ffffff"/>
+  <circle cx="256" cy="256" r="196" fill="none" stroke="#2f4858" stroke-width="14" opacity="0.28"/>
+  <circle cx="256" cy="256" r="150" fill="none" stroke="#2f4858" stroke-width="6" opacity="0.14"/>
+  <path d="M256 68 L316 232 L256 268 L196 232 Z" fill="#C6093B"/>
+  <path d="M256 444 L196 280 L256 244 L316 280 Z" fill="#2f4858" opacity="0.62"/>
+  <circle cx="256" cy="256" r="26" fill="#ffffff" stroke="#C6093B" stroke-width="12"/>
+</svg>

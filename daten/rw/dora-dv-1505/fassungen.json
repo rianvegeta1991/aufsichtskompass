@@ -1,0 +1,19 @@
+{
+  "regelwerk": "dora-dv-1505",
+  "fassungen": [
+    {
+      "id": "2024-05-30",
+      "stand": "Thu, 30 May 2024 01:32:36 GMT",
+      "abgerufen": "2026-09-27T10:10:27Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32024R1505",
+        "celex": "32024R1505",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20240530033236000\"",
+      "hash": "3b1f7b3527d94ac501f0afbd0629bc09ba853ef16c0a0ddd9f80039f38777210",
+      "fundstellen": 29
+    }
+  ]
+}

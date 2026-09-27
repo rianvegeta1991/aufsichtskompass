@@ -1,0 +1,1942 @@
+{
+  "002.001": {
+    "h": "3701f08932e40d7a6524a3df8bfcf344",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die TLPT-Behörden prüfen, ob ein Finanzunternehmen zur Durchführung eines TLPT verpflichtet ist, und berücksichtigen dabei die Auswirkungen dieses Finanzunternehmens, seinen systemischen Charakter und sein IKT-Risikoprofil auf der Grundlage aller folgenden Kriterien:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Faktoren in Verbindung mit Auswirkungen und systemischem Charakter:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Größe des Finanzunternehmens, die sich danach richtet, ob das Finanzunternehmen Finanzdienstleistungen in einem oder mehreren Mitgliedstaaten erbringt, und die durch Vergleich der Tätigkeiten des Finanzunternehmens mit denen anderer Finanzunternehmen, die ähnliche Dienstleistungen erbringen, ermittelt wird,"
+              },
+              {
+                "m": "ii)",
+                "t": "Ausmaß und Art der Verflechtung des Finanzunternehmens mit anderen Finanzunternehmen des Finanzsektors in einem oder mehreren Mitgliedstaaten,"
+              },
+              {
+                "m": "iii)",
+                "t": "Kritikalität oder Bedeutung der Dienstleistungen, die das Finanzunternehmen für den Finanzsektor erbringt,"
+              },
+              {
+                "m": "iv)",
+                "t": "Substituierbarkeit der von dem betreffenden Finanzunternehmen erbrachten Dienstleistungen,"
+              },
+              {
+                "m": "v)",
+                "t": "Komplexität des Geschäftsmodells des Finanzunternehmens und der damit verbundenen Dienstleistungen und Prozesse,"
+              },
+              {
+                "m": "vi)",
+                "t": "Frage, ob das Finanzunternehmen Teil einer Gruppe systemischen Charakters auf Unionsebene oder auf nationaler Ebene im Finanzsektor ist und IKT-Systeme gemeinsam nutzt;"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "Faktoren in Verbindung mit dem IKT-Risiko:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Risikoprofil des Finanzunternehmens,"
+              },
+              {
+                "m": "ii)",
+                "t": "Bedrohungslage des Finanzunternehmens,"
+              },
+              {
+                "m": "iii)",
+                "t": "Grad der Abhängigkeit kritischer oder wichtiger Funktionen des Finanzunternehmens oder seiner unterstützenden Funktionen von IKT-Systemen und -Prozessen,"
+              },
+              {
+                "m": "iv)",
+                "t": "Komplexität der IKT-Architektur des Finanzunternehmens,"
+              },
+              {
+                "m": "v)",
+                "t": "Von IKT-Drittdienstleistern unterstützte IKT-Dienstleistungen und -Funktionen sowie Anzahl und Art der vertraglichen Vereinbarungen mit IKT-Drittdienstleistern oder gruppeninternen IKT-Dienstleistern,"
+              },
+              {
+                "m": "vi)",
+                "t": "Ergebnisse etwaiger aufsichtlicher Überprüfungen, die für die Bewertung der IKT-Reife des Finanzunternehmens relevant sind,"
+              },
+              {
+                "m": "vii)",
+                "t": "Reifegrad der IKT-Geschäftsfortführungspläne und IKT-Reaktions- und Wiederherstellungspläne,"
+              },
+              {
+                "m": "viii)",
+                "t": "Reifegrad der operativen IKT-Sicherheitskontrollen und Risikominderungsmaßnahmen, einschließlich der Fähigkeit,",
+                "u": [
+                  {
+                    "m": "1.",
+                    "t": "die IKT-Infrastruktur des Finanzunternehmens dauerhaft zu überwachen,"
+                  },
+                  {
+                    "m": "2.",
+                    "t": "IKT-bezogene Ereignisse in Echtzeit zu erkennen,"
+                  },
+                  {
+                    "m": "3.",
+                    "t": "die unter Ziffer 2 genannten Ereignisse zu analysieren,"
+                  },
+                  {
+                    "m": "4.",
+                    "t": "auf die unter Ziffer 2 genannten Ereignisse schnell und wirksam zu reagieren,"
+                  }
+                ]
+              },
+              {
+                "m": "ix)",
+                "t": "Frage, ob das Finanzunternehmen Teil einer Gruppe ist, die auf Unionsebene oder auf nationaler Ebene im Finanzsektor tätig ist und IKT-Systeme gemeinsam nutzt."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens a Ziffer i berücksichtigt die TLPT-Behörde nach Möglichkeit"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "den Marktanteil des Finanzunternehmens auf Unions- und nationaler Ebene,"
+          },
+          {
+            "m": "b)",
+            "t": "das Spektrum der vom Finanzunternehmen angebotenen Tätigkeiten,"
+          },
+          {
+            "m": "c)",
+            "t": "den Marktanteil der vom Finanzunternehmen erbrachten Dienstleistungen oder der auf Unions- und nationaler Ebene durchgeführten Tätigkeiten."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens a Ziffer v berücksichtigt die TLPT-Behörde, soweit möglich,"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "ob das Finanzunternehmen über mehr als ein Geschäftsmodell verfügt,"
+          },
+          {
+            "m": "b)",
+            "t": "die Verflechtung der verschiedenen Geschäftsprozesse und der damit verbundenen Dienstleistungen."
+          }
+        ]
+      }
+    ]
+  },
+  "002.002": {
+    "h": "2adbfb6009ca9783873b4b3508572304",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die TLPT-Behörden verlangen von allen folgenden Finanzunternehmen die Durchführung von TLPT, es sei denn, die Bewertung eines Finanzunternehmens gemäß Absatz 1 hat ergeben, dass seine Auswirkungen, Bedenken hinsichtlich der Finanzstabilität in Bezug auf das betreffende Finanzunternehmen oder sein IKT-Risikoprofil die Durchführung eines TLPT nicht rechtfertigen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Kreditinstitute, die eine der folgenden Bedingungen erfüllen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Sie wurden gemäß Artikel 131 der Richtlinie 2013/36/EU des Europäischen Parlaments und des Rates () als global systemrelevante Institute (G-SRI) eingestuft."
+              },
+              {
+                "m": "ii)",
+                "t": "Sie wurden gemäß Artikel 131 der Richtlinie 2013/36/EU als andere systemrelevante Institute („A-SRI“) ermittelt."
+              },
+              {
+                "m": "iii)",
+                "t": "Sie sind Teil eines G-SRI oder A-SRI."
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "Zahlungsinstitute, die in jedem der beiden Kalenderjahre, die der Bewertung durch die TLPT-Behörde vorausgehen, einen Gesamtbetrag der Zahlungsvorgänge im Sinne von Artikel 4 Ziffer 5 der Richtlinie (EU) 2015/2366 des Europäischen Parlaments und des Rates () von 150 Mrd. EUR überschritten haben,"
+          },
+          {
+            "m": "c)",
+            "t": "E-Geld-Institute, die in jedem der beiden Kalenderjahre, die der Bewertung durch die TLPT-Behörde vorausgehen, entweder einen Gesamtbetrag der Zahlungsvorgänge im Sinne von Artikel 4 Ziffer 5 der Richtlinie (EU) 2015/2366 von 150 Mrd. EUR oder einen Gesamtbetrag des E-Geld-Umlaufs von 40 Mrd. EUR überschritten haben,"
+          },
+          {
+            "m": "d)",
+            "t": "Zentralverwahrer,"
+          },
+          {
+            "m": "e)",
+            "t": "zentrale Gegenparteien,"
+          },
+          {
+            "m": "f)",
+            "t": "Handelsplätze mit einem elektronischen Handelssystem, die eines der folgenden Kriterien erfüllen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Der Handelsplatz hat in jedem der beiden Kalenderjahre, die der Bewertung durch die TLPT-Behörde vorausgehen, in Bezug auf den Umsatz auf nationaler Ebene den höchsten Marktanteil in einem der folgenden Bereiche:",
+                "u": [
+                  {
+                    "m": "1.",
+                    "t": "übertragbare Wertpapiere im Sinne des Artikels 4 Absatz 1 Nummer 44 Buchstabe a der Richtlinie 2014/65/EU des Europäischen Parlaments und des Rates (),"
+                  },
+                  {
+                    "m": "2.",
+                    "t": "übertragbare Wertpapiere im Sinne des Artikels 4 Absatz 1 Nummer 44 Buchstabe b der Richtlinie 2014/65/EU,"
+                  },
+                  {
+                    "m": "3.",
+                    "t": "Derivate im Sinne des Artikels 2 Absatz 1 Nummer 29 der Verordnung (EU) Nr. 600/2014 des Europäischen Parlaments und des Rates (),"
+                  },
+                  {
+                    "m": "4.",
+                    "t": "strukturierte Finanzprodukte im Sinne des Artikels 2 Absatz 1 Nummer 28 der Verordnung (EU) Nr. 600/2014,"
+                  },
+                  {
+                    "m": "5.",
+                    "t": "Emissionszertifikate im Sinne des Anhangs I Abschnitt C Nummer 11 der Richtlinie 2014/65/EU,"
+                  }
+                ]
+              },
+              {
+                "m": "ii)",
+                "t": "Der Handelsplatz hat in jedem der beiden Kalenderjahre, die der Bewertung durch die TLPT-Behörde vorausgehen, in Bezug auf den Umsatz auf Unionsebene einen Marktanteil von über 5 % in einem der folgenden Bereiche:",
+                "u": [
+                  {
+                    "m": "1.",
+                    "t": "Aktien und andere, Aktien oder Anteilen an Gesellschaften, Personengesellschaften oder anderen Rechtspersönlichkeiten gleichzustellende Wertpapiere sowie Aktienzertifikate,"
+                  },
+                  {
+                    "m": "2.",
+                    "t": "Schuldverschreibungen oder andere verbriefte Schuldtitel, einschließlich Zertifikaten (Hinterlegungsscheinen) für solche Wertpapiere,"
+                  },
+                  {
+                    "m": "3.",
+                    "t": "Derivate, die in Artikel 2 Absatz 1 Nummer 29 der Verordnung (EU) Nr. 600/2014 definiert sind,"
+                  },
+                  {
+                    "m": "4.",
+                    "t": "strukturierte Finanzprodukte im Sinne des Artikels 2 Absatz 1 Nummer 28 der Verordnung (EU) Nr. 600/2014,"
+                  },
+                  {
+                    "m": "5.",
+                    "t": "Emissionszertifikate im Sinne des Anhangs I Abschnitt C Nummer 11 der Richtlinie 2014/65/EU."
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "m": "g)",
+            "t": "Versicherungs- und Rückversicherungsunternehmen, die alle folgenden Kriterien erfüllen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Die verbuchten Bruttoprämieneinnahmen betragen mehr als 1 500 000 000 EUR."
+              },
+              {
+                "m": "ii)",
+                "t": "Die versicherungstechnischen Rückstellungen betragen mehr als 10 000 000 000 EUR."
+              },
+              {
+                "m": "iii)",
+                "t": "Versicherungsunternehmen, die nur in der Lebensversicherung oder die sowohl in der Lebensversicherung als auch in der Nichtlebensversicherung tätig sind und deren Vermögenswerte insgesamt 3,5 % der Summe der gemäß Artikel 75 der Richtlinie 2009/138/EG des Europäischen Parlaments und des Rates bewerteten gesamten Vermögenswerte () der in dem Mitgliedstaat niedergelassenen Versicherungs- und Rückversicherungsunternehmen übersteigen."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens f Ziffer ii wird für den Fall, dass der Handelsplatz Teil eines gruppenübergreifenden IKT-Systems oder desselben gruppeninternen IKT-Dienstleisters ist, der Umsatz mit den Wertpapieren und Derivatkontrakten an allen Handelsplätzen berücksichtigt, die derselben Gruppe angehören und in der Union niedergelassen sind."
+      },
+      {
+        "art": "p",
+        "t": "Für die Zwecke des Buchstabens g ermitteln die TLPT-Behörden eine Untergruppe aller Versicherungs- und Rückversicherungsunternehmen und wenden die unter Buchstabe g Ziffern i, ii und iii festgelegten Kriterien an. Zu dieser Untergruppe gehörende Versicherungs- und Rückversicherungsunternehmen sind zur Durchführung von TLPT verpflichtet, wenn sie eines der folgenden Kriterien erfüllen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "verbuchte Bruttoprämieneinnahmen von mehr als 3 000 000 000 EUR,"
+          },
+          {
+            "m": "b)",
+            "t": "versicherungstechnische Rückstellungen von mehr als 30 000 000 000 EUR,"
+          },
+          {
+            "m": "c)",
+            "t": "Summe der Vermögenswerte übersteigt 10 % der Summe der gemäß Artikel 75 der Richtlinie 2009/138/EG bewerteten gesamten Vermögenswerte der in dem Mitgliedstaat niedergelassenen Versicherungs- und Rückversicherungsunternehmen."
+          }
+        ]
+      }
+    ]
+  },
+  "002.003": {
+    "h": "097945ac0915e9fb886c091eb5c97bee",
+    "b": [
+      {
+        "art": "p",
+        "t": "Erfüllen mehrere Finanzunternehmen, die derselben Gruppe angehören und IKT-Systeme gemeinsam nutzen, oder mehrere Finanzunternehmen, die denselben gruppeninternen IKT-Dienstleister in Anspruch nehmen, die in Absatz 2 genannten Kriterien, so entscheiden die für diese Finanzunternehmen zuständigen TLPT-Behörden gemäß Artikel 16 Absatz 2, ob die Pflicht zur Durchführung von TLPT auf Einzelbasis für diese Finanzunternehmen relevant ist."
+      },
+      {
+        "art": "p",
+        "t": "Unterscheidet sich die für das Mutterunternehmen einer in Unterabsatz 1 genannten Gruppe von Finanzunternehmen zuständige TLPT-Behörde von den für die Finanzunternehmen der Gruppe zuständigen TLPT-Behörden, so wird diese Behörde von den TLPT-Behörden, die für die zu dieser Gruppe gehörenden Finanzunternehmen zuständig sind, zu der Frage konsultiert, ob TLPT auf Einzelbasis durchgeführt werden sollten."
+      }
+    ]
+  },
+  "003.001": {
+    "h": "9b72e5d6c0539a696359b8ce1c9d91fb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine TLPT-Behörde überträgt die Zuständigkeit für die Koordinierung der mit TLPT verbundenen Aktivitäten einem Test-Cyberteam (im Folgenden „TCT“). Ein TCT setzt sich aus Testmanagern zusammen, die mit der Beaufsichtigung eines einzelnen TLPT betraut sind."
+      }
+    ]
+  },
+  "003.002": {
+    "h": "d139461f55918e2cbc29151d4cd20636",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für jeden Test benennt die TLPT-Behörde einen Testmanager und mindestens einen Stellvertreter."
+      }
+    ]
+  },
+  "003.003": {
+    "h": "600890ccafee64c601df767e9dc24ad8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Testmanager überwachen, ob die in dieser Verordnung festgelegten Anforderungen eingehalten werden, und stellen deren Einhaltung sicher."
+      }
+    ]
+  },
+  "003.004": {
+    "h": "ebff8a27084e95b60ee61b66a2dde503",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Testmanager teilt dem Finanzunternehmen die Kontaktdaten des TCT im Wege der in Artikel 9 Absatz 1 genannten Aufforderung mit."
+      }
+    ]
+  },
+  "003.005": {
+    "h": "bc5a7c45fd52b7ecb7e0d6deb54b2623",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die TLPT-Behörde nimmt an allen Phasen des TLPT teil."
+      }
+    ]
+  },
+  "004.001": {
+    "h": "cc37cbdd934c2de9b2798a5ec0012612",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen benennen ein Kontrollteam, das für die laufende Umsetzung des TLPT sowie die Entscheidungen und Maßnahmen des Kontrollteams zuständig ist."
+      }
+    ]
+  },
+  "004.002": {
+    "h": "43d1b2c45950c11641ed5c4d6e233558",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen legen organisatorische und verfahrenstechnische Maßnahmen fest, um sicherzustellen, dass"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "der Zugang zu Informationen über geplante oder laufende TLPT dem Kontrollteam, dem Leitungsorgan, den Testern, dem Anbieter von Bedrohungsanalysen und der TLPT-Behörde nur in dem Maße gewährt wird, in dem die Kenntnis der Informationen notwendig ist,"
+          },
+          {
+            "m": "b)",
+            "t": "das Kontrollteam die Testmanager konsultiert, bevor es ein Mitglied des Blue Teams in einen TLPT einbindet,"
+          },
+          {
+            "m": "c)",
+            "t": "das Kontrollteam informiert wird, wenn ein Mitarbeiter des Finanzunternehmens oder seiner Drittdienstleister den TLPT aufdeckt, im Falle einer Eskalation der sich daraus ergebenden Reaktion auf Vorfälle das Kontrollteam erforderlichenfalls eine solche Eskalation eindämmt,"
+          },
+          {
+            "m": "d)",
+            "t": "Vereinbarungen über die Geheimhaltung des TLPT bestehen, die für die Mitarbeiter des Finanzunternehmens, die Mitarbeiter der betreffenden IKT-Drittdienstleister, Tester und den Anbieter von Bedrohungsanalysen gelten,"
+          },
+          {
+            "m": "e)",
+            "t": "das Kontrollteam den Testmanagern auf Anfrage alle Informationen über den TLPT zur Verfügung stellt,"
+          },
+          {
+            "m": "f)",
+            "t": "sich die am TLPT beteiligten Parteien nach Möglichkeit nur mit Codenamen darauf beziehen."
+          }
+        ]
+      }
+    ]
+  },
+  "005.001": {
+    "h": "faea2f3c4cf9b142165811c1ce373c4d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Während der Vorbereitungsphase gemäß Artikel 9 bewertet das Kontrollteam die Risiken im Zusammenhang mit Tests der Live-Produktionssysteme kritischer oder wichtiger Funktionen des Finanzunternehmens, einschließlich möglicher Auswirkungen auf"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "den Finanzsektor,"
+          },
+          {
+            "m": "b)",
+            "t": "die Finanzstabilität auf Unions- oder nationaler Ebene."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Das Kontrollteam überprüft diese Auswirkungen während des gesamten Tests."
+      }
+    ]
+  },
+  "005.002": {
+    "h": "21564d8d92347e363b658930d4e4e90e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Zwecke der Risikobewertung und des Risikomanagements berücksichtigt das Kontrollteam mindestens die folgenden Arten von Risiken in Verbindung mit"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "der Gewährung des Zugangs zu sensiblen Informationen über das Finanzunternehmen für die Anbieter von Bedrohungsanalysen und gegebenenfalls externe Tester,"
+          },
+          {
+            "m": "b)",
+            "t": "der unzureichenden Einhaltung der Verordnung (EU) 2022/2554 und der vorliegenden Verordnung bei der Durchführung des TLPT, wenn diese unzureichende Einhaltung dazu führt, dass die in Artikel 26 Absatz 7 der Verordnung (EU) 2022/2554 genannte Bescheinigung nicht ausgestellt wird, auch wenn diese unzureichende Einhaltung auf Verletzungen der Vertraulichkeit des TLPT oder mangelndes ethisches Verhalten zurückzuführen ist,"
+          },
+          {
+            "m": "c)",
+            "t": "einer Eskalation in eine Krise oder einen Vorfall,"
+          },
+          {
+            "m": "d)",
+            "t": "der aktiven Red-Team-Phase, einschließlich der Risiken in Verbindung mit der Unterbrechung kritischer Tätigkeiten und der Datenkorruption aufgrund der Aktivitäten der Tester, und ihrer potenziellen Auswirkungen auf Dritte,"
+          },
+          {
+            "m": "e)",
+            "t": "der Aktivität des Blue Teams, einschließlich der Risiken in Verbindung mit der Unterbrechung kritischer Tätigkeiten und der Datenkorruption aufgrund der Aktivitäten des Blue Teams, und ihrer potenziellen Auswirkungen auf Dritte,"
+          },
+          {
+            "m": "f)",
+            "t": "der unvollständigen Wiederherstellung der vom TLPT betroffenen Systeme."
+          }
+        ]
+      }
+    ]
+  },
+  "006.001": {
+    "h": "0ce5e2d2deda5ae08c7f1649fc1da98b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Falle eines gemeinsamen TLPT oder eines gebündelten TLPT führt das Kontrollteam jedes Finanzunternehmens eine eigene Risikobewertung durch und legt seine eigenen Risikomanagementmaßnahmen fest."
+      }
+    ]
+  },
+  "006.002": {
+    "h": "8215c7009dc5eaacd0eac4ddaac41b82",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Kontrollteam des gemäß Artikel 16 Absatz 3 Buchstabe b dieser Verordnung benannten Finanzunternehmens oder das gemäß Artikel 26 Absatz 4 der Verordnung (EU) 2022/2554 benannte Finanzunternehmen bewertet die Risiken in Verbindung mit der Beteiligung mehrerer Finanzunternehmen an dem TLPT. Die Kontrollteams der beteiligten Finanzunternehmen arbeiten mit dem Kontrollteam des benannten Finanzunternehmens zusammen, um potenzielle gemeinsame Risiken zu ermitteln."
+      }
+    ]
+  },
+  "007.001": {
+    "h": "1b0e2f80805ec105f398b36aa19bcbf9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Kontrollteam ergreift Maßnahmen zur Steuerung der mit dem TLPT verbundenen Risiken und stellt insbesondere sicher, dass bei jedem TLPT"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "der Anbieter von Bedrohungsanalysen und externe Tester dem Kontrollteam einen ausführlichen Lebenslauf und Kopien von Bescheinigungen vorlegen, die nach anerkannten Marktstandards eine geeignete Grundlage für die Durchführung ihrer Tätigkeiten sind,"
+          },
+          {
+            "m": "b)",
+            "t": "der Anbieter von Bedrohungsanalysen und externe Tester ordnungsgemäß und vollständig durch einschlägige Berufshaftpflichtversicherungen abgesichert sind, einschließlich einer Versicherung gegen das Risiko von Fehlverhalten und Fahrlässigkeit,"
+          },
+          {
+            "m": "c)",
+            "t": "der Anbieter von Bedrohungsanalyen mindestens drei Referenzen aus früheren Aufträgen im Zusammenhang mit Penetrationstests und Red-Team-Testing vorlegt,"
+          },
+          {
+            "m": "d)",
+            "t": "die externen Tester mindestens fünf Referenzen aus früheren Aufträgen im Zusammenhang mit Penetrationstests und Red-Team-Testing vorlegen,"
+          },
+          {
+            "m": "e)",
+            "t": "die dem TLPT zugewiesenen Mitarbeiter des Anbieters von Bedrohungsanalysen",
+            "u": [
+              {
+                "m": "i)",
+                "t": "aus mindestens einer Führungskraft mit mindestens fünf Jahren Erfahrung im Bereich der Bedrohungsanalyse und mindestens einem weiteren Mitglied mit mindestens zwei Jahren Erfahrung im Bereich der Bedrohungsanalyse besteht,"
+              },
+              {
+                "m": "ii)",
+                "t": "ein breites und angemessenes Niveau an Fachkenntnissen und beruflichen Qualifikationen aufweist, darunter",
+                "u": [
+                  {
+                    "m": "1.",
+                    "t": "Kenntnis der Taktiken, Techniken und Verfahren zur Informationsgewinnung,"
+                  },
+                  {
+                    "m": "2.",
+                    "t": "geopolitisches, technisches und sektorbezogenes Wissen,"
+                  },
+                  {
+                    "m": "3.",
+                    "t": "angemessene Kommunikationsfähigkeiten, um das Ergebnis des Arbeitsauftrags klar darzulegen und darüber Bericht zu erstatten,"
+                  }
+                ]
+              },
+              {
+                "m": "iii)",
+                "t": "in der Vergangenheit an insgesamt mindestens drei Arbeitsaufträgen im Bereich der Bedrohungsanalyse im Zusammenhang mit Penetrationstests und Red-Team-Tests beteiligt war,"
+              },
+              {
+                "m": "iv)",
+                "t": "nicht gleichzeitig Blue-Team-Aufgaben oder andere Dienstleistungen ausführt, die einen Interessenkonflikt hinsichtlich des an dem TLPT, dem sie zugewiesen sind, beteiligten Finanzunternehmens, IKT-Drittdienstleisters oder gruppeninternen IKT-Dienstleisters darstellen könnten,"
+              },
+              {
+                "m": "v)",
+                "t": "von Mitarbeitern desselben TLPT-Anbieters, der externe Tester für denselben TLPT bereitstellt, getrennt ist und diesen nicht Bericht erstattet,"
+              }
+            ]
+          },
+          {
+            "m": "f)",
+            "t": "bei externen Testern das dem TLPT zugewiesene Red Team",
+            "u": [
+              {
+                "m": "i)",
+                "t": "aus mindestens einer Führungskraft mit mindestens fünf Jahren Erfahrung mit Penetrationstests und Red-Team-Tests sowie mindestens zwei weiteren Testern, die jeweils mindestens zwei Jahre Erfahrung mit Penetrationstests und Red-Team-Tests haben, besteht,"
+              },
+              {
+                "m": "ii)",
+                "t": "ein breites und angemessenes Niveau an Fachkenntnissen und beruflichen Qualifikationen aufweist, darunter Kenntnisse über die Geschäftstätigkeit des Finanzunternehmens, Auskundschaftung, Risikomanagement, Exploit-Entwicklung, physische Penetration, Social Engineering und Schwachstellenanalyse, und angemessene Kommunikationsfähigkeiten besitzt, um das Ergebnis des Arbeitsauftrags klar darzulegen und darüber Bericht zu erstatten,"
+              },
+              {
+                "m": "iii)",
+                "t": "in der Vergangenheit an insgesamt mindestens fünf Arbeitsaufträgen im Zusammenhang mit Penetrationstests und Red-Team-Tests beteiligt war,"
+              },
+              {
+                "m": "iv)",
+                "t": "weder bei einem Anbieter von Bedrohungsanalysen, der gleichzeitig Blue-Team-Aufgaben für ein an dem TLPT beteiligtes Finanzunternehmen, einen IKT-Drittdienstleister oder einen gruppeninternen IKT-Dienstleister wahrnimmt, beschäftigt ist noch Dienstleistungen für einen solchen Anbieter erbringt,"
+              },
+              {
+                "m": "v)",
+                "t": "von Mitarbeitern desselben TLPT-Anbieters getrennt ist, der gleichzeitig Bedrohungsanalyse-Dienstleistungen für denselben TLPT erbringt,"
+              }
+            ]
+          },
+          {
+            "m": "g)",
+            "t": "die Tester und der Anbieter von Bedrohungsanalysen am Ende der Tests Wiederherstellungsverfahren durchführen, einschließlich der sicheren Löschung von Informationen im Zusammenhang mit Passwörtern, Zugangsdaten und anderen geheimen Schlüsseln, die während des TLPT kompromittiert wurden, der sicheren Kommunikation mit den Finanzunternehmen über die kompromittierten Konten, der sicheren Erfassung, Speicherung, Verwaltung und Vernichtung anderer während der Tests erhobener Daten,"
+          },
+          {
+            "m": "h)",
+            "t": "die Tester zusätzlich zu den Wiederherstellungsverfahren am Ende der Tests gemäß Buchstabe g die folgenden Wiederherstellungsverfahren durchführen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Deaktivierung von Command-and-Control-Diensten,"
+              },
+              {
+                "m": "ii)",
+                "t": "Kill Switches für Umfang und Datum,"
+              },
+              {
+                "m": "iii)",
+                "t": "Entfernung von Hintertüren und anderer Schadsoftware,"
+              },
+              {
+                "m": "iv)",
+                "t": "Meldung möglicher Sicherheitsverletzungen,"
+              },
+              {
+                "m": "v)",
+                "t": "Verfahren für die künftige Backup-Wiederherstellung, die während des Tests installierte Schadsoftware oder Tools betreffen können,"
+              },
+              {
+                "m": "vi)",
+                "t": "Überwachung der Aktivitäten des Blue Teams und Unterrichtung des Kontrollteams, wenn der Test aufgedeckt wird,"
+              }
+            ]
+          },
+          {
+            "m": "i)",
+            "t": "die Tester und der Anbieter von Bedrohungsanalysen keine der folgenden Aktivitäten durchführen oder sich daran beteiligen:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "unbefugte Zerstörung von Ausrüstung des Finanzunternehmens und gegebenenfalls seiner IKT-Drittdienstleister,"
+              },
+              {
+                "m": "ii)",
+                "t": "unkontrollierte Veränderung der Informationen und IKT-Ressourcen des Finanzunternehmens und gegebenenfalls seiner IKT-Drittdienstleister,"
+              },
+              {
+                "m": "iii)",
+                "t": "vorsätzliche Gefährdung der Kontinuität kritischer oder wichtiger Funktionen des Finanzunternehmens,"
+              },
+              {
+                "m": "iv)",
+                "t": "unbefugte Einbeziehung von Systemen, die nicht in den Anwendungsbereich fallen,"
+              },
+              {
+                "m": "v)",
+                "t": "unbefugte Offenlegung der Testergebnisse."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "007.002": {
+    "h": "81dd236499bb42e640bf80422fc522a7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Kontrollteam führt Aufzeichnungen über die von den Testern und den Anbietern von Bedrohungsanalysen zum Nachweis der Einhaltung von Absatz 1 Buchstaben a bis f bereitgestellten Dokumente."
+      },
+      {
+        "art": "p",
+        "t": "In Ausnahmefällen können Finanzunternehmen externe Tester und Anbieter von Bedrohungsanalysen beauftragen, die eine oder mehrere der in Absatz 1 Buchstaben a bis f genannten Anforderungen nicht erfüllen, sofern diese Finanzunternehmen geeignete Maßnahmen ergreifen, um die Risiken in Verbindung mit der Nichteinhaltung dieser Buchstaben zu mindern, und über diese Maßnahmen Aufzeichnungen führen."
+      }
+    ]
+  },
+  "008.001": {
+    "h": "f52591cc1a3eff63d8c1e8e479c5cc73",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sofern die federführende TLPT-Behörde nichts anderes beschließt, führt jedes Finanzunternehmen für den Fall, dass mehrere gemäß Artikel 16 Absätze 2 oder 4 ermittelte Finanzunternehmen an einem gebündelten oder gemeinsamen TLPT beteiligt sind, jeden der in den Artikeln 9 bis 15 genannten Schritte aus."
+      }
+    ]
+  },
+  "008.002": {
+    "h": "7b059111a36c8addee1d56cd3454b273",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sofern in dieser Verordnung nichts anderes bestimmt ist, sind für den Fall, dass mehrere TLPT-Behörden an einem gemeinsamen TLPT oder einem gebündelten TLPT gemäß Artikel 16 Absatz 3 oder Artikel 16 Absatz 5 beteiligt sind, Bezugnahmen auf „TLPT-Behörde“ in den Artikeln 9 bis 15 als Bezugnahme auf die federführende TLPT-Behörde für einen solchen gebündelten oder gemeinsamen TLPT zu verstehen."
+      }
+    ]
+  },
+  "009.001": {
+    "h": "81cde7a0a65941ebbe8db23a96b4ece3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein nach Artikel 26 Absatz 8 Unterabsatz 3 der Verordnung (EU) 2022/2554 bestimmtes Finanzunternehmen leitet einen TLPT ein, nachdem es von der TLPT-Behörde eine Aufforderung zur Durchführung eines TLPT erhalten hat."
+      }
+    ]
+  },
+  "009.002": {
+    "h": "89e6aa1530b037e104b60454875e549c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Finanzunternehmen übermittelt den Testmanagern innerhalb von drei Monaten nach Erhalt der in Absatz 1 genannten Aufforderung alle folgenden Informationen über die Einleitung des TLPT:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Projektcharta mit einem übergeordneten Projektplan, der die in Anhang I aufgeführten Angaben enthält,"
+          },
+          {
+            "m": "b)",
+            "t": "Kontaktdaten des Leiters des Kontrollteams,"
+          },
+          {
+            "m": "c)",
+            "t": "Informationen über den beabsichtigten Einsatz interner oder externer Tester oder beidem, wie in Artikel 15 dargelegt,"
+          },
+          {
+            "m": "d)",
+            "t": "Angaben zu den Kommunikationskanälen, die während des TLPT genutzt werden sollen,"
+          },
+          {
+            "m": "e)",
+            "t": "Codename für den TLPT."
+          }
+        ]
+      }
+    ]
+  },
+  "009.003": {
+    "h": "a3805f3f23b7dac4bd486077708f88e7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sind die in Absatz 2 Buchstaben a bis e genannten Informationen vollständig und stellen die Angemessenheit und wirksame Durchführung des TLPT sicher, so validiert die TLPT-Behörde die vom Finanzunternehmen vorgelegten Informationen, die die Einleitung des TLPT betreffen, und unterrichtet das Finanzunternehmen über die Validierung."
+      }
+    ]
+  },
+  "009.004": {
+    "h": "ffa8ef16977113db1649065ae11f1ed4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach der Validierung der Informationen über die Einleitung des TLPT durch die TLPT-Behörde richtet das Finanzunternehmen ein Kontrollteam ein, das den Leiter des Kontrollteams bei seinen folgenden Aufgaben unterstützt:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Festlegung von Kommunikationskanälen und -prozessen innerhalb des Kontrollteams, mit den Testern und den Anbietern von Bedrohungsanalysen in allen mit dem TLPT verbundenen Belangen,"
+          },
+          {
+            "m": "b)",
+            "t": "Unterrichtung des Leitungsorgans des Finanzunternehmens über den Fortgang des TLPT und die damit verbundenen Risiken,"
+          },
+          {
+            "m": "c)",
+            "t": "Entscheidungsfindung auf der Grundlage von Fachkompetenz während des gesamten TLPT,"
+          },
+          {
+            "m": "d)",
+            "t": "Durchführung des TLPT im Einklang mit dieser Verordnung,"
+          },
+          {
+            "m": "e)",
+            "t": "Auswahl des Anbieters von Bedrohungsanalysen für den TLPT,"
+          },
+          {
+            "m": "f)",
+            "t": "Auswahl der externen Tester, der internen Tester oder beidem,"
+          },
+          {
+            "m": "g)",
+            "t": "Ausarbeitung des Scoping-Dokuments zur Festlegung des Testumfangs."
+          }
+        ]
+      }
+    ]
+  },
+  "009.005": {
+    "h": "aafd2271e3f7de5d5bdae018e3d2e79b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ist die TLPT-Behörde der Auffassung, dass die anfängliche Zusammensetzung des Kontrollteams und etwaige spätere Änderungen der Zusammensetzung für die Erfüllung der in Absatz 4 genannten Aufgaben angemessen sind, so validiert die TLPT-Behörde das Kontrollteam und unterrichtet den Leiter des Kontrollteams über diese Validierung."
+      }
+    ]
+  },
+  "009.006": {
+    "h": "a7105b0ff410133464a4ddc2912ef9f7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Finanzunternehmen legt den Testleitern innerhalb von sechs Monaten nach Eingang der Unterrichtung der TLPT-Behörde gemäß Absatz 1 ein Dokument zur Beschreibung des Testumfangs mit allen in Anhang II aufgeführten Informationen vor. Das Leitungsorgan des Finanzunternehmens genehmigt das Scoping-Dokument."
+      }
+    ]
+  },
+  "009.007": {
+    "h": "f34fd65bfa8b6b108f20d0c6d8d58c9a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen berücksichtigen bei der Einbeziehung kritischer oder wichtiger Funktionen in den Anwendungsbereich des TLPT die folgenden Kriterien:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Kritikalität oder Bedeutung der Funktion und ihre möglichen Auswirkungen auf den Finanzsektor und die Finanzstabilität auf Unions- und nationaler Ebene,"
+          },
+          {
+            "m": "b)",
+            "t": "Bedeutung der Funktion für den laufenden Geschäftsbetrieb des Finanzunternehmens,"
+          },
+          {
+            "m": "c)",
+            "t": "Austauschbarkeit der Funktion,"
+          },
+          {
+            "m": "d)",
+            "t": "Verflechtung mit anderen Funktionen,"
+          },
+          {
+            "m": "e)",
+            "t": "geografischer Standort der Funktion,"
+          },
+          {
+            "m": "f)",
+            "t": "sektorale Abhängigkeit anderer Unternehmen von der Funktion,"
+          },
+          {
+            "m": "g)",
+            "t": "Bedrohungsanalysen in Bezug auf die Funktion, soweit vorhanden."
+          }
+        ]
+      }
+    ]
+  },
+  "009.008": {
+    "h": "63f3085b387c8c77f70de3912a4bf751",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Kontrollteam legt die Informationen über die Einleitung des TLPT und das Scoping-Dokument den Testern und Anbietern von Bedrohungsanalysen vor, sobald diese beauftragt wurden. Das Kontrollteam informiert die Tester und Anbieter von Bedrohungsanalysen über das anzuwendende Testverfahren."
+      }
+    ]
+  },
+  "009.009": {
+    "h": "5129e3a77c3976277fd62c5daabec5fb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Finanzunternehmen stellt sicher, dass die Beauftragung oder Zuweisung von Testern und Anbietern von Bedrohungsanalysen vor Beginn der Testphase abgeschlossen ist."
+      }
+    ]
+  },
+  "009.010": {
+    "h": "ab150023123cd523bba3e9255e895c82",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vor Einleitung der Testphase konsultiert das Kontrollteam die Testmanager zur TLPT-bezogenen Risikobewertung und zu den Risikomanagementmaßnahmen. Das Kontrollteam überprüft die Risikobewertung bzw. die Risikomanagementmaßnahmen, wenn die TLPT-Behörde der Auffassung ist, dass sie den mit dem TLPT verbundenen Risiken nicht angemessen Rechnung tragen."
+      }
+    ]
+  },
+  "009.011": {
+    "h": "2f94afe6a9e3b6909f62d2721b641419",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Kontrollteam bewertet die Einhaltung der Anforderungen des Artikels 27 der Verordnung (EU) 2022/2554 und des Artikels 7 Absatz 1 der vorliegenden Verordnung durch die Anbieter von Bedrohungsanalysen und Tester, die es in den TLPT einbeziehen möchte, und dokumentiert das Ergebnis dieser Bewertung. Das Kontrollteam wählt die Anbieter von Bedrohungsanalysen nach Maßgabe dieser Bewertung und seiner Risikomanagementpraktiken aus. Vor der Beauftragung der ausgewählten Anbieter von Bedrohungsanalysen und externen Tester legt das Kontrollteam den Testmanagern Nachweise vor, dass diese Anbieter und Tester die Anforderungen des Artikels 27 der Verordnung (EU) 2022/2554 und des Artikels 7 Absatz 1 der vorliegenden Verordnung erfüllen. Das Kontrollteam darf die ausgewählten Anbieter von Bedrohungsanalysen und externen Tester nicht beauftragen, wenn die TLPT-Behörde der Auffassung ist, dass die ausgewählten Anbieter von Bedrohungsanalysen und externen Tester die Anforderungen des Artikels 27 der Verordnung (EU) 2022/2554 oder die in Artikel 7 Absatz 1 der vorliegenden Verordnung festgelegten Anforderungen oder zusätzliche Anforderungen, die sich aus einzelstaatlichen Rechtsvorschriften über die Sicherheit im Einklang mit dem Unionsrecht ergeben, nicht erfüllen, oder wenn das Finanzunternehmen die Anforderungen des Artikels 7 Absatz 2 Unterabsatz 1 der vorliegenden Verordnung nicht erfüllt oder wenn die in Artikel 7 Absatz 2 Unterabsatz 2 der vorliegenden Verordnung genannten Voraussetzungen nicht gegeben sind."
+      }
+    ]
+  },
+  "009.012": {
+    "h": "e1680a7a451cabd6ac9e1712f57f2270",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ist das Scoping-Dokument vollständig und gewährleistet die Durchführung eines angemessenen und wirksamen TLPT, so genehmigt die TLPT-Behörde dieses Dokument und unterrichtet den Leiter des Kontrollteams darüber."
+      }
+    ]
+  },
+  "010.001": {
+    "h": "15f31c8456bf3b0b7c54c4ece5f1d411",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach Genehmigung des Scoping-Dokuments durch die TLPT-Behörde analysiert der Anbieter von Bedrohungsanalysen allgemeine und sektorspezifische Informationen über Bedrohungen, die für das Finanzunternehmen relevant sind. Hat die TLPT-Behörde für den Finanzsektor eines Mitgliedstaats Informationen über die allgemeine Bedrohungslage bereitgestellt, so kann der Anbieter von Bedrohungsanalysen diese Informationen als Grundlage für die nationale Bedrohungslage verwenden. Der Anbieter von Bedrohungsanalysen ermittelt Cyberbedrohungen sowie bestehende oder potenzielle Schwachstellen in Bezug auf das Finanzunternehmen. Darüber hinaus sammelt der Anbieter von Bedrohungsanalysen Informationen über das Finanzunternehmen und analysiert konkrete, verwertbare und kontextbezogene Informationen zu möglichen Angriffszielen und Bedrohungen betreffend das Finanzunternehmen, unter anderem durch Konsultation des Kontrollteams und der Testmanager."
+      }
+    ]
+  },
+  "010.002": {
+    "h": "2a96ea0067efb330aa6314e2a5660547",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Anbieter von Bedrohungsanalysen legt dem Kontrollteam, den Testern und den Testmanagern die relevanten Bedrohungen und spezifische Bedrohungsinformationen dar und schlägt die erforderlichen Szenarien vor. Die vorgeschlagenen Szenarien sollen sich abhängig von den ermittelten Angreifern und den entsprechenden Taktiken, Techniken und Verfahren unterscheiden und auf jede kritische oder wichtige Funktion im Anwendungsbereich des TLPT abzielen."
+      }
+    ]
+  },
+  "010.003": {
+    "h": "c5f44cc4343f5916d1699db4db5a21a5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Leiter des Kontrollteams wählt mindestens drei Szenarien für die Durchführung des TLPT aus und berücksichtigt dabei alle folgenden Elemente:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Empfehlung des Anbieters von Bedrohungsanalysen und bedrohungsorientierter Charakter jedes Szenarios,"
+          },
+          {
+            "m": "b)",
+            "t": "Beiträge der Testmanager,"
+          },
+          {
+            "m": "c)",
+            "t": "Durchführbarkeit der vorgeschlagenen Szenarien auf der Grundlage der Experteneinschätzung der Tester,"
+          },
+          {
+            "m": "d)",
+            "t": "Größe, Komplexität und Gesamtrisikoprofil des Finanzunternehmens sowie Art, Umfang und Komplexität seiner Dienstleistungen, Tätigkeiten und Geschäftsprozesse."
+          }
+        ]
+      }
+    ]
+  },
+  "010.004": {
+    "h": "4b6ea992f4c17564c1442f7726802f91",
+    "b": [
+      {
+        "art": "p",
+        "t": "Höchstens eines der ausgewählten Szenarien darf nicht bedrohungsorientiert sein und kann auf einer zukunftsorientierten und potenziell fiktiven Bedrohung mit hohem prädiktivem, antizipativem, opportunistischem oder prospektivem Wert angesichts der erwarteten Entwicklungen der Bedrohungslage für das Finanzunternehmen beruhen."
+      },
+      {
+        "art": "p",
+        "t": "Bei gebündelten TLPT umfasst unbeschadet der Szenarien, die direkt auf die kritischen oder wichtigen Funktionen der an dem Test beteiligten Finanzunternehmen ausgerichtet sind, mindestens ein Szenario die einschlägigen zugrunde liegenden IKT-Systeme, -Prozesse und -Technologien des IKT-Drittdienstleisters, die die kritischen oder wichtigen Funktionen der in den Anwendungsbereich fallenden Finanzunternehmen unterstützen."
+      },
+      {
+        "art": "p",
+        "t": "Handelt es sich bei dem Test um einen gemeinsamen TLPT, an dem ein gruppeninterner IKT-Dienstleister beteiligt ist, umfasst unbeschadet der Szenarien, die direkt auf die kritischen oder wichtigen Funktionen der an dem Test beteiligten Finanzunternehmen ausgerichtet sind, mindestens ein Szenario die einschlägigen zugrunde liegenden IKT-Systeme, -Prozesse und -Technologien des gruppeninternen IKT-Dienstleiters, die die kritischen oder wichtigen Funktionen der in den Anwendungsbereich fallenden Finanzunternehmen unterstützen."
+      }
+    ]
+  },
+  "010.005": {
+    "h": "76b31d70aeb8a858f925199d9e4e2848",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bedrohungsanalysebericht, in dem die gemäß den Absätzen 3 und 4 ausgewählten Szenarien berücksichtigt sind. Der Bedrohungsanalysebericht enthält die in Anhang III aufgeführten Informationen."
+      }
+    ]
+  },
+  "010.006": {
+    "h": "77a123bf3a79afe16c4e462094023b1e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Kontrollteam legt dem Testmanager den spezifischen Bedrohungsanalysebericht zur Genehmigung vor. Ist der spezifische Bedrohungsanalysebericht vollständig und gewährleistet die Durchführung eines wirksamen TLPT, so genehmigt die TLPT-Behörde diesen Bericht und unterrichtet den Leiter des Kontrollteams darüber."
+      }
+    ]
+  },
+  "011.001": {
+    "h": "a9a84c21d886dfb9d467ce2ae0de727e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach Genehmigung des spezifischen Bedrohungsanalyseberichts durch die TLPT-Behörde arbeiten die Tester den Red-Team-Testplan aus, der die in Anhang IV aufgeführten Informationen enthält. Die Tester verwenden als Grundlage für die Entwicklung der Angriffsszenarien das Scoping-Dokument und den spezifischen Bedrohungsanalysebericht."
+      }
+    ]
+  },
+  "011.002": {
+    "h": "602e7bce19e7171d27b65554f8ee8e5f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Tester konsultieren das Kontrollteam, den Anbieter von Bedrohungsanalysen und die Testmanager zu dem Red-Team-Testplan, einschließlich der Kommunikations-, Verfahrens- und Projektmanagementmodalitäten, der vorbereitenden Maßnahmen und Anwendungsfälle für die Aktivierung der Hilfestellungen sowie der Modalitäten für die Berichterstattung an das Kontrollteam und die Testmanager."
+      }
+    ]
+  },
+  "011.003": {
+    "h": "8e4d23430a65d96f73fc2935bbad2dc0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ist der Red-Team-Testplan vollständig und gewährleistet die Durchführung eines wirksamen TLPT, so genehmigen das Kontrollteam und die TLPT-Behörde den Plan und die TLPT-Behörde unterrichtet den Leiter des Kontrollteams darüber."
+      }
+    ]
+  },
+  "011.004": {
+    "h": "fe99e68fad4fd1289b7a3062ec44650b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach Genehmigung des Red-Team-Testplans gemäß Absatz 3 führen die Tester den TLPT während der aktiven Red-Team-Testphase durch."
+      }
+    ]
+  },
+  "011.005": {
+    "h": "af2b448637d8b82e428dbe909c9a6acb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Dauer der aktiven Red-Team-Testphase steht in einem angemessenen Verhältnis zum Umfang des TLPT sowie zur Größe, Tätigkeit, Komplexität und Anzahl der am TLPT beteiligten Finanzunternehmen und IKT-Drittdienstleister oder gruppeninternen IKT-Dienstleister und beträgt in jedem Fall mindestens zwölf Wochen. Angriffsszenarien können nacheinander oder gleichzeitig durchgeführt werden. Das Kontrollteam, der Anbieter von Bedrohungsanalysen, die Tester und die Testmanager einigen sich auf das Ende der aktiven Red-Team-Testphase."
+      }
+    ]
+  },
+  "011.006": {
+    "h": "f46e0adebbb9f2a8852cde5cb7223de1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sofern die Vollständigkeit des Red-Team-Testplans weiterhin gewährleistet ist und die Durchführung eines wirksamen TLPT möglich ist, genehmigen der Leiter des Kontrollteams und die Testmanager etwaige Änderungen des Red-Team-Testplans nach dessen Genehmigung, die sich auf den Zeitplan, den Umfang, die anzugreifenden Ziele oder die Flags beziehen können."
+      }
+    ]
+  },
+  "011.007": {
+    "h": "5755ec8b2e9ec91fbc991e567bbe72c1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Während der gesamten aktiven Red-Team-Testphase erstatten die Tester dem Kontrollteam und den Testmanagern mindestens wöchentlich über den Fortgang des TLPT Bericht, und der Anbieter von Bedrohungsanalysen steht dem Kontrollteam auf Anfrage für Konsultationen und zusätzliche Bedrohungsanalysen zur Verfügung."
+      }
+    ]
+  },
+  "011.008": {
+    "h": "da59e9936d1e86bcabff400919c86d86",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Kontrollteam leistet rechtzeitig die auf der Grundlage des Red-Team-Testplans ausgearbeiteten Hilfestellungen. Nach Genehmigung durch das Kontrollteam und die Testmanager können Hilfestellungen hinzugefügt oder angepasst werden."
+      }
+    ]
+  },
+  "011.009": {
+    "h": "ac08ac12b784b85fe6451de784efa187",
+    "b": [
+      {
+        "art": "p",
+        "t": "Werden die Testaktivitäten von einem Mitarbeiter des Finanzunternehmens oder gegebenenfalls seines IKT-Drittdienstleisters oder eines gruppeninternen IKT-Dienstleisters aufgedeckt, so schlägt das Kontrollteam den Testmanagern in Absprache mit den Testern und unbeschadet des Absatzes 10 Maßnahmen vor, die es ermöglichen, den TLPT fortzusetzen und gleichzeitig die Geheimhaltung zu wahren; diese Vorschläge werden von den Testmanagern validiert."
+      }
+    ]
+  },
+  "011.010": {
+    "h": "74934bf6440d21d50a21fedcb690877c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unter außergewöhnlichen Umständen, die das Risiko von Auswirkungen auf Daten, Schäden an Vermögenswerten und Störungen kritischer oder wichtiger Funktionen, Dienste oder Tätigkeiten des Finanzunternehmens selbst, seiner IKT-Drittdienstleister oder gruppeninternen IKT-Dienstleister oder Störungen bei seinen Gegenparteien oder im Finanzsektor hervorrufen, kann der Leiter des Kontrollteams den TLPT aussetzen oder als letztes Mittel, wenn die Fortsetzung des TLPT nicht anderweitig möglich ist und vorbehaltlich der vorherigen Validierung durch die TLPT-Behörde, den TLPT mit einer begrenzten Purple-Teaming-Übung fortführen. Die Dauer der begrenzten Purple-Teaming-Übung wird auf die Mindestdauer der aktiven Red-Team-Testphase von zwölf Wochen gemäß Absatz 5 angerechnet."
+      }
+    ]
+  },
+  "012.001": {
+    "h": "16fbe907cd97f6b980033b4bb182c6a9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach dem Ende der aktiven Red-Team-Testphase teilt der Leiter des Kontrollteams dem Blue Team mit, dass ein TLPT stattgefunden hat."
+      }
+    ]
+  },
+  "012.002": {
+    "h": "bf361a299fa791643f56f60051d0fe0b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Innerhalb von vier Wochen nach dem Ende der aktiven Red-Team-Testphase legen die Tester dem Kontrollteam einen Red-Team-Testbericht vor, der die in Anhang V aufgeführten Informationen enthält."
+      }
+    ]
+  },
+  "012.003": {
+    "h": "775f7bf6fee330158d3fbaec7f7e4378",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Kontrollteam legt den Red-Team-Testbericht umgehend dem Blue Team und den Testmanagern vor."
+      },
+      {
+        "art": "p",
+        "t": "Sofern von den Testmanagern verlangt, darf der in Unterabsatz 1 genannte Bericht keine sensiblen Informationen enthalten."
+      }
+    ]
+  },
+  "012.004": {
+    "h": "ad89706a27e2e0940a8bfcb5d34e5cf2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach Eingang des Red-Team-Testberichts, spätestens jedoch zehn Wochen nach dem Ende der aktiven Red-Team-Testphase, legt das Blue Team dem Kontrollteam einen Blue-Team- Testbericht vor, der die in Anhang VI aufgeführten Informationen enthält. Das Kontrollteam legt den Blue-Team-Testbericht umgehend den Testern und den Testmanagern vor."
+      },
+      {
+        "art": "p",
+        "t": "Sofern von den Testmanagern verlangt, darf der in Unterabsatz 1 genannte Bericht keine sensiblen Informationen enthalten."
+      }
+    ]
+  },
+  "012.005": {
+    "h": "d83788b4b075a52aa6409497dbab445c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Spätestens zehn Wochen nach dem Ende der aktiven Red-Team-Testphase wiederholen das Blue Team und die Tester die während des TLPT vorgenommenen offensiven und defensiven Handlungen. Das Kontrollteam führt zudem Purple-Teaming-Übungen zu Themen durch, die vom Blue Team und den Testern gemeinsam auf der Grundlage der während des Tests festgestellten Schwachstellen ermittelt wurden, und gegebenenfalls zu Fragen, die während der aktiven Red-Team-Testphase nicht getestet werden konnten."
+      }
+    ]
+  },
+  "012.006": {
+    "h": "553e4a0df18b989c30f41b957776e3ea",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach Abschluss der Wiederholungsaktivitäten und der Purple-Teaming-Übungen geben das Kontrollteam, das Blue Team, die Tester und die Anbieter von Bedrohungsanalysen einander Rückmeldungen zu dem TLPT-Verfahren. Die Testmanager können Rückmeldungen geben."
+      }
+    ]
+  },
+  "012.007": {
+    "h": "8135cf3c069d880b9e930da128e3fc28",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sobald die TLPT-Behörde den Leiter des Kontrollteams darüber unterrichtet hat, dass der Blue-Team-Testbericht und der Red-Team-Testbericht ihrer Bewertung zufolge die in den Anhängen V und VI aufgeführten Informationen enthalten, legt das Finanzunternehmen der TLPT-Behörde gemäß Artikel 26 Absatz 6 der Verordnung (EU) 2022/2554 innerhalb von acht Wochen den Bericht mit einer Zusammenfassung der maßgeblichen Ergebnisse des TLPT, der die in Anhang VII aufgeführten Angaben enthält, zur Genehmigung vor."
+      },
+      {
+        "art": "p",
+        "t": "Sofern von der TLPT-Behörde verlangt, darf der in Unterabsatz 1 genannte Bericht keine sensiblen Informationen enthalten."
+      }
+    ]
+  },
+  "013.001": {
+    "h": "a83c6bf7dec5082c6379e85fdc0cfeba",
+    "b": [
+      {
+        "art": "p",
+        "t": "Innerhalb von acht Wochen nach der in Artikel 12 Absatz 7 der vorliegenden Verordnung genannten Unterrichtung legt das Finanzunternehmen der TLPT-Behörde und — sofern es sich nicht um dieselbe Behörde handelt — der für das Finanzunternehmen zuständigen Behörde die in Artikel 26 Absatz 6 der Verordnung (EU) 2022/2554 genannten Pläne mit Abhilfemaßnahmen und Dokumente vor."
+      }
+    ]
+  },
+  "013.002": {
+    "h": "97414bfdebf0857f9f16f5629a58ab97",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der in Absatz 1 genannte Plan mit Abhilfemaßnahmen enthält für jedes Ergebnis im Rahmen des TLPT Folgendes:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Beschreibung der festgestellten Mängel,"
+          },
+          {
+            "m": "b)",
+            "t": "Beschreibung der vorgeschlagenen Abhilfemaßnahmen, ihrer Priorisierung und ihres voraussichtlichen Abschlusses, gegebenenfalls einschließlich Maßnahmen zur Verbesserung der Identifizierungs-, Schutz-, Erkennungs- und Reaktionsfähigkeiten,"
+          },
+          {
+            "m": "c)",
+            "t": "Ursachenanalyse,"
+          },
+          {
+            "m": "d)",
+            "t": "Mitarbeiter oder Funktionen des Finanzunternehmens, die für die Umsetzung der vorgeschlagenen Abhilfemaßnahmen oder Verbesserungen verantwortlich sind,"
+          },
+          {
+            "m": "e)",
+            "t": "Risiken in Verbindung mit einer ausbleibenden Umsetzung der unter Buchstabe b genannten Maßnahmen und gegebenenfalls die mit der Umsetzung dieser Maßnahmen verbundenen Risiken."
+          }
+        ]
+      }
+    ]
+  },
+  "014.001": {
+    "h": "dee88bf782f7f942125bdc089ab754f1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 26 Absatz 7 der Verordnung (EU) 2022/2554 genannte Bescheinigung muss die in Anhang VIII aufgeführten Angaben enthalten."
+      }
+    ]
+  },
+  "014.002": {
+    "h": "ee2d6331a9760619cf825b530f8115d9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wenn mehrere TLPT-Behörden an einem TLPT beteiligt waren, stellt die federführende TLPT-Behörde den getesteten Finanzunternehmen die in Artikel 26 Absatz 7 der Verordnung (EU) 2022/2554 genannte Bescheinigung aus."
+      }
+    ]
+  },
+  "015.001": {
+    "h": "d2f9988692248a11d31d9b4b098d9a6f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen treffen alle folgenden Vorkehrungen für den Einsatz interner Tester:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Festlegung und Umsetzung einer Strategie für das Management interner Tester bei einem TLPT,"
+          },
+          {
+            "m": "b)",
+            "t": "Maßnahmen, mit denen sichergestellt wird, dass sich der Einsatz interner Tester für die Durchführung eines TLPT nicht nachteilig auf die allgemeinen Verteidigungs- oder Resilienzfähigkeiten des Finanzunternehmens in Bezug auf IKT-bezogene Vorfälle auswirkt oder sich erheblich auf die Verfügbarkeit von Ressourcen auswirkt, die während eines TLPT für IKT-bezogene Aufgaben eingesetzt werden,"
+          },
+          {
+            "m": "c)",
+            "t": "Maßnahmen, mit denen sichergestellt wird, dass interne Tester über ausreichende Ressourcen und Fähigkeiten verfügen, um einen TLPT durchzuführen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Die unter Buchstabe a genannte Strategie muss"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Kriterien für die Beurteilung von Eignung, Kompetenz und potenziellen Interessenkonflikten der internen Tester enthalten und die Zuständigkeiten der Geschäftsleitung in dem Testverfahren enthalten,"
+          },
+          {
+            "m": "b)",
+            "t": "dokumentiert und regelmäßig überprüft werden,"
+          },
+          {
+            "m": "c)",
+            "t": "vorsehen, dass dem internen Testteam ein Testmanager und mindestens zwei zusätzliche Mitglieder angehören,"
+          },
+          {
+            "m": "d)",
+            "t": "verlangen, dass alle Mitglieder des Testteams in den vorangegangenen zwölf Monaten bei dem Finanzunternehmen oder einem gruppeninternen IKT-Dienstleister beschäftigt waren,"
+          },
+          {
+            "m": "e)",
+            "t": "Schulungen zur Durchführung von Penetrationstests und Red-Team-Tests für die internen Tester vorsehen."
+          }
+        ]
+      }
+    ]
+  },
+  "015.002": {
+    "h": "7570b175dd263b2e17fbb592b86c040e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wenn eine TLPT-Behörde den Einsatz interner Tester gemäß Artikel 27 Absatz 2 Buchstabe a der Verordnung (EU) 2022/2554 genehmigt, berücksichtigt die TLPT-Behörde die in Artikel 7 Absatz 1 der vorliegenden Verordnung festgelegten Anforderungen."
+      }
+    ]
+  },
+  "015.003": {
+    "h": "249295bbb8e1b1fef7ffa7f2e1ca9f0d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beim Einsatz interner Tester stellt das Finanzunternehmen sicher, dass in den folgenden Dokumenten darauf verwiesen wird:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Informationen über die Einleitung des Tests gemäß Artikel 9,"
+          },
+          {
+            "m": "b)",
+            "t": "Red-Team-Testbericht gemäß Artikel 12 Absatz 2,"
+          },
+          {
+            "m": "c)",
+            "t": "Bericht mit einer Zusammenfassung der maßgeblichen Ergebnisse des TLPT gemäß den Artikeln 26 Absatz 6 der Verordnung (EU) 2022/2554."
+          }
+        ]
+      }
+    ]
+  },
+  "015.004": {
+    "h": "2c589453b3fd5267b91ffb2bc9a5c5e2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Tester, die bei einem gruppeninternen IKT-Dienstleister beschäftigt sind, gelten als interne Tester des Finanzunternehmens."
+      }
+    ]
+  },
+  "016.001": {
+    "h": "dd5cc5a0ab934b8076cef7b7b4c823b7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Durchführung eines TLPT bei einem Finanzunternehmen, das Dienstleistungen in mehr als einem Mitgliedstaat, auch über eine Zweigniederlassung, erbringt, muss die jeweils zuständige TLPT-Behörde"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "bestimmen, welche TLPT-Behörden in den Aufnahmemitgliedstaaten beteiligt werden sollen; dabei ist zu berücksichtigen, ob eine oder mehrere kritische oder wichtige Funktionen in den Aufnahmemitgliedstaaten ausgeübt oder von diesen gemeinsam genutzt werden,"
+          },
+          {
+            "m": "b)",
+            "t": "die gemäß Buchstabe a bestimmten TLPT-Behörden über die Entscheidung, einen TLPT bei dem Finanzunternehmen durchzuführen, unterrichten,"
+          },
+          {
+            "m": "c)",
+            "t": "die Leitung des TLPT übernehmen, sofern die TLPT-Behörden nichts anderes vereinbaren."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Die TLPT-Behörden der Aufnahmemitgliedstaaten können innerhalb von zwanzig Arbeitstagen nach Erhalt der Informationen über die künftige Durchführung eines TLPT entweder ihr Interesse daran bekunden, den TLPT als Beobachter zu verfolgen, oder einen Testmanager benennen, der an dem TLPT teilnimmt. Die federführende TLPT-Behörde übermittelt allen TLPT-Behörden, die als Beobachter an dem TLPT teilnehmen, das Scoping-Dokument, den zusammenfassenden Testbericht, den Plan mit Abhilfemaßnahmen und die Bescheinigung."
+      },
+      {
+        "art": "p",
+        "t": "Die federführende TLPT-Behörde koordiniert alle teilnehmenden TLPT-Behörden während des gesamten Tests und trifft alle Entscheidungen, die für eine angemessene und wirksame Durchführung des TLPT erforderlich sind. Die federführende TLPT-Behörde kann festlegen, dass die Zahl der teilnehmenden TLPT-Behörden eine bestimmte Schwelle nicht übersteigen darf, wenn andernfalls die wirksame Durchführung des TLPT gefährdet werden könnte."
+      }
+    ]
+  },
+  "016.002": {
+    "h": "44da24956f276eaf901194614bb23799",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nimmt ein Finanzunternehmen denselben gruppeninternen IKT-Dienstleister in Anspruch wie Finanzunternehmen mit Sitz in anderen Mitgliedstaaten oder gehört es einer Gruppe an und nutzt IKT-Systeme gemeinsam mit Finanzunternehmen derselben Gruppe, die in anderen Mitgliedstaaten niedergelassen sind, so wendet sich die für das Finanzunternehmen zuständige TLPT-Behörde an die für die anderen Finanzunternehmen zuständigen TLPT-Behörden, die dieselben gruppeninternen IKT-Dienstleister in Anspruch nehmen oder IKT-Systeme als Teil der Gruppe gemeinsam nutzen, und bewertet gemeinsam mit diesen die Durchführbarkeit und Eignung eines gemeinsamen TLPT. Ein gemeinsamer TLPT ist einem Einzel-TLPT vorzuziehen, wenn dadurch bei den Finanzunternehmen und den TLPT-Behörden Kosten gesenkt und Ressourcen eingespart werden können, sofern die Belastbarkeit und Wirksamkeit der Tests nicht beeinträchtigt werden."
+      }
+    ]
+  },
+  "016.003": {
+    "h": "3e7053f05ca62726d9fca502d633d83e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Durchführung eines gemeinsamen TLPT gilt Folgendes:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Die für die Finanzunternehmen zuständigen TLPT-Behörden vereinbaren unter Berücksichtigung der Gruppenstruktur und der Wirksamkeit des Tests, welches Finanzunternehmen für die Durchführung des TLPT benannt wird."
+          },
+          {
+            "m": "b)",
+            "t": "Die für das gemäß Buchstabe a benannte Finanzunternehmen zuständige TLPT-Behörde leitet den TLPT, sofern die für die am gemeinsamen TLPT beteiligten Finanzunternehmen zuständigen TLPT-Behörden nichts anderes vereinbaren."
+          },
+          {
+            "m": "c)",
+            "t": "Die für die Finanzunternehmen, bei denen es sich nicht um das benannte Finanzunternehmen handelt, das den gemeinsamen TLPT leitet, zuständigen TLPT-Behörden können entweder ihr Interesse daran bekunden, den TLPT als Beobachter zu verfolgen, oder einen Testmanager für den betreffenden TLPT benennen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Die federführende TLPT-Behörde koordiniert alle am gemeinsamen TLPT beteiligten TLPT-Behörden und trifft alle Entscheidungen, die für eine belastbare und wirksame Durchführung des gemeinsamen TLPT erforderlich sind."
+      }
+    ]
+  },
+  "016.004": {
+    "h": "91ea373ad1911c2c990ce36b897aa1f5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beabsichtigt ein Finanzunternehmen, einen gebündelten TLPT gemäß Artikel 26 Absatz 4 der Verordnung (EU) 2022/2554 durchzuführen, an dem möglicherweise in anderen Mitgliedstaaten niedergelassene Finanzunternehmen beteiligt sind, so setzt sich seine TLPT-Behörde mit den für die anderen Finanzunternehmen zuständigen TLPT-Behörden in Verbindung und bewertet mit ihnen die Durchführbarkeit und Eignung eines gebündelten TLPT bei diesen Unternehmen gemäß Artikel 26 Absatz 4 der Verordnung (EU) 2022/2554."
+      }
+    ]
+  },
+  "016.005": {
+    "h": "66cdc8255b85df676a96efa0ba4569a3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Durchführung eines gebündelten TLPT gemäß Artikel 26 Absatz 4 der Verordnung (EU) 2022/2554"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "vereinbaren die für die Finanzunternehmen zuständigen TLPT-Behörden, welches Finanzunternehmen unter Berücksichtigung der IKT-Dienstleistungen, die der IKT-Drittdienstleister für die Finanzunternehmen erbringt, und der Wirksamkeit des Tests benannt wird, um den gebündelten TLPT durchzuführen,"
+          },
+          {
+            "m": "b)",
+            "t": "übernimmt die für das gemäß Buchstabe a benannte Finanzunternehmen zuständige TLPT-Behörde die Leitung für den TLPT, sofern die für die am gebündelten TLPT beteiligten Finanzunternehmen zuständigen TLPT-Behörden nichts anderes vereinbaren,"
+          },
+          {
+            "m": "c)",
+            "t": "können die für die Finanzunternehmen, bei denen es sich nicht um das benannte Finanzunternehmen handelt, das den gemeinsamen TLPT leitet, zuständigen TLPT-Behörden entweder ihr Interesse daran bekunden, den TLPT als Beobachter zu verfolgen, oder einen Testmanager für den betreffenden TLPT benennen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Die federführende TLPT-Behörde koordiniert alle am gebündelten TLPT beteiligten TLPT-Behörden und trifft alle Entscheidungen, die für eine belastbare und wirksame Durchführung des gebündelten TLPT erforderlich sind."
+      }
+    ]
+  },
+  "016.006": {
+    "h": "51bd3dea30949674eb3060a643595845",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unterscheidet sich die für ein Finanzunternehmen, das einen TLPT durchführen muss, zuständige TLPT-Behörde von der in Artikel 46 der Verordnung (EU) 2022/2554 genannten zuständigen Behörde, so teilen diese Behörden alle relevanten Informationen über alle mit dem TLPT verbundenen Angelegenheiten für die Zwecke der Durchführung des TLPT oder zur Wahrnehmung ihrer Aufgaben gemäß der genannten Verordnung mit."
+      }
+    ]
+  },
+  "art_1": {
+    "h": "9ba7701de87f9dc5a6b5bec04c7c6203",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Zwecke dieser Verordnung bezeichnet der Ausdruck:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "„Kontrollteam“ das Team, das sich aus Mitarbeitern des getesteten Finanzunternehmens und, entsprechend dem Umfang des TLPT, gegebenenfalls aus Mitarbeitern seiner Drittdienstleister und jeder anderen Partei, die den Test leitet, zusammensetzt;"
+          },
+          {
+            "m": "2.",
+            "t": "„Leiter des Kontrollteams“ den Mitarbeiter des Finanzunternehmens, der für die Durchführung aller TLPT-bezogenen Aktivitäten des Finanzunternehmens im Rahmen eines bestimmten Tests verantwortlich ist;"
+          },
+          {
+            "m": "3.",
+            "t": "„Blue Team“ die Mitarbeiter des Finanzunternehmens und gegebenenfalls die Mitarbeiter der Drittdienstleister des Finanzunternehmens und alle anderen entsprechend dem Umfang des TLPT als relevant erachteten Parteien bei den Drittdienstleitern des Finanzunternehmens, die die Nutzung von Netzwerk- und Informationssystemen des Finanzunternehmens absichern, indem sie seine Fähigkeit zur Abwehr simulierter oder realer Angriffe aufrechterhalten, und die keine Kenntnis vom TLPT haben;"
+          },
+          {
+            "m": "4.",
+            "t": "„Blue-Team-Aufgaben“ Aufgaben, die in der Regel vom Blue Team wahrgenommen werden, wie z. B. Security Operation Centre (SOC), IKT-Infrastrukturdienstleistungen, Helpdesk-Dienstleistungen und Vorfallmanagement-Dienstleistungen auf operativer Ebene;"
+          },
+          {
+            "m": "5.",
+            "t": "„Red Team“ die internen oder externen Tester, die mit einem TLPT beauftragt oder betraut wurden;"
+          },
+          {
+            "m": "6.",
+            "t": "„Purple-Teaming“ gemeinsam durchgeführte Tests, an denen sowohl die Tester als auch das Blue Team beteiligt sind;"
+          },
+          {
+            "m": "7.",
+            "t": "„TLPT-Behörde“ eine der folgenden Behörden:",
+            "u": [
+              {
+                "m": "a)",
+                "t": "die gemäß Artikel 26 Absatz 9 der Verordnung (EU) 2022/2554 benannte einzige staatliche Behörde im Finanzsektor,"
+              },
+              {
+                "m": "b)",
+                "t": "die für den Finanzsektor zuständige Behörde, der die Wahrnehmung einiger oder aller Aufgaben im Zusammenhang mit TLPT gemäß Artikel 26 Absatz 10 der Verordnung (EU) 2022/2554 übertragen wird,"
+              },
+              {
+                "m": "c)",
+                "t": "eine der in Artikel 46 der Verordnung (EU) 2022/2554 genannten zuständigen Behörden;"
+              }
+            ]
+          },
+          {
+            "m": "8.",
+            "t": "„TLPT-Cyberteam“ oder „TCT“ die Mitarbeiter der TLPT-Behörden, die für mit TLPT verbundene Angelegenheiten zuständig sind;"
+          },
+          {
+            "m": "9.",
+            "t": "„Testmanager“ die Mitarbeiter, die benannt wurden, um die Aktivitäten der TLPT-Behörde für einen bestimmten TLPT zu leiten und die Einhaltung dieser Verordnung zu überwachen;"
+          },
+          {
+            "m": "10.",
+            "t": "„Anbieter von Bedrohungsanalysen“ die Sachverständigen, die vom Finanzunternehmen für den jeweiligen TLPT beauftragt wurden und nicht dem Finanzunternehmen oder etwaigen gruppeninternen IKT-Dienstleistern angehören und die gezielte Bedrohungsinformationen sammeln und analysieren, welche für die Finanzunternehmen, die in den Anwendungsbereich eines spezifischen TLPT fallen, relevant sind, und entsprechende relevante und realistische Bedrohungsszenarien entwickeln;"
+          },
+          {
+            "m": "11.",
+            "t": "„TLPT-Anbieter“ Tester und Anbieter von Bedrohungsanalysen;"
+          },
+          {
+            "m": "12.",
+            "t": "„Hilfestellung“ oder „Leg-up“ die Unterstützung oder Informationen, die das Kontrollteam den Testern zur Verfügung stellt, um es ihnen zu ermöglichen, einen Angriffspfad fortzusetzen, wenn sie allein nicht weiterkommen, und wenn es keine andere vernünftige Alternative gibt, z. B. wenn für einen TLPT nicht genug Zeit oder Ressourcen zur Verfügung stehen;"
+          },
+          {
+            "m": "13.",
+            "t": "„Angriffspfad“ den Pfad, dem die Tester während des aktiven Red-Team-Tests folgen, um die für diesen TLPT vordefinierten Ziele zu erreichen;"
+          },
+          {
+            "m": "14.",
+            "t": "„Flags“ oder „vordefinierte Ziele“ Kernziele der IKT-Systeme zur Unterstützung kritischer oder wichtiger Funktionen eines Finanzunternehmens, die die Tester mit dem Test zu erreichen versuchen;"
+          },
+          {
+            "m": "15.",
+            "t": "„sensible Informationen“ Informationen, die leicht für Angriffe auf die IKT-Systeme des Finanzunternehmens genutzt werden können, geistiges Eigentum, vertrauliche Geschäftsdaten oder personenbezogene Daten, die dem Finanzunternehmen und seinem Ökosystem direkt oder indirekt schaden könnten, wenn sie in die Hände böswilliger Akteure fallen würden;"
+          },
+          {
+            "m": "16.",
+            "t": "„Pool“ alle Finanzunternehmen, die an einem gebündelten TLPT gemäß Artikel 26 Absatz 4 der Verordnung (EU) 2022/2554 teilnehmen;"
+          },
+          {
+            "m": "17.",
+            "t": "„Aufnahmemitgliedstaat“ den Aufnahmemitgliedstaat gemäß den sektorspezifischen Rechtsvorschriften der Union, die für das betreffende Finanzunternehmen gelten;"
+          },
+          {
+            "m": "18.",
+            "t": "„gemeinsamer TLPT“ einen TLPT, bei dem es sich nicht um einen gebündelten TLPT im Sinne des Artikels 26 Absatz 4 der Verordnung (EU) 2022/2554 handelt und an dem mehrere Finanzunternehmen beteiligt sind, die denselben gruppeninternen IKT-Dienstleister in Anspruch nehmen oder derselben Gruppe angehören und IKT-Systeme gemeinsam nutzen."
+          }
+        ]
+      }
+    ]
+  },
+  "art_17": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "aad67e1ab0fec14fbe1c07bc60cafee8",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 26 Absatz 11 Unterabsatz 4,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "33dd62a414a1438c568c20e9d6dadeb2",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Diese Verordnung wurde im Einklang mit dem TIBER-EU-Rahmen ausgearbeitet und spiegelt die Methodik, das Verfahren und die Struktur bedrohungsorientierter Penetrationstests (im Folgenden „TLPT“) gemäß TIBER-EU wider. Finanzunternehmen, die zur Durchführung von TLPT verpflichtet sind, können sich auf den TIBER-EU-Rahmen oder eine seiner nationalen Umsetzungen beziehen und diesen Rahmen oder die nationale Umsetzung anwenden, sofern dieser Rahmen oder die Umsetzung mit den Anforderungen der Artikel 26 und 27 der Verordnung (EU) 2022/2554 und der vorliegenden Verordnung im Einklang steht. Die Benennung einer einzigen staatlichen Behörde für den Finanzsektor, die auf nationaler Ebene für mit TLPT verbundene Angelegenheiten zuständig ist, gemäß Artikel 26 Absatz 9 der Verordnung (EU) 2022/2554 sollte die auf Unionsebene den zuständigen Behörden übertragene Befugnis für die Beaufsichtigung bestimmter Finanzunternehmen gemäß Artikel 46 der genannten Verordnung unberührt lassen, wie beispielsweise die Zuständigkeit der Europäischen Zentralbank für bedeutende Kreditinstitute für mit TLPT verbundene Angelegenheiten. Werden nur einige mit TLPT verbundene Aufgaben gemäß Artikel 26 Absatz 10 der Verordnung (EU) 2022/2554 einer anderen nationalen Behörde für den Finanzsektor übertragen, so sollte die für das in Artikel 46 der genannten Verordnung genannte Finanzunternehmen zuständige Behörde für die nicht übertragenen mit TLPT verbundenen Aufgaben zuständig bleiben."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_10": {
+    "h": "9bb38de12db51dd641d264ba3c4a9422",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(10)",
+            "t": "Wie die im Rahmen des TIBER-EU-Rahmens gewonnenen Erkenntnisse in Bezug auf das „Kontrollteam“ gezeigt haben, ist die Auswahl eines geeigneten Leiters für das Kontrollteam unerlässlich für die sichere Durchführung des TLPT. Der Leiter des Kontrollteams sollte innerhalb des Finanzunternehmens über das erforderliche Mandat verfügen, um über alle Aspekte des Tests zu entscheiden, ohne dessen Vertraulichkeit zu gefährden. Aus demselben Grund sollten die Mitglieder des Kontrollteams über weitreichende Kenntnisse des Finanzunternehmens, der Rolle und der strategischen Positionierung des Leiters des Kontrollteams verfügen, die erforderliche hierarchische Position und Zugang zur Geschäftsleitung haben. Um das Risiko einer Gefährdung des TLPT zu verringern, sollte das Kontrollteam so klein wie möglich sein."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_11": {
+    "h": "0a7050851ba433144fabf533495bd143",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(11)",
+            "t": "Mit einem TLPT sind Risikokomponenten verbunden, da kritische Funktionen in einer Live-Produktionsumgebung getestet werden. Dies kann Denial-of-Service-Vorfälle, unerwartete Systemabstürze, Schäden an kritischen Live-Produktionssystemen oder den Verlust, die Veränderung oder die Offenlegung von Daten zur Folge haben. Diese Risiken machen deutlich, dass robuste Risikomanagementmaßnahmen erforderlich sind. Um sicherzustellen, dass der TLPT während der gesamten Testdauer kontrolliert durchgeführt wird, ist es sehr wichtig, dass sich die Finanzunternehmen jederzeit der besonderen Risiken bewusst sind, die mit einem TLPT verbunden sind, und dass diese Risiken gemindert werden. In diesem Zusammenhang kann unbeschadet der internen Prozesse des Finanzunternehmens und der Verantwortlichkeiten und Befugnisse, die dem Leiter des Kontrollteams bereits übertragen wurden, die Bereitstellung von Informationen über die TLPT-bezogenen Risikomanagementmaßnahmen oder — in besonderen Fällen — die Genehmigung dieser Risikomanagementmaßnahmen durch das Leitungsorgan des Finanzunternehmens geboten sein. Um effektive und qualifizierte professionelle Dienstleistungen erbringen zu können und diese Risiken zu mindern, ist es zudem von entscheidender Bedeutung, dass die Tester und die Anbieter von Bedrohungsanalysen (zusammen im Folgenden „TLPT-Anbieter“) über ein Höchstmaß an Fähigkeiten, Fachwissen und angemessene Erfahrung im Bereich Bedrohungsanalysen und TLPT in der Finanzdienstleistungsbranche verfügen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_12": {
+    "h": "c2b52c581e251d67b9fc8c8e978157ce",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(12)",
+            "t": "Herkömmliche Penetrationstests ermöglichen eine detaillierte und hilfreiche Bewertung technischer und Konfigurationsschwachstellen, die häufig nur ein einzelnes System oder eine einzelne Umgebung betreffen und isoliert betrachtet werden. Im Gegensatz zu einem erkenntnisgestützten Red-Team-Test wird dabei nicht das gesamte Szenario eines gezielten Angriffs auf ein ganzes Unternehmen, einschließlich seiner Mitarbeiter, Prozesse und Technologien, bewertet. Bei der Auswahl der TLPT-Anbieter sollten Finanzunternehmen daher sicherstellen, dass diese Anbieter über die erforderlichen Fähigkeiten verfügen, um erkenntnisgestützte Red-Team-Tests durchzuführen, und nicht nur Penetrationstests. Es müssen daher umfassende Kriterien für interne und externe Tester sowie für Anbieter von Bedrohungsanalysen (immer extern) festgelegt werden. Gehören die TLPT-Anbieter demselben Unternehmen an, sollte sichergestellt werden, dass das für einen TLPT eingesetzte Personal angemessen von den übrigen Mitarbeitern getrennt ist."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_13": {
+    "h": "61bf1b1ce5e7d83bf19d0e4c3994617e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(13)",
+            "t": "In Ausnahmefällen kann es sein, dass ein Finanzunternehmen keine TLPT-Anbieter findet, die die umfassenden Kriterien erfüllen. Können Finanzunternehmen den Nachweis erbringen, dass solche Anbieter von Bedrohungsanalysen nicht verfügbar sind, sollten sie die Möglichkeit haben, Personen zu beauftragen, die nicht alle umfassenden Kriterien erfüllen, sofern sie die sich daraus ergebenden zusätzlichen Risiken angemessen mindern und die TLPT-Behörde sämtliche dieser Kriterien bewertet."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_14": {
+    "h": "72602bbcad4a90b852141f82fcc50879",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(14)",
+            "t": "Sind mehrere Finanzunternehmen und mehrere TLPT- Behörden an einem TLPT beteiligt, sollten die Rollen aller am TLPT-Verfahren beteiligten Parteien festgelegt werden, damit der Test so effizient und sicher wie möglich durchgeführt wird. Bei gebündelten Tests müssen spezifische Anforderungen für die Festlegung der Rolle des benannten Finanzunternehmens gelten, d. h. dieses Finanzunternehmen sollte insbesondere dafür verantwortlich sein, der federführenden TLPT-Behörde alle erforderlichen Dokumente zur Verfügung zu stellen und das Testverfahren zu überwachen. Das benannte Finanzunternehmen sollte auch für die allgemeinen Aspekte der Risikomanagementbewertung verantwortlich sein. Ungeachtet der Rolle des benannten Finanzunternehmens sollten die Pflichten jedes Finanzunternehmens, das an dem gebündelten TLPT beteiligt ist, während des gebündelten Tests unberührt bleiben. Derselbe Grundsatz sollte auch für gemeinsame TLPT gelten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_15": {
+    "h": "2d40187603bcd529aa1f9666a195e750",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(15)",
+            "t": "Wie die Erfahrung mit der Umsetzung des TIBER-EU-Rahmens gezeigt hat, sind Präsenz- oder virtuelle Sitzungen mit allen betroffenen Interessenträger (Finanzunternehmen, Behörden, Tester und Anbieter von Bedrohungsanalysen) der effizienteste Weg, um eine angemessene Durchführung der Tests sicherzustellen. Daher sollten in verschiedenen Phasen des Prozesses Präsenz- und virtuelle Sitzungen abgehalten werden, das heißt während der Vorbereitungsphase zu Beginn des TLPT, um den Testumfang festzulegen, während der Testphase, um den Bedrohungsanalysebericht, den Red-Team-Testplan und die wöchentlichen Fortschrittsberichte zu erstellen, und während der Abschlussphase, um die Handlungen der Tester und des Blue Teams zu wiederholen, für das Purple-Teaming und um Rückmeldungen zu dem TLPT auszutauschen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_16": {
+    "h": "c99f50891c20759a4dfca60e92268130",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(16)",
+            "t": "Um eine reibungslose Durchführung des TLPT zu gewährleisten, sollte die TLPT-Behörde dem Finanzunternehmen ihre Erwartungen in Bezug auf den Test klar darlegen. In diesem Zusammenhang sollten die Testmanager sicherstellen, dass ein angemessener Informationsfluss mit dem Kontrollteam innerhalb des Finanzunternehmens und mit den TLPT-Anbietern eingerichtet wird."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_17": {
+    "h": "88b5fb751d7c4c525c2abfc0352ae6bc",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(17)",
+            "t": "Das Finanzunternehmen sollte festlegen, welche kritischen oder wichtigen Funktionen in den Anwendungsbereich des TLPT fallen. Dabei sollte sich das Finanzunternehmen auf verschiedene Kriterien stützen, die sich auf die Bedeutung der jeweiligen Funktion für das Finanzunternehmen selbst und für den Finanzsektor auf Unions- und nationaler Ebene beziehen, und zwar nicht nur in wirtschaftlicher Hinsicht, sondern auch unter Berücksichtigung des symbolischen oder politischen Status der Funktion. Um einen reibungslosen Übergang zur Phase der Gewinnung von Bedrohungsinformationen zu erleichtern, sollte das Kontrollteam den nicht am Scoping-Verfahren beteiligten Testern und Anbietern von Bedrohungsanalysen detaillierte Informationen über den vereinbarten Testumfang zur Verfügung stellen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_18": {
+    "h": "58fe295c231a498420477b476b297001",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(18)",
+            "t": "Um den Testern die Informationen zur Verfügung zu stellen, die erforderlich sind, um einen realen und realistischen Angriff auf die Live-Systeme des Finanzunternehmens, die seinen kritischen oder wichtigen Funktionen zugrunde liegen, zu simulieren, sollte der Anbieter von Bedrohungsanalysen Erkenntnisse oder Informationen gewinnen, die mindestens zwei wichtige Interessenbereiche abdecken: die Angriffsziele, indem potenzielle Angriffsflächen im Finanzunternehmen ermittelt werden, und die Bedrohungen, indem relevante Angreifer und wahrscheinliche Bedrohungsszenarien ermittelt werden. Um sicherzustellen, dass der Anbieter von Bedrohungsanalysen die für das Finanzunternehmen relevanten Bedrohungen berücksichtigt, sollten die Tester, das Kontrollteam und die Testmanager Rückmeldungen zum Entwurf des Bedrohungsanalyseberichts geben. Sofern verfügbar, kann der Anbieter von Bedrohungsanalysen von der TLPT-Behörde für den Finanzsektor eines Mitgliedstaats bereitgestellte Informationen über die allgemeine Bedrohungslage als Ausgangsbasis für die nationale Bedrohungslage verwenden. Wird der TIBER-EU-Rahmen angewendet, dauert die Gewinnung von Bedrohungsinformationen in der Regel etwa vier Wochen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_19": {
+    "h": "12580200573925448ef7d080c966a7f9",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(19)",
+            "t": "Damit die Tester Einblicke gewinnen und das Scoping-Dokument und den spezifischen Bedrohungsanalysebericht weitergehend prüfen können, um den Red-Team-Testplan zu erstellen, ist es äußerst wichtig, dass die Tester vor der Red-Team-Testphase des TLPT vom Bedrohungsanalyse-Anbieter detaillierte Erläuterungen zu dem spezifischen Bedrohungsanalysebericht und zur Analyse möglicher Bedrohungsszenarien erhalten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "5e2bb003763e12b6fe7a384aadac7d8e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Angesichts der Komplexität des TLPT und der damit verbundenen Risiken sollte seine Durchführung auf diejenigen Finanzunternehmen beschränkt werden, bei denen er gerechtfertigt ist. Daher sollten die für mit TLPT verbundenen Angelegenheiten zuständigen Behörden (im Folgenden „TLPT-Behörden“) (auf Unions- oder auf nationaler Ebene) Finanzunternehmen vom Anwendungsbereich des TLPT ausnehmen, die in zentralen Finanzdienstleistungsteilsektoren tätig sind und bei denen ein TLPT nicht gerechtfertigt ist. Demnach könnten Kreditinstitute, Zahlungsinstitute, E-Geld-Institute, Zentralverwahrer, zentrale Gegenparteien, Handelsplätze, Versicherungs- und Rückversicherungsunternehmen unter Berücksichtigung einer Gesamtbewertung ihres IKT-Risikoprofils und ihres Reifegrads, ihrer Auswirkungen auf den Finanzsektor und entsprechender Bedenken hinsichtlich der Finanzstabilität von der Pflicht zur Durchführung von TLPT befreit werden, auch wenn sie die quantitativen Kriterien erfüllen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_20": {
+    "h": "cabc32c4655ccce5588fdf61dfbfcda5",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(20)",
+            "t": "Damit die Tester einen realistischen und umfassenden Test durchführen können, bei dem alle Angriffsphasen durchgespielt und die vordefinierten Ziele (im Folgenden „Flags“) erreicht werden, sollte ausreichend Zeit für die aktive Red-Team-Testphase vorgesehen werden. Die Erfahrung mit dem TIBER-EU-Rahmen hat gezeigt, dass mindestens zwölf Wochen vorgesehen werden sollten; bei der Festlegung des Zeitrahmens sollten die Anzahl der beteiligten Parteien, der Umfang des TLPT, die Ressourcen des (der) beteiligten Finanzunternehmen(s), etwaige externe Anforderungen und die Verfügbarkeit der vom Finanzunternehmen bereitgestellten ergänzenden Informationen berücksichtigt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_21": {
+    "h": "3895798387d9fd8abd9a0e35a63edcba",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(21)",
+            "t": "Während der aktiven Red-Team-Testphase sollten die Tester eine Reihe von Taktiken, Techniken und Verfahren (im Folgenden „TTP“) anwenden, um die Live-Produktionssysteme des Finanzunternehmens angemessen zu testen. Die TTP sollten gegebenenfalls die Auskundschaftung (d. h. die Gewinnung möglichst vieler Informationen über das Angriffsziel — „Reconnaissance“), die Vorbereitung des Angriffs (d. h. die Analyse von Informationen über Infrastruktur, Einrichtungen und Mitarbeiter sowie die Vorbereitung der zielspezifischen Handlungen — „Weaponization“), die Platzierung des Schädlings (d. h. Beginn des Angriffs auf das Ziel — „Delivery“) und die Erlangung des Zugriffs (d. h. Kompromittierung der Server und Netzwerke des Finanzunternehmens und Verleitung seiner Mitarbeiter durch Social Engineering — „Exploitation“), Kontrolle und laterale Bewegung (d. h. Versuche, von den kompromittierten Systemen zu noch stärker gefährdeten oder wertvolleren Systemen überzugehen) und Erreichen des Angriffsziels (d. h. weiterer Zugriff auf kompromittierte Systeme und Zugang zu den Informationen und Daten des Angriffsziels, wie im Red-Team-Testplan vereinbart)."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_22": {
+    "h": "6b18378f4c29f2a19501174f3ee4808d",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(22)",
+            "t": "Bei der Durchführung eines TLPT sollten die Tester das für den Angriff zur Verfügung stehende Zeitbudget, die Ressourcen sowie ethische und rechtliche Grenzen berücksichtigen. Sollten die Tester nicht in der Lage sein, zur geplanten nächsten Angriffsphase überzugehen, sollte das Kontrollteam mit Zustimmung der TLPT-Behörde Unterstützung in Form von sogenannten „Hilfestellungen“ (Leg-up) leisten. Hilfestellungen können im Wesentlichen in den Bereichen Information und Zugang geleistet werden und darin bestehen, Zugang zu IKT-Systemen oder internen Netzwerken zu gewähren, damit der Test fortgesetzt werden und das Team sich auf die nachfolgenden Angriffsschritte konzentrieren kann."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_23": {
+    "h": "82243d8fec2bb2f7887fff7ce6fd6e29",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(23)",
+            "t": "Während des aktiven Red-Teamings in der Testphase sollte, falls dies erforderlich ist, um die Fortsetzung des TLPT zu ermöglichen, in Ausnahmefällen als letztes Mittel, und sofern alle alternativen Optionen ausgeschöpft wurden, auf eine gemeinsame Durchführung des Tests, an dem dann sowohl die Tester als auch das Blue Team teilnehmen, zurückgegriffen werden. Im Rahmen eines solchen Purple-Teaming, das auf Ausnahmefälle begrenzt ist, können folgende Methoden angewendet werden: „Catch-and-Release“, d. h. die Tester versuchen, die Szenarien fortzusetzen, werden entdeckt, und nehmen den Test anschließend wieder auf, „War Gaming“, das komplexere Szenarien ermöglicht, um strategische Entscheidungen zu testen, oder „Collaborative Proof-of-Concept“, der es Testern und Mitgliedern des Blue Teams ermöglicht, spezifische Sicherheitsmaßnahmen, -tools oder -techniken in einer kontrollierten und kooperativen Umgebung gemeinsam zu validieren."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_24": {
+    "h": "fab077f3fed055d42c03233f92addf34",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(24)",
+            "t": "Der TLPT sollte als Lernerfahrung genutzt werden, um die digitale operationale Resilienz von Finanzunternehmen zu verbessern. In diesem Zusammenhang sollten das Blue Team und die Tester den Angriff wiederholen und die durchgeführten Schritte analysieren, um in Zusammenarbeit mit den Testern Erkenntnisse aus den Tests zu gewinnen. Hierzu und um eine angemessene Vorbereitung zu ermöglichen, sollten der Red-Team-Testbericht und der Blue-Team-Testbericht allen an der Wiederholung beteiligten Parteien vor deren Durchführung zur Verfügung gestellt werden. Darüber hinaus sollte in der Abschlussphase ein Purple-Teaming stattfinden, um die Lernerfahrung zu maximieren. Die Methoden, die in der Abschlussphase für das Purple-Teaming verwendet werden können, sollten Diskussionen über alternative Angriffsszenarien, die Analyse alternativer Szenarien für Live-Systeme oder die erneute Analyse geplanter Szenarien für Live-Systeme umfassen, die die Tester während der Testphase nicht abschließen oder ausführen konnten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_25": {
+    "h": "b0062d5d0158db9ea081ce32141fb13c",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(25)",
+            "t": "Um die Lernerfahrung aller am TLPT beteiligten Parteien im Hinblick auf künftige Tests weiter zu verbessern und die digitale operationale Resilienz von Finanzunternehmen zu fördern, sollten die betroffenen Parteien einander Rückmeldungen zum gesamten Prozess geben und insbesondere ermitteln, welche Aktivitäten gut vorangekommen sind oder hätten verbessert werden können und welche Aspekte des TLPT-Verfahrens gut funktioniert haben oder verbessert werden könnten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_26": {
+    "h": "7ebcde41cd4325f1e62984cc4b692a4b",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(26)",
+            "t": "Die in Artikel 46 der Verordnung (EU) 2022/2554 genannten zuständigen Behörden und — falls davon abweichend — die TLPT-Behörden sollten zusammenarbeiten, um fortgeschrittene Tests in Form von TLPT in die bestehenden Aufsichtsverfahren einzubeziehen. In diesem Zusammenhang und um das korrekte Verständnis der aus dem TLPT gewonnenen Erkenntnisse und die Art und Weise der Interpretation zu kommunizieren, sollte insbesondere für den zusammenfassenden Testbericht und die Pläne mit Abhilfemaßnahmen eine enge Zusammenarbeit zwischen den am TLPT beteiligten Testmanagern und den zuständigen Aufsichtsbehörden stattfinden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_27": {
+    "h": "a2d8dbde23439bd955bf2225c4221f74",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(27)",
+            "t": "Nach Artikel 26 Absatz 8 Unterabsatz 1 der Verordnung (EU) 2022/2554 müssen Finanzunternehmen bei jedem dritten Test externe Tester beauftragen. Wenn Finanzunternehmen sowohl interne als auch externe Tester in das Testteam einbeziehen, ist dieser Test für die Zwecke des genannten Artikels als TLPT mit internen Testern zu betrachten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_28": {
+    "h": "44721077b1fcaa0f65bcf372734cbebd",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(28)",
+            "t": "Diese Verordnung beruht auf dem Entwurf technischer Regulierungsstandards, der der Kommission von der Europäischen Bankenaufsichtsbehörde, der Europäischen Aufsichtsbehörde für das Versicherungswesen und die betriebliche Altersversorgung und der Europäischen Wertpapier- und Marktaufsichtsbehörde (im Folgenden „Europäische Aufsichtsbehörden“) im Einvernehmen mit der Europäischen Zentralbank vorgelegt wurde."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_29": {
+    "h": "1af009c42117a306b4a2b1947286cd3e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(29)",
+            "t": "Die Europäischen Aufsichtsbehörden haben zu diesem Entwurf offene öffentliche Konsultationen durchgeführt, die damit verbundenen potenziellen Kosten- und Nutzeneffekte analysiert und die Stellungnahme der nach Artikel 37 der Verordnung (EU) Nr. 1093/2010 des Europäischen Parlaments und des Rates () eingesetzten Interessengruppe „Bankensektor“, der nach Artikel 37 der Verordnung (EU) Nr. 1094/2010 des Europäischen Parlaments und des Rates () eingesetzten Interessengruppen „Versicherung und Rückversicherung“ und „Betriebliche Altersversorgung“ sowie der nach Artikel 37 der Verordnung (EU) Nr. 1095/2010 des Europäischen Parlaments und des Rates () eingesetzten Interessengruppe „Wertpapiere und Wertpapiermärkte“ eingeholt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "9a63d7202781809d6ca9d364133555c6",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Die TLPT-Behörden sollten unter Berücksichtigung einer Gesamtbewertung des IKT-Risikoprofils und des Reifegrads, der Auswirkungen auf den Finanzsektor und entsprechender Bedenken hinsichtlich der Finanzstabilität prüfen, ob andere Arten von Finanzunternehmen als Kreditinstitute, Zahlungsinstitute, E-Geld-Institute, zentrale Gegenparteien, Zentralverwahrer, Handelsplätze, Versicherungs- und Rückversicherungsunternehmen der Pflicht zur Durchführung von TLPT unterworfen werden sollten. Die Bewertung, ob diese Finanzunternehmen die genannten qualitativen Kriterien erfüllen, sollte darauf abzielen, anhand sektorübergreifender und objektiver Indikatoren diejenigen Finanzunternehmen zu ermitteln, die TLPT durchführen sollten. Gleichzeitig sollte die Bewertung, ob ein Finanzunternehmen diese qualitativen Kriterien erfüllt, darauf abzielen, TLPT auf diejenigen Unternehmen zu beschränken, bei denen der Test gerechtfertigt ist. Ob ein Finanzunternehmen diese qualitativen Kriterien erfüllt, sollte auch vor dem Hintergrund neuer Marktentwicklungen und der künftigen zunehmenden Bedeutung neuer Marktteilnehmer für den Finanzsektor, einschließlich der gemäß Artikel 59 der Verordnung (EU) 2023/1114 des Europäischen Parlaments und des Rates () zugelassenen Anbieter von Krypto-Dienstleistungen, bewertet werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_30": {
+    "h": "ffc7648da38bc3a339a5cc6ddceec361",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(30)",
+            "t": "Der Europäische Datenschutzbeauftragte wurde gemäß Artikel 42 Absatz 1 der Verordnung (EU) 2018/1725 des Europäischen Parlaments und des Rates () konsultiert und gab am 20. August 2024 eine Stellungnahme ab ––"
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "007d6fc5dbd5503e2e4e1d588b183473",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Finanzunternehmen können denselben gruppeninternen IKT-Dienstleister haben oder derselben Gruppe angehören und auf gemeinsame IKT-Systeme zurückgreifen. In diesem Fall ist es wichtig, dass die TLPT-Behörden bei der Beurteilung, ob ein Finanzunternehmen der Pflicht zur Durchführung von TLPT unterworfen werden sollte und ob der TLPT auf Unternehmensebene oder auf Gruppenebene (in Form eines gemeinsamen TLPT) durchgeführt werden sollte, die Struktur und den systemischen Charakter oder die Bedeutung des betreffenden Finanzunternehmens für den Finanzsektor auf nationaler oder Unionsebene berücksichtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "1489a6fcf84509b426df6bd7ff73e1f5",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Um dem TIBER-EU-Rahmen Rechnung zu tragen, muss die Testmethodik die Einbeziehung der folgenden Hauptbeteiligten vorsehen: das Finanzunternehmen mit einem Kontrollteam (das dem „Kontrollteam“ im Rahmen von TIBER-EU entspricht) und einem Blue Team (das dem „Blue Team“ im Rahmen von TIBER-EU entspricht) und die TLPT-Behörde in Form eines TLPT-Cyberteams (das dem „TIBER-Cyberteam“ im Rahmen von TIBER-EU entspricht), ein Anbieter von Bedrohungsanalysen und Tester (wobei die Tester dem „Red-Team-Anbieter“ im Rahmen von TIBER-EU entsprechen)."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "47a97184163ee32b872a2ffedb7cb416",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Um sicherzustellen, dass in den TLPT die im Rahmen der Umsetzung von TIBER-EU gewonnenen Erfahrungen einfließen, und um die mit der Durchführung von TLPT verbundenen Risiken zu verringern, sollte sichergestellt werden, dass die Zuständigkeiten der TLPT-Cyberteams, die auf der Ebene der TLPT-Behörden eingerichtet werden, so weit wie möglich denen der TIBER-EU-Cyberteams entsprechen. Daher sollten für die TLPT-Cyberteams Testmanager bestimmt werden, die für die Beaufsichtigung der einzelnen TLPT sowie für die Planung und Koordinierung der einzelnen Tests verantwortlich sind. TLPT-Cyberteams sollten eine zentrale Anlaufstelle für die testbezogene Kommunikation mit internen und externen Interessenträgern, für die Sammlung und Verarbeitung von Rückmeldungen und Erkenntnissen aus bereits durchgeführten Tests und für die Unterstützung von Finanzunternehmen, bei denen ein TLPT durchgeführt wird, sein."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "4e8a9dce0942a071bed0ef58e1bb5874",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Um der Methodik des TIBER-EU-Rahmens Rechnung zu tragen, sollten Testmanager über die erforderlichen Fähigkeiten und Kompetenzen für die Begutachtung der Vorschläge der Tester und die entsprechende Beratung verfügen. Die Erfahrung im Rahmen des TIBER-EU-Rahmens hat gezeigt, dass es sinnvoll ist, jedem Test ein Team aus mindestens zwei Testmanagern zuzuweisen. Da mithilfe des TLPT die Lernerfahrung verbessert werden soll, und um die Vertraulichkeit der Tests zu wahren, wird den TLPT-Behörden dringend empfohlen, dafür zu sorgen, dass Testmanager während der Dauer eines TLPT keine Aufsichtstätigkeiten über das Finanzunternehmen, das sich einem TLPT unterzieht, ausüben (vorausgesetzt, bei den Behörden sind die nötigen Ressourcen oder Kompetenzen vorhanden)."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "bc73ca774984c12b2295eb3d3fc96f28",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Um dem TIBER-EU-Rahmen zu entsprechen, muss die TLPT-Behörde den Test in jeder einzelnen Phase genau verfolgen. Angesichts der Art des Tests und der damit verbundenen Risiken ist es von entscheidender Bedeutung, dass die TLPT-Behörde in jede einzelne Testphase einbezogen wird. Insbesondere sollte die TLPT-Behörde konsultiert werden und die Bewertungen oder Entscheidungen der Finanzunternehmen validieren, die zum einen die Wirksamkeit des Tests beeinflussen und sich zum anderen auf die mit dem Test verbundenen Risiken auswirken können. Zu den grundlegenden Schritten, bei denen eine spezifische Einbeziehung der TLPT-Behörde erforderlich ist, gehören die Validierung bestimmter grundlegender Bestandteile der Testdokumentation, die Auswahl von Anbietern von Bedrohungsanalysen und Testern sowie die Festlegung von Risikomanagementmaßnahmen. Die Einbeziehung der TLPT-Behörden, insbesondere bei Validierungen, sollte den Arbeitsaufwand dieser Behörden nicht übermäßig erhöhen und daher auf die Dokumente und Entscheidungen beschränkt bleiben, die sich unmittelbar auf die Durchführung des TLPT auswirken. Durch die aktive Einbeziehung in jede Testphase können die TLPT-Behörden effektiv bewerten, ob die Finanzunternehmen die einschlägigen Anforderungen erfüllen, und entsprechend die Bescheinigung gemäß Artikel 26 Absatz 7 der Verordnung (EU) 2022/2554 ausstellen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "e2b88aad5039908d18bd05125d65207d",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Die Geheimhaltung des TLPT ist äußerst wichtig, um sicherzustellen, dass die Testbedingungen realistisch sind. Aus diesem Grund sollten die Tests verdeckt erfolgen und es sollten Vorkehrungen getroffen werden, um die Vertraulichkeit des TLPT zu wahren. Beispielsweise sollten Codenamen so gewählt werden, dass eine Identifizierung des TLPT durch Dritte nicht möglich ist. Sollten Mitarbeiter, die für die Sicherheit des Finanzteams zuständig sind, von einem geplanten oder laufenden TLPT erfahren, sind sie wahrscheinlich aufmerksamer und wachsamer als unter normalen Arbeitsbedingungen, was zu einem anderen Testergebnis führen würde. Mitarbeiter des Finanzunternehmens, die nicht dem Kontrollteam angehören, sollten daher nur dann über geplante oder laufende TLPT informiert werden, wenn triftige Gründe vorliegen, und vorbehaltlich der vorherigen Zustimmung der Testmanager, um unter anderem die Geheimhaltung des Tests zu gewährleisten, falls ein Mitglied des Blue Teams den Test aufdeckt."
+          }
+        ]
+      }
+    ]
+  }
+}

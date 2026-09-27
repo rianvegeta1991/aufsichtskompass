@@ -1,0 +1,228 @@
+{
+  "regelwerk": "dora-rts-301",
+  "fassung": "2025-02-20",
+  "abgerufen": "2026-09-27T10:10:24Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32025R0301",
+    "celex": "32025R0301",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_1",
+      "art": "artikel",
+      "nummer": "1",
+      "titel": {
+        "de": "Allgemeine Informationen, die in Erstmeldungen sowie in Zwischen- und Abschlussmeldungen schwerwiegender IKT-bezogener Vorfälle enthalten sein müssen"
+      },
+      "pfad": "art/1",
+      "text": true
+    },
+    {
+      "id": "art_2",
+      "art": "artikel",
+      "nummer": "2",
+      "titel": {
+        "de": "Spezifische Informationen, die in Erstmeldungen enthalten sein müssen"
+      },
+      "pfad": "art/2",
+      "text": true
+    },
+    {
+      "id": "art_3",
+      "art": "artikel",
+      "nummer": "3",
+      "titel": {
+        "de": "Spezifische Informationen, die in Zwischenmeldungen enthalten sein müssen"
+      },
+      "pfad": "art/3",
+      "text": true
+    },
+    {
+      "id": "art_4",
+      "art": "artikel",
+      "nummer": "4",
+      "titel": {
+        "de": "Spezifische Informationen, die in Abschlussmeldungen enthalten sein müssen"
+      },
+      "pfad": "art/4",
+      "text": true
+    },
+    {
+      "id": "art_5",
+      "art": "artikel",
+      "nummer": "5",
+      "titel": {
+        "de": "Fristen für die Erst-, Zwischen- und Abschlussmeldung"
+      },
+      "pfad": "art/5",
+      "kinder": [
+        {
+          "id": "005.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/5/abs/1",
+          "text": true
+        },
+        {
+          "id": "005.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/5/abs/2",
+          "text": true
+        },
+        {
+          "id": "005.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/5/abs/3",
+          "text": true
+        },
+        {
+          "id": "005.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/5/abs/4",
+          "text": true
+        },
+        {
+          "id": "005.005",
+          "art": "absatz",
+          "nummer": "5",
+          "pfad": "art/5/abs/5",
+          "text": true
+        },
+        {
+          "id": "005.006",
+          "art": "absatz",
+          "nummer": "6",
+          "pfad": "art/5/abs/6",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_6",
+      "art": "artikel",
+      "nummer": "6",
+      "titel": {
+        "de": "Inhalt der freiwilligen Meldung erheblicher Cyberbedrohungen"
+      },
+      "pfad": "art/6",
+      "text": true
+    },
+    {
+      "id": "art_7",
+      "art": "artikel",
+      "nummer": "7",
+      "titel": {
+        "de": "Inkrafttreten"
+      },
+      "pfad": "art/7",
+      "text": true
+    }
+  ]
+}

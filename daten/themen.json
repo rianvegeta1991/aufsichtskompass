@@ -1,0 +1,28 @@
+{
+  "stand": "2026-09-27",
+  "hinweis": "Themen sind Daten, nicht Code: ein neues Thema braucht nur einen Eintrag hier. Zielbild, Pruefungsschwerpunkte und Fundstellentabellen je Thema folgen in Phase 4.",
+  "themen": [
+    { "id": "it-governance", "name": "IT-Governance", "kurz": "Aufbau, Steuerung und Verantwortlichkeiten der IT im Unternehmen - vom Leitungsorgan bis zur Linie." },
+    { "id": "ikt-risikomanagement", "name": "IKT-Risikomanagement", "kurz": "Rahmen, Verfahren und Werkzeuge zur Erkennung, Bewertung und Steuerung von IKT-Risiken." },
+    { "id": "iks", "name": "Internes Kontrollsystem (IKS)", "kurz": "Kontrollen, Kontrollumfeld und Wirksamkeitsnachweis über alle Prozesse hinweg." },
+    { "id": "infosec", "name": "Informationssicherheit", "kurz": "Schutzziele, Sicherheitsleitlinien, Maßnahmen und Managementsystem." },
+    { "id": "opsec", "name": "Operative Sicherheit", "kurz": "Sicherer Betrieb: Härtung, Schwachstellen, Patches, Netztrennung." },
+    { "id": "change-management", "name": "Change Management", "kurz": "Geordnete Änderung an Systemen und Anwendungen, einschließlich Notfall-Changes." },
+    { "id": "incident-meldewesen", "name": "Incident Management & Meldewesen", "kurz": "Erkennen, Klassifizieren und Melden von Vorfällen - DORA, BSIG/NIS2 und DSGVO nebeneinander." },
+    { "id": "bcm-backup", "name": "Business Continuity, Notfallmanagement & Backup", "kurz": "Fortführung des Geschäfts, Wiederherstellung, Datensicherung und Notfalltests." },
+    { "id": "drittparteien-auslagerung", "name": "IKT-Drittparteienrisiko, Auslagerung & Cloud", "kurz": "Vom Vertrag über die Risikoanalyse bis zur Ausstiegsstrategie und Unterauftragsvergabe." },
+    { "id": "informationsregister", "name": "Informationsregister", "kurz": "Vollständige, meldefähige Erfassung aller vertraglichen Vereinbarungen über IKT-Dienstleistungen." },
+    { "id": "resilienztests", "name": "Resilienztests, TLPT & Penetrationstests", "kurz": "Testprogramm, bedrohungsorientierte Tests und deren Nachweise." },
+    { "id": "iam", "name": "Identity & Access Management", "kurz": "Berechtigungen, Rollen, privilegierte Zugriffe und deren Rezertifizierung." },
+    { "id": "sdlc", "name": "Anwendungsentwicklung (SDLC)", "kurz": "Sichere Entwicklung, Trennung der Umgebungen, Freigaben und Auslieferung." },
+    { "id": "asset-konfiguration", "name": "Asset- und Konfigurationsmanagement", "kurz": "Bestandsverzeichnisse, Abhängigkeiten, Kritikalitätseinstufung und Lebenszyklus." },
+    { "id": "kryptografie", "name": "Kryptografie", "kurz": "Verschlüsselung, Schlüsselverwaltung und kryptografische Vorgaben." },
+    { "id": "logging-monitoring", "name": "Logging & Monitoring", "kurz": "Protokollierung, Überwachung, Auswertung und Aufbewahrung." },
+    { "id": "datenschutz", "name": "Datenschutz", "kurz": "Rechtmäßigkeit, Auftragsverarbeitung, Sicherheit der Verarbeitung und Meldepflichten." },
+    { "id": "ki-governance", "name": "KI-Governance", "kurz": "Einsatz von KI-Systemen: Einstufung, Pflichten, Kontrollen und Dokumentation." },
+    { "id": "awareness", "name": "Awareness & Schulung", "kurz": "Sensibilisierung, Schulungsprogramme und deren Nachweis - auch für das Leitungsorgan." },
+    { "id": "leitungsorgan", "name": "Rolle des Leitungsorgans", "kurz": "Letztverantwortung, Kenntnisse, Beschlüsse und Berichtswege." },
+    { "id": "funktionstrennung", "name": "Funktionstrennung", "kurz": "Trennung unverträglicher Aufgaben, Schlüsselfunktionen und Three-Lines-Zuordnung." },
+    { "id": "test-anforderungsmanagement", "name": "Test- & Anforderungsmanagement", "kurz": "Anforderungen, Testarten, Abnahme und Nachweisführung." }
+  ]
+}

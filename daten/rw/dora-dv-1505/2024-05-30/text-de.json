@@ -1,0 +1,351 @@
+{
+  "001.001": {
+    "h": "3a35f4d276dec874e7e5ce191ebc5fe9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Jedes Jahr schätzen die federführende Überwachungsbehörde und die anderen Europäischen Aufsichtsbehörden die jährlichen Gesamtkosten, die voraussichtlich für die Durchführung ihrer Überwachungsaufgaben anfallen werden. Die jährliche Gesamtkostenschätzung bildet die Grundlage für die Festlegung der Gesamthöhe der erhobenen Überwachungsgebühren."
+      }
+    ]
+  },
+  "001.002": {
+    "h": "df207f9c2d3c8a20f473c2139b575a09",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der jährlichen Gesamtkostenschätzung berücksichtigt die federführende Überwachungsbehörde die folgenden direkten und indirekten Kosten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Kosten für die Einstufung von IKT-Drittdienstleistern als kritisch;"
+          },
+          {
+            "m": "b)",
+            "t": "die Kosten für die Benennung der federführenden Überwachungsbehörde;"
+          },
+          {
+            "m": "c)",
+            "t": "die Kosten für die tatsächliche Überwachung kritischer IKT-Drittdienstleister einschließlich folgender Kosten:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Kosten für die Arbeit des gemeinsamen Untersuchungsteams;"
+              },
+              {
+                "m": "ii)",
+                "t": "Kosten für die Beratung durch unabhängige Sachverständige;"
+              }
+            ]
+          },
+          {
+            "m": "d)",
+            "t": "die Kosten für die Weiterbehandlung von Empfehlungen der federführenden Überwachungsbehörden nach Artikel 35 Absatz 1 Buchstabe d der Verordnung (EU) 2022/2554;"
+          },
+          {
+            "m": "e)",
+            "t": "die Kosten für die Governance des Überwachungsrahmens."
+          }
+        ]
+      }
+    ]
+  },
+  "002.001": {
+    "h": "18ed3bf548433f62bee48d350899ca3c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Zwecke von Artikel 3 entspricht der Umsatz eines kritischen IKT-Drittdienstleisters seinen in der Union erzielten Einnahmen aus der Erbringung von IKT-Dienstleistungen, die in den technischen Durchführungsstandards nach Artikel 28 Absatz 9 der Verordnung (EU) 2022/2554 genannt und für die in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen erbracht werden."
+      }
+    ]
+  },
+  "002.002": {
+    "h": "db67d1f3d6b458c775e02eb830e84161",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kritische IKT-Drittdienstleister übermitteln der federführenden Überwachungsbehörde alljährlich im Jahr n-1 geprüfte Zahlen über den in Absatz 1 genannten Umsatz im Jahr n-2. Die kritischen IKT-Drittdienstleister übermitteln der federführenden Überwachungsbehörde diese Zahlen alljährlich bis zum 31. Dezember."
+      }
+    ]
+  },
+  "002.003": {
+    "h": "68f6710b57e49971067de24cee144d5b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Übermittelt der kritische IKT-Drittdienstleister der federführenden Überwachungsbehörde bis zu dem in Absatz 2 genannten Datum keine geprüften Zahlen, die sich auf die Einnahmen aus der Erbringung von Dienstleistungen für die in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen beschränken oder zur Gänze diese Einnahmen enthalten, so legt die federführende Überwachungsbehörde den Umsatz zugrunde, den der kritische IKT-Drittdienstleister in der Union unabhängig von der Kundenart mit der Erbringung von IKT-Dienstleistungen erzielt, die in den technischen Durchführungsstandards nach Artikel 28 Absatz 9 der Verordnung (EU) 2022/2554 genannt werden."
+      },
+      {
+        "art": "p",
+        "t": "Übermittelt der kritische IKT-Drittdienstleister der federführenden Überwachungsbehörde bis zu dem in Absatz 2 genannten Datum keine geprüften Zahlen, die sich auf die in der Union erzielte Einnahmen aus der Erbringung von IKT-Dienstleistungen beschränken, die in den technischen Durchführungsstandards nach Artikel 28 Absatz 9 der Verordnung (EU) 2022/2554 genannt werden, oder zur Gänze diese Einnahmen enthalten, so legt die federführende Überwachungsbehörde den weltweiten Umsatz aus der Erbringung dieser IKT-Dienstleistungen zugrunde."
+      },
+      {
+        "art": "p",
+        "t": "Übermittelt der kritische IKT-Drittdienstleister der federführenden Überwachungsbehörde bis zu dem in Absatz 2 genannten Datum keine geprüften Zahlen, die sich auf die Einnahmen aus der Erbringung von IKT-Dienstleistungen für die in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Finanzunternehmen beschränken oder zur Gänze diese Einnahmen enthalten, und übermittelt er der federführenden Überwachungsbehörde bis zu dem in Absatz 2 genannten Datum keine geprüften Zahlen, die sich auf die in der Union erzielten Einnahmen beschränken, so legt die federführende Überwachungsbehörde den Umsatz zugrunde, den der kritische IKT-Drittdienstleister unabhängig von der Kundenart weltweit erzielt."
+      }
+    ]
+  },
+  "002.004": {
+    "h": "d64e1474899312cc2d2b03b9aa6b7d7d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Melden kritische IKT-Drittdienstleister die Einnahmen in einer anderen Währung als dem Euro, so rechnet die federführende Überwachungsbehörde diese Einnahmen zum Durchschnitt des von der Europäischen Zentralbank veröffentlichten Euro-Wechselkurses für den Zeitraum, in dem die Einnahmen erfasst wurden, in Euro um."
+      }
+    ]
+  },
+  "003.001": {
+    "h": "649f0257c7f2e8e121a5c97149fb7a33",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei jedem kritischen IKT-Drittdienstleister entspricht die jährliche Überwachungsgebühr für ein bestimmtes Jahr n der in Artikel 1 genannten jährlichen Gesamtkostenschätzung, die mithilfe des in Absatz 2 genannten Umsatzkoeffizienten auf Basis des zugrunde zu legenden Umsatzes für das Jahr n-2 angepasst wird."
+      }
+    ]
+  },
+  "003.002": {
+    "h": "08af7fb7cbadd49dac03e8fc6c4e3e49",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei jedem kritischen IKT-Drittdienstleister basiert der Umsatzkoeffizient auf dem in Artikel 2 genannten zugrunde zu legenden Umsatz und berechnet sich wie folgt:"
+      }
+    ]
+  },
+  "003.003": {
+    "h": "935cb67926197185475f681f789cf5e2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die von einem kritischen IKT-Drittdienstleister zu entrichtende jährliche Überwachungsgebühr beträgt keinesfalls weniger als 50 000 EUR."
+      }
+    ]
+  },
+  "004.001": {
+    "h": "d542d73df307744265ee6f0dd9187bf2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Abweichend von Artikel 3 werden die Überwachungsgebühren bei der ersten gemäß Artikel 31 Absatz 9 der Verordnung (EU) 2022/2554 veröffentlichten Liste kritischer IKT-Drittdienstleister zu gleichen Teilen auf die als kritisch eingestuften IKT-Drittdienstleister aufgeteilt. Die bei jedem einzelnen kritischen IKT-Drittdienstleister zu erhebende Gebühr wird berechnet, indem die geschätzten Gesamtausgaben der federführenden Überwachungsbehörden durch die Gesamtzahl der als kritisch eingestuften IKT-Drittdienstleister dividiert wird."
+      }
+    ]
+  },
+  "004.002": {
+    "h": "00f6b12d5fe744f579a491ab21a40504",
+    "b": [
+      {
+        "art": "p",
+        "t": "Abweichend von Artikel 3 und von Absatz 1 entrichtet ein IKT-Drittdienstleister für das erste Jahr, in dem er als kritisch eingestuft wird, eine feste Überwachungsgebühr in gleicher Höhe wie der Betrag, den jeder IKT-Drittdienstleister gemäß Absatz 1 entrichtet. Beträgt der Zeitraum, in dem ein solcher kritischer IKT-Drittdienstleister überwacht wird, kein volles Jahr, so entspricht besagte Überwachungsgebühr dem Betrag, den jeder IKT-Drittdienstleister gemäß Absatz 1 entrichtet, multipliziert mit der Zahl der Kalendertage ab Einstufung des IKT-Drittdienstleisters als kritisch bis zum Jahresende und geteilt durch die Gesamtzahl der Tage im betreffenden Jahr."
+      }
+    ]
+  },
+  "004.003": {
+    "h": "5b0b39ad09639dc2d44f8b5aa3fc547b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beantragt ein IKT-Drittdienstleister nach Artikel 31 Absatz 11 der Verordnung (EU) 2022/2554, als kritisch eingestuft zu werden, so entrichtet er eine feste Opt-in-Gebühr von 50 000 EUR. Diese feste Opt-in-Gebühr wird von der Europäischen Aufsichtsbehörde, die den Antrag entgegennimmt, nicht erstattet, wenn der Antrag auf Einstufung als kritisch abgelehnt oder vom IKT-Drittdienstleister zurückgezogen wird."
+      }
+    ]
+  },
+  "005.001": {
+    "h": "06b247a92570631100ea4b19e5eb3e07",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kritische IKT-Drittdienstleister entrichten die in Artikel 43 der Verordnung (EU) 2022/2554 genannten Überwachungsgebühren jährlich an die federführende Überwachungsbehörde."
+      }
+    ]
+  },
+  "005.002": {
+    "h": "f8a78b503aa37d1ccfafdaf26dcfa407",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sämtliche Überwachungsgebühren sind in Euro in Rechnung zu stellen und zu entrichten. Die Zahlungsaufforderungen für die Überwachungsgebühren sehen Zahlungsfristen von mindestens 30 Tagen vor."
+      }
+    ]
+  },
+  "005.003": {
+    "h": "684830debc9bc13b028987af9fc1eb07",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sämtliche Überwachungsgebühren sind in einem einzigen Betrag zu entrichten. Kritische IKT-Drittdienstleister, die am 1. Januar eines Jahres Gegenstand von Überwachungstätigkeiten sind, kommen der Zahlungsaufforderung bis zum 30. April des betreffenden Jahres nach. Kritische IKT-Drittdienstleister, die im Jahresverlauf als kritisch eingestuft wurden, entrichten die in Artikel 4 genannten Gebühren in einem einzigen Betrag bis zum 31. Dezember des betreffenden Jahres."
+      }
+    ]
+  },
+  "005.004": {
+    "h": "26626d4375b05c0b194155e8f8731409",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei Zahlungsverzug werden Verzugszinsen nach Artikel 99 der Verordnung (EU, Euratom) 2018/1046 fällig."
+      }
+    ]
+  },
+  "art_6": {
+    "h": "4175258c7cda497a0153975b4a37d0ba",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Zwecke dieser Verordnung erfolgt die gesamte Kommunikation zwischen den Europäischen Aufsichtsbehörden und kritischen IKT-Drittdienstleistern auf elektronischem Wege."
+      }
+    ]
+  },
+  "art_7": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "b05fcf0f4dae74d5e049e75b22025047",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 43 Absatz 2,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "58d0fd6ed369c212f7ff8a66ac3eb22d",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Um die notwendigen Ausgaben der federführenden Überwachungsbehörde und der anderen Europäischen Aufsichtsbehörden für die Durchführung von Überwachungsaufgaben im Rahmen der Verordnung (EU) 2022/2554 vollständig zu decken, sollte eine jährliche Überwachungsgebühr festgelegt werden. Die jährliche Überwachungsgebühr sollte auch die geschätzten Kosten jener zuständigen Behörden decken, denen die Europäischen Aufsichtsbehörden Aufgaben übertragen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "fac68a1e7b2043f9e2a2abf7fc9040cf",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Nach den Grundsätzen der Jährlichkeit und der vollständigen Kostendeckung sollte die Berechnung der jährlichen Überwachungsgebühren auf den Kosten beruhen, die den Europäischen Aufsichtsbehörden nach eigener Schätzung für die Durchführung ihrer Überwachungsaufgaben direkt und indirekt entstehen. Die jährlichen Überwachungsgebühren sollten alljährlich an die Kostenschätzung angepasst werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "482cfded62e16aaf154afedca9f888ea",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Um eine gerechte Verteilung der Überwachungsgebühren zu gewährleisten, die zugleich dem tatsächlich anfallenden Verwaltungsaufwand für den einzelnen überwachten Dienstleister gerecht wird, sollte die jährliche Überwachungsgebühr im Verhältnis zum Umsatz stehen, den der IKT-Drittdienstleister in der Union mit der Erbringung von IKT-Dienstleistungen für Finanzdienstleistungskunden erzielt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "616d4fa35f1bb520f1bb12820359b3b1",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Um die Richtigkeit der Finanzinformationen sicherzustellen, die zur Berechnung des zugrunde zu legenden Umsatzes benötigt werden, sollten sämtliche von den IKT-Drittdienstleistern übermittelten Zahlen geprüft sein. Da die federführende Überwachungsbehörde Informationen über den zugrunde zu legenden Umsatz benötigt, um die Höhe der Überwachungsgebühr festzulegen, die dem einzelnen kritischen IKT-Drittdienstleister zur Deckung der Überwachungskosten jährlich in Rechnung gestellt wird, sollte die federführende Überwachungsbehörde für den Fall, dass der kritische IKT-Drittdienstleister keine Informationen über den in der Union mit der Erbringung von IKT-Dienstleistungen für Finanzunternehmen erzielten Einnahmen übermittelt, die unabhängig von der Kundenart weltweit erzielten Einnahmen des IKT-Drittdienstleisters zugrunde legen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "9e74042aa807ba3b9c453f872ce58d66",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Da für die Überwachung aller kritischen IKT-Drittdienstleister unabhängig von deren Umsatz stets bestimmte feste Verwaltungskosten anfallen, sollte von jedem kritischen IKT-Drittdienstleister eine jährliche Mindestüberwachungsgebühr erhoben werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "c60e4d65994c23fe73b610434291eb1e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Um den spezifischen Kosten im ersten Jahr der Einstufung und Überwachung kritischer IKT-Drittdienstleister, insbesondere auch den Kosten im Zusammenhang mit dem Verfahren der Einstufung und der Benennung der federführenden Überwachungsbehörde Rechnung zu tragen, sollte eine feste Gebühr vorgesehen werden. Um den Kosten Rechnung zu tragen, die nach der Einstufung eines IKT-Drittdienstleisters als kritisch für die Überwachung anfallen, sollte diese Gebühr an den Zeitraum angepasst werden, für den der IKT-Drittdienstleister im ersten Jahr als kritisch gilt. Diese Gebühr sollte die jährliche Überwachungsgebühr im betreffenden Jahr ersetzen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "37320669e94cc2a593ffef42da3a1aaf",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Um die zusätzlichen Kosten zu decken, die entstehen, wenn IKT-Drittdienstleister nach Artikel 31 Absatz 11 der Verordnung (EU) 2022/2554 freiwillig beantragen, als kritisch eingestuft zu werden, sollte eine zusätzliche feste Gebühr vorgesehen werden. Um unbegründeten Anträgen entgegenzuwirken, sollte diese zusätzliche feste Gebühr nicht erstattet werden, wenn ein IKT-Drittdienstleister seinen Antrag während des Registrierungsverfahrens zurückzieht oder der Antrag abgelehnt wird."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "0a213ac5198d44abb6ca70f171a1e272",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Um die fristgerechte Zahlung der Überwachungsgebühren sicherzustellen, sollten die Gebühren binnen 30 Tagen, nachdem die federführende Überwachungsbehörde die Zahlungsaufforderung ausgestellt hat, entrichtet werden. Um die Gebührenzahlungen zu vereinfachen und sicherzustellen, dass die Europäischen Aufsichtsbehörden über die nötigen Mittel verfügen, um ihre geplanten Überwachungstätigkeiten durchführen zu können, sollten die jährlichen Überwachungsgebühren von kritischen IKT-Drittdienstleistern, die am 1. Januar des betreffenden Jahres Gegenstand der Überwachungstätigkeiten waren, in den ersten vier Monaten des Kalenderjahres, für das die Gebühren der kritischen IKT-Drittdienstleister fällig werden, bzw. von kritischen IKT-Drittdienstleistern, die im Laufe des Jahres als kritisch eingestuft wurden, spätestens vor Ende des betreffenden Jahres in einem einzigen Betrag entrichtet werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "95910a2c4c80ebfe8f167d48fb9cc136",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Sämtliche erhobenen Gebühren sollten so festgesetzt werden, dass weder ein Defizit entsteht noch ein erheblicher Überschuss aufläuft. Kommt es wiederholt zu einem erheblichen Defizit oder Überschuss, sollte die Gebührenhöhe überprüft werden —"
+          }
+        ]
+      }
+    ]
+  }
+}

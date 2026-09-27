@@ -1,0 +1,482 @@
+{
+  "001.001": {
+    "h": "9b7e5594b927819b74526ed63b30bba5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Prüfung der in Artikel 31 Absatz 2 der Verordnung (EU) 2022/2554 festgelegten Kriterien für die Einstufung eines IKT-Drittdienstleisters als für Finanzunternehmen kritisch, gehen die Europäischen Aufsichtsbehörden nach folgendem Ansatz vor:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "In der ersten Stufe bewerten die Europäischen Aufsichtsbehörden, ob der IKT-Drittdienstleister alle in Artikel 2 Absatz 1, Artikel 3 Absatz 1 und Artikel 5 Absatz 1 genannten Unterkriterien der „Stufe 1“ erfüllt."
+          },
+          {
+            "m": "b)",
+            "t": "In der zweiten Stufe führen die Europäischen Aufsichtsbehörden für jene IKT-Drittdienstleister, die sämtliche unter Buchstabe a genannten Unterkriterien der „Stufe 1“ erfüllen, ihre Bewertung anhand der in Artikel 2 Absatz 5, Artikel 3 Absatz 4, Artikel 4 Absatz 1 und Artikel 5 Absatz 5 genannten Unterkriterien der „Stufe 2“ durch."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Abweichend von Unterabsatz 1 wird bei der Bewertung des in Artikel 31 Absatz 2 Buchstabe c der Verordnung (EU) 2022/2554 genannten Kriteriums die erste Stufe durch die Bewertung der Kriterien in Artikel 31 Absatz 2 Buchstaben a, b und d der Verordnung (EU) 2022/2554 abgedeckt."
+      }
+    ]
+  },
+  "001.002": {
+    "h": "bcfe77f5c806e97549e69055a17829d9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach Ablauf der Frist für die Übermittlung einer begründeten Erklärung nach Artikel 31 Absatz 5 Unterabsatz 1 der Verordnung (EU) 2022/2554 stufen die Europäischen Aufsichtsbehörden einen IKT-Drittdienstleister im Wege des Gemeinsamen Ausschusses und auf Empfehlung des Überwachungsforums als für Finanzunternehmen kritisch ein, wenn er alle in Absatz 1 Buchstabe a genannten Unterkriterien der „Stufe 1“ erfüllt und die Bewertung der in Absatz 1 Buchstabe b genannten Unterkriterien der „Stufe 2“ positiv ausfällt."
+      }
+    ]
+  },
+  "002.001": {
+    "h": "ea46b90734816e36bfb71b5b7aeffda6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Prüfung des in Artikel 31 Absatz 2 Buchstabe a der Verordnung (EU) 2022/2554 festgelegten Kriteriums bewerten die Europäischen Aufsichtsbehörden, ob der IKT-Drittdienstleister die folgenden Unterkriterien der „Stufe 1“ erfüllt:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Unterkriterium 1.1: von der Zahl der Finanzunternehmen jeder einzelnen in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 aufgeführten Kategorie von Finanzunternehmen der Anteil jener Finanzunternehmen, für die von ein und demselben IKT-Drittdienstleister IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen erbracht werden;"
+          },
+          {
+            "m": "b)",
+            "t": "Unterkriterium 1.2: vom Gesamtwert der Vermögenswerte der Finanzunternehmen jeder einzelnen in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 aufgeführten Kategorie von Finanzunternehmen der Anteil jener Finanzunternehmen, für die von ein und demselben IKT-Drittdienstleister IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen des Finanzunternehmens erbracht werden."
+          }
+        ]
+      }
+    ]
+  },
+  "002.002": {
+    "h": "50f48ebc6a885b18dfe8f86405197505",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das in Absatz 1 Buchstabe a genannte Unterkriterium 1.1 wird wie folgt berechnet:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Zahl der Finanzunternehmen einer in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Kategorie von Finanzunternehmen, für die IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen der Finanzunternehmen von ein und demselben IKT-Drittdienstleister erbracht werden"
+          }
+        ]
+      }
+    ]
+  },
+  "002.003": {
+    "h": "11cdf1c799b38337bc081f84499abba2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das in Absatz 1 Buchstabe b genannte Unterkriterium 1.2 wird wie folgt berechnet:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Gesamtwert der Vermögenswerte der Finanzunternehmen einer in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Kategorie von Finanzunternehmen, für die IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen der Finanzunternehmen von ein und demselben IKT-Drittdienstleister erbracht werden"
+          }
+        ]
+      }
+    ]
+  },
+  "002.004": {
+    "h": "39b38db60e709ac83c00637af0a633c7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei einem IKT-Drittdienstleister gelten die in Absatz 1 genannten Unterkriterien der „Stufe 1“ als erfüllt, wenn beide gemäß den Absätzen 2 und 3 berechneten Anteile bei mindestens einer in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Kategorie von Finanzunternehmen mindestens 10 % betragen."
+      }
+    ]
+  },
+  "002.005": {
+    "h": "7317e9c000f00d45b92d0e873aeacdda",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Prüfung des in Artikel 31 Absatz 2 Buchstabe a der Verordnung (EU) 2022/2554 festgelegten Kriteriums und sofern der IKT-Drittdienstleister die in Absatz 1 des vorliegenden Artikels genannten Unterkriterien der „Stufe 1“ erfüllt, führen die Europäischen Aufsichtsbehörden ihre Bewertung anhand der folgenden Unterkriterien der „Stufe 2“ durch:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Unterkriterium 1.3: Stärke der Auswirkungen einer Einstellung der vom IKT-Drittdienstleister erbrachten IKT-Dienstleistungen auf die Tätigkeiten und den Geschäftsbetrieb der Finanzunternehmen, die in „Stufe 1“ nach den in Absatz 1 genannten Unterkriterien ermittelt wurden, und Zahl dieser betroffenen Finanzunternehmen;"
+          },
+          {
+            "m": "b)",
+            "t": "Unterkriterium 1.4: Abhängigkeit des kritischen IKT-Drittdienstleisters von ein und denselben Unterauftragnehmern, die IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen von Finanzunternehmen erbringen."
+          }
+        ]
+      }
+    ]
+  },
+  "003.001": {
+    "h": "d962bdaed8ac2c260384ac4eb7b34784",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Prüfung des in Artikel 31 Absatz 2 Buchstabe b der Verordnung (EU) 2022/2554 festgelegten Kriteriums bewerten die Europäischen Aufsichtsbehörden, ob der IKT-Drittdienstleister die folgenden Unterkriterien der „Stufe 1“ erfüllt:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Unterkriterium 2.1: Zahl der global systemrelevanten Institute (G-SRI) und anderer systemrelevanter Institute (A-SRI), bei denen es sich um Kreditinstitute handelt, für die ein und derselbe IKT-Drittdienstleister IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen erbringt;"
+          },
+          {
+            "m": "b)",
+            "t": "Unterkriterium 2.2: Zahl der Finanzunternehmen, bei denen es sich nicht um Kreditinstitute und nicht um G-SRI und A-SRI im Sinne von Buchstabe a handelt, die von den in Artikel 46 der Verordnung (EU) 2022/2554 genannten zuständigen Behörden als systemrelevant eingestuft wurden und für die ein und derselbe IKT-Drittdienstleister IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen erbringt."
+          }
+        ]
+      }
+    ]
+  },
+  "003.002": {
+    "h": "a47e6bf6e87a898338bad4f7fdcf3f8b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei einem IKT-Drittdienstleister gilt das in Absatz 1 Buchstabe a genannte Unterkriterium als erfüllt, wenn die von ihm bereitgestellten IKT-Dienstleistungen mindestens in Anspruch genommen werden von:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "einem G-SRI oder"
+          },
+          {
+            "m": "b)",
+            "t": "mindestens drei A-SRI oder"
+          },
+          {
+            "m": "c)",
+            "t": "mindestens einem A-SRI mit einem A-SRI-Bewertungsergebnis von über 3 000, berechnet nach Artikel 131 Absatz 3 der Richtlinie 2013/36/EU des Europäischen Parlaments und des Rates ()."
+          }
+        ]
+      }
+    ]
+  },
+  "003.003": {
+    "h": "bfbc46367edbfcab499b459057ba6efd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei einem IKT-Drittdienstleister gilt das in Absatz 1 Buchstabe b genannte Unterkriterium als erfüllt, wenn die von ihm bereitgestellten IKT-Dienstleistungen mindestens in Anspruch genommen werden von:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "einem Finanzunternehmen, bei dem es sich um ein in Artikel 2 Absatz 1 Buchstaben g, h, i oder j der Verordnung (EU) 2022/2554 genanntes Finanzunternehmen handelt und das von den zuständigen Behörden als „systemrelevant“ eingestuft wird, oder"
+          },
+          {
+            "m": "b)",
+            "t": "mindestens drei Finanzunternehmen, bei denen es sich nicht um Kreditinstitute und nicht um die in Artikel 2 Absatz 1 Buchstaben g, h, i oder j der Verordnung (EU) 2022/2554 genannten Finanzunternehmen handelt und die von den zuständigen Behörden als „systemrelevant“ eingestuft werden."
+          }
+        ]
+      }
+    ]
+  },
+  "003.004": {
+    "h": "cb798b1403554fa61ad232e3888fe1c8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Prüfung des in Artikel 31 Absatz 2 Buchstabe b der Verordnung (EU) 2022/2554 festgelegten Kriteriums und sofern der IKT-Drittdienstleister die in Absatz 1 des vorliegenden Artikels genannten Unterkriterien in „Stufe 1“ erfüllt, führen die Europäischen Aufsichtsbehörden ihre Bewertung anhand des folgenden Unterkriteriums der „Stufe 2“ durch:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "—",
+            "t": "Unterkriterium 2.3: Die in die Bewertung der in Absatz 1 genannten Unterkriterien der „Stufe 1“ einbezogenen G-SRI oder A-SRI und anderen Finanzunternehmen, die IKT-Dienstleistungen desselben IKT-Drittdienstleisters in Anspruch nehmen, insbesondere auch, wenn diese G-SRI oder A-SRI Finanzinfrastrukturdienstleistungen für andere Finanzunternehmen erbringen, sind interdependent."
+          }
+        ]
+      }
+    ]
+  },
+  "005.001": {
+    "h": "a0941b4068dce97d573c26d7a54b44c4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Prüfung des in Artikel 31 Absatz 2 Buchstabe d der Verordnung (EU) 2022/2554 festgelegten Kriteriums bewerten die Europäischen Aufsichtsbehörden, ob der IKT-Drittdienstleister die folgenden Unterkriterien der „Stufe 1“ erfüllt:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Unterkriterium 4.1: von der Gesamtzahl der Finanzunternehmen jeder einzelnen in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Kategorie der Anteil jener Finanzunternehmen, für die kein alternativer IKT-Drittdienstleister mit der erforderlichen Kapazität für die Erbringung derselben IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen dieser Finanzunternehmen zur Verfügung steht, wie sie vom betreffenden IKT-Drittdienstleister erbracht werden;"
+          },
+          {
+            "m": "b)",
+            "t": "Unterkriterium 4.2: von der Gesamtzahl der Finanzunternehmen jeder einzelnen in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Kategorie von Finanzunternehmen der Anteil jener Finanzunternehmen, für die es höchst schwierig ist, eine vom betreffenden IKT-Drittdienstleister erbrachte IKT-Dienstleistung zur Unterstützung kritischer oder wichtiger Funktionen dieser Finanzunternehmen zu einem anderen IKT-Drittdienstleister zu migrieren."
+          }
+        ]
+      }
+    ]
+  },
+  "005.002": {
+    "h": "1a2e370d623f72a6ffde4772da4ad887",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das in Absatz 1 Buchstabe a genannte Unterkriterium 4.1 wird wie folgt berechnet:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Zahl der Finanzunternehmen einer in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Kategorie von Finanzunternehmen für die kein alternativer IKT-Drittdienstleister mit der erforderlichen Kapazität für die Erbringung derselben Art von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen von Finanzunternehmen zur Verfügung steht, wie sie vom betreffenden IKT-Drittdienstleister erbracht werden"
+          }
+        ]
+      }
+    ]
+  },
+  "005.003": {
+    "h": "d2c38281ef11f5e4913429b4a6864d75",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das in Absatz 1 Buchstabe b genannte Unterkriterium wird wie folgt berechnet:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Zahl der Finanzunternehmen einer in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Kategorie von Finanzunternehmen, für die es höchst schwierig ist,eine vom betreffenden IKT-Drittdienstleister erbrachte IKT-Dienstleistung zur Unterstützung kritischer oder wichtiger Funktionen von Finanzunternehmen zu einem anderen IKT-Drittdienstleister zu migrieren"
+          }
+        ]
+      }
+    ]
+  },
+  "005.004": {
+    "h": "c689a0be4e84ec1de131ffa35eca612b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei einem IKT-Drittdienstleister gelten die beiden Unterkriterien 4.1 und 4.2 als erfüllt, wenn eine der folgenden Bedingungen erfüllt ist:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "der Anteil, den die Gesamtzahl der in Absatz 1 Buchstabe a genannten Finanzunternehmen an der Gesamtzahl der Finanzunternehmen einer in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Kategorie von Finanzunternehmen ausmacht, beträgt mindestens 10 %;"
+          },
+          {
+            "m": "b)",
+            "t": "der Anteil, den die Gesamtzahl der in Absatz 1 Buchstabe b genannten Finanzunternehmen an der Gesamtzahl der Finanzunternehmen einer in Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554 genannten Kategorie von Finanzunternehmen ausmacht, beträgt mindestens 10 %."
+          }
+        ]
+      }
+    ]
+  },
+  "005.005": {
+    "h": "6632a8c24f9af2999659a0c4aaee4303",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Prüfung des in Artikel 31 Absatz 2 Buchstabe d der Verordnung (EU) 2022/2554 festgelegten Kriteriums und sofern der IKT-Drittdienstleister die in Absatz 1 des vorliegenden Artikels genannten Unterkriterien der „Stufe 1“ erfüllt, führen die Europäischen Aufsichtsbehörden ihre Bewertung anhand des in Artikel 31 Absatz 2 Buchstabe d Ziffer i der Verordnung (EU) 2022/2554 festgelegten Unterkriteriums der „Stufe 2“ durch."
+      }
+    ]
+  },
+  "006.001": {
+    "h": "cf8237d90e9952e8b3d25c9f0b345ee5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Bewertung der in den Artikeln 2 bis 5 genannten Unterkriterien ziehen die Europäischen Aufsichtsbehörden die Daten aus den in Artikel 28 Absatz 3 der Verordnung (EU) 2022/2554 genannten Informationsregistern heran. Für die Kritikalitätsbewertung können die Europäischen Aufsichtsbehörden auch weitere verfügbare Daten aus allen anderen Informationsquellen heranziehen."
+      }
+    ]
+  },
+  "006.002": {
+    "h": "a94300bb0bb46f367075c20906cd9abe",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Europäischen Aufsichtsbehörden berücksichtigen die neuesten Daten, die ihnen im Bewertungsjahr zur Verfügung stehen, oder, falls anwendbar, die Daten, die ihnen spätestens zum 31. Dezember des der Kritikalitätsbewertung vorausgehenden Jahres zur Verfügung gestellt wurden."
+      }
+    ]
+  },
+  "art_4": {
+    "h": "815c42900a29968a4deecaae7e75caac",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Prüfung des in Artikel 31 Absatz 2 Buchstabe c der Verordnung (EU) 2022/2554 festgelegten Kriteriums führen die Europäischen Aufsichtsbehörden ihre Bewertung anhand des folgenden Unterkriteriums der „Stufe 2“ durch:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "—",
+            "t": "Unterkriterium 3.1: Die letztlich vom selben IKT-Drittdienstleister erbrachten IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen von Finanzunternehmen sind für die Tätigkeiten der Finanzunternehmen von kritischer Bedeutung."
+          }
+        ]
+      }
+    ]
+  },
+  "art_7": {
+    "h": "7b498a0d7257b9e16536f2da6f30bf07",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      },
+      {
+        "art": "p",
+        "t": "Jedoch wendet die federführende Überwachungsbehörde das in Artikel 2 Absatz 5 Buchstabe b genannte Unterkriterium 1.4 ab dem 16. Januar 2025 an."
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "448830e3b6b3c4820e5328784d99e9e6",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 31 Absatz 6,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "a53a2e02d9496ee7e494db3d7fdb1c34",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Um zu beurteilen, ob ein IKT-Drittdienstleister für Finanzunternehmen kritisch ist, sollten die Europäischen Aufsichtsbehörden (ESA) unter Berücksichtigung der Kriterien in Artikel 31 Absatz 2 der Verordnung (EU) 2022/2554 im Rahmen eines zweistufigen Bewertungsansatzes Unterkriterien heranziehen. Angesichts der Vielzahl von IKT-Dienstleistungen und der Vielfalt und Zahl der Finanzinstitute, die diese Dienstleistungen nutzen, sollte ein solcher zweistufiger Ansatz zur Anwendung kommen, um die Population der IKT-Drittdienstleister zu filtern und jene IKT-Drittdienstleister zu ermitteln, die am kritischsten sind. Die in Stufe 1 der Bewertung anzulegenden quantitativen Unterkriterien sind notwendig, um eine erste Auswahl der IKT-Drittdienstleister zu treffen, bei denen eine weitere eingehende Analyse anhand der in Stufe 2 der Bewertung heranzuziehenden qualitativen Unterkriterien relevant ist."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "217dcbd2f944b660afbbeb6c5eac9caf",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Inwieweit eine von einem IKT-Drittdienstleister bereitgestellte IKT-Dienstleistung kritische oder wichtige Funktionen des Finanzunternehmens unterstützt, wird generell als zentrales Element der Kritikalitätsbewertung erachtet. Daher sollte die Bedeutung der durch IKT-Dienstleistungen unterstützten Tätigkeiten der Finanzunternehmen in alle Unterkriterien der Stufe 1 einfließen. Folglich sollte in Stufe 1 der Bewertung keine gesonderte quantitative Beurteilung der Kritikalität der Funktionen der Finanzunternehmen vorgenommen werden. Stattdessen sollten die Europäischen Aufsichtsbehörden die Kritikalität und Bedeutung der durch IKT-Dienstleistungen unterstützten Funktionen der Finanzunternehmen in der qualitativen zweiten Bewertungsstufe berücksichtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "4bfd3beec4fffae99d5ec1eac3c5f50a",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Die Bewertung sollte für jeden einzelnen IKT-Drittdienstleister oder, sofern anwendbar, für jede einzelne Gruppe von IKT-Drittdienstleistern vorgenommen werden, falls der IKT-Drittdienstleister im Sinne von Artikel 31 Absatz 3 der Verordnung (EU) 2022/2554 einer Gruppe angehört. Um eine umfassende Bewertung der potenziellen systemischen Auswirkungen auf den Finanzsektor der Union zu ermöglichen, sollten die IKT-Unterauftragnehmer von IKT-Drittdienstleistern ebenfalls der Bewertung durch die Europäischen Aufsichtsbehörden unterzogen und gegebenenfalls als kritische IKT-Drittdienstleister eingestuft werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "69725ca6a4a003e176b167df16ded187",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Um die systemischen Auswirkungen des IKT-Drittdienstleisters auf die Stabilität, Kontinuität oder Qualität der Erbringung von Finanzdienstleistungen zu ermitteln, ist es überaus wichtig, sich ein klares Bild von Ausmaß und Art der systemischen Auswirkungen zu verschaffen, die eine umfassende Betriebsstörung bei einem IKT-Drittdienstleister auf die Finanzunternehmen, die die von einem IKT-Drittdienstleister erbrachten Dienstleistungen in Anspruch nehmen, und auf das Finanzsystem hätte. Deshalb sollte berücksichtigt werden, wie viele Finanzunternehmen einer bestimmten Kategorie von Finanzunternehmen dieselben IKT-Dienste nutzen und auf welchen Wert sich ihre Vermögenswerte belaufen, damit beurteilt werden kann, ob ein IKT-Drittdienstleister, der die betreffenden IKT-Dienstleistungen erbringt, als kritisch eingestuft werden sollte. Darüber hinaus sollte eine qualitative Bewertung der systemischen Bedeutung und der Verflechtungen der IKT-Drittdienstleister sowie der Bedeutung der von einem IKT-Drittdienstleister erbrachten Dienstleistungen für die Erbringung von Finanzdienstleistungen durch Finanzunternehmen unter Berücksichtigung der Stabilität und Kontinuität der Dienstleistungen durchgeführt werden, um die systemischen Auswirkungen des IKT-Drittdienstleisters auf die Tätigkeiten der Finanzunternehmen zu ermitteln."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "8f63228070277d7b624f89bdc5f6dcaa",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Um den systemischen Charakter und die Bedeutung der Finanzunternehmen, die die IKT-Dienstleistungen in Anspruch nehmen, zu ermitteln, gilt es zu berücksichtigen, um welche Art von Finanzunternehmen es sich handelt. Nehmen als G-SRI und A-SRI oder als „systemrelevant“ eingestufte Finanzunternehmen zur Unterstützung kritischer oder wichtiger Funktionen ein und dieselben IKT-Dienstleistungen in Anspruch, sollte bewertet werden, ob der IKT-Drittdienstleister, der diese Dienstleistungen erbringt, für den Finanzsektor der Union als kritisch eingestuft werden sollte. Die Verflechtungen zwischen jenen Finanzunternehmen innerhalb des Finanzsektors der Union, die IKT-Dienstleistungen ein und desselben IKT-Drittdienstleisters in Anspruch nehmen, sollten ebenfalls bewertet werden, um die Abhängigkeit der Finanzunternehmen von diesem IKT-Drittdienstleister festzustellen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "9685822f173d2df25d008aa0b6038a76",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Die IKT-Dienstleistungen, die kritische oder wichtige Funktionen von Finanzunternehmen unterstützen, sollten mit Blick auf ihre Art und ihren kritischen Charakter dahin gehend bewertet werden, ob sie notwendig sind, damit die Finanzunternehmen ihre Tätigkeiten ohne Störungen ausüben können."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "e73239722af38591bfc405a6ccb2fda5",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Um den Grad der Substituierbarkeit des IKT-Drittdienstleisters zu ermitteln, müssen bei der von den Europäischen Aufsichtsbehörden durchzuführenden Bewertung die Zahl der auf einem bestimmten Markt tätigen IKT-Drittdienstleister, die Existenz alternativer Lösungen für ein und dieselbe IKT-Dienstleistung sowie die Kosten einer Migration von Daten und IKT-Arbeitslasten zu einem anderen IKT-Drittdienstleister berücksichtigt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "f952d04981a581f145c9edb02fa46790",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Um die Solidität des Bewertungsprozesses zu gewährleisten, ist es wichtig, dass sich die Europäischen Aufsichtsbehörden bei der Bewertung, ob IKT-Drittdienstleister als kritisch eingestuft werden sollten, auf die Daten aus den in Artikel 28 Absatz 3 der Verordnung (EU) 2022/2554 genannten Informationsregistern sowie alle sonstigen leicht verfügbaren Informationen stützen —"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,39 @@
+# Veroeffentlicht die Seite ueber die normalen Actions-Runner statt ueber den alten
+# Pages-Bauweg ("Deploy from a branch"). Erfahrung aus dem Schwesterprojekt: dort wurde
+# der Build-Job wiederholt von keinem Runner angenommen, blieb stundenlang "queued" und
+# endete mit dauer=0 auf "errored". Hier faellt ausserdem der Jekyll-Schritt weg - der
+# Ordner geht 1:1 online, inklusive daten/.
+name: Seite veroeffentlichen
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:        # erlaubt einen Deploy von Hand, ohne leeren Commit
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Laeuft ein Deploy schon, darf der naechste ihn nicht ueberholen – aber warten statt abbrechen,
+# damit ein Push nicht den gerade laufenden Livegang der vorherigen Version wegraeumt.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/configure-pages@v5
+      - name: Ordner als Artefakt packen
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Veroeffentlichen
+        id: deployment
+        uses: actions/deploy-pages@v4

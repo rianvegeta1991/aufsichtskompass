@@ -1,0 +1,19 @@
+{
+  "regelwerk": "dora",
+  "fassungen": [
+    {
+      "id": "2024-10-15",
+      "stand": "Tue, 15 Oct 2024 11:53:52 GMT",
+      "abgerufen": "2026-09-27T10:10:22Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32022R2554",
+        "celex": "32022R2554",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20241015135352000\"",
+      "hash": "424fa29d41b4f5253198591dac783968a7a05a3f13cee2af9ee4e880d7ffdfaa",
+      "fundstellen": 379
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "005.001": {
+    "h": "70bd324c89756186dbc9ec23852afb6e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen übermitteln die Erst-, Zwischen- und Abschlussmeldung gemäß Artikel 19 Absatz 4 Buchstaben a, b und c der Verordnung (EU) 2022/2554 innerhalb der folgenden Fristen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "bei der Erstmeldung: so früh wie möglich, in jedem Fall aber innerhalb von vier Stunden nach Einstufung des IKT-bezogenen Vorfalls als schwerwiegend und spätestens 24 Stunden nach dem Zeitpunkt, zu dem das Finanzunternehmen Kenntnis von dem IKT-bezogenen Vorfall erlangt hat,"
+          },
+          {
+            "m": "b)",
+            "t": "bei der Zwischenmeldung: spätestens 72 Stunden nach Übermittlung der Erstmeldung, auch wenn sich gemäß Artikel 19 Absatz 4 Buchstabe b der Verordnung (EU) 2022/2554 der Status oder die Handhabung des Vorfalls nicht geändert hat. Die Finanzunternehmen übermitteln unverzüglich etwaige aktualisierte Zwischenmeldungen, in jedem Fall aber, sobald der reguläre Geschäftsbetrieb wiederaufgenommen wurde,"
+          },
+          {
+            "m": "c)",
+            "t": "bei der Abschlussmeldung: spätestens einen Monat nach Übermittlung der Zwischenmeldung oder gegebenenfalls nach der letzten aktualisierten Zwischenmeldung."
+          }
+        ]
+      }
+    ]
+  },
+  "005.002": {
+    "h": "304441815686200f3215202fb56f9502",
+    "b": [
+      {
+        "art": "p",
+        "t": "Hat das Finanzunternehmen einen IKT-bezogenen Vorfall nicht innerhalb von 24 Stunden nach dem Zeitpunkt, zu dem es Kenntnis von dem IKT-bezogenen Vorfall erlangt hat, sondern erst zu einem späteren Zeitpunkt als schwerwiegend eingestuft, übermittelt es die Erstmeldung innerhalb von vier Stunden, nachdem es den IKT-bezogenen Vorfall als schwerwiegend eingestuft hat."
+      }
+    ]
+  },
+  "005.003": {
+    "h": "881eeaad8ef9e5ec1c6a72f549e60f83",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen, die nicht in der Lage sind, die Erstmeldung, die Zwischenmeldung oder die Abschlussmeldung innerhalb der in Absatz 1 genannten Fristen zu übermitteln, teilen dies der zuständigen Behörde unverzüglich, spätestens jedoch innerhalb der jeweiligen Fristen für die Übermittlung der Meldung mit und geben die Gründe für die Verzögerung an."
+      }
+    ]
+  },
+  "005.004": {
+    "h": "452e64f6eaf3426484d5cc398af07338",
+    "b": [
+      {
+        "art": "p",
+        "t": "Fällt die Frist für die Übermittlung der Erstmeldung, der Zwischenmeldung oder der Abschlussmeldung auf ein Wochenende oder einen Feiertag im Mitgliedstaat des meldenden Finanzunternehmens, so kann das Finanzunternehmen die Erstmeldung, die Zwischenmeldung oder die Abschlussmeldung bis 12.00 Uhr des darauffolgenden Arbeitstages übermitteln."
+      }
+    ]
+  },
+  "005.005": {
+    "h": "201eb05b7d42b8debeededd291187643",
+    "b": [
+      {
+        "art": "p",
+        "t": "Absatz 4 gilt nicht für die Übermittlung einer Erstmeldung oder einer Zwischenmeldung durch Kreditinstitute, zentrale Gegenparteien, Betreiber von Handelsplätzen und andere Finanzunternehmen, die gemäß Artikel 3 der Richtlinie (EU) 2022/2555 als wesentliche oder wichtige Einrichtungen eingestuft sind."
+      }
+    ]
+  },
+  "005.006": {
+    "h": "b9f768134333bebac70a718916650c02",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die zuständigen Behörden können beschließen, dass Absatz 4 nicht für die Übermittlung einer Erstmeldung oder einer Zwischenmeldung durch andere Finanzinstitute als die in Absatz 5 genannten gilt, die bedeutend oder für den Finanzsektor auf nationaler oder Unionsebene systemrelevant sind. Die zuständigen Behörden teilen den betreffenden Finanzunternehmen ihren Beschluss mit. Der Beschluss der zuständigen Behörde gilt nur für Vorfälle, die sich ereignet haben, nachdem die zuständige Behörde den betreffenden Finanzunternehmen ihre Entscheidung mitgeteilt hat."
+      }
+    ]
+  },
+  "art_1": {
+    "h": "0e92a61dfc83cd7dfa115695a84c753e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen nehmen in die Erstmeldung, die Zwischenmeldung und die Abschlussmeldung gemäß Artikel 19 Absatz 4 der Verordnung (EU) 2022/2554 die folgenden allgemeinen Informationen auf:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Art der Übermittlung (Erstmeldung, Zwischenmeldung oder Abschlussmeldung),"
+          },
+          {
+            "m": "b)",
+            "t": "Name des Finanzunternehmens, seinen LEI-Code und Art des Finanzunternehmens gemäß Artikel 2 Absatz 1 der Verordnung (EU) 2022/2554,"
+          },
+          {
+            "m": "c)",
+            "t": "Name und Identifikationscode des Unternehmens, das die Erst-, Zwischen- oder Abschlussmeldung für das Finanzunternehmen übermittelt,"
+          },
+          {
+            "m": "d)",
+            "t": "gegebenenfalls Namen und LEI-Codes aller Finanzunternehmen, die in der aggregierten Erst-, Zwischen- oder Abschlussmeldung erfasst sind,"
+          },
+          {
+            "m": "e)",
+            "t": "Kontaktdaten der Personen, die für die Kommunikation mit der zuständigen Behörde über den schwerwiegenden IKT-bezogenen Vorfall verantwortlich sind,"
+          },
+          {
+            "m": "f)",
+            "t": "gegebenenfalls Angabe des Mutterunternehmens der Gruppe, der das Finanzunternehmen angehört,"
+          },
+          {
+            "m": "g)",
+            "t": "bei monetären Auswirkungen die Währung, in der die Beträge angegeben werden."
+          }
+        ]
+      }
+    ]
+  },
+  "art_2": {
+    "h": "f837163d759f4905009df61b27ac406e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Erstmeldungen gemäß Artikel 19 Absatz 4 Buchstabe a der Verordnung (EU) 2022/2554 enthalten mindestens alle nachfolgend genannten spezifischen Informationen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "vom Finanzunternehmen zugewiesener Referenzcode des Vorfalls,"
+          },
+          {
+            "m": "b)",
+            "t": "Datum und Uhrzeit der Erkennung des Vorfalls sowie dessen Einstufung gemäß Artikel 8 der Delegierten Verordnung (EU) 2024/1772 der Kommission (),"
+          },
+          {
+            "m": "c)",
+            "t": "Beschreibung des IKT-bezogenen Vorfalls,"
+          },
+          {
+            "m": "d)",
+            "t": "in den Artikeln 1 bis 8 der Delegierten Verordnung (EU) 2024/1772 festgelegte Kriterien, auf deren Grundlage das Finanzunternehmen den IKT-bezogenen Vorfall als schwerwiegend eingestuft hat,"
+          },
+          {
+            "m": "e)",
+            "t": "Mitgliedstaaten, die von dem IKT-bezogenen Vorfall betroffen sind,"
+          },
+          {
+            "m": "f)",
+            "t": "Angaben dazu, wie der IKT-bezogene Vorfall erkannt wurde,"
+          },
+          {
+            "m": "g)",
+            "t": "soweit verfügbar, Angaben zum Ursprung des IKT-bezogenen Vorfalls,"
+          },
+          {
+            "m": "h)",
+            "t": "Angaben dazu, ob das Finanzunternehmen einen Geschäftsfortführungsplan aktiviert hat,"
+          },
+          {
+            "m": "i)",
+            "t": "gegebenenfalls Angaben zur Neueinstufung des schwerwiegenden IKT-bezogenen Vorfalls als nicht schwerwiegend,"
+          },
+          {
+            "m": "j)",
+            "t": "soweit verfügbar, sonstige zweckdienliche Informationen."
+          }
+        ]
+      }
+    ]
+  },
+  "art_3": {
+    "h": "b7df5596af31f31a9fc5e79bb64e5046",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zwischenmeldungen gemäß Artikel 19 Absatz 4 Buchstabe b der Verordnung (EU) 2022/2554 enthalten mindestens alle nachfolgend genannten spezifischen Informationen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "gegebenenfalls den von der zuständigen Behörde für den Vorfall mitgeteilten Referenzcode,"
+          },
+          {
+            "m": "b)",
+            "t": "Datum und Uhrzeit des Eintretens des IKT-bezogenen Vorfalls,"
+          },
+          {
+            "m": "c)",
+            "t": "gegebenenfalls Datum und Uhrzeit der Wiederaufnahme des regulären Geschäftsbetriebs des Finanzunternehmens,"
+          },
+          {
+            "m": "d)",
+            "t": "Angaben dazu, inwieweit die in den Artikeln 1 bis 8 der Delegierten Verordnung (EU) 2024/1772 festgelegten Kriterien, auf deren Grundlage das Finanzunternehmen den IKT-bezogenen Vorfall als schwerwiegend eingestuft hat, erfüllt sind,"
+          },
+          {
+            "m": "e)",
+            "t": "Art des IKT-bezogenen Vorfalls,"
+          },
+          {
+            "m": "f)",
+            "t": "gegebenenfalls vom Angreifer artikulierte Bedrohungen und eingesetzte Techniken,"
+          },
+          {
+            "m": "g)",
+            "t": "betroffene Funktionsbereiche und Geschäftsprozesse,"
+          },
+          {
+            "m": "h)",
+            "t": "betroffene Infrastrukturkomponenten, die Geschäftsprozesse unterstützen,"
+          },
+          {
+            "m": "i)",
+            "t": "Auswirkungen auf die finanziellen Interessen von Kunden,"
+          },
+          {
+            "m": "j)",
+            "t": "Angaben zur Meldung des IKT-bezogenen Vorfalls an andere Behörden,"
+          },
+          {
+            "m": "k)",
+            "t": "befristete Maßnahmen, die das Finanzunternehmen ergriffen hat oder zu ergreifen beabsichtigt, um sich von dem IKT-bezogenen Vorfall zu erholen,"
+          },
+          {
+            "m": "l)",
+            "t": "gegebenenfalls Angaben zu Kompromittierungsindikatoren."
+          }
+        ]
+      }
+    ]
+  },
+  "art_4": {
+    "h": "5db7907182e5ac3482942c10707ca531",
+    "b": [
+      {
+        "art": "p",
+        "t": "Abschlussmeldungen gemäß Artikel 19 Absatz 4 Buchstabe c der Verordnung (EU) 2022/2554 enthalten mindestens alle nachfolgend genannten spezifischen Informationen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Angaben zu den Ursachen des IKT-bezogenen Vorfalls,"
+          },
+          {
+            "m": "b)",
+            "t": "Datum und Uhrzeit der Behebung des IKT-bezogenen Vorfalls sowie der Beseitigung der zugrunde liegenden Ursache(n),"
+          },
+          {
+            "m": "c)",
+            "t": "Angaben dazu, wie dem IKT-bezogenen Vorfall entgegengewirkt wurde,"
+          },
+          {
+            "m": "d)",
+            "t": "gegebenenfalls Informationen, die für die Abwicklungsbehörden relevant sind,"
+          },
+          {
+            "m": "e)",
+            "t": "Angaben zu direkten und indirekten Kosten und Verlusten, die infolge des IKT-bezogenen Vorfalls entstanden sind, und Angaben zu finanziellen Wiedereinziehungen,"
+          },
+          {
+            "m": "f)",
+            "t": "gegebenenfalls Angaben zu wiederholten IKT-bezogenen Vorfällen."
+          }
+        ]
+      }
+    ]
+  },
+  "art_6": {
+    "h": "d79d4651b62fbc5e61cb04e6212c5c32",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine freiwillige Meldung in Bezug auf erhebliche Cyberbedrohungen gemäß Artikel 19 Absatz 2 der Verordnung (EU) 2022/2554 umfasst Folgendes:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "allgemeine Angaben zu dem meldenden Finanzunternehmen gemäß Artikel 1,"
+          },
+          {
+            "m": "b)",
+            "t": "Datum und Uhrzeit der Erkennung einer erheblichen Cyberbedrohung und sonstige relevante Zeitstempel im Zusammenhang mit der erheblichen Cyberbedrohung,"
+          },
+          {
+            "m": "c)",
+            "t": "Beschreibung der erheblichen Cyberbedrohung,"
+          },
+          {
+            "m": "d)",
+            "t": "Angaben zu den möglichen Auswirkungen der erheblichen Cyberbedrohung auf das Finanzunternehmen, seine Kunden oder Gegenparteien im Finanzbereich,"
+          },
+          {
+            "m": "e)",
+            "t": "Einstufungskriterien, die die Meldung eines schwerwiegenden Vorfalls gemäß den Artikeln 1 bis 8 der Delegierten Verordnung (EU) 2024/1772 ausgelöst hätten, wenn die Cyberbedrohung eingetreten wäre,"
+          },
+          {
+            "m": "f)",
+            "t": "Angaben zum Status der erheblichen Cyberbedrohung und dazu, ob sich die Bedrohungsaktivität verändert hat,"
+          },
+          {
+            "m": "g)",
+            "t": "gegebenenfalls Beschreibung der Maßnahmen, die das Finanzunternehmen ergriffen hat, um das Eintreten erheblicher Cyberbedrohungen zu verhindern,"
+          },
+          {
+            "m": "h)",
+            "t": "Angabe dazu, ob andere Finanzunternehmen oder Behörden über die erhebliche Cyberbedrohung benachrichtigt wurden,"
+          },
+          {
+            "m": "i)",
+            "t": "gegebenenfalls Angaben zu Kompromittierungsindikatoren,"
+          },
+          {
+            "m": "j)",
+            "t": "soweit verfügbar, sonstige zweckdienliche Informationen."
+          }
+        ]
+      }
+    ]
+  },
+  "art_7": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "79f1412cb3b64e4c5dea4f55e7fb39a2",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 20 Absatz 3,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "8f5dc4b061d2f7aaf14b0f8e5449ccf5",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Um eine Harmonisierung und Vereinfachung der in Artikel 19 Absatz 4 der Verordnung (EU) 2022/2554 genannten Meldungen und Meldepflichten bei schwerwiegenden IKT-bezogenen Vorfällen sicherzustellen, sollten die Fristen für die Meldung schwerwiegender IKT-bezogener Vorfälle für alle Arten von Finanzunternehmen einem einheitlichen Ansatz folgen. Aus demselben Grund sollten die Fristen so weit wie möglich auch mit dem mit den Anforderungen der Richtlinie (EU) 2022/2555 des Europäischen Parlaments und des Rates () verfolgten Ansatz in Einklang stehen oder zumindest eine gleichwertige Wirkung haben."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "74736c6c40ac8747554b281b981dfa12",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Um die Finanzunternehmen zu dem Zeitpunkt, zu dem sie mit dem IKT-bezogenen Vorfall beschäftigt sind, nicht zusätzlich mit unangemessenem Meldeaufwand zu belasten, sollte sich der Inhalt der Erstmeldung auf die wichtigsten Informationen beschränken. Um angemessene Aufsichtsmaßnahmen ergreifen zu können, benötigen die zuständigen Behörden schnellstmöglich Informationen zu schwerwiegenden IKT-bezogenen Vorfällen, sobald das Finanzunternehmen einen solchen Vorfall als schwerwiegend eingestuft hat. Folglich sollte die Frist für die Übermittlung einer in Artikel 19 Absatz 4 Buchstabe a der Verordnung (EU) 2022/2554 genannten Erstmeldung nach Einstufung eines IKT-bezogenen Vorfalls als schwerwiegend so kurz wie möglich sein, wobei jedoch Finanzunternehmen, die für einen IKT-bezogenen Vorfall mehr Zeit benötigen, nachdem sie von diesem Kenntnis erlangt haben, Spielraum gewährt werden sollte, insbesondere bei nicht betont zeitkritischen Geschäftsmodellen im Dienstleistungssektor."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "9d253386fe9999acebeda05f1e81eeff",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Nach Eingang der Erstmeldung sollten die zuständigen Behörden in der Zwischenmeldung ausführlichere Informationen über den IKT-bezogenen Vorfall und in der Abschlussmeldung dann alle relevanten Informationen erhalten. Die in diesen Meldungen enthaltenen Informationen sollten es den zuständigen Behörden ermöglichen, den IKT-bezogenen Vorfall weiter zu bewerten und etwaige Aufsichtsmaßnahmen, die sie ergreifen möchten, zu prüfen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "83def1725c2aa631d8bc13753a28ee9c",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Die in Artikel 20 Absatz 1 Buchstabe a Ziffer ii der Verordnung (EU) 2022/2554 genannten Meldefristen sollten daher sicherstellen, dass die zuständigen Behörden die Informationen rasch erhalten, zugleich aber auch gewährleisten, dass den Finanzunternehmen ausreichend Zeit zur Verfügung steht, um sich vollständige und genaue Informationen zu beschaffen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "6979f814c3537b3cb3f069df0120f0e6",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Unter Berücksichtigung der in Artikel 20 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 festgelegten Kriterien sollten die Meldefristen keine unverhältnismäßige Belastung für Kleinstunternehmen und andere nicht bedeutende Finanzunternehmen darstellen. Um eine unverhältnismäßige Belastung für Finanzunternehmen zu vermeiden, sollten die Meldefristen darüber hinaus Wochenenden und Feiertage berücksichtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "94709adf060aa30fc4bd50c8906d1a02",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Da erhebliche Cyberbedrohungen auf freiwilliger Basis gemeldet werden, sollte der Inhalt solcher Meldungen keine Belastung für die Finanzunternehmen darstellen und weniger Informationen enthalten müssen als bei schwerwiegenden IKT-bezogenen Vorfällen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "452b53136a7056d09eae8fb3d1ec57b4",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Diese Verordnung beruht auf dem Entwurf technischer Regulierungsstandards, der der Kommission von den Europäischen Aufsichtsbehörden übermittelt wurde."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "3a6cfbb74a896ba9cd0cf9cff56fce38",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Die Europäischen Aufsichtsbehörden haben zu diesem Entwurf öffentliche Konsultationen durchgeführt, die damit verbundenen potenziellen Kosten- und Nutzeneffekte analysiert und die Stellungnahme der nach Artikel 37 der Verordnungen (EU) Nr. 1093/2010 (), (EU) Nr. 1094/2010 () und (EU) Nr. 1095/2010 () des Europäischen Parlaments und des Rates eingesetzten Interessengruppen eingeholt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "f4d75e25f2c6af9879429aa9d1c0dab7",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Der Europäische Datenschutzbeauftragte wurde gemäß Artikel 42 Absatz 1 der Verordnung (EU) 2018/1725 des Europäischen Parlaments und des Rates () konsultiert und gab am 22. Juli 2024 eine befürwortende Stellungnahme ab. Jede Verarbeitung personenbezogener Daten im Rahmen dieser Verordnung sollte im Einklang mit den einschlägigen Datenschutzgrundsätzen und den Bestimmungen der Verordnung (EU) 2018/1725 erfolgen —"
+          }
+        ]
+      }
+    ]
+  }
+}

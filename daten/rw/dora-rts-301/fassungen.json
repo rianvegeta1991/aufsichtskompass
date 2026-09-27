@@ -1,0 +1,19 @@
+{
+  "regelwerk": "dora-rts-301",
+  "fassungen": [
+    {
+      "id": "2025-02-20",
+      "stand": "Thu, 20 Feb 2025 01:52:59 GMT",
+      "abgerufen": "2026-09-27T10:10:24Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32025R0301",
+        "celex": "32025R0301",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20250220025259000\"",
+      "hash": "14950e915e086f2e05d6a6d950d74893d6c375e09ab0a3b43765253322ac6696",
+      "fundstellen": 23
+    }
+  ]
+}

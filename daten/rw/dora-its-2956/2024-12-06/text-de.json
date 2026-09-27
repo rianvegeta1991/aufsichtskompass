@@ -1,0 +1,520 @@
+{
+  "003.001": {
+    "h": "ab592f0b86746d8a445eebdad5a8e62c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen führen und aktualisieren das Informationsregister gemäß Artikel 28 Absatz 3 der Verordnung (EU) 2022/2554 auf Unternehmensebene oder auf teilkonsolidierter und konsolidierter Ebene unter Verwendung der in den Anhängen I bis IV enthaltenen Vorlagen."
+      }
+    ]
+  },
+  "003.002": {
+    "h": "3caba688841d535db75924a0b04378ae",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen stellen sicher, dass die in Absatz 1 genannten Vorlagen alle nachstehenden Angaben enthalten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die einschlägigen Informationen in Bezug auf sämtliche IKT-Dienstleistungen, die von direkten IKT-Drittdienstleistern erbracht werden,"
+          },
+          {
+            "m": "b)",
+            "t": "Informationen über alle Unterauftragnehmer, die IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen oder wesentlicher Bereiche davon sicherstellen."
+          }
+        ]
+      }
+    ]
+  },
+  "003.003": {
+    "h": "a098eccf4ac0e08eb260becaca5402be",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen stellen sicher, dass die Angaben in den in Absatz 1 genannten Vorlagen korrekt und kohärent sind. Die Finanzunternehmen überprüfen die in den Vorlagen enthaltenen Angaben regelmäßig und korrigieren unverzüglich festgestellte Fehler oder Unstimmigkeiten."
+      },
+      {
+        "art": "p",
+        "t": "Im Falle von Gruppen stellen die Finanzunternehmen, die für die Führung und Aktualisierung des Informationsregisters auf teilkonsolidierter und konsolidierter Ebene zuständig sind, sicher, dass die Angaben in Bezug auf die Unternehmensebene in der Konsolidierung korrekt sind und mit den Angaben auf teilkonsolidierter und konsolidierter Ebene übereinstimmen."
+      }
+    ]
+  },
+  "003.004": {
+    "h": "4c77ca513a4522978972d352427ae7cc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen stellen sicher, dass die Angaben in den in Absatz 1 genannten Vorlagen den folgenden Grundsätzen der Datenqualität entsprechen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Richtigkeit"
+          },
+          {
+            "m": "b)",
+            "t": "Vollständigkeit"
+          },
+          {
+            "m": "c)",
+            "t": "Kohärenz"
+          },
+          {
+            "m": "d)",
+            "t": "Integrität"
+          },
+          {
+            "m": "e)",
+            "t": "Einheitlichkeit"
+          },
+          {
+            "m": "f)",
+            "t": "Gültigkeit"
+          }
+        ]
+      }
+    ]
+  },
+  "003.005": {
+    "h": "420d7e5d34071e158b7f55fc69a02de8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen verwenden eine gültige und aktive Rechtsträgerkennung (Legal Entity Identifier, im Folgenden „LEI“) oder die in Artikel 16 der Richtlinie (EU) 2017/1132 genannte europäische einheitliche Kennung (European Unique Identifier, im Folgenden „EUID“) bzw., sofern vorhanden, beide Kennungen, um alle ihre IKT-Drittdienstleister, bei denen es sich um juristische Personen handelt, zu identifizieren, mit Ausnahme von natürlichen Personen, die als Unternehmer handeln."
+      }
+    ]
+  },
+  "003.006": {
+    "h": "2cf098946c43fd3a70cd214b55496bb8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wenn eine IKT-Dienstleistung, die von einem direkten IKT-Drittdienstleister erbracht wird, eine kritische oder wichtige Funktion der Finanzunternehmen unterstützt, stellen die Finanzunternehmen über den direkten IKT-Drittdienstleister sicher, dass alle Unterauftragnehmer des direkten IKT-Drittdienstleisters, die im Informationsregister gemäß Absatz 2 Buchstabe b aufgeführt sind und IKT-Dienstleistungen, die kritische oder wichtige Funktionen unterstützen, sicherstellen/unterstützen, eine gültige und aktive LEI verwenden oder ihre EUID bzw., sofern vorhanden, beide Kennungen bereitstellen, es sei denn, bei diesen Unterauftragnehmern handelt es sich um natürliche Personen, die als Unternehmer handeln."
+      }
+    ]
+  },
+  "004.001": {
+    "h": "c0e0ba57cc59a03b5000dafd9021ecf7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sofern in der Anleitung nichts anderes bestimmt ist, bestehen alle Vorlagen, aus denen sich das Informationsregister zusammensetzt, aus einer Tabelle mit einer vorgegebenen Anzahl von Spalten und einer unbestimmten Anzahl von Zeilen."
+      }
+    ]
+  },
+  "004.002": {
+    "h": "bc20ae85d7278803d9565ff3342c47e9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen müssen zu jedem Datenelement einen Einzelwert angeben. Sind bei einem bestimmten Datenelement mehrere Werte gültig, so fügen die Finanzunternehmen in der entsprechenden Vorlage für jeden gültigen Wert eine zusätzliche Zeile hinzu."
+      }
+    ]
+  },
+  "004.003": {
+    "h": "df6a163b759d64fd836bd9f3d6853e3c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen geben alle Datenelemente im Informationsregister auf Unternehmensebene bzw. gegebenenfalls auf teilkonsolidierter und konsolidierter Ebene an."
+      }
+    ]
+  },
+  "005.001": {
+    "h": "8d32c4565284f9c7cc6bbb6c84a3bdf2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen nehmen in das Informationsregister gemäß der Anleitung in Anhang I folgende Angaben auf:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "allgemeine Informationen über das Finanzunternehmen, das das Informationsregister auf Unternehmensebene bzw. auf teilkonsolidierter oder konsolidierter Ebene führt und aktualisiert, gemäß Vorlage B_01.01 in Anhang I,"
+          },
+          {
+            "m": "b)",
+            "t": "allgemeine Informationen zu den in der Konsolidierung befindlichen Unternehmen gemäß Vorlage B_01.02 in Anhang I,"
+          },
+          {
+            "m": "c)",
+            "t": "gegebenenfalls Angabe der Zweigniederlassungen von Finanzunternehmen, die außerhalb des in der Vorlage B_01.02 aufgeführten Sitzlandes ansässig sind, gemäß Vorlage B_01.03 in Anhang I,"
+          },
+          {
+            "m": "d)",
+            "t": "allgemeine Informationen zu den vertraglichen Vereinbarungen gemäß Vorlage B_02.01 in Anhang I,"
+          },
+          {
+            "m": "e)",
+            "t": "spezifische Informationen zu den vertraglichen Vereinbarungen gemäß Vorlage B_02.02 in Anhang I,"
+          },
+          {
+            "m": "f)",
+            "t": "Angaben zu den Verbindungen zwischen gruppeninternen vertraglichen Vereinbarungen und vertraglichen Vereinbarungen mit IKT-Drittdienstleistern, die nicht der Gruppe angehören, und zwar unter Verwendung der vertraglichen Kennnummern, wenn ein Teil der IKT-Dienstleistungskette gruppenintern ist (siehe Vorlage B_02.03 in Anhang I),"
+          },
+          {
+            "m": "g)",
+            "t": "Informationen über die Unternehmen, die die vertraglichen Vereinbarungen mit den direkten IKT-Drittdienstleistern für den Erhalt von IKT-Dienstleistungen oder im Namen der Unternehmen, die die IKT-Dienstleistungen in Anspruch nehmen, unterzeichnen (siehe Vorlage B_03.01 in Anhang I),"
+          },
+          {
+            "m": "h)",
+            "t": "Angabe der IKT-Drittdienstleister, die die vertraglichen Vereinbarungen für die Erbringung von IKT-Dienstleistungen unterzeichnen (siehe Vorlage B_03.02 in Anhang I),"
+          },
+          {
+            "m": "i)",
+            "t": "Angabe der Unternehmen, die die vertraglichen Vereinbarungen über die Erbringung von IKT-Dienstleistungen für andere zum Konsolidierungskreis gehörende Unternehmen unterzeichnen (siehe Vorlage B_03.03 in Anhang I),"
+          },
+          {
+            "m": "j)",
+            "t": "Angaben zu den Unternehmen, die die von den IKT-Drittdienstleistern bereitgestellten IKT-Dienstleistungen in Anspruch nehmen (siehe Vorlage B_04.01 in Anhang I),"
+          },
+          {
+            "m": "k)",
+            "t": "Angaben zu den direkten IKT-Drittdienstleistern und Unterauftragnehmern (siehe Vorlage B_05.01 in Anhang I),"
+          },
+          {
+            "m": "l)",
+            "t": "Angaben zur IKT-Dienstleistungskette (siehe Vorlage B_05.02 in Anhang I),"
+          },
+          {
+            "m": "m)",
+            "t": "Angaben zur Identifizierung der Funktionen (siehe Vorlage B_06.01 in Anhang I),"
+          },
+          {
+            "m": "n)",
+            "t": "Angaben zur Bewertung der von IKT-Drittdienstleistern erbrachten IKT-Dienstleistungen, die eine kritische oder wichtige Funktion oder wesentliche Bereiche davon unterstützen (siehe Vorlage B_07.01 in Anhang I),"
+          },
+          {
+            "m": "o)",
+            "t": "Informationen über die von Finanzunternehmen beim Ausfüllen der Vorlagen verwendete Terminologie und die entsprechenden Begriffe, die in den erschöpfenden Listen und Klassifizierungssystemen enthalten sind (siehe Vorlage B_99.01 in Anhang I)."
+          }
+        ]
+      }
+    ]
+  },
+  "005.002": {
+    "h": "402a6472880965aeefb17dbe0237d831",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sofern dies für ihr Risikomanagement oder ihr Vertragsmanagement relevant ist, können die Finanzunternehmen zusätzliche Informationen in das Informationsregister aufnehmen, und zwar in dem Format, das für die Zwecke dieser zusätzlichen Informationen am besten geeignet ist."
+      }
+    ]
+  },
+  "006.001": {
+    "h": "0df5ff7905debfd381df860e24edae91",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei Gruppen entscheiden die Mutterunternehmen unter Berücksichtigung der einschlägigen sektorspezifischen Rechtsvorschriften der Union, welche Unternehmen in das Informationsregister aufgenommen werden sollen."
+      }
+    ]
+  },
+  "006.002": {
+    "h": "1286f1e7615e78899cec98efcc260c3d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das auf teilkonsolidierter und konsolidierter Ebene geführte und aktualisierte Informationsregister umfasst alle Finanzunternehmen und gruppeninternen IKT-Dienstleister, die zur Teilgruppe und zur Gruppe gehören."
+      }
+    ]
+  },
+  "art_1": {
+    "h": "4e65094ac6757d30af2554aea053d456",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Zwecke dieser Verordnung bezeichnet der Ausdruck"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "„direkter IKT-Drittdienstleister“ einen IKT-Drittdienstleister oder einen gruppeninternen IKT-Dienstleister, der eine vertragliche Vereinbarung unterzeichnet hat mit",
+            "u": [
+              {
+                "m": "a)",
+                "t": "einem Finanzunternehmen, um seine IKT-Dienstleistungen direkt für dieses Finanzunternehmen zu erbringen,"
+              },
+              {
+                "m": "b)",
+                "t": "einem Finanzunternehmen oder Nichtfinanzunternehmen, um seine Dienstleistungen für andere Finanzunternehmen innerhalb derselben Gruppe zu erbringen,"
+              }
+            ]
+          },
+          {
+            "m": "2.",
+            "t": "„IKT-Dienstleistungskette“ eine Abfolge von vertraglichen Vereinbarungen im Zusammenhang mit der IKT-Dienstleistung, die vom direkten IKT-Drittdienstleister für das Finanzunternehmen erbracht wird, beginnend mit dem direkten IKT-Drittdienstleister, der einen oder mehrere andere IKT-Drittdienstleister als Gegenpartei(en) (Unterauftragnehmer) hat,"
+          },
+          {
+            "m": "3.",
+            "t": "„Rang“ die Position eines IKT-Drittdienstleisters in der IKT-Dienstleistungskette."
+          }
+        ]
+      }
+    ]
+  },
+  "art_2": {
+    "h": "8bf93ee287a1bc0eb3ee6099990ff362",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen weisen jedem IKT-Drittdienstleister einen Rang zu. Der Rang ist eine beliebige natürliche Zahl größer oder gleich „1“, wobei die Vereinbarung dem Finanzunternehmen umso näher steht, je niedriger die natürliche Zahl ist, die dem Rang zugeordnet ist."
+      },
+      {
+        "art": "p",
+        "t": "Der Rang des direkten IKT-Drittdienstleisters in der IKT-Dienstleistungskette muss stets „1“ sein."
+      },
+      {
+        "art": "p",
+        "t": "Der Rang des Unterauftragnehmers in der IKT-Dienstleistungskette muss stets größer als „1“ sein."
+      }
+    ]
+  },
+  "art_7": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "6b389ef4a8dc17afc85d14c86d674b3d",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 28 Absatz 9 Unterabsatz 2,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "c10ab3cc11353fe2fa461fc6e8e32561",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Für die Zwecke des Informationsregisters gemäß Artikel 28 Absatz 3 der Verordnung (EU) 2022/2554, das sich auf alle vertraglichen Vereinbarungen über die Nutzung von IKT-Dienstleistungen bezieht, die von Drittdienstleistern der Informations- und Kommunikationstechnologie (im Folgenden „IKT-Drittdienstleister“) bereitgestellt werden, müssen Standardvorlagen eingeführt werden. Die in diesem Register gesammelten Informationen sind für das interne IKT-Risikomanagement der Finanzunternehmen, für die wirksame Beaufsichtigung der Finanzunternehmen durch ihre zuständigen Behörden und für die Einrichtung und Ausübung der Überwachung kritischer IKT-Drittdienstleister durch die federführende Überwachungsbehörde von wesentlicher Bedeutung. Darüber hinaus sind diese Informationen für den jährlichen Prozess der Benennung kritischer IKT-Drittdienstleister durch die Europäische Bankenaufsichtsbehörde, die Europäische Aufsichtsbehörde für das Versicherungswesen und die betriebliche Altersversorgung und die Europäische Wertpapier- und Marktaufsichtsbehörde (zusammen im Folgenden „Europäische Aufsichtsbehörden“ oder „ESA“) von wesentlicher Bedeutung."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_10": {
+    "h": "5f012cb06fd30640625f13530bab5a8e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(10)",
+            "t": "Jedes Finanzunternehmen, einschließlich der Finanzunternehmen ein und derselben Gruppe, verfügt über eine eigene interne Funktionstaxonomie, die von seinen spezifischen Geschäftsmodellen und internen Organisationen abhängt. Um eine eindeutige Überwachung zu ermöglichen, bei der zwischen den Funktionen der Finanzunternehmen und den IKT-Dienstleistungen unterschieden wird, sollten die Finanzunternehmen selbst unter Verwendung der Funktionskennung auf individueller Ebene und auf Gruppenebene die maßgeblichen Funktionen benennen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_11": {
+    "h": "ee16d5485b1c9c7866803a98a7769c99",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(11)",
+            "t": "Um die Funktionsfähigkeit des Informationsregisters auf Unternehmensebene sowie auf teilkonsolidierter und konsolidierter Ebene für alle Finanzunternehmen, die Teil derselben Gruppe sind, zu gewährleisten, haben Finanzunternehmen die Korrektheit und Kohärenz aller Daten in diesem Register sicherzustellen. Zu diesem Zweck ist insbesondere eine kohärente Konsolidierung der Kennungen erforderlich, d. h. der Kennnummern der vertraglichen Vereinbarungen, der Funktionskennung, der LEI der Finanzunternehmen sowie der Kennungen der IKT-Drittdienstleister."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_12": {
+    "h": "a25f4b3e563b2d5b3492195626898194",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(12)",
+            "t": "Zur Gewährleistung von Kohärenz und Harmonisierung und zur Vermeidung einer aufwendigen Wiederaufbereitung von Daten für Meldezwecke sollten bei der Gestaltung der Vorlagen und den Anforderungen an die Datenelemente die Aspekte der Datenverwaltung und der Meldepflicht berücksichtigt werden. Um die uneingeschränkte Vergleichbarkeit der im Informationsregister gemeldeten Informationen mit den in anderen regulatorischen oder statistischen Mitteilungen enthaltenen Informationen zu gewährleisten, sollten die Finanzunternehmen bei der Führung und Aktualisierung dieses Registers die Grundsätze der Datenqualität einhalten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_13": {
+    "h": "ea544b57dac679ead831ea1dad1a4729",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(13)",
+            "t": "Diese Verordnung beruht auf dem Entwurf technischer Durchführungsstandards, der der Kommission von den ESA vorgelegt wurde."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_14": {
+    "h": "846db21c4ed5c9d2f5d943a2a33cdd5b",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(14)",
+            "t": "Die ESA haben zu dem Entwurf der technischen Durchführungsstandards, auf den sich diese Verordnung stützt, offene öffentliche Anhörungen durchgeführt, die damit verbundenen potenziellen Kosten- und Nutzeneffekte analysiert und Empfehlungen der Interessengruppen der ESA nach Artikel 37 der Verordnung (EU) Nr. 1093/2010 des Europäischen Parlaments und des Rates (), Artikel 37 der Verordnung (EU) Nr. 1094/2010 des Europäischen Parlaments und des Rates () und Artikel 37 der Verordnung (EU) Nr. 1095/2010 des Europäischen Parlaments und des Rates () eingeholt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_15": {
+    "h": "190dffb0257514535971d2dff01b6cdd",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(15)",
+            "t": "Der Europäische Datenschutzbeauftragte wurde gemäß Artikel 42 Absatz 1 der Verordnung (EU) 2018/1725 des Europäischen Parlaments und des Rates angehört ()."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "068b2e46d2739ba1c4f858cc71ff047c",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Um sicherzustellen, dass die Ergebnisse der Aufsicht mit den bestehenden Aufsichtsrahmen im Einklang stehen, sollte das Mutterunternehmen von Finanzunternehmen, die Teil einer Gruppe im Sinne der Verordnung (EU) 2022/2554 sind, ermitteln, welche Unternehmen gemäß der Rechtsvorschriften der Union über Finanzdienstleistungen auf teilkonsolidierter und konsolidierter Ebene in das Informationsregister aufzunehmen sind. Zur Senkung der den Gruppen entstehenden Verwaltungskosten sollten diese die Möglichkeit haben, ein zentrales Informationsregister auf Unternehmensebene sowie auf teilkonsolidierter und konsolidierter Ebene anzulegen, das sich auf alle vertraglichen Vereinbarungen über die Nutzung von IKT-Dienstleistungen bezieht, die von IKT-Drittdienstleistern für sämtliche Finanzunternehmen, die Teil dieser Gruppe sind, erbracht werden. In diesen Fällen sollte das zentrale Informationsregister es jedem Finanzunternehmen ermöglichen, seiner Verpflichtung zur Führung und Aktualisierung des Informationsregisters auf Unternehmensebene und gegebenenfalls auf teilkonsolidierter Ebene, einschließlich seiner Meldepflicht gegenüber seiner zuständigen Behörde, nachzukommen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "db9a2237502c261e9d4840c81c651538",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Gemäß Artikel 28 Absatz 1 Buchstabe b der Verordnung (EU) 2022/2554 müssen Finanzunternehmen beim Management des IKT-Drittparteienrisikos die Art, das Ausmaß, die Komplexität und die Relevanz IKT-bezogener Abhängigkeiten sowie die Risiken infolge vertraglicher Vereinbarungen über die Nutzung von IKT-Dienstleistungen, die mit IKT-Drittdienstleistern geschlossen wurden, berücksichtigen. Bei dieser Risikobewertung sind die Kritikalität oder Bedeutung der jeweiligen Dienstleistungen, Prozesse oder Funktionen sowie die potenziellen Auswirkungen auf die Kontinuität und Verfügbarkeit von Finanzdienstleistungen und -tätigkeiten auf Unternehmens- und Gruppenebene zu berücksichtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "06870e71ecba9f6ae349d8f66590d6fa",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Bestimmte sektorspezifische Rechtsvorschriften der Union über Finanzdienstleistungen enthalten Anforderungen an die Auslagerung. Diese Anforderungen wurden in Leitlinien der ESA weiterentwickelt. Nach Maßgabe dieser Leitlinien wird von einigen Finanzunternehmen erwartet, dass sie im Rahmen ihres auslagerungsbezogenen Risikomanagements spezifische Informationen über ihre Auslagerungsvereinbarungen, in einigen Fällen auch in Form von Registern, erfassen. In den letzten Jahren haben mehrere zuständige nationale Behörden und die EZB im Rahmen ihrer Beaufsichtigung der Einhaltung der Auslagerungsanforderungen durch Finanzunternehmen Informationen erhoben, die in diesen Registern angegeben waren. Ausgehend von den Erfahrungen mit den verschiedenen Datenerhebungen, die in den letzten Jahren von den ESA und den zuständigen Behörden für die Auslagerungsregister durchgeführt wurden, sollten die Standardvorlagen technologieneutral mit offenen Tabellen gestaltet werden, die eine vorgegebene Anzahl von Spalten und eine unbestimmte Anzahl von Zeilen aufweisen. Darüber hinaus sollten die Standardvorlagen über verschiedene spezifische Schlüssel miteinander verknüpft werden, sodass eine Beziehungsstruktur zwischen diesen Vorlagen gebildet wird."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "15cb94965af70d207c8d4a21c6a8db8a",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Um IKT-Dienstleistungen von einem IKT-Drittdienstleister, einschließlich gruppeninterner IKT-Dienstleister, in Anspruch zu nehmen, schließen Finanzunternehmen einen schriftlichen Vertrag mit dem IKT-Drittdienstleister ab. Bei Gruppen können gruppeninterne IKT-Dienstleister mit externen IKT-Drittdienstleistern einen Vertrag über die Erbringung von IKT-Dienstleistungen für ein oder mehrere Finanzunternehmen der Gruppe schließen. Damit die gesamte IKT-Dienstleistungskette erfasst wird, sollten Finanzunternehmen, die das Informationsregister führen, sowohl Informationen über die vertragliche Vereinbarung mit ihrem gruppeninternen IKT-Dienstleister als auch Informationen über die Vereinbarung zwischen dem gruppeninternen IKT-Dienstleister und den IKT-Drittdienstleistern, die als Unterauftragnehmer außerhalb der Gruppe tätig sind, melden. Daher sollte das Informationsregister eine spezielle Vorlage enthalten, die den Abgleich zwischen den gruppeninternen Verträgen und den Verträgen mit IKT-Drittdienstleistern außerhalb der Gruppe ermöglicht."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "b7c19b0adcc82967c6c97dbae6d751a6",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Die Erbringung von IKT-Dienstleistungen für Finanzunternehmen kann sich auf potenziell lange oder komplexe Ketten der Unterauftragsvergabe stützen, die von den Finanzunternehmen zu überwachen sind. Finanzunternehmen sollten die damit verbundenen Risiken, einschließlich der Konzentrationsrisiken von IKT-Drittdienstleistern im Hinblick auf IKT-Drittdienstleister, die eine kritische oder wichtige Funktion oder wesentliche Bereiche davon unterstützen, bewerten und dabei einen risikobasierten Ansatz und den Grundsatz der Verhältnismäßigkeit zugrunde legen. Um diese Bewertung zu ermöglichen, sollten die Finanzunternehmen nur diejenigen Unterauftragnehmer im Informationsregister erfassen müssen, die IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen oder wesentlicher Bereiche davon sicherstellen, einschließlich aller Unterauftragnehmer, die IKT-Dienstleistungen erbringen, deren Störung die Sicherheit oder Kontinuität des Dienstangebots beeinträchtigen würde. Bei der Ermittlung dieser Unterauftragnehmer sollten Finanzunternehmen Aspekte der Geschäftsfortführung und der Kontinuität der IKT-Dienstleistungen sowie Aspekte der IKT-Sicherheit berücksichtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "68f290dc3f33253d617a4c3810ad6437",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Finanzunternehmen sollten ein Informationsregister führen und aktualisieren; dies gilt auch für den Fall, dass ein Finanzunternehmen seine gesamte Tätigkeit an ein anderes Unternehmen auslagert, da die Führung des Informationsregisters zur operativen Resilienz des betreffenden Finanzunternehmens beiträgt. Wenn ein Unternehmen für alle Tätigkeiten (einschließlich der IKT-Dienstleistungen) im Namen des Finanzunternehmens handelt, sollten daher die direkten IKT-Drittdienstleister dieses Unternehmens in den einschlägigen Vorlagen des Informationsregisters des Finanzunternehmens erfasst werden. In diesem Fall ist das Unternehmen nur als Unternehmen registriert, das das Register führt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "f5978b0245d7531ce03e414ada2eb9f6",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Im Interesse der Transparenz und Vergleichbarkeit der vertraglichen Vereinbarungen und der laufenden Überwachung dieser Vereinbarungen sollte sich das Informationsregister auf die operationellen Verbindungen zwischen den Finanzunternehmen und den IKT-Drittdienstleistern konzentrieren. Zu diesem Zweck sollte das Informationsregister vier Schlüssel verwenden, die unter anderem relevante Daten in den Vorlagen des Informationsregisters miteinander verknüpfen: i) die Kennnummer der vertraglichen Vereinbarung zwischen dem Finanzunternehmen, das diese Vereinbarung unterzeichnet, und dem direkten IKT-Drittdienstleister, ii) eine geeignete Kennung der Finanzunternehmen und IKT-Drittdienstleister, iii) die Funktionskennung und iv) die Art der IKT-Dienstleistungen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "357e03d2687d903b0b8328a6d902f39a",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Um die vertraglichen Vereinbarungen zwischen den Finanzunternehmen und den IKT-Drittdienstleistern gemäß der Verordnung (EU) 2022/2554 angemessen dokumentieren zu können, müssen die IKT-Drittdienstleister eine Identifikationsnummer aufweisen, die ihre kohärente und präzise Identifizierung durch die Finanzunternehmen und die ESA, das Aufsichtsforum und die zuständigen Behörden bei der Ausübung ihrer Aufsichtsbefugnisse, einschließlich der Benennung kritischer IKT-Drittdienstleister gemäß Artikel 31 der genannten Verordnung, ermöglicht. Bei juristischen Personen sind die LEI und die EUID anerkannte internationale und europäische Kennungen, die eine kohärente, eindeutige und zuverlässige Identifizierung von Unternehmen gewährleisten. Folglich sollte eine dieser beiden Kennungen zur Identifizierung der in der Union niedergelassenen IKT-Drittdienstleister für die Zwecke der Anwendung der genannten Verordnung verwendet werden und als Information gelten, die allen vertraglichen Vereinbarungen gemein ist; die Identifizierung von in Drittstaaten niedergelassenen IKT-Drittdienstleistern hingegen sollte lediglich anhand der LEI erfolgen. Die für das Informationsregister über IKT-Drittdienstleister verwendeten Vorlagen sollten für IKT-Dienstleister, die juristische Personen sind, Angaben zu einer dieser beiden Kennungen vorschreiben, während es natürlichen Personen, die in ihrer Eigenschaft als IKT-Dienstleister handeln, gestattet sein sollte, alternative Identifikationscodes zu verwenden."
+          }
+        ]
+      }
+    ]
+  }
+}

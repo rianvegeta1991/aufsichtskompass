@@ -1,0 +1,117 @@
+{
+  "gebaut": "2026-09-27T10:10:29Z",
+  "indizes": [
+    {
+      "regelwerk": "dora",
+      "sprache": "de",
+      "fassung": "2024-10-15",
+      "datei": "rw/dora/2024-10-15/index-de.json",
+      "dokumente": 379
+    },
+    {
+      "regelwerk": "dora",
+      "sprache": "en",
+      "fassung": "2024-10-15",
+      "datei": "rw/dora/2024-10-15/index-en.json",
+      "dokumente": 379
+    },
+    {
+      "regelwerk": "dora-dv-1502",
+      "sprache": "de",
+      "fassung": "2024-05-30",
+      "datei": "rw/dora-dv-1502/2024-05-30/index-de.json",
+      "dokumente": 30
+    },
+    {
+      "regelwerk": "dora-dv-1505",
+      "sprache": "de",
+      "fassung": "2024-05-30",
+      "datei": "rw/dora-dv-1505/2024-05-30/index-de.json",
+      "dokumente": 29
+    },
+    {
+      "regelwerk": "dora-its-2956",
+      "sprache": "de",
+      "fassung": "2024-12-06",
+      "datei": "rw/dora-its-2956/2024-12-06/index-de.json",
+      "dokumente": 33
+    },
+    {
+      "regelwerk": "dora-its-302",
+      "sprache": "de",
+      "fassung": "2025-02-20",
+      "datei": "rw/dora-its-302/2025-02-20/index-de.json",
+      "dokumente": 33
+    },
+    {
+      "regelwerk": "dora-rts-1190",
+      "sprache": "de",
+      "fassung": "2025-06-18",
+      "datei": "rw/dora-rts-1190/2025-06-18/index-de.json",
+      "dokumente": 101
+    },
+    {
+      "regelwerk": "dora-rts-1772",
+      "sprache": "de",
+      "fassung": "2024-06-25",
+      "datei": "rw/dora-rts-1772/2024-06-25/index-de.json",
+      "dokumente": 48
+    },
+    {
+      "regelwerk": "dora-rts-1773",
+      "sprache": "de",
+      "fassung": "2024-06-25",
+      "datei": "rw/dora-rts-1773/2024-06-25/index-de.json",
+      "dokumente": 44
+    },
+    {
+      "regelwerk": "dora-rts-1774",
+      "sprache": "de",
+      "fassung": "2024-06-25",
+      "datei": "rw/dora-rts-1774/2024-06-25/index-de.json",
+      "dokumente": 143
+    },
+    {
+      "regelwerk": "dora-rts-295",
+      "sprache": "de",
+      "fassung": "2025-02-13",
+      "datei": "rw/dora-rts-295/2025-02-13/index-de.json",
+      "dokumente": 28
+    },
+    {
+      "regelwerk": "dora-rts-301",
+      "sprache": "de",
+      "fassung": "2025-02-20",
+      "datei": "rw/dora-rts-301/2025-02-20/index-de.json",
+      "dokumente": 23
+    },
+    {
+      "regelwerk": "dora-rts-420",
+      "sprache": "de",
+      "fassung": "2025-03-24",
+      "datei": "rw/dora-rts-420/2025-03-24/index-de.json",
+      "dokumente": 32
+    },
+    {
+      "regelwerk": "dora-rts-532",
+      "sprache": "de",
+      "fassung": "2025-07-02",
+      "datei": "rw/dora-rts-532/2025-07-02/index-de.json",
+      "dokumente": 28
+    },
+    {
+      "regelwerk": "dsgvo",
+      "sprache": "de",
+      "fassung": "2025-02-05",
+      "datei": "rw/dsgvo/2025-02-05/index-de.json",
+      "dokumente": 568
+    },
+    {
+      "regelwerk": "nis2",
+      "sprache": "de",
+      "fassung": "2024-10-15",
+      "datei": "rw/nis2/2024-10-15/index-de.json",
+      "dokumente": 350
+    }
+  ]
+}

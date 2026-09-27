@@ -1,0 +1,54 @@
+{
+  "stand": "2026-09-27",
+  "hinweis": "Abrufwege je Regelwerk. Alles hier ist kostenlos und ohne Anmeldung nutzbar. Ein neues Regelwerk braucht nur einen neuen Eintrag - keinen Code-Patch, solange der Konnektortyp schon umgesetzt ist.",
+  "typen": {
+    "cellar": "EUR-Lex ueber CELLAR (publications.europa.eu/resource/celex/<CELEX>), Content-Negotiation auf XHTML. Umgesetzt.",
+    "gii": "gesetze-im-internet.de, XML-Fassung je Gesetz. Noch nicht umgesetzt.",
+    "bafin-pdf": "BaFin-Rundschreiben als PDF. Noch nicht umgesetzt.",
+    "rss": "RSS-/Atom-Feed fuer das Screening. Noch nicht umgesetzt (Phase 5).",
+    "seite": "Seitenueberwachung per Selektor fuer Quellen ohne Feed. Noch nicht umgesetzt (Phase 5)."
+  },
+  "nutzungsbedingungen": {
+    "eu": "Weiterverwendung von EU-Rechtstexten mit Quellenangabe zulaessig (Beschluss 2011/833/EU). Rechtsverbindlich ist nur die im Amtsblatt veroeffentlichte Fassung.",
+    "gii": "Amtliche Werke, § 5 UrhG - gemeinfrei. Quellenangabe trotzdem verpflichtend.",
+    "bafin": "Nutzungsbedingungen der BaFin je Veroeffentlichung zu pruefen; bis dahin nur eigene Zusammenfassungen und Link."
+  },
+  "konnektoren": [
+    { "regelwerk": "dora", "typ": "cellar", "celex": "32022R2554", "sprachen": ["deu", "eng"], "nutzung": "eu", "aktiv": true },
+
+    { "regelwerk": "dora-rts-1774", "typ": "cellar", "celex": "32024R1774", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-rts-1772", "typ": "cellar", "celex": "32024R1772", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-rts-1773", "typ": "cellar", "celex": "32024R1773", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-its-2956", "typ": "cellar", "celex": "32024R2956", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-rts-301", "typ": "cellar", "celex": "32025R0301", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-its-302", "typ": "cellar", "celex": "32025R0302", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-rts-1190", "typ": "cellar", "celex": "32025R1190", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-rts-532", "typ": "cellar", "celex": "32025R0532", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-dv-1502", "typ": "cellar", "celex": "32024R1502", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-dv-1505", "typ": "cellar", "celex": "32024R1505", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-rts-295", "typ": "cellar", "celex": "32025R0295", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dora-rts-420", "typ": "cellar", "celex": "32025R0420", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+
+    { "regelwerk": "nis2", "typ": "cellar", "celex": "32022L2555", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "dsgvo", "typ": "cellar", "celex": "32016R0679", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
+    { "regelwerk": "sii-rl", "typ": "cellar", "celex": "32009L0138", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
+    { "regelwerk": "sii-dvo", "typ": "cellar", "celex": "32015R0035", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
+    { "regelwerk": "ai-act", "typ": "cellar", "celex": "32024R1689", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
+    { "regelwerk": "cra", "typ": "cellar", "celex": "32024R2847", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
+    { "regelwerk": "data-act", "typ": "cellar", "celex": "32023R2854", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
+
+    { "regelwerk": "vag", "typ": "gii", "kennung": "vag_2016", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
+    { "regelwerk": "bsig", "typ": "gii", "kennung": "bsig_2025", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
+    { "regelwerk": "bdsg", "typ": "gii", "kennung": "bdsg_2018", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
+    { "regelwerk": "hgb", "typ": "gii", "kennung": "hgb", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
+    { "regelwerk": "ao", "typ": "gii", "kennung": "ao_1977", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
+
+    { "regelwerk": "mago-va", "typ": "bafin-pdf", "sprachen": ["deu"], "nutzung": "bafin", "aktiv": false },
+    { "regelwerk": "marisk", "typ": "bafin-pdf", "sprachen": ["deu"], "nutzung": "bafin", "aktiv": false }
+  ],
+  "folgeakte": {
+    "hinweis": "Level-2-Rechtsakte zu einer Verordnung ermittelt 'kompass folgeakte --celex <CELEX>' beim SPARQL-Dienst des Amts fuer Veroeffentlichungen. So bleibt die Liste vollstaendig, ohne sie zu pflegen.",
+    "endpunkt": "https://publications.europa.eu/webapi/rdf/sparql",
+    "grundlagen": ["32022R2554"]
+  }
+}

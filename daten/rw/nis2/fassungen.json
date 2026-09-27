@@ -1,0 +1,19 @@
+{
+  "regelwerk": "nis2",
+  "fassungen": [
+    {
+      "id": "2024-10-15",
+      "stand": "Tue, 15 Oct 2024 14:59:00 GMT",
+      "abgerufen": "2026-09-27T10:10:28Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32022L2555",
+        "celex": "32022L2555",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20241015165900000\"",
+      "hash": "7d0219a507c8418b84e8c826b50bd0f45f51abeaa7727a15db4eaf35f499283f",
+      "fundstellen": 350
+    }
+  ]
+}

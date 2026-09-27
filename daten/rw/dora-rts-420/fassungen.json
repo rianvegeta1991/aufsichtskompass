@@ -1,0 +1,19 @@
+{
+  "regelwerk": "dora-rts-420",
+  "fassungen": [
+    {
+      "id": "2025-03-24",
+      "stand": "Mon, 24 Mar 2025 02:10:04 GMT",
+      "abgerufen": "2026-09-27T10:10:28Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32025R0420",
+        "celex": "32025R0420",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20250324031004000\"",
+      "hash": "4e1214ce23bdc8d383c04099070ac30348aa2ca850d54052c93aefcc204aa24b",
+      "fundstellen": 32
+    }
+  ]
+}

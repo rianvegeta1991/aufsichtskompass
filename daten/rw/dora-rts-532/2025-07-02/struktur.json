@@ -1,0 +1,279 @@
+{
+  "regelwerk": "dora-rts-532",
+  "fassung": "2025-07-02",
+  "abgerufen": "2026-09-27T10:10:26Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32025R0532",
+    "celex": "32025R0532",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        },
+        {
+          "id": "rct_12",
+          "art": "erwaegungsgrund",
+          "nummer": "12",
+          "pfad": "eg/12",
+          "text": true
+        },
+        {
+          "id": "rct_13",
+          "art": "erwaegungsgrund",
+          "nummer": "13",
+          "pfad": "eg/13",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_1",
+      "art": "artikel",
+      "nummer": "1",
+      "titel": {
+        "de": "Gesamtrisikoprofil und Komplexität"
+      },
+      "pfad": "art/1",
+      "text": true
+    },
+    {
+      "id": "art_2",
+      "art": "artikel",
+      "nummer": "2",
+      "titel": {
+        "de": "Anwendung auf eine Gruppe"
+      },
+      "pfad": "art/2",
+      "text": true
+    },
+    {
+      "id": "art_3",
+      "art": "artikel",
+      "nummer": "3",
+      "titel": {
+        "de": "Sorgfaltspflicht und Risikobewertung in Bezug auf den Einsatz von Unterauftragnehmern, die kritische oder wichtige Funktionen unterstützen"
+      },
+      "pfad": "art/3",
+      "kinder": [
+        {
+          "id": "003.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/3/abs/1",
+          "text": true
+        },
+        {
+          "id": "003.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/3/abs/2",
+          "text": true
+        },
+        {
+          "id": "003.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/3/abs/3",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_4",
+      "art": "artikel",
+      "nummer": "4",
+      "titel": {
+        "de": "Bedingungen, unter denen IKT-Dienstleistungen, die kritische oder wichtige Funktionen einen wesentlichen Teil davon unterstützen, an Unterauftragnehmer vergeben werden können"
+      },
+      "pfad": "art/4",
+      "kinder": [
+        {
+          "id": "004.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/4/abs/1",
+          "text": true
+        },
+        {
+          "id": "004.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/4/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_5",
+      "art": "artikel",
+      "nummer": "5",
+      "titel": {
+        "de": "Wesentliche Änderungen an Unterauftragsvereinbarungen über IKT-Dienstleistungen, die kritische oder wichtige Funktionen oder wesentliche Teile davon unterstützen"
+      },
+      "pfad": "art/5",
+      "kinder": [
+        {
+          "id": "005.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/5/abs/1",
+          "text": true
+        },
+        {
+          "id": "005.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/5/abs/2",
+          "text": true
+        },
+        {
+          "id": "005.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/5/abs/3",
+          "text": true
+        },
+        {
+          "id": "005.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/5/abs/4",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_6",
+      "art": "artikel",
+      "nummer": "6",
+      "titel": {
+        "de": "Kündigung des Vertrags zwischen dem Finanzunternehmen und dem IKT-Drittdienstleister"
+      },
+      "pfad": "art/6",
+      "text": true
+    },
+    {
+      "id": "art_7",
+      "art": "artikel",
+      "nummer": "7",
+      "titel": {
+        "de": "Inkrafttreten"
+      },
+      "pfad": "art/7",
+      "text": true
+    }
+  ]
+}

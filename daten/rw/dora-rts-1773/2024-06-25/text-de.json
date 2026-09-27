@@ -1,0 +1,782 @@
+{
+  "003.001": {
+    "h": "bd16fc90804978985738d6cfe1508b07",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Leitungsorgan überprüft die Leitlinie mindestens einmal jährlich und aktualisiert sie erforderlichenfalls. Die an der Leitlinie vorgenommenen Änderungen werden zeitnah und sobald dies im Rahmen der einschlägigen vertraglichen Vereinbarungen möglich ist umgesetzt. Das Finanzunternehmen dokumentiert den geplanten zeitlichen Ablauf der Umsetzung."
+      }
+    ]
+  },
+  "003.002": {
+    "h": "8064cc879e93799783c26d71a62962f3",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie wird eine Methode festgelegt, mit der bestimmt wird, welche IKT-Dienstleistungen kritische oder wichtige Funktionen unterstützen, oder es wird auf eine solche Methode verwiesen. In der Leitlinie ist auch anzugeben, wann eine solche Bewertung vorgenommen und überprüft werden soll."
+      }
+    ]
+  },
+  "003.003": {
+    "h": "d0b955a46acc461eef1bc1237e8393b1",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie werden die internen Zuständigkeiten für die Genehmigung, das Management, die Kontrolle und die Dokumentation einschlägiger vertraglicher Vereinbarungen eindeutig zugewiesen, und es wird sichergestellt, dass innerhalb des Finanzunternehmens angemessene Fähigkeiten, Erfahrung und Kenntnisse aufrechterhalten werden, damit die einschlägigen vertraglichen Vereinbarungen, einschließlich der im Rahmen dieser Vereinbarungen erbrachten IKT-Dienstleistungen, wirksam überwacht werden können."
+      }
+    ]
+  },
+  "003.004": {
+    "h": "97b76c5bf3a7bd599b8ea4111c2834b8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unbeschadet der letztlichen Verantwortung des Finanzunternehmens für die wirksame Beaufsichtigung der einschlägigen vertraglichen Vereinbarungen wird in der Leitlinie vorgeschrieben, dass der IKT-Drittdienstleister laut der Bewertung über ausreichende Ressourcen verfügen muss, um sicherzustellen, dass das Finanzunternehmen alle seine rechtlichen und regulatorischen Anforderungen hinsichtlich der zur Unterstützung kritischer oder wichtiger Funktionen bereitgestellten IKT-Dienstleistungen erfüllt."
+      }
+    ]
+  },
+  "003.005": {
+    "h": "df2cbf1757fb4c62908d4f9620e069f0",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie wird eindeutig angegeben, bei welcher Funktion oder bei welchem Mitglied der Geschäftsleitung die Zuständigkeit für die Überwachung der einschlägigen vertraglichen Vereinbarungen liegt. In der Leitlinie wird festgelegt, wie diese Funktion oder dieses Mitglied der Geschäftsleitung mit den Kontrollfunktionen zusammenarbeitet, es sei denn, die Funktion oder das Mitglied ist Teil der Kontrollfunktionen, und es werden die Berichtspflichten gegenüber dem Leitungsorgan festgelegt, einschließlich der Art der zu meldenden Informationen und der vorzulegenden Dokumentation. Darüber hinaus wird festgelegt, wie häufig diese Berichterstattung erfolgt."
+      }
+    ]
+  },
+  "003.006": {
+    "h": "cd43e776b7cb15f84b513128d95e0be2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Leitlinie gewährleistet, dass die vertraglichen Vereinbarungen mit Folgendem im Einklang stehen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "dem in Artikel 6 der Verordnung (EU) 2022/2554 genannten IKT-Risikomanagementrahmen;"
+          },
+          {
+            "m": "b)",
+            "t": "der in Artikel 9 Absatz 4 der Verordnung (EU) 2022/2554 genannten Informationssicherheitsleitlinie;"
+          },
+          {
+            "m": "c)",
+            "t": "der in Artikel 11 der Verordnung (EU) 2022/2554 genannten IKT-Geschäftsfortführungsleitlinie;"
+          },
+          {
+            "m": "d)",
+            "t": "den in Artikel 19 der Verordnung (EU) 2022/2554 festgelegten Anforderungen für die Meldung von Vorfällen."
+          }
+        ]
+      }
+    ]
+  },
+  "003.007": {
+    "h": "02e4e6f6706184fed437cb95f6825556",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie ist vorzusehen, dass IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen, die von IKT-Drittdienstleistern bereitgestellt werden, einer unabhängigen Überprüfung unterzogen und in den Auditplan aufgenommen werden."
+      }
+    ]
+  },
+  "003.008": {
+    "h": "9d140dec5f37166a69cdfc84ea510cfb",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie ist ausdrücklich festzulegen, dass die vertraglichen Vereinbarungen"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "das Finanzunternehmen und sein Leitungsorgan nicht von ihren aufsichtlichen Pflichten und Verantwortlichkeiten gegenüber ihren Kunden entbinden;"
+          },
+          {
+            "m": "b)",
+            "t": "die wirksame Beaufsichtigung eines Finanzunternehmens nicht verhindern und nicht gegen aufsichtliche Einschränkungen für Dienstleistungen und Tätigkeiten verstoßen dürfen;"
+          },
+          {
+            "m": "c)",
+            "t": "vorschreiben müssen, dass die IKT-Drittdienstleister mit den zuständigen Behörden zusammenarbeiten;"
+          },
+          {
+            "m": "d)",
+            "t": "vorschreiben müssen, dass das Finanzunternehmen, seine Revisoren und die zuständigen Behörden wirksam Zugang zu Daten und Räumlichkeiten haben müssen, die mit der Nutzung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen zusammenhängen."
+          }
+        ]
+      }
+    ]
+  },
+  "005.001": {
+    "h": "2295f73ccaf0cf1922a4fff858518a7b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach der Leitlinie muss vor Abschluss einer vertraglichen Vereinbarung der Geschäftsbedarf des Finanzunternehmens bestimmt werden."
+      }
+    ]
+  },
+  "005.002": {
+    "h": "70a5cd7cea83127d6ef753bb120a13fa",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie ist vorzusehen, dass auf Ebene des Finanzunternehmens und gegebenenfalls auf konsolidierter und teilkonsolidierter Ebene eine Risikobewertung durchzuführen ist, bevor eine vertragliche Vereinbarung geschlossen wird."
+      },
+      {
+        "art": "p",
+        "t": "Bei der Risikobewertung werden alle einschlägigen Anforderungen der Verordnung (EU) 2022/2554 sowie die geltenden sektorspezifischen Rechtsvorschriften der Union berücksichtigt. In der Leitlinie werden insbesondere die Auswirkungen der Bereitstellung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen durch IKT-Drittdienstleister auf das Finanzunternehmen sowie alle Risiken berücksichtigt, die mit der Bereitstellung dieser IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen durch IKT-Drittdienstleister verbunden sind, darunter"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "operationelle Risiken,"
+          },
+          {
+            "m": "b)",
+            "t": "rechtliche Risiken,"
+          },
+          {
+            "m": "c)",
+            "t": "IKT-Risiken,"
+          },
+          {
+            "m": "d)",
+            "t": "Reputationsrisiken,"
+          },
+          {
+            "m": "e)",
+            "t": "Risiken im Zusammenhang mit dem Schutz vertraulicher oder personenbezogener Daten,"
+          },
+          {
+            "m": "f)",
+            "t": "Risiken im Zusammenhang mit der Verfügbarkeit von Daten,"
+          },
+          {
+            "m": "g)",
+            "t": "Risiken im Zusammenhang mit dem Standort, an dem die Daten verarbeitet und gespeichert werden,"
+          },
+          {
+            "m": "h)",
+            "t": "Risiken im Zusammenhang mit dem Standort des IKT-Drittdienstleisters,"
+          },
+          {
+            "m": "i)",
+            "t": "IKT-Konzentrationsrisiken auf Unternehmensebene."
+          }
+        ]
+      }
+    ]
+  },
+  "006.001": {
+    "h": "0742f4540ff74ef20fe89f2548259518",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie wird ein angemessenes und verhältnismäßiges Verfahren für die Auswahl und Bewertung der künftigen IKT-Drittdienstleister festgelegt, wobei zu berücksichtigen ist, ob es sich bei dem IKT-Drittdienstleister um einen gruppeninternen IKT-Dienstleister handelt, und verlangt wird, dass das Finanzunternehmen vor Abschluss einer vertraglichen Vereinbarung bewertet, ob der IKT-Drittdienstleister"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "über die geschäftliche Reputation, hinreichende Fähigkeiten, Fachkenntnisse und angemessene finanzielle, personelle und technische Ressourcen, Informationssicherheitsstandards, eine angemessene Organisationsstruktur, ein angemessenes Risikomanagement und angemessene interne Kontrollen sowie gegebenenfalls über die erforderlichen Zulassungen oder Registrierungen verfügt, um die IKT-Dienstleistungen zur Unterstützung der kritischen oder wichtigen Funktion zuverlässig und professionell erbringen zu können;"
+          },
+          {
+            "m": "b)",
+            "t": "in der Lage ist, einschlägige technologische Entwicklungen zu überwachen und führende Praktiken im Bereich der IKT-Sicherheit zu ermitteln und sie gegebenenfalls zu implementieren, damit er über einen wirksamen und soliden Rahmen für die digitale operationale Resilienz verfügt;"
+          },
+          {
+            "m": "c)",
+            "t": "IKT-Unterauftragnehmer nutzt oder zu nutzen gedenkt, um IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen oder wesentlicher Teile davon zu erbringen;"
+          },
+          {
+            "m": "d)",
+            "t": "in einem Drittstaat lokalisiert ist oder die Daten in einem Drittstaat verarbeitet oder speichert und, falls dies der Fall ist, ob diese Praxis die operationellen Risiken, Reputationsrisiken oder das Risiko erhöht, von restriktiven Maßnahmen, einschließlich Embargos und Sanktionen, betroffen zu sein, die sich auf die Fähigkeit des IKT-Drittdienstleisters, die IKT-Dienstleistungen zu erbringen, oder die Fähigkeit des Finanzunternehmens, diese IKT-Dienstleistungen zu empfangen, auswirken können;"
+          },
+          {
+            "m": "e)",
+            "t": "vertraglichen Vereinbarungen zustimmt, mit denen effektiv die Möglichkeit sichergestellt wird, dass das Finanzunternehmen selbst, beauftragte Dritte und zuständige Behörden Audits beim IKT-Drittdienstleister, auch in dessen Räumlichkeiten, durchführen;"
+          },
+          {
+            "m": "f)",
+            "t": "in ethischer und sozial verantwortlicher Weise handelt, die Menschenrechte und die Rechte des Kindes achtet, einschließlich des Verbots der Kinderarbeit, die geltenden Grundsätze des Umweltschutzes einhält und angemessene Arbeitsbedingungen gewährleistet."
+          }
+        ]
+      }
+    ]
+  },
+  "006.002": {
+    "h": "129cf85e6fa853516ce2b77835944a7a",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie wird festgelegt, welches Maß an Sicherheit hinsichtlich der Wirksamkeit des Risikomanagementrahmens von IKT-Drittdienstleistern für IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen, die von einem IKT-Drittdienstleister bereitgestellt werden sollen, gegeben sein muss. In der Leitlinie ist vorzusehen, dass im Rahmen des Verfahrens zur Erfüllung der Sorgfaltspflicht bewertet wird, ob Maßnahmen zur Risikominderung und zur Geschäftsfortführung bestehen und wie deren Funktionsfähigkeit innerhalb des IKT-Drittdienstleisters sichergestellt wird."
+      }
+    ]
+  },
+  "006.003": {
+    "h": "15d95748b17df7132b97f81bff21e580",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie wird das Verfahren zur Erfüllung der Sorgfaltspflicht festgelegt, anhand dessen die künftigen IKT-Drittdienstleister ausgewählt und bewertet werden, und es wird angegeben, welche der folgenden Elemente mit Blick auf das erforderliche Maß an Sicherheit für die Leistungsfähigkeit des IKT-Drittdienstleisters zu berücksichtigen sind:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Audits oder unabhängige Bewertungen, die vom Finanzunternehmen selbst oder in seinem Auftrag durchgeführt werden;"
+          },
+          {
+            "m": "b)",
+            "t": "Berichte über unabhängige Audits, die auf Verlangen des IKT-Drittdienstleisters erstellt werden;"
+          },
+          {
+            "m": "c)",
+            "t": "Auditberichte der internen Revisionsfunktion des IKT-Drittdienstleisters;"
+          },
+          {
+            "m": "d)",
+            "t": "geeignete Zertifizierungen Dritter;"
+          },
+          {
+            "m": "e)",
+            "t": "andere relevante Informationen, die dem Finanzunternehmen zur Verfügung stehen, oder andere vom IKT-Drittdienstleister bereitgestellte Informationen."
+          }
+        ]
+      }
+    ]
+  },
+  "006.004": {
+    "h": "1bad75f8bf9e17372646de56d1e8336c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen gewährleisten unter Berücksichtigung der in Absatz 3 Buchstaben a bis e aufgeführten Elemente ein angemessenes Maß an Sicherheit für die Leistungsfähigkeit des IKT-Drittdienstleisters. Gegebenenfalls ist mehr als eines der unter diesen Buchstaben aufgeführten Elemente zu berücksichtigen."
+      }
+    ]
+  },
+  "007.001": {
+    "h": "277f64f4c1c1a3174ff30a695f766ba0",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie werden geeignete Maßnahmen festgelegt, die vor Abschluss einschlägiger vertraglicher Vereinbarungen zu ergreifen sind, um die sich aus der Nutzung von IKT-Drittdienstleistern ergebenden tatsächlichen oder potenziellen Interessenkonflikte zu ermitteln, zu vermeiden und zu managen, und es wird eine kontinuierliche Überwachung solcher Interessenkonflikte vorgesehen."
+      }
+    ]
+  },
+  "007.002": {
+    "h": "611d5a0c48cf87779f30dd839973574d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Werden IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen von gruppeninternen IKT-Dienstleistern bereitgestellt, so wird in der Leitlinie festgelegt, dass Entscheidungen über die Bedingungen für diese IKT-Dienstleistungen, einschließlich der finanziellen Bedingungen, objektiv getroffen werden müssen."
+      }
+    ]
+  },
+  "008.001": {
+    "h": "e46bb970d17975e305f975930a75854f",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie wird festgelegt, dass die einschlägige vertragliche Vereinbarung schriftlich abzufassen ist und alle in Artikel 30 Absätze 2 und 3 der Verordnung (EU) 2022/2554 genannten Elemente enthalten muss. Die Leitlinie umfasst auch Elemente mit Blick auf die in Artikel 1 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 genannten Anforderungen sowie gegebenenfalls andere einschlägige Rechtsvorschriften der Union und der Mitgliedstaaten."
+      }
+    ]
+  },
+  "008.002": {
+    "h": "08a3a4441b87871281bdac09b95ef2e8",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie ist festzulegen, dass die einschlägigen vertraglichen Vereinbarungen das Recht des Finanzunternehmens auf Zugang zu Informationen, auf die Durchführung von Inspektionen und Audits sowie auf die Durchführung von IKT-Tests vorsehen müssen. In der Leitlinie ist vorzusehen, dass das Finanzunternehmen zu diesen Zwecken — unbeschadet seiner letztlichen Verantwortung — auf folgende Methoden zurückgreifen muss:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "eigene interne Audits oder Audits eines beauftragten Dritten;"
+          },
+          {
+            "m": "b)",
+            "t": "gegebenenfalls Sammelaudits und gepoolte IKT-Tests, einschließlich bedrohungsorientierter Penetrationstests, die gemeinsam mit anderen als Auftraggeber auftretenden Finanzunternehmen oder Firmen, die IKT-Dienstleistungen desselben IKT-Drittdienstleisters nutzen, organisiert und von diesen Finanzunternehmen oder Firmen oder einem von ihnen beauftragten Dritten durchgeführt werden;"
+          },
+          {
+            "m": "c)",
+            "t": "gegebenenfalls Zertifizierungen Dritter;"
+          },
+          {
+            "m": "d)",
+            "t": "gegebenenfalls Berichte über interne oder von Dritten durchgeführte Audits, die vom IKT-Drittdienstleister zur Verfügung gestellt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "008.003": {
+    "h": "457d73393e0a45a1e71e5a8ccb265a1b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Finanzunternehmen darf sich längerfristig nicht nur auf die in Absatz 2 Buchstabe c genannten Zertifizierungen oder die in Absatz 2 Buchstabe d genannten Auditberichte verlassen. Nach der Leitlinie ist die Anwendung der in Absatz 2 Buchstaben c und d genannten Methoden nur dann gestattet, wenn das Finanzunternehmen"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "den Auditplan des IKT-Drittdienstleisters für die einschlägigen vertraglichen Vereinbarungen als zufriedenstellend erachtet;"
+          },
+          {
+            "m": "b)",
+            "t": "sicherstellt, dass der Umfang der Zertifizierungen oder Auditberichte die von ihm ermittelten Systeme und wesentlichen Kontrollen abdeckt und die Einhaltung der einschlägigen rechtlichen Anforderungen gewährleistet;"
+          },
+          {
+            "m": "c)",
+            "t": "den Inhalt der Zertifizierungen oder Auditberichte laufend gründlich bewertet und prüft, ob die Berichte oder Zertifizierungen nicht obsolet sind;"
+          },
+          {
+            "m": "d)",
+            "t": "sicherstellt, dass wesentliche Systeme und Kontrollen in künftigen Fassungen der Zertifizierung oder des Auditberichts berücksichtigt werden;"
+          },
+          {
+            "m": "e)",
+            "t": "die zertifizierende oder prüfende Partei in zufriedenstellendem Maße für geeignet hält;"
+          },
+          {
+            "m": "f)",
+            "t": "davon überzeugt ist, dass die Zertifizierungen ausgestellt werden und die Zertifizierungen und die Audits nach weithin anerkannten einschlägigen professionellen Standards durchgeführt werden und einen Test der operationalen Wirksamkeit der bestehenden wesentlichen Kontrollen umfassen;"
+          },
+          {
+            "m": "g)",
+            "t": "das vertragliche Recht hat, in einer aus der Perspektive des Risikomanagements vertretbaren und legitimen Häufigkeit Änderungen des Umfangs der Zertifizierungen oder Auditberichte mit Blick auf andere einschlägige Systeme und Kontrollen zu verlangen;"
+          },
+          {
+            "m": "h)",
+            "t": "das vertragliche Recht hat, nach eigenem Ermessen Einzel- und Sammelaudits im Zusammenhang mit den vertraglichen Vereinbarungen durchzuführen und diese Rechte in der vereinbarten Häufigkeit wahrzunehmen."
+          }
+        ]
+      }
+    ]
+  },
+  "008.004": {
+    "h": "c7316a93c5129c4e12d029cce46c1640",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Leitlinie stellt sicher, dass wesentliche Änderungen der vertraglichen Vereinbarung in einem schriftlichen Dokument förmlich festgehalten werden, das von allen Parteien datiert und unterzeichnet wird und in dem das Verfahren zur Verlängerung der vertraglichen Vereinbarungen festgelegt ist."
+      }
+    ]
+  },
+  "009.001": {
+    "h": "4f86975f03999e1a50fc8838d5e2345c",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie ist vorzusehen, dass in den vertraglichen Vereinbarungen die Maßnahmen und Schlüsselindikatoren festgelegt werden, anhand deren die Leistungsfähigkeit der IKT-Drittdienstleister kontinuierlich überwacht wird, einschließlich Maßnahmen, die dazu dienen, die Einhaltung der Anforderungen für die Vertraulichkeit, Verfügbarkeit, Integrität und Authentizität von Daten und Informationen und die Einhaltung der einschlägigen Strategien und Verfahren des Finanzunternehmens durch die IKT-Drittdienstleister zu überwachen. Darüber hinaus sind in der Leitlinie Maßnahmen zu spezifizieren, die Anwendung finden, wenn Dienstleistungsvereinbarungen nicht eingehalten werden, und gegebenenfalls Vertragsstrafen umfassen."
+      }
+    ]
+  },
+  "009.002": {
+    "h": "035351cb1269311c60d8f0fd2962d238",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie wird festgelegt, wie das Finanzunternehmen bewertet, ob die IKT-Drittdienstleister, die für die IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen in Anspruch genommen werden, angemessene Leistungs- und Qualitätsstandards im Einklang mit der vertraglichen Vereinbarung und den Strategien des Finanzunternehmens einhalten. Die Leitlinie muss insbesondere gewährleisten, dass"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die IKT-Drittdienstleister dem Finanzunternehmen angemessene Berichte über ihre Tätigkeiten und Dienstleistungen vorlegen, darunter regelmäßige Berichte, Berichte über Vorfälle, Berichte über die Erbringung von Dienstleistungen, Berichte über die IKT-Sicherheit und Berichte über Maßnahmen und Tests zur Geschäftsfortführung;"
+          },
+          {
+            "m": "b)",
+            "t": "die Leistungsfähigkeit von IKT-Drittdienstleistern anhand wesentlicher Leistungsindikatoren, wesentlicher Kontrollindikatoren, Audits, Selbstzertifizierungen und unabhängiger Überprüfungen im Einklang mit dem IKT-Risikomanagementrahmen des Finanzunternehmens bewertet wird;"
+          },
+          {
+            "m": "c)",
+            "t": "das Finanzunternehmen andere relevante Informationen von den IKT-Drittdienstleistern erhält;"
+          },
+          {
+            "m": "d)",
+            "t": "das Finanzunternehmen gegebenenfalls über IKT-bezogene Vorfälle und operationale oder sicherheitsbezogene Vorfälle im Zusammenhang mit Zahlungen unterrichtet wird;"
+          },
+          {
+            "m": "e)",
+            "t": "eine unabhängige Überprüfung und Audits vorgenommen werden, um die Einhaltung der rechtlichen und regulatorischen Anforderungen und Strategien zu prüfen."
+          }
+        ]
+      }
+    ]
+  },
+  "009.003": {
+    "h": "5adfa3fb5421559d4b2af984897c2b0f",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie wird festgelegt, dass die Bewertung nach Absatz 2 zu dokumentieren ist und ihre Ergebnisse verwendet werden müssen, um die Risikobewertung des Finanzunternehmens im Sinne von Artikel 6 zu aktualisieren."
+      }
+    ]
+  },
+  "009.004": {
+    "h": "c27d33cbba44fa117bb62502b331650b",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie werden die geeigneten Maßnahmen festgelegt, die das Finanzunternehmen ergreifen muss, wenn es Mängel beim IKT-Drittdienstleister, einschließlich IKT-bezogener Vorfälle und operationaler oder sicherheitsbezogener Vorfälle im Zusammenhang mit Zahlungen, bei der Erbringung der IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen oder bei der Einhaltung vertraglicher Vereinbarungen oder rechtlicher Anforderungen feststellt. Ferner wird darin festgelegt, wie die Umsetzung solcher Maßnahmen zu überwachen ist, um sicherzustellen, dass die Maßnahmen innerhalb eines festgelegten Zeitrahmens wirksam eingehalten werden, wobei zu berücksichtigen ist, wie wesentlich die Mängel sind."
+      }
+    ]
+  },
+  "art_1": {
+    "h": "905ee71baea2fe4a1b72800a6c683068",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie für die Nutzung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen, die von IKT-Drittdienstleistern bereitgestellt werden (im Folgenden „Leitlinie“), werden die Größe und das Gesamtrisikoprofil des Finanzunternehmens sowie die Art und der Umfang seiner Dienstleistungen, Tätigkeiten und Geschäfte und die Elemente berücksichtigt, durch die sich deren Komplexität erhöht oder verringert, einschließlich der Elemente, die Folgendes betreffen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Art der IKT-Dienstleistungen, die Gegenstand der vertraglichen Vereinbarung zwischen dem Finanzunternehmen und dem IKT-Drittdienstleister über die Nutzung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen, die von IKT-Drittdienstleistern bereitgestellt werden (im Folgenden „vertragliche Vereinbarung“), sind;"
+          },
+          {
+            "m": "b)",
+            "t": "den Standort des IKT-Drittdienstleisters oder den Standort seines Mutterunternehmens;"
+          },
+          {
+            "m": "c)",
+            "t": "ob die IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen von einem IKT-Drittdienstleister in einem Mitgliedstaat oder einem Drittstaat bereitgestellt werden, auch unter Berücksichtigung des Standorts, von dem aus die IKT-Dienstleistungen bereitgestellt werden, und des Standorts, an dem die Daten verarbeitet und gespeichert werden;"
+          },
+          {
+            "m": "d)",
+            "t": "die Art der Daten, die mit dem IKT-Drittdienstleister ausgetauscht werden;"
+          },
+          {
+            "m": "e)",
+            "t": "ob der IKT-Drittdienstleister derselben Gruppe angehört wie das Finanzunternehmen, für das die Dienstleistungen erbracht werden;"
+          },
+          {
+            "m": "f)",
+            "t": "die Nutzung von IKT-Drittdienstleistern, die einer Zulassung, Registrierung oder der Beaufsichtigung oder Überwachung durch eine zuständige Behörde in einem Mitgliedstaat oder dem Überwachungsrahmen nach Kapitel V Abschnitt II der Verordnung (EU) 2022/2554 unterliegen, sowie die Nutzung von IKT-Drittdienstleistern, auf die dies nicht zutrifft;"
+          },
+          {
+            "m": "g)",
+            "t": "die Nutzung von IKT-Drittdienstleistern, die der Zulassung, Registrierung oder der Beaufsichtigung oder Überwachung durch eine Aufsichtsbehörde in einem Drittstaat unterliegen, sowie die Nutzung von IKT-Drittdienstleistern, auf die dies nicht zutrifft;"
+          },
+          {
+            "m": "h)",
+            "t": "ob die Bereitstellung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen sich auf einen einzigen IKT-Drittdienstleister oder eine kleine Anzahl solcher Dienstleister konzentriert;"
+          },
+          {
+            "m": "i)",
+            "t": "die Übertragbarkeit der IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen auf einen anderen IKT-Drittdienstleister, auch aufgrund technologischer Besonderheiten;"
+          },
+          {
+            "m": "j)",
+            "t": "die potenziellen Auswirkungen von Störungen bei der Bereitstellung der IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen auf die Kontinuität der Tätigkeiten des Finanzunternehmens und auf die Verfügbarkeit seiner Dienstleistungen."
+          }
+        ]
+      }
+    ]
+  },
+  "art_10": {
+    "h": "6d2b3ed0e3db77c34d002e9fbf357eb0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Leitlinie enthält Anforderungen an einen dokumentierten Ausstiegsplan für jede vertragliche Vereinbarung sowie Anforderungen, die die regelmäßigen Überprüfungen und Tests des dokumentierten Ausstiegsplans betreffen. Bei der Festlegung des Ausstiegsplans ist Folgendes zu berücksichtigen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "unvorhergesehene und anhaltende Unterbrechungen bei der Bereitstellung von Dienstleistungen;"
+          },
+          {
+            "m": "b)",
+            "t": "eine mangelhafte oder nicht erfolgte Erbringung von Dienstleistungen;"
+          },
+          {
+            "m": "c)",
+            "t": "eine unerwartete Beendigung vertraglicher Vereinbarungen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Der Ausstiegsplan muss realistisch und durchführbar sein, auf plausiblen Szenarien und vernünftigen Annahmen beruhen und einen Durchführungszeitplan enthalten, der mit den in den vertraglichen Vereinbarungen festgelegten Ausstiegs- und Beendigungsbedingungen vereinbar ist."
+      }
+    ]
+  },
+  "art_11": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "art_2": {
+    "h": "a01bb00c13d8ebb1ac98a5d35be4064a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Findet diese Verordnung auf teilkonsolidierter oder konsolidierter Basis Anwendung, so gewährleistet das Mutterunternehmen, das für die Erstellung des konsolidierten oder teilkonsolidierten Abschlusses für die Gruppe verantwortlich zeichnet, dass die Leitlinie in allen Finanzunternehmen, die Teil der Gruppe sind, konsistent umgesetzt wird und für die wirksame Anwendung dieser Verordnung auf allen relevanten Ebenen der Gruppe angemessen ist."
+      }
+    ]
+  },
+  "art_4": {
+    "h": "ec2ef101b0908de4d6763ef2a7463c8b",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Leitlinie werden für jede Hauptphase des Lebenszyklus der vertraglichen Vereinbarung die Anforderungen, einschließlich der Regelungen, Zuständigkeiten und Prozesse, festgelegt, die mindestens Folgendes abdecken:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Zuständigkeiten des Leitungsorgans, gegebenenfalls einschließlich seiner Beteiligung an der Entscheidungsfindung hinsichtlich der Nutzung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen, die von IKT-Drittdienstleistern bereitgestellt werden;"
+          },
+          {
+            "m": "b)",
+            "t": "die Planung vertraglicher Vereinbarungen, einschließlich der Risikobewertung, des Verfahrens zur Erfüllung der Sorgfaltspflicht nach den Artikeln 5 und 6 und des Genehmigungsverfahrens für neue oder wesentliche Änderungen vertraglicher Vereinbarungen im Sinne von Artikel 8 Absatz 4;"
+          },
+          {
+            "m": "c)",
+            "t": "die Einbeziehung von Geschäftsbereichen, internen Kontrollen und anderen relevanten Organisationsbereichen in Bezug auf vertragliche Vereinbarungen;"
+          },
+          {
+            "m": "d)",
+            "t": "die Umsetzung, die Überwachung und das Management vertraglicher Vereinbarungen nach den Artikeln 7, 8 und 9, gegebenenfalls auch auf konsolidierter und teilkonsolidierter Ebene;"
+          },
+          {
+            "m": "e)",
+            "t": "die Dokumentation und die Erstellung von Aufzeichnungen unter Berücksichtigung der für das Informationsregister nach Artikel 28 Absatz 3 der Verordnung (EU) 2022/2554 geltenden Anforderungen;"
+          },
+          {
+            "m": "f)",
+            "t": "die Ausstiegsstrategien und Beendigungsverfahren nach Artikel 10."
+          }
+        ]
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "6569862eec3c46b968ebe402bcd0cea1",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 28 Absatz 10 Unterabsatz 3,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "41bf0b314e690090c0937a125cbc7c54",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Nach dem mit der Verordnung (EU) 2022/2554 geschaffenen Rahmen für die digitale operationale Resilienz im Finanzsektor müssen Finanzunternehmen bestimmte Schlüsselprinzipien für das Management des IKT-Drittparteienrisikos festlegen, die insbesondere dann wichtig sind, wenn Finanzunternehmen zur Unterstützung ihrer kritischen oder wichtigen Funktionen auf IKT-Drittdienstleister zurückgreifen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_10": {
+    "h": "0cc410f42e32edf2149283e4c75b3b4d",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(10)",
+            "t": "Um bei der Bereitstellung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen durch IKT-Drittdienstleister ein solides Risikomanagement zu gewährleisten, sollte die Leitlinie Informationen über die Implementierung, die Überwachung und das Management der vertraglichen Vereinbarungen, gegebenenfalls auch auf konsolidierter und teilkonsolidierter Ebene, enthalten. Dazu gehören auch Anforderungen hinsichtlich der Vertragsklauseln über gegenseitige Verpflichtungen der Finanzunternehmen und IKT-Drittdienstleister, die schriftlich niedergelegt werden sollten. Um eine effiziente Beaufsichtigung zu gewährleisten und die Resilienz im Falle von Änderungen des Geschäftsmodells oder -umfelds zu fördern, sollten in der Leitlinie die Rechte der Finanzunternehmen oder der beauftragten Dritten und der zuständigen Behörden im Zusammenhang mit Inspektionen und dem Zugang zu Informationen gewährleistet und die Ausstiegsstrategien und Beendigungsverfahren genauer festgelegt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_11": {
+    "h": "cc7e51b5c7607af6dc785571bd82fc33",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(11)",
+            "t": "Soweit personenbezogene Daten von IKT-Drittdienstleistern verarbeitet werden, lassen die Leitlinie und etwaige vertragliche Vereinbarungen die Verpflichtungen aus der Verordnung (EU) 2016/679 des Europäischen Parlaments und des Rates () unberührt und sollten diese ergänzen, z. B. durch einen schriftlichen Vertrag, in dem beschrieben wird, wie personenbezogene Daten zu verarbeiten sind, um die Sicherheit der Verarbeitung personenbezogener Daten zu gewährleisten, und in dem alle anderen nach dieser Verordnung erforderlichen Elemente festgelegt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_12": {
+    "h": "8c930f2d8a2f5c5812f9981549eaaee4",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(12)",
+            "t": "Der in Artikel 54 der Verordnung (EU) Nr. 1093/2010 des Europäischen Parlaments und des Rates (), in Artikel 54 der Verordnung (EU) Nr. 1094/2010 des Europäischen Parlaments und des Rates () und in Artikel 54 der Verordnung (EU) Nr. 1095/2010 des Europäischen Parlaments und des Rates () genannte Gemeinsame Ausschuss der Europäischen Aufsichtsbehörden hat zu diesem Entwurf technischer Regulierungsstandards, auf dem die vorliegende Verordnung beruht, öffentliche Konsultationen durchgeführt, die damit verbundenen Kosten- und Nutzeneffekte analysiert und die Stellungnahme der nach Artikel 37 der Verordnung (EU) Nr. 1093/2010 eingesetzten Interessengruppe Bankensektor, der nach Artikel 37 der Verordnung (EU) Nr. 1094/2010 eingesetzten Interessengruppe Versicherung und Rückversicherung und der nach Artikel 37 der Verordnung (EU) Nr. 1095/2010 eingesetzten Interessengruppe Wertpapiere und Wertpapiermärkte eingeholt."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_13": {
+    "h": "1714a23480d4e71dd7fa9a33baf9f788",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(13)",
+            "t": "Der Europäische Datenschutzbeauftragte wurde gemäß Artikel 42 Absatz 1 der Verordnung (EU) 2018/1725 des Europäischen Parlaments und des Rates () angehört und hat am 24. Januar 2024 eine Stellungnahme abgegeben —"
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "b57819d8716ee768e6e097174329a1da",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Finanzunternehmen müssen im Rahmen ihres IKT-Risikomanagementrahmens eine Strategie für das IKT-Drittparteienrisiko annehmen und regelmäßig überprüfen. Nach Artikel 28 Absatz 2 der Verordnung (EU) 2022/2554 muss diese Strategie eine Leitlinie für die Nutzung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen umfassen, die von IKT-Drittdienstleistern bereitgestellt werden. Sie gilt auf individueller und gegebenenfalls teilkonsolidierter und konsolidierter Basis."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "0e49cffcc38a328230d56378aff2351d",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Finanzunternehmen unterscheiden sich in ihrer Größe, Struktur und internen Organisation sowie in der Art und Komplexität ihrer Tätigkeiten und Geschäfte erheblich voneinander. Es ist notwendig, dieser Vielfalt Rechnung zu tragen und bei der Ausarbeitung der Leitlinie für vertragliche Vereinbarungen über die Nutzung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen, die von IKT-Drittdienstleistern bereitgestellt werden (im Folgenden „Leitlinie“), bestimmte grundlegende regulatorische Anforderungen einzuführen, die für alle Finanzunternehmen angemessen sind, und sicherzustellen, dass diese Anforderungen in einer verhältnismäßigen Weise angewandt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "84fdeb5718eecc5c217af9f602065bfe",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Gehören Finanzunternehmen einer Gruppe an, so sollte das Mutterunternehmen, das für die Erstellung des konsolidierten oder teilkonsolidierten Abschlusses für die Gruppe verantwortlich zeichnet, sicherstellen, dass die Leitlinie innerhalb der Gruppe auf konsistente und kohärente Weise angewandt wird."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "7b05a0576c00dc74104caa86d6038d10",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Bei der Anwendung der Leitlinie sollten gruppeninterne IKT-Dienstleister, einschließlich solcher, die sich im vollständigen oder gemeinsamen Besitz von Finanzunternehmen innerhalb desselben institutsbezogenen Sicherungssystems befinden, als IKT-Drittdienstleister betrachtet werden. Wenngleich die von gruppeninternen IKT-Dienstleistern ausgehenden Risiken möglicherweise anderer Art sind, gelten für sie dieselben Anforderungen nach der Verordnung (EU) 2022/2554. Werden die Dienstleistungen über eine Kette von IKT-Drittdienstleistern bereitgestellt, so sollte die Leitlinie entsprechend auch für Unterauftragnehmer gelten, die IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen oder wesentlicher Teile davon für IKT-Drittdienstleister erbringen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "257282d38d2a0f48067a6a856613f8f8",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Das übergeordnete Prinzip, wonach die Verantwortung für das Management des IKT-Risikos eines Finanzunternehmens letztlich beim Leitungsorgan liegt, gilt auch bei der Nutzung von IKT-Drittdienstleistern. Diese Verantwortung sollte sich weiter im kontinuierlichen Engagement des Leitungsorgans bei der Kontrolle und Überwachung des IKT-Risikomanagements niederschlagen, einschließlich bei der Annahme und mindestens jährlichen Überprüfung der Leitlinie."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "e7cadfb565eb780e2a1572e1f8bec619",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Um eine angemessene Berichterstattung an das Leitungsorgan zu gewährleisten, sollten in der Leitlinie die internen Zuständigkeiten für die Genehmigung, das Management, die Kontrolle und die Dokumentation vertraglicher Vereinbarungen über die Nutzung von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen, die von IKT-Drittdienstleistern bereitgestellt werden (im Folgenden „vertragliche Vereinbarungen“), einschließlich der IKT-Dienstleistungen, die im Rahmen vertraglicher Vereinbarungen nach Artikel 28 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 erbracht werden, eindeutig spezifiziert und ermittelt werden."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "e20dab0348224dd8f37fce3225052224",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Damit allen möglichen Risiken, die bei der Vergabe von IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen entstehen können, Rechnung getragen wird, sollte die Leitlinie die einzelnen Schritte in jeder Hauptphase des Lebenszyklus vertraglicher Vereinbarungen mit Drittdienstleistern nachzeichnen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "eb78dd58f868866960807b960be81303",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Um die ermittelten Risiken zu mindern, sollte in der Leitlinie spezifiziert werden, wie vertragliche Vereinbarungen zu planen sind, einschließlich der Risikobewertung, des Verfahrens zur Erfüllung der Sorgfaltspflicht und des Genehmigungsverfahrens für neue oder wesentliche Änderungen dieser vertraglichen Vereinbarungen. Um die Risiken zu managen, die vor dem Abschluss einer vertraglichen Vereinbarung mit einem IKT-Drittdienstleister entstehen könnten, sollte die Leitlinie ein geeignetes und verhältnismäßiges Verfahren für die Auswahl und die Bewertung der Eignung künftiger IKT-Drittdienstleister enthalten und vorschreiben, dass das Finanzunternehmen eine nicht erschöpfende Liste von Elementen zu berücksichtigen hat, die bei einem IKT-Drittdienstleister gegeben sein müssen. In der Liste sollten insbesondere auch Elemente enthalten sein, die die geschäftliche Reputation der Dienstleister, ihre finanziellen, personellen und technischen Ressourcen, ihre Informationssicherheit, ihre Organisationsstruktur, einschließlich Risikomanagement, und ihre internen Kontrollen betreffen."
+          }
+        ]
+      }
+    ]
+  }
+}

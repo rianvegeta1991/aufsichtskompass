@@ -1,0 +1,19 @@
+{
+  "regelwerk": "dora-rts-532",
+  "fassungen": [
+    {
+      "id": "2025-07-02",
+      "stand": "Wed, 02 Jul 2025 06:30:37 GMT",
+      "abgerufen": "2026-09-27T10:10:26Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32025R0532",
+        "celex": "32025R0532",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20250702083037000\"",
+      "hash": "e7a77ec68296961925804552a1992373f6b2e261991a9752321fdaee168d3d33",
+      "fundstellen": 28
+    }
+  ]
+}

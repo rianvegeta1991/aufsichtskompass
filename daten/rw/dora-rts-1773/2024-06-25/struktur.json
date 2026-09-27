@@ -1,0 +1,427 @@
+{
+  "regelwerk": "dora-rts-1773",
+  "fassung": "2024-06-25",
+  "abgerufen": "2026-09-27T10:10:23Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32024R1773",
+    "celex": "32024R1773",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        },
+        {
+          "id": "rct_12",
+          "art": "erwaegungsgrund",
+          "nummer": "12",
+          "pfad": "eg/12",
+          "text": true
+        },
+        {
+          "id": "rct_13",
+          "art": "erwaegungsgrund",
+          "nummer": "13",
+          "pfad": "eg/13",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_1",
+      "art": "artikel",
+      "nummer": "1",
+      "titel": {
+        "de": "Gesamtrisikoprofil und -komplexität"
+      },
+      "pfad": "art/1",
+      "text": true
+    },
+    {
+      "id": "art_2",
+      "art": "artikel",
+      "nummer": "2",
+      "titel": {
+        "de": "Anwendung auf eine Gruppe"
+      },
+      "pfad": "art/2",
+      "text": true
+    },
+    {
+      "id": "art_3",
+      "art": "artikel",
+      "nummer": "3",
+      "titel": {
+        "de": "Governance-Regelungen"
+      },
+      "pfad": "art/3",
+      "kinder": [
+        {
+          "id": "003.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/3/abs/1",
+          "text": true
+        },
+        {
+          "id": "003.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/3/abs/2",
+          "text": true
+        },
+        {
+          "id": "003.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/3/abs/3",
+          "text": true
+        },
+        {
+          "id": "003.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/3/abs/4",
+          "text": true
+        },
+        {
+          "id": "003.005",
+          "art": "absatz",
+          "nummer": "5",
+          "pfad": "art/3/abs/5",
+          "text": true
+        },
+        {
+          "id": "003.006",
+          "art": "absatz",
+          "nummer": "6",
+          "pfad": "art/3/abs/6",
+          "text": true
+        },
+        {
+          "id": "003.007",
+          "art": "absatz",
+          "nummer": "7",
+          "pfad": "art/3/abs/7",
+          "text": true
+        },
+        {
+          "id": "003.008",
+          "art": "absatz",
+          "nummer": "8",
+          "pfad": "art/3/abs/8",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_4",
+      "art": "artikel",
+      "nummer": "4",
+      "titel": {
+        "de": "Hauptphasen des Lebenszyklus mit Blick auf die Annahme und Nutzung vertraglicher Vereinbarungen"
+      },
+      "pfad": "art/4",
+      "text": true
+    },
+    {
+      "id": "art_5",
+      "art": "artikel",
+      "nummer": "5",
+      "titel": {
+        "de": "Ex-ante-Risikobewertung"
+      },
+      "pfad": "art/5",
+      "kinder": [
+        {
+          "id": "005.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/5/abs/1",
+          "text": true
+        },
+        {
+          "id": "005.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/5/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_6",
+      "art": "artikel",
+      "nummer": "6",
+      "titel": {
+        "de": "Sorgfaltspflicht"
+      },
+      "pfad": "art/6",
+      "kinder": [
+        {
+          "id": "006.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/6/abs/1",
+          "text": true
+        },
+        {
+          "id": "006.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/6/abs/2",
+          "text": true
+        },
+        {
+          "id": "006.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/6/abs/3",
+          "text": true
+        },
+        {
+          "id": "006.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/6/abs/4",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_7",
+      "art": "artikel",
+      "nummer": "7",
+      "titel": {
+        "de": "Interessenkonflikte"
+      },
+      "pfad": "art/7",
+      "kinder": [
+        {
+          "id": "007.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/7/abs/1",
+          "text": true
+        },
+        {
+          "id": "007.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/7/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_8",
+      "art": "artikel",
+      "nummer": "8",
+      "titel": {
+        "de": "Vertragsklauseln"
+      },
+      "pfad": "art/8",
+      "kinder": [
+        {
+          "id": "008.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/8/abs/1",
+          "text": true
+        },
+        {
+          "id": "008.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/8/abs/2",
+          "text": true
+        },
+        {
+          "id": "008.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/8/abs/3",
+          "text": true
+        },
+        {
+          "id": "008.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/8/abs/4",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_9",
+      "art": "artikel",
+      "nummer": "9",
+      "titel": {
+        "de": "Überwachung der vertraglichen Vereinbarungen"
+      },
+      "pfad": "art/9",
+      "kinder": [
+        {
+          "id": "009.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/9/abs/1",
+          "text": true
+        },
+        {
+          "id": "009.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/9/abs/2",
+          "text": true
+        },
+        {
+          "id": "009.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/9/abs/3",
+          "text": true
+        },
+        {
+          "id": "009.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/9/abs/4",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_10",
+      "art": "artikel",
+      "nummer": "10",
+      "titel": {
+        "de": "Ausstieg aus und Beendigung von vertraglichen Vereinbarungen"
+      },
+      "pfad": "art/10",
+      "text": true
+    },
+    {
+      "id": "art_11",
+      "art": "artikel",
+      "nummer": "11",
+      "titel": {
+        "de": "Inkrafttreten"
+      },
+      "pfad": "art/11",
+      "text": true
+    }
+  ]
+}

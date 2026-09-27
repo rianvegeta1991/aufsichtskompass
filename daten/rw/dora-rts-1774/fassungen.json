@@ -1,0 +1,19 @@
+{
+  "regelwerk": "dora-rts-1774",
+  "fassungen": [
+    {
+      "id": "2024-06-25",
+      "stand": "Tue, 25 Jun 2024 01:07:27 GMT",
+      "abgerufen": "2026-09-27T10:10:22Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32024R1774",
+        "celex": "32024R1774",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20240625030727000\"",
+      "hash": "0111cd5633eb8f8174ef6ccab8c85771d0b4e69505a129678a7b5142f9783f23",
+      "fundstellen": 143
+    }
+  ]
+}

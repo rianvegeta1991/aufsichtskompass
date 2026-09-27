@@ -1,0 +1,295 @@
+{
+  "regelwerk": "dora-rts-295",
+  "fassung": "2025-02-13",
+  "abgerufen": "2026-09-27T10:10:27Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32025R0295",
+    "celex": "32025R0295",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_1",
+      "art": "artikel",
+      "nummer": "1",
+      "titel": {
+        "de": "Informationen, die IKT-Drittdrittdienstleister im Antrag auf Einstufung als kritisch bereitstellen müssen"
+      },
+      "pfad": "art/1",
+      "kinder": [
+        {
+          "id": "001.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/1/abs/1",
+          "text": true
+        },
+        {
+          "id": "001.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/1/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_2",
+      "art": "artikel",
+      "nummer": "2",
+      "titel": {
+        "de": "Inhalt, Struktur und Format der Informationen, die kritische IKT-Drittdienstleister übermitteln, offenlegen oder melden müssen"
+      },
+      "pfad": "art/2",
+      "kinder": [
+        {
+          "id": "002.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/2/abs/1",
+          "text": true
+        },
+        {
+          "id": "002.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/2/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_3",
+      "art": "artikel",
+      "nummer": "3",
+      "titel": {
+        "de": "Informationen, die kritische IKT-Drittdienstleister nach Abgabe der Empfehlungen bereitstellen müssen"
+      },
+      "pfad": "art/3",
+      "kinder": [
+        {
+          "id": "003.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/3/abs/1",
+          "text": true
+        },
+        {
+          "id": "003.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/3/abs/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_4",
+      "art": "artikel",
+      "nummer": "4",
+      "titel": {
+        "de": "Struktur und Format der Informationen, die kritische IKT-Drittdienstleister bereitstellen müssen"
+      },
+      "pfad": "art/4",
+      "kinder": [
+        {
+          "id": "004.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/4/abs/1",
+          "text": true
+        },
+        {
+          "id": "004.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/4/abs/2",
+          "text": true
+        },
+        {
+          "id": "004.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/4/abs/3",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_5",
+      "art": "artikel",
+      "nummer": "5",
+      "titel": {
+        "de": "Vorlage für die Bereitstellung von Informationen über Vereinbarungen über die Unterauftragsvergabe"
+      },
+      "pfad": "art/5",
+      "text": true
+    },
+    {
+      "id": "art_6",
+      "art": "artikel",
+      "nummer": "6",
+      "titel": {
+        "de": "Bewertung der in den Empfehlungen der federführenden Überwachungsbehörde dargelegten Risiken durch die zuständigen Behörden"
+      },
+      "pfad": "art/6",
+      "kinder": [
+        {
+          "id": "006.001",
+          "art": "absatz",
+          "nummer": "1",
+          "pfad": "art/6/abs/1",
+          "text": true
+        },
+        {
+          "id": "006.002",
+          "art": "absatz",
+          "nummer": "2",
+          "pfad": "art/6/abs/2",
+          "text": true
+        },
+        {
+          "id": "006.003",
+          "art": "absatz",
+          "nummer": "3",
+          "pfad": "art/6/abs/3",
+          "text": true
+        },
+        {
+          "id": "006.004",
+          "art": "absatz",
+          "nummer": "4",
+          "pfad": "art/6/abs/4",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "art_7",
+      "art": "artikel",
+      "nummer": "7",
+      "titel": {
+        "de": "Inkrafttreten"
+      },
+      "pfad": "art/7",
+      "text": true
+    }
+  ]
+}

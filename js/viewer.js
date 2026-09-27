@@ -1,0 +1,503 @@
+// Strukturierter Viewer: Gliederungsbaum links, Text in der Mitte, Kontext rechts.
+// Jede Fundstelle ist über einen stabilen Deep-Link erreichbar, z. B.
+// #/rw/dora/art/28/abs/4 oder #/rw/dora/eg/47.
+
+import { el, leere, chip, datum, zahl, titel, ton, VERBINDLICHKEIT, MODUS, fehlerkarte } from './ui.js';
+import * as daten from './daten.js';
+import * as nutzer from './nutzer.js';
+
+export async function zeigen(wurzel, rwId, pfad) {
+  const rw = await daten.regelwerk(rwId);
+  if (!rw) {
+    leere(wurzel).append(fehlerkarte(`Das Regelwerk „${rwId}" steht nicht im Katalog.`));
+    return;
+  }
+  titel(rw.kurzname);
+
+  const geladen = await daten.fassungLaden(rwId, nutzer.hol('sprache'));
+  if (!geladen) {
+    leere(wurzel).append(ohneVolltext(rw));
+    return;
+  }
+  const { fassung, struktur, text, sprache } = geladen;
+  const karten = daten.knotenkarten(struktur.knoten);
+  const glossar = begriffeSammeln(struktur.knoten, text, sprache);
+  const begriffeAn = nutzer.hol('begriffe') === true;
+
+  leere(wurzel);
+  const baum = el('nav.karte.baum', { 'aria-label': 'Gliederung' });
+  const lesen = el('article.karte.lesen');
+  const kontext = el('aside.karte.kontext', { 'aria-label': 'Kontext zur Fundstelle' });
+  wurzel.append(
+    el('div.kopfzeile',
+      el('div.wachs',
+        el('p.brotkrumen', el('a', { href: '#/bibliothek' }, 'Bibliothek'), ' › ', rw.kurzname),
+        el('h1', rw.kurzname),
+        el('p.unterzeile', rw.langtitel)),
+    ),
+    el('div.viewer', baum, el('div', { style: 'min-width:0' }, lesen), kontext),
+  );
+
+  baumZeichnen(baum, struktur, sprache, pfad);
+  zeichneText();
+
+  function zeichneText() {
+    const ziel = pfad ? karten.nachPfad.get(pfad) : null;
+    if (pfad && !ziel) {
+      leere(lesen).append(fehlerkarte(
+        `Die Fundstelle „${pfad}" gibt es in dieser Fassung nicht.`,
+        'Vielleicht ist sie in einer älteren Fassung enthalten – das Archiv kommt in Phase 6.'));
+      leere(kontext).append(...kontextTeile(rw, fassung, struktur, null, sprache));
+      return;
+    }
+    leere(lesen);
+    lesen.append(werkzeugzeile(rw, fassung, struktur, ziel, sprache, glossar, begriffeAn));
+
+    if (!ziel) {
+      lesen.append(...uebersicht(rw, fassung, struktur, sprache, karten));
+    } else {
+      const { kopf, knoten } = wahl(ziel, karten);
+      if (kopf) lesen.append(kopf);
+      for (const k of knoten) lesen.append(...knotenZeichnen(k, text, sprache, rwId, karten));
+      hervorhebenUndSpringen(lesen, ziel, glossar, begriffeAn);
+      lesen.append(blaettern(ziel, karten, rwId, sprache));
+    }
+    leere(kontext).append(...kontextTeile(rw, fassung, struktur, ziel, sprache, karten, text));
+  }
+}
+
+// ------------------------------------------------------------------ Auswahl
+
+/** Welche Knoten werden für ein Ziel gezeigt? Absätze zeigen ihren ganzen Artikel. */
+function wahl(ziel, karten) {
+  if (ziel.art === 'absatz') {
+    const vater = karten.eltern.get(ziel.id);
+    return { kopf: null, knoten: [vater || ziel] };
+  }
+  if (ziel.art === 'kapitel' || ziel.art === 'abschnitt' || ziel.art === 'praeambel') {
+    const kopf = el('div',
+      el('p.kap', ziel.art === 'praeambel' ? '' : daten.WORT[ziel.art][0] + ' ' + (ziel.nummer || '')),
+      el('h1', { style: 'margin-bottom:18px' }, (ziel.titel && (ziel.titel.de || ziel.titel.en)) || daten.WORT[ziel.art][0]));
+    return { kopf, knoten: flachInhalt(ziel) };
+  }
+  return { kopf: null, knoten: [ziel] };
+}
+
+/** Artikel bzw. Erwägungsgründe unterhalb eines Containers, in Reihenfolge. */
+function flachInhalt(knoten) {
+  const aus = [];
+  (function gehe(liste) {
+    for (const k of liste) {
+      if (k.art === 'artikel' || k.art === 'erwaegungsgrund' || k.art === 'bezugsvermerk') aus.push(k);
+      else if (k.kinder) gehe(k.kinder);
+    }
+  })(knoten.kinder || []);
+  return aus;
+}
+
+// ------------------------------------------------------------------- Zeichnen
+
+function knotenZeichnen(knoten, text, sprache, rwId, karten) {
+  const aus = [];
+  const bez = daten.bezeichnung(knoten, sprache);
+
+  if (knoten.art === 'artikel') {
+    const kap = kapitelVon(knoten, karten);
+    if (kap) aus.push(el('p.kap', kapitelBeschriftung(kap, sprache)));
+    aus.push(el('h2.artikel', { dataset: { fs: knoten.id } },
+      el('span', bez),
+      el('a', {
+        href: `#/rw/${rwId}/${knoten.pfad}`, style: 'float:right;font-size:.7rem;font-weight:400;text-decoration:none',
+        title: 'Deep-Link auf diese Fundstelle', 'aria-label': `Deep-Link auf ${bez}`,
+      }, '§ Link')));
+  } else {
+    aus.push(el('h2.artikel', { dataset: { fs: knoten.id } }, bez));
+  }
+
+  const koerper = el('div.text');
+  const eigen = text[knoten.id];
+  if (eigen) koerper.append(el('div.fundstelle', { dataset: { fs: knoten.id } }, ...bloecke(eigen.b)));
+  for (const kind of knoten.kinder || []) {
+    const t = text[kind.id];
+    if (!t) continue;
+    koerper.append(el('div.abs.fundstelle', { dataset: { fs: kind.id } },
+      el('div.nr', el('a', {
+        href: `#/rw/${rwId}/${kind.pfad}`, title: `Deep-Link auf ${daten.bezeichnung(kind, sprache)}`,
+      }, `(${kind.nummer})`)),
+      el('div', ...bloecke(t.b))));
+  }
+  aus.push(koerper);
+  return aus;
+}
+
+function bloecke(liste) {
+  return liste.map((b) => {
+    if (b.art === 'p') return el('p', b.t);
+    return punkte(b.p);
+  });
+}
+
+function punkte(liste) {
+  return el('ul.punkte', liste.map((p) => el('li',
+    el('span.marke', p.m || '–'),
+    el('div', p.t, p.u && p.u.length ? punkte(p.u) : null))));
+}
+
+function kapitelVon(knoten, karten) {
+  let k = karten.eltern.get(knoten.id);
+  while (k && k.art !== 'kapitel') k = karten.eltern.get(k.id);
+  return k;
+}
+
+function kapitelBeschriftung(kap, sprache) {
+  const t = kap.titel && (kap.titel[sprache] || kap.titel.de);
+  return `${daten.WORT.kapitel[sprache === 'en' ? 1 : 0]} ${kap.nummer}${t ? ' · ' + t : ''}`;
+}
+
+function baumZeichnen(wurzel, struktur, sprache, pfad) {
+  leere(wurzel);
+  const liste = el('ul');
+  for (const k of struktur.knoten) liste.append(baumEintrag(k, struktur.regelwerk, sprache, pfad));
+  wurzel.append(el('p.gruppe', 'Gliederung'), liste);
+}
+
+function baumEintrag(knoten, rwId, sprache, pfad) {
+  const bez = knotenKurz(knoten, sprache);
+  const aktiv = pfad === knoten.pfad;
+  const link = el('a', {
+    href: `#/rw/${rwId}/${knoten.pfad || ''}`, 'aria-current': aktiv ? 'true' : null,
+  }, bez);
+
+  const kinder = (knoten.kinder || []).filter((k) => k.art !== 'absatz');
+  if (!kinder.length) return el('li', link);
+
+  const offen = aktiv || enthaelt(knoten, pfad);
+  const d = el('details', { open: offen ? true : null },
+    el('summary', link),
+    el('ul', kinder.map((k) => baumEintrag(k, rwId, sprache, pfad))));
+  return el('li', d);
+}
+
+function enthaelt(knoten, pfad) {
+  if (!pfad) return false;
+  return (knoten.kinder || []).some((k) => k.pfad === pfad || pfad.startsWith((k.pfad || '') + '/') || enthaelt(k, pfad));
+}
+
+function knotenKurz(knoten, sprache) {
+  const w = daten.WORT[knoten.art] || [knoten.art];
+  const wort = sprache === 'en' ? (w[1] || w[0]) : w[0];
+  const t = knoten.titel && (knoten.titel[sprache] || knoten.titel.de);
+  if (knoten.art === 'praeambel') return `${t || wort} (${(knoten.kinder || []).length})`;
+  if (knoten.nummer && t) return `${wort} ${knoten.nummer} · ${t}`;
+  if (knoten.nummer) return `${wort} ${knoten.nummer}`;
+  return t || wort;
+}
+
+// ------------------------------------------------------------------ Werkzeuge
+
+function werkzeugzeile(rw, fassung, struktur, ziel, sprache, glossar, begriffeAn) {
+  const zeile = el('div.werkzeugzeile');
+
+  if (struktur.sprachen.length > 1) {
+    const schalter = el('div.sprachschalter', { role: 'group', 'aria-label': 'Sprache des Originaltextes' });
+    for (const s of struktur.sprachen) {
+      schalter.append(el('button', {
+        type: 'button', 'aria-pressed': s === sprache ? 'true' : 'false',
+        onclick: () => { nutzer.setz('sprache', s); location.reload(); },
+      }, s.toUpperCase()));
+    }
+    zeile.append(schalter);
+  }
+
+  if (ziel) {
+    const gemerkt = nutzer.istGemerkt(rw.id, ziel.pfad);
+    const merk = el('button.knopf', { type: 'button', 'aria-pressed': gemerkt ? 'true' : 'false' },
+      gemerkt ? '★ gemerkt' : '☆ merken');
+    merk.addEventListener('click', () => {
+      const nun = nutzer.merken(rw.id, ziel.pfad, `${rw.kurzname} – ${daten.bezeichnung(ziel, sprache)}`);
+      merk.setAttribute('aria-pressed', nun ? 'true' : 'false');
+      merk.textContent = nun ? '★ gemerkt' : '☆ merken';
+      ton(nun ? 'Lesezeichen gesetzt.' : 'Lesezeichen entfernt.');
+    });
+    zeile.append(merk);
+    zeile.append(el('button.knopf', {
+      type: 'button',
+      onclick: () => zitatKopieren(rw, fassung, ziel, sprache),
+    }, '⧉ Zitat kopieren'));
+  }
+
+  if (glossar.length) {
+    const b = el('button.knopf', { type: 'button', 'aria-pressed': begriffeAn ? 'true' : 'false' },
+      `Begriffe hervorheben (${glossar.length})`);
+    b.addEventListener('click', () => {
+      nutzer.setz('begriffe', !begriffeAn);
+      location.reload();
+    });
+    zeile.append(b);
+  }
+
+  zeile.append(el('span.punktzahl', { style: 'margin-left:auto' },
+    `Fassung ${datum(fassung.id)} · abgerufen ${datum(fassung.abgerufen)}`));
+  return zeile;
+}
+
+async function zitatKopieren(rw, fassung, ziel, sprache) {
+  const geladen = await daten.fassungLaden(rw.id, sprache);
+  const teile = [];
+  const sammle = (id) => {
+    const t = geladen.text[id];
+    if (t) teile.push(t.b.map((b) => b.art === 'p' ? b.t : b.p.map((p) => `${p.m} ${p.t}`).join('\n')).join('\n'));
+  };
+  sammle(ziel.id);
+  for (const k of ziel.kinder || []) sammle(k.id);
+
+  const url = location.href.split('#')[0] + `#/rw/${rw.id}/${ziel.pfad}`;
+  const zitat = [
+    `${rw.kurzname} – ${daten.bezeichnung(ziel, sprache)}`,
+    '',
+    teile.join('\n\n'),
+    '',
+    `Quelle: ${rw.langtitel}`,
+    `${fassung.quelle.name}, Fassung vom ${datum(fassung.id)}, abgerufen am ${datum(fassung.abgerufen)}.`,
+    'Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung.',
+    url,
+  ].join('\n');
+  try {
+    await navigator.clipboard.writeText(zitat);
+    ton('Zitat mit Quellenangabe kopiert.');
+  } catch {
+    ton('Kopieren hat der Browser abgelehnt.');
+  }
+}
+
+// -------------------------------------------------------------------- Kontext
+
+function kontextTeile(rw, fassung, struktur, ziel, sprache, karten, text) {
+  const teile = [];
+  const v = VERBINDLICHKEIT[rw.verbindlichkeit] || ['', rw.verbindlichkeit, ''];
+  const m = MODUS[rw.modus] || ['', rw.modus, ''];
+
+  if (ziel) {
+    teile.push(el('h3', 'Fundstelle'),
+      el('p', { style: 'margin:0 0 6px' }, el('strong', daten.bezeichnung(ziel, sprache))),
+      el('p.punktzahl', { style: 'margin:0' }, `Kennung ${ziel.id} · Pfad ${ziel.pfad}`));
+  }
+
+  teile.push(el('h3', 'Einordnung'),
+    el('div', { style: 'display:flex;flex-wrap:wrap;gap:6px' },
+      chip(v[1], v[0], v[2]), chip(m[1], m[0], m[2]),
+      !rw.geprueft ? chip('ungeprüft', 'warn') : null),
+    el('dl',
+      el('dt', 'Herausgeber'), el('dd', rw.herausgeber),
+      el('dt', 'Typ'), el('dd', rw.typ),
+      el('dt', 'Status'), el('dd', rw.status),
+      rw.gueltigAb ? el('dt', 'Gültig ab') : null, rw.gueltigAb ? el('dd', datum(rw.gueltigAb)) : null,
+      el('dt', 'Fassung'), el('dd', `${datum(fassung.id)} (${zahl(fassung.fundstellen)} Fundstellen)`),
+      el('dt', 'Abgerufen'), el('dd', datum(fassung.abgerufen)),
+    ));
+
+  teile.push(el('h3', 'Quelle'),
+    el('p', { style: 'margin:0 0 4px' }, fassung.quelle.name),
+    el('p', { style: 'margin:0 0 6px' }, el('a', { href: rw.quelle.url, target: '_blank', rel: 'noopener' },
+      rw.quelle.celex ? `CELEX ${rw.quelle.celex} ↗` : 'amtliche Quelle ↗')),
+    el('div.hinweis.recht', { style: 'font-size:.8rem' }, fassung.quelle.hinweis));
+
+  // Relevanz
+  const relWahl = el('select', { 'aria-label': 'Relevanz dieses Regelwerks', style: 'width:100%' });
+  for (const [w, t] of [['relevant', 'relevant'], ['referenz', 'Referenz'], ['nichtrelevant', 'nicht relevant']]) {
+    relWahl.append(el('option', { value: w, selected: nutzer.relevanz(rw) === w ? true : null }, t));
+  }
+  relWahl.addEventListener('change', (e) => {
+    nutzer.relevanzSetzen(rw.id, e.target.value);
+    ton('Relevanz gespeichert – sie steuert Filter und Suche.');
+  });
+  teile.push(el('h3', 'Relevanz'), relWahl);
+
+  // Konkretisierende Rechtsakte und Grundlage
+  teile.push(el('div', { id: 'kontext-bezug' }));
+  bezuegeNachladen(rw);
+
+  if (rw.themen && rw.themen.length) {
+    teile.push(el('h3', 'Themen'),
+      el('div', { style: 'display:flex;flex-wrap:wrap;gap:6px' },
+        rw.themen.map((t) => el('a.chip', { href: `#/themen/${t}`, style: 'text-decoration:none' }, t))));
+  }
+
+  teile.push(el('div', { id: 'kontext-fussnoten' }));
+  fussnotenNachladen(rw);
+
+  if (ziel) {
+    const id = ziel.id;
+    const feld = el('textarea', {
+      placeholder: 'Eigene Notiz zu dieser Fundstelle …', 'aria-label': 'Notiz zu dieser Fundstelle',
+    });
+    feld.value = nutzer.notiz(rw.id, id);
+    let t = null;
+    feld.addEventListener('input', () => {
+      clearTimeout(t);
+      t = setTimeout(() => nutzer.notizSetzen(rw.id, id, feld.value), 400);
+    });
+    teile.push(el('h3', 'Notiz'), feld,
+      el('p.punktzahl', { style: 'margin:4px 0 0' }, 'Bleibt nur auf diesem Gerät.'));
+  }
+
+  teile.push(el('h3', 'Noch nicht fertig'),
+    el('div.hinweis.phase', { style: 'font-size:.8rem' },
+      'Mappings, Best-Practice-Einordnungen und verknüpfte Lerninhalte erscheinen hier ab Phase 4 bzw. 7.'));
+
+  return teile;
+}
+
+async function bezuegeNachladen(rw) {
+  const k = await daten.katalog();
+  const ziel = document.getElementById('kontext-bezug');
+  if (!ziel) return;
+  const kinder = k.regelwerke.filter((r) => r.konkretisiert === rw.id);
+  const vater = rw.konkretisiert ? k.regelwerke.find((r) => r.id === rw.konkretisiert) : null;
+  if (!kinder.length && !vater) return;
+  leere(ziel);
+  if (vater) {
+    ziel.append(el('h3', 'Konkretisiert'),
+      el('p', { style: 'margin:0' }, el('a', { href: `#/rw/${vater.id}` }, vater.kurzname)));
+  }
+  if (kinder.length) {
+    ziel.append(el('h3', `Level-2-Rechtsakte (${kinder.length})`),
+      el('ul', kinder.map((r) => el('li', el('a', { href: `#/rw/${r.id}` }, r.kurzname)))));
+  }
+}
+
+async function fussnotenNachladen(rw) {
+  const f = await daten.fussnoten().catch(() => null);
+  const ziel = document.getElementById('kontext-fussnoten');
+  if (!f || !ziel) return;
+  const passend = (f.fussnoten || []).filter((x) =>
+    (x.gilt_fuer.regelwerke || []).includes(rw.id) ||
+    (x.gilt_fuer.themen || []).some((t) => (rw.themen || []).includes(t)));
+  if (!passend.length) return;
+  leere(ziel);
+  ziel.append(el('h3', 'Fußnoten'),
+    ...passend.map((x) => el('p', { style: 'margin:0 0 8px;font-size:.82rem' },
+      el('strong', x.quelle + ': '), x.text, ' ',
+      x.url ? el('a', { href: x.url, target: '_blank', rel: 'noopener' }, '↗') : null)));
+}
+
+// ----------------------------------------------------------- Übersicht / Rest
+
+function uebersicht(rw, fassung, struktur, sprache, karten) {
+  const artikel = [...karten.nachId.values()].filter((k) => k.art === 'artikel');
+  const eg = [...karten.nachId.values()].filter((k) => k.art === 'erwaegungsgrund');
+  return [
+    el('div.gitter.drei', { style: 'margin-bottom:20px' },
+      kennzahl(String(artikel.length), 'Artikel'),
+      kennzahl(String(eg.length), 'Erwägungsgründe'),
+      kennzahl(zahl(fassung.fundstellen), 'Fundstellen mit Text')),
+    el('h2', 'Inhalt'),
+    el('table.liste',
+      el('thead', el('tr', el('th', 'Gliederung'), el('th', 'Artikel'))),
+      el('tbody', struktur.knoten.map((k) => el('tr',
+        el('td', el('a', { href: `#/rw/${rw.id}/${k.pfad}` }, knotenKurz(k, sprache))),
+        el('td', String(flachInhalt(k).length || (k.art === 'artikel' ? 1 : 0))))))),
+    el('p.unterzeile', { style: 'margin-top:14px' },
+      'Links wählt eine Fundstelle; jede hat einen eigenen Deep-Link.'),
+  ];
+}
+
+function kennzahl(wert, beschriftung) {
+  return el('div.karte', el('div.kennzahl-titel', beschriftung), el('div.kennzahl', wert));
+}
+
+function blaettern(ziel, karten, rwId, sprache) {
+  const gleiche = [...karten.nachId.values()].filter((k) => k.art === ziel.art || (ziel.art === 'absatz' && k.art === 'artikel'));
+  const bezug = ziel.art === 'absatz' ? karten.eltern.get(ziel.id) : ziel;
+  const i = gleiche.findIndex((k) => k.id === (bezug || ziel).id);
+  if (i < 0) return null;
+  const zeile = el('div', { style: 'display:flex;gap:10px;margin-top:26px;padding-top:14px;border-top:1px solid var(--color-border)' });
+  if (i > 0) zeile.append(el('a.knopf', { href: `#/rw/${rwId}/${gleiche[i - 1].pfad}` }, '← ' + daten.bezeichnung(gleiche[i - 1], sprache)));
+  if (i < gleiche.length - 1) zeile.append(el('a.knopf', { href: `#/rw/${rwId}/${gleiche[i + 1].pfad}`, style: 'margin-left:auto' }, daten.bezeichnung(gleiche[i + 1], sprache) + ' →'));
+  return zeile;
+}
+
+function ohneVolltext(rw) {
+  return el('div',
+    el('div.kopfzeile', el('div.wachs',
+      el('p.brotkrumen', el('a', { href: '#/bibliothek' }, 'Bibliothek'), ' › ', rw.kurzname),
+      el('h1', rw.kurzname), el('p.unterzeile', rw.langtitel))),
+    el('div.karte',
+      el('h2', 'Für dieses Regelwerk liegt noch kein Text vor'),
+      el('p', rw.modus === 'original'
+        ? 'Der Originaltext ist zulässig, der passende Konnektor ist aber noch nicht umgesetzt oder noch nicht aktiviert.'
+        : 'Hier darf kein Volltext stehen. Die eigenen Zusammenfassungen entstehen in Phase 3.'),
+      rw.hinweis ? el('div.hinweis.recht', rw.hinweis) : null,
+      el('p', { style: 'margin-top:14px' },
+        el('a.knopf.haupt', { href: rw.quelle.url, target: '_blank', rel: 'noopener' }, 'Zur amtlichen Quelle ↗'),
+        rw.quelle.suchbegriff ? el('span.punktzahl', { style: 'margin-left:10px' }, `Suchbegriff dort: „${rw.quelle.suchbegriff}"`) : null)),
+  );
+}
+
+// -------------------------------------------------------- Glossar / Zielmarke
+
+/** Begriffsbestimmungen aus dem Definitionsartikel ziehen (DORA Art. 3: 65 Begriffe). */
+function begriffeSammeln(knoten, text, sprache) {
+  let def = null;
+  (function gehe(liste) {
+    for (const k of liste) {
+      const t = (k.titel && (k.titel.de || k.titel.en) || '').toLowerCase();
+      if (k.art === 'artikel' && (t.includes('begriffsbestimmung') || t === 'definitions')) def = k;
+      if (k.kinder) gehe(k.kinder);
+    }
+  })(knoten);
+  if (!def) return [];
+  const quellen = [def.id, ...(def.kinder || []).map((k) => k.id)];
+  const aus = [];
+  for (const id of quellen) {
+    const t = text[id];
+    if (!t) continue;
+    for (const b of t.b) {
+      if (b.art !== 'liste') continue;
+      for (const p of b.p) {
+        const m = p.t.match(/^[„"»]([^"«"]{3,80})["«"]\s*(.+)$/);
+        if (m) aus.push({ begriff: m[1], text: m[2], pfad: def.pfad, nummer: p.m });
+      }
+    }
+  }
+  return aus;
+}
+
+/** Zielmarke setzen, dorthin springen, optional Begriffe auszeichnen. */
+function hervorhebenUndSpringen(wurzel, ziel, glossar, begriffeAn) {
+  if (begriffeAn && glossar.length) begriffeAuszeichnen(wurzel, glossar);
+  const marke = wurzel.querySelector(`[data-fs="${CSS.escape(ziel.id)}"]`);
+  if (!marke) return;
+  if (ziel.art === 'absatz') marke.classList.add('ziel');
+  requestAnimationFrame(() => marke.scrollIntoView({ block: 'start', behavior: 'auto' }));
+}
+
+function begriffeAuszeichnen(wurzel, glossar) {
+  const nachLaenge = [...glossar].sort((a, b) => b.begriff.length - a.begriff.length).slice(0, 120);
+  const muster = new RegExp('(' + nachLaenge.map((g) => g.begriff.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')', 'g');
+  const karte = new Map(nachLaenge.map((g) => [g.begriff, g]));
+  const laeufer = document.createTreeWalker(wurzel, NodeFilter.SHOW_TEXT);
+  const kandidaten = [];
+  while (laeufer.nextNode()) {
+    const n = laeufer.currentNode;
+    if (n.parentElement.closest('h2, .marke, abbr')) continue;
+    if (muster.test(n.nodeValue)) kandidaten.push(n);
+    muster.lastIndex = 0;
+  }
+  for (const n of kandidaten) {
+    const teile = n.nodeValue.split(muster);
+    const ersatz = document.createDocumentFragment();
+    teile.forEach((s, i) => {
+      const g = i % 2 === 1 ? karte.get(s) : null;
+      if (g) {
+        ersatz.append(el('abbr', {
+          title: `${g.begriff}: ${g.text}`,
+          style: 'text-decoration:underline dotted var(--color-secondary);cursor:help',
+        }, s));
+      } else if (s) {
+        ersatz.append(document.createTextNode(s));
+      }
+    });
+    n.parentNode.replaceChild(ersatz, n);
+  }
+}

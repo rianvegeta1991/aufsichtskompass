@@ -1,0 +1,109 @@
+{
+  "ereignisse": [
+    {
+      "zeitpunkt": "2026-09-27T09:49:19Z",
+      "regelwerk": "dora",
+      "fassung": "2024-10-15",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32022R2554"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:19Z",
+      "regelwerk": "dora-rts-1774",
+      "fassung": "2024-06-25",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32024R1774"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:19Z",
+      "regelwerk": "dora-rts-1772",
+      "fassung": "2024-06-25",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32024R1772"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:20Z",
+      "regelwerk": "dora-rts-1773",
+      "fassung": "2024-06-25",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32024R1773"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:20Z",
+      "regelwerk": "dora-its-2956",
+      "fassung": "2024-12-06",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32024R2956"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:20Z",
+      "regelwerk": "dora-rts-301",
+      "fassung": "2025-02-20",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32025R0301"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:21Z",
+      "regelwerk": "dora-its-302",
+      "fassung": "2025-02-20",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32025R0302"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:22Z",
+      "regelwerk": "dora-rts-1190",
+      "fassung": "2025-06-18",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32025R1190"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:22Z",
+      "regelwerk": "dora-rts-532",
+      "fassung": "2025-07-02",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32025R0532"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:22Z",
+      "regelwerk": "dora-dv-1502",
+      "fassung": "2024-05-30",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32024R1502"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:23Z",
+      "regelwerk": "dora-dv-1505",
+      "fassung": "2024-05-30",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32024R1505"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:23Z",
+      "regelwerk": "dora-rts-295",
+      "fassung": "2025-02-13",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32025R0295"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:24Z",
+      "regelwerk": "dora-rts-420",
+      "fassung": "2025-03-24",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32025R0420"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:25Z",
+      "regelwerk": "nis2",
+      "fassung": "2024-10-15",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32022L2555"
+    },
+    {
+      "zeitpunkt": "2026-09-27T09:50:25Z",
+      "regelwerk": "dsgvo",
+      "fassung": "2025-02-05",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32016R0679"
+    }
+  ]
+}

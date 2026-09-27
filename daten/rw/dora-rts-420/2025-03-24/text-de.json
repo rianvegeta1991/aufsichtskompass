@@ -1,0 +1,464 @@
+{
+  "001.001": {
+    "h": "5b0d3018cd7eaf50858b7dfca39520cc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Mitglieder des gemeinsamen Untersuchungsteams nehmen ihre Aufgaben unter der Koordinierung des Koordinators der federführenden Überwachungsbehörde wahr. Diese Aufgaben umfassen die laufende Unterstützung der von der federführenden Überwachungsbehörde durchgeführten Tätigkeiten und die Ausführung besonderer Aufgaben. Zu diesen Aufgaben gehören:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die federführende Überwachungsbehörde bei der Vorbereitung und Erstellung des in Artikel 33 Absatz 4 der Verordnung (EU) 2022/2554 genannten individuellen jährlichen Überwachungsplans zu unterstützen;"
+          },
+          {
+            "m": "b)",
+            "t": "die federführende Überwachungsbehörde bei der Durchführung der in Artikel 33 Absatz 2 der Verordnung (EU) 2022/2554 genannten Bewertung zu unterstützen;"
+          },
+          {
+            "m": "c)",
+            "t": "die Informationen zu bewerten, die die federführende Überwachungsbehörde von dem kritischen IKT-Drittdienstleister gemäß Artikel 37 der Verordnung (EU) 2022/2554 und Kapitel II der Delegierten Verordnung (EU) 2025/295 der Kommission () erhalten hat;"
+          },
+          {
+            "m": "d)",
+            "t": "allgemeine Untersuchungen zu den in Artikel 38 der Verordnung (EU) 2022/2554 genannten kritischen IKT-Drittdienstleistern durchzuführen;"
+          },
+          {
+            "m": "e)",
+            "t": "die in Artikel 39 Absatz 1 der Verordnung (EU) 2022/2554 genannten Inspektionen durchzuführen;"
+          },
+          {
+            "m": "f)",
+            "t": "die in Artikel 35 Absatz 1 Buchstabe d der Verordnung (EU) 2022/2554 genannten Empfehlungen auszuarbeiten;"
+          },
+          {
+            "m": "g)",
+            "t": "den Plan mit Abhilfemaßnahmen und die Fortschrittsberichte nach Artikel 4 der Delegierten Verordnung (EU) 2025/295 zu bewerten;"
+          },
+          {
+            "m": "h)",
+            "t": "die in Artikel 35 Absatz 6, Artikel 37 Absatz 1, Artikel 38 Absatz 4 und Artikel 39 Absatz 6 der Verordnung (EU) 2022/2554 genannten Ersuchen und Beschlüsse vorzubereiten und auszuarbeiten;"
+          },
+          {
+            "m": "i)",
+            "t": "die federführende Überwachungsbehörde bei ihrem Beitrag zu horizontalen Überwachungstätigkeiten, einschließlich bei der Ausarbeitung der in Artikel 32 Absatz 3 der Verordnung (EU) 2022/2554 genannten umfassenden Referenzwerte, zu unterstützen;"
+          },
+          {
+            "m": "j)",
+            "t": "sicherzustellen, dass die einschlägigen Informationen über Finanzunternehmen, die die von kritischen IKT-Drittdienstleistern erbrachten Dienstleistungen in Anspruch nehmen, an die federführende Überwachungsbehörde weitergegeben werden;"
+          },
+          {
+            "m": "k)",
+            "t": "die federführende Überwachungsbehörde bei ungeplanten Ad-hoc-Tätigkeiten zu unterstützen, die von der federführenden Überwachungsbehörde für die Zwecke der Überwachung für notwendig erachtet werden."
+          }
+        ]
+      }
+    ]
+  },
+  "001.002": {
+    "h": "5e565c11984350079f833a76024eda4b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wenn die federführende Überwachungsbehörde den individuellen jährlichen Überwachungsplan im Laufe des Jahres erheblich überarbeitet, bezieht sie die Mitglieder des gemeinsamen Untersuchungsteams in die Durchführung des individuellen jährlichen Überwachungsplans und in dessen Überarbeitung mit ein."
+      }
+    ]
+  },
+  "002.001": {
+    "h": "42d90df21684246621748a5278be291b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach der ersten Einstufung eines IKT-Drittdienstleisters als kritisch gemäß Artikel 31 Absatz 1 Buchstabe a der Verordnung (EU) 2022/2554 richtet die federführende Überwachungsbehörde im Einvernehmen mit dem in Artikel 34 Absatz 1 der Verordnung (EU) 2022/2554 genannten gemeinsamen Überwachungsnetz das gemeinsame Untersuchungsteam ein, das für die Durchführung der Überwachungstätigkeiten in Bezug auf diesen kritischen IKT-Drittdienstleister zuständig ist."
+      }
+    ]
+  },
+  "002.002": {
+    "h": "ea82caa9d9cad6fd0131ac9af77d7802",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei wesentlichen Änderungen im Hinblick auf die Situation des kritischen IKT-Drittdienstleisters kann die federführende Überwachungsbehörde im Einvernehmen mit dem gemeinsamen Überwachungsnetz die Zusammensetzung des gemeinsamen Untersuchungsteams, das für die Überwachungstätigkeiten in Bezug auf diesen kritischen IKT-Drittdienstleister zuständig ist, aktualisieren."
+      },
+      {
+        "art": "p",
+        "t": "Zu diesem Zweck beziehen sich wesentliche Änderungen im Hinblick auf den kritischen IKT-Drittdienstleister auf Folgendes:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die von dem kritischen IKT-Drittdienstleister erbrachten Dienstleistungen;"
+          },
+          {
+            "m": "b)",
+            "t": "die Tätigkeiten von Finanzunternehmen, die durch IKT-Dienstleistungen des kritischen IKT-Drittdienstleisters unterstützt werden;"
+          },
+          {
+            "m": "c)",
+            "t": "die in Artikel 31 Absatz 9 der Verordnung (EU) 2022/2554 genannte Liste kritischer IKT-Drittdienstleister auf Unionsebene."
+          }
+        ]
+      }
+    ]
+  },
+  "002.003": {
+    "h": "5c11a3216a87cf8baf3b87f8fc3ad06b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in Artikel 40 Absatz 2 der Verordnung (EU) 2022/2554 genannten Behörden benennen aus ihrem Personal eine oder mehrere Personen, die zu Mitgliedern des gemeinsamen Untersuchungsteams ernannt werden. Eine Person kann als Mitglied eines oder mehrerer gemeinsamer Untersuchungsteams benannt und ernannt werden."
+      }
+    ]
+  },
+  "002.004": {
+    "h": "b2809448986fd686fe3e38ab1e3954b0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die federführende Überwachungsbehörde ernennt die zu Mitgliedern des gemeinsamen Untersuchungsteams benannten Personen je nach ihrer Verfügbarkeit, den spezifischen Bedürfnissen der federführenden Überwachungsbehörde und der Vereinbarung zwischen der benennenden Behörde und der federführenden Überwachungsbehörde entweder auf Vollzeit- oder Teilzeitbasis."
+      }
+    ]
+  },
+  "002.005": {
+    "h": "c8659c823cc49010361105879b2b6f96",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Benennung der Mitglieder der gemeinsamen Untersuchungsteams bewerten die in Artikel 40 Absatz 2 der Verordnung (EU) 2022/2554 genannten Behörden ihr technisches Fachwissen, ihre Qualifikationen und Kompetenzen im Bereich IKT und einschlägigen Bereichen, einschließlich Kommunikations- und Kooperationsfähigkeiten, sowie ihre Audit- und Aufsichtsfähigkeiten."
+      }
+    ]
+  },
+  "002.006": {
+    "h": "8002e202109218c00f802b308dc916ec",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die federführende Überwachungsbehörde kann von den benennenden Behörden nur in begründeten Fällen und nur dann verlangen, dass sie ihre Benennungen ändern, wenn die Profile der benannten Personen nicht dem Profil der benötigten Ressourcen entsprechen."
+      }
+    ]
+  },
+  "002.007": {
+    "h": "fac4b90c3f5cacfc30dbfe9511bb33a6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die federführende Überwachungsbehörde und die Behörden ergreifen alle geeigneten und möglichen Maßnahmen, um sicherzustellen, dass das gemeinsame Untersuchungsteam entsprechend dem jährlichen individuellen Überwachungsplan angemessen besetzt ist."
+      }
+    ]
+  },
+  "003.001": {
+    "h": "576dc8dfc75ba571ed660b3077852580",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die federführende Überwachungsbehörde legt die Zahl der Mitglieder des gemeinsamen Untersuchungsteams und dessen Zusammensetzung im Einvernehmen mit dem in Artikel 34 Absatz 1 der Verordnung (EU) 2022/2554 genannten gemeinsamen Überwachungsnetz und in Absprache mit dem in Artikel 32 Absatz 1 dieser Verordnung genannten Überwachungsforum fest."
+      }
+    ]
+  },
+  "003.002": {
+    "h": "cd26d395e19feb2f75d67826fb1b6643",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die federführende Überwachungsbehörde legt diese Zahl im Rahmen des Prozesses zur Einrichtung des gemeinsamen Untersuchungsteams und gemäß dem Bedarf im Laufe der Zeit fest, wobei Folgendes berücksichtigt wird:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Aufgaben, die in den individuellen jährlichen Überwachungsplänen für jeden vom gemeinsamen Untersuchungsteam überwachten kritischen IKT-Drittdienstleister jeweils enthalten sind;"
+          },
+          {
+            "m": "b)",
+            "t": "die strategischen Ziele des mehrjährigen Überwachungsplans, der für alle kritischen IKT-Drittdienstleister erstellt wird, die von allen gemeinsamen Untersuchungsteams überwacht werden."
+          }
+        ]
+      }
+    ]
+  },
+  "003.003": {
+    "h": "b6e002302b381093d6520126910d8fb4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Festlegung der Zahl und der Zusammensetzung der Mitglieder des gemeinsamen Untersuchungsteams berücksichtigt die federführende Überwachungsbehörde mindestens alle folgenden Aspekte:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die geplante Intensität der Überwachungstätigkeiten, die in Bezug auf alle kritischen IKT-Drittanbieter durchzuführen sind;"
+          },
+          {
+            "m": "b)",
+            "t": "die Größe und Komplexität des IKT-Drittdienstleisters, der vom gemeinsamen Untersuchungsteam und von den ESA als federführende Überwachungsbehörden überwacht wird;"
+          },
+          {
+            "m": "c)",
+            "t": "den spezifischen, von der federführenden Überwachungsbehörde ermittelten individuellen Überwachungsbedarf für den spezifischen kritischen IKT-Drittdienstleister;"
+          },
+          {
+            "m": "d)",
+            "t": "die Stabilität der Zusammensetzung des gemeinsamen Untersuchungsteams, damit ein ordnungsgemäßer Wissenserhalt gewährleistet ist;"
+          },
+          {
+            "m": "e)",
+            "t": "die für die Ausführung der Aufgaben durch das gemeinsame Untersuchungsteam erforderlichen Kompetenzen unter Berücksichtigung der Anforderungen an technische und nichttechnische IKT-Kenntnisse;"
+          },
+          {
+            "m": "f)",
+            "t": "die Mitgliedstaaten, in denen der kritische IKT-Drittdienstleister IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen der Finanzunternehmen erbringt, und die zuständigen Behörden, die die Finanzunternehmen beaufsichtigen, die diese Dienstleistungen in Anspruch nehmen;"
+          },
+          {
+            "m": "g)",
+            "t": "die verschiedenen Arten sowie Größe und Anzahl der Finanzunternehmen, für die der kritische IKT-Drittdienstleister IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen erbringt;"
+          },
+          {
+            "m": "h)",
+            "t": "die zuständigen Behörden, die die Finanzunternehmen beaufsichtigen, die am stärksten von den IKT-Dienstleistungen der kritischen IKT-Drittdienstleister abhängig sind;"
+          },
+          {
+            "m": "i)",
+            "t": "eine verhältnismäßige sektorübergreifende Vertretung der benennenden Behörden des gemeinsamen Untersuchungsteams."
+          }
+        ]
+      }
+    ]
+  },
+  "003.004": {
+    "h": "6656c2fa350ab972d9812f1416b24218",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Benennung von Mitgliedern des gemeinsamen Untersuchungsteams berücksichtigen die in Artikel 40 Absatz 2 der Verordnung (EU) 2022/2554 genannten Behörden mindestens Absatz 3 Buchstaben c, d, e, g und h."
+      }
+    ]
+  },
+  "005.001": {
+    "h": "cae0a45ae7a28eea1fa517e668466a71",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Mitglieder des gemeinsamen Untersuchungsteams nehmen ihre im individuellen jährlichen Überwachungsplan festgelegten Aufgaben mit der gebotenen Sachkenntnis, Sorgfalt und Gewissenhaftigkeit, unvoreingenommen und im Einklang mit den Anweisungen des Koordinators der federführenden Überwachungsbehörde nach Artikel 40 Absatz 2 Unterabsatz 2 der Verordnung (EU) 2022/2554 wahr."
+      }
+    ]
+  },
+  "005.002": {
+    "h": "3b86af4cd992ec184a548f693ea46bf0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Wahrnehmung von Überwachungsaufgaben befolgen die Mitglieder des gemeinsamen Untersuchungsteams die von den Europäischen Aufsichtsbehörden gemeinsam ausgearbeiteten Überwachungsverfahren in Bezug auf die Durchführung der Überwachungstätigkeiten und alle einschlägigen operativen Bereiche, einschließlich Spezifikationen für den Einsatz von IT-Tools und -Ausrüstung und das Zeitmanagement."
+      }
+    ]
+  },
+  "005.003": {
+    "h": "b063c107249a8d14ad713cafdcc6321f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Mitglieder des gemeinsamen Untersuchungsteams befolgen die Spezifikationen und Anweisungen des Koordinators der federführenden Überwachungsbehörde nach Artikel 40 Absatz 2 Unterabsatz 2 der Verordnung (EU) 2022/2554 zum Umgang mit Informationen und Daten und halten die Vertraulichkeitsregelungen der Europäischen Aufsichtsbehörden ein."
+      }
+    ]
+  },
+  "005.004": {
+    "h": "2522a6512a806e64e44848d0ab8ed9a4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die federführende Überwachungsbehörde und die benennenden Behörden treffen Vereinbarungen zur Umsetzung der in dieser Verordnung festgelegten Anforderungen, einschließlich Vereinbarungen über die aufgewendete Zeit und die geschätzten Kosten im Zusammenhang mit den Überwachungstätigkeiten des gemeinsamen Untersuchungsteams, Schulungen sowie soweit erforderlich ethische und verhaltensbezogene Erwägungen in Bezug auf die Rolle der Mitglieder des gemeinsamen Untersuchungsteams."
+      }
+    ]
+  },
+  "005.005": {
+    "h": "7aea72fdd60015c49f0137f2ebfb2382",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die federführende Überwachungsbehörde und die benennenden Behörden stellen sicher, dass die in Absatz 4 genannten Vereinbarungen rechtzeitig umgesetzt, überprüft und auf dem neuesten Stand gehalten werden."
+      }
+    ]
+  },
+  "art_4": {
+    "h": "d3f84b9a6e7a4d8567e642f88b0e4d86",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die federführende Überwachungsbehörde bewertet in regelmäßigen Abständen oder bei Änderungen der federführenden Überwachungsbehörde oder bei wesentlichen Änderungen gemäß Artikel 2 Absatz 2 nach Absprache mit den Mitgliedern des gemeinsamen Untersuchungsteams die Ergebnisse der Mitglieder des gemeinsamen Untersuchungsteams. Sowohl die benennenden Behörden als auch die federführende Überwachungsbehörde verwenden die Ergebnisse dieser Bewertung, um zu entscheiden, ob eine Änderung der Mitgliedschaft im gemeinsamen Untersuchungsteam angemessen ist."
+      }
+    ]
+  },
+  "art_6": {
+    "h": "beef9473e3d893ccbcfcfddac9fa4fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Verordnung tritt am zwanzigsten Tag nach ihrer Veröffentlichung im Amtsblatt der Europäischen Union in Kraft."
+      }
+    ]
+  },
+  "cit_1": {
+    "h": "33b874704235c8bffcf1065509b177de",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf den Vertrag über die Arbeitsweise der Europäischen Union,"
+      }
+    ]
+  },
+  "cit_2": {
+    "h": "7a1e8a00d2444018e4d8615072c9bb4f",
+    "b": [
+      {
+        "art": "p",
+        "t": "gestützt auf die Verordnung (EU) 2022/2554 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über die digitale operationale Resilienz im Finanzsektor und zur Änderung der Verordnungen (EG) Nr. 1060/2009, (EU) Nr. 648/2012, (EU) Nr. 600/2014, (EU) Nr. 909/2014 und (EU) 2016/1011 (), insbesondere auf Artikel 41 Absatz 2 Unterabsatz 2,"
+      }
+    ]
+  },
+  "rct_1": {
+    "h": "ef88710c36cf5ca6fd2c4f8e45ed6694",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(1)",
+            "t": "Der mit der Verordnung (EU) 2022/2554 geschaffene Überwachungsrahmen sollte auf einer strukturierten und kontinuierlichen Zusammenarbeit zwischen den Europäischen Aufsichtsbehörden (ESA) und den zuständigen Behörden im Rahmen des Überwachungsforums und der gemeinsamen Untersuchungsteams aufbauen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_10": {
+    "h": "f216b9cca78e7b9cbc07995a8b2eb778",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(10)",
+            "t": "Der in Artikel 54 der Verordnung (EU) Nr. 1093/2010 des Europäischen Parlaments und des Rates (), in Artikel 54 der Verordnung (EU) Nr. 1094/2010 des Europäischen Parlaments und des Rates () und in Artikel 54 der Verordnung (EU) Nr. 1095/2010 des Europäischen Parlaments und des Rates () genannte Gemeinsame Ausschuss der Europäischen Aufsichtsbehörden hat zu diesem Entwurf technischer Regulierungsstandards, auf dem die vorliegende Verordnung beruht, öffentliche Konsultationen durchgeführt, die damit verbundenen Kosten- und Nutzeneffekte analysiert und die Stellungnahme der nach Artikel 37 der Verordnung (EU) Nr. 1093/2010 eingesetzten Interessengruppe Bankensektor, der nach Artikel 37 der Verordnung (EU) Nr. 1094/2010 eingesetzten Interessengruppe Versicherung und Rückversicherung und der nach Artikel 37 der Verordnung (EU) Nr. 1095/2010 eingesetzten Interessengruppe Wertpapiere und Wertpapiermärkte eingeholt —"
+          }
+        ]
+      }
+    ]
+  },
+  "rct_2": {
+    "h": "961805d0754e800d5d6b32d8d5956651",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(2)",
+            "t": "Die in Artikel 40 Absatz 2 der Verordnung (EU) 2022/2554 genannten Behörden sollten sicherstellen, dass ihre Mitarbeiter, die zu Mitgliedern des in Artikel 40 Absatz 1 der besagten Verordnung genannten gemeinsamen Untersuchungsteams ernannt werden sollen, über das erforderliche technische Fachwissen für die in den gemeinsamen Untersuchungsteams benötigten Profile verfügen. Der Nachweis, dass eine Behörde nicht über Mitarbeiter mit dem für die gemeinsamen Untersuchungsteams erforderlichen spezifischen Fachwissen verfügt, sollte von der federführenden Überwachungsbehörde als hinreichender Grund dafür angesehen werden, die Behörden zu diesem Zeitpunkt von ihrer Verpflichtung zu entbinden, Mitarbeiter für die gemeinsamen Untersuchungsteams zu benennen. In diesem Fall sollte sich die Behörde dennoch verpflichten, diesen Mangel an Fachwissen nach besten Kräften zu beheben, und versuchen, ihre Fähigkeiten zu stärken, um im Rahmen der nächsten Übung einen Beitrag zu den gemeinsamen Untersuchungsteams zu leisten."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_3": {
+    "h": "169df2812a20df2b0bb19ea93d0bde44",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(3)",
+            "t": "Mitarbeiter der in Artikel 40 Absatz 2 der Verordnung (EU) 2022/2554 genannten Behörden, die als Mitglieder eines gemeinsamen Untersuchungsteams gemäß Artikel 40 Absatz 1 dieser Verordnung benannt werden, sollten weiterhin Beschäftigte der benennenden Behörde sein und daher den in ihren Arbeitsverträgen festgelegten Bestimmungen zu den Arbeitszeiten und dem ständigen Arbeitsort unterliegen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_4": {
+    "h": "de1ff571cbb15ac6c2edbb864639b2f1",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(4)",
+            "t": "Um bei der Durchführung von Überwachungstätigkeiten einen möglichst wirksamen Ressourceneinsatz zu gewährleisten, sollten Mitglieder gemeinsamer Untersuchungsteams mehreren gemeinsamen Untersuchungsteams angehören und mehrere kritische IKT-Drittdienstleister überwachen können. Was die Anzahl der kritischen IKT-Drittdienstleister, die einem bestimmten Mitglied des gemeinsamen Untersuchungsteams zugewiesen werden sollen, und den allgemeinen Mitarbeiterbedarf der gemeinsamen Untersuchungsteams betrifft, sollten das Risikoprofil der kritischen IKT-Drittdienstleister und die geplante Intensität der Überwachungstätigkeiten berücksichtigt werden. Diese Möglichkeit, mehrere kritische IKT-Drittdienstleister zu überwachen, wird im strategischen mehrjährigen Überwachungsplan berücksichtigt, der von den federführenden Überwachungsbehörden jährlich im erforderlichen Umfang auf den neuesten Stand gebracht wird und sich im individuellen jährlichen Überwachungsplan niederschlägt. Um sicherzustellen, dass bei der personellen Besetzung der gemeinsamen Untersuchungsteams durch die benennenden Behörden die geplanten und laufenden Verpflichtungen zuverlässig eingehalten werden, sollte die federführende Überwachungsbehörde sowohl das gemeinsame Überwachungsnetz als auch das Überwachungsforum zum strategischen mehrjährigen Überwachungsplan konsultieren."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_5": {
+    "h": "211ea1e43e4078e881ee03c42756c663",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(5)",
+            "t": "Die federführende Überwachungsbehörde sollte bei der Ermittlung der Zahl der Mitarbeiter jedes gemeinsamen Untersuchungsteams und der sich daraus ergebenden Zusammensetzung eine Kombination aus Kriterien und Grundsätzen anwenden. Angesichts des unterschiedlichen technologischen und geografischen Fußabdrucks und der Inanspruchnahme kritischer IKT-Drittdienstleister durch verschiedene Finanzunternehmen sollten diese Kriterien und Grundsätze dem technischen Charakter der Überwachungsaufgaben, dem unterschiedlichen Grad der Abhängigkeit der Finanzunternehmen von den durch die kritischen IKT-Drittdienstleister erbrachten Dienstleistungen, der geografischen Verteilung, der Größe und der Zahl der Finanzunternehmen, die auf diese Dienstleistungen angewiesen sind, und, soweit möglich, einer verhältnismäßigen sektorübergreifenden Vertretung Rechnung tragen. Bei der Wahrnehmung dieser Aufgabe sollte sich die federführende Überwachungsbehörde auf die Informationen stützen, die von den zuständigen Behörden im Rahmen der Einstufung der kritischen IKT-Drittdienstleister bereitgestellt werden, einschließlich der Informationen, die für alle in der Delegierten Verordnung (EU) 2024/1502 der Kommission () festgelegten Unterkriterien erforderlich sind, und die Kritikalität der kritischen IKT-Drittdienstleister für die Erbringung bestimmter Finanzdienstleistungen sowohl auf Ebene der Mitgliedstaaten als auch auf Unionsebene berücksichtigen."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_6": {
+    "h": "9e2f4da04dd72df090e6de13677c79d6",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(6)",
+            "t": "Um sicherzustellen, dass die Struktur und die Zusammensetzung der gemeinsamen Untersuchungsteams ihren Zweck erfüllen, und um die Effizienz und Wirksamkeit des Überwachungsrahmens dauerhaft zu gewährleisten, sollten die federführende Überwachungsbehörde und die Mitglieder der gemeinsamen Untersuchungsteams die Ergebnisse der gemeinsamen Untersuchungsteams regelmäßig bewerten. Die federführende Überwachungsbehörde und die benennenden Behörden sollten diese Bewertungen nutzen, um sich zu vergewissern, ob die Mitglieder der gemeinsamen Untersuchungsteams noch in der Lage sind, ihre Aufgaben zu erfüllen, und die Besetzung der gemeinsamen Untersuchungsteams gegebenenfalls zu verändern."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_7": {
+    "h": "9947da7628a766d13b0a3df048840309",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(7)",
+            "t": "Um sicherzustellen, dass die Mitglieder der gemeinsamen Untersuchungsteams als Team arbeiten und die Überwachungstätigkeiten konsistent durchgeführt werden, sollten die ESA die Überwachungsverfahren festlegen, die von den Mitgliedern der gemeinsamen Untersuchungsteams und dem Koordinator der federführenden Überwachungsbehörde bei der Wahrnehmung ihrer Aufgaben zu befolgen sind."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_8": {
+    "h": "eb10ee870c5dd1d7435eb56aa8158c22",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(8)",
+            "t": "Da die Überwachungsaufgaben die Verarbeitung vertraulicher Informationen umfassen, sollte die federführende Überwachungsbehörde den Mitgliedern des gemeinsamen Untersuchungsteams nach dem Grundsatz „Kenntnis nur, wenn nötig“ und innerhalb des festgelegten Umfangs ihrer Aufgaben Zugang zu diesen Informationen und den zugehörigen IT-Ressourcen (einschließlich Tools, Anwendungen und Datensätzen) und Nicht-IT-Ressourcen (einschließlich Leitlinien, Verfahren und Dokumentationen) gewähren, wenn dies erforderlich ist, damit die Mitglieder des gemeinsamen Untersuchungsteams die federführende Überwachungsbehörde bei der Erfüllung ihrer gesetzlichen Funktionen oder Aufgaben unterstützen können. Wenn zwischen der federführenden Überwachungsbehörde und den zuständigen Behörden im Einklang mit der Delegierten Verordnung (EU) 2024/1505 der Kommission () Vereinbarungen zur Umsetzung dieser Verordnung festgelegt werden, um die ordnungsgemäße Finanzierung der Kosten sicherzustellen, die im Zusammenhang mit den von den benennenden Behörden bereitgestellten Ressourcen entstehen, sollte die federführende Überwachungsbehörde in diese Vereinbarungen einen Abschnitt aufnehmen, in dem das Verfahren für die Erstattung der direkten und der indirekten Kosten aller benennenden Behörden festgelegt wird, die an den gemeinsamen Untersuchungsteams beteiligt sind. Um eine transparente und vertrauenswürdige Durchführung der Überwachungstätigkeiten zu gewährleisten, sollte mit diesen Vereinbarungen ferner sichergestellt werden, dass die Mitglieder der gemeinsamen Untersuchungsteams bei der Wahrnehmung ihrer Aufgaben frei von Interessenkonflikten sind."
+          }
+        ]
+      }
+    ]
+  },
+  "rct_9": {
+    "h": "7f0234e5a428bc25259c4a31142c4b27",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "(9)",
+            "t": "Diese Verordnung beruht auf dem Entwurf technischer Regulierungsstandards, den die Europäische Bankenaufsichtsbehörde, die Europäische Aufsichtsbehörde für das Versicherungswesen und die betriebliche Altersversorgung und die Europäische Wertpapier- und Marktaufsichtsbehörde der Europäischen Kommission vorgelegt haben."
+          }
+        ]
+      }
+    ]
+  }
+}

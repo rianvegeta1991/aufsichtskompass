@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<title>Weiterleitung – Aufsichtskompass</title>
+<script>
+// GitHub Pages kann keine Pfad-Adressen auf index.html umschreiben. Damit trotzdem
+// /dora/art/28/abs/4 funktioniert, rechnet diese Seite den Pfad in die Hash-Form um.
+(function () {
+  var teile = location.pathname.replace(/^\/+|\/+$/g, '').split('/');
+  // Auf github.io ist das erste Segment der Repo-Name und gehört zur Basis.
+  var basis = (location.hostname.indexOf('github.io') > -1 && teile.length > 1) ? teile.shift() : '';
+  var rest = teile.join('/');
+  var bekannt = ['bibliothek', 'themen', 'suche', 'aenderungen', 'quellen', 'lesezeichen', 'newsfeed', 'matrizen', 'lernen', 'rw'];
+  var ziel = '/' + (basis ? basis + '/' : '');
+  if (rest) {
+    ziel += '#/' + (bekannt.indexOf(teile[0]) > -1 ? rest : 'rw/' + rest) + location.search.replace('?', '');
+  }
+  location.replace(ziel);
+})();
+</script>
+</head>
+<body><p>Einen Augenblick – die Adresse wird umgeleitet. <a href="./">Zur Startseite</a></p></body>
+</html>
