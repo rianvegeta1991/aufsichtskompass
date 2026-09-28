@@ -2,7 +2,7 @@
 // Jede Fundstelle ist über einen stabilen Deep-Link erreichbar, z. B.
 // #/rw/dora/art/28/abs/4 oder #/rw/dora/eg/47.
 
-import { el, leere, chip, datum, zahl, titel, ton, VERBINDLICHKEIT, MODUS, fehlerkarte } from './ui.js';
+import { el, leere, chip, datum, zahl, titel, ton, tabelle, VERBINDLICHKEIT, MODUS, fehlerkarte } from './ui.js';
 import * as daten from './daten.js';
 import * as nutzer from './nutzer.js';
 
@@ -28,6 +28,10 @@ export async function zeigen(wurzel, rwId, pfad) {
   const baum = el('nav.karte.baum', { 'aria-label': 'Gliederung' });
   const lesen = el('article.karte.lesen');
   const kontext = el('aside.karte.kontext', { 'aria-label': 'Kontext zur Fundstelle' });
+  // Auf schmalen Schirmen steht immer nur einer der drei Bereiche - sonst muesste man
+  // erst an 193 Gliederungseintraegen vorbeiscrollen, bevor der Text anfaengt.
+  const flaeche = el('div.viewer', { dataset: { ansicht: 'text' } },
+    baum, el('div.lesen-spalte', lesen), kontext);
   wurzel.append(
     el('div.kopfzeile',
       el('div.wachs',
@@ -35,7 +39,8 @@ export async function zeigen(wurzel, rwId, pfad) {
         el('h1', rw.kurzname),
         el('p.unterzeile', rw.langtitel)),
     ),
-    el('div.viewer', baum, el('div', { style: 'min-width:0' }, lesen), kontext),
+    reiterleiste(flaeche),
+    flaeche,
   );
 
   baumZeichnen(baum, struktur, sprache, pfad);
@@ -64,6 +69,24 @@ export async function zeigen(wurzel, rwId, pfad) {
     }
     leere(kontext).append(...kontextTeile(rw, fassung, struktur, ziel, sprache, karten, text));
   }
+}
+
+/** Reiter Text / Gliederung / Kontext. Im breiten Format blendet das CSS sie aus. */
+function reiterleiste(flaeche) {
+  const leiste = el('div.reiter', { role: 'tablist', 'aria-label': 'Ansicht' });
+  const knoepfe = [['text', 'Text'], ['baum', 'Gliederung'], ['kontext', 'Kontext']].map(([wert, name]) => {
+    const knopf = el('button', {
+      type: 'button', role: 'tab', 'aria-selected': wert === 'text' ? 'true' : 'false',
+    }, name);
+    knopf.addEventListener('click', () => {
+      flaeche.dataset.ansicht = wert;
+      for (const k of knoepfe) k.setAttribute('aria-selected', k === knopf ? 'true' : 'false');
+      scrollTo({ top: 0 });
+    });
+    return knopf;
+  });
+  leiste.append(...knoepfe);
+  return leiste;
 }
 
 // ------------------------------------------------------------------ Auswahl
@@ -392,11 +415,9 @@ function uebersicht(rw, fassung, struktur, sprache, karten) {
       kennzahl(String(eg.length), 'Erwägungsgründe'),
       kennzahl(zahl(fassung.fundstellen), 'Fundstellen mit Text')),
     el('h2', 'Inhalt'),
-    el('table.liste',
-      el('thead', el('tr', el('th', 'Gliederung'), el('th', 'Artikel'))),
-      el('tbody', struktur.knoten.map((k) => el('tr',
-        el('td', el('a', { href: `#/rw/${rw.id}/${k.pfad}` }, knotenKurz(k, sprache))),
-        el('td', String(flachInhalt(k).length || (k.art === 'artikel' ? 1 : 0))))))),
+    tabelle(['Gliederung', 'Artikel'], struktur.knoten.map((k) => [
+      el('a', { href: `#/rw/${rw.id}/${k.pfad}` }, knotenKurz(k, sprache)),
+      String(flachInhalt(k).length || (k.art === 'artikel' ? 1 : 0))])),
     el('p.unterzeile', { style: 'margin-top:14px' },
       'Links wählt eine Fundstelle; jede hat einen eigenen Deep-Link.'),
   ];

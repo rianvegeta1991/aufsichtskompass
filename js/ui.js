@@ -61,6 +61,18 @@ export function zahl(n) {
   return new Intl.NumberFormat('de-DE').format(n);
 }
 
+/**
+ * Tabelle, die auf schmalen Schirmen zu gestapelten Karten wird: jede Zelle traegt
+ * ihren Spaltennamen in `data-spalte`, das CSS blendet den Kopf aus und stellt den
+ * Namen vor den Wert. Besser als Querscrollen bei sieben Spalten auf 375 px.
+ */
+export function tabelle(spalten, zeilen) {
+  return el('table.liste.stapel',
+    el('thead', el('tr', spalten.map((s) => el('th', s)))),
+    el('tbody', zeilen.map((z) => el('tr',
+      z.map((zelle, i) => el('td', { dataset: { spalte: spalten[i] || '' } }, zelle))))));
+}
+
 /** Kürzt auf Wortgrenze. */
 export function kurz(text, max = 160) {
   const t = String(text || '');

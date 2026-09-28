@@ -49,6 +49,10 @@
   --spalte-nav: 248px;
   --spalte-baum: 300px;
   --spalte-kontext: 320px;
+  /* Höhe des Kopfes – alles, was unter ihm klebt (Baum, Kontext, Tabellenköpfe,
+     Reiterleiste), rechnet damit. Auf dem Handy ist der Kopf flacher. */
+  --kopf-h: 53px;
+  --tabbar-h: 0px;
   --schrift: "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
   --schrift-lesen: Georgia, "Iowan Old Style", "Times New Roman", serif;
   --tempo: .18s;
@@ -126,6 +130,7 @@ h1 { font-size: 1.6rem; }
 h2 { font-size: 1.22rem; }
 h3 { font-size: 1.04rem; }
 p { margin: 0 0 .8em; }
+p, li, dd, td, .kontext dd { overflow-wrap: break-word; }
 button { font: inherit; color: inherit; }
 code, kbd { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: .92em; }
 
@@ -165,7 +170,9 @@ code, kbd { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; fon
 }
 #kopf-suche input::placeholder { color: var(--color-text-muted); }
 #kopf-suche .lupe { position: absolute; left: 11px; top: 50%; transform: translateY(-50%); color: var(--color-text-muted); pointer-events: none; }
-.kopf-rechts { display: flex; align-items: center; gap: 8px; flex: 0 0 auto; }
+.kopf-rechts { display: flex; align-items: center; gap: 8px; flex: 0 0 auto; min-width: 0; }
+.marke, #kopf-suche { min-width: 0; }
+.marke-name, .marke-zusatz { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .knopf {
   display: inline-flex; align-items: center; gap: 7px;
@@ -182,8 +189,8 @@ code, kbd { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; fon
 
 /* --------------------------------------------------------------- Navigation */
 #nav {
-  grid-row: 2; position: sticky; top: 53px; align-self: start;
-  height: calc(100vh - 53px); overflow-y: auto;
+  grid-row: 2; position: sticky; top: var(--kopf-h); align-self: start;
+  height: calc(100dvh - var(--kopf-h)); overflow-y: auto;
   padding: 16px 10px 24px;
   background: var(--color-surface); border-right: 1px solid var(--color-border);
 }
@@ -231,6 +238,15 @@ code, kbd { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; fon
 .kennzahl { font-size: 1.9rem; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
 .kennzahl-titel { font-size: .78rem; text-transform: uppercase; letter-spacing: .07em; color: var(--color-text-muted); }
 
+/* Begriffsliste (Konnektortypen): lange URLs duerfen umbrechen, sonst sprengt die
+   Spalte "1fr" die Seite - gemessen 462 px auf einem 375-px-Schirm. */
+.begriffe { display: grid; grid-template-columns: auto 1fr; gap: 6px 14px; margin: 0; }
+.begriffe dd { margin: 0; min-width: 0; overflow-wrap: anywhere; }
+@media (max-width: 700px) {
+  .begriffe { grid-template-columns: 1fr; gap: 2px; }
+  .begriffe dt { margin-top: 9px; }
+}
+
 .hinweis {
   display: flex; gap: 10px; padding: 11px 14px; border-radius: var(--radius);
   border: 1px solid var(--color-border); background: var(--color-surface-alt);
@@ -242,10 +258,15 @@ code, kbd { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; fon
 
 table.liste { width: 100%; border-collapse: collapse; font-size: .9rem; }
 table.liste th, table.liste td { text-align: left; padding: 9px 10px; border-bottom: 1px solid var(--color-border); vertical-align: top; }
-table.liste th { font-size: .76rem; text-transform: uppercase; letter-spacing: .06em; color: var(--color-text-muted); background: var(--color-surface-alt); position: sticky; top: 53px; }
+table.liste th { font-size: .76rem; text-transform: uppercase; letter-spacing: .06em; color: var(--color-text-muted); background: var(--color-surface-alt); position: sticky; top: var(--kopf-h); }
 table.liste tbody tr:hover { background: var(--color-surface-alt); }
 
 /* ---------------------------------------------------------------- Bibliothek */
+/* Der Filterblock ist nur auf dem Handy ein aufklappbarer Kasten; breit ist er
+   einfach die Leiste ohne Rahmen und ohne Zusammenfassungszeile. */
+.filter-box > summary { display: none; }
+.filter-box { display: block; }
+
 .filterleiste { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-bottom: 14px; }
 .filterleiste select, .filterleiste input {
   padding: 7px 10px; border: 1px solid var(--color-border-strong); border-radius: var(--radius-klein);
@@ -257,11 +278,11 @@ table.liste tbody tr:hover { background: var(--color-surface-alt); }
 .rw-karte h3 a:hover { color: var(--color-primary); }
 .rw-karte .lang { font-size: .84rem; color: var(--color-text-muted); margin: 0; }
 .rw-karte .reihe { display: flex; flex-wrap: wrap; gap: 6px; }
-.rw-karte .fuss { display: flex; gap: 12px; font-size: .78rem; color: var(--color-text-muted); margin-top: auto; padding-top: 6px; border-top: 1px solid var(--color-border); }
+.rw-karte .fuss { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; font-size: .78rem; color: var(--color-text-muted); margin-top: auto; padding-top: 6px; border-top: 1px solid var(--color-border); }
 
 /* -------------------------------------------------------------------- Viewer */
 .viewer { display: grid; grid-template-columns: var(--spalte-baum) minmax(0, 1fr) var(--spalte-kontext); gap: 18px; align-items: start; }
-.baum { position: sticky; top: 70px; max-height: calc(100vh - 92px); overflow-y: auto; padding: 12px; font-size: .88rem; }
+.baum { position: sticky; top: calc(var(--kopf-h) + 17px); max-height: calc(100dvh - var(--kopf-h) - 39px); overflow-y: auto; padding: 12px; font-size: .88rem; }
 .baum ul { list-style: none; margin: 0; padding: 0 0 0 10px; }
 .baum > ul { padding-left: 0; }
 .baum li { margin: 1px 0; }
@@ -278,6 +299,7 @@ table.liste tbody tr:hover { background: var(--color-surface-alt); }
 .baum details > summary::before { content: "▸"; flex: 0 0 auto; width: 1em; text-align: center; color: var(--color-text-muted); font-size: .8em; }
 .baum details[open] > summary::before { content: "▾"; }
 
+.lesen-spalte { min-width: 0; }
 .lesen { padding: 22px 26px; }
 .lesen .fundstelle { scroll-margin-top: 80px; padding: 2px 0; }
 .lesen .fundstelle.ziel { background: var(--color-primary-soft); box-shadow: -14px 0 0 var(--color-primary-soft), inset 3px 0 0 var(--color-primary); border-radius: 2px; }
@@ -299,7 +321,7 @@ table.liste tbody tr:hover { background: var(--color-surface-alt); }
 .sprachschalter button { padding: 6px 12px; border: 0; background: var(--color-surface); cursor: pointer; font-size: .85rem; }
 .sprachschalter button[aria-pressed="true"] { background: var(--color-primary); color: var(--color-primary-contrast); font-weight: 600; }
 
-.kontext { position: sticky; top: 70px; max-height: calc(100vh - 92px); overflow-y: auto; padding: 14px 16px; font-size: .87rem; }
+.kontext { position: sticky; top: calc(var(--kopf-h) + 17px); max-height: calc(100dvh - var(--kopf-h) - 39px); overflow-y: auto; padding: 14px 16px; font-size: .87rem; }
 .kontext h3 { font-size: .72rem; text-transform: uppercase; letter-spacing: .08em; color: var(--color-text-muted); margin: 16px 0 6px; }
 .kontext h3:first-child { margin-top: 0; }
 .kontext dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 3px 10px; }
@@ -333,26 +355,138 @@ table.liste tbody tr:hover { background: var(--color-surface-alt); }
 @media (prefers-reduced-motion: reduce) { * { animation-duration: .01ms !important; transition-duration: .01ms !important; } }
 
 /* ---------------------------------------------------------------- Schmalbild */
+/* Grenze fuer das mobile Format ist 900px: darunter wandert die Navigation in eine
+   untere Leiste, der Viewer bekommt Reiter (Text / Gliederung / Kontext) und breite
+   Tabellen werden zu gestapelten Karten. Grund: auf 375px lag der Gliederungsbaum
+   mit 193 Eintraegen VOR dem Text - man musste 900px weit scrollen, um zu lesen. */
+
+/* Reiterleiste des Viewers - auf breiten Schirmen nicht noetig, da steht alles nebeneinander. */
+.reiter { display: none; }
+
+/* Untere Navigationsleiste - nur im mobilen Format. */
+#tabbar { display: none; }
+
 @media (max-width: 1180px) {
   .viewer { grid-template-columns: var(--spalte-baum) minmax(0, 1fr); }
   .kontext { grid-column: 1 / -1; position: static; max-height: none; }
 }
+
 @media (max-width: 900px) {
+  :root { --kopf-h: 52px; --tabbar-h: 58px; }
   .huelle { grid-template-columns: 1fr; }
+
+  /* Kopf schlank: die Suche steckt in der unteren Leiste, im Kopf reicht ein Knopf. */
+  #kopf { padding: 5px 12px; gap: 8px; padding-top: calc(5px + env(safe-area-inset-top)); }
+  #kopf-suche { display: none; }
+  #such-knopf { display: inline-flex; }
+  #nav-knopf { display: none; }
+  .marke-zusatz, .knopf-wort { display: none; }
+  .marke svg { width: 26px; height: 26px; }
+  .kopf-rechts .knopf { padding: 8px 10px; }
+
+  /* Seitenmenue wird zur Schublade, die die untere Leiste ueber "Mehr" oeffnet. */
   #nav {
-    position: fixed; top: 53px; left: 0; bottom: 0; width: 264px; z-index: 25;
+    position: fixed; top: var(--kopf-h); left: 0; bottom: 0; width: min(280px, 84vw); z-index: 28;
     transform: translateX(-100%); transition: transform var(--tempo); box-shadow: var(--schatten-stark);
+    padding-bottom: calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 12px);
   }
   body.nav-offen #nav { transform: none; }
-  body.nav-offen::after { content: ""; position: fixed; inset: 53px 0 0; background: rgba(0, 0, 0, .4); z-index: 24; }
-  #inhalt { padding: 16px 14px 50px; }
-  #fuss { grid-column: 1; padding: 0 14px 20px; }
-  .viewer { grid-template-columns: 1fr; }
-  .baum { position: static; max-height: none; }
-  .lesen { padding: 16px; }
-  table.liste th { top: 0; }
+  body.nav-offen::after { content: ""; position: fixed; inset: var(--kopf-h) 0 0; background: rgba(0, 0, 0, .45); z-index: 27; }
+  #nav a, #nav a .zahl { min-height: 44px; }
+  #nav a { align-items: center; }
+
+  #inhalt { padding: 14px 14px calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 24px); }
+  #fuss { grid-column: 1; padding: 0 14px calc(var(--tabbar-h) + env(safe-area-inset-bottom) + 16px); }
+  h1 { font-size: 1.36rem; }
+  .kopfzeile { margin-bottom: 14px; }
+
+  /* Untere Navigationsleiste: die vier Hauptwege plus Schublade. */
+  #tabbar {
+    display: grid; grid-template-columns: repeat(5, 1fr);
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 26;
+    background: var(--color-surface); border-top: 1px solid var(--color-border);
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  #tabbar button, #tabbar a {
+    display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2px;
+    min-height: var(--tabbar-h); padding: 6px 2px; border: 0; background: none;
+    font-size: .66rem; text-decoration: none; color: var(--color-text-muted); cursor: pointer;
+  }
+  #tabbar [aria-current="page"], #tabbar [aria-expanded="true"] { color: var(--color-primary); font-weight: 600; }
+  #tabbar .zeichen { font-size: 1.2rem; line-height: 1; }
+
+  .lesen { padding: 16px 14px; }
+  .werkzeugzeile > * { min-height: 44px; }
+  .werkzeugzeile .punktzahl { min-height: 0; }
+  .sprachschalter button { min-width: 52px; }
+
+  .filterleiste { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+  .filterleiste input[type="search"], .filterleiste .knopf { grid-column: 1 / -1; }
+  .filterleiste select, .filterleiste input { width: 100%; min-height: 44px; }
+  .filter-box { border: 1px solid var(--color-border); border-radius: var(--radius); background: var(--color-surface); padding: 0 12px; margin-bottom: 14px; }
+  .filter-box > summary { min-height: 46px; display: flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 600; }
+  .filter-box[open] > summary { border-bottom: 1px solid var(--color-border); }
+  .filter-box .filterleiste { padding: 10px 0 12px; }
+
+  a.chip { min-height: 30px; }
 }
-@media (min-width: 901px) { #nav-knopf { display: none; } }
+
+/* Bis 760px passen Baum und Text nicht mehr nebeneinander: dann uebernehmen Reiter.
+   Darueber (Tablet im Hochformat) bleibt die zweispaltige Ansicht sinnvoll. */
+@media (max-width: 760px) {
+  .viewer { grid-template-columns: 1fr; gap: 0; }
+  .reiter {
+    display: flex; gap: 6px; position: sticky; top: var(--kopf-h); z-index: 20;
+    padding: 8px 0 10px; background: var(--color-surface-alt);
+  }
+  .reiter button {
+    flex: 1; min-height: 44px; border: 1px solid var(--color-border-strong);
+    background: var(--color-surface); border-radius: var(--radius-klein); cursor: pointer; font-size: .86rem;
+  }
+  .reiter button[aria-selected="true"] {
+    background: var(--color-primary); border-color: var(--color-primary);
+    color: var(--color-primary-contrast); font-weight: 600;
+  }
+  .viewer[data-ansicht="text"] .baum,
+  .viewer[data-ansicht="text"] .kontext,
+  .viewer[data-ansicht="baum"] .lesen-spalte,
+  .viewer[data-ansicht="baum"] .kontext,
+  .viewer[data-ansicht="kontext"] .lesen-spalte,
+  .viewer[data-ansicht="kontext"] .baum { display: none; }
+  .baum { position: static; max-height: none; padding: 8px; }
+  .baum a { min-height: 40px; display: flex; align-items: center; }
+  .kontext { position: static; max-height: none; }
+}
+
+/* Schmale Handys: breite Tabellen als gestapelte Karten statt Querscrollen. */
+@media (max-width: 700px) {
+  table.stapel thead { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+  table.stapel, table.stapel tbody { display: block; }
+  table.stapel tr {
+    display: block; border: 1px solid var(--color-border); border-radius: var(--radius-klein);
+    margin-bottom: 8px; padding: 7px 11px; background: var(--color-surface);
+  }
+  table.stapel tr:hover { background: var(--color-surface); }
+  table.stapel td { display: flex; gap: 10px; border: 0; padding: 3px 0; }
+  table.stapel td::before {
+    content: attr(data-spalte); flex: 0 0 38%; color: var(--color-text-muted);
+    font-size: .74rem; text-transform: uppercase; letter-spacing: .05em; padding-top: .18em;
+  }
+  table.stapel td:empty { display: none; }
+
+  .lesen { padding: 14px 12px; }
+  .lesen .text { font-size: .99rem; }
+  .lesen .abs { grid-template-columns: 2rem minmax(0, 1fr); gap: 2px; }
+  .lesen .punkte li { grid-template-columns: 1.7rem minmax(0, 1fr); }
+  .gitter.zwei, .gitter.drei { grid-template-columns: 1fr; }
+  .karte { padding: 14px; }
+  .chip { white-space: normal; }
+  table.stapel td > .chip { text-align: left; }
+}
+
+@media (min-width: 901px) {
+  #nav-knopf, #such-knopf { display: none; }
+}
 
 @media print {
   #kopf, #nav, .baum, .kontext, .werkzeugzeile, #fuss { display: none !important; }
@@ -387,6 +521,9 @@ table.liste tbody tr:hover { background: var(--color-surface-alt); }
       <input type="search" id="suchfeld" name="q" placeholder="In allen Fundstellen suchen … (z. B. Informationsregister)" aria-label="Volltextsuche über alle Regelwerke">
     </form>
     <div class="kopf-rechts">
+      <a class="knopf still" id="such-knopf" href="#/suche" aria-label="Zur Suche">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+      </a>
       <button class="knopf still" id="thema-knopf" aria-label="Zwischen hellem und dunklem Erscheinungsbild wechseln" title="Erscheinungsbild"></button>
     </div>
   </header>
@@ -404,6 +541,9 @@ table.liste tbody tr:hover { background: var(--color-surface-alt); }
     <p>Private, nichtkommerzielle Anwendung ohne Bezug zu einem Unternehmen. Keine Rechtsberatung. <span id="fuss-version"></span></p>
   </footer>
 </div>
+
+<!-- Untere Navigationsleiste: nur im mobilen Format sichtbar, wird von app.js gefuellt. -->
+<nav id="tabbar" aria-label="Hauptbereiche"></nav>
 
 <script type="module" src="js/app.js"></script>
 </body>

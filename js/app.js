@@ -7,14 +7,14 @@
 //   #/themen  ·  #/themen/iks  ·  #/aenderungen  ·  #/quellen  ·  #/lesezeichen
 // 404.html rechnet zusätzlich Pfad-Adressen (…/dora/art/28) in diese Hash-Form um.
 
-import { el, leere, chip, datum, zahl, titel, kurz, fehlerkarte, ton } from './ui.js';
+import { el, leere, chip, datum, zahl, titel, kurz, tabelle, fehlerkarte, ton } from './ui.js';
 import * as daten from './daten.js';
 import * as nutzer from './nutzer.js';
 import * as bibliothek from './bibliothek.js';
 import * as viewer from './viewer.js';
 import * as suche from './suche.js';
 
-export const APP_VERSION = '1.0';
+export const APP_VERSION = '1.1';
 
 const seite = document.getElementById('seite');
 
@@ -25,8 +25,11 @@ function themaKnopfBeschriften() {
   const w = nutzer.thema();
   const zeichen = { system: '◐', hell: '☀', dunkel: '☾' }[w];
   const wort = { system: 'Systemeinstellung', hell: 'Hell', dunkel: 'Dunkel' }[w];
-  k.textContent = `${zeichen} ${wort}`;
+  // Das Wort steht in einem eigenen Element: auf dem Handy blendet das CSS es aus,
+  // sonst sprengt der Knopf den Kopf (gemessen: 164 px breit, Seite lief auf 407 px).
+  leere(k).append(el('span', { 'aria-hidden': 'true' }, zeichen), el('span.knopf-wort', wort));
   k.setAttribute('title', `Erscheinungsbild: ${wort} – zum Wechseln klicken`);
+  k.setAttribute('aria-label', `Erscheinungsbild: ${wort}. Zum Wechseln klicken.`);
 }
 
 function themaEinrichten() {
@@ -56,6 +59,40 @@ const MENUE = [
   { pfad: 'lesezeichen', name: 'Lesezeichen & Notizen', zeichen: '★' },
   { pfad: 'quellen', name: 'Quellen & Betrieb', zeichen: '⚙' },
 ];
+
+// Untere Leiste im mobilen Format: die vier Hauptwege, dazu "Mehr" fuer die Schublade.
+const TABBAR = [
+  { pfad: '', name: 'Start', zeichen: '⌂' },
+  { pfad: 'bibliothek', name: 'Bibliothek', zeichen: '▤' },
+  { pfad: 'suche', name: 'Suche', zeichen: '⌕' },
+  { pfad: 'themen', name: 'Themen', zeichen: '◈' },
+];
+
+function tabbarZeichnen(aktiv) {
+  const leiste = document.getElementById('tabbar');
+  leere(leiste);
+  for (const m of TABBAR) {
+    leiste.append(el('a', { href: '#/' + m.pfad, 'aria-current': aktiv === m.pfad ? 'page' : null },
+      el('span.zeichen', { 'aria-hidden': 'true' }, m.zeichen),
+      el('span', m.name)));
+  }
+  const mehr = el('button', { type: 'button', 'aria-expanded': 'false', 'aria-controls': 'nav' },
+    el('span.zeichen', { 'aria-hidden': 'true' }, '☰'),
+    el('span', 'Mehr'));
+  mehr.addEventListener('click', () => {
+    const offen = document.body.classList.toggle('nav-offen');
+    mehr.setAttribute('aria-expanded', offen ? 'true' : 'false');
+  });
+  leiste.append(mehr);
+}
+
+/** Schublade schliessen, wenn daneben getippt wird. */
+function schubladeSchliessen() {
+  document.body.classList.remove('nav-offen');
+  document.getElementById('nav-knopf').setAttribute('aria-expanded', 'false');
+  const mehr = document.querySelector('#tabbar button');
+  if (mehr) mehr.setAttribute('aria-expanded', 'false');
+}
 
 async function navZeichnen(aktiv) {
   const nav = document.getElementById('nav');
@@ -93,9 +130,9 @@ async function leiten() {
   const { teile } = adresse();
   const wurzel = teile[0] || '';
   await navZeichnen(wurzel);
+  tabbarZeichnen(wurzel);
   leere(seite).append(el('p.leer', el('span.lade', { 'aria-hidden': 'true' }), ' lädt …'));
-  document.body.classList.remove('nav-offen');
-  document.getElementById('nav-knopf').setAttribute('aria-expanded', 'false');
+  schubladeSchliessen();
 
   try {
     switch (wurzel) {
@@ -161,10 +198,10 @@ async function start(wurzel) {
     el('div.karte',
       el('h2', 'Zuletzt übernommen'),
       (ae.ereignisse || []).length
-        ? el('table.liste', el('tbody', [...ae.ereignisse].reverse().slice(0, 6).map((e) => el('tr',
-            el('td', el('a', { href: `#/rw/${e.regelwerk}` }, kurzname(k, e.regelwerk))),
-            el('td', e.art),
-            el('td', datum(e.zeitpunkt))))))
+        ? tabelle(['Regelwerk', 'Art', 'Zeitpunkt'], [...ae.ereignisse].reverse().slice(0, 6).map((e) => [
+            el('a', { href: `#/rw/${e.regelwerk}` }, kurzname(k, e.regelwerk)),
+            e.art,
+            datum(e.zeitpunkt)]))
         : el('p.unterzeile', 'Noch keine Änderung protokolliert.'),
       el('p', { style: 'margin:10px 0 0' }, el('a', { href: '#/aenderungen' }, 'Alle Änderungen ansehen →'))),
   ));
@@ -179,25 +216,22 @@ async function start(wurzel) {
 
   wurzel.append(el('div.karte', { style: 'margin-top:18px' },
     el('h2', 'Ausbaustand'),
-    el('table.liste',
-      el('thead', el('tr', el('th', 'Phase'), el('th', 'Inhalt'), el('th', 'Stand'))),
-      el('tbody',
-        phasenzeile('1', 'Fundament: Datenmodell, Design-Tokens hell/dunkel, Gerüst, Werkzeugkette', 'fertig'),
-        phasenzeile('2', 'Bibliothek und Viewer: CELLAR-Konnektor, DORA (DE/EN) und Level-2-Rechtsakte, Deep-Links, Suche', 'fertig für EU-Recht'),
-        phasenzeile('2b', 'Konnektor für gesetze-im-internet.de (VAG, BSIG, BDSG, HGB, AO) und BaFin-PDF (MaGo, MaRisk)', 'offen'),
-        phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001, COBIT 2019, ITIL 4, CSA CCM, C5, NIST CSF, GDV', 'offen'),
-        phasenzeile('4', 'Themenseiten, Mappings, Matrizen, Heatmap, Graph, Export', 'offen'),
-        phasenzeile('5', 'Tägliches Screening mit Newsfeed und Digest', 'offen'),
-        phasenzeile('6', 'Change Detection, Archiv, Diff-Ansicht, Benachrichtigung', 'Grundlage steht (Hashes, Änderungslog)'),
-        phasenzeile('7', 'Lernbereich mit Quizzes, Fallstudien, Karteikarten', 'offen'),
-        phasenzeile('8', 'Härtung: Tests, Security-Review, Betriebsdoku', 'teilweise (Werkzeug-Tests)'),
-      ))));
+    tabelle(['Phase', 'Inhalt', 'Stand'], [
+      phasenzeile('1', 'Fundament: Datenmodell, Design-Tokens hell/dunkel, Gerüst, Werkzeugkette', 'fertig'),
+      phasenzeile('2', 'Bibliothek und Viewer: CELLAR-Konnektor, DORA (DE/EN) und Level-2-Rechtsakte, Deep-Links, Suche', 'fertig für EU-Recht'),
+      phasenzeile('2b', 'Konnektor für gesetze-im-internet.de (VAG, BSIG, BDSG, HGB, AO) und BaFin-PDF (MaGo, MaRisk)', 'offen'),
+      phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001, COBIT 2019, ITIL 4, CSA CCM, C5, NIST CSF, GDV', 'offen'),
+      phasenzeile('4', 'Themenseiten, Mappings, Matrizen, Heatmap, Graph, Export', 'offen'),
+      phasenzeile('5', 'Tägliches Screening mit Newsfeed und Digest', 'offen'),
+      phasenzeile('6', 'Change Detection, Archiv, Diff-Ansicht, Benachrichtigung', 'Grundlage steht (Hashes, Änderungslog)'),
+      phasenzeile('7', 'Lernbereich mit Quizzes, Fallstudien, Karteikarten', 'offen'),
+      phasenzeile('8', 'Härtung: Tests, Security-Review, Betriebsdoku', 'teilweise (Werkzeug-Tests)'),
+    ])));
 }
 
 function phasenzeile(nr, inhalt, stand) {
   const fertig = stand.startsWith('fertig');
-  return el('tr', el('td', el('strong', nr)), el('td', inhalt),
-    el('td', chip(stand, fertig ? 'original' : stand === 'offen' ? '' : 'zusammenfassung')));
+  return [el('strong', nr), inhalt, chip(stand, fertig ? 'original' : stand === 'offen' ? '' : 'zusammenfassung')];
 }
 
 function kurzname(katalog, id) {
@@ -321,16 +355,16 @@ async function aenderungsseite(wurzel) {
       'Die Erfassung läuft schon (Hash je Fundstelle, Änderungslog, unveränderliche Fassungsordner). Es fehlen die Wort-Diff-Ansicht, das Benachrichtigungszentrum und die Folgenabschätzung auf Mappings und Lerninhalte.')),
     el('h2', { style: 'margin-top:20px' }, `Protokoll (${ereignisse.length})`),
     ereignisse.length
-      ? el('div.karte', { style: 'padding:0;overflow:auto' }, el('table.liste',
-          el('thead', el('tr', el('th', 'Regelwerk'), el('th', 'Fassung'), el('th', 'Art'), el('th', 'neu'), el('th', 'geändert'), el('th', 'entfallen'), el('th', 'Zeitpunkt'))),
-          el('tbody', ereignisse.map((e) => el('tr',
-            el('td', el('a', { href: `#/rw/${e.regelwerk}` }, kurzname(k, e.regelwerk))),
-            el('td', datum(e.fassung)),
-            el('td', e.art),
-            el('td', String((e.neu || []).length)),
-            el('td', String((e.geaendert || []).length)),
-            el('td', String((e.entfallen || []).length)),
-            el('td', datum(e.zeitpunkt)))))))
+      ? el('div.karte', { style: 'padding:12px' },
+          tabelle(['Regelwerk', 'Fassung', 'Art', 'neu', 'geändert', 'entfallen', 'Zeitpunkt'],
+            ereignisse.map((e) => [
+              el('a', { href: `#/rw/${e.regelwerk}` }, kurzname(k, e.regelwerk)),
+              datum(e.fassung),
+              e.art,
+              String((e.neu || []).length),
+              String((e.geaendert || []).length),
+              String((e.entfallen || []).length),
+              datum(e.zeitpunkt)])))
       : el('p.leer', 'Noch kein Ereignis protokolliert.'),
   );
 }
@@ -376,19 +410,18 @@ async function quellenseite(wurzel) {
     el('div.kopfzeile', el('div.wachs',
       el('h1', 'Quellen & Betrieb'),
       el('p.unterzeile', 'Je Quelle: Abrufweg, Format, Nutzungsbedingung, Kosten. Alles hier ist kostenlos und ohne Anmeldung nutzbar.'))),
-    el('div.karte', { style: 'padding:0;overflow:auto' }, el('table.liste',
-      el('thead', el('tr', el('th', 'Regelwerk'), el('th', 'Abrufweg'), el('th', 'Kennung'), el('th', 'Sprachen'), el('th', 'Nutzung'), el('th', 'Kosten'), el('th', 'Aktiv'))),
-      el('tbody', q.konnektoren.map((c) => el('tr',
-        el('td', el('a', { href: `#/rw/${c.regelwerk}` }, kurzname(k, c.regelwerk))),
-        el('td', c.typ),
-        el('td', el('code', c.celex || c.kennung || '–')),
-        el('td', (c.sprachen || []).join(', ').toUpperCase()),
-        el('td', q.nutzungsbedingungen[c.nutzung] ? kurz(q.nutzungsbedingungen[c.nutzung], 90) : c.nutzung || '–'),
-        el('td', 'kostenlos'),
-        el('td', c.aktiv === false ? chip('inaktiv') : chip('aktiv', 'original')))))),
-    ),
+    el('div.karte', { style: 'padding:12px' },
+      tabelle(['Regelwerk', 'Abrufweg', 'Kennung', 'Sprachen', 'Nutzung', 'Kosten', 'Aktiv'],
+        q.konnektoren.map((c) => [
+          el('a', { href: `#/rw/${c.regelwerk}` }, kurzname(k, c.regelwerk)),
+          c.typ,
+          el('code', c.celex || c.kennung || '–'),
+          (c.sprachen || []).join(', ').toUpperCase(),
+          q.nutzungsbedingungen[c.nutzung] ? kurz(q.nutzungsbedingungen[c.nutzung], 90) : c.nutzung || '–',
+          'kostenlos',
+          c.aktiv === false ? chip('inaktiv') : chip('aktiv', 'original')]))),
     el('h2', { style: 'margin-top:22px' }, 'Konnektortypen'),
-    el('div.karte', el('dl', { style: 'display:grid;grid-template-columns:auto 1fr;gap:6px 14px;margin:0' },
+    el('div.karte', el('dl.begriffe',
       Object.entries(q.typen).flatMap(([t, b]) => [el('dt', el('code', t)), el('dd', b)]))),
     el('h2', { style: 'margin-top:22px' }, 'Betrieb'),
     el('div.karte',
@@ -440,6 +473,17 @@ function navKnopfEinrichten() {
   });
 }
 
+function schubladeEinrichten() {
+  document.addEventListener('click', (e) => {
+    if (!document.body.classList.contains('nav-offen')) return;
+    if (e.target.closest('#nav') || e.target.closest('#tabbar button') || e.target.closest('#nav-knopf')) return;
+    schubladeSchliessen();
+  });
+  addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && document.body.classList.contains('nav-offen')) schubladeSchliessen();
+  });
+}
+
 function serviceWorker() {
   if (!('serviceWorker' in navigator) || location.protocol === 'file:') return;
   navigator.serviceWorker.register('sw.js').catch(() => { /* ohne Offline-Kopie läuft die App auch */ });
@@ -448,6 +492,7 @@ function serviceWorker() {
 themaEinrichten();
 suchfeldEinrichten();
 navKnopfEinrichten();
+schubladeEinrichten();
 document.getElementById('fuss-version').textContent = `Version ${APP_VERSION}`;
 addEventListener('hashchange', leiten);
 leiten();

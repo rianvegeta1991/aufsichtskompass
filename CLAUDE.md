@@ -77,6 +77,29 @@ Adressen laufen über den Hash, weil GitHub Pages keine Pfade auf `index.html` u
 
 `404.html` rechnet zusätzlich Pfadadressen (`…/dora/art/28`) in diese Hash-Form um.
 
+## Mobiles Format (seit v1.1)
+
+Drei Schwellen, alle gemessen und nicht geraten:
+
+| Breite | Verhalten |
+|---|---|
+| ab 1181 px | Seitenmenü links, Viewer dreispaltig (Baum · Text · Kontext) |
+| 901–1180 px | Viewer zweispaltig, Kontext-Panel darunter |
+| bis 900 px | Seitenmenü wird zur Schublade, **untere Navigationsleiste** (`#tabbar`) mit Start, Bibliothek, Suche, Themen und „Mehr"; Kopf ohne Suchfeld (dafür ein Lupen-Knopf) und ohne Wort am Erscheinungsbild-Knopf; Filter der Bibliothek in einem zugeklappten Block |
+| bis 760 px | Viewer bekommt **Reiter** Text · Gliederung · Kontext (`.viewer[data-ansicht]`) |
+| bis 700 px | breite Tabellen werden zu gestapelten Karten (`table.stapel`, Spaltenname aus `data-spalte`), Karten einspaltig |
+
+Warum die Reiter sein müssen: vorher lag der Gliederungsbaum mit 193 Einträgen **vor** dem
+Text – auf 375 px begann der Artikel erst bei 924 px Scrolltiefe, das Kontext-Panel bei 8.325 px.
+Mit Reitern beginnt der Text bei 341 px.
+
+- Tabellen immer über `tabelle(spalten, zeilen)` aus `ui.js` bauen, nie von Hand: nur dann
+  tragen die Zellen ihren Spaltennamen und stapeln sich auf dem Handy sauber.
+- Die untere Leiste, die Schublade und der Kopf rechnen mit `env(safe-area-inset-*)`
+  (Notch und Gestenbalken) und mit `--kopf-h` / `--tabbar-h`. Wer den Kopf ändert, ändert
+  `--kopf-h` mit – daran hängen Baum, Kontext, Reiterleiste und die klebenden Tabellenköpfe.
+- Tap-Ziele in Navigation, Reitern, Baum und Werkzeugzeile sind auf mindestens 44 px gesetzt.
+
 ## Konventionen
 
 - **Farben:** Karmin `#C6093B` als Primärfarbe, Petrolgrau als Sekundärfarbe. Statusfarben sind
@@ -116,8 +139,16 @@ Adressen laufen über den Hash, weil GitHub Pages keine Pfade auf `index.html` u
 - **BaFin hat seine Seitenstruktur umgebaut:** die bekannten Deep-Links (`/DE/PublikationenDaten/...`)
   antworten mit 404. Keine Links raten – die betroffenen Katalogeinträge tragen `geprueft: false`
   und einen Suchbegriff statt einer erfundenen URL.
-- **Screenshots im Browser-Fenster sind leer, wenn das Fenster versteckt ist.** Dann über
-  `get_page_text`/`read_page` oder `javascript_tool` prüfen, nicht am Bild verzweifeln.
+- **Screenshots im Browser-Fenster sind leer oder laufen in einen Timeout, wenn das Fenster
+  versteckt ist.** Dann über `get_page_text`/`read_page` oder `javascript_tool` prüfen, nicht
+  am Bild verzweifeln.
+- **CSS-Übergänge laufen in einem versteckten Fenster nicht.** `getComputedStyle` liefert dann
+  dauerhaft den Startwert – die Schublade sah dadurch aus, als ginge sie nicht auf, obwohl die
+  Regeln stimmten. Gegenprobe: `document.visibilityState` prüfen oder `transition: none` setzen.
+- **Beim Patchen per Skript erst lesen, dann schreiben.** `open(p,'w')` in derselben Zeile wie
+  `open(p).read()` leert die Datei, bevor gelesen wird – so gingen `app.js` und `sw.js` einmal
+  komplett verloren (aus dem letzten Commit wiederhergestellt). Die Hilfsskripte im
+  Scratchpad machen es richtig: Inhalt lesen, ersetzen, prüfen, dann schreiben.
 
 ## Testen
 
@@ -133,7 +164,9 @@ auch wirklich Text hat).
 Fertig: Phase 1 (Fundament) und Phase 2 für **EU-Recht** – 15 Regelwerke im Volltext
 (DORA DE/EN, zwölf Level-2-Rechtsakte, NIS2, DSGVO), rund 1.900 adressierbare Fundstellen,
 Viewer mit Gliederungsbaum, Deep-Links, Glossar aus den Begriffsbestimmungen, Zitat-Export,
-Lesezeichen und Notizen, BM25-Suche.
+Lesezeichen und Notizen, BM25-Suche. Dazu seit v1.1 das mobile Format (siehe oben):
+geprüft auf 320, 375, 768 und 1440 px – kein Querscrollen, keine Tap-Ziele unter 40 px,
+WCAG-AA-Kontraste in beiden Erscheinungsbildern.
 
 Offen, in dieser Reihenfolge sinnvoll:
 

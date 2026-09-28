@@ -39,7 +39,15 @@ export async function zeigen(wurzel) {
 
   const leiste = el('div.filterleiste');
   const treffer = el('div');
-  wurzel.append(el('div', { style: 'margin-top:18px' }, leiste, treffer));
+  // Auf dem Handy stehen acht Auswahlfelder sonst als Wand vor dem Ergebnis: dort
+  // steckt die Leiste in einem zugeklappten Block, auf breiten Schirmen ist sie offen.
+  const zahlAnzeige = el('span.chip', '0');
+  const box = el('details.filter-box', { open: innerWidth > 900 ? true : null },
+    el('summary',
+      el('span', 'Filter'),
+      el('span', { style: 'margin-left:auto;display:flex;gap:6px;align-items:center' }, zahlAnzeige, el('span', 'Treffer'))),
+    leiste);
+  wurzel.append(el('div', { style: 'margin-top:18px' }, box, treffer));
 
   const werte = (feld) => [...new Set(bestand.map((r) => r[feld]).filter(Boolean))].sort((a, b) => a.localeCompare(b, 'de'));
 
@@ -86,10 +94,12 @@ export async function zeigen(wurzel) {
     leere(treffer);
     const liste = bestand.filter(passt);
     if (!liste.length) {
+      zahlAnzeige.textContent = '0';
       treffer.append(el('p.leer', 'Kein Regelwerk passt zu dieser Auswahl.'));
       return;
     }
     treffer.append(el('p.unterzeile', { style: 'margin:0 0 12px' }, `${liste.length} von ${bestand.length} Regelwerken`));
+    zahlAnzeige.textContent = String(liste.length);
     for (const g of Object.keys(GRUPPEN)) {
       const teil = liste.filter((r) => r.gruppe === g);
       if (!teil.length) continue;

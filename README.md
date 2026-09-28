@@ -21,6 +21,8 @@ amtlich veröffentlichte Fassung.
 - **Versionierung**: jede Fassung bleibt unveränderlich liegen, mit SHA-256 je Fundstelle als
   Grundlage der Änderungserkennung.
 - Hell und dunkel, WCAG 2.2 AA, offlinefähig als PWA.
+- **Auf dem Smartphone** ein eigenes Format: untere Navigationsleiste, Viewer mit den
+  Reitern Text, Gliederung und Kontext, gestapelte Tabellen statt Querscrollen.
 
 ## Wie es gebaut ist
 
