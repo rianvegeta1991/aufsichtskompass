@@ -1,0 +1,18 @@
+{
+  "regelwerk": "vag",
+  "fassungen": [
+    {
+      "id": "2026-07-02",
+      "stand": "Thu, 02 Jul 2026 19:55:20 GMT",
+      "abgerufen": "2026-09-29T21:26:29Z",
+      "quelle": {
+        "name": "gesetze-im-internet.de (VAG 2016)",
+        "url": "https://www.gesetze-im-internet.de/vag_2016/",
+        "hinweis": "Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"36b79-655a630186dc4\"",
+      "hash": "9ee767d26071a477e232aa12c25678007a48b7b0c7fd86f16ee54f291da149a5",
+      "fundstellen": 1280
+    }
+  ]
+}

@@ -218,11 +218,15 @@ fn sammle_bezeichnungen(
     for k in knoten {
         let (de, en) = k.art.wort();
         let wort = if sprache == "en" { en } else { de };
-        let eigen = match (&k.nummer, k.titel.get(sprache)) {
-            (Some(n), Some(t)) => format!("{wort} {n} – {t}"),
-            (Some(n), None) => format!("{wort} {n}"),
-            (None, Some(t)) => t.clone(),
-            (None, None) => wort.to_string(),
+        // `bez` ist die Beschriftung der Quelle ("§ 23", "Erstes Buch") und geht vor,
+        // weil sich aus Art und Nummer sonst "Abschnitt Zweiter" ergeben wuerde.
+        let kopf = k.bez.clone().unwrap_or_else(|| match &k.nummer {
+            Some(n) => format!("{wort} {n}"),
+            None => wort.to_string(),
+        });
+        let eigen = match k.titel.get(sprache) {
+            Some(t) => format!("{kopf} – {t}"),
+            None => kopf,
         };
         let mut kette: Vec<String> = eltern.to_vec();
         // Absaetze erben die Artikelbezeichnung, Artikel stehen fuer sich.
@@ -241,7 +245,9 @@ fn sammle_bezeichnungen(
         }
         if matches!(
             k.art,
-            crate::modell::Art::Artikel | crate::modell::Art::Erwaegungsgrund
+            crate::modell::Art::Artikel
+                | crate::modell::Art::Paragraf
+                | crate::modell::Art::Erwaegungsgrund
         ) {
             kette = vec![eigen.clone()];
         }

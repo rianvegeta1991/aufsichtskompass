@@ -25,6 +25,13 @@ pub struct Konnektor {
     /// CELEX-Nummer, z. B. `32022R2554` fuer DORA.
     #[serde(default)]
     pub celex: Option<String>,
+    /// Kennung bei gesetze-im-internet.de, z. B. `vag_2016`.
+    #[serde(default)]
+    pub kennung: Option<String>,
+    /// Beschraenkung auf einzelne Paragrafen (leer = ganzes Gesetz). Fuer Gesetze,
+    /// von denen nur die IT-relevanten Vorschriften aufgenommen werden (HGB, AO).
+    #[serde(default)]
+    pub paragraphen: Vec<String>,
     /// Sprachcodes des Abrufs, dreistellig nach CELLAR (`deu`, `eng`).
     #[serde(default)]
     pub sprachen: Vec<String>,
@@ -99,6 +106,11 @@ pub struct Knoten {
     pub art: Art,
     #[serde(default, skip_serializing_if = "Option::is_none")]
     pub nummer: Option<String>,
+    /// Beschriftung genau so, wie die Quelle sie schreibt - z. B. "Erstes Buch"
+    /// oder "Zweiter Abschnitt". Deutsche Gesetze nummerieren mit Wortformen;
+    /// aus Art und Nummer liesse sich das nicht richtig zusammensetzen.
+    #[serde(default, skip_serializing_if = "Option::is_none")]
+    pub bez: Option<String>,
     /// Ueberschrift je Sprache (`de`, `en`); leer, wo die Quelle keine fuehrt.
     #[serde(default, skip_serializing_if = "BTreeMap::is_empty")]
     pub titel: BTreeMap<String, String>,
@@ -118,6 +130,8 @@ pub enum Art {
     Kapitel,
     Abschnitt,
     Artikel,
+    /// Paragraf deutscher Gesetze (§).
+    Paragraf,
     Absatz,
     Erwaegungsgrund,
     Bezugsvermerk,
@@ -133,6 +147,7 @@ impl Art {
             Art::Kapitel => ("Kapitel", "Chapter"),
             Art::Abschnitt => ("Abschnitt", "Section"),
             Art::Artikel => ("Artikel", "Article"),
+            Art::Paragraf => ("§", "Section"),
             Art::Absatz => ("Absatz", "paragraph"),
             Art::Erwaegungsgrund => ("Erwägungsgrund", "Recital"),
             Art::Bezugsvermerk => ("Bezugsvermerk", "Citation"),

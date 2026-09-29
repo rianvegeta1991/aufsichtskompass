@@ -1,0 +1,18 @@
+{
+  "regelwerk": "ao",
+  "fassungen": [
+    {
+      "id": "2026-08-31",
+      "stand": "Mon, 31 Aug 2026 19:55:08 GMT",
+      "abgerufen": "2026-09-29T21:26:31Z",
+      "quelle": {
+        "name": "gesetze-im-internet.de (AO 1977)",
+        "url": "https://www.gesetze-im-internet.de/ao_1977/",
+        "hinweis": "Auszug: nur die IT-relevanten Vorschriften (§§ 146, 146a, 146b, 147, 147a, 147b). Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"3329a-65a5d2de457af\"",
+      "hash": "0933c39989c08de371f127a730ab0157475db21949e7e44191d70597f8c216b7",
+      "fundstellen": 26
+    }
+  ]
+}

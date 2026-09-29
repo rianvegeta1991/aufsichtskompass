@@ -1,0 +1,18 @@
+{
+  "regelwerk": "hgb",
+  "fassungen": [
+    {
+      "id": "2026-07-09",
+      "stand": "Thu, 09 Jul 2026 19:55:15 GMT",
+      "abgerufen": "2026-09-29T21:26:30Z",
+      "quelle": {
+        "name": "gesetze-im-internet.de (HGB)",
+        "url": "https://www.gesetze-im-internet.de/hgb/",
+        "hinweis": "Auszug: nur die IT-relevanten Vorschriften (§§ 238, 239, 257). Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"35751-6563300b392bf\"",
+      "hash": "257029941b930016514cd88c5a0f88f15c4638da1469be6b9b5798ec28922522",
+      "fundstellen": 11
+    }
+  ]
+}

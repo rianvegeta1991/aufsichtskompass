@@ -1,0 +1,18 @@
+{
+  "regelwerk": "bsig",
+  "fassungen": [
+    {
+      "id": "2026-07-28",
+      "stand": "Tue, 28 Jul 2026 19:55:37 GMT",
+      "abgerufen": "2026-09-29T21:26:30Z",
+      "quelle": {
+        "name": "gesetze-im-internet.de (BSIG 2025)",
+        "url": "https://www.gesetze-im-internet.de/bsig_2025/",
+        "hinweis": "Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"cede-657b138fa6953\"",
+      "hash": "3a03379e6ff7596c002e033c7130d8e5ed78913625159a300b160ed0bce08ac8",
+      "fundstellen": 277
+    }
+  ]
+}

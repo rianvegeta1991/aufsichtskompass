@@ -1,0 +1,176 @@
+{
+  "regelwerk": "hgb",
+  "fassung": "2026-07-09",
+  "abgerufen": "2026-09-29T21:26:30Z",
+  "quelle": {
+    "name": "gesetze-im-internet.de (HGB)",
+    "url": "https://www.gesetze-im-internet.de/hgb/",
+    "hinweis": "Auszug: nur die IT-relevanten Vorschriften (§§ 238, 239, 257). Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_030",
+      "art": "teil",
+      "nummer": "Drittes",
+      "bez": "Drittes Buch",
+      "titel": {
+        "de": "Handelsbücher"
+      },
+      "pfad": "gl/030",
+      "kinder": [
+        {
+          "id": "g_030010",
+          "art": "abschnitt",
+          "nummer": "Erster",
+          "bez": "Erster Abschnitt",
+          "titel": {
+            "de": "Vorschriften für alle Kaufleute"
+          },
+          "pfad": "gl/030010",
+          "kinder": [
+            {
+              "id": "g_030010010",
+              "art": "abschnitt",
+              "nummer": "Erster",
+              "bez": "Erster Unterabschnitt",
+              "titel": {
+                "de": "Buchführung. Inventar"
+              },
+              "pfad": "gl/030010010",
+              "kinder": [
+                {
+                  "id": "par_238",
+                  "art": "paragraf",
+                  "nummer": "238",
+                  "bez": "§ 238",
+                  "titel": {
+                    "de": "Buchführungspflicht"
+                  },
+                  "pfad": "par/238",
+                  "kinder": [
+                    {
+                      "id": "par_238.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/238/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_238.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/238/abs/2",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_239",
+                  "art": "paragraf",
+                  "nummer": "239",
+                  "bez": "§ 239",
+                  "titel": {
+                    "de": "Führung der Handelsbücher"
+                  },
+                  "pfad": "par/239",
+                  "kinder": [
+                    {
+                      "id": "par_239.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/239/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_239.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/239/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_239.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/239/abs/3",
+                      "text": true
+                    },
+                    {
+                      "id": "par_239.4",
+                      "art": "absatz",
+                      "nummer": "4",
+                      "pfad": "par/239/abs/4",
+                      "text": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "g_030010030",
+              "art": "abschnitt",
+              "nummer": "Dritter",
+              "bez": "Dritter Unterabschnitt",
+              "titel": {
+                "de": "Aufbewahrung und Vorlage"
+              },
+              "pfad": "gl/030010030",
+              "kinder": [
+                {
+                  "id": "par_257",
+                  "art": "paragraf",
+                  "nummer": "257",
+                  "bez": "§ 257",
+                  "titel": {
+                    "de": "Aufbewahrung von Unterlagen Aufbewahrungsfristen"
+                  },
+                  "pfad": "par/257",
+                  "kinder": [
+                    {
+                      "id": "par_257.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/257/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_257.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/257/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_257.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/257/abs/3",
+                      "text": true
+                    },
+                    {
+                      "id": "par_257.4",
+                      "art": "absatz",
+                      "nummer": "4",
+                      "pfad": "par/257/abs/4",
+                      "text": true
+                    },
+                    {
+                      "id": "par_257.5",
+                      "art": "absatz",
+                      "nummer": "5",
+                      "pfad": "par/257/abs/5",
+                      "text": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

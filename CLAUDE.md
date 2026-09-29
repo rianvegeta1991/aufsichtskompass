@@ -63,6 +63,36 @@ Text und Fundstellen, ob eine neue Fassung übernommen wird.
 
 Fassungsordner sind **unveränderlich**. Eine neue Fassung kommt daneben, die alte bleibt (Archiv).
 
+## Konnektoren
+
+| Typ | Quelle | Stand |
+|---|---|---|
+| `cellar` | EU-Recht über `publications.europa.eu/resource/celex/<CELEX>` | umgesetzt |
+| `gii` | deutsche Gesetze über `gesetze-im-internet.de/<kennung>/xml.zip` | umgesetzt |
+| `bafin-pdf` | BaFin-Rundschreiben als PDF | offen, erst nach Klärung der Nutzungsbedingungen |
+| `rss` / `seite` | Feeds und Seitenüberwachung fürs Screening | offen (Phase 5) |
+
+Beide umgesetzten Konnektoren holen nur ab und parsen; die Versionslogik liegt gemeinsam
+in `uebernehmen()` in `main.rs` – Hash-Vergleich, neue Fassung, Änderungsereignis,
+Indexbau. Ein dritter Konnektor braucht deshalb nur Abruf und Parser.
+
+### gesetze-im-internet.de (`gii`)
+
+- Je Gesetz eine ZIP mit einer XML-Datei; der Server schickt `ETag` und `Last-Modified`.
+- `<norm>` ist alles: das Gesetz, jede Gliederungseinheit und jeder Paragraf.
+  Die `gliederungskennzahl` ist ein Schlüssel aus **Dreiergruppen**, ihre Länge gibt die
+  Ebene an (3 = Teil, 6 = Kapitel, 9 = Abschnitt). Daraus baut der Parser den Baum.
+- **Deutsche Gesetze nummerieren mit Wortformen**: „Erstes Buch", „Zweiter Abschnitt" –
+  das Typwort kann vorn oder hinten stehen. Deshalb trägt jeder Knoten das Feld `bez`
+  mit der Beschriftung der Quelle; Anzeige und Suchindex bevorzugen sie gegenüber
+  „Art + Nummer" (sonst stünde dort „Abschnitt Zweiter").
+- Pfade der Gliederungsknoten laufen über die Kennzahl (`gl/030010010`), weil „Erstes"
+  weder eine brauchbare URL noch eine Nummer ist. Paragrafen: `par/23`, `par/23/abs/1a`.
+- **Absatzmarken hier**: `(1)`, aber auch `(1a)`, `(12b)` – anders als im EU-Recht.
+- `paragraphen` im Konnektor beschränkt auf einzelne Vorschriften (HGB, AO). Bei einem
+  solchen Auszug entfernt `aufraeumen()` die leeren Gliederungsäste – sonst stünden beim
+  HGB 92 Kapitel ohne Inhalt im Baum – und Anlagen bleiben außen vor.
+
 ## Deep-Links
 
 Adressen laufen über den Hash, weil GitHub Pages keine Pfade auf `index.html` umschreiben kann:
@@ -71,6 +101,8 @@ Adressen laufen über den Hash, weil GitHub Pages keine Pfade auf `index.html` u
 #/rw/dora/art/28/abs/4     Artikel 28 Absatz 4, Absatz wird hervorgehoben
 #/rw/dora/eg/47            Erwägungsgrund 47
 #/rw/dora/kap/V            Kapitel V mit allen Artikeln
+#/rw/vag/par/23/abs/1a     § 23 Absatz 1a VAG
+#/rw/hgb/gl/030010010      Gliederungseinheit eines deutschen Gesetzes
 #/suche/Informationsregister
 #/themen/iks  ·  #/bibliothek  ·  #/aenderungen  ·  #/quellen  ·  #/lesezeichen
 ```
@@ -161,25 +193,34 @@ auch wirklich Text hat).
 
 ## Stand und offene Punkte
 
-Fertig: Phase 1 (Fundament) und Phase 2 für **EU-Recht** – 15 Regelwerke im Volltext
-(DORA DE/EN, zwölf Level-2-Rechtsakte, NIS2, DSGVO), rund 1.900 adressierbare Fundstellen,
-Viewer mit Gliederungsbaum, Deep-Links, Glossar aus den Begriffsbestimmungen, Zitat-Export,
-Lesezeichen und Notizen, BM25-Suche. Dazu seit v1.1 das mobile Format (siehe oben):
-geprüft auf 320, 375, 768 und 1440 px – kein Querscrollen, keine Tap-Ziele unter 40 px,
-WCAG-AA-Kontraste in beiden Erscheinungsbildern.
+Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht) und Phase 2b (deutsche Gesetze) –
+**20 Regelwerke im Volltext mit rund 3.750 adressierbaren Fundstellen**: DORA (DE/EN),
+die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und BDSG vollständig sowie HGB
+und AO als IT-relevanter Auszug. Viewer mit Gliederungsbaum, Deep-Links, Glossar aus den
+Begriffsbestimmungen, Zitat-Export, Lesezeichen und Notizen, BM25-Suche über beide
+Rechtskreise. Seit v1.1 das mobile Format (siehe oben): geprüft auf 320, 375, 768 und
+1440 px – kein Querscrollen, keine Tap-Ziele unter 40 px, WCAG-AA-Kontraste in beiden
+Erscheinungsbildern.
 
 Offen, in dieser Reihenfolge sinnvoll:
 
-1. **Phase 2b** – Konnektor `gii` für gesetze-im-internet.de (VAG `vag_2016`, BSIG `bsig_2025`,
-   BDSG `bdsg_2018`, HGB, AO `ao_1977`; XML-Fassung je Gesetz) und `bafin-pdf` für MaGo und MaRisk.
-   Die Katalogeinträge und Konnektoren stehen schon, nur auf `aktiv: false`.
+1. **Phase 2c** – BaFin-Veröffentlichungen (MaGo 09/2025 (VA), MaRisk, Aufsichtsmitteilung,
+   DORA-FAQ). Zwei Hürden, beide fachlich: die Nutzungsbedingungen für den Volltext sind je
+   Veröffentlichung zu prüfen und zu dokumentieren, und die BaFin hat ihre Seitenstruktur
+   umgebaut – die Direktlinks müssen neu ermittelt werden. Bis dahin bleiben diese Einträge
+   auf „Zusammenfassung" und `geprueft: false`.
 2. **Phase 3** – eigene Zusammenfassungen (ISO 27001 inkl. 93 Annex-A-Controls, COBIT 2019 mit
    40 Objectives, ITIL 4 mit 34 Practices, CSA CCM; grob C5, NIST CSF 2.0, GDV). Das ist vor allem
    Schreibarbeit und braucht mehrere Sitzungen. Pflicht je Eintrag: eigene Worte, Bezugsfassung,
    Herkunft, Prüfstatus und der sichtbare Hinweis „Eigene Zusammenfassung – ersetzt nicht das Original".
-3. **Phase 4** – Relation-Modell und Matrizen.
+3. **Phase 4** – Relation-Modell und Matrizen. Jetzt besonders ergiebig: DORA ↔ VAG ↔ BSIG
+   liegen alle im Volltext vor, die Mappings lassen sich auf Absatzebene verankern.
 4. **Phase 5** – Screening (Feeds, Seitenüberwachung, GDELT, Taxonomie, Digest) als Actions-Lauf
    um 06:30 Europe/Berlin; GitHub-Cron läuft in UTC, die Sommerzeit muss das Werkzeug prüfen.
+
+Hinweis zum Umfang: Die Suchindizes sind zusammen 2,55 MB (0,63 MB gzip, 4.131 Dokumente)
+und werden bei der ersten Suche vollständig geladen. Wächst der Bestand deutlich weiter,
+sollte die Suche die Indizes nach Relevanz gestaffelt nachladen.
 
 ## Rechtliches
 

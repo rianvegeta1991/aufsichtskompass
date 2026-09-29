@@ -81,13 +81,21 @@ export function knotenkarten(knoten) {
   return { nachPfad, nachId, eltern };
 }
 
-/** Bezeichnung eines Knotens, z. B. „Artikel 28 – Allgemeine Prinzipien". */
+/**
+ * Bezeichnung eines Knotens, z. B. „Artikel 28 – Allgemeine Prinzipien" oder
+ * „§ 23 – Allgemeine Anforderungen an die Geschäftsorganisation".
+ *
+ * `knoten.bez` ist die Beschriftung, die die Quelle selbst schreibt, und geht vor:
+ * deutsche Gesetze nummerieren mit Wortformen („Erstes Buch", „Zweiter Abschnitt"),
+ * aus Art und Nummer ergäbe sich sonst „Buch Erstes".
+ */
 export function bezeichnung(knoten, sprache = 'de') {
   const w = WORT[knoten.art] || [knoten.art, knoten.art];
   const wort = sprache === 'en' ? w[1] : w[0];
   const t = knoten.titel && (knoten.titel[sprache] || knoten.titel.de);
-  if (knoten.nummer && t) return `${wort} ${knoten.nummer} – ${t}`;
-  if (knoten.nummer) return `${wort} ${knoten.nummer}`;
+  const kopf = knoten.bez || (knoten.nummer ? `${wort} ${knoten.nummer}` : null);
+  if (kopf && t) return `${kopf} – ${t}`;
+  if (kopf) return kopf;
   return t || wort;
 }
 
@@ -96,6 +104,7 @@ export const WORT = {
   kapitel: ['Kapitel', 'Chapter'],
   abschnitt: ['Abschnitt', 'Section'],
   artikel: ['Artikel', 'Article'],
+  paragraf: ['§', 'Section'],
   absatz: ['Absatz', 'paragraph'],
   erwaegungsgrund: ['Erwägungsgrund', 'Recital'],
   bezugsvermerk: ['Bezugsvermerk', 'Citation'],

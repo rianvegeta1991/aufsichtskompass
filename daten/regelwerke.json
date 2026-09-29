@@ -383,7 +383,7 @@
       "gruppe": "recht-de",
       "themen": ["it-governance", "iks", "drittparteien-auslagerung", "leitungsorgan", "funktionstrennung"],
       "geprueft": true,
-      "hinweis": "Schwerpunkt §§ 23–32 (Geschäftsorganisation, Ausgliederung) und § 35 (Prüfung durch den Abschlussprüfer). Amtliches Werk, § 5 UrhG."
+      "hinweis": "Vollständig aufgenommen. Fachlicher Schwerpunkt: §§ 23–32 (Geschäftsorganisation, Ausgliederung) und § 35 (Prüfung durch den Abschlussprüfer). Amtliches Werk, § 5 UrhG."
     },
     {
       "id": "bsig",
@@ -630,7 +630,7 @@
       "gruppe": "recht-de",
       "themen": ["iks", "asset-konfiguration"],
       "geprueft": true,
-      "hinweis": "Schwerpunkt §§ 238, 239, 257 (Buchführung, Aufbewahrung)."
+      "hinweis": "Als Auszug aufgenommen: nur §§ 238, 239 und 257 (Buchführung, Aufbewahrung). Das übrige HGB ist für die IT-Compliance ohne Belang."
     },
     {
       "id": "ao",
@@ -649,7 +649,7 @@
       "gruppe": "recht-de",
       "themen": ["iks", "logging-monitoring"],
       "geprueft": true,
-      "hinweis": "Schwerpunkt §§ 146, 147 (Ordnungsvorschriften, Datenzugriff)."
+      "hinweis": "Als Auszug aufgenommen: nur §§ 146, 146a, 146b, 147, 147a und 147b (Ordnungsvorschriften, elektronische Aufzeichnungen, Aufbewahrung, Datenzugriff)."
     },
     {
       "id": "gobd",

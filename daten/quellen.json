@@ -3,7 +3,7 @@
   "hinweis": "Abrufwege je Regelwerk. Alles hier ist kostenlos und ohne Anmeldung nutzbar. Ein neues Regelwerk braucht nur einen neuen Eintrag - keinen Code-Patch, solange der Konnektortyp schon umgesetzt ist.",
   "typen": {
     "cellar": "EUR-Lex ueber CELLAR (publications.europa.eu/resource/celex/<CELEX>), Content-Negotiation auf XHTML. Umgesetzt.",
-    "gii": "gesetze-im-internet.de, XML-Fassung je Gesetz. Noch nicht umgesetzt.",
+    "gii": "gesetze-im-internet.de, XML-Fassung je Gesetz (ZIP). Umgesetzt; optional auf einzelne Paragrafen beschraenkbar.",
     "bafin-pdf": "BaFin-Rundschreiben als PDF. Noch nicht umgesetzt.",
     "rss": "RSS-/Atom-Feed fuer das Screening. Noch nicht umgesetzt (Phase 5).",
     "seite": "Seitenueberwachung per Selektor fuer Quellen ohne Feed. Noch nicht umgesetzt (Phase 5)."
@@ -37,11 +37,15 @@
     { "regelwerk": "cra", "typ": "cellar", "celex": "32024R2847", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
     { "regelwerk": "data-act", "typ": "cellar", "celex": "32023R2854", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
 
-    { "regelwerk": "vag", "typ": "gii", "kennung": "vag_2016", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
-    { "regelwerk": "bsig", "typ": "gii", "kennung": "bsig_2025", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
-    { "regelwerk": "bdsg", "typ": "gii", "kennung": "bdsg_2018", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
-    { "regelwerk": "hgb", "typ": "gii", "kennung": "hgb", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
-    { "regelwerk": "ao", "typ": "gii", "kennung": "ao_1977", "sprachen": ["deu"], "nutzung": "gii", "aktiv": false },
+    { "regelwerk": "vag", "typ": "gii", "kennung": "vag_2016", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true },
+    { "regelwerk": "bsig", "typ": "gii", "kennung": "bsig_2025", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true },
+    { "regelwerk": "bdsg", "typ": "gii", "kennung": "bdsg_2018", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true },
+    { "regelwerk": "hgb", "typ": "gii", "kennung": "hgb", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true,
+      "paragraphen": ["238", "239", "257"],
+      "hinweis": "Nur die IT-relevanten Ordnungsmaessigkeits- und Aufbewahrungsvorschriften." },
+    { "regelwerk": "ao", "typ": "gii", "kennung": "ao_1977", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true,
+      "paragraphen": ["146", "146a", "146b", "147", "147a", "147b"],
+      "hinweis": "Nur die IT-relevanten Aufzeichnungs-, Aufbewahrungs- und Datenzugriffsvorschriften." },
 
     { "regelwerk": "mago-va", "typ": "bafin-pdf", "sprachen": ["deu"], "nutzung": "bafin", "aktiv": false },
     { "regelwerk": "marisk", "typ": "bafin-pdf", "sprachen": ["deu"], "nutzung": "bafin", "aktiv": false }

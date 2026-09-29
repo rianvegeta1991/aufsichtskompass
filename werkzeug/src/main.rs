@@ -11,6 +11,7 @@
 //!   kompass pruefen                           Datenbestand auf Konsistenz pruefen
 
 mod cellar;
+mod gii;
 mod modell;
 mod suche;
 
@@ -93,6 +94,7 @@ fn abruf(daten: &Path, nur: Option<&str>, erzwingen: bool) -> Result<()> {
         behandelt += 1;
         match k.typ.as_str() {
             "cellar" => abruf_cellar(daten, k, erzwingen)?,
+            "gii" => abruf_gii(daten, k, erzwingen)?,
             sonst => println!("[{}] Konnektortyp '{sonst}' noch nicht umgesetzt - uebersprungen", k.regelwerk),
         }
     }
@@ -100,6 +102,23 @@ fn abruf(daten: &Path, nur: Option<&str>, erzwingen: bool) -> Result<()> {
         println!("Kein passender Konnektor in quellen.json gefunden.");
     }
     Ok(())
+}
+
+/// Register eines Regelwerks laden und den ETag des letzten Laufs bestimmen.
+fn register_laden(
+    daten: &Path,
+    rw: &str,
+    erzwingen: bool,
+) -> Result<(PathBuf, Fassungsregister, Option<Fassung>, Option<String>)> {
+    let pfad = daten.join("rw").join(rw).join("fassungen.json");
+    let register: Fassungsregister = if pfad.exists() {
+        lies_json(&pfad)?
+    } else {
+        Fassungsregister { regelwerk: rw.to_string(), fassungen: Vec::new() }
+    };
+    let letzte = register.fassungen.last().cloned();
+    let etag = if erzwingen { None } else { letzte.as_ref().and_then(|f| f.etag.clone()) };
+    Ok((pfad, register, letzte, etag))
 }
 
 fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
@@ -114,19 +133,7 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
         k.sprachen.clone()
     };
     let leit = sprachen[0].clone();
-
-    let reg_pfad = daten.join("rw").join(rw).join("fassungen.json");
-    let mut register: Fassungsregister = if reg_pfad.exists() {
-        lies_json(&reg_pfad)?
-    } else {
-        Fassungsregister { regelwerk: rw.clone(), fassungen: Vec::new() }
-    };
-    let letzte = register.fassungen.last().cloned();
-    let etag = if erzwingen {
-        None
-    } else {
-        letzte.as_ref().and_then(|f| f.etag.clone())
-    };
+    let (_, _, _, etag) = register_laden(daten, rw, erzwingen)?;
 
     println!("[{rw}] CELEX {celex}, Sprachen {sprachen:?} - Abruf laeuft ...");
     let Some(haupt) = cellar::hole(celex, &leit, etag.as_deref())? else {
@@ -135,12 +142,135 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
     };
 
     let geparst = cellar::parse(&haupt.koerper)?;
-    let mut texte: Textdatei = BTreeMap::new();
-    for (id, bloecke) in &geparst.texte {
-        texte.insert(id.clone(), fundstelle(bloecke.clone()));
+    let mut knoten = geparst.knoten;
+    let mut sprachtexte = vec![(kurz(&leit), texte_aus(&geparst.texte))];
+
+    // Weitere Sprachfassungen: gleiche Kennungen, nur andere Texte und Titel.
+    for s in sprachen.iter().skip(1) {
+        match cellar::hole(celex, s, None)? {
+            Some(a) => {
+                let g = cellar::parse(&a.koerper)?;
+                let ks = kurz(s);
+                titel_uebernehmen(&mut knoten, &titelkarte(&g.knoten), &ks);
+                let t = texte_aus(&g.texte);
+                println!("[{rw}] Sprachfassung {s}: {} Fundstellen.", t.len());
+                sprachtexte.push((ks, t));
+            }
+            None => println!("[{rw}] Sprachfassung {s} nicht geliefert - uebersprungen."),
+        }
     }
-    if texte.len() < 10 {
-        bail!("[{rw}] nur {} Fundstellen geparst - Quellstruktur pruefen, Daten bleiben unberuehrt", texte.len());
+
+    uebernehmen(
+        daten,
+        Uebernahme {
+            rw: rw.clone(),
+            quelle: Quelle {
+                name: "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)".into(),
+                url: format!("{}/{celex}", cellar::BASIS),
+                celex: Some(celex.to_string()),
+                hinweis: "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung.".into(),
+            },
+            etag: haupt.etag,
+            stand: haupt.stand,
+            knoten,
+            sprachtexte,
+        },
+        erzwingen,
+    )
+}
+
+fn abruf_gii(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
+    let rw = &k.regelwerk;
+    let kennung = k
+        .kennung
+        .as_deref()
+        .with_context(|| format!("[{rw}] Konnektor 'gii' ohne kennung"))?;
+    let (_, _, _, etag) = register_laden(daten, rw, erzwingen)?;
+
+    let auswahl = if k.paragraphen.is_empty() {
+        String::from("ganzes Gesetz")
+    } else {
+        format!("nur §§ {}", k.paragraphen.join(", "))
+    };
+    println!("[{rw}] gesetze-im-internet.de/{kennung} ({auswahl}) - Abruf laeuft ...");
+    let Some(haupt) = gii::hole(kennung, etag.as_deref())? else {
+        println!("[{rw}] unveraendert (ETag der Quelle stimmt) - nichts zu tun.");
+        return Ok(());
+    };
+
+    let geparst = gii::parse(&haupt.xml, &k.paragraphen)?;
+    if !k.paragraphen.is_empty() {
+        let fehlend: Vec<&String> = k
+            .paragraphen
+            .iter()
+            .filter(|p| !geparst.texte.keys().any(|id| id == &format!("par_{p}") || id.starts_with(&format!("par_{p}."))))
+            .collect();
+        if !fehlend.is_empty() {
+            println!("[{rw}] Achtung: diese Paragrafen kamen nicht vor: {fehlend:?}");
+        }
+    }
+
+    let hinweis = if k.paragraphen.is_empty() {
+        "Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung.".to_string()
+    } else {
+        format!(
+            "Auszug: nur die IT-relevanten Vorschriften (§§ {}). Amtliches Werk (§ 5 UrhG). \
+             Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung.",
+            k.paragraphen.join(", ")
+        )
+    };
+
+    uebernehmen(
+        daten,
+        Uebernahme {
+            rw: rw.clone(),
+            quelle: Quelle {
+                name: format!(
+                    "gesetze-im-internet.de ({})",
+                    geparst.jurabk.clone().unwrap_or_else(|| kennung.to_string())
+                ),
+                url: format!("{}/{kennung}/", gii::BASIS),
+                celex: None,
+                hinweis,
+            },
+            etag: haupt.etag,
+            stand: haupt.stand,
+            knoten: geparst.knoten,
+            sprachtexte: vec![("de".to_string(), texte_aus(&geparst.texte))],
+        },
+        erzwingen,
+    )
+}
+
+/// Ergebnis eines Abrufs, bevor es in den Bestand wandert.
+struct Uebernahme {
+    rw: String,
+    quelle: Quelle,
+    etag: Option<String>,
+    /// `Last-Modified` der Quelle.
+    stand: Option<String>,
+    knoten: Vec<Knoten>,
+    /// Erste Sprache ist die Leitsprache; ihr Text entscheidet ueber neue Fassungen.
+    sprachtexte: Vec<(String, Textdatei)>,
+}
+
+/// Vergleicht mit dem Bestand und legt bei Bedarf eine neue Fassung an.
+/// Hier laufen CELLAR und gesetze-im-internet.de zusammen - die Versionslogik
+/// ist fuer beide dieselbe und soll es bleiben.
+fn uebernehmen(daten: &Path, u: Uebernahme, erzwingen: bool) -> Result<()> {
+    let rw = &u.rw;
+    let (reg_pfad, mut register, letzte, _) = register_laden(daten, rw, erzwingen)?;
+    let (leitsprache, texte) = u
+        .sprachtexte
+        .first()
+        .context("Uebernahme ohne Text")?
+        .clone();
+
+    if texte.len() < 3 {
+        bail!(
+            "[{rw}] nur {} Fundstellen geparst - Quellstruktur pruefen, Daten bleiben unberuehrt",
+            texte.len()
+        );
     }
     let gesamt = gesamthash(&texte);
 
@@ -157,14 +287,15 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
                 texte.len()
             );
             let n = register.fassungen.len() - 1;
-            register.fassungen[n].etag = haupt.etag.clone();
+            register.fassungen[n].etag = u.etag.clone();
             register.fassungen[n].abgerufen = jetzt();
             schreib_json(&reg_pfad, &register, true)?;
             return Ok(());
         }
         if neuschreiben && l.hash != gesamt {
             println!(
-                "[{rw}] Achtung: der Text der Fassung {} weicht vom gespeicherten Hash ab.                  Mit --erzwingen wird er an Ort und Stelle ersetzt, keine neue Fassung angelegt.",
+                "[{rw}] Achtung: der Text der Fassung {} weicht vom gespeicherten Hash ab. \
+                 Mit --erzwingen wird er an Ort und Stelle ersetzt, keine neue Fassung angelegt.",
                 l.id
             );
         }
@@ -173,7 +304,7 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
     let stand = if neuschreiben {
         letzte.as_ref().unwrap().stand.clone()
     } else {
-        haupt.stand.clone().unwrap_or_else(jetzt)
+        u.stand.clone().unwrap_or_else(jetzt)
     };
     let mut fassung_id = if neuschreiben {
         letzte.as_ref().unwrap().id.clone()
@@ -186,53 +317,23 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
     let ordner = daten.join("rw").join(rw).join(&fassung_id);
     std::fs::create_dir_all(&ordner)?;
 
-    let quelle = Quelle {
-        name: "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)".into(),
-        url: format!("{}/{celex}", cellar::BASIS),
-        celex: Some(celex.to_string()),
-        hinweis: "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung.".into(),
-    };
-
-    // Weitere Sprachfassungen: gleiche Kennungen, nur andere Texte und Titel.
-    let mut knoten = geparst.knoten;
-    let mut sprachkuerzel = vec![kurz(&leit)];
-    let mut weitere: Vec<(String, Textdatei)> = Vec::new();
-    for s in sprachen.iter().skip(1) {
-        match cellar::hole(celex, s, None)? {
-            Some(a) => {
-                let g = cellar::parse(&a.koerper)?;
-                let ks = kurz(s);
-                titel_uebernehmen(&mut knoten, &titelkarte(&g.knoten), &ks);
-                let mut t: Textdatei = BTreeMap::new();
-                for (id, b) in &g.texte {
-                    t.insert(id.clone(), fundstelle(b.clone()));
-                }
-                println!("[{rw}] Sprachfassung {s}: {} Fundstellen.", t.len());
-                weitere.push((ks.clone(), t));
-                sprachkuerzel.push(ks);
-            }
-            None => println!("[{rw}] Sprachfassung {s} nicht geliefert - uebersprungen."),
-        }
-    }
-
     let struktur = Struktur {
         regelwerk: rw.clone(),
         fassung: fassung_id.clone(),
         abgerufen: jetzt(),
-        quelle: quelle.clone(),
-        sprachen: sprachkuerzel.clone(),
-        knoten,
+        quelle: u.quelle.clone(),
+        sprachen: u.sprachtexte.iter().map(|(s, _)| s.clone()).collect(),
+        knoten: u.knoten,
     };
     schreib_json(&ordner.join("struktur.json"), &struktur, true)?;
-    schreib_json(&ordner.join(format!("text-{}.json", kurz(&leit))), &texte, true)?;
-    for (s, t) in &weitere {
+    for (s, t) in &u.sprachtexte {
         schreib_json(&ordner.join(format!("text-{s}.json")), t, true)?;
     }
 
     if neuschreiben {
         // Nur die Dateien wurden erneuert - kein regulatorisches Ereignis.
         let n = register.fassungen.len() - 1;
-        register.fassungen[n].etag = haupt.etag.clone();
+        register.fassungen[n].etag = u.etag.clone();
         register.fassungen[n].abgerufen = jetzt();
         register.fassungen[n].hash = gesamt;
         register.fassungen[n].fundstellen = texte.len();
@@ -253,14 +354,14 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
         neu: Vec::new(),
         geaendert: Vec::new(),
         entfallen: Vec::new(),
-        quelle: quelle.url.clone(),
+        quelle: u.quelle.url.clone(),
     };
     if let Some(l) = &letzte {
         let alt_pfad = daten
             .join("rw")
             .join(rw)
             .join(&l.id)
-            .join(format!("text-{}.json", kurz(&leit)));
+            .join(format!("text-{leitsprache}.json"));
         if alt_pfad.exists() {
             let alt: Textdatei = lies_json(&alt_pfad)?;
             let alte: BTreeSet<&String> = alt.keys().collect();
@@ -281,8 +382,8 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
         id: fassung_id.clone(),
         stand,
         abgerufen: jetzt(),
-        quelle,
-        etag: haupt.etag.clone(),
+        quelle: u.quelle,
+        etag: u.etag,
         hash: gesamt,
         gueltig_bis: None,
         fundstellen: texte.len(),
@@ -308,6 +409,15 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
     let n = alle_indizes(daten)?;
     println!("[{rw}] {n} Indexdateien gebaut.");
     Ok(())
+}
+
+/// Bloecke eines Parsers in Fundstellen mit Hash umwandeln.
+fn texte_aus(roh: &BTreeMap<String, Vec<Block>>) -> Textdatei {
+    let mut aus: Textdatei = BTreeMap::new();
+    for (id, bloecke) in roh {
+        aus.insert(id.clone(), fundstelle(bloecke.clone()));
+    }
+    aus
 }
 
 // ---------------------------------------------------------------------- Index

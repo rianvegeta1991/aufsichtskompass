@@ -316,6 +316,12 @@ table.liste tbody tr:hover { background: var(--color-surface-alt); }
 .lesen .punkte li { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 4px; margin-bottom: .35em; }
 .lesen .punkte li .marke { color: var(--color-text-muted); font-family: var(--schrift); font-size: .88rem; }
 .lesen .punkte .punkte { margin-top: .35em; }
+/* Blaettern zwischen Fundstellen: umbrechbar, damit lange Ueberschriften die
+   Seite nicht breiter machen als den Schirm. */
+.blaettern { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 26px; padding-top: 14px; border-top: 1px solid var(--color-border); }
+.blaettern .knopf { max-width: 100%; white-space: normal; text-align: left; }
+.blaettern .weiter { margin-left: auto; }
+@media (max-width: 700px) { .blaettern .knopf { flex: 1 1 100%; } .blaettern .weiter { margin-left: 0; } }
 .werkzeugzeile { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; padding-bottom: 14px; margin-bottom: 16px; border-bottom: 1px solid var(--color-border); }
 .sprachschalter { display: inline-flex; border: 1px solid var(--color-border-strong); border-radius: var(--radius-klein); overflow: hidden; }
 .sprachschalter button { padding: 6px 12px; border: 0; background: var(--color-surface); cursor: pointer; font-size: .85rem; }

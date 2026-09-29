@@ -2,7 +2,7 @@
 // Jede Fundstelle ist über einen stabilen Deep-Link erreichbar, z. B.
 // #/rw/dora/art/28/abs/4 oder #/rw/dora/eg/47.
 
-import { el, leere, chip, datum, zahl, titel, ton, tabelle, VERBINDLICHKEIT, MODUS, fehlerkarte } from './ui.js';
+import { el, leere, chip, datum, zahl, kurz, titel, ton, tabelle, VERBINDLICHKEIT, MODUS, fehlerkarte } from './ui.js';
 import * as daten from './daten.js';
 import * as nutzer from './nutzer.js';
 
@@ -97,21 +97,24 @@ function wahl(ziel, karten) {
     const vater = karten.eltern.get(ziel.id);
     return { kopf: null, knoten: [vater || ziel] };
   }
-  if (ziel.art === 'kapitel' || ziel.art === 'abschnitt' || ziel.art === 'praeambel') {
+  if (['teil', 'kapitel', 'abschnitt', 'praeambel'].includes(ziel.art)) {
+    const marke = ziel.bez || (ziel.art === 'praeambel' ? '' : `${daten.WORT[ziel.art][0]} ${ziel.nummer || ''}`);
     const kopf = el('div',
-      el('p.kap', ziel.art === 'praeambel' ? '' : daten.WORT[ziel.art][0] + ' ' + (ziel.nummer || '')),
+      el('p.kap', marke.trim()),
       el('h1', { style: 'margin-bottom:18px' }, (ziel.titel && (ziel.titel.de || ziel.titel.en)) || daten.WORT[ziel.art][0]));
     return { kopf, knoten: flachInhalt(ziel) };
   }
   return { kopf: null, knoten: [ziel] };
 }
 
-/** Artikel bzw. Erwägungsgründe unterhalb eines Containers, in Reihenfolge. */
+/** Artikel, Paragrafen bzw. Erwägungsgründe unterhalb eines Containers, in Reihenfolge. */
+const TEXTARTEN = ['artikel', 'paragraf', 'anhang', 'erwaegungsgrund', 'bezugsvermerk'];
+
 function flachInhalt(knoten) {
   const aus = [];
   (function gehe(liste) {
     for (const k of liste) {
-      if (k.art === 'artikel' || k.art === 'erwaegungsgrund' || k.art === 'bezugsvermerk') aus.push(k);
+      if (TEXTARTEN.includes(k.art)) aus.push(k);
       else if (k.kinder) gehe(k.kinder);
     }
   })(knoten.kinder || []);
@@ -124,8 +127,8 @@ function knotenZeichnen(knoten, text, sprache, rwId, karten) {
   const aus = [];
   const bez = daten.bezeichnung(knoten, sprache);
 
-  if (knoten.art === 'artikel') {
-    const kap = kapitelVon(knoten, karten);
+  if (knoten.art === 'artikel' || knoten.art === 'paragraf') {
+    const kap = gliederungVon(knoten, karten);
     if (kap) aus.push(el('p.kap', kapitelBeschriftung(kap, sprache)));
     aus.push(el('h2.artikel', { dataset: { fs: knoten.id } },
       el('span', bez),
@@ -166,15 +169,17 @@ function punkte(liste) {
     el('div', p.t, p.u && p.u.length ? punkte(p.u) : null))));
 }
 
-function kapitelVon(knoten, karten) {
+/** Nächste Gliederungsebene über einer Fundstelle (Kapitel, Abschnitt, Teil). */
+function gliederungVon(knoten, karten) {
   let k = karten.eltern.get(knoten.id);
-  while (k && k.art !== 'kapitel') k = karten.eltern.get(k.id);
+  while (k && !['kapitel', 'abschnitt', 'teil'].includes(k.art)) k = karten.eltern.get(k.id);
   return k;
 }
 
 function kapitelBeschriftung(kap, sprache) {
   const t = kap.titel && (kap.titel[sprache] || kap.titel.de);
-  return `${daten.WORT.kapitel[sprache === 'en' ? 1 : 0]} ${kap.nummer}${t ? ' · ' + t : ''}`;
+  const marke = kap.bez || `${daten.WORT[kap.art][sprache === 'en' ? 1 : 0]} ${kap.nummer || ''}`;
+  return `${marke.trim()}${t ? ' · ' + t : ''}`;
 }
 
 function baumZeichnen(wurzel, struktur, sprache, pfad) {
@@ -211,8 +216,9 @@ function knotenKurz(knoten, sprache) {
   const wort = sprache === 'en' ? (w[1] || w[0]) : w[0];
   const t = knoten.titel && (knoten.titel[sprache] || knoten.titel.de);
   if (knoten.art === 'praeambel') return `${t || wort} (${(knoten.kinder || []).length})`;
-  if (knoten.nummer && t) return `${wort} ${knoten.nummer} · ${t}`;
-  if (knoten.nummer) return `${wort} ${knoten.nummer}`;
+  const kopf = knoten.bez || (knoten.nummer ? `${wort} ${knoten.nummer}` : null);
+  if (kopf && t) return `${kopf} · ${t}`;
+  if (kopf) return kopf;
   return t || wort;
 }
 
@@ -407,17 +413,22 @@ async function fussnotenNachladen(rw) {
 // ----------------------------------------------------------- Übersicht / Rest
 
 function uebersicht(rw, fassung, struktur, sprache, karten) {
-  const artikel = [...karten.nachId.values()].filter((k) => k.art === 'artikel');
-  const eg = [...karten.nachId.values()].filter((k) => k.art === 'erwaegungsgrund');
+  const alle = [...karten.nachId.values()];
+  const paragrafen = alle.filter((k) => k.art === 'paragraf');
+  const artikel = alle.filter((k) => k.art === 'artikel');
+  const eg = alle.filter((k) => k.art === 'erwaegungsgrund');
+  const kern = paragrafen.length
+    ? kennzahl(String(paragrafen.length), 'Paragrafen')
+    : kennzahl(String(artikel.length), 'Artikel');
   return [
     el('div.gitter.drei', { style: 'margin-bottom:20px' },
-      kennzahl(String(artikel.length), 'Artikel'),
-      kennzahl(String(eg.length), 'Erwägungsgründe'),
+      kern,
+      eg.length ? kennzahl(String(eg.length), 'Erwägungsgründe') : null,
       kennzahl(zahl(fassung.fundstellen), 'Fundstellen mit Text')),
     el('h2', 'Inhalt'),
-    tabelle(['Gliederung', 'Artikel'], struktur.knoten.map((k) => [
+    tabelle(['Gliederung', 'Fundstellen'], struktur.knoten.map((k) => [
       el('a', { href: `#/rw/${rw.id}/${k.pfad}` }, knotenKurz(k, sprache)),
-      String(flachInhalt(k).length || (k.art === 'artikel' ? 1 : 0))])),
+      String(flachInhalt(k).length || (TEXTARTEN.includes(k.art) ? 1 : 0))])),
     el('p.unterzeile', { style: 'margin-top:14px' },
       'Links wählt eine Fundstelle; jede hat einen eigenen Deep-Link.'),
   ];
@@ -428,13 +439,22 @@ function kennzahl(wert, beschriftung) {
 }
 
 function blaettern(ziel, karten, rwId, sprache) {
-  const gleiche = [...karten.nachId.values()].filter((k) => k.art === ziel.art || (ziel.art === 'absatz' && k.art === 'artikel'));
-  const bezug = ziel.art === 'absatz' ? karten.eltern.get(ziel.id) : ziel;
-  const i = gleiche.findIndex((k) => k.id === (bezug || ziel).id);
+  // Ein Absatz blaettert in der Ebene seines Artikels bzw. Paragrafen weiter.
+  const bezug = (ziel.art === 'absatz' ? karten.eltern.get(ziel.id) : ziel) || ziel;
+  const gleiche = [...karten.nachId.values()].filter((k) => k.art === bezug.art);
+  const i = gleiche.findIndex((k) => k.id === bezug.id);
   if (i < 0) return null;
-  const zeile = el('div', { style: 'display:flex;gap:10px;margin-top:26px;padding-top:14px;border-top:1px solid var(--color-border)' });
-  if (i > 0) zeile.append(el('a.knopf', { href: `#/rw/${rwId}/${gleiche[i - 1].pfad}` }, '← ' + daten.bezeichnung(gleiche[i - 1], sprache)));
-  if (i < gleiche.length - 1) zeile.append(el('a.knopf', { href: `#/rw/${rwId}/${gleiche[i + 1].pfad}`, style: 'margin-left:auto' }, daten.bezeichnung(gleiche[i + 1], sprache) + ' →'));
+  // Lange Paragrafenueberschriften muessen umbrechen duerfen, sonst zieht der Knopf
+  // die ganze Seite breiter als den Schirm (gemessen: 394 px bei 375 px Fenster).
+  const zeile = el('div.blaettern');
+  if (i > 0) {
+    zeile.append(el('a.knopf', { href: `#/rw/${rwId}/${gleiche[i - 1].pfad}` },
+      '← ' + kurz(daten.bezeichnung(gleiche[i - 1], sprache), 52)));
+  }
+  if (i < gleiche.length - 1) {
+    zeile.append(el('a.knopf.weiter', { href: `#/rw/${rwId}/${gleiche[i + 1].pfad}` },
+      kurz(daten.bezeichnung(gleiche[i + 1], sprache), 52) + ' →'));
+  }
   return zeile;
 }
 

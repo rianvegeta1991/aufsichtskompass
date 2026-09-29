@@ -5,7 +5,7 @@
 // EINZELN gecacht (cache.add statt addAll): sonst legt eine einzige fehlende Datei
 // den ganzen Offline-Betrieb lahm.
 
-const CACHE = 'aufsichtskompass-v2';
+const CACHE = 'aufsichtskompass-v3';
 
 const GERUEST = [
   './',

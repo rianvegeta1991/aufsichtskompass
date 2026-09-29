@@ -13,10 +13,11 @@ amtlich veröffentlichte Fassung.
 - **Regelwerks-Bibliothek** mit 52 Katalogeinträgen – Gesetze, Verordnungen, Rundschreiben,
   Leitlinien, Normen und Frameworks, jeweils mit Typ, Herausgeber, Verbindlichkeit, Status,
   Darstellungsmodus, Tiefe und Prüfstatus.
-- **Originaltext-Viewer** für 15 Regelwerke mit rund 1.900 adressierbaren Fundstellen:
-  DORA (deutsch und englisch), die zwölf Level-2-Rechtsakte (RTS/ITS), NIS2 und DSGVO.
-  Gliederungsbaum, Deep-Link auf jeden Absatz, Glossar aus den Begriffsbestimmungen,
-  Zitat-Export mit Quellenangabe, Lesezeichen und Notizen.
+- **Originaltext-Viewer** für 20 Regelwerke mit rund 3.750 adressierbaren Fundstellen:
+  DORA (deutsch und englisch), die zwölf Level-2-Rechtsakte (RTS/ITS), NIS2, DSGVO sowie
+  VAG, BSIG, BDSG vollständig und HGB und AO als IT-relevanter Auszug.
+  Gliederungsbaum, Deep-Link auf jeden Absatz bzw. Paragrafen, Glossar aus den
+  Begriffsbestimmungen, Zitat-Export mit Quellenangabe, Lesezeichen und Notizen.
 - **Volltextsuche** über alle Fundstellen (BM25, deutsche Stammbildung), clientseitig.
 - **Versionierung**: jede Fassung bleibt unveränderlich liegen, mit SHA-256 je Fundstelle als
   Grundlage der Änderungserkennung.
@@ -52,14 +53,15 @@ Ausschließlich kostenlose, amtliche Quellen ohne Anmeldung:
 |---|---|---|
 | EU-Recht | CELLAR des Amts für Veröffentlichungen (`publications.europa.eu/resource/celex/…`) | Weiterverwendung mit Quellenangabe (Beschluss 2011/833/EU) |
 | Level-2-Rechtsakte | SPARQL-Dienst des Amts für Veröffentlichungen | wie oben |
-| Deutsche Gesetze | gesetze-im-internet.de (in Vorbereitung) | amtliche Werke, § 5 UrhG |
+| Deutsche Gesetze | gesetze-im-internet.de, XML-Fassung je Gesetz (ZIP) | amtliche Werke, § 5 UrhG |
 
 Wo kein Volltext zulässig ist (ISO, COBIT, ITIL, CSA CCM …), stehen eigene Zusammenfassungen –
 in eigenen Worten, mit Bezugsfassung, Herkunft, Prüfstatus und Verweis auf die Bezugsquelle.
 
 ## Stand
 
-Phase 1 (Fundament) und Phase 2 für EU-Recht sind fertig. Offen: Konnektoren für deutsche
-Gesetze und BaFin-Rundschreiben, die eigenen Framework-Zusammenfassungen, Mappings und
-Matrizen, das tägliche Screening und der Lernbereich. Der Ausbaustand steht auch in der App
+Phase 1 (Fundament) und Phase 2 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
+gesetze-im-internet.de. Offen: BaFin-Veröffentlichungen (erst nach Klärung der
+Nutzungsbedingungen), die eigenen Framework-Zusammenfassungen, Mappings und Matrizen,
+das tägliche Screening und der Lernbereich. Der Ausbaustand steht auch in der App
 auf der Startseite.

@@ -1,0 +1,3226 @@
+{
+  "regelwerk": "bdsg",
+  "fassung": "2026-07-13",
+  "abgerufen": "2026-09-29T21:26:30Z",
+  "quelle": {
+    "name": "gesetze-im-internet.de (BDSG 2018)",
+    "url": "https://www.gesetze-im-internet.de/bdsg_2018/",
+    "hinweis": "Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_010",
+      "art": "teil",
+      "nummer": "1",
+      "bez": "Teil 1",
+      "titel": {
+        "de": "Gemeinsame Bestimmungen"
+      },
+      "pfad": "gl/010",
+      "kinder": [
+        {
+          "id": "g_010010",
+          "art": "kapitel",
+          "nummer": "1",
+          "bez": "Kapitel 1",
+          "titel": {
+            "de": "Anwendungsbereich und Begriffsbestimmungen"
+          },
+          "pfad": "gl/010010",
+          "kinder": [
+            {
+              "id": "par_1",
+              "art": "paragraf",
+              "nummer": "1",
+              "bez": "§ 1",
+              "titel": {
+                "de": "Anwendungsbereich des Gesetzes"
+              },
+              "pfad": "par/1",
+              "kinder": [
+                {
+                  "id": "par_1.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/1/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_1.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/1/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_1.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/1/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_1.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/1/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_1.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/1/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_1.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/1/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_1.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/1/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "par_1.8",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "par/1/abs/8",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_2",
+              "art": "paragraf",
+              "nummer": "2",
+              "bez": "§ 2",
+              "titel": {
+                "de": "Begriffsbestimmungen"
+              },
+              "pfad": "par/2",
+              "kinder": [
+                {
+                  "id": "par_2.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/2/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_2.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/2/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_2.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/2/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_2.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/2/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_2.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/2/abs/5",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_010020",
+          "art": "kapitel",
+          "nummer": "2",
+          "bez": "Kapitel 2",
+          "titel": {
+            "de": "Rechtsgrundlagen der Verarbeitung personenbezogener Daten"
+          },
+          "pfad": "gl/010020",
+          "kinder": [
+            {
+              "id": "par_3",
+              "art": "paragraf",
+              "nummer": "3",
+              "bez": "§ 3",
+              "titel": {
+                "de": "Verarbeitung personenbezogener Daten durch öffentliche Stellen"
+              },
+              "pfad": "par/3",
+              "text": true
+            },
+            {
+              "id": "par_4",
+              "art": "paragraf",
+              "nummer": "4",
+              "bez": "§ 4",
+              "titel": {
+                "de": "Videoüberwachung öffentlich zugänglicher Räume"
+              },
+              "pfad": "par/4",
+              "kinder": [
+                {
+                  "id": "par_4.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/4/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_4.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/4/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_4.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/4/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_4.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/4/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_4.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/4/abs/5",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_010030",
+          "art": "kapitel",
+          "nummer": "3",
+          "bez": "Kapitel 3",
+          "titel": {
+            "de": "Datenschutzbeauftragte öffentlicher Stellen"
+          },
+          "pfad": "gl/010030",
+          "kinder": [
+            {
+              "id": "par_5",
+              "art": "paragraf",
+              "nummer": "5",
+              "bez": "§ 5",
+              "titel": {
+                "de": "Benennung"
+              },
+              "pfad": "par/5",
+              "kinder": [
+                {
+                  "id": "par_5.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/5/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_5.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/5/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_5.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/5/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_5.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/5/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_5.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/5/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_6",
+              "art": "paragraf",
+              "nummer": "6",
+              "bez": "§ 6",
+              "titel": {
+                "de": "Stellung"
+              },
+              "pfad": "par/6",
+              "kinder": [
+                {
+                  "id": "par_6.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/6/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_6.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/6/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_6.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/6/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_6.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/6/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_6.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/6/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_6.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/6/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_7",
+              "art": "paragraf",
+              "nummer": "7",
+              "bez": "§ 7",
+              "titel": {
+                "de": "Aufgaben"
+              },
+              "pfad": "par/7",
+              "kinder": [
+                {
+                  "id": "par_7.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/7/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_7.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/7/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_7.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/7/abs/3",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_010040",
+          "art": "kapitel",
+          "nummer": "4",
+          "bez": "Kapitel 4",
+          "titel": {
+            "de": "Die oder der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit"
+          },
+          "pfad": "gl/010040",
+          "kinder": [
+            {
+              "id": "par_8",
+              "art": "paragraf",
+              "nummer": "8",
+              "bez": "§ 8",
+              "titel": {
+                "de": "Errichtung"
+              },
+              "pfad": "par/8",
+              "kinder": [
+                {
+                  "id": "par_8.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/8/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_8.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/8/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_8.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/8/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_9",
+              "art": "paragraf",
+              "nummer": "9",
+              "bez": "§ 9",
+              "titel": {
+                "de": "Zuständigkeit"
+              },
+              "pfad": "par/9",
+              "kinder": [
+                {
+                  "id": "par_9.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/9/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_9.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/9/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_10",
+              "art": "paragraf",
+              "nummer": "10",
+              "bez": "§ 10",
+              "titel": {
+                "de": "Unabhängigkeit"
+              },
+              "pfad": "par/10",
+              "kinder": [
+                {
+                  "id": "par_10.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/10/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_10.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/10/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_11",
+              "art": "paragraf",
+              "nummer": "11",
+              "bez": "§ 11",
+              "titel": {
+                "de": "Ernennung und Amtszeit"
+              },
+              "pfad": "par/11",
+              "kinder": [
+                {
+                  "id": "par_11.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/11/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_11.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/11/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_11.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/11/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_12",
+              "art": "paragraf",
+              "nummer": "12",
+              "bez": "§ 12",
+              "titel": {
+                "de": "Amtsverhältnis"
+              },
+              "pfad": "par/12",
+              "kinder": [
+                {
+                  "id": "par_12.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/12/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_12.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/12/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_12.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/12/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_12.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/12/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_13",
+              "art": "paragraf",
+              "nummer": "13",
+              "bez": "§ 13",
+              "titel": {
+                "de": "Rechte und Pflichten"
+              },
+              "pfad": "par/13",
+              "kinder": [
+                {
+                  "id": "par_13.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/13/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_13.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/13/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_13.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/13/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_13.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/13/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_13.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/13/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_13.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/13/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_14",
+              "art": "paragraf",
+              "nummer": "14",
+              "bez": "§ 14",
+              "titel": {
+                "de": "Aufgaben"
+              },
+              "pfad": "par/14",
+              "kinder": [
+                {
+                  "id": "par_14.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/14/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_14.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/14/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_14.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/14/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_14.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/14/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_15",
+              "art": "paragraf",
+              "nummer": "15",
+              "bez": "§ 15",
+              "titel": {
+                "de": "Tätigkeitsbericht"
+              },
+              "pfad": "par/15",
+              "text": true
+            },
+            {
+              "id": "par_16",
+              "art": "paragraf",
+              "nummer": "16",
+              "bez": "§ 16",
+              "titel": {
+                "de": "Befugnisse"
+              },
+              "pfad": "par/16",
+              "kinder": [
+                {
+                  "id": "par_16.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/16/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_16.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/16/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_16.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/16/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_16.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/16/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_16.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/16/abs/5",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_010050",
+          "art": "kapitel",
+          "nummer": "5",
+          "bez": "Kapitel 5",
+          "titel": {
+            "de": "Vertretung im Europäischen Datenschutzausschuss, zentrale Anlaufstelle, Zusammenarbeit der Aufsichtsbehörden des Bundes und der Länder in Angelegenheiten der Europäischen Union"
+          },
+          "pfad": "gl/010050",
+          "kinder": [
+            {
+              "id": "par_17",
+              "art": "paragraf",
+              "nummer": "17",
+              "bez": "§ 17",
+              "titel": {
+                "de": "Vertretung im Europäischen Datenschutzausschuss, zentrale Anlaufstelle"
+              },
+              "pfad": "par/17",
+              "kinder": [
+                {
+                  "id": "par_17.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/17/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_17.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/17/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_18",
+              "art": "paragraf",
+              "nummer": "18",
+              "bez": "§ 18",
+              "titel": {
+                "de": "Verfahren der Zusammenarbeit der Aufsichtsbehörden des Bundes und der Länder"
+              },
+              "pfad": "par/18",
+              "kinder": [
+                {
+                  "id": "par_18.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/18/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_18.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/18/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_18.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/18/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_19",
+              "art": "paragraf",
+              "nummer": "19",
+              "bez": "§ 19",
+              "titel": {
+                "de": "Zuständigkeiten"
+              },
+              "pfad": "par/19",
+              "kinder": [
+                {
+                  "id": "par_19.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/19/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_19.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/19/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_010060",
+          "art": "kapitel",
+          "nummer": "6",
+          "bez": "Kapitel 6",
+          "titel": {
+            "de": "Rechtsbehelfe"
+          },
+          "pfad": "gl/010060",
+          "kinder": [
+            {
+              "id": "par_20",
+              "art": "paragraf",
+              "nummer": "20",
+              "bez": "§ 20",
+              "titel": {
+                "de": "Gerichtlicher Rechtsschutz"
+              },
+              "pfad": "par/20",
+              "kinder": [
+                {
+                  "id": "par_20.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/20/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_20.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/20/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_20.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/20/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_20.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/20/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_20.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/20/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_20.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/20/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_20.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/20/abs/7",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_21",
+              "art": "paragraf",
+              "nummer": "21",
+              "bez": "§ 21",
+              "titel": {
+                "de": "Antrag der Aufsichtsbehörde auf gerichtliche Entscheidung bei angenommener Rechtswidrigkeit eines Beschlusses der Europäischen Kommission"
+              },
+              "pfad": "par/21",
+              "kinder": [
+                {
+                  "id": "par_21.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/21/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_21.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/21/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_21.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/21/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_21.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/21/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_21.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/21/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_21.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/21/abs/6",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g_020",
+      "art": "teil",
+      "nummer": "2",
+      "bez": "Teil 2",
+      "titel": {
+        "de": "Durchführungsbestimmungen für Verarbeitungen zu Zwecken gemäß Artikel 2 der Verordnung (EU) 2016/679"
+      },
+      "pfad": "gl/020",
+      "kinder": [
+        {
+          "id": "g_020010",
+          "art": "kapitel",
+          "nummer": "1",
+          "bez": "Kapitel 1",
+          "titel": {
+            "de": "Rechtsgrundlagen der Verarbeitung personenbezogener Daten"
+          },
+          "pfad": "gl/020010",
+          "kinder": [
+            {
+              "id": "g_020010010",
+              "art": "abschnitt",
+              "nummer": "1",
+              "bez": "Abschnitt 1",
+              "titel": {
+                "de": "Verarbeitung besonderer Kategorien personenbezogener Daten und Verarbeitung zu anderen Zwecken"
+              },
+              "pfad": "gl/020010010",
+              "kinder": [
+                {
+                  "id": "par_22",
+                  "art": "paragraf",
+                  "nummer": "22",
+                  "bez": "§ 22",
+                  "titel": {
+                    "de": "Verarbeitung besonderer Kategorien personenbezogener Daten"
+                  },
+                  "pfad": "par/22",
+                  "kinder": [
+                    {
+                      "id": "par_22.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/22/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_22.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/22/abs/2",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_23",
+                  "art": "paragraf",
+                  "nummer": "23",
+                  "bez": "§ 23",
+                  "titel": {
+                    "de": "Verarbeitung zu anderen Zwecken durch öffentliche Stellen"
+                  },
+                  "pfad": "par/23",
+                  "kinder": [
+                    {
+                      "id": "par_23.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/23/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_23.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/23/abs/2",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_24",
+                  "art": "paragraf",
+                  "nummer": "24",
+                  "bez": "§ 24",
+                  "titel": {
+                    "de": "Verarbeitung zu anderen Zwecken durch nichtöffentliche Stellen"
+                  },
+                  "pfad": "par/24",
+                  "kinder": [
+                    {
+                      "id": "par_24.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/24/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_24.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/24/abs/2",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_25",
+                  "art": "paragraf",
+                  "nummer": "25",
+                  "bez": "§ 25",
+                  "titel": {
+                    "de": "Datenübermittlungen durch öffentliche Stellen"
+                  },
+                  "pfad": "par/25",
+                  "kinder": [
+                    {
+                      "id": "par_25.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/25/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_25.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/25/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_25.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/25/abs/3",
+                      "text": true
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "g_020010020",
+              "art": "abschnitt",
+              "nummer": "2",
+              "bez": "Abschnitt 2",
+              "titel": {
+                "de": "Besondere Verarbeitungssituationen"
+              },
+              "pfad": "gl/020010020",
+              "kinder": [
+                {
+                  "id": "par_26",
+                  "art": "paragraf",
+                  "nummer": "26",
+                  "bez": "§ 26",
+                  "titel": {
+                    "de": "Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses"
+                  },
+                  "pfad": "par/26",
+                  "kinder": [
+                    {
+                      "id": "par_26.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/26/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_26.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/26/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_26.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/26/abs/3",
+                      "text": true
+                    },
+                    {
+                      "id": "par_26.4",
+                      "art": "absatz",
+                      "nummer": "4",
+                      "pfad": "par/26/abs/4",
+                      "text": true
+                    },
+                    {
+                      "id": "par_26.5",
+                      "art": "absatz",
+                      "nummer": "5",
+                      "pfad": "par/26/abs/5",
+                      "text": true
+                    },
+                    {
+                      "id": "par_26.6",
+                      "art": "absatz",
+                      "nummer": "6",
+                      "pfad": "par/26/abs/6",
+                      "text": true
+                    },
+                    {
+                      "id": "par_26.7",
+                      "art": "absatz",
+                      "nummer": "7",
+                      "pfad": "par/26/abs/7",
+                      "text": true
+                    },
+                    {
+                      "id": "par_26.8",
+                      "art": "absatz",
+                      "nummer": "8",
+                      "pfad": "par/26/abs/8",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_27",
+                  "art": "paragraf",
+                  "nummer": "27",
+                  "bez": "§ 27",
+                  "titel": {
+                    "de": "Datenverarbeitung zu wissenschaftlichen oder historischen Forschungszwecken und zu statistischen Zwecken"
+                  },
+                  "pfad": "par/27",
+                  "kinder": [
+                    {
+                      "id": "par_27.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/27/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_27.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/27/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_27.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/27/abs/3",
+                      "text": true
+                    },
+                    {
+                      "id": "par_27.4",
+                      "art": "absatz",
+                      "nummer": "4",
+                      "pfad": "par/27/abs/4",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_28",
+                  "art": "paragraf",
+                  "nummer": "28",
+                  "bez": "§ 28",
+                  "titel": {
+                    "de": "Datenverarbeitung zu im öffentlichen Interesse liegenden Archivzwecken"
+                  },
+                  "pfad": "par/28",
+                  "kinder": [
+                    {
+                      "id": "par_28.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/28/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_28.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/28/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_28.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/28/abs/3",
+                      "text": true
+                    },
+                    {
+                      "id": "par_28.4",
+                      "art": "absatz",
+                      "nummer": "4",
+                      "pfad": "par/28/abs/4",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_29",
+                  "art": "paragraf",
+                  "nummer": "29",
+                  "bez": "§ 29",
+                  "titel": {
+                    "de": "Rechte der betroffenen Person und aufsichtsbehördliche Befugnisse im Fall von Geheimhaltungspflichten"
+                  },
+                  "pfad": "par/29",
+                  "kinder": [
+                    {
+                      "id": "par_29.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/29/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_29.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/29/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_29.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/29/abs/3",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_30",
+                  "art": "paragraf",
+                  "nummer": "30",
+                  "bez": "§ 30",
+                  "titel": {
+                    "de": "Verbraucherkredite"
+                  },
+                  "pfad": "par/30",
+                  "kinder": [
+                    {
+                      "id": "par_30.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/30/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_30.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/30/abs/2",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_31",
+                  "art": "paragraf",
+                  "nummer": "31",
+                  "bez": "§ 31",
+                  "titel": {
+                    "de": "Schutz des Wirtschaftsverkehrs bei Scoring und Bonitätsauskünften"
+                  },
+                  "pfad": "par/31",
+                  "kinder": [
+                    {
+                      "id": "par_31.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/31/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_31.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/31/abs/2",
+                      "text": true
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_020020",
+          "art": "kapitel",
+          "nummer": "2",
+          "bez": "Kapitel 2",
+          "titel": {
+            "de": "Rechte der betroffenen Person"
+          },
+          "pfad": "gl/020020",
+          "kinder": [
+            {
+              "id": "par_32",
+              "art": "paragraf",
+              "nummer": "32",
+              "bez": "§ 32",
+              "titel": {
+                "de": "Informationspflicht bei Erhebung von personenbezogenen Daten bei der betroffenen Person"
+              },
+              "pfad": "par/32",
+              "kinder": [
+                {
+                  "id": "par_32.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/32/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_32.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/32/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_32.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/32/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_33",
+              "art": "paragraf",
+              "nummer": "33",
+              "bez": "§ 33",
+              "titel": {
+                "de": "Informationspflicht, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben wurden"
+              },
+              "pfad": "par/33",
+              "kinder": [
+                {
+                  "id": "par_33.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/33/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_33.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/33/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_33.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/33/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_34",
+              "art": "paragraf",
+              "nummer": "34",
+              "bez": "§ 34",
+              "titel": {
+                "de": "Auskunftsrecht der betroffenen Person"
+              },
+              "pfad": "par/34",
+              "kinder": [
+                {
+                  "id": "par_34.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/34/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_34.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/34/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_34.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/34/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_34.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/34/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_35",
+              "art": "paragraf",
+              "nummer": "35",
+              "bez": "§ 35",
+              "titel": {
+                "de": "Recht auf Löschung"
+              },
+              "pfad": "par/35",
+              "kinder": [
+                {
+                  "id": "par_35.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/35/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_35.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/35/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_35.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/35/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_36",
+              "art": "paragraf",
+              "nummer": "36",
+              "bez": "§ 36",
+              "titel": {
+                "de": "Widerspruchsrecht"
+              },
+              "pfad": "par/36",
+              "text": true
+            },
+            {
+              "id": "par_37",
+              "art": "paragraf",
+              "nummer": "37",
+              "bez": "§ 37",
+              "titel": {
+                "de": "Automatisierte Entscheidungen im Einzelfall einschließlich Profiling"
+              },
+              "pfad": "par/37",
+              "kinder": [
+                {
+                  "id": "par_37.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/37/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_37.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/37/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_020030",
+          "art": "kapitel",
+          "nummer": "3",
+          "bez": "Kapitel 3",
+          "titel": {
+            "de": "Pflichten der Verantwortlichen und Auftragsverarbeiter"
+          },
+          "pfad": "gl/020030",
+          "kinder": [
+            {
+              "id": "par_38",
+              "art": "paragraf",
+              "nummer": "38",
+              "bez": "§ 38",
+              "titel": {
+                "de": "Datenschutzbeauftragte nichtöffentlicher Stellen"
+              },
+              "pfad": "par/38",
+              "kinder": [
+                {
+                  "id": "par_38.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/38/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_38.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/38/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_39",
+              "art": "paragraf",
+              "nummer": "39",
+              "bez": "§ 39",
+              "titel": {
+                "de": "Akkreditierung"
+              },
+              "pfad": "par/39",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "g_020040",
+          "art": "kapitel",
+          "nummer": "4",
+          "bez": "Kapitel 4",
+          "titel": {
+            "de": "Aufsichtsbehörde für die Datenverarbeitung durch nichtöffentliche Stellen"
+          },
+          "pfad": "gl/020040",
+          "kinder": [
+            {
+              "id": "par_40",
+              "art": "paragraf",
+              "nummer": "40",
+              "bez": "§ 40",
+              "titel": {
+                "de": "Aufsichtsbehörden der Länder"
+              },
+              "pfad": "par/40",
+              "kinder": [
+                {
+                  "id": "par_40.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/40/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_40.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/40/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_40.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/40/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_40.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/40/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_40.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/40/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_40.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/40/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_40.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/40/abs/7",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_020050",
+          "art": "kapitel",
+          "nummer": "5",
+          "bez": "Kapitel 5",
+          "titel": {
+            "de": "Sanktionen"
+          },
+          "pfad": "gl/020050",
+          "kinder": [
+            {
+              "id": "par_41",
+              "art": "paragraf",
+              "nummer": "41",
+              "bez": "§ 41",
+              "titel": {
+                "de": "Anwendung der Vorschriften über das Bußgeld- und Strafverfahren"
+              },
+              "pfad": "par/41",
+              "kinder": [
+                {
+                  "id": "par_41.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/41/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_41.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/41/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_42",
+              "art": "paragraf",
+              "nummer": "42",
+              "bez": "§ 42",
+              "titel": {
+                "de": "Strafvorschriften"
+              },
+              "pfad": "par/42",
+              "kinder": [
+                {
+                  "id": "par_42.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/42/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_42.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/42/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_42.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/42/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_42.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/42/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_43",
+              "art": "paragraf",
+              "nummer": "43",
+              "bez": "§ 43",
+              "titel": {
+                "de": "Bußgeldvorschriften"
+              },
+              "pfad": "par/43",
+              "kinder": [
+                {
+                  "id": "par_43.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/43/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_43.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/43/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_43.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/43/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_43.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/43/abs/4",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_020060",
+          "art": "kapitel",
+          "nummer": "6",
+          "bez": "Kapitel 6",
+          "titel": {
+            "de": "Rechtsbehelfe"
+          },
+          "pfad": "gl/020060",
+          "kinder": [
+            {
+              "id": "par_44",
+              "art": "paragraf",
+              "nummer": "44",
+              "bez": "§ 44",
+              "titel": {
+                "de": "Klagen gegen den Verantwortlichen oder Auftragsverarbeiter"
+              },
+              "pfad": "par/44",
+              "kinder": [
+                {
+                  "id": "par_44.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/44/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_44.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/44/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_44.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/44/abs/3",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g_030",
+      "art": "teil",
+      "nummer": "3",
+      "bez": "Teil 3",
+      "titel": {
+        "de": "Bestimmungen für Verarbeitungen zu Zwecken gemäß Artikel 1 Absatz 1 der Richtlinie (EU) 2016/680"
+      },
+      "pfad": "gl/030",
+      "kinder": [
+        {
+          "id": "g_030010",
+          "art": "kapitel",
+          "nummer": "1",
+          "bez": "Kapitel 1",
+          "titel": {
+            "de": "Anwendungsbereich, Begriffsbestimmungen und allgemeine Grundsätze für die Verarbeitung personenbezogener Daten"
+          },
+          "pfad": "gl/030010",
+          "kinder": [
+            {
+              "id": "par_45",
+              "art": "paragraf",
+              "nummer": "45",
+              "bez": "§ 45",
+              "titel": {
+                "de": "Anwendungsbereich"
+              },
+              "pfad": "par/45",
+              "text": true
+            },
+            {
+              "id": "par_46",
+              "art": "paragraf",
+              "nummer": "46",
+              "bez": "§ 46",
+              "titel": {
+                "de": "Begriffsbestimmungen"
+              },
+              "pfad": "par/46",
+              "text": true
+            },
+            {
+              "id": "par_47",
+              "art": "paragraf",
+              "nummer": "47",
+              "bez": "§ 47",
+              "titel": {
+                "de": "Allgemeine Grundsätze für die Verarbeitung personenbezogener Daten"
+              },
+              "pfad": "par/47",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "g_030020",
+          "art": "kapitel",
+          "nummer": "2",
+          "bez": "Kapitel 2",
+          "titel": {
+            "de": "Rechtsgrundlagen der Verarbeitung personenbezogener Daten"
+          },
+          "pfad": "gl/030020",
+          "kinder": [
+            {
+              "id": "par_48",
+              "art": "paragraf",
+              "nummer": "48",
+              "bez": "§ 48",
+              "titel": {
+                "de": "Verarbeitung besonderer Kategorien personenbezogener Daten"
+              },
+              "pfad": "par/48",
+              "kinder": [
+                {
+                  "id": "par_48.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/48/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_48.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/48/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_49",
+              "art": "paragraf",
+              "nummer": "49",
+              "bez": "§ 49",
+              "titel": {
+                "de": "Verarbeitung zu anderen Zwecken"
+              },
+              "pfad": "par/49",
+              "text": true
+            },
+            {
+              "id": "par_50",
+              "art": "paragraf",
+              "nummer": "50",
+              "bez": "§ 50",
+              "titel": {
+                "de": "Verarbeitung zu archivarischen, wissenschaftlichen und statistischen Zwecken"
+              },
+              "pfad": "par/50",
+              "text": true
+            },
+            {
+              "id": "par_51",
+              "art": "paragraf",
+              "nummer": "51",
+              "bez": "§ 51",
+              "titel": {
+                "de": "Einwilligung"
+              },
+              "pfad": "par/51",
+              "kinder": [
+                {
+                  "id": "par_51.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/51/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_51.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/51/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_51.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/51/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_51.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/51/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_51.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/51/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_52",
+              "art": "paragraf",
+              "nummer": "52",
+              "bez": "§ 52",
+              "titel": {
+                "de": "Verarbeitung auf Weisung des Verantwortlichen"
+              },
+              "pfad": "par/52",
+              "text": true
+            },
+            {
+              "id": "par_53",
+              "art": "paragraf",
+              "nummer": "53",
+              "bez": "§ 53",
+              "titel": {
+                "de": "Datengeheimnis"
+              },
+              "pfad": "par/53",
+              "text": true
+            },
+            {
+              "id": "par_54",
+              "art": "paragraf",
+              "nummer": "54",
+              "bez": "§ 54",
+              "titel": {
+                "de": "Automatisierte Einzelentscheidung"
+              },
+              "pfad": "par/54",
+              "kinder": [
+                {
+                  "id": "par_54.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/54/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_54.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/54/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_54.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/54/abs/3",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_030030",
+          "art": "kapitel",
+          "nummer": "3",
+          "bez": "Kapitel 3",
+          "titel": {
+            "de": "Rechte der betroffenen Person"
+          },
+          "pfad": "gl/030030",
+          "kinder": [
+            {
+              "id": "par_55",
+              "art": "paragraf",
+              "nummer": "55",
+              "bez": "§ 55",
+              "titel": {
+                "de": "Allgemeine Informationen zu Datenverarbeitungen"
+              },
+              "pfad": "par/55",
+              "text": true
+            },
+            {
+              "id": "par_56",
+              "art": "paragraf",
+              "nummer": "56",
+              "bez": "§ 56",
+              "titel": {
+                "de": "Benachrichtigung betroffener Personen"
+              },
+              "pfad": "par/56",
+              "kinder": [
+                {
+                  "id": "par_56.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/56/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_56.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/56/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_56.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/56/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_56.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/56/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_57",
+              "art": "paragraf",
+              "nummer": "57",
+              "bez": "§ 57",
+              "titel": {
+                "de": "Auskunftsrecht"
+              },
+              "pfad": "par/57",
+              "kinder": [
+                {
+                  "id": "par_57.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/57/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_57.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/57/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_57.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/57/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_57.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/57/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_57.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/57/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_57.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/57/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_57.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/57/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "par_57.8",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "par/57/abs/8",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_58",
+              "art": "paragraf",
+              "nummer": "58",
+              "bez": "§ 58",
+              "titel": {
+                "de": "Rechte auf Berichtigung und Löschung sowie Einschränkung der Verarbeitung"
+              },
+              "pfad": "par/58",
+              "kinder": [
+                {
+                  "id": "par_58.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/58/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_58.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/58/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_58.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/58/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_58.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/58/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_58.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/58/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_58.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/58/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_58.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/58/abs/7",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_59",
+              "art": "paragraf",
+              "nummer": "59",
+              "bez": "§ 59",
+              "titel": {
+                "de": "Verfahren für die Ausübung der Rechte der betroffenen Person"
+              },
+              "pfad": "par/59",
+              "kinder": [
+                {
+                  "id": "par_59.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/59/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_59.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/59/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_59.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/59/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_59.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/59/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_60",
+              "art": "paragraf",
+              "nummer": "60",
+              "bez": "§ 60",
+              "titel": {
+                "de": "Anrufung der oder des Bundesbeauftragten"
+              },
+              "pfad": "par/60",
+              "kinder": [
+                {
+                  "id": "par_60.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/60/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_60.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/60/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_61",
+              "art": "paragraf",
+              "nummer": "61",
+              "bez": "§ 61",
+              "titel": {
+                "de": "Rechtsschutz gegen Entscheidungen der oder des Bundesbeauftragten oder bei deren oder dessen Untätigkeit"
+              },
+              "pfad": "par/61",
+              "kinder": [
+                {
+                  "id": "par_61.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/61/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_61.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/61/abs/2",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_030040",
+          "art": "kapitel",
+          "nummer": "4",
+          "bez": "Kapitel 4",
+          "titel": {
+            "de": "Pflichten der Verantwortlichen und Auftragsverarbeiter"
+          },
+          "pfad": "gl/030040",
+          "kinder": [
+            {
+              "id": "par_62",
+              "art": "paragraf",
+              "nummer": "62",
+              "bez": "§ 62",
+              "titel": {
+                "de": "Auftragsverarbeitung"
+              },
+              "pfad": "par/62",
+              "kinder": [
+                {
+                  "id": "par_62.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/62/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_62.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/62/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_62.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/62/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_62.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/62/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_62.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/62/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_62.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/62/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_62.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/62/abs/7",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_63",
+              "art": "paragraf",
+              "nummer": "63",
+              "bez": "§ 63",
+              "titel": {
+                "de": "Gemeinsam Verantwortliche"
+              },
+              "pfad": "par/63",
+              "text": true
+            },
+            {
+              "id": "par_64",
+              "art": "paragraf",
+              "nummer": "64",
+              "bez": "§ 64",
+              "titel": {
+                "de": "Anforderungen an die Sicherheit der Datenverarbeitung"
+              },
+              "pfad": "par/64",
+              "kinder": [
+                {
+                  "id": "par_64.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/64/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_64.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/64/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_64.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/64/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_65",
+              "art": "paragraf",
+              "nummer": "65",
+              "bez": "§ 65",
+              "titel": {
+                "de": "Meldung von Verletzungen des Schutzes personenbezogener Daten an die oder den Bundesbeauftragten"
+              },
+              "pfad": "par/65",
+              "kinder": [
+                {
+                  "id": "par_65.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/65/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_65.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/65/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_65.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/65/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_65.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/65/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_65.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/65/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_65.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/65/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_65.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/65/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "par_65.8",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "par/65/abs/8",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_66",
+              "art": "paragraf",
+              "nummer": "66",
+              "bez": "§ 66",
+              "titel": {
+                "de": "Benachrichtigung betroffener Personen bei Verletzungen des Schutzes personenbezogener Daten"
+              },
+              "pfad": "par/66",
+              "kinder": [
+                {
+                  "id": "par_66.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/66/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_66.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/66/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_66.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/66/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_66.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/66/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_66.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/66/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_66.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/66/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_67",
+              "art": "paragraf",
+              "nummer": "67",
+              "bez": "§ 67",
+              "titel": {
+                "de": "Durchführung einer Datenschutz-Folgenabschätzung"
+              },
+              "pfad": "par/67",
+              "kinder": [
+                {
+                  "id": "par_67.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/67/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_67.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/67/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_67.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/67/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_67.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/67/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_67.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/67/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_68",
+              "art": "paragraf",
+              "nummer": "68",
+              "bez": "§ 68",
+              "titel": {
+                "de": "Zusammenarbeit mit der oder dem Bundesbeauftragten"
+              },
+              "pfad": "par/68",
+              "text": true
+            },
+            {
+              "id": "par_69",
+              "art": "paragraf",
+              "nummer": "69",
+              "bez": "§ 69",
+              "titel": {
+                "de": "Anhörung der oder des Bundesbeauftragten"
+              },
+              "pfad": "par/69",
+              "kinder": [
+                {
+                  "id": "par_69.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/69/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_69.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/69/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_69.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/69/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_69.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/69/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_70",
+              "art": "paragraf",
+              "nummer": "70",
+              "bez": "§ 70",
+              "titel": {
+                "de": "Verzeichnis von Verarbeitungstätigkeiten"
+              },
+              "pfad": "par/70",
+              "kinder": [
+                {
+                  "id": "par_70.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/70/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_70.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/70/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_70.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/70/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_70.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/70/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_71",
+              "art": "paragraf",
+              "nummer": "71",
+              "bez": "§ 71",
+              "titel": {
+                "de": "Datenschutz durch Technikgestaltung und datenschutzfreundliche Voreinstellungen"
+              },
+              "pfad": "par/71",
+              "kinder": [
+                {
+                  "id": "par_71.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/71/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_71.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/71/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_72",
+              "art": "paragraf",
+              "nummer": "72",
+              "bez": "§ 72",
+              "titel": {
+                "de": "Unterscheidung zwischen verschiedenen Kategorien betroffener Personen"
+              },
+              "pfad": "par/72",
+              "text": true
+            },
+            {
+              "id": "par_73",
+              "art": "paragraf",
+              "nummer": "73",
+              "bez": "§ 73",
+              "titel": {
+                "de": "Unterscheidung zwischen Tatsachen und persönlichen Einschätzungen"
+              },
+              "pfad": "par/73",
+              "text": true
+            },
+            {
+              "id": "par_74",
+              "art": "paragraf",
+              "nummer": "74",
+              "bez": "§ 74",
+              "titel": {
+                "de": "Verfahren bei Übermittlungen"
+              },
+              "pfad": "par/74",
+              "kinder": [
+                {
+                  "id": "par_74.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/74/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_74.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/74/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_74.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/74/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_75",
+              "art": "paragraf",
+              "nummer": "75",
+              "bez": "§ 75",
+              "titel": {
+                "de": "Berichtigung und Löschung personenbezogener Daten sowie Einschränkung der Verarbeitung"
+              },
+              "pfad": "par/75",
+              "kinder": [
+                {
+                  "id": "par_75.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/75/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_75.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/75/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_75.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/75/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_75.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/75/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_76",
+              "art": "paragraf",
+              "nummer": "76",
+              "bez": "§ 76",
+              "titel": {
+                "de": "Protokollierung"
+              },
+              "pfad": "par/76",
+              "kinder": [
+                {
+                  "id": "par_76.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/76/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_76.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/76/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_76.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/76/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_76.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/76/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_76.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/76/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_77",
+              "art": "paragraf",
+              "nummer": "77",
+              "bez": "§ 77",
+              "titel": {
+                "de": "Vertrauliche Meldung von Verstößen"
+              },
+              "pfad": "par/77",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "g_030050",
+          "art": "kapitel",
+          "nummer": "5",
+          "bez": "Kapitel 5",
+          "titel": {
+            "de": "Datenübermittlungen an Drittstaaten und an internationale Organisationen"
+          },
+          "pfad": "gl/030050",
+          "kinder": [
+            {
+              "id": "par_78",
+              "art": "paragraf",
+              "nummer": "78",
+              "bez": "§ 78",
+              "titel": {
+                "de": "Allgemeine Voraussetzungen"
+              },
+              "pfad": "par/78",
+              "kinder": [
+                {
+                  "id": "par_78.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/78/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_78.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/78/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_78.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/78/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_78.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/78/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_79",
+              "art": "paragraf",
+              "nummer": "79",
+              "bez": "§ 79",
+              "titel": {
+                "de": "Datenübermittlung bei geeigneten Garantien"
+              },
+              "pfad": "par/79",
+              "kinder": [
+                {
+                  "id": "par_79.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/79/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_79.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/79/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_79.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/79/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_80",
+              "art": "paragraf",
+              "nummer": "80",
+              "bez": "§ 80",
+              "titel": {
+                "de": "Datenübermittlung ohne geeignete Garantien"
+              },
+              "pfad": "par/80",
+              "kinder": [
+                {
+                  "id": "par_80.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/80/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_80.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/80/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_80.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/80/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_81",
+              "art": "paragraf",
+              "nummer": "81",
+              "bez": "§ 81",
+              "titel": {
+                "de": "Sonstige Datenübermittlung an Empfänger in Drittstaaten"
+              },
+              "pfad": "par/81",
+              "kinder": [
+                {
+                  "id": "par_81.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/81/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_81.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/81/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_81.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/81/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_81.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/81/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_81.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/81/abs/5",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_030060",
+          "art": "kapitel",
+          "nummer": "6",
+          "bez": "Kapitel 6",
+          "titel": {
+            "de": "Zusammenarbeit der Aufsichtsbehörden"
+          },
+          "pfad": "gl/030060",
+          "kinder": [
+            {
+              "id": "par_82",
+              "art": "paragraf",
+              "nummer": "82",
+              "bez": "§ 82",
+              "titel": {
+                "de": "Gegenseitige Amtshilfe"
+              },
+              "pfad": "par/82",
+              "kinder": [
+                {
+                  "id": "par_82.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/82/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_82.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/82/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_82.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/82/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_82.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/82/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_82.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/82/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_82.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/82/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_82.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/82/abs/7",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_030070",
+          "art": "kapitel",
+          "nummer": "7",
+          "bez": "Kapitel 7",
+          "titel": {
+            "de": "Haftung und Sanktionen"
+          },
+          "pfad": "gl/030070",
+          "kinder": [
+            {
+              "id": "par_83",
+              "art": "paragraf",
+              "nummer": "83",
+              "bez": "§ 83",
+              "titel": {
+                "de": "Schadensersatz und Entschädigung"
+              },
+              "pfad": "par/83",
+              "kinder": [
+                {
+                  "id": "par_83.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/83/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_83.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/83/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_83.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/83/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_83.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/83/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_83.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/83/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_84",
+              "art": "paragraf",
+              "nummer": "84",
+              "bez": "§ 84",
+              "titel": {
+                "de": "Strafvorschriften"
+              },
+              "pfad": "par/84",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g_040",
+      "art": "teil",
+      "nummer": "4",
+      "bez": "Teil 4",
+      "titel": {
+        "de": "Besondere Bestimmungen für Verarbeitungen im Rahmen von nicht in die Anwendungsbereiche der Verordnung (EU) 2016/679 und der Richtlinie (EU) 2016/680 fallenden Tätigkeiten"
+      },
+      "pfad": "gl/040",
+      "kinder": [
+        {
+          "id": "par_85",
+          "art": "paragraf",
+          "nummer": "85",
+          "bez": "§ 85",
+          "titel": {
+            "de": "Verarbeitung personenbezogener Daten im Rahmen von nicht in die Anwendungs- bereiche der Verordnung (EU) 2016/679 und der Richtlinie (EU) 2016/680 fallenden Tätigkeiten"
+          },
+          "pfad": "par/85",
+          "kinder": [
+            {
+              "id": "par_85.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/85/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_85.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/85/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_85.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/85/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "par_86",
+          "art": "paragraf",
+          "nummer": "86",
+          "bez": "§ 86",
+          "titel": {
+            "de": "Verarbeitung personenbezogener Daten für Zwecke staatlicher Auszeichnungen und Ehrungen"
+          },
+          "pfad": "par/86",
+          "kinder": [
+            {
+              "id": "par_86.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/86/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_86.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/86/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_86.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/86/abs/3",
+              "text": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

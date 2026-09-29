@@ -1,11 +1,68 @@
 {
-  "gebaut": "2026-09-27T10:10:29Z",
+  "gebaut": "2026-09-29T21:26:31Z",
   "bestand": {
+    "ao": {
+      "fassung": {
+        "id": "2026-08-31",
+        "stand": "Mon, 31 Aug 2026 19:55:08 GMT",
+        "abgerufen": "2026-09-29T21:26:31Z",
+        "quelle": {
+          "name": "gesetze-im-internet.de (AO 1977)",
+          "url": "https://www.gesetze-im-internet.de/ao_1977/",
+          "hinweis": "Auszug: nur die IT-relevanten Vorschriften (§§ 146, 146a, 146b, 147, 147a, 147b). Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"3329a-65a5d2de457af\"",
+        "hash": "0933c39989c08de371f127a730ab0157475db21949e7e44191d70597f8c216b7",
+        "fundstellen": 26
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
+    "bdsg": {
+      "fassung": {
+        "id": "2026-07-13",
+        "stand": "Mon, 13 Jul 2026 19:55:13 GMT",
+        "abgerufen": "2026-09-29T21:26:30Z",
+        "quelle": {
+          "name": "gesetze-im-internet.de (BDSG 2018)",
+          "url": "https://www.gesetze-im-internet.de/bdsg_2018/",
+          "hinweis": "Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"b177-6568377ee3c5a\"",
+        "hash": "771b14cb725bccfdbf46f6db3ad014023451868b3d2d92e0a745d8692d0260bf",
+        "fundstellen": 289
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
+    "bsig": {
+      "fassung": {
+        "id": "2026-07-28",
+        "stand": "Tue, 28 Jul 2026 19:55:37 GMT",
+        "abgerufen": "2026-09-29T21:26:30Z",
+        "quelle": {
+          "name": "gesetze-im-internet.de (BSIG 2025)",
+          "url": "https://www.gesetze-im-internet.de/bsig_2025/",
+          "hinweis": "Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"cede-657b138fa6953\"",
+        "hash": "3a03379e6ff7596c002e033c7130d8e5ed78913625159a300b160ed0bce08ac8",
+        "fundstellen": 277
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
     "dora": {
       "fassung": {
         "id": "2024-10-15",
         "stand": "Tue, 15 Oct 2024 11:53:52 GMT",
-        "abgerufen": "2026-09-27T10:10:22Z",
+        "abgerufen": "2026-09-29T21:26:19Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32022R2554",
@@ -26,7 +83,7 @@
       "fassung": {
         "id": "2024-05-30",
         "stand": "Thu, 30 May 2024 01:27:14 GMT",
-        "abgerufen": "2026-09-27T10:10:26Z",
+        "abgerufen": "2026-09-29T21:26:25Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1502",
@@ -46,7 +103,7 @@
       "fassung": {
         "id": "2024-05-30",
         "stand": "Thu, 30 May 2024 01:32:36 GMT",
-        "abgerufen": "2026-09-27T10:10:27Z",
+        "abgerufen": "2026-09-29T21:26:26Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1505",
@@ -66,7 +123,7 @@
       "fassung": {
         "id": "2024-12-06",
         "stand": "Fri, 06 Dec 2024 13:49:31 GMT",
-        "abgerufen": "2026-09-27T10:10:24Z",
+        "abgerufen": "2026-09-29T21:26:22Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R2956",
@@ -86,7 +143,7 @@
       "fassung": {
         "id": "2025-02-20",
         "stand": "Thu, 20 Feb 2025 02:02:00 GMT",
-        "abgerufen": "2026-09-27T10:10:25Z",
+        "abgerufen": "2026-09-29T21:26:23Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0302",
@@ -106,7 +163,7 @@
       "fassung": {
         "id": "2025-06-18",
         "stand": "Wed, 18 Jun 2025 01:03:58 GMT",
-        "abgerufen": "2026-09-27T10:10:25Z",
+        "abgerufen": "2026-09-29T21:26:24Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R1190",
@@ -126,7 +183,7 @@
       "fassung": {
         "id": "2024-06-25",
         "stand": "Tue, 25 Jun 2024 01:11:52 GMT",
-        "abgerufen": "2026-09-27T10:10:23Z",
+        "abgerufen": "2026-09-29T21:26:21Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1772",
@@ -146,7 +203,7 @@
       "fassung": {
         "id": "2024-06-25",
         "stand": "Tue, 25 Jun 2024 01:17:49 GMT",
-        "abgerufen": "2026-09-27T10:10:23Z",
+        "abgerufen": "2026-09-29T21:26:21Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1773",
@@ -166,7 +223,7 @@
       "fassung": {
         "id": "2024-06-25",
         "stand": "Tue, 25 Jun 2024 01:07:27 GMT",
-        "abgerufen": "2026-09-27T10:10:22Z",
+        "abgerufen": "2026-09-29T21:26:20Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1774",
@@ -186,7 +243,7 @@
       "fassung": {
         "id": "2025-02-13",
         "stand": "Thu, 13 Feb 2025 02:24:29 GMT",
-        "abgerufen": "2026-09-27T10:10:27Z",
+        "abgerufen": "2026-09-29T21:26:27Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0295",
@@ -206,7 +263,7 @@
       "fassung": {
         "id": "2025-02-20",
         "stand": "Thu, 20 Feb 2025 01:52:59 GMT",
-        "abgerufen": "2026-09-27T10:10:24Z",
+        "abgerufen": "2026-09-29T21:26:23Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0301",
@@ -226,7 +283,7 @@
       "fassung": {
         "id": "2025-03-24",
         "stand": "Mon, 24 Mar 2025 02:10:04 GMT",
-        "abgerufen": "2026-09-27T10:10:28Z",
+        "abgerufen": "2026-09-29T21:26:27Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0420",
@@ -246,7 +303,7 @@
       "fassung": {
         "id": "2025-07-02",
         "stand": "Wed, 02 Jul 2025 06:30:37 GMT",
-        "abgerufen": "2026-09-27T10:10:26Z",
+        "abgerufen": "2026-09-29T21:26:25Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0532",
@@ -266,7 +323,7 @@
       "fassung": {
         "id": "2025-02-05",
         "stand": "Wed, 05 Feb 2025 15:31:18 GMT",
-        "abgerufen": "2026-09-27T10:10:29Z",
+        "abgerufen": "2026-09-29T21:26:29Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32016R0679",
@@ -282,11 +339,30 @@
       ],
       "fassungen": 1
     },
+    "hgb": {
+      "fassung": {
+        "id": "2026-07-09",
+        "stand": "Thu, 09 Jul 2026 19:55:15 GMT",
+        "abgerufen": "2026-09-29T21:26:30Z",
+        "quelle": {
+          "name": "gesetze-im-internet.de (HGB)",
+          "url": "https://www.gesetze-im-internet.de/hgb/",
+          "hinweis": "Auszug: nur die IT-relevanten Vorschriften (§§ 238, 239, 257). Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"35751-6563300b392bf\"",
+        "hash": "257029941b930016514cd88c5a0f88f15c4638da1469be6b9b5798ec28922522",
+        "fundstellen": 11
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
     "nis2": {
       "fassung": {
         "id": "2024-10-15",
         "stand": "Tue, 15 Oct 2024 14:59:00 GMT",
-        "abgerufen": "2026-09-27T10:10:28Z",
+        "abgerufen": "2026-09-29T21:26:28Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32022L2555",
@@ -296,6 +372,25 @@
         "etag": "\"Con-20241015165900000\"",
         "hash": "7d0219a507c8418b84e8c826b50bd0f45f51abeaa7727a15db4eaf35f499283f",
         "fundstellen": 350
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
+    "vag": {
+      "fassung": {
+        "id": "2026-07-02",
+        "stand": "Thu, 02 Jul 2026 19:55:20 GMT",
+        "abgerufen": "2026-09-29T21:26:29Z",
+        "quelle": {
+          "name": "gesetze-im-internet.de (VAG 2016)",
+          "url": "https://www.gesetze-im-internet.de/vag_2016/",
+          "hinweis": "Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"36b79-655a630186dc4\"",
+        "hash": "9ee767d26071a477e232aa12c25678007a48b7b0c7fd86f16ee54f291da149a5",
+        "fundstellen": 1280
       },
       "sprachen": [
         "de"

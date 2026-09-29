@@ -1,6 +1,27 @@
 {
-  "gebaut": "2026-09-27T10:10:29Z",
+  "gebaut": "2026-09-29T21:26:31Z",
   "indizes": [
+    {
+      "regelwerk": "ao",
+      "sprache": "de",
+      "fassung": "2026-08-31",
+      "datei": "rw/ao/2026-08-31/index-de.json",
+      "dokumente": 26
+    },
+    {
+      "regelwerk": "bdsg",
+      "sprache": "de",
+      "fassung": "2026-07-13",
+      "datei": "rw/bdsg/2026-07-13/index-de.json",
+      "dokumente": 289
+    },
+    {
+      "regelwerk": "bsig",
+      "sprache": "de",
+      "fassung": "2026-07-28",
+      "datei": "rw/bsig/2026-07-28/index-de.json",
+      "dokumente": 277
+    },
     {
       "regelwerk": "dora",
       "sprache": "de",
@@ -107,11 +128,25 @@
       "dokumente": 568
     },
     {
+      "regelwerk": "hgb",
+      "sprache": "de",
+      "fassung": "2026-07-09",
+      "datei": "rw/hgb/2026-07-09/index-de.json",
+      "dokumente": 11
+    },
+    {
       "regelwerk": "nis2",
       "sprache": "de",
       "fassung": "2024-10-15",
       "datei": "rw/nis2/2024-10-15/index-de.json",
       "dokumente": 350
+    },
+    {
+      "regelwerk": "vag",
+      "sprache": "de",
+      "fassung": "2026-07-02",
+      "datei": "rw/vag/2026-07-02/index-de.json",
+      "dokumente": 1280
     }
   ]
 }

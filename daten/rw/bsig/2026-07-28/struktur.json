@@ -1,0 +1,2786 @@
+{
+  "regelwerk": "bsig",
+  "fassung": "2026-07-28",
+  "abgerufen": "2026-09-29T21:26:30Z",
+  "quelle": {
+    "name": "gesetze-im-internet.de (BSIG 2025)",
+    "url": "https://www.gesetze-im-internet.de/bsig_2025/",
+    "hinweis": "Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_010",
+      "art": "teil",
+      "nummer": "1",
+      "bez": "Teil 1",
+      "titel": {
+        "de": "Allgemeine Vorschriften"
+      },
+      "pfad": "gl/010",
+      "kinder": [
+        {
+          "id": "par_1",
+          "art": "paragraf",
+          "nummer": "1",
+          "bez": "§ 1",
+          "titel": {
+            "de": "Bundesamt für Sicherheit in der Informationstechnik"
+          },
+          "pfad": "par/1",
+          "text": true
+        },
+        {
+          "id": "par_2",
+          "art": "paragraf",
+          "nummer": "2",
+          "bez": "§ 2",
+          "titel": {
+            "de": "Begriffsbestimmungen"
+          },
+          "pfad": "par/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_020",
+      "art": "teil",
+      "nummer": "2",
+      "bez": "Teil 2",
+      "titel": {
+        "de": "Das Bundesamt"
+      },
+      "pfad": "gl/020",
+      "kinder": [
+        {
+          "id": "g_020010",
+          "art": "kapitel",
+          "nummer": "1",
+          "bez": "Kapitel 1",
+          "titel": {
+            "de": "Aufgaben und Befugnisse"
+          },
+          "pfad": "gl/020010",
+          "kinder": [
+            {
+              "id": "par_3",
+              "art": "paragraf",
+              "nummer": "3",
+              "bez": "§ 3",
+              "titel": {
+                "de": "Aufgaben des Bundesamtes"
+              },
+              "pfad": "par/3",
+              "kinder": [
+                {
+                  "id": "par_3.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/3/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_3.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/3/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_3.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/3/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_4",
+              "art": "paragraf",
+              "nummer": "4",
+              "bez": "§ 4",
+              "titel": {
+                "de": "Zentrale Meldestelle für die Sicherheit in der Informationstechnik des Bundes"
+              },
+              "pfad": "par/4",
+              "kinder": [
+                {
+                  "id": "par_4.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/4/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_4.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/4/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_4.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/4/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_5",
+              "art": "paragraf",
+              "nummer": "5",
+              "bez": "§ 5",
+              "titel": {
+                "de": "Allgemeine Meldestelle für die Sicherheit in der Informationstechnik"
+              },
+              "pfad": "par/5",
+              "kinder": [
+                {
+                  "id": "par_5.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/5/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_5.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/5/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_5.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/5/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_5.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/5/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_5.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/5/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_5.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/5/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_6",
+              "art": "paragraf",
+              "nummer": "6",
+              "bez": "§ 6",
+              "titel": {
+                "de": "Informationsaustausch"
+              },
+              "pfad": "par/6",
+              "kinder": [
+                {
+                  "id": "par_6.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/6/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_6.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/6/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_7",
+              "art": "paragraf",
+              "nummer": "7",
+              "bez": "§ 7",
+              "titel": {
+                "de": "Kontrolle der Kommunikationstechnik des Bundes, Betretensrechte"
+              },
+              "pfad": "par/7",
+              "kinder": [
+                {
+                  "id": "par_7.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/7/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_7.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/7/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_7.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/7/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_7.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/7/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_7.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/7/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_7.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/7/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_7.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/7/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "par_7.8",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "par/7/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "par_7.9",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "par/7/abs/9",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_8",
+              "art": "paragraf",
+              "nummer": "8",
+              "bez": "§ 8",
+              "titel": {
+                "de": "Abwehr von Schadprogrammen und Gefahren für die Kommunikationstechnik des Bundes"
+              },
+              "pfad": "par/8",
+              "kinder": [
+                {
+                  "id": "par_8.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/8/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_8.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/8/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_8.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/8/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_8.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/8/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_8.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/8/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_8.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/8/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_8.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/8/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "par_8.8",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "par/8/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "par_8.9",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "par/8/abs/9",
+                  "text": true
+                },
+                {
+                  "id": "par_8.10",
+                  "art": "absatz",
+                  "nummer": "10",
+                  "pfad": "par/8/abs/10",
+                  "text": true
+                },
+                {
+                  "id": "par_8.11",
+                  "art": "absatz",
+                  "nummer": "11",
+                  "pfad": "par/8/abs/11",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_9",
+              "art": "paragraf",
+              "nummer": "9",
+              "bez": "§ 9",
+              "titel": {
+                "de": "Verarbeitung von Protokollierungsdaten der Kommunikationstechnik des Bundes"
+              },
+              "pfad": "par/9",
+              "kinder": [
+                {
+                  "id": "par_9.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/9/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_9.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/9/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_10",
+              "art": "paragraf",
+              "nummer": "10",
+              "bez": "§ 10",
+              "titel": {
+                "de": "Anordnungen von Maßnahmen zur Abwendung oder Behebung von Sicherheitsvorfällen"
+              },
+              "pfad": "par/10",
+              "text": true
+            },
+            {
+              "id": "par_11",
+              "art": "paragraf",
+              "nummer": "11",
+              "bez": "§ 11",
+              "titel": {
+                "de": "Wiederherstellung der Sicherheit oder Funktionsfähigkeit informationstechnischer Systeme in herausgehobenen Fällen"
+              },
+              "pfad": "par/11",
+              "kinder": [
+                {
+                  "id": "par_11.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/11/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_11.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/11/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_11.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/11/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_11.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/11/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_11.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/11/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_11.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/11/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_11.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/11/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "par_11.8",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "par/11/abs/8",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_12",
+              "art": "paragraf",
+              "nummer": "12",
+              "bez": "§ 12",
+              "titel": {
+                "de": "Bestandsdatenauskunft"
+              },
+              "pfad": "par/12",
+              "kinder": [
+                {
+                  "id": "par_12.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/12/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_12.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/12/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_12.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/12/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_12.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/12/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_12.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/12/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_12.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/12/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_12.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/12/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "par_12.8",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "par/12/abs/8",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_13",
+              "art": "paragraf",
+              "nummer": "13",
+              "bez": "§ 13",
+              "titel": {
+                "de": "Warnungen"
+              },
+              "pfad": "par/13",
+              "kinder": [
+                {
+                  "id": "par_13.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/13/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_13.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/13/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_13.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/13/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_14",
+              "art": "paragraf",
+              "nummer": "14",
+              "bez": "§ 14",
+              "titel": {
+                "de": "Untersuchung der Sicherheit in der Informationstechnik, Auskunftsverlangen"
+              },
+              "pfad": "par/14",
+              "kinder": [
+                {
+                  "id": "par_14.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/14/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_14.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/14/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_14.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/14/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_14.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/14/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_14.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/14/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_15",
+              "art": "paragraf",
+              "nummer": "15",
+              "bez": "§ 15",
+              "titel": {
+                "de": "Detektion von Angriffsmethoden und von Sicherheitsrisiken für die Netz- und IT-Sicherheit"
+              },
+              "pfad": "par/15",
+              "kinder": [
+                {
+                  "id": "par_15.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/15/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_15.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/15/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_15.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/15/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_15.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/15/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_15.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/15/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_16",
+              "art": "paragraf",
+              "nummer": "16",
+              "bez": "§ 16",
+              "titel": {
+                "de": "Anordnungen von Maßnahmen des Bundesamtes gegenüber Anbietern von Telekommunikationsdiensten"
+              },
+              "pfad": "par/16",
+              "kinder": [
+                {
+                  "id": "par_16.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/16/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_16.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/16/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_16.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/16/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_16.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/16/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_16.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/16/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_17",
+              "art": "paragraf",
+              "nummer": "17",
+              "bez": "§ 17",
+              "titel": {
+                "de": "Anordnungen von Maßnahmen des Bundesamtes gegenüber Anbietern von digitalen Diensten"
+              },
+              "pfad": "par/17",
+              "text": true
+            },
+            {
+              "id": "par_18",
+              "art": "paragraf",
+              "nummer": "18",
+              "bez": "§ 18",
+              "titel": {
+                "de": "Anordnungen von Maßnahmen des Bundesamtes gegenüber Herstellern von IKT-Produkten"
+              },
+              "pfad": "par/18",
+              "text": true
+            },
+            {
+              "id": "par_19",
+              "art": "paragraf",
+              "nummer": "19",
+              "bez": "§ 19",
+              "titel": {
+                "de": "Bereitstellung von IT-Sicherheitsprodukten"
+              },
+              "pfad": "par/19",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "g_020020",
+          "art": "kapitel",
+          "nummer": "2",
+          "bez": "Kapitel 2",
+          "titel": {
+            "de": "Datenverarbeitung"
+          },
+          "pfad": "gl/020020",
+          "kinder": [
+            {
+              "id": "par_20",
+              "art": "paragraf",
+              "nummer": "20",
+              "bez": "§ 20",
+              "titel": {
+                "de": "Verarbeitung personenbezogener Daten"
+              },
+              "pfad": "par/20",
+              "kinder": [
+                {
+                  "id": "par_20.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/20/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_20.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/20/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_20.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/20/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_20.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/20/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_21",
+              "art": "paragraf",
+              "nummer": "21",
+              "bez": "§ 21",
+              "titel": {
+                "de": "Beschränkungen der Rechte der betroffenen Person"
+              },
+              "pfad": "par/21",
+              "text": true
+            },
+            {
+              "id": "par_22",
+              "art": "paragraf",
+              "nummer": "22",
+              "bez": "§ 22",
+              "titel": {
+                "de": "Informationspflicht bei Erhebung von personenbezogenen Daten"
+              },
+              "pfad": "par/22",
+              "kinder": [
+                {
+                  "id": "par_22.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/22/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_22.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/22/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_23",
+              "art": "paragraf",
+              "nummer": "23",
+              "bez": "§ 23",
+              "titel": {
+                "de": "Auskunftsrecht der betroffenen Person"
+              },
+              "pfad": "par/23",
+              "kinder": [
+                {
+                  "id": "par_23.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/23/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_23.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/23/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_24",
+              "art": "paragraf",
+              "nummer": "24",
+              "bez": "§ 24",
+              "titel": {
+                "de": "Recht auf Berichtigung"
+              },
+              "pfad": "par/24",
+              "kinder": [
+                {
+                  "id": "par_24.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/24/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_24.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/24/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_25",
+              "art": "paragraf",
+              "nummer": "25",
+              "bez": "§ 25",
+              "titel": {
+                "de": "Recht auf Löschung"
+              },
+              "pfad": "par/25",
+              "kinder": [
+                {
+                  "id": "par_25.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/25/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_25.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/25/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_26",
+              "art": "paragraf",
+              "nummer": "26",
+              "bez": "§ 26",
+              "titel": {
+                "de": "Recht auf Einschränkung der Verarbeitung"
+              },
+              "pfad": "par/26",
+              "text": true
+            },
+            {
+              "id": "par_27",
+              "art": "paragraf",
+              "nummer": "27",
+              "bez": "§ 27",
+              "titel": {
+                "de": "Widerspruchsrecht"
+              },
+              "pfad": "par/27",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g_030",
+      "art": "teil",
+      "nummer": "3",
+      "bez": "Teil 3",
+      "titel": {
+        "de": "Sicherheit in der Informationstechnik von Einrichtungen"
+      },
+      "pfad": "gl/030",
+      "kinder": [
+        {
+          "id": "g_030010",
+          "art": "kapitel",
+          "nummer": "1",
+          "bez": "Kapitel 1",
+          "titel": {
+            "de": "Anwendungsbereich"
+          },
+          "pfad": "gl/030010",
+          "kinder": [
+            {
+              "id": "par_28",
+              "art": "paragraf",
+              "nummer": "28",
+              "bez": "§ 28",
+              "titel": {
+                "de": "Besonders wichtige Einrichtungen und wichtige Einrichtungen"
+              },
+              "pfad": "par/28",
+              "kinder": [
+                {
+                  "id": "par_28.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/28/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_28.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/28/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_28.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/28/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_28.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/28/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_28.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/28/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_28.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/28/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_28.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/28/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "par_28.8",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "par/28/abs/8",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_29",
+              "art": "paragraf",
+              "nummer": "29",
+              "bez": "§ 29",
+              "titel": {
+                "de": "Einrichtungen der Bundesverwaltung"
+              },
+              "pfad": "par/29",
+              "kinder": [
+                {
+                  "id": "par_29.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/29/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_29.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/29/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_29.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/29/abs/3",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "g_030020",
+          "art": "kapitel",
+          "nummer": "2",
+          "bez": "Kapitel 2",
+          "titel": {
+            "de": "Risikomanagement, Melde-, Registrierungs-, Nachweis- und Unterrichtungspflichten"
+          },
+          "pfad": "gl/030020",
+          "kinder": [
+            {
+              "id": "par_30",
+              "art": "paragraf",
+              "nummer": "30",
+              "bez": "§ 30",
+              "titel": {
+                "de": "Risikomanagementmaßnahmen besonders wichtiger Einrichtungen und wichtiger Einrichtungen"
+              },
+              "pfad": "par/30",
+              "kinder": [
+                {
+                  "id": "par_30.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/30/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_30.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/30/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_30.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/30/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_30.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/30/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_30.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/30/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_30.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/30/abs/6",
+                  "text": true
+                },
+                {
+                  "id": "par_30.7",
+                  "art": "absatz",
+                  "nummer": "7",
+                  "pfad": "par/30/abs/7",
+                  "text": true
+                },
+                {
+                  "id": "par_30.8",
+                  "art": "absatz",
+                  "nummer": "8",
+                  "pfad": "par/30/abs/8",
+                  "text": true
+                },
+                {
+                  "id": "par_30.9",
+                  "art": "absatz",
+                  "nummer": "9",
+                  "pfad": "par/30/abs/9",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_31",
+              "art": "paragraf",
+              "nummer": "31",
+              "bez": "§ 31",
+              "titel": {
+                "de": "Besondere Anforderungen an die Risikomanagementmaßnahmen von Betreibern kritischer Anlagen"
+              },
+              "pfad": "par/31",
+              "kinder": [
+                {
+                  "id": "par_31.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/31/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_31.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/31/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_32",
+              "art": "paragraf",
+              "nummer": "32",
+              "bez": "§ 32",
+              "titel": {
+                "de": "Meldepflichten"
+              },
+              "pfad": "par/32",
+              "kinder": [
+                {
+                  "id": "par_32.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/32/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_32.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/32/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_32.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/32/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_32.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/32/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_32.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/32/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_32.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/32/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_33",
+              "art": "paragraf",
+              "nummer": "33",
+              "bez": "§ 33",
+              "titel": {
+                "de": "Registrierungspflicht"
+              },
+              "pfad": "par/33",
+              "kinder": [
+                {
+                  "id": "par_33.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/33/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_33.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/33/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_33.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/33/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_33.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/33/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_33.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/33/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_33.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/33/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_34",
+              "art": "paragraf",
+              "nummer": "34",
+              "bez": "§ 34",
+              "titel": {
+                "de": "Besondere Registrierungspflicht für bestimmte Einrichtungsarten"
+              },
+              "pfad": "par/34",
+              "kinder": [
+                {
+                  "id": "par_34.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/34/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_34.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/34/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_34.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/34/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_34.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/34/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_35",
+              "art": "paragraf",
+              "nummer": "35",
+              "bez": "§ 35",
+              "titel": {
+                "de": "Unterrichtungspflichten"
+              },
+              "pfad": "par/35",
+              "kinder": [
+                {
+                  "id": "par_35.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/35/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_35.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/35/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_36",
+              "art": "paragraf",
+              "nummer": "36",
+              "bez": "§ 36",
+              "titel": {
+                "de": "Rückmeldungen des Bundesamtes gegenüber meldenden Einrichtungen"
+              },
+              "pfad": "par/36",
+              "kinder": [
+                {
+                  "id": "par_36.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/36/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_36.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/36/abs/2",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_37",
+              "art": "paragraf",
+              "nummer": "37",
+              "bez": "§ 37",
+              "titel": {
+                "de": "Ausnahmebescheid"
+              },
+              "pfad": "par/37",
+              "kinder": [
+                {
+                  "id": "par_37.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/37/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_37.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/37/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_37.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/37/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_37.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/37/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_37.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/37/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_38",
+              "art": "paragraf",
+              "nummer": "38",
+              "bez": "§ 38",
+              "titel": {
+                "de": "Umsetzungs-, Überwachungs- und Schulungspflicht für Geschäftsleitungen besonders wichtiger Einrichtungen und wichtiger Einrichtungen"
+              },
+              "pfad": "par/38",
+              "kinder": [
+                {
+                  "id": "par_38.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/38/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_38.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/38/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_38.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/38/abs/3",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_39",
+              "art": "paragraf",
+              "nummer": "39",
+              "bez": "§ 39",
+              "titel": {
+                "de": "Nachweispflichten für Betreiber kritischer Anlagen"
+              },
+              "pfad": "par/39",
+              "kinder": [
+                {
+                  "id": "par_39.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/39/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_39.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/39/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_39.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/39/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_39.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/39/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_40",
+              "art": "paragraf",
+              "nummer": "40",
+              "bez": "§ 40",
+              "titel": {
+                "de": "Nationale Verbindungsstelle sowie zentrale Melde- und Anlaufstelle für besonders wichtige und wichtige Einrichtungen"
+              },
+              "pfad": "par/40",
+              "kinder": [
+                {
+                  "id": "par_40.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/40/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_40.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/40/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_40.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/40/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_40.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/40/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_40.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/40/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_40.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/40/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_41",
+              "art": "paragraf",
+              "nummer": "41",
+              "bez": "§ 41",
+              "titel": {
+                "de": "Untersagung des Einsatzes kritischer Komponenten"
+              },
+              "pfad": "par/41",
+              "kinder": [
+                {
+                  "id": "par_41.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/41/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_41.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/41/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_41.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/41/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_41.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/41/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_41.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/41/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_42",
+              "art": "paragraf",
+              "nummer": "42",
+              "bez": "§ 42",
+              "titel": {
+                "de": "Auskunftsverlangen"
+              },
+              "pfad": "par/42",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "g_030030",
+          "art": "kapitel",
+          "nummer": "3",
+          "bez": "Kapitel 3",
+          "titel": {
+            "de": "Informationssicherheit der Einrichtungen der Bundesverwaltung"
+          },
+          "pfad": "gl/030030",
+          "kinder": [
+            {
+              "id": "par_43",
+              "art": "paragraf",
+              "nummer": "43",
+              "bez": "§ 43",
+              "titel": {
+                "de": "Informationssicherheitsmanagement"
+              },
+              "pfad": "par/43",
+              "kinder": [
+                {
+                  "id": "par_43.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/43/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_43.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/43/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_43.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/43/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_43.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/43/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_43.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/43/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_43.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/43/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_44",
+              "art": "paragraf",
+              "nummer": "44",
+              "bez": "§ 44",
+              "titel": {
+                "de": "Vorgaben des Bundesamtes"
+              },
+              "pfad": "par/44",
+              "kinder": [
+                {
+                  "id": "par_44.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/44/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_44.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/44/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_44.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/44/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_44.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/44/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_44.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/44/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_45",
+              "art": "paragraf",
+              "nummer": "45",
+              "bez": "§ 45",
+              "titel": {
+                "de": "Informationssicherheitsbeauftragte der Einrichtungen der Bundesverwaltung"
+              },
+              "pfad": "par/45",
+              "kinder": [
+                {
+                  "id": "par_45.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/45/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_45.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/45/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_45.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/45/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_45.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/45/abs/4",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_46",
+              "art": "paragraf",
+              "nummer": "46",
+              "bez": "§ 46",
+              "titel": {
+                "de": "Informationssicherheitsbeauftragte der Ressorts"
+              },
+              "pfad": "par/46",
+              "kinder": [
+                {
+                  "id": "par_46.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/46/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_46.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/46/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_46.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/46/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_46.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/46/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_46.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/46/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_46.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/46/abs/6",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_47",
+              "art": "paragraf",
+              "nummer": "47",
+              "bez": "§ 47",
+              "titel": {
+                "de": "Wesentliche Digitalisierungsvorhaben und Kommunikationsinfrastrukturen des Bundes"
+              },
+              "pfad": "par/47",
+              "kinder": [
+                {
+                  "id": "par_47.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/47/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_47.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/47/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_47.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/47/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_47.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/47/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_47.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/47/abs/5",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "par_48",
+              "art": "paragraf",
+              "nummer": "48",
+              "bez": "§ 48",
+              "titel": {
+                "de": "Amt des Koordinators für Informationssicherheit"
+              },
+              "pfad": "par/48",
+              "kinder": [
+                {
+                  "id": "par_48.1",
+                  "art": "absatz",
+                  "nummer": "1",
+                  "pfad": "par/48/abs/1",
+                  "text": true
+                },
+                {
+                  "id": "par_48.2",
+                  "art": "absatz",
+                  "nummer": "2",
+                  "pfad": "par/48/abs/2",
+                  "text": true
+                },
+                {
+                  "id": "par_48.3",
+                  "art": "absatz",
+                  "nummer": "3",
+                  "pfad": "par/48/abs/3",
+                  "text": true
+                },
+                {
+                  "id": "par_48.4",
+                  "art": "absatz",
+                  "nummer": "4",
+                  "pfad": "par/48/abs/4",
+                  "text": true
+                },
+                {
+                  "id": "par_48.5",
+                  "art": "absatz",
+                  "nummer": "5",
+                  "pfad": "par/48/abs/5",
+                  "text": true
+                },
+                {
+                  "id": "par_48.6",
+                  "art": "absatz",
+                  "nummer": "6",
+                  "pfad": "par/48/abs/6",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g_040",
+      "art": "teil",
+      "nummer": "4",
+      "bez": "Teil 4",
+      "titel": {
+        "de": "Datenbanken der Domain-Name-Registrierungsdaten"
+      },
+      "pfad": "gl/040",
+      "kinder": [
+        {
+          "id": "par_49",
+          "art": "paragraf",
+          "nummer": "49",
+          "bez": "§ 49",
+          "titel": {
+            "de": "Pflicht zum Führen einer Datenbank"
+          },
+          "pfad": "par/49",
+          "kinder": [
+            {
+              "id": "par_49.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/49/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_49.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/49/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_49.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/49/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_49.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/49/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_49.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/49/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "par_50",
+          "art": "paragraf",
+          "nummer": "50",
+          "bez": "§ 50",
+          "titel": {
+            "de": "Verpflichtung zur Zugangsgewährung"
+          },
+          "pfad": "par/50",
+          "kinder": [
+            {
+              "id": "par_50.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/50/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_50.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/50/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_50.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/50/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_50.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/50/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "par_51",
+          "art": "paragraf",
+          "nummer": "51",
+          "bez": "§ 51",
+          "titel": {
+            "de": "Kooperationspflicht"
+          },
+          "pfad": "par/51",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_050",
+      "art": "teil",
+      "nummer": "5",
+      "bez": "Teil 5",
+      "titel": {
+        "de": "Zertifizierung, Konformitätserklärung und Kennzeichen"
+      },
+      "pfad": "gl/050",
+      "kinder": [
+        {
+          "id": "par_52",
+          "art": "paragraf",
+          "nummer": "52",
+          "bez": "§ 52",
+          "titel": {
+            "de": "Zertifizierung"
+          },
+          "pfad": "par/52",
+          "kinder": [
+            {
+              "id": "par_52.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/52/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_52.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/52/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_52.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/52/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_52.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/52/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_52.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/52/abs/5",
+              "text": true
+            },
+            {
+              "id": "par_52.6",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "par/52/abs/6",
+              "text": true
+            },
+            {
+              "id": "par_52.7",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "par/52/abs/7",
+              "text": true
+            },
+            {
+              "id": "par_52.8",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "par/52/abs/8",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "par_53",
+          "art": "paragraf",
+          "nummer": "53",
+          "bez": "§ 53",
+          "titel": {
+            "de": "Konformitätsbewertung und Konformitätserklärung"
+          },
+          "pfad": "par/53",
+          "kinder": [
+            {
+              "id": "par_53.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/53/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_53.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/53/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_53.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/53/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_53.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/53/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_53.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/53/abs/5",
+              "text": true
+            },
+            {
+              "id": "par_53.6",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "par/53/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "par_54",
+          "art": "paragraf",
+          "nummer": "54",
+          "bez": "§ 54",
+          "titel": {
+            "de": "Nationale Behörde für die Cybersicherheitszertifizierung"
+          },
+          "pfad": "par/54",
+          "kinder": [
+            {
+              "id": "par_54.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/54/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_54.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/54/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_54.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/54/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_54.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/54/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_54.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/54/abs/5",
+              "text": true
+            },
+            {
+              "id": "par_54.6",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "par/54/abs/6",
+              "text": true
+            },
+            {
+              "id": "par_54.7",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "par/54/abs/7",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "par_55",
+          "art": "paragraf",
+          "nummer": "55",
+          "bez": "§ 55",
+          "titel": {
+            "de": "Freiwilliges IT-Sicherheitskennzeichen"
+          },
+          "pfad": "par/55",
+          "kinder": [
+            {
+              "id": "par_55.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/55/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_55.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/55/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_55.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/55/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_55.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/55/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_55.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/55/abs/5",
+              "text": true
+            },
+            {
+              "id": "par_55.6",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "par/55/abs/6",
+              "text": true
+            },
+            {
+              "id": "par_55.7",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "par/55/abs/7",
+              "text": true
+            },
+            {
+              "id": "par_55.8",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "par/55/abs/8",
+              "text": true
+            },
+            {
+              "id": "par_55.9",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "par/55/abs/9",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g_060",
+      "art": "teil",
+      "nummer": "6",
+      "bez": "Teil 6",
+      "titel": {
+        "de": "Verordnungsermächtigungen, Grundrechtseinschränkungen und Berichtspflichten"
+      },
+      "pfad": "gl/060",
+      "kinder": [
+        {
+          "id": "par_56",
+          "art": "paragraf",
+          "nummer": "56",
+          "bez": "§ 56",
+          "titel": {
+            "de": "Ermächtigung zum Erlass von Rechtsverordnungen"
+          },
+          "pfad": "par/56",
+          "kinder": [
+            {
+              "id": "par_56.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/56/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_56.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/56/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_56.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/56/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_56.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/56/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_56.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/56/abs/5",
+              "text": true
+            },
+            {
+              "id": "par_56.6",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "par/56/abs/6",
+              "text": true
+            },
+            {
+              "id": "par_56.7",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "par/56/abs/7",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "par_57",
+          "art": "paragraf",
+          "nummer": "57",
+          "bez": "§ 57",
+          "titel": {
+            "de": "Einschränkung von Grundrechten"
+          },
+          "pfad": "par/57",
+          "text": true
+        },
+        {
+          "id": "par_58",
+          "art": "paragraf",
+          "nummer": "58",
+          "bez": "§ 58",
+          "titel": {
+            "de": "Berichtspflichten des Bundesamtes"
+          },
+          "pfad": "par/58",
+          "kinder": [
+            {
+              "id": "par_58.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/58/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_58.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/58/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_58.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/58/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_58.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/58/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_58.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/58/abs/5",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g_070",
+      "art": "teil",
+      "nummer": "7",
+      "bez": "Teil 7",
+      "titel": {
+        "de": "Aufsicht"
+      },
+      "pfad": "gl/070",
+      "kinder": [
+        {
+          "id": "par_59",
+          "art": "paragraf",
+          "nummer": "59",
+          "bez": "§ 59",
+          "titel": {
+            "de": "Zuständigkeit des Bundesamtes"
+          },
+          "pfad": "par/59",
+          "text": true
+        },
+        {
+          "id": "par_60",
+          "art": "paragraf",
+          "nummer": "60",
+          "bez": "§ 60",
+          "titel": {
+            "de": "Zentrale Zuständigkeit in der Europäischen Union für bestimmte Einrichtungsarten"
+          },
+          "pfad": "par/60",
+          "kinder": [
+            {
+              "id": "par_60.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/60/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_60.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/60/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_60.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/60/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_60.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/60/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_60.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/60/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "par_61",
+          "art": "paragraf",
+          "nummer": "61",
+          "bez": "§ 61",
+          "titel": {
+            "de": "Aufsichts- und Durchsetzungsmaßnahmen für besonders wichtige Einrichtungen"
+          },
+          "pfad": "par/61",
+          "kinder": [
+            {
+              "id": "par_61.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/61/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_61.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/61/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_61.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/61/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_61.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/61/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_61.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/61/abs/5",
+              "text": true
+            },
+            {
+              "id": "par_61.6",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "par/61/abs/6",
+              "text": true
+            },
+            {
+              "id": "par_61.7",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "par/61/abs/7",
+              "text": true
+            },
+            {
+              "id": "par_61.8",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "par/61/abs/8",
+              "text": true
+            },
+            {
+              "id": "par_61.9",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "par/61/abs/9",
+              "text": true
+            },
+            {
+              "id": "par_61.10",
+              "art": "absatz",
+              "nummer": "10",
+              "pfad": "par/61/abs/10",
+              "text": true
+            },
+            {
+              "id": "par_61.11",
+              "art": "absatz",
+              "nummer": "11",
+              "pfad": "par/61/abs/11",
+              "text": true
+            },
+            {
+              "id": "par_61.12",
+              "art": "absatz",
+              "nummer": "12",
+              "pfad": "par/61/abs/12",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "par_62",
+          "art": "paragraf",
+          "nummer": "62",
+          "bez": "§ 62",
+          "titel": {
+            "de": "Aufsichts- und Durchsetzungsmaßnahmen für wichtige Einrichtungen"
+          },
+          "pfad": "par/62",
+          "text": true
+        },
+        {
+          "id": "par_63",
+          "art": "paragraf",
+          "nummer": "63",
+          "bez": "§ 63",
+          "titel": {
+            "de": "Verwaltungszwang"
+          },
+          "pfad": "par/63",
+          "text": true
+        },
+        {
+          "id": "par_64",
+          "art": "paragraf",
+          "nummer": "64",
+          "bez": "§ 64",
+          "titel": {
+            "de": "Zuwiderhandlungen durch Institutionen der sozialen Sicherung"
+          },
+          "pfad": "par/64",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_080",
+      "art": "teil",
+      "nummer": "8",
+      "bez": "Teil 8",
+      "titel": {
+        "de": "Bußgeldvorschriften"
+      },
+      "pfad": "gl/080",
+      "kinder": [
+        {
+          "id": "par_65",
+          "art": "paragraf",
+          "nummer": "65",
+          "bez": "§ 65",
+          "titel": {
+            "de": "Bußgeldvorschriften"
+          },
+          "pfad": "par/65",
+          "kinder": [
+            {
+              "id": "par_65.1",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "par/65/abs/1",
+              "text": true
+            },
+            {
+              "id": "par_65.2",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "par/65/abs/2",
+              "text": true
+            },
+            {
+              "id": "par_65.3",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "par/65/abs/3",
+              "text": true
+            },
+            {
+              "id": "par_65.4",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "par/65/abs/4",
+              "text": true
+            },
+            {
+              "id": "par_65.5",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "par/65/abs/5",
+              "text": true
+            },
+            {
+              "id": "par_65.6",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "par/65/abs/6",
+              "text": true
+            },
+            {
+              "id": "par_65.7",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "par/65/abs/7",
+              "text": true
+            },
+            {
+              "id": "par_65.8",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "par/65/abs/8",
+              "text": true
+            },
+            {
+              "id": "par_65.9",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "par/65/abs/9",
+              "text": true
+            },
+            {
+              "id": "par_65.10",
+              "art": "absatz",
+              "nummer": "10",
+              "pfad": "par/65/abs/10",
+              "text": true
+            },
+            {
+              "id": "par_65.11",
+              "art": "absatz",
+              "nummer": "11",
+              "pfad": "par/65/abs/11",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g_090",
+      "art": "teil",
+      "nummer": "9",
+      "bez": "Teil 9",
+      "titel": {
+        "de": "Anwendungsbestimmungen; Übergangsregelungen"
+      },
+      "pfad": "gl/090",
+      "kinder": [
+        {
+          "id": "par_66",
+          "art": "paragraf",
+          "nummer": "66",
+          "bez": "§ 66",
+          "titel": {
+            "de": "Anwendungsbestimmungen und Übergangsregelung"
+          },
+          "pfad": "par/66",
+          "text": true
+        },
+        {
+          "id": "anl_1",
+          "art": "anhang",
+          "nummer": "1",
+          "bez": "Anlage 1",
+          "titel": {
+            "de": "Sektoren besonders wichtiger und wichtiger Einrichtungen"
+          },
+          "pfad": "anl/1",
+          "text": true
+        },
+        {
+          "id": "anl_2",
+          "art": "anhang",
+          "nummer": "2",
+          "bez": "Anlage 2",
+          "titel": {
+            "de": "Sektoren wichtiger Einrichtungen"
+          },
+          "pfad": "anl/2",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

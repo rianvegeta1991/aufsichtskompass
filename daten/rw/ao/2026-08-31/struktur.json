@@ -1,0 +1,297 @@
+{
+  "regelwerk": "ao",
+  "fassung": "2026-08-31",
+  "abgerufen": "2026-09-29T21:26:31Z",
+  "quelle": {
+    "name": "gesetze-im-internet.de (AO 1977)",
+    "url": "https://www.gesetze-im-internet.de/ao_1977/",
+    "hinweis": "Auszug: nur die IT-relevanten Vorschriften (§§ 146, 146a, 146b, 147, 147a, 147b). Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_040",
+      "art": "teil",
+      "nummer": "Vierter",
+      "bez": "Vierter Teil",
+      "titel": {
+        "de": "Durchführung der Besteuerung"
+      },
+      "pfad": "gl/040",
+      "kinder": [
+        {
+          "id": "g_040020",
+          "art": "abschnitt",
+          "nummer": "Zweiter",
+          "bez": "Zweiter Abschnitt",
+          "titel": {
+            "de": "Mitwirkungspflichten"
+          },
+          "pfad": "gl/040020",
+          "kinder": [
+            {
+              "id": "g_040020010",
+              "art": "abschnitt",
+              "nummer": "1.",
+              "bez": "1. Unterabschnitt",
+              "titel": {
+                "de": "Führung von Büchern und Aufzeichnungen"
+              },
+              "pfad": "gl/040020010",
+              "kinder": [
+                {
+                  "id": "par_146",
+                  "art": "paragraf",
+                  "nummer": "146",
+                  "bez": "§ 146",
+                  "titel": {
+                    "de": "Ordnungsvorschriften für die Buchführung und für Aufzeichnungen"
+                  },
+                  "pfad": "par/146",
+                  "kinder": [
+                    {
+                      "id": "par_146.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/146/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/146/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146.2a",
+                      "art": "absatz",
+                      "nummer": "2a",
+                      "pfad": "par/146/abs/2a",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146.2b",
+                      "art": "absatz",
+                      "nummer": "2b",
+                      "pfad": "par/146/abs/2b",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146.2c",
+                      "art": "absatz",
+                      "nummer": "2c",
+                      "pfad": "par/146/abs/2c",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/146/abs/3",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146.4",
+                      "art": "absatz",
+                      "nummer": "4",
+                      "pfad": "par/146/abs/4",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146.5",
+                      "art": "absatz",
+                      "nummer": "5",
+                      "pfad": "par/146/abs/5",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146.6",
+                      "art": "absatz",
+                      "nummer": "6",
+                      "pfad": "par/146/abs/6",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_146a",
+                  "art": "paragraf",
+                  "nummer": "146a",
+                  "bez": "§ 146a",
+                  "titel": {
+                    "de": "Ordnungsvorschrift für die Buchführung und für Aufzeichnungen mittels elektronischer Aufzeichnungssysteme; Verordnungsermächtigung"
+                  },
+                  "pfad": "par/146a",
+                  "kinder": [
+                    {
+                      "id": "par_146a.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/146a/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146a.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/146a/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146a.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/146a/abs/3",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146a.4",
+                      "art": "absatz",
+                      "nummer": "4",
+                      "pfad": "par/146a/abs/4",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_146b",
+                  "art": "paragraf",
+                  "nummer": "146b",
+                  "bez": "§ 146b",
+                  "titel": {
+                    "de": "Kassen-Nachschau"
+                  },
+                  "pfad": "par/146b",
+                  "kinder": [
+                    {
+                      "id": "par_146b.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/146b/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146b.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/146b/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_146b.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/146b/abs/3",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_147",
+                  "art": "paragraf",
+                  "nummer": "147",
+                  "bez": "§ 147",
+                  "titel": {
+                    "de": "Ordnungsvorschriften für die Aufbewahrung von Unterlagen"
+                  },
+                  "pfad": "par/147",
+                  "kinder": [
+                    {
+                      "id": "par_147.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/147/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_147.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/147/abs/2",
+                      "text": true
+                    },
+                    {
+                      "id": "par_147.3",
+                      "art": "absatz",
+                      "nummer": "3",
+                      "pfad": "par/147/abs/3",
+                      "text": true
+                    },
+                    {
+                      "id": "par_147.4",
+                      "art": "absatz",
+                      "nummer": "4",
+                      "pfad": "par/147/abs/4",
+                      "text": true
+                    },
+                    {
+                      "id": "par_147.5",
+                      "art": "absatz",
+                      "nummer": "5",
+                      "pfad": "par/147/abs/5",
+                      "text": true
+                    },
+                    {
+                      "id": "par_147.6",
+                      "art": "absatz",
+                      "nummer": "6",
+                      "pfad": "par/147/abs/6",
+                      "text": true
+                    },
+                    {
+                      "id": "par_147.7",
+                      "art": "absatz",
+                      "nummer": "7",
+                      "pfad": "par/147/abs/7",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_147a",
+                  "art": "paragraf",
+                  "nummer": "147a",
+                  "bez": "§ 147a",
+                  "titel": {
+                    "de": "Vorschriften für die Aufbewahrung von Aufzeichnungen und Unterlagen bestimmter Steuerpflichtiger"
+                  },
+                  "pfad": "par/147a",
+                  "kinder": [
+                    {
+                      "id": "par_147a.1",
+                      "art": "absatz",
+                      "nummer": "1",
+                      "pfad": "par/147a/abs/1",
+                      "text": true
+                    },
+                    {
+                      "id": "par_147a.2",
+                      "art": "absatz",
+                      "nummer": "2",
+                      "pfad": "par/147a/abs/2",
+                      "text": true
+                    }
+                  ]
+                },
+                {
+                  "id": "par_147b",
+                  "art": "paragraf",
+                  "nummer": "147b",
+                  "bez": "§ 147b",
+                  "titel": {
+                    "de": "Verordnungsermächtigung zur Vereinheitlichung von digitalen Schnittstellen"
+                  },
+                  "pfad": "par/147b",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

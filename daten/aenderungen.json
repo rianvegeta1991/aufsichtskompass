@@ -104,6 +104,41 @@
       "fassung": "2025-02-05",
       "art": "Erstaufnahme",
       "quelle": "https://publications.europa.eu/resource/celex/32016R0679"
+    },
+    {
+      "zeitpunkt": "2026-09-29T21:23:36Z",
+      "regelwerk": "vag",
+      "fassung": "2026-07-02",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.gesetze-im-internet.de/vag_2016/"
+    },
+    {
+      "zeitpunkt": "2026-09-29T21:23:55Z",
+      "regelwerk": "bsig",
+      "fassung": "2026-07-28",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.gesetze-im-internet.de/bsig_2025/"
+    },
+    {
+      "zeitpunkt": "2026-09-29T21:23:55Z",
+      "regelwerk": "bdsg",
+      "fassung": "2026-07-13",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.gesetze-im-internet.de/bdsg_2018/"
+    },
+    {
+      "zeitpunkt": "2026-09-29T21:23:56Z",
+      "regelwerk": "hgb",
+      "fassung": "2026-07-09",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.gesetze-im-internet.de/hgb/"
+    },
+    {
+      "zeitpunkt": "2026-09-29T21:23:56Z",
+      "regelwerk": "ao",
+      "fassung": "2026-08-31",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.gesetze-im-internet.de/ao_1977/"
     }
   ]
 }

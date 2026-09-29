@@ -1,0 +1,18 @@
+{
+  "regelwerk": "bdsg",
+  "fassungen": [
+    {
+      "id": "2026-07-13",
+      "stand": "Mon, 13 Jul 2026 19:55:13 GMT",
+      "abgerufen": "2026-09-29T21:26:30Z",
+      "quelle": {
+        "name": "gesetze-im-internet.de (BDSG 2018)",
+        "url": "https://www.gesetze-im-internet.de/bdsg_2018/",
+        "hinweis": "Amtliches Werk (§ 5 UrhG). Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"b177-6568377ee3c5a\"",
+      "hash": "771b14cb725bccfdbf46f6db3ad014023451868b3d2d92e0a745d8692d0260bf",
+      "fundstellen": 289
+    }
+  ]
+}

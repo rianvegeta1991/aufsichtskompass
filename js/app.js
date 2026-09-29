@@ -14,7 +14,7 @@ import * as bibliothek from './bibliothek.js';
 import * as viewer from './viewer.js';
 import * as suche from './suche.js';
 
-export const APP_VERSION = '1.1';
+export const APP_VERSION = '1.2';
 
 const seite = document.getElementById('seite');
 
@@ -189,6 +189,9 @@ async function start(wurzel) {
     ['DORA – Artikel 19: Meldung schwerwiegender IKT-Vorfälle', '#/rw/dora/art/19'],
     ['RTS 2024/1774 – IKT-Risikomanagement im Detail', '#/rw/dora-rts-1774'],
     ['ITS 2024/2956 – Informationsregister', '#/rw/dora-its-2956'],
+    ['VAG – § 23: Anforderungen an die Geschäftsorganisation', '#/rw/vag/par/23'],
+    ['VAG – § 32: Ausgliederung', '#/rw/vag/par/32'],
+    ['BSIG – Meldepflichten und Verhältnis zu DORA', '#/rw/bsig'],
   ];
 
   wurzel.append(el('div.gitter.zwei', { style: 'margin-top:18px' },
@@ -218,8 +221,9 @@ async function start(wurzel) {
     el('h2', 'Ausbaustand'),
     tabelle(['Phase', 'Inhalt', 'Stand'], [
       phasenzeile('1', 'Fundament: Datenmodell, Design-Tokens hell/dunkel, Gerüst, Werkzeugkette', 'fertig'),
-      phasenzeile('2', 'Bibliothek und Viewer: CELLAR-Konnektor, DORA (DE/EN) und Level-2-Rechtsakte, Deep-Links, Suche', 'fertig für EU-Recht'),
-      phasenzeile('2b', 'Konnektor für gesetze-im-internet.de (VAG, BSIG, BDSG, HGB, AO) und BaFin-PDF (MaGo, MaRisk)', 'offen'),
+      phasenzeile('2', 'Bibliothek und Viewer: CELLAR-Konnektor, DORA (DE/EN) und Level-2-Rechtsakte, Deep-Links, Suche', 'fertig'),
+      phasenzeile('2b', 'Konnektor für gesetze-im-internet.de: VAG, BSIG, BDSG vollständig, HGB und AO als Auszug', 'fertig'),
+      phasenzeile('2c', 'BaFin-Veröffentlichungen (MaGo, MaRisk, DORA-FAQ) – erst nach Klärung der Nutzungsbedingungen', 'offen'),
       phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001, COBIT 2019, ITIL 4, CSA CCM, C5, NIST CSF, GDV', 'offen'),
       phasenzeile('4', 'Themenseiten, Mappings, Matrizen, Heatmap, Graph, Export', 'offen'),
       phasenzeile('5', 'Tägliches Screening mit Newsfeed und Digest', 'offen'),
