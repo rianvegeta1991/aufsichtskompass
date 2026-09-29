@@ -19,6 +19,12 @@ amtlich veröffentlichte Fassung.
   Gliederungsbaum, Deep-Link auf jeden Absatz bzw. Paragrafen, Glossar aus den
   Begriffsbestimmungen, Zitat-Export mit Quellenangabe, Lesezeichen und Notizen.
 - **Volltextsuche** über alle Fundstellen (BM25, deutsche Stammbildung), clientseitig.
+- **Interdependenzen**: Mapping-Matrix, Heatmap Thema × Regelwerk, Meldepflichten-Matrix
+  (DORA / BSIG / DSGVO), Rollen- und Three-Lines-Sicht, Netzwerkgraph und Zeitstrahl –
+  jeweils mit CSV-Export. Dazu rund 2.700 Verweise, die das Werkzeug aus dem Wortlaut der
+  Texte selbst gewonnen hat, jeder mit seiner Belegstelle.
+- **Themenseiten** zu 22 Themen mit Zielbild, Fundstellen über alle Regelwerke hinweg,
+  Prüfungsschwerpunkten und typischen Nachweisen.
 - **Versionierung**: jede Fassung bleibt unveränderlich liegen, mit SHA-256 je Fundstelle als
   Grundlage der Änderungserkennung.
 - Hell und dunkel, WCAG 2.2 AA, offlinefähig als PWA.
@@ -60,8 +66,8 @@ in eigenen Worten, mit Bezugsfassung, Herkunft, Prüfstatus und Verweis auf die 
 
 ## Stand
 
-Phase 1 (Fundament) und Phase 2 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
-gesetze-im-internet.de. Offen: BaFin-Veröffentlichungen (erst nach Klärung der
-Nutzungsbedingungen), die eigenen Framework-Zusammenfassungen, Mappings und Matrizen,
-das tägliche Screening und der Lernbereich. Der Ausbaustand steht auch in der App
-auf der Startseite.
+Die Phasen 1, 2, 2b und 4 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
+gesetze-im-internet.de, dazu Themenseiten, Beziehungen und Matrizen. Offen: BaFin-
+Veröffentlichungen (erst nach Klärung der Nutzungsbedingungen), die eigenen
+Framework-Zusammenfassungen, das tägliche Screening und der Lernbereich. Der Ausbaustand
+steht auch in der App auf der Startseite.

@@ -5,7 +5,7 @@
 // EINZELN gecacht (cache.add statt addAll): sonst legt eine einzige fehlende Datei
 // den ganzen Offline-Betrieb lahm.
 
-const CACHE = 'aufsichtskompass-v3';
+const CACHE = 'aufsichtskompass-v4';
 
 const GERUEST = [
   './',
@@ -19,12 +19,18 @@ const GERUEST = [
   'js/bibliothek.js',
   'js/viewer.js',
   'js/suche.js',
+  'js/analyse.js',
+  'js/matrizen.js',
   'daten/regelwerke.json',
   'daten/themen.json',
   'daten/quellen.json',
   'daten/fussnoten.json',
   'daten/suchindex.json',
   'daten/bestand.json',
+  'daten/beziehungen.json',
+  'daten/themenzuordnung.json',
+  'daten/meldepflichten.json',
+  'daten/rollen.json',
 ];
 
 self.addEventListener('install', (e) => {

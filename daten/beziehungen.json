@@ -1,0 +1,377 @@
+{
+  "stand": "2026-09-29",
+  "hinweis": "Fachliche Beziehungen zwischen Fundstellen. Was sich aus dem Wortlaut ergibt (Verweise), steht dagegen in verweise.json und wird vom Werkzeug erzeugt. Jede Beziehung hier nennt Quelle der Zuordnung, Begründung, Konfidenz und Prüfstatus; 'geprueft: false' heißt: noch nicht fachlich abgenommen.",
+  "typen": {
+    "entspricht": "Gleiche Anforderung in anderem Regelwerk",
+    "konkretisiert": "Führt eine Vorgabe des anderen Regelwerks aus (z. B. RTS zum Artikel)",
+    "ersetzt": "Neue Fassung tritt an die Stelle der alten",
+    "verweist": "Nimmt ausdrücklich Bezug (wird automatisch aus dem Text gewonnen)",
+    "ueberschneidet": "Überschneidet sich teilweise, beide gelten nebeneinander",
+    "geht-weiter": "Geht über die Anforderung des anderen Regelwerks hinaus",
+    "spannungsfeld": "Abweichung oder Spannungsfeld, das aufzulösen ist",
+    "lex-specialis": "Verdrängt die Anwendung des anderen Regelwerks"
+  },
+  "konfidenz": {
+    "hoch": "Ergibt sich unmittelbar aus dem Wortlaut",
+    "mittel": "Fachliche Einordnung, gut begründbar",
+    "niedrig": "Arbeitshypothese, vor Verwendung prüfen"
+  },
+  "beziehungen": [
+    {
+      "id": "bsig-28-6-dora",
+      "von": { "rw": "bsig", "pfad": "par/28/abs/6" },
+      "nach": { "rw": "dora", "pfad": "art/2" },
+      "typ": "lex-specialis",
+      "themen": ["it-governance", "incident-meldewesen"],
+      "begruendung": "§ 28 Absatz 6 Nummer 1 BSIG nimmt Finanzunternehmen im Sinne des Artikels 2 Absatz 2 DORA ausdrücklich von den §§ 30, 31, 32, 35, 36, 38 und 39 BSIG aus. Für Versicherungsunternehmen gelten damit die IKT-Anforderungen und Meldepflichten der DORA, nicht die des BSIG.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dora-6-bsig-30",
+      "von": { "rw": "dora", "pfad": "art/6" },
+      "nach": { "rw": "bsig", "pfad": "par/30" },
+      "typ": "lex-specialis",
+      "themen": ["ikt-risikomanagement"],
+      "begruendung": "Beide verlangen einen Rahmen für das Management von IKT- bzw. Cybersicherheitsrisiken. Über § 28 Absatz 6 BSIG gilt für Versicherungsunternehmen ausschließlich der DORA-Rahmen; § 30 BSIG bleibt für sie außen vor.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dora-19-bsig-32",
+      "von": { "rw": "dora", "pfad": "art/19" },
+      "nach": { "rw": "bsig", "pfad": "par/32" },
+      "typ": "lex-specialis",
+      "themen": ["incident-meldewesen"],
+      "begruendung": "Die Meldepflicht für schwerwiegende IKT-bezogene Vorfälle nach DORA tritt für Finanzunternehmen an die Stelle der Meldepflichten des § 32 BSIG. Die Fristen unterscheiden sich deutlich – siehe Meldepflichten-Matrix.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dora-5-bsig-38",
+      "von": { "rw": "dora", "pfad": "art/5" },
+      "nach": { "rw": "bsig", "pfad": "par/38" },
+      "typ": "lex-specialis",
+      "themen": ["leitungsorgan", "awareness"],
+      "begruendung": "Beide Vorschriften verpflichten die Geschäftsleitung auf Umsetzung, Überwachung und eigene Schulung. § 38 BSIG gilt für Finanzunternehmen nicht; maßgeblich ist Artikel 5 DORA.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+
+    {
+      "id": "dora-5-vag-23",
+      "von": { "rw": "dora", "pfad": "art/5" },
+      "nach": { "rw": "vag", "pfad": "par/23" },
+      "typ": "ueberschneidet",
+      "themen": ["it-governance", "leitungsorgan"],
+      "begruendung": "§ 23 VAG verlangt eine wirksame und ordnungsgemäße Geschäftsorganisation insgesamt, Artikel 5 DORA regelt die IKT-bezogene Letztverantwortung des Leitungsorgans. Beide gelten nebeneinander: DORA verdrängt das VAG nicht, sondern schärft den IKT-Ausschnitt.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-6-vag-26",
+      "von": { "rw": "dora", "pfad": "art/6" },
+      "nach": { "rw": "vag", "pfad": "par/26" },
+      "typ": "geht-weiter",
+      "themen": ["ikt-risikomanagement"],
+      "begruendung": "§ 26 VAG verlangt ein Risikomanagementsystem über sämtliche Risiken, darunter operationelle Risiken. Artikel 6 DORA verlangt darüber hinaus einen eigenständigen, dokumentierten und jährlich zu überprüfenden IKT-Risikomanagementrahmen mit festen Mindestinhalten.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-6-4-vag-29",
+      "von": { "rw": "dora", "pfad": "art/6/abs/4" },
+      "nach": { "rw": "vag", "pfad": "par/29" },
+      "typ": "entspricht",
+      "themen": ["iks", "funktionstrennung"],
+      "begruendung": "Artikel 6 Absatz 4 DORA verlangt die Übertragung von Management und Überwachung des IKT-Risikos auf eine Kontrollfunktion mit angemessener Unabhängigkeit. Das entspricht dem Gedanken des internen Kontrollsystems nach § 29 VAG; die IKT-Risikokontrollfunktion ist dort einzuordnen.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-6-6-vag-30",
+      "von": { "rw": "dora", "pfad": "art/6/abs/6" },
+      "nach": { "rw": "vag", "pfad": "par/30" },
+      "typ": "entspricht",
+      "themen": ["iks", "funktionstrennung"],
+      "begruendung": "Artikel 6 Absatz 6 DORA verlangt die regelmäßige Prüfung des IKT-Risikomanagementrahmens durch die interne Revision nach deren Revisionsplan – die Funktion, die § 30 VAG als Schlüsselfunktion einrichtet.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-vag-32",
+      "von": { "rw": "dora", "pfad": "art/28" },
+      "nach": { "rw": "vag", "pfad": "par/32" },
+      "typ": "spannungsfeld",
+      "themen": ["drittparteien-auslagerung"],
+      "begruendung": "Die Anwendungsbereiche decken sich nicht: § 32 VAG erfasst Ausgliederungen wichtiger Funktionen und Tätigkeiten unabhängig von der IKT, Artikel 28 DORA erfasst jede Nutzung von IKT-Dienstleistungen – auch solche, die keine Ausgliederung im Sinne des VAG sind. In der Praxis sind beide Prüfpfade nebeneinander zu führen und die Begriffe sauber zu trennen.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-30-vag-32",
+      "von": { "rw": "dora", "pfad": "art/30" },
+      "nach": { "rw": "vag", "pfad": "par/32" },
+      "typ": "geht-weiter",
+      "themen": ["drittparteien-auslagerung"],
+      "begruendung": "Artikel 30 DORA zählt Mindestinhalte vertraglicher Vereinbarungen abschließend auf – bis hin zu Ausstiegsstrategien, Zugangs-, Inspektions- und Prüfungsrechten. § 32 VAG bleibt demgegenüber allgemein.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+
+    {
+      "id": "dora-19-dsgvo-33",
+      "von": { "rw": "dora", "pfad": "art/19" },
+      "nach": { "rw": "dsgvo", "pfad": "art/33" },
+      "typ": "ueberschneidet",
+      "themen": ["incident-meldewesen", "datenschutz"],
+      "begruendung": "Ein schwerwiegender IKT-Vorfall kann zugleich eine Verletzung des Schutzes personenbezogener Daten sein. Die Pflichten bestehen unabhängig voneinander: unterschiedliche Auslöser, Empfänger und Fristen. Eine Meldung ersetzt die andere nicht.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dora-9-dsgvo-32",
+      "von": { "rw": "dora", "pfad": "art/9" },
+      "nach": { "rw": "dsgvo", "pfad": "art/32" },
+      "typ": "ueberschneidet",
+      "themen": ["infosec", "datenschutz"],
+      "begruendung": "Beide verlangen dem Risiko angemessene technische und organisatorische Maßnahmen. Artikel 32 DSGVO schützt personenbezogene Daten, Artikel 9 DORA die operationale Resilienz insgesamt; die Maßnahmen überschneiden sich weitgehend.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-30-dsgvo-28",
+      "von": { "rw": "dora", "pfad": "art/30" },
+      "nach": { "rw": "dsgvo", "pfad": "art/28" },
+      "typ": "ueberschneidet",
+      "themen": ["drittparteien-auslagerung", "datenschutz"],
+      "begruendung": "Werden bei der IKT-Dienstleistung personenbezogene Daten verarbeitet, treten die Pflichtinhalte des Auftragsverarbeitungsvertrags nach Artikel 28 DSGVO neben die Vertragsinhalte nach Artikel 30 DORA. Beide Kataloge sind im selben Vertragswerk abzubilden.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+
+    {
+      "id": "rts1774-dora-15",
+      "von": { "rw": "dora-rts-1774" },
+      "nach": { "rw": "dora", "pfad": "art/15" },
+      "typ": "konkretisiert",
+      "themen": ["ikt-risikomanagement", "infosec", "opsec"],
+      "begruendung": "Die Delegierte Verordnung (EU) 2024/1774 füllt den Auftrag aus Artikel 15 DORA aus und legt Tools, Methoden, Prozesse und Richtlinien des IKT-Risikomanagements fest – einschließlich des vereinfachten Rahmens nach Artikel 16.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "rts1772-dora-18",
+      "von": { "rw": "dora-rts-1772" },
+      "nach": { "rw": "dora", "pfad": "art/18" },
+      "typ": "konkretisiert",
+      "themen": ["incident-meldewesen"],
+      "begruendung": "Legt die Kriterien für die Klassifizierung IKT-bezogener Vorfälle und die Wesentlichkeitsschwellen fest, die Artikel 18 DORA verlangt.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "rts301-dora-20",
+      "von": { "rw": "dora-rts-301" },
+      "nach": { "rw": "dora", "pfad": "art/20" },
+      "typ": "konkretisiert",
+      "themen": ["incident-meldewesen"],
+      "begruendung": "Bestimmt Inhalt und Fristen der Erst-, Zwischen- und Abschlussmeldung nach Artikel 19 DORA, für die Artikel 20 die Harmonisierung vorsieht.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "its302-dora-20",
+      "von": { "rw": "dora-its-302" },
+      "nach": { "rw": "dora", "pfad": "art/20" },
+      "typ": "konkretisiert",
+      "themen": ["incident-meldewesen"],
+      "begruendung": "Legt Standardformulare, Vorlagen und Verfahren für die Meldung fest.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "its2956-dora-28-3",
+      "von": { "rw": "dora-its-2956" },
+      "nach": { "rw": "dora", "pfad": "art/28/abs/3" },
+      "typ": "konkretisiert",
+      "themen": ["informationsregister", "drittparteien-auslagerung"],
+      "begruendung": "Gibt die Standardvorlagen für das Informationsregister vor, das Artikel 28 Absatz 3 DORA auf Unternehmens-, teilkonsolidierter und konsolidierter Ebene verlangt.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "rts1773-dora-28-10",
+      "von": { "rw": "dora-rts-1773" },
+      "nach": { "rw": "dora", "pfad": "art/28/abs/10" },
+      "typ": "konkretisiert",
+      "themen": ["drittparteien-auslagerung", "it-governance"],
+      "begruendung": "Artikel 28 Absatz 10 DORA beauftragt die ESA mit technischen Regulierungsstandards zum detaillierten Inhalt der Leitlinie für vertragliche Vereinbarungen über IKT-Dienstleistungen zur Unterstützung kritischer oder wichtiger Funktionen.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "rts532-dora-30-5",
+      "von": { "rw": "dora-rts-532" },
+      "nach": { "rw": "dora", "pfad": "art/30/abs/5" },
+      "typ": "konkretisiert",
+      "themen": ["drittparteien-auslagerung"],
+      "begruendung": "Artikel 30 Absatz 5 DORA beauftragt die ESA, die bei der Untervergabe von IKT-Dienstleistungen zu bestimmenden und zu bewertenden Aspekte zu präzisieren.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "rts1190-dora-26",
+      "von": { "rw": "dora-rts-1190" },
+      "nach": { "rw": "dora", "pfad": "art/26" },
+      "typ": "konkretisiert",
+      "themen": ["resilienztests"],
+      "begruendung": "Legt fest, welche Finanzunternehmen bedrohungsorientierte Penetrationstests durchführen müssen, sowie Anforderungen an Tester, Umfang, Methodik und Phasen der Tests nach Artikel 26 DORA.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dv1502-dora-31",
+      "von": { "rw": "dora-dv-1502" },
+      "nach": { "rw": "dora", "pfad": "art/31" },
+      "typ": "konkretisiert",
+      "themen": ["drittparteien-auslagerung"],
+      "begruendung": "Legt die Kriterien fest, nach denen die ESA IKT-Drittdienstleister gemäß Artikel 31 DORA als kritisch einstufen.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dv1505-dora-43",
+      "von": { "rw": "dora-dv-1505" },
+      "nach": { "rw": "dora", "pfad": "art/43" },
+      "typ": "konkretisiert",
+      "themen": ["drittparteien-auslagerung"],
+      "begruendung": "Bestimmt Höhe und Entrichtung der Überwachungsgebühren, die die federführende Überwachungsbehörde nach Artikel 43 DORA erhebt.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "rts295-dora-41",
+      "von": { "rw": "dora-rts-295" },
+      "nach": { "rw": "dora", "pfad": "art/41" },
+      "typ": "konkretisiert",
+      "themen": ["drittparteien-auslagerung"],
+      "begruendung": "Harmonisiert die Bedingungen für die Durchführung der Überwachungstätigkeiten, für die Artikel 41 DORA technische Regulierungsstandards vorsieht.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "rts420-dora-40",
+      "von": { "rw": "dora-rts-420" },
+      "nach": { "rw": "dora", "pfad": "art/40" },
+      "typ": "konkretisiert",
+      "themen": ["drittparteien-auslagerung"],
+      "begruendung": "Regelt Zusammensetzung, Benennung und Arbeitsweise des gemeinsamen Untersuchungsteams, von dem sich die federführende Überwachungsbehörde nach Artikel 40 DORA bei Überwachungstätigkeiten unterstützen lässt.",
+      "quelle": "amtlich (Rechtsgrundlage des Rechtsakts)",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+
+    {
+      "id": "dora-mago",
+      "von": { "rw": "dora" },
+      "nach": { "rw": "mago-va" },
+      "typ": "ueberschneidet",
+      "themen": ["it-governance", "iks", "ikt-risikomanagement", "drittparteien-auslagerung"],
+      "begruendung": "Die MaGo legt die Verwaltungspraxis der BaFin zur Geschäftsorganisation nach den §§ 23 ff. VAG dar und behandelt dabei auch IT-Themen. Wo DORA unmittelbar gilt, geht sie als Verordnung vor; die MaGo bleibt für die nicht IKT-bezogenen Teile der Geschäftsorganisation maßgeblich. Die Zuordnung auf Abschnittsebene steht noch aus, weil die MaGo bisher nicht im Volltext vorliegt.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-6-iso27001",
+      "von": { "rw": "dora", "pfad": "art/6" },
+      "nach": { "rw": "iso27001" },
+      "typ": "ueberschneidet",
+      "themen": ["ikt-risikomanagement", "infosec"],
+      "begruendung": "Ein nach ISO/IEC 27001 betriebenes Informationssicherheits-Managementsystem deckt wesentliche Teile des IKT-Risikomanagementrahmens ab – Kontext, Führung, Planung, Betrieb, Bewertung und Verbesserung. DORA verlangt darüber hinaus ausdrücklich IKT-bezogene Elemente wie Meldewesen, Resilienztests und Drittparteienmanagement. Die Zuordnung auf Control-Ebene folgt in Phase 3.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "niedrig",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-iso27001",
+      "von": { "rw": "dora", "pfad": "art/28" },
+      "nach": { "rw": "iso27001" },
+      "typ": "ueberschneidet",
+      "themen": ["drittparteien-auslagerung"],
+      "begruendung": "Die Annex-A-Controls zu Lieferantenbeziehungen decken Teile des IKT-Drittparteienrisikomanagements ab, reichen aber nicht an die Vertrags- und Registerpflichten der DORA heran. Zuordnung auf Control-Ebene folgt in Phase 3.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "niedrig",
+      "geprueft": false
+    },
+    {
+      "id": "dora-17-itil4",
+      "von": { "rw": "dora", "pfad": "art/17" },
+      "nach": { "rw": "itil4" },
+      "typ": "ueberschneidet",
+      "themen": ["incident-meldewesen"],
+      "begruendung": "Der Prozess zur Behandlung IKT-bezogener Vorfälle nach Artikel 17 DORA entspricht in Aufbau und Rollen weitgehend der ITIL-Practice zum Incident Management; DORA ergänzt aufsichtliche Klassifizierung und Meldung. Zuordnung auf Practice-Ebene folgt in Phase 3.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "niedrig",
+      "geprueft": false
+    },
+    {
+      "id": "dora-9-cobit",
+      "von": { "rw": "dora", "pfad": "art/9" },
+      "nach": { "rw": "cobit2019" },
+      "typ": "ueberschneidet",
+      "themen": ["infosec", "opsec"],
+      "begruendung": "Die COBIT-Objectives zu Sicherheitsdiensten und zum Änderungsmanagement decken Teile der Schutz- und Präventionsanforderungen ab. Zuordnung auf Objective-Ebene folgt in Phase 3.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "niedrig",
+      "geprueft": false
+    },
+    {
+      "id": "dora-26-tiber",
+      "von": { "rw": "dora", "pfad": "art/26" },
+      "nach": { "rw": "tiber-de" },
+      "typ": "entspricht",
+      "themen": ["resilienztests"],
+      "begruendung": "TIBER-DE ist das in Deutschland etablierte Rahmenwerk für bedrohungsgeleitete Tests; die TLPT-Anforderungen der DORA bauen auf demselben Vorgehensmodell auf. Ob ein nach TIBER-DE durchgeführter Test die DORA-Anforderungen vollständig erfüllt, ist im Einzelfall zu prüfen.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "vag-32-idw951",
+      "von": { "rw": "vag", "pfad": "par/32" },
+      "nach": { "rw": "idw-ps951" },
+      "typ": "ueberschneidet",
+      "themen": ["drittparteien-auslagerung", "iks"],
+      "begruendung": "Berichte nach IDW PS 951 bzw. ISAE 3402 sind das übliche Nachweismittel für die Wirksamkeit von Kontrollen beim Dienstleister und damit ein Baustein der Überwachung ausgegliederter Funktionen.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    }
+  ]
+}

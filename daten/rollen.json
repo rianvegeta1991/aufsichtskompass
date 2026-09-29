@@ -1,0 +1,94 @@
+{
+  "stand": "2026-09-29",
+  "hinweis": "Zuordnung von Anforderungen zu Rollen und zu den drei Verteidigungslinien. Die Rollenzuschnitte sind in den Regelwerken nicht durchgängig vorgegeben – DORA benennt das Leitungsorgan und eine Kontrollfunktion, das VAG die Schlüsselfunktionen; alles Weitere ist unternehmensindividuell. Diese Matrix ist daher eine begründete Arbeitsgrundlage, keine Rechtsauskunft.",
+  "geprueft": false,
+  "legende": {
+    "R": "führt durch",
+    "A": "rechenschaftspflichtig",
+    "C": "wird einbezogen",
+    "I": "wird informiert"
+  },
+  "rollen": [
+    { "id": "leitungsorgan", "name": "Leitungsorgan", "linie": "Aufsicht", "kurz": "Trägt nach Artikel 5 DORA die Letztverantwortung für das IKT-Risiko." },
+    { "id": "ikt-kontrolle", "name": "IKT-Risikokontrollfunktion", "linie": "2", "kurz": "Kontrollfunktion nach Artikel 6 Absatz 4 DORA." },
+    { "id": "risikomanagement", "name": "Risikomanagementfunktion", "linie": "2", "kurz": "Schlüsselfunktion nach § 26 VAG." },
+    { "id": "compliance", "name": "Compliance-Funktion", "linie": "2", "kurz": "Schlüsselfunktion nach § 29 VAG." },
+    { "id": "revision", "name": "Interne Revision", "linie": "3", "kurz": "Schlüsselfunktion nach § 30 VAG." },
+    { "id": "isb", "name": "Informationssicherheitsbeauftragter", "linie": "2", "kurz": "In den Regelwerken nicht zwingend vorgegeben, in der Praxis üblich." },
+    { "id": "dsb", "name": "Datenschutzbeauftragter", "linie": "2", "kurz": "Nach Artikel 37 ff. DSGVO." },
+    { "id": "auslagerung", "name": "Auslagerungsmanagement", "linie": "2", "kurz": "Zentrale Steuerung von Ausgliederungen und IKT-Dienstleistungen." },
+    { "id": "fachbereich", "name": "Fachbereiche und IT-Betrieb", "linie": "1", "kurz": "Führen die Prozesse und Kontrollen im Tagesgeschäft." }
+  ],
+  "anforderungen": [
+    {
+      "name": "IKT-Strategie und IKT-Risikomanagementrahmen genehmigen und überwachen",
+      "rw": "dora", "pfad": "art/5",
+      "raci": { "leitungsorgan": "A", "ikt-kontrolle": "R", "risikomanagement": "C", "revision": "I", "fachbereich": "I" }
+    },
+    {
+      "name": "IKT-Risikomanagementrahmen aufstellen, dokumentieren, jährlich überprüfen",
+      "rw": "dora", "pfad": "art/6",
+      "raci": { "leitungsorgan": "A", "ikt-kontrolle": "R", "risikomanagement": "C", "isb": "C", "revision": "I" }
+    },
+    {
+      "name": "Management und Überwachung des IKT-Risikos einer Kontrollfunktion übertragen",
+      "rw": "dora", "pfad": "art/6/abs/4",
+      "raci": { "leitungsorgan": "A", "ikt-kontrolle": "R", "compliance": "C" }
+    },
+    {
+      "name": "IKT-Risikomanagementrahmen durch die interne Revision prüfen lassen",
+      "rw": "dora", "pfad": "art/6/abs/6",
+      "raci": { "revision": "R", "leitungsorgan": "A", "ikt-kontrolle": "C" }
+    },
+    {
+      "name": "IKT-Assets identifizieren und klassifizieren",
+      "rw": "dora", "pfad": "art/8",
+      "raci": { "fachbereich": "R", "ikt-kontrolle": "A", "isb": "C", "auslagerung": "C" }
+    },
+    {
+      "name": "Schutz- und Präventionsmaßnahmen betreiben",
+      "rw": "dora", "pfad": "art/9",
+      "raci": { "fachbereich": "R", "isb": "A", "ikt-kontrolle": "C", "revision": "I" }
+    },
+    {
+      "name": "Backup- und Wiederherstellungsverfahren festlegen und testen",
+      "rw": "dora", "pfad": "art/12",
+      "raci": { "fachbereich": "R", "ikt-kontrolle": "A", "revision": "I" }
+    },
+    {
+      "name": "IKT-Vorfälle behandeln, klassifizieren und melden",
+      "rw": "dora", "pfad": "art/19",
+      "raci": { "ikt-kontrolle": "R", "leitungsorgan": "A", "compliance": "C", "dsb": "C", "fachbereich": "C" }
+    },
+    {
+      "name": "Programm für Resilienztests aufstellen und durchführen",
+      "rw": "dora", "pfad": "art/24",
+      "raci": { "ikt-kontrolle": "R", "leitungsorgan": "A", "isb": "C", "revision": "I" }
+    },
+    {
+      "name": "Informationsregister führen und aktuell halten",
+      "rw": "dora", "pfad": "art/28/abs/3",
+      "raci": { "auslagerung": "R", "leitungsorgan": "A", "ikt-kontrolle": "C", "fachbereich": "C" }
+    },
+    {
+      "name": "Vertragliche Vereinbarungen über IKT-Dienstleistungen gestalten und überwachen",
+      "rw": "dora", "pfad": "art/30",
+      "raci": { "auslagerung": "R", "compliance": "C", "dsb": "C", "leitungsorgan": "A", "revision": "I" }
+    },
+    {
+      "name": "Ausgliederung wichtiger Funktionen nach VAG steuern und anzeigen",
+      "rw": "vag", "pfad": "par/32",
+      "raci": { "auslagerung": "R", "leitungsorgan": "A", "compliance": "C", "risikomanagement": "C", "revision": "I" }
+    },
+    {
+      "name": "Internes Kontrollsystem einrichten und wirksam halten",
+      "rw": "vag", "pfad": "par/29",
+      "raci": { "fachbereich": "R", "compliance": "A", "leitungsorgan": "A", "revision": "I" }
+    },
+    {
+      "name": "Verletzung des Schutzes personenbezogener Daten melden",
+      "rw": "dsgvo", "pfad": "art/33",
+      "raci": { "dsb": "R", "leitungsorgan": "A", "ikt-kontrolle": "C", "compliance": "C" }
+    }
+  ]
+}

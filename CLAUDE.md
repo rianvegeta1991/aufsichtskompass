@@ -93,6 +93,36 @@ Indexbau. Ein dritter Konnektor braucht deshalb nur Abruf und Parser.
   solchen Auszug entfernt `aufraeumen()` die leeren Gliederungsäste – sonst stünden beim
   HGB 92 Kapitel ohne Inhalt im Baum – und Anlagen bleiben außen vor.
 
+## Interdependenzen (Phase 4)
+
+**Zwei Sorten Beziehungen, streng getrennt** – das ist der Kern:
+
+| Datei | Herkunft | Inhalt |
+|---|---|---|
+| `daten/beziehungen.json` | redaktionell, von Hand | Typ, **Begründung**, Quelle der Zuordnung, Konfidenz, Prüfstatus |
+| `daten/verweise.json` | `kompass verweise` aus dem Wortlaut | rund 2.700 belegte Verweise, jeder mit seiner Textstelle |
+
+Was sich aus dem Text ergibt, wird **belegt**, nicht bewertet: Der Extraktor erkennt
+„Artikel 6 Absatz 1", „§ 23 Absatz 1" und „Artikel 6 der Verordnung (EU) 2022/2554",
+ordnet den Rechtsakt über die CELEX-Nummern des Katalogs zu und übernimmt einen Verweis
+**nur, wenn das Ziel im Bestand existiert**. Verweise ins Leere wären schlimmer als keine.
+Fachliche Beziehungen (entspricht, konkretisiert, lex specialis, Spannungsfeld) kann kein
+Muster finden – die stehen redaktionell daneben, jede mit Begründung.
+
+Weitere redaktionelle Dateien: `themenzuordnung.json` (Fundstelle → Thema),
+`meldepflichten.json` (DORA / BSIG / DSGVO nebeneinander, jede Angabe mit Fundstelle),
+`rollen.json` (RACI und drei Verteidigungslinien).
+
+**`kompass pruefen` prüft diese Dateien gegen den Bestand**: Jeder Pfad muss existieren,
+jedes Thema und jeder Beziehungstyp bekannt sein, jede Beziehung eine Begründung tragen.
+Ein Tippfehler in `par/29` fällt damit beim Lauf auf und nicht erst als leere Stelle in der App.
+
+Darstellung: `#/matrizen` mit sechs Ansichten (Mapping-Matrix, Heatmap, Meldepflichten,
+Rollen, Graph, Zeitstrahl), jeweils mit CSV-Export. **In jeder Zelle steht eine Zahl oder
+ein Zeichen** – Farbe ist immer nur Zugabe. Die Heatmap stuft deshalb die Helligkeit eines
+Farbtons statt einen Ampelverlauf zu nutzen, und die Matrixzellen tragen die Typzeichen
+(`=`, `⊂`, `∩`, `>`, `≠`, `§`) neben der Zahl.
+
 ## Deep-Links
 
 Adressen laufen über den Hash, weil GitHub Pages keine Pfade auf `index.html` umschreiben kann:
@@ -177,6 +207,11 @@ Mit Reitern beginnt der Text bei 341 px.
 - **CSS-Übergänge laufen in einem versteckten Fenster nicht.** `getComputedStyle` liefert dann
   dauerhaft den Startwert – die Schublade sah dadurch aus, als ginge sie nicht auf, obwohl die
   Regeln stimmten. Gegenprobe: `document.visibilityState` prüfen oder `transition: none` setzen.
+- **Keine Backslashes durch Bash-Heredocs schicken.** Der Bash-Aufruf entschärft sie eine
+  Ebene zu viel: aus `\r\n` im Patch-Skript wurde ein echter Zeilenumbruch mitten im
+  JavaScript-String – die Datei war syntaktisch kaputt, und der Browser meldete nur
+  „Invalid regular expression". Patch-Skripte mit Escapes gehören als Datei ins
+  Scratchpad und werden von dort ausgeführt.
 - **Beim Patchen per Skript erst lesen, dann schreiben.** `open(p,'w')` in derselben Zeile wie
   `open(p).read()` leert die Datei, bevor gelesen wird – so gingen `app.js` und `sw.js` einmal
   komplett verloren (aus dem letzten Commit wiederhergestellt). Die Hilfsskripte im
@@ -193,7 +228,8 @@ auch wirklich Text hat).
 
 ## Stand und offene Punkte
 
-Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht) und Phase 2b (deutsche Gesetze) –
+Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht), Phase 2b (deutsche Gesetze) und
+Phase 4 (Themenseiten, Beziehungen, Matrizen) –
 **20 Regelwerke im Volltext mit rund 3.750 adressierbaren Fundstellen**: DORA (DE/EN),
 die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und BDSG vollständig sowie HGB
 und AO als IT-relevanter Auszug. Viewer mit Gliederungsbaum, Deep-Links, Glossar aus den
@@ -201,6 +237,10 @@ Begriffsbestimmungen, Zitat-Export, Lesezeichen und Notizen, BM25-Suche über be
 Rechtskreise. Seit v1.1 das mobile Format (siehe oben): geprüft auf 320, 375, 768 und
 1440 px – kein Querscrollen, keine Tap-Ziele unter 40 px, WCAG-AA-Kontraste in beiden
 Erscheinungsbildern.
+
+Dazu seit v1.3: 22 Themenseiten mit Zielbild, Fundstellentabelle, Prüfungsschwerpunkten
+und Nachweisen; 32 fachliche Beziehungen mit Begründung; rund 2.700 belegte Verweise;
+sechs Matrix-Ansichten mit CSV-Export; Beziehungen im Kontext-Panel des Viewers.
 
 Offen, in dieser Reihenfolge sinnvoll:
 
@@ -213,14 +253,18 @@ Offen, in dieser Reihenfolge sinnvoll:
    40 Objectives, ITIL 4 mit 34 Practices, CSA CCM; grob C5, NIST CSF 2.0, GDV). Das ist vor allem
    Schreibarbeit und braucht mehrere Sitzungen. Pflicht je Eintrag: eigene Worte, Bezugsfassung,
    Herkunft, Prüfstatus und der sichtbare Hinweis „Eigene Zusammenfassung – ersetzt nicht das Original".
-3. **Phase 4** – Relation-Modell und Matrizen. Jetzt besonders ergiebig: DORA ↔ VAG ↔ BSIG
-   liegen alle im Volltext vor, die Mappings lassen sich auf Absatzebene verankern.
+3. **Phase 4 vertiefen** – die Beziehungen zu MaGo, ISO 27001, COBIT und ITIL hängen bisher
+   am ganzen Regelwerk und tragen die Konfidenz „niedrig", weil diese Werke noch keine
+   Fundstellen haben. Mit Phase 3 lassen sie sich auf Control- bzw. Abschnittsebene
+   verankern. Ebenfalls offen: XLSX- und PDF-Export (zurzeit CSV und Druckansicht).
 4. **Phase 5** – Screening (Feeds, Seitenüberwachung, GDELT, Taxonomie, Digest) als Actions-Lauf
    um 06:30 Europe/Berlin; GitHub-Cron läuft in UTC, die Sommerzeit muss das Werkzeug prüfen.
 
-Hinweis zum Umfang: Die Suchindizes sind zusammen 2,55 MB (0,63 MB gzip, 4.131 Dokumente)
-und werden bei der ersten Suche vollständig geladen. Wächst der Bestand deutlich weiter,
-sollte die Suche die Indizes nach Relevanz gestaffelt nachladen.
+Hinweis zum Umfang: Die Suchindizes sind zusammen rund 2,6 MB (0,6 MB gzip) und werden bei
+der ersten Suche vollständig geladen. `verweise.json` ist rund 800 KB groß und wird deshalb
+**erst auf Anforderung** geholt – in der Matrix über einen Knopf, im Viewer über „Belegte
+Verweise laden". Wächst der Bestand deutlich weiter, sollten beide nach Relevanz gestaffelt
+nachgeladen werden.
 
 ## Rechtliches
 

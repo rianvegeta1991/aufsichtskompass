@@ -1,0 +1,84 @@
+{
+  "stand": "2026-09-29",
+  "hinweis": "Meldepflichten nebeneinander. Jede Angabe ist mit der Fundstelle belegt, aus der sie stammt. Für Versicherungsunternehmen gilt: DORA verdrängt die Meldepflicht des BSIG (§ 28 Absatz 6 BSIG), die DSGVO-Meldung besteht unabhängig daneben.",
+  "geprueft": false,
+  "spalten": [
+    { "id": "dora", "name": "DORA – schwerwiegender IKT-Vorfall", "rw": "dora", "gilt": "unmittelbar für Versicherungsunternehmen" },
+    { "id": "bsig", "name": "BSIG / NIS2 – erheblicher Sicherheitsvorfall", "rw": "bsig", "gilt": "für Finanzunternehmen ausgenommen" },
+    { "id": "dsgvo", "name": "DSGVO – Verletzung des Schutzes personenbezogener Daten", "rw": "dsgvo", "gilt": "unabhängig daneben" }
+  ],
+  "zeilen": [
+    {
+      "merkmal": "Auslöser",
+      "zellen": {
+        "dora": { "text": "Ein als schwerwiegend eingestufter IKT-bezogener Vorfall; erhebliche Cyberbedrohungen können freiwillig gemeldet werden.", "rw": "dora", "pfad": "art/19" },
+        "bsig": { "text": "Erheblicher Sicherheitsvorfall bei einer besonders wichtigen oder wichtigen Einrichtung.", "rw": "bsig", "pfad": "par/32" },
+        "dsgvo": { "text": "Verletzung des Schutzes personenbezogener Daten – außer sie führt voraussichtlich nicht zu einem Risiko für die Rechte und Freiheiten natürlicher Personen.", "rw": "dsgvo", "pfad": "art/33" }
+      }
+    },
+    {
+      "merkmal": "Einstufung",
+      "zellen": {
+        "dora": { "text": "Nach den Kriterien und Wesentlichkeitsschwellen des Artikels 18, ausgeführt durch die Delegierte Verordnung (EU) 2024/1772.", "rw": "dora", "pfad": "art/18" },
+        "bsig": { "text": "Erheblichkeit nach den Vorgaben des § 32 BSIG.", "rw": "bsig", "pfad": "par/32" },
+        "dsgvo": { "text": "Risikobewertung für die Rechte und Freiheiten der betroffenen Personen.", "rw": "dsgvo", "pfad": "art/33" }
+      }
+    },
+    {
+      "merkmal": "Empfänger",
+      "zellen": {
+        "dora": { "text": "Die nach Artikel 46 zuständige Behörde – für Versicherungsunternehmen die BaFin.", "rw": "dora", "pfad": "art/19/abs/1" },
+        "bsig": { "text": "Gemeinsame Meldestelle von BSI und Bundesamt für Bevölkerungsschutz und Katastrophenhilfe.", "rw": "bsig", "pfad": "par/32" },
+        "dsgvo": { "text": "Zuständige Datenschutz-Aufsichtsbehörde.", "rw": "dsgvo", "pfad": "art/33/abs/1" }
+      }
+    },
+    {
+      "merkmal": "Erstmeldung",
+      "zellen": {
+        "dora": { "text": "Innerhalb von vier Stunden nach Einstufung als schwerwiegend, spätestens 24 Stunden nach Kenntniserlangung.", "rw": "dora-rts-301", "pfad": "art/5" },
+        "bsig": { "text": "Unverzüglich, spätestens 24 Stunden nach Kenntniserlangung (frühe Erstmeldung).", "rw": "bsig", "pfad": "par/32/abs/1" },
+        "dsgvo": { "text": "Unverzüglich, möglichst binnen 72 Stunden, nachdem die Verletzung bekannt wurde.", "rw": "dsgvo", "pfad": "art/33/abs/1" }
+      }
+    },
+    {
+      "merkmal": "Zwischenmeldung",
+      "zellen": {
+        "dora": { "text": "Spätestens 72 Stunden nach Übermittlung der Erstmeldung.", "rw": "dora-rts-301", "pfad": "art/5" },
+        "bsig": { "text": "Meldung binnen 72 Stunden; darüber hinaus Zwischenmeldung auf Ersuchen des BSI.", "rw": "bsig", "pfad": "par/32/abs/1" },
+        "dsgvo": { "text": "Nicht vorgesehen; Informationen können schrittweise nachgereicht werden.", "rw": "dsgvo", "pfad": "art/33/abs/4" }
+      }
+    },
+    {
+      "merkmal": "Abschlussmeldung",
+      "zellen": {
+        "dora": { "text": "Spätestens einen Monat nach Übermittlung der Zwischenmeldung.", "rw": "dora-rts-301", "pfad": "art/5" },
+        "bsig": { "text": "Spätestens einen Monat nach Übermittlung der Meldung des Sicherheitsvorfalls.", "rw": "bsig", "pfad": "par/32/abs/1" },
+        "dsgvo": { "text": "Nicht vorgesehen.", "rw": "dsgvo", "pfad": "art/33" }
+      }
+    },
+    {
+      "merkmal": "Information Betroffener",
+      "zellen": {
+        "dora": { "text": "Kunden sind unverzüglich zu unterrichten, wenn der Vorfall Auswirkungen auf ihre finanziellen Interessen hat.", "rw": "dora", "pfad": "art/19/abs/3" },
+        "bsig": { "text": "Unterrichtung der Empfänger der Dienste nach Maßgabe des BSIG.", "rw": "bsig", "pfad": "par/32" },
+        "dsgvo": { "text": "Benachrichtigung der betroffenen Personen, wenn voraussichtlich ein hohes Risiko für ihre Rechte und Freiheiten besteht.", "rw": "dsgvo", "pfad": "art/34" }
+      }
+    },
+    {
+      "merkmal": "Form und Inhalt",
+      "zellen": {
+        "dora": { "text": "Inhalte nach der Delegierten Verordnung (EU) 2025/301, Formulare und Verfahren nach der Durchführungsverordnung (EU) 2025/302.", "rw": "dora-its-302", "pfad": "art/1" },
+        "bsig": { "text": "Nach den Vorgaben der gemeinsamen Meldestelle.", "rw": "bsig", "pfad": "par/32" },
+        "dsgvo": { "text": "Mindestinhalte nach Artikel 33 Absatz 3; jede Verletzung ist zu dokumentieren.", "rw": "dsgvo", "pfad": "art/33/abs/5" }
+      }
+    },
+    {
+      "merkmal": "Vorrang",
+      "zellen": {
+        "dora": { "text": "Geht für Finanzunternehmen den Meldepflichten des BSIG vor.", "rw": "dora", "pfad": "art/19" },
+        "bsig": { "text": "§ 28 Absatz 6 Nummer 1 BSIG nimmt Finanzunternehmen im Sinne des Artikels 2 Absatz 2 DORA von § 32 aus.", "rw": "bsig", "pfad": "par/28/abs/6" },
+        "dsgvo": { "text": "Besteht unabhängig von DORA und BSIG; eine Meldung ersetzt die andere nicht.", "rw": "dsgvo", "pfad": "art/33" }
+      }
+    }
+  ]
+}

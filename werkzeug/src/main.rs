@@ -14,6 +14,7 @@ mod cellar;
 mod gii;
 mod modell;
 mod suche;
+mod verweise;
 
 use anyhow::{Context, Result, bail};
 use chrono::{DateTime, Utc};
@@ -44,8 +45,12 @@ fn lauf() -> Result<()> {
     match befehl {
         "abruf" => abruf(&daten, wert("--rw").as_deref(), schalter("--erzwingen")),
         "index" => {
-            let n = alle_indizes(&daten)?;
-            println!("{n} Indexdateien gebaut.");
+            ableiten(&daten)?;
+            Ok(())
+        }
+        "verweise" => {
+            let n = verweise_bauen(&daten)?;
+            println!("{n} belegte Verweise gefunden.");
             Ok(())
         }
         "pruefen" => pruefen(&daten),
@@ -54,7 +59,8 @@ fn lauf() -> Result<()> {
                 "kompass <befehl>\n\
                  \n\
                    abruf [--rw <id>] [--erzwingen]  Quellen abrufen, neue Fassungen uebernehmen\n\
-                   index                            Suchindizes aus den vorhandenen Daten bauen\n\
+                   index                            Suchindizes und Verweise neu bauen\n\
+                   verweise                         nur die Verweise aus den Texten sammeln\n\
                    pruefen                          Datenbestand auf Konsistenz pruefen\n\
                  \n\
                  Gemeinsame Schalter: --daten <pfad> (Standard: ../daten bzw. daten)"
@@ -339,8 +345,7 @@ fn uebernehmen(daten: &Path, u: Uebernahme, erzwingen: bool) -> Result<()> {
         register.fassungen[n].fundstellen = texte.len();
         schreib_json(&reg_pfad, &register, true)?;
         println!("[{rw}] Fassung {fassung_id} neu erzeugt: {} Fundstellen.", texte.len());
-        let n = alle_indizes(daten)?;
-        println!("[{rw}] {n} Indexdateien gebaut.");
+        ableiten(daten)?;
         return Ok(());
     }
 
@@ -406,8 +411,7 @@ fn uebernehmen(daten: &Path, u: Uebernahme, erzwingen: bool) -> Result<()> {
     log.ereignisse.push(ereignis);
     schreib_json(&log_pfad, &log, true)?;
 
-    let n = alle_indizes(daten)?;
-    println!("[{rw}] {n} Indexdateien gebaut.");
+    ableiten(daten)?;
     Ok(())
 }
 
@@ -418,6 +422,74 @@ fn texte_aus(roh: &BTreeMap<String, Vec<Block>>) -> Textdatei {
         aus.insert(id.clone(), fundstelle(bloecke.clone()));
     }
     aus
+}
+
+// ------------------------------------------------------------------ Ableitungen
+
+/// Alles, was sich aus dem Bestand ergibt: Suchindizes und die belegten Verweise.
+fn ableiten(daten: &Path) -> Result<()> {
+    let n = alle_indizes(daten)?;
+    let v = verweise_bauen(daten)?;
+    println!("  {n} Indexdateien, {v} belegte Verweise.");
+    Ok(())
+}
+
+/// Sammelt die Verweise aus allen aktuellen Fassungen.
+fn verweise_bauen(daten: &Path) -> Result<usize> {
+    let katalog: serde_json::Value = lies_json(&daten.join("regelwerke.json"))?;
+    let mut strukturen: BTreeMap<String, Struktur> = BTreeMap::new();
+    let mut texte: BTreeMap<String, Textdatei> = BTreeMap::new();
+
+    let rw_ordner = daten.join("rw");
+    if !rw_ordner.is_dir() {
+        return Ok(0);
+    }
+    let mut ordner: Vec<PathBuf> = std::fs::read_dir(&rw_ordner)?
+        .filter_map(|e| e.ok().map(|e| e.path()))
+        .filter(|p| p.is_dir())
+        .collect();
+    ordner.sort();
+    for p in ordner {
+        let reg_pfad = p.join("fassungen.json");
+        if !reg_pfad.exists() {
+            continue;
+        }
+        let register: Fassungsregister = lies_json(&reg_pfad)?;
+        let Some(aktuell) = register.fassungen.last() else { continue };
+        let ord = p.join(&aktuell.id);
+        let struktur: Struktur = lies_json(&ord.join("struktur.json"))?;
+        let leitsprache = struktur.sprachen.first().cloned().unwrap_or_else(|| "de".into());
+        let t: Textdatei = lies_json(&ord.join(format!("text-{leitsprache}.json")))?;
+        texte.insert(struktur.regelwerk.clone(), t);
+        strukturen.insert(struktur.regelwerk.clone(), struktur);
+    }
+
+    let bestand = verweise::bestand(&katalog, &strukturen);
+    let muster = verweise::Muster::neu();
+    let mut alle = Vec::new();
+    for (rw, struktur) in &strukturen {
+        let Some(t) = texte.get(rw) else { continue };
+        alle.extend(verweise::finde(rw, struktur, t, &bestand, &muster));
+    }
+
+    // Zaehlung je Regelwerkspaar - die Mapping-Matrix liest sie direkt.
+    let mut paare: BTreeMap<String, usize> = BTreeMap::new();
+    for v in &alle {
+        *paare.entry(format!("{}|{}", v.von.rw, v.nach.rw)).or_insert(0) += 1;
+    }
+
+    schreib_json(
+        &daten.join("verweise.json"),
+        &serde_json::json!({
+            "gebaut": jetzt(),
+            "hinweis": "Automatisch aus dem Wortlaut der Texte gewonnen; jede Beziehung traegt ihren Beleg. \
+                        Fachliche Beziehungen stehen redaktionell in beziehungen.json.",
+            "paare": paare,
+            "verweise": alle,
+        }),
+        false,
+    )?;
+    Ok(alle.len())
 }
 
 // ---------------------------------------------------------------------- Index
@@ -580,6 +652,122 @@ fn pruefen(daten: &Path) -> Result<()> {
         }
     }
 
+    // Redaktionelle Zuordnungen gegen den Bestand pruefen: ein Pfad, den es nicht gibt,
+    // faellt sonst erst in der App auf - und dort nur als leere Stelle.
+    let mut pfade: BTreeMap<String, BTreeSet<String>> = BTreeMap::new();
+    if rw_ordner.is_dir() {
+        for e in std::fs::read_dir(&rw_ordner)? {
+            let p = e?.path();
+            let reg_pfad = p.join("fassungen.json");
+            if !p.is_dir() || !reg_pfad.exists() {
+                continue;
+            }
+            let register: Fassungsregister = lies_json(&reg_pfad)?;
+            let Some(aktuell) = register.fassungen.last() else { continue };
+            let struktur: Struktur = lies_json(&p.join(&aktuell.id).join("struktur.json"))?;
+            let mut menge = BTreeSet::new();
+            sammle_alle_pfade(&struktur.knoten, &mut menge);
+            pfade.insert(struktur.regelwerk.clone(), menge);
+        }
+    }
+
+    let themen: serde_json::Value = lies_json(&daten.join("themen.json"))?;
+    let themen_ids: BTreeSet<String> = themen["themen"]
+        .as_array()
+        .map(|a| a.iter().filter_map(|t| t["id"].as_str().map(String::from)).collect())
+        .unwrap_or_default();
+
+    let mut pruefe_stelle = |quelle: &str, rw: &str, pfad: Option<&str>, fehler: &mut Vec<String>| {
+        if !ids.contains(rw) {
+            fehler.push(format!("{quelle}: unbekanntes Regelwerk '{rw}'"));
+            return;
+        }
+        let Some(p) = pfad else { return }; // Bezug auf das ganze Regelwerk ist zulaessig
+        match pfade.get(rw) {
+            Some(menge) if menge.contains(p) => {}
+            Some(_) => fehler.push(format!("{quelle}: {rw} hat keine Fundstelle '{p}'")),
+            None => fehler.push(format!("{quelle}: {rw} hat noch keinen Volltext, Pfad '{p}' nicht pruefbar")),
+        }
+    };
+
+    let mut zaehler = (0, 0, 0, 0);
+    if daten.join("themenzuordnung.json").exists() {
+        let z: serde_json::Value = lies_json(&daten.join("themenzuordnung.json"))?;
+        for e in z["zuordnungen"].as_array().unwrap_or(&vec![]) {
+            zaehler.0 += 1;
+            let rw = e["rw"].as_str().unwrap_or("");
+            pruefe_stelle("themenzuordnung.json", rw, e["pfad"].as_str(), &mut fehler);
+            for t in e["themen"].as_array().unwrap_or(&vec![]) {
+                let t = t.as_str().unwrap_or("");
+                if !themen_ids.contains(t) {
+                    fehler.push(format!("themenzuordnung.json: unbekanntes Thema '{t}'"));
+                }
+            }
+        }
+    }
+    if daten.join("beziehungen.json").exists() {
+        let b: serde_json::Value = lies_json(&daten.join("beziehungen.json"))?;
+        let typen: BTreeSet<String> = b["typen"]
+            .as_object()
+            .map(|o| o.keys().cloned().collect())
+            .unwrap_or_default();
+        for e in b["beziehungen"].as_array().unwrap_or(&vec![]) {
+            zaehler.1 += 1;
+            for seite in ["von", "nach"] {
+                pruefe_stelle(
+                    "beziehungen.json",
+                    e[seite]["rw"].as_str().unwrap_or(""),
+                    e[seite]["pfad"].as_str(),
+                    &mut fehler,
+                );
+            }
+            let typ = e["typ"].as_str().unwrap_or("");
+            if !typen.contains(typ) {
+                fehler.push(format!("beziehungen.json: unbekannter Typ '{typ}'"));
+            }
+            if e["begruendung"].as_str().unwrap_or("").len() < 40 {
+                fehler.push(format!(
+                    "beziehungen.json: '{}' ohne tragfaehige Begruendung",
+                    e["id"].as_str().unwrap_or("?")
+                ));
+            }
+        }
+    }
+    if daten.join("meldepflichten.json").exists() {
+        let m: serde_json::Value = lies_json(&daten.join("meldepflichten.json"))?;
+        for zeile in m["zeilen"].as_array().unwrap_or(&vec![]) {
+            for (_, zelle) in zeile["zellen"].as_object().into_iter().flatten() {
+                zaehler.2 += 1;
+                pruefe_stelle(
+                    "meldepflichten.json",
+                    zelle["rw"].as_str().unwrap_or(""),
+                    zelle["pfad"].as_str(),
+                    &mut fehler,
+                );
+            }
+        }
+    }
+    if daten.join("rollen.json").exists() {
+        let r: serde_json::Value = lies_json(&daten.join("rollen.json"))?;
+        let rollen: BTreeSet<String> = r["rollen"]
+            .as_array()
+            .map(|a| a.iter().filter_map(|x| x["id"].as_str().map(String::from)).collect())
+            .unwrap_or_default();
+        for a in r["anforderungen"].as_array().unwrap_or(&vec![]) {
+            zaehler.3 += 1;
+            pruefe_stelle("rollen.json", a["rw"].as_str().unwrap_or(""), a["pfad"].as_str(), &mut fehler);
+            for (rolle, _) in a["raci"].as_object().into_iter().flatten() {
+                if !rollen.contains(rolle) {
+                    fehler.push(format!("rollen.json: unbekannte Rolle '{rolle}'"));
+                }
+            }
+        }
+    }
+    println!(
+        "{} Themenzuordnungen, {} fachliche Beziehungen, {} Matrixfelder, {} Rollenanforderungen geprueft.",
+        zaehler.0, zaehler.1, zaehler.2, zaehler.3
+    );
+
     if fehler.is_empty() {
         println!("Pruefung ohne Befund.");
         Ok(())
@@ -588,6 +776,15 @@ fn pruefen(daten: &Path) -> Result<()> {
             eprintln!("  ! {f}");
         }
         bail!("{} Befunde", fehler.len())
+    }
+}
+
+fn sammle_alle_pfade(kn: &[Knoten], aus: &mut BTreeSet<String>) {
+    for k in kn {
+        if let Some(p) = &k.pfad {
+            aus.insert(p.clone());
+        }
+        sammle_alle_pfade(&k.kinder, aus);
     }
 }
 

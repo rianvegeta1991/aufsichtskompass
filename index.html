@@ -42,6 +42,10 @@
   --color-danger-soft: #fbe9ec;
   --color-info: #215c8a;
   --color-info-soft: #e7f0f7;
+  --hitze-1: #e6ebef;
+  --hitze-2: #cbd7de;
+  --hitze-3: #a9bdc8;
+  --hitze-4: #86a3b2;
   --schatten: 0 1px 2px rgba(20, 25, 30, .06), 0 2px 8px rgba(20, 25, 30, .05);
   --schatten-stark: 0 8px 28px rgba(20, 25, 30, .16);
   --radius: 10px;
@@ -80,6 +84,10 @@
   --color-danger-soft: #2c161b;
   --color-info: #79b3dd;
   --color-info-soft: #14212c;
+  --hitze-1: #1d262c;
+  --hitze-2: #26343d;
+  --hitze-3: #31454f;
+  --hitze-4: #3e5764;
   --schatten: 0 1px 2px rgba(0, 0, 0, .5), 0 2px 10px rgba(0, 0, 0, .35);
   --schatten-stark: 0 10px 34px rgba(0, 0, 0, .55);
 }
@@ -107,7 +115,11 @@
     --color-danger-soft: #2c161b;
     --color-info: #79b3dd;
     --color-info-soft: #14212c;
-    --schatten: 0 1px 2px rgba(0, 0, 0, .5), 0 2px 10px rgba(0, 0, 0, .35);
+    --hitze-1: #1d262c;
+  --hitze-2: #26343d;
+  --hitze-3: #31454f;
+  --hitze-4: #3e5764;
+  --schatten: 0 1px 2px rgba(0, 0, 0, .5), 0 2px 10px rgba(0, 0, 0, .35);
     --schatten-stark: 0 10px 34px rgba(0, 0, 0, .55);
   }
 }
@@ -338,6 +350,78 @@ table.liste tbody tr:hover { background: var(--color-surface-alt); }
   width: 100%; min-height: 78px; padding: 8px; font: inherit; font-size: .86rem;
   border: 1px solid var(--color-border-strong); border-radius: var(--radius-klein);
   background: var(--color-surface-alt); color: var(--color-text); resize: vertical;
+}
+
+/* ------------------------------------------------------------------- Matrizen */
+/* Grundsatz: In jeder Zelle steht eine Zahl oder ein Zeichen. Farbe stuft nur die
+   Helligkeit eines Farbtons und traegt die Aussage nie allein - das bleibt auch bei
+   Rot-Gruen-Schwaeche und im Ausdruck lesbar. */
+.reiter.reiter-breit {
+  display: flex; flex-wrap: wrap; gap: 6px; position: static;
+  padding: 0; margin: 0 0 16px; background: none;
+}
+.reiter-breit a {
+  padding: 8px 13px; min-height: 40px; display: inline-flex; align-items: center;
+  border: 1px solid var(--color-border-strong); border-radius: var(--radius-klein);
+  background: var(--color-surface); color: var(--color-text); text-decoration: none; font-size: .88rem;
+}
+.reiter-breit a:hover { background: var(--color-surface-sunken); }
+.reiter-breit a[aria-selected="true"] {
+  background: var(--color-primary); border-color: var(--color-primary);
+  color: var(--color-primary-contrast); font-weight: 600;
+}
+
+table.matrix { border-collapse: collapse; font-size: .86rem; }
+table.matrix th, table.matrix td { border: 1px solid var(--color-border); padding: 6px 8px; text-align: left; vertical-align: top; }
+table.matrix thead th { background: var(--color-surface-alt); font-size: .74rem; text-transform: uppercase; letter-spacing: .05em; color: var(--color-text-muted); }
+table.matrix tbody th {
+  background: var(--color-surface-alt); font-weight: 600; white-space: normal; min-width: 170px;
+  /* Beim Querscrollen stehen bleiben - sonst weiss man in Spalte 20 nicht mehr,
+     welche Zeile man liest. */
+  position: sticky; left: 0; z-index: 1;
+}
+table.matrix thead th:first-child { position: sticky; left: 0; z-index: 2; }
+table.matrix th.schraeg { height: 132px; padding: 4px; vertical-align: bottom; }
+table.matrix th.schraeg > span { writing-mode: vertical-rl; transform: rotate(180deg); white-space: nowrap; display: inline-block; max-height: 122px; overflow: hidden; }
+table.matrix td { text-align: center; }
+table.matrix td.diagonal { background: repeating-linear-gradient(45deg, var(--color-surface-alt), var(--color-surface-alt) 4px, var(--color-surface) 4px, var(--color-surface) 8px); }
+table.matrix td.zelle { padding: 0; }
+table.matrix td.zelle button {
+  width: 100%; min-height: 40px; border: 0; background: var(--color-primary-soft);
+  cursor: pointer; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px;
+}
+table.matrix td.zelle button:hover { background: var(--color-primary); color: var(--color-primary-contrast); }
+table.matrix td.zelle .zahl { font-weight: 700; font-variant-numeric: tabular-nums; }
+table.matrix td.zelle .zeichen { font-size: .76rem; opacity: .75; }
+
+/* Heatmap: vier Helligkeitsstufen eines Farbtons, je Erscheinungsbild eigene Werte. */
+table.hitzetabelle td.hitze { font-variant-numeric: tabular-nums; font-weight: 600; }
+td.hitze[data-stufe="0"] { background: var(--color-surface-alt); color: var(--color-text-muted); font-weight: 400; }
+td.hitze[data-stufe="1"] { background: var(--hitze-1); }
+td.hitze[data-stufe="2"] { background: var(--hitze-2); }
+td.hitze[data-stufe="3"] { background: var(--hitze-3); }
+td.hitze[data-stufe="4"] { background: var(--hitze-4); }
+
+table.textmatrix td, table.textmatrix th { text-align: left; }
+table.textmatrix td { min-width: 210px; font-size: .86rem; }
+table.textmatrix thead th { text-transform: none; letter-spacing: 0; font-size: .82rem; color: var(--color-text); }
+
+table.raci-tabelle td.raci { font-weight: 700; font-size: .92rem; }
+td.raci[data-raci="R"] { background: var(--color-primary-soft); color: var(--color-primary); }
+td.raci[data-raci="A"] { background: var(--color-primary); color: var(--color-primary-contrast); }
+td.raci[data-raci="C"] { background: var(--color-secondary-soft); color: var(--color-secondary); }
+td.raci[data-raci="I"] { background: var(--color-surface-alt); color: var(--color-text-muted); font-weight: 400; }
+
+.zeitstrahl .jahr { display: grid; grid-template-columns: 76px 1fr; gap: 14px; padding: 10px 0; border-top: 1px solid var(--color-border); }
+.zeitstrahl .jahr:first-child { border-top: 0; }
+.zeitstrahl .jahr-marke { font-size: 1.2rem; font-weight: 700; color: var(--color-primary); font-variant-numeric: tabular-nums; }
+.zeitstrahl .zeitpunkt { display: flex; align-items: center; gap: 9px; flex-wrap: wrap; padding: 4px 0; }
+
+@media (max-width: 700px) {
+  table.matrix th.schraeg { height: auto; padding: 6px 4px; vertical-align: middle; }
+  table.matrix th.schraeg > span { writing-mode: horizontal-tb; transform: none; max-height: none; white-space: normal; }
+  table.matrix tbody th { min-width: 120px; }
+  .zeitstrahl .jahr { grid-template-columns: 1fr; gap: 4px; }
 }
 
 /* --------------------------------------------------------------------- Suche */

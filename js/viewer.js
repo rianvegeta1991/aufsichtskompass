@@ -5,6 +5,7 @@
 import { el, leere, chip, datum, zahl, kurz, titel, ton, tabelle, VERBINDLICHKEIT, MODUS, fehlerkarte } from './ui.js';
 import * as daten from './daten.js';
 import * as nutzer from './nutzer.js';
+import * as analyse from './analyse.js';
 
 export async function zeigen(wurzel, rwId, pfad) {
   const rw = await daten.regelwerk(rwId);
@@ -343,8 +344,9 @@ function kontextTeile(rw, fassung, struktur, ziel, sprache, karten, text) {
   teile.push(el('h3', 'Relevanz'), relWahl);
 
   // Konkretisierende Rechtsakte und Grundlage
-  teile.push(el('div', { id: 'kontext-bezug' }));
-  bezuegeNachladen(rw);
+  const bezugBox = el('div');
+  teile.push(bezugBox);
+  bezuegeNachladen(bezugBox, rw);
 
   if (rw.themen && rw.themen.length) {
     teile.push(el('h3', 'Themen'),
@@ -352,8 +354,9 @@ function kontextTeile(rw, fassung, struktur, ziel, sprache, karten, text) {
         rw.themen.map((t) => el('a.chip', { href: `#/themen/${t}`, style: 'text-decoration:none' }, t))));
   }
 
-  teile.push(el('div', { id: 'kontext-fussnoten' }));
-  fussnotenNachladen(rw);
+  const fussBox = el('div');
+  teile.push(fussBox);
+  fussnotenNachladen(fussBox, rw);
 
   if (ziel) {
     const id = ziel.id;
@@ -370,17 +373,19 @@ function kontextTeile(rw, fassung, struktur, ziel, sprache, karten, text) {
       el('p.punktzahl', { style: 'margin:4px 0 0' }, 'Bleibt nur auf diesem Gerät.'));
   }
 
+  const bezieBox = el('div');
+  teile.push(bezieBox);
+  beziehungenNachladen(bezieBox, rw, ziel);
+
   teile.push(el('h3', 'Noch nicht fertig'),
     el('div.hinweis.phase', { style: 'font-size:.8rem' },
-      'Mappings, Best-Practice-Einordnungen und verknüpfte Lerninhalte erscheinen hier ab Phase 4 bzw. 7.'));
+      'Best-Practice-Einordnungen kommen mit dem Screening (Phase 5), verknüpfte Lerninhalte mit dem Lernbereich (Phase 7).'));
 
   return teile;
 }
 
-async function bezuegeNachladen(rw) {
+async function bezuegeNachladen(ziel, rw) {
   const k = await daten.katalog();
-  const ziel = document.getElementById('kontext-bezug');
-  if (!ziel) return;
   const kinder = k.regelwerke.filter((r) => r.konkretisiert === rw.id);
   const vater = rw.konkretisiert ? k.regelwerke.find((r) => r.id === rw.konkretisiert) : null;
   if (!kinder.length && !vater) return;
@@ -395,10 +400,57 @@ async function bezuegeNachladen(rw) {
   }
 }
 
-async function fussnotenNachladen(rw) {
+/**
+ * Beziehungen zur angezeigten Fundstelle: erst die redaktionellen (mit Begründung),
+ * dann auf Wunsch die belegten Verweise. Letztere stehen in einer großen Datei und
+ * werden deshalb nur auf Klick geholt.
+ */
+async function beziehungenNachladen(behaelter, rw, ziel) {
+  const [b, k] = await Promise.all([analyse.beziehungen(), daten.katalog()]);
+  const name = (id) => (k.regelwerke.find((r) => r.id === id) || {}).kurzname || id;
+  const treffer = analyse.zuFundstelle(b.beziehungen, rw.id, ziel ? ziel.pfad : null);
+
+  leere(behaelter);
+  behaelter.append(el('h3', `Beziehungen (${treffer.length})`));
+  if (!treffer.length) {
+    behaelter.append(el('p', { style: 'margin:0;color:var(--color-text-muted)' },
+      ziel ? 'Zu dieser Fundstelle ist noch keine fachliche Beziehung erfasst.' : 'Für dieses Regelwerk ist noch keine Beziehung erfasst.'));
+  }
+  for (const t of treffer) {
+    const g = t.gegenueber;
+    behaelter.append(el('div', { style: 'padding:7px 0;border-bottom:1px solid var(--color-border)' },
+      el('div', { style: 'display:flex;gap:5px;flex-wrap:wrap;margin-bottom:3px' },
+        chip(analyse.TYP_NAME[t.typ] || t.typ, t.typ === 'spannungsfeld' ? 'warn' : ''),
+        chip(t.konfidenz || '–'),
+        t.geprueft ? chip('geprüft', 'original') : chip('ungeprüft', 'zusammenfassung')),
+      el('p', { style: 'margin:0 0 3px' },
+        el('a', { href: `#/rw/${g.rw}${g.pfad ? '/' + g.pfad : ''}` },
+          `${name(g.rw)}${g.pfad ? ' · ' + g.pfad : ''}`)),
+      el('p', { style: 'margin:0;font-size:.82rem;color:var(--color-text-muted)' }, t.begruendung)));
+  }
+
+  const knopf = el('button.knopf', { type: 'button', style: 'margin-top:9px;width:100%' }, 'Belegte Verweise laden');
+  knopf.addEventListener('click', async () => {
+    knopf.disabled = true;
+    knopf.textContent = 'lädt …';
+    const v = await analyse.verweise();
+    const vt = analyse.zuFundstelle(v.verweise, rw.id, ziel ? ziel.pfad : null);
+    knopf.replaceWith(el('div',
+      el('h3', `Belegte Verweise (${vt.length})`),
+      vt.length
+        ? el('div', vt.slice(0, 40).map((t) => el('p', { style: 'margin:0 0 7px;font-size:.82rem' },
+            el('a', { href: `#/rw/${t.gegenueber.rw}/${t.gegenueber.pfad}` },
+              `${t.richtung === 'von' ? '→ ' : '← '}${name(t.gegenueber.rw)} · ${t.gegenueber.pfad}`),
+            t.beleg ? el('span', { style: 'display:block;color:var(--color-text-muted)' }, `„${t.beleg}"`) : null)))
+        : el('p', { style: 'margin:0;color:var(--color-text-muted)' }, 'Keine.'),
+      vt.length > 40 ? el('p.punktzahl', `Es werden 40 von ${vt.length} gezeigt.`) : null));
+  });
+  behaelter.append(knopf);
+}
+
+async function fussnotenNachladen(ziel, rw) {
   const f = await daten.fussnoten().catch(() => null);
-  const ziel = document.getElementById('kontext-fussnoten');
-  if (!f || !ziel) return;
+  if (!f) return;
   const passend = (f.fussnoten || []).filter((x) =>
     (x.gilt_fuer.regelwerke || []).includes(rw.id) ||
     (x.gilt_fuer.themen || []).some((t) => (rw.themen || []).includes(t)));

@@ -7,14 +7,16 @@
 //   #/themen  ·  #/themen/iks  ·  #/aenderungen  ·  #/quellen  ·  #/lesezeichen
 // 404.html rechnet zusätzlich Pfad-Adressen (…/dora/art/28) in diese Hash-Form um.
 
-import { el, leere, chip, datum, zahl, titel, kurz, tabelle, fehlerkarte, ton } from './ui.js';
+import { el, leere, chip, datum, zahl, titel, kurz, tabelle, fehlerkarte, ton, VERBINDLICHKEIT, MODUS } from './ui.js';
 import * as daten from './daten.js';
 import * as nutzer from './nutzer.js';
 import * as bibliothek from './bibliothek.js';
 import * as viewer from './viewer.js';
 import * as suche from './suche.js';
+import * as matrizen from './matrizen.js';
+import * as analyse from './analyse.js';
 
-export const APP_VERSION = '1.2';
+export const APP_VERSION = '1.3';
 
 const seite = document.getElementById('seite');
 
@@ -53,7 +55,7 @@ const MENUE = [
   { pfad: 'aenderungen', name: 'Änderungen & Archiv', zeichen: '⟳', zahl: 'aenderungen' },
   { pfad: 'newsfeed', name: 'Screening', zeichen: '◎', stufe: 'Phase 5' },
   { trenner: 'Analyse' },
-  { pfad: 'matrizen', name: 'Matrizen & Graph', zeichen: '⊞', stufe: 'Phase 4' },
+  { pfad: 'matrizen', name: 'Interdependenzen', zeichen: '⊞' },
   { pfad: 'lernen', name: 'Lernbereich', zeichen: '✎', stufe: 'Phase 7' },
   { trenner: 'Eigenes' },
   { pfad: 'lesezeichen', name: 'Lesezeichen & Notizen', zeichen: '★' },
@@ -146,8 +148,7 @@ async function leiten() {
       case 'quellen': await quellenseite(seite); break;
       case 'newsfeed': platzhalter(seite, 'Markt- & Compliance-Screening', 5,
         'Täglich 06:30 Europe/Berlin über einen GitHub-Actions-Lauf, dazu ein Knopf für den Lauf von Hand: Feeds von BaFin, EIOPA, BSI, ENISA und anderen, Seitenüberwachung für Quellen ohne Feed, Deduplizierung, begründete Relevanzbewertung und Tages-Digest.'); break;
-      case 'matrizen': platzhalter(seite, 'Interdependenzen, Matrizen und Graph', 4,
-        'Mapping-Matrix Regelwerk × Regelwerk, Heatmap Thema × Regelwerk, Meldepflichten-Matrix (DORA / BSIG / DSGVO), RACI- und Three-Lines-Sicht, Netzwerkgraph und Zeitstrahl – mit Export als CSV und XLSX.'); break;
+      case 'matrizen': await matrizen.zeigen(seite, teile[1] || ''); break;
       case 'lernen': platzhalter(seite, 'Lernbereich', 7,
         'Lektionen je Regelwerk und Thema, Cheat Sheets, sechs Quiz-Typen, Fallstudien mit Entscheidungsbaum, Karteikarten mit Spaced Repetition und Lernfortschritt.'); break;
       default:
@@ -192,6 +193,8 @@ async function start(wurzel) {
     ['VAG – § 23: Anforderungen an die Geschäftsorganisation', '#/rw/vag/par/23'],
     ['VAG – § 32: Ausgliederung', '#/rw/vag/par/32'],
     ['BSIG – Meldepflichten und Verhältnis zu DORA', '#/rw/bsig'],
+    ['Meldepflichten im Vergleich: DORA, BSIG, DSGVO', '#/matrizen/meldepflichten'],
+    ['Wer macht was: Rollen und drei Verteidigungslinien', '#/matrizen/rollen'],
   ];
 
   wurzel.append(el('div.gitter.zwei', { style: 'margin-top:18px' },
@@ -225,7 +228,7 @@ async function start(wurzel) {
       phasenzeile('2b', 'Konnektor für gesetze-im-internet.de: VAG, BSIG, BDSG vollständig, HGB und AO als Auszug', 'fertig'),
       phasenzeile('2c', 'BaFin-Veröffentlichungen (MaGo, MaRisk, DORA-FAQ) – erst nach Klärung der Nutzungsbedingungen', 'offen'),
       phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001, COBIT 2019, ITIL 4, CSA CCM, C5, NIST CSF, GDV', 'offen'),
-      phasenzeile('4', 'Themenseiten, Mappings, Matrizen, Heatmap, Graph, Export', 'offen'),
+      phasenzeile('4', 'Themenseiten mit Fundstellen, Beziehungsmodell, Matrizen, Heatmap, Meldepflichten, Rollen, Graph, Zeitstrahl, CSV-Export', 'fertig'),
       phasenzeile('5', 'Tägliches Screening mit Newsfeed und Digest', 'offen'),
       phasenzeile('6', 'Change Detection, Archiv, Diff-Ansicht, Benachrichtigung', 'Grundlage steht (Hashes, Änderungslog)'),
       phasenzeile('7', 'Lernbereich mit Quizzes, Fallstudien, Karteikarten', 'offen'),
@@ -314,18 +317,75 @@ async function themenseite(wurzel, id) {
     const t = th.themen.find((x) => x.id === id);
     if (!t) { wurzel.append(fehlerkarte(`Das Thema „${id}" gibt es nicht.`)); return; }
     titel(t.name);
-    const passend = k.regelwerke.filter((r) => (r.themen || []).includes(id));
+    const name = (rwId) => (k.regelwerke.find((r) => r.id === rwId) || {}).kurzname || rwId;
+
     wurzel.append(
       el('div.kopfzeile', el('div.wachs',
         el('p.brotkrumen', el('a', { href: '#/themen' }, 'Themen'), ' › ', t.name),
-        el('h1', t.name), el('p.unterzeile', t.kurz))),
-      el('div.hinweis.phase',
-        el('div', el('strong', 'Phase 4: '), 'Zielbild, Fundstellentabelle über alle Regelwerke, Prüfungsschwerpunkte und Best-Practice-Einordnungen kommen mit den Mappings. Bis dahin zeigt die Seite die Regelwerke, die dieses Thema berühren.')),
-      el('h2', { style: 'margin-top:20px' }, `Regelwerke zu diesem Thema (${passend.length})`),
-      el('div.gitter.zwei', passend.map((r) => el('div.karte',
-        el('h3', { style: 'margin:0 0 4px' }, el('a', { href: `#/rw/${r.id}` }, r.kurzname)),
-        el('p.lang', { style: 'margin:0;color:var(--color-text-muted);font-size:.85rem' }, kurz(r.langtitel, 140))))),
+        el('h1', t.name),
+        el('p.unterzeile', t.kurz))),
     );
+    if (t.zielbild) {
+      wurzel.append(el('div.karte', el('h2', 'Zielbild'), el('p', { style: 'margin:0' }, t.zielbild)));
+    }
+    const raum = el('div');
+    wurzel.append(raum);
+    raum.append(el('p.leer', el('span.lade', { 'aria-hidden': 'true' }), ' Fundstellen werden gesammelt …'));
+
+    const [{ stellen, regelwerke }, b] = await Promise.all([analyse.zuThema(id), analyse.beziehungen()]);
+    const bez = await analyse.bezeichnungen(stellen);
+    const passende = b.beziehungen.filter((x) => (x.themen || []).includes(id));
+
+    leere(raum);
+    raum.append(
+      el('h2', { style: 'margin-top:22px' }, `Fundstellen zu diesem Thema (${stellen.length})`),
+      stellen.length
+        ? el('div.karte', { style: 'padding:12px' }, tabelle(
+            ['Fundstelle', 'Regelwerk', 'Verbindlichkeit', 'Darstellung'],
+            stellen.map((s) => {
+              const r = k.regelwerke.find((x) => x.id === s.rw) || {};
+              const v = VERBINDLICHKEIT[r.verbindlichkeit] || ['', r.verbindlichkeit || '', ''];
+              const m = MODUS[r.modus] || ['', r.modus || '', ''];
+              return [
+                el('a', { href: `#/rw/${s.rw}/${s.pfad}` }, bez.get(`${s.rw}|${s.pfad}`) || s.pfad),
+                el('a', { href: `#/rw/${s.rw}` }, name(s.rw)),
+                chip(v[1], v[0]),
+                chip(m[1], m[0]),
+              ];
+            })))
+        : el('p.leer', 'Für dieses Thema sind noch keine einzelnen Fundstellen zugeordnet.'),
+
+      el('h2', { style: 'margin-top:22px' }, `Regelwerke, die das Thema berühren (${regelwerke.length})`),
+      el('div.gitter.drei', regelwerke.map((r) => el('a.karte', { href: `#/rw/${r.id}`, style: 'text-decoration:none;color:inherit' },
+        el('h3', { style: 'margin:0 0 4px' }, r.kurzname),
+        el('p', { style: 'margin:0;font-size:.84rem;color:var(--color-text-muted)' }, kurz(r.langtitel, 110))))),
+    );
+
+    if (passende.length) {
+      raum.append(
+        el('h2', { style: 'margin-top:22px' }, `Beziehungen mit Bezug zu diesem Thema (${passende.length})`),
+        el('div.karte', passende.map((x) => el('p', { style: 'margin:0 0 10px' },
+          el('a', { href: `#/rw/${x.von.rw}${x.von.pfad ? '/' + x.von.pfad : ''}` }, `${name(x.von.rw)}${x.von.pfad ? ' · ' + x.von.pfad : ''}`),
+          ' ', chip(analyse.TYP_NAME[x.typ] || x.typ, x.typ === 'spannungsfeld' ? 'warn' : ''), ' ',
+          el('a', { href: `#/rw/${x.nach.rw}${x.nach.pfad ? '/' + x.nach.pfad : ''}` }, `${name(x.nach.rw)}${x.nach.pfad ? ' · ' + x.nach.pfad : ''}`),
+          el('span', { style: 'display:block;font-size:.87rem;color:var(--color-text-muted);margin-top:3px' }, x.begruendung)))),
+      );
+    }
+
+    if (t.pruefschwerpunkte || t.nachweise) {
+      raum.append(el('div.gitter.zwei', { style: 'margin-top:22px' },
+        t.pruefschwerpunkte ? el('div.karte',
+          el('h2', 'Typische Prüfungsschwerpunkte'),
+          el('ul', { style: 'margin:0;padding-left:1.1em' }, t.pruefschwerpunkte.map((p) => el('li', { style: 'margin:6px 0' }, p)))) : null,
+        t.nachweise ? el('div.karte',
+          el('h2', 'Typische Nachweise'),
+          el('div', { style: 'display:flex;flex-wrap:wrap;gap:6px' }, t.nachweise.map((n) => chip(n)))) : null));
+    }
+
+    raum.append(el('div.hinweis.phase', { style: 'margin-top:20px' },
+      el('div', el('strong', 'Noch offen: '),
+        'Best-Practice-Einordnungen aus öffentlichen Quellen kommen mit dem Screening (Phase 5), verknüpfte Lektionen und Quizzes mit dem Lernbereich (Phase 7). ',
+        'Zielbild, Prüfungsschwerpunkte und Nachweise sind eigene Einordnungen und fachlich noch nicht abgenommen.')));
     return;
   }
 

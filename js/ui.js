@@ -80,6 +80,34 @@ export function kurz(text, max = 160) {
   return t.slice(0, t.lastIndexOf(' ', max) > 0 ? t.lastIndexOf(' ', max) : max) + '…';
 }
 
+/**
+ * Lädt eine Tabelle als CSV herunter. Semikolon und BOM, weil Excel in deutscher
+ * Einstellung sonst alles in eine Spalte legt bzw. Umlaute zerlegt.
+ */
+export function csvLaden(name, spalten, zeilen) {
+  const feld = (w) => {
+    const t = String(w ?? '').replace(/"/g, '""').replace(/\s*[\r\n]+\s*/g, ' ');
+    return /[";]/.test(t) ? `"${t}"` : t;
+  };
+  // BOM voran und Semikolon als Trenner: sonst zerlegt Excel in deutscher
+  // Einstellung die Umlaute und legt alles in eine Spalte.
+  const text = '\uFEFF' + [spalten, ...zeilen].map((z) => z.map(feld).join(';')).join('\r\n');
+  const url = URL.createObjectURL(new Blob([text], { type: 'text/csv;charset=utf-8' }));
+  const a = el('a', { href: url, download: `${name}.csv` });
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+  ton(`${name}.csv gespeichert.`);
+}
+
+/** Knopfpaar für den Export einer Ansicht. */
+export function exportknoepfe(name, spalten, zeilen) {
+  return el('div', { style: 'display:flex;gap:8px;flex-wrap:wrap' },
+    el('button.knopf', { type: 'button', onclick: () => csvLaden(name, spalten, zeilen()) }, '↓ CSV'),
+    el('button.knopf', { type: 'button', onclick: () => print() }, '🖶 Drucken / PDF'));
+}
+
 /** Setzt den Seitentitel und die H1-Zeile. */
 export function titel(seite) {
   document.title = seite ? `${seite} – Aufsichtskompass` : 'Aufsichtskompass';

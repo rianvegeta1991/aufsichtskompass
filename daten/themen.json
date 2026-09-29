@@ -1,28 +1,293 @@
 {
-  "stand": "2026-09-27",
-  "hinweis": "Themen sind Daten, nicht Code: ein neues Thema braucht nur einen Eintrag hier. Zielbild, Pruefungsschwerpunkte und Fundstellentabellen je Thema folgen in Phase 4.",
+  "stand": "2026-09-29",
+  "hinweis": "Themen sind Daten, nicht Code: ein neues Thema braucht nur einen Eintrag hier. Zielbild, Prüfungsschwerpunkte und typische Nachweise sind eigene Einordnungen für die praktische Arbeit – keine Rechtsauskunft und kein Ersatz für die Fundstellen selbst.",
+  "geprueft": false,
   "themen": [
-    { "id": "it-governance", "name": "IT-Governance", "kurz": "Aufbau, Steuerung und Verantwortlichkeiten der IT im Unternehmen - vom Leitungsorgan bis zur Linie." },
-    { "id": "ikt-risikomanagement", "name": "IKT-Risikomanagement", "kurz": "Rahmen, Verfahren und Werkzeuge zur Erkennung, Bewertung und Steuerung von IKT-Risiken." },
-    { "id": "iks", "name": "Internes Kontrollsystem (IKS)", "kurz": "Kontrollen, Kontrollumfeld und Wirksamkeitsnachweis über alle Prozesse hinweg." },
-    { "id": "infosec", "name": "Informationssicherheit", "kurz": "Schutzziele, Sicherheitsleitlinien, Maßnahmen und Managementsystem." },
-    { "id": "opsec", "name": "Operative Sicherheit", "kurz": "Sicherer Betrieb: Härtung, Schwachstellen, Patches, Netztrennung." },
-    { "id": "change-management", "name": "Change Management", "kurz": "Geordnete Änderung an Systemen und Anwendungen, einschließlich Notfall-Changes." },
-    { "id": "incident-meldewesen", "name": "Incident Management & Meldewesen", "kurz": "Erkennen, Klassifizieren und Melden von Vorfällen - DORA, BSIG/NIS2 und DSGVO nebeneinander." },
-    { "id": "bcm-backup", "name": "Business Continuity, Notfallmanagement & Backup", "kurz": "Fortführung des Geschäfts, Wiederherstellung, Datensicherung und Notfalltests." },
-    { "id": "drittparteien-auslagerung", "name": "IKT-Drittparteienrisiko, Auslagerung & Cloud", "kurz": "Vom Vertrag über die Risikoanalyse bis zur Ausstiegsstrategie und Unterauftragsvergabe." },
-    { "id": "informationsregister", "name": "Informationsregister", "kurz": "Vollständige, meldefähige Erfassung aller vertraglichen Vereinbarungen über IKT-Dienstleistungen." },
-    { "id": "resilienztests", "name": "Resilienztests, TLPT & Penetrationstests", "kurz": "Testprogramm, bedrohungsorientierte Tests und deren Nachweise." },
-    { "id": "iam", "name": "Identity & Access Management", "kurz": "Berechtigungen, Rollen, privilegierte Zugriffe und deren Rezertifizierung." },
-    { "id": "sdlc", "name": "Anwendungsentwicklung (SDLC)", "kurz": "Sichere Entwicklung, Trennung der Umgebungen, Freigaben und Auslieferung." },
-    { "id": "asset-konfiguration", "name": "Asset- und Konfigurationsmanagement", "kurz": "Bestandsverzeichnisse, Abhängigkeiten, Kritikalitätseinstufung und Lebenszyklus." },
-    { "id": "kryptografie", "name": "Kryptografie", "kurz": "Verschlüsselung, Schlüsselverwaltung und kryptografische Vorgaben." },
-    { "id": "logging-monitoring", "name": "Logging & Monitoring", "kurz": "Protokollierung, Überwachung, Auswertung und Aufbewahrung." },
-    { "id": "datenschutz", "name": "Datenschutz", "kurz": "Rechtmäßigkeit, Auftragsverarbeitung, Sicherheit der Verarbeitung und Meldepflichten." },
-    { "id": "ki-governance", "name": "KI-Governance", "kurz": "Einsatz von KI-Systemen: Einstufung, Pflichten, Kontrollen und Dokumentation." },
-    { "id": "awareness", "name": "Awareness & Schulung", "kurz": "Sensibilisierung, Schulungsprogramme und deren Nachweis - auch für das Leitungsorgan." },
-    { "id": "leitungsorgan", "name": "Rolle des Leitungsorgans", "kurz": "Letztverantwortung, Kenntnisse, Beschlüsse und Berichtswege." },
-    { "id": "funktionstrennung", "name": "Funktionstrennung", "kurz": "Trennung unverträglicher Aufgaben, Schlüsselfunktionen und Three-Lines-Zuordnung." },
-    { "id": "test-anforderungsmanagement", "name": "Test- & Anforderungsmanagement", "kurz": "Anforderungen, Testarten, Abnahme und Nachweisführung." }
+    {
+      "id": "it-governance",
+      "name": "IT-Governance",
+      "kurz": "Aufbau, Steuerung und Verantwortlichkeiten der IT im Unternehmen - vom Leitungsorgan bis zur Linie.",
+      "zielbild": "Die IT ist an der Geschäfts- und Risikostrategie ausgerichtet, Entscheidungswege und Verantwortlichkeiten sind schriftlich festgelegt, und das Leitungsorgan steuert die IKT aktiv statt sie zu delegieren. Regelwerke greifen ineinander: DORA für den IKT-Ausschnitt, VAG und MaGo für die Geschäftsorganisation insgesamt.",
+      "pruefschwerpunkte": [
+        "Ist die IKT-Strategie vom Leitungsorgan beschlossen und mit der Geschäftsstrategie verzahnt?",
+        "Sind Aufgaben, Kompetenzen und Verantwortungen bis auf Funktionsebene dokumentiert?",
+        "Wie wird die Wirksamkeit der Steuerung gemessen und berichtet?",
+        "Passt der Detailgrad zur Größe des Unternehmens (Verhältnismäßigkeit nach Artikel 4 DORA)?"
+      ],
+      "nachweise": ["IKT-Strategie mit Beschlussvermerk", "Organigramm und Funktionsbeschreibungen", "Berichte an das Leitungsorgan", "Leitlinien- und Richtlinienverzeichnis"]
+    },
+    {
+      "id": "ikt-risikomanagement",
+      "name": "IKT-Risikomanagement",
+      "kurz": "Rahmen, Verfahren und Werkzeuge zur Erkennung, Bewertung und Steuerung von IKT-Risiken.",
+      "zielbild": "Ein dokumentierter IKT-Risikomanagementrahmen, der mindestens jährlich sowie nach schwerwiegenden Vorfällen überprüft wird, in das allgemeine Risikomanagement eingebettet ist und von einer Kontrollfunktion mit angemessener Unabhängigkeit betrieben wird.",
+      "pruefschwerpunkte": [
+        "Deckt der Rahmen alle Elemente der Artikel 6 bis 14 DORA ab?",
+        "Ist die Kontrollfunktion nach Artikel 6 Absatz 4 DORA benannt und hinreichend unabhängig?",
+        "Wird der Rahmen jährlich und anlassbezogen überprüft und die Überprüfung dokumentiert?",
+        "Sind IKT-Risiken im Risikoinventar und in der Risikoberichterstattung wiederzufinden?"
+      ],
+      "nachweise": ["IKT-Risikomanagementrahmen", "Risikoinventar mit IKT-Risiken", "Protokolle der jährlichen Überprüfung", "Revisionsberichte zum Rahmen"]
+    },
+    {
+      "id": "iks",
+      "name": "Internes Kontrollsystem (IKS)",
+      "kurz": "Kontrollen, Kontrollumfeld und Wirksamkeitsnachweis über alle Prozesse hinweg.",
+      "zielbild": "Schlüsselkontrollen sind benannt, einem Prozess und einem Verantwortlichen zugeordnet, werden regelmäßig auf Wirksamkeit geprüft und die Prüfung ist nachvollziehbar dokumentiert. Die IKT-Kontrollen sind Teil dieses Systems und nicht daneben organisiert.",
+      "pruefschwerpunkte": [
+        "Gibt es eine vollständige, gepflegte Kontrollmatrix mit Schlüsselkontrollen?",
+        "Ist die Funktionstrennung zwischen ausführenden und kontrollierenden Stellen gewahrt?",
+        "Werden Kontrollschwächen nachverfolgt, bis sie behoben sind?",
+        "Sind die IT-gestützten Kontrollen (automatisierte Kontrollen) einbezogen?"
+      ],
+      "nachweise": ["Kontrollmatrix", "Wirksamkeitsnachweise je Schlüsselkontrolle", "Maßnahmenverfolgung", "Berichte der Compliance-Funktion"]
+    },
+    {
+      "id": "infosec",
+      "name": "Informationssicherheit",
+      "kurz": "Schutzziele, Sicherheitsleitlinien, Maßnahmen und Managementsystem.",
+      "zielbild": "Eine vom Leitungsorgan getragene Informationssicherheitsleitlinie, abgeleitete Richtlinien und ein Managementsystem, das Schutzbedarf, Maßnahmen und Restrisiken zusammenführt - anschlussfähig an ISO/IEC 27001, aber an den Anforderungen der DORA gemessen.",
+      "pruefschwerpunkte": [
+        "Ist der Schutzbedarf je Asset und Geschäftsprozess bestimmt?",
+        "Sind die Maßnahmen dem Schutzbedarf angemessen und nachweislich umgesetzt?",
+        "Werden Restrisiken bewusst und dokumentiert getragen?",
+        "Wie wird die Wirksamkeit gemessen (Kennzahlen, Tests, Audits)?"
+      ],
+      "nachweise": ["Informationssicherheitsleitlinie", "Schutzbedarfsfeststellung", "Maßnahmenplan mit Umsetzungsstand", "Auditberichte"]
+    },
+    {
+      "id": "opsec",
+      "name": "Operative Sicherheit",
+      "kurz": "Sicherer Betrieb: Härtung, Schwachstellen, Patches, Netztrennung.",
+      "zielbild": "Systeme werden nach dokumentierten Vorgaben gehärtet, Schwachstellen fristgerecht behoben, Netze sind segmentiert und der Betrieb ist so eingerichtet, dass Angriffe früh auffallen und begrenzt bleiben.",
+      "pruefschwerpunkte": [
+        "Gibt es verbindliche Fristen für das Schließen von Schwachstellen nach Kritikalität?",
+        "Wie wird mit Systemen umgesetzt, für die es keine Updates mehr gibt (Altsysteme)?",
+        "Ist die Netzsegmentierung dokumentiert und wird sie überprüft?",
+        "Werden privilegierte Zugriffe gesondert abgesichert?"
+      ],
+      "nachweise": ["Härtungsvorgaben", "Schwachstellenberichte mit Behebungsfristen", "Patch-Berichte", "Netzplan mit Zonen"]
+    },
+    {
+      "id": "change-management",
+      "name": "Change Management",
+      "kurz": "Geordnete Änderung an Systemen und Anwendungen, einschließlich Notfall-Changes.",
+      "zielbild": "Jede Änderung ist beantragt, bewertet, getestet, freigegeben und rückverfolgbar - auch die eilige. Notfall-Changes sind zugelassen, aber nachzudokumentieren und zu genehmigen.",
+      "pruefschwerpunkte": [
+        "Sind Freigaben vor der Produktivsetzung nachweisbar und von der Umsetzung getrennt?",
+        "Wie viele Notfall-Changes gab es und wurden sie nachträglich genehmigt?",
+        "Gibt es zu jeder Änderung einen Rückfallplan?",
+        "Sind Änderungen an Konfigurationen ebenso erfasst wie an Anwendungen?"
+      ],
+      "nachweise": ["Change-Verzeichnis", "Freigabeprotokolle", "Testnachweise", "Auswertung der Notfall-Changes"]
+    },
+    {
+      "id": "incident-meldewesen",
+      "name": "Incident Management & Meldewesen",
+      "kurz": "Erkennen, Klassifizieren und Melden von Vorfällen - DORA, BSIG/NIS2 und DSGVO nebeneinander.",
+      "zielbild": "Ein Prozess erkennt Vorfälle, stuft sie nach den Kriterien der DORA ein und löst fristgerecht die richtigen Meldungen aus. Die Zuständigkeiten sind auch nachts und am Wochenende besetzt, und die Fristen sind allen Beteiligten bekannt.",
+      "pruefschwerpunkte": [
+        "Beginnt die Vier-Stunden-Frist nachweislich mit der Einstufung als schwerwiegend?",
+        "Ist geregelt, wer die Einstufung vornimmt und wer meldet?",
+        "Wird die DSGVO-Meldung parallel geprüft, wenn personenbezogene Daten betroffen sind?",
+        "Werden Erkenntnisse aus Vorfällen in den IKT-Rahmen zurückgespielt (Artikel 13 DORA)?"
+      ],
+      "nachweise": ["Meldeprozess mit Fristenübersicht", "Vorfallregister", "abgesetzte Meldungen samt Zeitstempeln", "Auswertungen und Lessons Learned"]
+    },
+    {
+      "id": "bcm-backup",
+      "name": "Business Continuity, Notfallmanagement & Backup",
+      "kurz": "Fortführung des Geschäfts, Wiederherstellung, Datensicherung und Notfalltests.",
+      "zielbild": "Für kritische oder wichtige Funktionen sind Wiederanlaufzeiten und Datenverlusttoleranzen festgelegt, mit Sicherungs- und Wiederherstellungsverfahren unterlegt und regelmäßig getestet - einschließlich der Abhängigkeiten von Dienstleistern.",
+      "pruefschwerpunkte": [
+        "Sind RTO und RPO je kritischer Funktion festgelegt und begründet?",
+        "Wird die Wiederherstellung tatsächlich geprobt, nicht nur die Sicherung?",
+        "Sind Sicherungen vom Produktivnetz getrennt und gegen Verschlüsselung geschützt?",
+        "Decken die Pläne auch den Ausfall eines IKT-Drittdienstleisters ab?"
+      ],
+      "nachweise": ["Business-Impact-Analyse", "Notfallpläne", "Testberichte zu Wiederanlauf und Rücksicherung", "Nachweise über Aufbewahrungsorte"]
+    },
+    {
+      "id": "drittparteien-auslagerung",
+      "name": "IKT-Drittparteienrisiko, Auslagerung & Cloud",
+      "kurz": "Vom Vertrag über die Risikoanalyse bis zur Ausstiegsstrategie und Unterauftragsvergabe.",
+      "zielbild": "Alle IKT-Dienstleistungen sind erfasst, nach Kritikalität bewertet, vertraglich mit den Mindestinhalten der DORA unterlegt und mit belastbaren Ausstiegsstrategien versehen. Die Abgrenzung zur Ausgliederung nach VAG ist bewusst getroffen und dokumentiert.",
+      "pruefschwerpunkte": [
+        "Ist jede IKT-Dienstleistung eindeutig als Ausgliederung oder sonstiger Fremdbezug eingestuft?",
+        "Enthalten die Verträge die Mindestinhalte des Artikels 30 DORA - insbesondere Zugangs-, Inspektions- und Prüfungsrechte?",
+        "Gibt es erprobte Ausstiegsstrategien für kritische oder wichtige Funktionen?",
+        "Ist die Unterauftragsvergabe transparent und vertraglich begrenzt?"
+      ],
+      "nachweise": ["Informationsregister", "Risikoanalysen vor Vertragsschluss", "Verträge und Nachträge", "Ausstiegsstrategien", "Dienstleistersteuerungsberichte"]
+    },
+    {
+      "id": "informationsregister",
+      "name": "Informationsregister",
+      "kurz": "Vollständige, meldefähige Erfassung aller vertraglichen Vereinbarungen über IKT-Dienstleistungen.",
+      "zielbild": "Das Register nach Artikel 28 Absatz 3 DORA ist vollständig, in den Vorlagen der Durchführungsverordnung (EU) 2024/2956 geführt, mit den Vertrags- und Assetdaten verknüpft und jederzeit meldefähig.",
+      "pruefschwerpunkte": [
+        "Ist das Register auf Unternehmens-, teilkonsolidierter und konsolidierter Ebene geführt?",
+        "Stimmen die Angaben mit Vertragsakte und Assetverzeichnis überein?",
+        "Sind Funktionen korrekt als kritisch oder wichtig gekennzeichnet?",
+        "Wer pflegt das Register, und wie wird die Aktualität sichergestellt?"
+      ],
+      "nachweise": ["Registerauszug in der amtlichen Vorlage", "Abstimmung Register gegen Vertragsakte", "Pflegeprozess mit Verantwortlichen"]
+    },
+    {
+      "id": "resilienztests",
+      "name": "Resilienztests, TLPT & Penetrationstests",
+      "kurz": "Testprogramm, bedrohungsorientierte Tests und deren Nachweise.",
+      "zielbild": "Ein risikobasiertes Testprogramm deckt alle kritischen Systeme ab; Befunde werden priorisiert behoben. Wo TLPT verpflichtend sind, folgen sie den Vorgaben der Delegierten Verordnung (EU) 2025/1190 und dem Vorgehen von TIBER-DE.",
+      "pruefschwerpunkte": [
+        "Deckt das Testprogramm alle kritischen oder wichtigen Funktionen ab?",
+        "Werden Befunde mit Fristen nachverfolgt und wirksam behoben?",
+        "Sind Unabhängigkeit und Qualifikation der Tester belegt?",
+        "Werden Dienstleister in die Tests einbezogen?"
+      ],
+      "nachweise": ["Testplan und Testberichte", "Maßnahmenverfolgung zu Befunden", "Nachweise zur Qualifikation der Tester"]
+    },
+    {
+      "id": "iam",
+      "name": "Identity & Access Management",
+      "kurz": "Berechtigungen, Rollen, privilegierte Zugriffe und deren Rezertifizierung.",
+      "zielbild": "Berechtigungen folgen einem Rollenkonzept, werden nach dem Prinzip der geringsten Rechte vergeben, regelmäßig rezertifiziert und bei Austritt oder Wechsel zeitnah entzogen. Privilegierte Zugriffe sind besonders abgesichert und protokolliert.",
+      "pruefschwerpunkte": [
+        "Wie schnell werden Rechte bei Austritt oder Rollenwechsel entzogen?",
+        "Werden Rezertifizierungen von den Fachbereichen tatsächlich inhaltlich geprüft?",
+        "Sind privilegierte Konten benannt, begrenzt und überwacht?",
+        "Gibt es Sammel- und Notfallkonten, und wie werden sie kontrolliert?"
+      ],
+      "nachweise": ["Rollen- und Berechtigungskonzept", "Rezertifizierungsprotokolle", "Auswertung privilegierter Zugriffe", "Austrittsprozess"]
+    },
+    {
+      "id": "sdlc",
+      "name": "Anwendungsentwicklung (SDLC)",
+      "kurz": "Sichere Entwicklung, Trennung der Umgebungen, Freigaben und Auslieferung.",
+      "zielbild": "Sicherheitsanforderungen sind Teil der Anforderungsaufnahme, Entwicklungs-, Test- und Produktionsumgebungen sind getrennt, und Auslieferungen laufen über nachvollziehbare, freigegebene Wege - auch bei eigenentwickelten Fachanwendungen.",
+      "pruefschwerpunkte": [
+        "Sind Entwicklungs-, Test- und Produktionsumgebungen wirksam getrennt?",
+        "Werden Produktivdaten in Testumgebungen verwendet, und wenn ja, wie geschützt?",
+        "Gibt es Sicherheitsprüfungen im Entwicklungsprozess (Code, Abhängigkeiten)?",
+        "Wie werden von Fachbereichen entwickelte Anwendungen erfasst und kontrolliert?"
+      ],
+      "nachweise": ["Entwicklungsrichtlinie", "Freigabedokumentation", "Nachweise zur Umgebungstrennung", "Testkonzepte"]
+    },
+    {
+      "id": "asset-konfiguration",
+      "name": "Asset- und Konfigurationsmanagement",
+      "kurz": "Bestandsverzeichnisse, Abhängigkeiten, Kritikalitätseinstufung und Lebenszyklus.",
+      "zielbild": "Alle IKT-Assets sind erfasst, einem Verantwortlichen und einem Geschäftsprozess zugeordnet, nach Kritikalität eingestuft und über ihren Lebenszyklus gesteuert - Grundlage für Schutzbedarf, Notfallplanung und Register.",
+      "pruefschwerpunkte": [
+        "Ist das Assetverzeichnis vollständig und aktuell?",
+        "Sind Abhängigkeiten zwischen Assets und Geschäftsprozessen abgebildet?",
+        "Wie werden Altsysteme erkannt und behandelt?",
+        "Stimmen Assetverzeichnis und Informationsregister überein?"
+      ],
+      "nachweise": ["Assetverzeichnis", "Kritikalitätsbewertungen", "Lebenszyklusplanung", "Abgleichprotokolle"]
+    },
+    {
+      "id": "kryptografie",
+      "name": "Kryptografie",
+      "kurz": "Verschlüsselung, Schlüsselverwaltung und kryptografische Vorgaben.",
+      "zielbild": "Eine Kryptografierichtlinie legt zugelassene Verfahren und Schlüssellängen fest, die Schlüsselverwaltung ist über den gesamten Lebenszyklus geregelt, und Daten sind bei Übertragung und Speicherung geschützt.",
+      "pruefschwerpunkte": [
+        "Sind die zugelassenen Verfahren aktuell und an anerkannten Empfehlungen ausgerichtet?",
+        "Wie werden Schlüssel erzeugt, gespeichert, getauscht und vernichtet?",
+        "Gibt es einen Plan für den Wechsel auf neue Verfahren?",
+        "Sind Ausnahmen dokumentiert und befristet?"
+      ],
+      "nachweise": ["Kryptografierichtlinie", "Schlüsselverwaltungskonzept", "Ausnahmeverzeichnis"]
+    },
+    {
+      "id": "logging-monitoring",
+      "name": "Logging & Monitoring",
+      "kurz": "Protokollierung, Überwachung, Auswertung und Aufbewahrung.",
+      "zielbild": "Sicherheitsrelevante Ereignisse werden vollständig protokolliert, zentral ausgewertet und für den nötigen Zeitraum revisionssicher aufbewahrt. Auffälligkeiten führen zu einer definierten Reaktion.",
+      "pruefschwerpunkte": [
+        "Welche Ereignisarten werden protokolliert - und welche bewusst nicht?",
+        "Sind Protokolle vor Veränderung geschützt?",
+        "Wie lange werden sie aufbewahrt, und passt das zu den steuerlichen und handelsrechtlichen Fristen?",
+        "Wer wertet aus, und wie ist die Reaktion geregelt?"
+      ],
+      "nachweise": ["Protokollierungskonzept", "Aufbewahrungsfristen", "Auswertungsberichte", "Alarmierungsregeln"]
+    },
+    {
+      "id": "datenschutz",
+      "name": "Datenschutz",
+      "kurz": "Rechtmäßigkeit, Auftragsverarbeitung, Sicherheit der Verarbeitung und Meldepflichten.",
+      "zielbild": "Verarbeitungen sind im Verzeichnis erfasst, Auftragsverarbeiter vertraglich gebunden, technische und organisatorische Maßnahmen dem Risiko angemessen - und die 72-Stunden-Meldung ist eingeübt.",
+      "pruefschwerpunkte": [
+        "Ist das Verarbeitungsverzeichnis vollständig und mit dem Assetverzeichnis abgeglichen?",
+        "Sind Auftragsverarbeitungsverträge mit den IKT-Dienstleistern geschlossen?",
+        "Greift die Meldekette bei einer Datenschutzverletzung auch am Wochenende?",
+        "Werden Datenschutz-Folgenabschätzungen dort durchgeführt, wo sie nötig sind?"
+      ],
+      "nachweise": ["Verarbeitungsverzeichnis", "Auftragsverarbeitungsverträge", "Meldeprozess mit Fristen", "Folgenabschätzungen"]
+    },
+    {
+      "id": "ki-governance",
+      "name": "KI-Governance",
+      "kurz": "Einsatz von KI-Systemen: Einstufung, Pflichten, Kontrollen und Dokumentation.",
+      "zielbild": "Eingesetzte KI-Systeme sind erfasst, nach der KI-Verordnung eingestuft und mit Kontrollen unterlegt, die zum Risiko passen - einschließlich der Frage, welche Entscheidungen ein Mensch verantwortet.",
+      "pruefschwerpunkte": [
+        "Gibt es ein vollständiges Verzeichnis eingesetzter KI-Systeme, auch der eingekauften?",
+        "Ist die Risikoeinstufung nach der KI-Verordnung dokumentiert?",
+        "Wie wird die menschliche Aufsicht sichergestellt?",
+        "Sind KI-gestützte Verarbeitungen datenschutzrechtlich bewertet?"
+      ],
+      "nachweise": ["KI-Verzeichnis", "Einstufungen", "Freigabeentscheidungen", "Überwachungsberichte"]
+    },
+    {
+      "id": "awareness",
+      "name": "Awareness & Schulung",
+      "kurz": "Sensibilisierung, Schulungsprogramme und deren Nachweis - auch für das Leitungsorgan.",
+      "zielbild": "Alle Beschäftigten werden regelmäßig und rollengerecht geschult, das Leitungsorgan hält seine Kenntnisse über IKT-Risiken aktiv aktuell, und die Wirksamkeit wird gemessen statt nur die Teilnahme gezählt.",
+      "pruefschwerpunkte": [
+        "Ist die Schulung des Leitungsorgans nachweisbar (Artikel 5 Absatz 4 DORA)?",
+        "Gibt es rollenspezifische Inhalte für besonders exponierte Gruppen?",
+        "Wird die Wirksamkeit gemessen, etwa durch Phishing-Simulationen?",
+        "Werden auch Dienstleister und Externe erreicht, wo nötig?"
+      ],
+      "nachweise": ["Schulungskonzept", "Teilnahmenachweise", "Auswertungen von Simulationen", "Schulungsnachweise des Leitungsorgans"]
+    },
+    {
+      "id": "leitungsorgan",
+      "name": "Rolle des Leitungsorgans",
+      "kurz": "Letztverantwortung, Kenntnisse, Beschlüsse und Berichtswege.",
+      "zielbild": "Das Leitungsorgan trägt die Letztverantwortung für das IKT-Risiko sichtbar: es beschließt Strategie und Rahmen, lässt sich regelmäßig berichten, hinterfragt und dokumentiert seine Entscheidungen - und hält die eigenen Kenntnisse aktuell.",
+      "pruefschwerpunkte": [
+        "Sind Beschlüsse zu IKT-Strategie und -Rahmen protokolliert?",
+        "Wie häufig und worüber wird berichtet, und was folgt daraus?",
+        "Ist die Verantwortungsverteilung innerhalb des Leitungsorgans geregelt?",
+        "Wird die eigene Fortbildung nachgewiesen?"
+      ],
+      "nachweise": ["Sitzungsprotokolle", "Berichtswesen an das Leitungsorgan", "Geschäftsverteilungsplan", "Fortbildungsnachweise"]
+    },
+    {
+      "id": "funktionstrennung",
+      "name": "Funktionstrennung",
+      "kurz": "Trennung unverträglicher Aufgaben, Schlüsselfunktionen und Three-Lines-Zuordnung.",
+      "zielbild": "Ausführende, kontrollierende und prüfende Aufgaben liegen in verschiedenen Händen; wo das wegen der Unternehmensgröße nicht geht, sind kompensierende Maßnahmen festgelegt und begründet.",
+      "pruefschwerpunkte": [
+        "Sind unverträgliche Aufgabenkombinationen benannt und technisch verhindert?",
+        "Wie unabhängig ist die IKT-Risikokontrollfunktion tatsächlich?",
+        "Sind Doppelrollen dokumentiert und kompensiert?",
+        "Greift die Trennung auch bei Vertretungsregelungen?"
+      ],
+      "nachweise": ["Funktionstrennungsmatrix", "Berechtigungsauswertungen", "Begründungen für Doppelrollen"]
+    },
+    {
+      "id": "test-anforderungsmanagement",
+      "name": "Test- & Anforderungsmanagement",
+      "kurz": "Anforderungen, Testarten, Abnahme und Nachweisführung.",
+      "zielbild": "Fachliche und sicherheitsbezogene Anforderungen sind dokumentiert und testbar formuliert; Tests decken sie nachweisbar ab, und die Abnahme erfolgt durch den Fachbereich.",
+      "pruefschwerpunkte": [
+        "Sind Anforderungen so formuliert, dass sie prüfbar sind?",
+        "Lässt sich von jedem Test auf die zugehörige Anforderung schließen?",
+        "Wer nimmt ab, und wird die Abnahme dokumentiert?",
+        "Werden negative Testfälle und Sicherheitsanforderungen berücksichtigt?"
+      ],
+      "nachweise": ["Anforderungsdokumentation", "Testkonzept und Testfälle", "Abnahmeprotokolle", "Nachverfolgbarkeitsmatrix"]
+    }
   ]
 }
