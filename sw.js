@@ -5,7 +5,7 @@
 // EINZELN gecacht (cache.add statt addAll): sonst legt eine einzige fehlende Datei
 // den ganzen Offline-Betrieb lahm.
 
-const CACHE = 'aufsichtskompass-v4';
+const CACHE = 'aufsichtskompass-v5';
 
 const GERUEST = [
   './',
@@ -83,7 +83,10 @@ self.addEventListener('fetch', (e) => {
   // naechsten Aufruf - auch dann, wenn jemand vergisst, CACHE hochzuzaehlen.
   e.respondWith((async () => {
     const kopie = await caches.match(anfrage, { ignoreSearch: true });
-    const frisch = fetch(anfrage).then(async (antwort) => {
+    // `cache: 'reload'` umgeht den HTTP-Cache des Browsers. Ohne das holt die
+    // Auffrischung bei GitHub Pages bis zu zehn Minuten lang die alte Datei
+    // (Pages sendet max-age=600) - die neue Fassung kaeme erst viel spaeter an.
+    const frisch = fetch(new Request(anfrage, { cache: 'reload' })).then(async (antwort) => {
       if (antwort.ok) {
         const c = await caches.open(CACHE);
         await c.put(anfrage, antwort.clone());
