@@ -16,6 +16,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # um den Veroeffentlichungs-Auftrag anzustossen
 
 concurrency:
   group: screening
@@ -62,3 +63,14 @@ jobs:
           ANZAHL=$(git diff --cached --numstat daten | wc -l)
           git commit -m "Screening: $(date -u +%Y-%m-%d) ($ANZAHL Dateien)"
           git push
+          echo "geaendert=ja" >> "$GITHUB_ENV"
+
+      # Wichtig: Ein Commit mit dem Standard-Token loest KEINE weiteren Workflows aus
+      # (GitHub verhindert so Endlosschleifen). Ohne diesen Schritt bliebe die
+      # veroeffentlichte Seite auf dem Stand von gestern - die Daten waeren im Repo,
+      # aber nicht online.
+      - name: Seite neu veroeffentlichen
+        if: env.geaendert == 'ja'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run pages.yml
