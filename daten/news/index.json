@@ -1,0 +1,45 @@
+{
+  "gebaut": "2026-09-30T17:10:42Z",
+  "monate": [
+    {
+      "monat": "2026-09",
+      "meldungen": 53
+    },
+    {
+      "monat": "2026-08",
+      "meldungen": 13
+    },
+    {
+      "monat": "2026-07",
+      "meldungen": 4
+    },
+    {
+      "monat": "2026-06",
+      "meldungen": 5
+    },
+    {
+      "monat": "2026-05",
+      "meldungen": 3
+    },
+    {
+      "monat": "2026-04",
+      "meldungen": 4
+    },
+    {
+      "monat": "2026-03",
+      "meldungen": 1
+    },
+    {
+      "monat": "2026-02",
+      "meldungen": 3
+    },
+    {
+      "monat": "2026-01",
+      "meldungen": 3
+    },
+    {
+      "monat": "2025-10",
+      "meldungen": 1
+    }
+  ]
+}

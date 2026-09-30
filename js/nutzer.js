@@ -10,7 +10,9 @@ const STANDARD = {
   lesezeichen: [],        // { rw, pfad, bez, zeit }
   notizen: {},            // "rw#fundstellenId" -> Text
   begriffe: false,        // Begriffsbestimmungen im Text auszeichnen
-  gelesen: {},            // newsItemId -> true (ab Phase 5)
+  gelesen: {},            // Meldungs-Id -> true
+  newsGemerkt: [],        // { id, titel, url, zeit }
+  rueckmeldungen: {},     // Meldungs-Id -> { wert, begriffe, zeit }
 };
 
 let zustand = laden();
@@ -118,3 +120,51 @@ export function notizenZu(rw) {
 }
 
 export function notizenAnzahl() { return Object.keys(zustand.notizen).length; }
+
+// -------------------------------------------------------------------- News
+
+export function istGelesen(id) { return zustand.gelesen[id] === true; }
+
+export function gelesenUmschalten(id) {
+  if (zustand.gelesen[id]) delete zustand.gelesen[id];
+  else zustand.gelesen[id] = true;
+  sichern();
+  return istGelesen(id);
+}
+
+export function newsGemerkt() { return zustand.newsGemerkt; }
+
+export function istGemerktNews(id) {
+  return zustand.newsGemerkt.some((m) => m.id === id);
+}
+
+export function newsMerken(id, titel, url) {
+  if (istGemerktNews(id)) {
+    zustand.newsGemerkt = zustand.newsGemerkt.filter((m) => m.id !== id);
+    sichern();
+    return false;
+  }
+  zustand.newsGemerkt.unshift({ id, titel, url, zeit: new Date().toISOString() });
+  zustand.newsGemerkt = zustand.newsGemerkt.slice(0, 200);
+  sichern();
+  return true;
+}
+
+export function rueckmeldung(id) {
+  const r = zustand.rueckmeldungen[id];
+  return r ? r.wert : '';
+}
+
+/**
+ * Rückmeldung zur Relevanz. Sie wirkt zunächst nur hier: Die Gewichte stehen in
+ * daten/taxonomie.json und werden redaktionell gepflegt. Unter „Lesezeichen &
+ * Notizen" stehen die Begriffe der abgelehnten Meldungen gesammelt – daraus lässt
+ * sich die Taxonomie gezielt nachschärfen.
+ */
+export function rueckmeldungSetzen(id, wert, begriffe = []) {
+  if (!wert) delete zustand.rueckmeldungen[id];
+  else zustand.rueckmeldungen[id] = { wert, begriffe, zeit: new Date().toISOString() };
+  sichern();
+}
+
+export function rueckmeldungen() { return zustand.rueckmeldungen; }

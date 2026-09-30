@@ -1,0 +1,57 @@
+{
+  "quellen": {
+    "bafin-aufsicht": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "bafin-massnahmen": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "bafin-presse": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "bafin-rundschreiben": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "bsi-csw": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "bsi-presse": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "cert-bund": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "cert-eu": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "csa-blog": {
+      "etag": "W/\"16da24917a26ffb656872c60b76ad0cc\"",
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "eba": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "eiopa-publikationen": {
+      "hash": "60be2b4b00fd8f93ef3d2cc4e0e03666",
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "ek-finanz": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "enisa-publikationen": {
+      "hash": "bc36c1c275867dd597f69cbc3afba94a",
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "esma": {
+      "etag": "\"1790787766-gzip\"",
+      "stand": "Wed, 30 Sep 2026 17:02:46 GMT",
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "gdv-fach": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    },
+    "gdv-presse": {
+      "zuletzt": "2026-09-30T17:10:36Z"
+    }
+  }
+}

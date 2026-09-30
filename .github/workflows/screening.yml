@@ -1,0 +1,64 @@
+# Taeglicher Screening-Lauf.
+#
+# GitHub-Cron laeuft in UTC, 06:30 Berliner Zeit ist deshalb je nach Jahreszeit
+# 04:30 oder 05:30 UTC. Der Auftrag feuert darum zweimal; welcher der beiden Laeufe
+# tatsaechlich arbeitet, entscheidet das Werkzeug selbst ueber `--nur-um 06:30`
+# (Zeitzone Europe/Berlin). So bleibt es bei genau einem Lauf pro Tag.
+#
+# Von Hand geht es jederzeit ueber "Run workflow" - dann ohne Zeitfenster.
+name: Screening
+
+on:
+  schedule:
+    - cron: "30 4 * * *"   # 06:30 Berlin waehrend der Sommerzeit
+    - cron: "30 5 * * *"   # 06:30 Berlin waehrend der Winterzeit
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: screening
+  cancel-in-progress: false
+
+jobs:
+  lauf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rust-Abhaengigkeiten aus dem Zwischenspeicher
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            werkzeug/target
+          key: kompass-${{ runner.os }}-${{ hashFiles('werkzeug/Cargo.lock') }}
+          restore-keys: kompass-${{ runner.os }}-
+
+      - name: Werkzeug bauen
+        run: cargo build --release --manifest-path werkzeug/Cargo.toml
+
+      - name: Screening ausfuehren
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            ZEIT="--nur-um 06:30"
+          else
+            ZEIT=""
+          fi
+          ./werkzeug/target/release/kompass screening --daten daten \
+            --ausloeser "${{ github.event_name }}" $ZEIT
+
+      - name: Ergebnis uebernehmen
+        run: |
+          if [ -z "$(git status --porcelain daten)" ]; then
+            echo "Keine Aenderung - nichts zu uebernehmen."
+            exit 0
+          fi
+          git config user.name "Aufsichtskompass"
+          git config user.email "noreply@github.com"
+          git add daten
+          ANZAHL=$(git diff --cached --numstat daten | wc -l)
+          git commit -m "Screening: $(date -u +%Y-%m-%d) ($ANZAHL Dateien)"
+          git push

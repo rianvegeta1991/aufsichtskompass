@@ -1,0 +1,53 @@
+{
+  "stand": "2026-09-30",
+  "hinweis": "Steuert die Relevanzbewertung des Screenings. Jeder Begriff bringt sein Gewicht; ein Treffer in der Überschrift zählt doppelt. Die Begründung einer Meldung nennt genau die Begriffe, die gegriffen haben – die Bewertung soll nachvollziehbar sein und nicht geraten wirken. Ausschlussbegriffe ziehen ab. Schwelle: ab wie vielen Punkten eine Meldung aufgenommen wird.",
+  "schwelle": 8,
+  "ausschluss": [
+    "Stellenangebot",
+    "Stellenausschreibung",
+    "Praktikum",
+    "Gewinnspiel",
+    "Podcast",
+    "Nachruf"
+  ],
+  "begriffe": [
+    { "wort": "DORA", "gewicht": 12, "synonyme": ["2022/2554", "digitale operationale Resilienz", "digital operational resilience"], "themen": ["ikt-risikomanagement"], "regelwerke": ["dora"] },
+    { "wort": "Informationsregister", "gewicht": 12, "synonyme": ["register of information"], "themen": ["informationsregister"], "regelwerke": ["dora", "dora-its-2956"] },
+    { "wort": "IKT-Drittdienstleister", "gewicht": 11, "synonyme": ["IKT-Drittparteienrisiko", "ICT third-party", "kritischer IKT-Dienstleister"], "themen": ["drittparteien-auslagerung"], "regelwerke": ["dora"] },
+    { "wort": "TLPT", "gewicht": 11, "synonyme": ["bedrohungsorientierte Penetrationstests", "threat-led penetration testing", "TIBER"], "themen": ["resilienztests"], "regelwerke": ["dora", "dora-rts-1190", "tiber-de"] },
+    { "wort": "IKT-Risikomanagement", "gewicht": 11, "synonyme": ["ICT risk management", "IKT-Risiko"], "themen": ["ikt-risikomanagement"], "regelwerke": ["dora", "dora-rts-1774"] },
+
+    { "wort": "MaGo", "gewicht": 10, "synonyme": ["Mindestanforderungen an die Geschäftsorganisation"], "themen": ["it-governance", "iks"], "regelwerke": ["mago-va"] },
+    { "wort": "Rundschreiben", "gewicht": 9, "synonyme": [], "themen": [], "regelwerke": [] },
+    { "wort": "Aufsichtsmitteilung", "gewicht": 9, "synonyme": [], "themen": [], "regelwerke": [] },
+    { "wort": "Auslagerung", "gewicht": 9, "synonyme": ["Ausgliederung", "outsourcing"], "themen": ["drittparteien-auslagerung"], "regelwerke": ["vag", "dora"] },
+    { "wort": "Meldepflicht", "gewicht": 9, "synonyme": ["Meldung schwerwiegender", "Vorfallmeldung", "incident reporting"], "themen": ["incident-meldewesen"], "regelwerke": ["dora", "bsig"] },
+    { "wort": "NIS2", "gewicht": 9, "synonyme": ["NIS-2", "2022/2555", "NIS2UmsuCG"], "themen": ["infosec", "incident-meldewesen"], "regelwerke": ["nis2", "bsig"] },
+    { "wort": "Solvency II", "gewicht": 8, "synonyme": ["Solvabilität II", "2009/138"], "themen": ["it-governance"], "regelwerke": ["sii-rl", "sii-dvo"] },
+    { "wort": "VAG", "gewicht": 8, "synonyme": ["Versicherungsaufsichtsgesetz"], "themen": ["it-governance"], "regelwerke": ["vag"] },
+    { "wort": "Geschäftsorganisation", "gewicht": 8, "synonyme": ["Governance-System"], "themen": ["it-governance", "leitungsorgan"], "regelwerke": ["vag", "mago-va"] },
+    { "wort": "Notfallmanagement", "gewicht": 8, "synonyme": ["Business Continuity", "Wiederanlauf", "Notfallplan"], "themen": ["bcm-backup"], "regelwerke": ["dora", "iso22301"] },
+
+    { "wort": "Informationssicherheit", "gewicht": 7, "synonyme": ["information security", "ISMS"], "themen": ["infosec"], "regelwerke": ["iso27001", "bsig"] },
+    { "wort": "Cybersicherheit", "gewicht": 6, "synonyme": ["Cyberangriff", "Cyberbedrohung", "cyber security", "cyberattack"], "themen": ["infosec"], "regelwerke": [] },
+    { "wort": "Internes Kontrollsystem", "gewicht": 7, "synonyme": ["IKS", "internal control"], "themen": ["iks"], "regelwerke": ["vag", "coso-ic"] },
+    { "wort": "Interne Revision", "gewicht": 6, "synonyme": ["internal audit"], "themen": ["iks", "funktionstrennung"], "regelwerke": ["vag"] },
+    { "wort": "Cloud", "gewicht": 6, "synonyme": ["Cloud-Dienstleister", "cloud service provider"], "themen": ["drittparteien-auslagerung"], "regelwerke": ["iso27017", "bsi-c5"] },
+    { "wort": "ISO 27001", "gewicht": 6, "synonyme": ["ISO/IEC 27001", "27002"], "themen": ["infosec"], "regelwerke": ["iso27001"] },
+    { "wort": "DSGVO", "gewicht": 6, "synonyme": ["Datenschutz-Grundverordnung", "GDPR", "2016/679"], "themen": ["datenschutz"], "regelwerke": ["dsgvo"] },
+    { "wort": "KI-Verordnung", "gewicht": 6, "synonyme": ["AI Act", "2024/1689", "künstliche Intelligenz"], "themen": ["ki-governance"], "regelwerke": ["ai-act"] },
+    { "wort": "Penetrationstest", "gewicht": 6, "synonyme": ["Schwachstellenscan", "Red Team"], "themen": ["resilienztests"], "regelwerke": ["dora"] },
+    { "wort": "Schwachstelle", "gewicht": 5, "synonyme": ["Sicherheitslücke", "vulnerability", "Zero-Day"], "themen": ["opsec"], "regelwerke": [] },
+    { "wort": "Ransomware", "gewicht": 6, "synonyme": ["Verschlüsselungstrojaner"], "themen": ["incident-meldewesen", "bcm-backup"], "regelwerke": [] },
+
+    { "wort": "EIOPA", "gewicht": 5, "synonyme": [], "themen": [], "regelwerke": ["eiopa-governance", "eiopa-cloud"] },
+    { "wort": "BaFin", "gewicht": 5, "synonyme": ["Bundesanstalt für Finanzdienstleistungsaufsicht"], "themen": [], "regelwerke": [] },
+    { "wort": "Versicherer", "gewicht": 5, "synonyme": ["Versicherungsunternehmen", "Rückversicherer", "insurer"], "themen": [], "regelwerke": ["vag"] },
+    { "wort": "Konsultation", "gewicht": 4, "synonyme": ["consultation paper", "Anhörung"], "themen": [], "regelwerke": [] },
+    { "wort": "Leitlinie", "gewicht": 4, "synonyme": ["guidelines", "Q&A", "FAQ"], "themen": [], "regelwerke": [] },
+    { "wort": "technische Regulierungsstandards", "gewicht": 7, "synonyme": ["RTS", "ITS", "Durchführungsstandards"], "themen": [], "regelwerke": ["dora"] },
+    { "wort": "Verschlüsselung", "gewicht": 5, "synonyme": ["Kryptografie", "encryption"], "themen": ["kryptografie"], "regelwerke": [] },
+    { "wort": "Berechtigung", "gewicht": 4, "synonyme": ["Zugriffsrechte", "Identity", "Access Management"], "themen": ["iam"], "regelwerke": [] },
+    { "wort": "Change Management", "gewicht": 4, "synonyme": ["Änderungsmanagement"], "themen": ["change-management"], "regelwerke": ["itil4", "cobit2019"] }
+  ]
+}

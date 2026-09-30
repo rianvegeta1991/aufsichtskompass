@@ -5,54 +5,449 @@
     "cellar": "EUR-Lex ueber CELLAR (publications.europa.eu/resource/celex/<CELEX>), Content-Negotiation auf XHTML. Umgesetzt.",
     "gii": "gesetze-im-internet.de, XML-Fassung je Gesetz (ZIP). Umgesetzt; optional auf einzelne Paragrafen beschraenkbar.",
     "bafin-pdf": "BaFin-Rundschreiben als PDF. Noch nicht umgesetzt.",
-    "rss": "RSS-/Atom-Feed fuer das Screening. Noch nicht umgesetzt (Phase 5).",
-    "seite": "Seitenueberwachung per Selektor fuer Quellen ohne Feed. Noch nicht umgesetzt (Phase 5)."
+    "rss": "RSS-/Atom-Feed. Umgesetzt; Abruf mit ETag und Last-Modified, Fehler je Quelle brechen den Lauf nicht ab.",
+    "seite": "Seitenueberwachung fuer Quellen ohne Feed: Bereich per CSS-Selektor herausloesen, Hash vergleichen. Umgesetzt."
   },
   "nutzungsbedingungen": {
     "eu": "Weiterverwendung von EU-Rechtstexten mit Quellenangabe zulaessig (Beschluss 2011/833/EU). Rechtsverbindlich ist nur die im Amtsblatt veroeffentlichte Fassung.",
     "gii": "Amtliche Werke, § 5 UrhG - gemeinfrei. Quellenangabe trotzdem verpflichtend.",
-    "bafin": "Nutzungsbedingungen der BaFin je Veroeffentlichung zu pruefen; bis dahin nur eigene Zusammenfassungen und Link."
+    "bafin": "Nutzungsbedingungen der BaFin je Veroeffentlichung zu pruefen; bis dahin nur eigene Zusammenfassungen und Link.",
+    "feed": "Oeffentlich angebotener Feed der jeweiligen Stelle. Uebernommen werden nur Titel, Adresse, Datum und ein kurzer Auszug; der Volltext bleibt bei der Quelle. Kostenlos, ohne Anmeldung."
   },
   "konnektoren": [
-    { "regelwerk": "dora", "typ": "cellar", "celex": "32022R2554", "sprachen": ["deu", "eng"], "nutzung": "eu", "aktiv": true },
-
-    { "regelwerk": "dora-rts-1774", "typ": "cellar", "celex": "32024R1774", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-rts-1772", "typ": "cellar", "celex": "32024R1772", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-rts-1773", "typ": "cellar", "celex": "32024R1773", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-its-2956", "typ": "cellar", "celex": "32024R2956", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-rts-301", "typ": "cellar", "celex": "32025R0301", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-its-302", "typ": "cellar", "celex": "32025R0302", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-rts-1190", "typ": "cellar", "celex": "32025R1190", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-rts-532", "typ": "cellar", "celex": "32025R0532", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-dv-1502", "typ": "cellar", "celex": "32024R1502", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-dv-1505", "typ": "cellar", "celex": "32024R1505", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-rts-295", "typ": "cellar", "celex": "32025R0295", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dora-rts-420", "typ": "cellar", "celex": "32025R0420", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-
-    { "regelwerk": "nis2", "typ": "cellar", "celex": "32022L2555", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "dsgvo", "typ": "cellar", "celex": "32016R0679", "sprachen": ["deu"], "nutzung": "eu", "aktiv": true },
-    { "regelwerk": "sii-rl", "typ": "cellar", "celex": "32009L0138", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
-    { "regelwerk": "sii-dvo", "typ": "cellar", "celex": "32015R0035", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
-    { "regelwerk": "ai-act", "typ": "cellar", "celex": "32024R1689", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
-    { "regelwerk": "cra", "typ": "cellar", "celex": "32024R2847", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
-    { "regelwerk": "data-act", "typ": "cellar", "celex": "32023R2854", "sprachen": ["deu"], "nutzung": "eu", "aktiv": false },
-
-    { "regelwerk": "vag", "typ": "gii", "kennung": "vag_2016", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true },
-    { "regelwerk": "bsig", "typ": "gii", "kennung": "bsig_2025", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true },
-    { "regelwerk": "bdsg", "typ": "gii", "kennung": "bdsg_2018", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true },
-    { "regelwerk": "hgb", "typ": "gii", "kennung": "hgb", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true,
-      "paragraphen": ["238", "239", "257"],
-      "hinweis": "Nur die IT-relevanten Ordnungsmaessigkeits- und Aufbewahrungsvorschriften." },
-    { "regelwerk": "ao", "typ": "gii", "kennung": "ao_1977", "sprachen": ["deu"], "nutzung": "gii", "aktiv": true,
-      "paragraphen": ["146", "146a", "146b", "147", "147a", "147b"],
-      "hinweis": "Nur die IT-relevanten Aufzeichnungs-, Aufbewahrungs- und Datenzugriffsvorschriften." },
-
-    { "regelwerk": "mago-va", "typ": "bafin-pdf", "sprachen": ["deu"], "nutzung": "bafin", "aktiv": false },
-    { "regelwerk": "marisk", "typ": "bafin-pdf", "sprachen": ["deu"], "nutzung": "bafin", "aktiv": false }
+    {
+      "regelwerk": "dora",
+      "typ": "cellar",
+      "celex": "32022R2554",
+      "sprachen": [
+        "deu",
+        "eng"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-rts-1774",
+      "typ": "cellar",
+      "celex": "32024R1774",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-rts-1772",
+      "typ": "cellar",
+      "celex": "32024R1772",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-rts-1773",
+      "typ": "cellar",
+      "celex": "32024R1773",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-its-2956",
+      "typ": "cellar",
+      "celex": "32024R2956",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-rts-301",
+      "typ": "cellar",
+      "celex": "32025R0301",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-its-302",
+      "typ": "cellar",
+      "celex": "32025R0302",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-rts-1190",
+      "typ": "cellar",
+      "celex": "32025R1190",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-rts-532",
+      "typ": "cellar",
+      "celex": "32025R0532",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-dv-1502",
+      "typ": "cellar",
+      "celex": "32024R1502",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-dv-1505",
+      "typ": "cellar",
+      "celex": "32024R1505",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-rts-295",
+      "typ": "cellar",
+      "celex": "32025R0295",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dora-rts-420",
+      "typ": "cellar",
+      "celex": "32025R0420",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "nis2",
+      "typ": "cellar",
+      "celex": "32022L2555",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "dsgvo",
+      "typ": "cellar",
+      "celex": "32016R0679",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "sii-rl",
+      "typ": "cellar",
+      "celex": "32009L0138",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": false
+    },
+    {
+      "regelwerk": "sii-dvo",
+      "typ": "cellar",
+      "celex": "32015R0035",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": false
+    },
+    {
+      "regelwerk": "ai-act",
+      "typ": "cellar",
+      "celex": "32024R1689",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": false
+    },
+    {
+      "regelwerk": "cra",
+      "typ": "cellar",
+      "celex": "32024R2847",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": false
+    },
+    {
+      "regelwerk": "data-act",
+      "typ": "cellar",
+      "celex": "32023R2854",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "eu",
+      "aktiv": false
+    },
+    {
+      "regelwerk": "vag",
+      "typ": "gii",
+      "kennung": "vag_2016",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "gii",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "bsig",
+      "typ": "gii",
+      "kennung": "bsig_2025",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "gii",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "bdsg",
+      "typ": "gii",
+      "kennung": "bdsg_2018",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "gii",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "hgb",
+      "typ": "gii",
+      "kennung": "hgb",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "gii",
+      "aktiv": true,
+      "paragraphen": [
+        "238",
+        "239",
+        "257"
+      ],
+      "hinweis": "Nur die IT-relevanten Ordnungsmaessigkeits- und Aufbewahrungsvorschriften."
+    },
+    {
+      "regelwerk": "ao",
+      "typ": "gii",
+      "kennung": "ao_1977",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "gii",
+      "aktiv": true,
+      "paragraphen": [
+        "146",
+        "146a",
+        "146b",
+        "147",
+        "147a",
+        "147b"
+      ],
+      "hinweis": "Nur die IT-relevanten Aufzeichnungs-, Aufbewahrungs- und Datenzugriffsvorschriften."
+    },
+    {
+      "regelwerk": "mago-va",
+      "typ": "bafin-pdf",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "bafin",
+      "aktiv": false
+    },
+    {
+      "regelwerk": "marisk",
+      "typ": "bafin-pdf",
+      "sprachen": [
+        "deu"
+      ],
+      "nutzung": "bafin",
+      "aktiv": false
+    }
   ],
   "folgeakte": {
     "hinweis": "Level-2-Rechtsakte zu einer Verordnung ermittelt 'kompass folgeakte --celex <CELEX>' beim SPARQL-Dienst des Amts fuer Veroeffentlichungen. So bleibt die Liste vollstaendig, ohne sie zu pflegen.",
     "endpunkt": "https://publications.europa.eu/webapi/rdf/sparql",
-    "grundlagen": ["32022R2554"]
+    "grundlagen": [
+      "32022R2554"
+    ]
+  },
+  "feeds": [
+    {
+      "id": "bafin-rundschreiben",
+      "name": "BaFin – Rundschreiben",
+      "herausgeber": "BaFin",
+      "url": "https://www.bafin.de/DE/service/rss/_function/RSS_Rundschreiben.xml",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "bafin-aufsicht",
+      "name": "BaFin – Aufsicht",
+      "herausgeber": "BaFin",
+      "url": "https://www.bafin.de/DE/service/rss/_function/RSS_Aufsicht.xml",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "bafin-presse",
+      "name": "BaFin – Presse und Fachartikel",
+      "herausgeber": "BaFin",
+      "url": "https://www.bafin.de/DE/service/rss/_function/RSS_Presse.xml",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "bafin-massnahmen",
+      "name": "BaFin – Massnahmen",
+      "herausgeber": "BaFin",
+      "url": "https://www.bafin.de/DE/service/rss/_function/RSS_Massnahmen.xml",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "bsi-csw",
+      "name": "BSI – Cyber-Sicherheitswarnungen",
+      "herausgeber": "BSI",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Functions/RSSFeed/RSSNewsfeed/RSSNewsfeed_CSW.xml",
+      "nutzung": "feed",
+      "aktiv": true,
+      "mindestpunkte": 14
+    },
+    {
+      "id": "bsi-presse",
+      "name": "BSI – Presse und Veranstaltungen",
+      "herausgeber": "BSI",
+      "url": "https://www.bsi.bund.de/SiteGlobals/Functions/RSSFeed/RSSNewsfeed/RSSNewsfeed_Presse_Veranstaltungen.xml",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "cert-bund",
+      "name": "CERT-Bund – Sicherheitshinweise",
+      "herausgeber": "BSI",
+      "url": "https://wid.cert-bund.de/content/public/securityAdvisory/rss",
+      "nutzung": "feed",
+      "aktiv": true,
+      "mindestpunkte": 22,
+      "hinweis": "Liefert taeglich dutzende Hinweise zu beliebiger Software. Eigene Schwelle, damit nur durchkommt, was zusaetzlich zum Aufsichtsthema passt."
+    },
+    {
+      "id": "eba",
+      "name": "EBA – News",
+      "herausgeber": "Europäische Bankenaufsichtsbehörde",
+      "url": "https://www.eba.europa.eu/rss.xml",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "esma",
+      "name": "ESMA – News",
+      "herausgeber": "Europäische Wertpapier- und Marktaufsichtsbehörde",
+      "url": "https://www.esma.europa.eu/rss.xml",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "ek-finanz",
+      "name": "Europäische Kommission – Finanzdienstleistungen",
+      "herausgeber": "Europäische Kommission",
+      "url": "https://finance.ec.europa.eu/node/2/rss_en",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "cert-eu",
+      "name": "CERT-EU – Security Advisories",
+      "herausgeber": "CERT-EU",
+      "url": "https://cert.europa.eu/publications/security-advisories-rss",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "gdv-fach",
+      "name": "GDV – Fachbeiträge",
+      "herausgeber": "GDV",
+      "url": "https://www.gdv.de/service/rss/gdv/181066/feed.rss",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "gdv-presse",
+      "name": "GDV – Presse",
+      "herausgeber": "GDV",
+      "url": "https://www.gdv.de/service/rss/gdv/92670/feed.rss",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "csa-blog",
+      "name": "Cloud Security Alliance – Blog",
+      "herausgeber": "Cloud Security Alliance",
+      "url": "https://cloudsecurityalliance.org/blog/feed/",
+      "nutzung": "feed",
+      "aktiv": true
+    }
+  ],
+  "seiten": [
+    {
+      "id": "eiopa-publikationen",
+      "name": "EIOPA – Publikationen",
+      "herausgeber": "EIOPA",
+      "url": "https://www.eiopa.europa.eu/publications_en",
+      "selektor": "#main-content",
+      "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "enisa-publikationen",
+      "name": "ENISA – Publikationen",
+      "herausgeber": "ENISA",
+      "url": "https://www.enisa.europa.eu/publications",
+      "selektor": "main",
+      "nutzung": "feed",
+      "aktiv": true
+    }
+  ],
+  "screening": {
+    "hinweis": "Taeglich 06:30 Europe/Berlin ueber einen GitHub-Actions-Lauf, dazu jederzeit von Hand: `kompass screening`. Der Cron laeuft in UTC, deshalb feuert der Auftrag zweimal und das Werkzeug prueft mit `--nur-um 06:30` selbst, ob es Berliner Zeit passt - so bleibt es bei einem Lauf pro Tag, sommers wie winters.",
+    "taxonomie": "taxonomie.json",
+    "ablage": "news/<jahr>-<monat>.json, Verzeichnis in news/index.json, Protokoll in screening-laeufe.json",
+    "nicht_uebernommen": "Von fremden Beitraegen werden nur Titel, Adresse, Datum und ein kurzer Auszug gespeichert. Der Volltext bleibt bei der Quelle, jede Meldung verlinkt dorthin."
   }
 }

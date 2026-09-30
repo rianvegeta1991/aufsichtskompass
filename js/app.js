@@ -15,8 +15,9 @@ import * as viewer from './viewer.js';
 import * as suche from './suche.js';
 import * as matrizen from './matrizen.js';
 import * as analyse from './analyse.js';
+import * as news from './news.js';
 
-export const APP_VERSION = '1.3';
+export const APP_VERSION = '1.4';
 
 const seite = document.getElementById('seite');
 
@@ -53,7 +54,7 @@ const MENUE = [
   { pfad: 'suche', name: 'Suche', zeichen: '⌕' },
   { trenner: 'Aktualität' },
   { pfad: 'aenderungen', name: 'Änderungen & Archiv', zeichen: '⟳', zahl: 'aenderungen' },
-  { pfad: 'newsfeed', name: 'Screening', zeichen: '◎', stufe: 'Phase 5' },
+  { pfad: 'newsfeed', name: 'Screening', zeichen: '◎' },
   { trenner: 'Analyse' },
   { pfad: 'matrizen', name: 'Interdependenzen', zeichen: '⊞' },
   { pfad: 'lernen', name: 'Lernbereich', zeichen: '✎', stufe: 'Phase 7' },
@@ -146,8 +147,7 @@ async function leiten() {
       case 'aenderungen': await aenderungsseite(seite); break;
       case 'lesezeichen': await lesezeichenseite(seite); break;
       case 'quellen': await quellenseite(seite); break;
-      case 'newsfeed': platzhalter(seite, 'Markt- & Compliance-Screening', 5,
-        'Täglich 06:30 Europe/Berlin über einen GitHub-Actions-Lauf, dazu ein Knopf für den Lauf von Hand: Feeds von BaFin, EIOPA, BSI, ENISA und anderen, Seitenüberwachung für Quellen ohne Feed, Deduplizierung, begründete Relevanzbewertung und Tages-Digest.'); break;
+      case 'newsfeed': await news.zeigen(seite, teile[1] || ''); break;
       case 'matrizen': await matrizen.zeigen(seite, teile[1] || ''); break;
       case 'lernen': platzhalter(seite, 'Lernbereich', 7,
         'Lektionen je Regelwerk und Thema, Cheat Sheets, sechs Quiz-Typen, Fallstudien mit Entscheidungsbaum, Karteikarten mit Spaced Repetition und Lernfortschritt.'); break;
@@ -212,6 +212,25 @@ async function start(wurzel) {
       el('p', { style: 'margin:10px 0 0' }, el('a', { href: '#/aenderungen' }, 'Alle Änderungen ansehen →'))),
   ));
 
+  const digestKarte = el('div.karte', { style: 'margin-top:18px' },
+    el('h2', 'Tages-Digest'),
+    el('p.unterzeile', { style: 'margin:0' }, 'wird geladen …'));
+  wurzel.append(digestKarte);
+  news.digest(6).then((liste) => {
+    leere(digestKarte).append(
+      el('div', { style: 'display:flex;flex-wrap:wrap;gap:10px;align-items:baseline' },
+        el('h2', { style: 'margin:0' }, 'Tages-Digest'),
+        el('a', { href: '#/newsfeed', style: 'margin-left:auto' }, 'Alle Meldungen →')),
+      liste.length
+        ? el('ul', { style: 'margin:10px 0 0;padding-left:1.1em' }, liste.map((m) => el('li', { style: 'margin:6px 0' },
+            el('a', { href: m.url, target: '_blank', rel: 'noopener noreferrer' }, m.titel),
+            el('span.punktzahl', ` · ${m.quelle_name} · ${datum(m.datum)}`))))
+        : el('p.unterzeile', { style: 'margin:10px 0 0' }, 'Noch keine Meldungen – der erste Lauf steht aus.'));
+  }).catch(() => {
+    leere(digestKarte).append(el('h2', 'Tages-Digest'),
+      el('p.unterzeile', { style: 'margin:0' }, 'Die Meldungen ließen sich nicht laden.'));
+  });
+
   const lz = nutzer.lesezeichen();
   if (lz.length) {
     wurzel.append(el('div.karte', { style: 'margin-top:18px' },
@@ -229,7 +248,7 @@ async function start(wurzel) {
       phasenzeile('2c', 'BaFin-Veröffentlichungen (MaGo, MaRisk, DORA-FAQ) – erst nach Klärung der Nutzungsbedingungen', 'offen'),
       phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001, COBIT 2019, ITIL 4, CSA CCM, C5, NIST CSF, GDV', 'offen'),
       phasenzeile('4', 'Themenseiten mit Fundstellen, Beziehungsmodell, Matrizen, Heatmap, Meldepflichten, Rollen, Graph, Zeitstrahl, CSV-Export', 'fertig'),
-      phasenzeile('5', 'Tägliches Screening mit Newsfeed und Digest', 'offen'),
+      phasenzeile('5', 'Tägliches Screening: 14 Feeds, Seitenüberwachung, neue Rechtsakte über SPARQL, Newsfeed, Digest, Protokoll', 'fertig'),
       phasenzeile('6', 'Change Detection, Archiv, Diff-Ansicht, Benachrichtigung', 'Grundlage steht (Hashes, Änderungslog)'),
       phasenzeile('7', 'Lernbereich mit Quizzes, Fallstudien, Karteikarten', 'offen'),
       phasenzeile('8', 'Härtung: Tests, Security-Review, Betriebsdoku', 'teilweise (Werkzeug-Tests)'),
@@ -454,6 +473,14 @@ async function lesezeichenseite(wurzel) {
           el('a', { href: `#/rw/${l.rw}/${l.pfad}` }, l.bez),
           el('span.punktzahl', ' · ' + datum(l.zeit))))))
       : el('p.leer', 'Noch nichts gemerkt. Im Viewer auf „☆ merken" tippen.'),
+    el('h2', { style: 'margin-top:20px' }, `Gemerkte Meldungen (${nutzer.newsGemerkt().length})`),
+    nutzer.newsGemerkt().length
+      ? el('div.karte', el('ul', { style: 'margin:0;padding-left:1.1em' },
+          nutzer.newsGemerkt().map((m) => el('li', { style: 'margin:5px 0' },
+            el('a', { href: m.url, target: '_blank', rel: 'noopener noreferrer' }, m.titel, ' ↗'),
+            el('span.punktzahl', ' · ' + datum(m.zeit))))))
+      : el('p.leer', 'Noch keine Meldung gemerkt.'),
+    rueckmeldungsblock(),
     el('h2', { style: 'margin-top:20px' }, `Notizen (${notizen.length})`),
     notizen.length
       ? el('div.karte', notizen.map((n) => el('div', { style: 'padding:9px 0;border-bottom:1px solid var(--color-border)' },
@@ -461,6 +488,32 @@ async function lesezeichenseite(wurzel) {
           el('p', { style: 'margin:0;white-space:pre-wrap' }, n.text))))
       : el('p.leer', 'Noch keine Notiz.'),
   );
+}
+
+/** Was der Nutzer als unpassend markiert hat - als Hinweis für die Taxonomie. */
+function rueckmeldungsblock() {
+  const alle = Object.values(nutzer.rueckmeldungen());
+  if (!alle.length) return null;
+  const abgelehnt = alle.filter((r) => r.wert === 'nicht');
+  const zaehler = new Map();
+  for (const r of abgelehnt) {
+    for (const b of r.begriffe || []) {
+      const wort = b.split(' (')[0];
+      zaehler.set(wort, (zaehler.get(wort) || 0) + 1);
+    }
+  }
+  const top = [...zaehler.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
+  return el('div', { style: 'margin-top:20px' },
+    el('h2', `Rückmeldungen zur Relevanz (${alle.length})`),
+    el('div.karte',
+      el('p', { style: 'margin:0 0 8px' },
+        `${alle.filter((r) => r.wert === 'relevant').length} als passend, ${abgelehnt.length} als unpassend markiert.`),
+      top.length
+        ? el('div',
+            el('p', { style: 'margin:0 0 6px' }, 'Begriffe, die bei den unpassenden Meldungen gegriffen haben – sie sind die Kandidaten für eine schärfere Gewichtung in ', el('code', 'daten/taxonomie.json'), ':'),
+            el('div', { style: 'display:flex;flex-wrap:wrap;gap:6px' },
+              top.map(([w, n]) => chip(`${w} (${n}×)`))))
+        : el('p.unterzeile', { style: 'margin:0' }, 'Noch keine unpassende Meldung markiert.')));
 }
 
 // ----------------------------------------------------------------- Quellenseite

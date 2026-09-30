@@ -13,11 +13,12 @@
 mod cellar;
 mod gii;
 mod modell;
+mod screening;
 mod suche;
 mod verweise;
 
 use anyhow::{Context, Result, bail};
-use chrono::{DateTime, Utc};
+use chrono::{DateTime, Timelike, Utc};
 use modell::*;
 use sha2::{Digest, Sha256};
 use std::collections::{BTreeMap, BTreeSet};
@@ -48,6 +49,11 @@ fn lauf() -> Result<()> {
             ableiten(&daten)?;
             Ok(())
         }
+        "screening" => screening(
+            &daten,
+            wert("--nur-um").as_deref(),
+            wert("--ausloeser").as_deref().unwrap_or("von Hand"),
+        ),
         "verweise" => {
             let n = verweise_bauen(&daten)?;
             println!("{n} belegte Verweise gefunden.");
@@ -61,6 +67,7 @@ fn lauf() -> Result<()> {
                    abruf [--rw <id>] [--erzwingen]  Quellen abrufen, neue Fassungen uebernehmen\n\
                    index                            Suchindizes und Verweise neu bauen\n\
                    verweise                         nur die Verweise aus den Texten sammeln\n\
+                   screening [--nur-um 06:30]       Feeds, Seitenueberwachung und neue Rechtsakte\n\
                    pruefen                          Datenbestand auf Konsistenz pruefen\n\
                  \n\
                  Gemeinsame Schalter: --daten <pfad> (Standard: ../daten bzw. daten)"
@@ -424,6 +431,415 @@ fn texte_aus(roh: &BTreeMap<String, Vec<Block>>) -> Textdatei {
     aus
 }
 
+// ------------------------------------------------------------------ Screening
+
+/// Täglicher Lauf: Feeds, Seitenüberwachung und neue Level-2-Rechtsakte.
+fn screening(daten: &Path, nur_um: Option<&str>, ausloeser: &str) -> Result<()> {
+    if let Some(zeit) = nur_um {
+        if !zeitfenster(zeit)? {
+            let jetzt = Utc::now().with_timezone(&chrono_tz::Europe::Berlin);
+            println!(
+                "Ausserhalb des Zeitfensters ({zeit} Europe/Berlin, jetzt {}). Nichts zu tun.",
+                jetzt.format("%H:%M")
+            );
+            return Ok(());
+        }
+    }
+
+    let beginn = std::time::Instant::now();
+    let start = jetzt();
+    let quellen: serde_json::Value = lies_json(&daten.join("quellen.json"))?;
+    let tax: screening::Taxonomie = lies_json(&daten.join("taxonomie.json"))?;
+    let katalog: serde_json::Value = lies_json(&daten.join("regelwerke.json"))?;
+
+    let stand_pfad = daten.join("screening-stand.json");
+    let mut stand: screening::Stand = if stand_pfad.exists() {
+        lies_json(&stand_pfad)?
+    } else {
+        screening::Stand::default()
+    };
+
+    let klient = screening::klient()?;
+    let mut protokoll: Vec<screening::Quellenstand> = Vec::new();
+    let mut gefundene: Vec<screening::Meldung> = Vec::new();
+    let mut geprueft = 0usize;
+
+    // ---- Feeds ----
+    let feeds: Vec<screening::Feedquelle> =
+        serde_json::from_value(quellen["feeds"].clone()).unwrap_or_default();
+    for f in feeds.iter().filter(|f| f.aktiv != Some(false)) {
+        let gedaechtnis = stand.quellen.get(&f.id).cloned().unwrap_or_default();
+        let mut eintrag = screening::Quellenstand {
+            quelle: f.id.clone(),
+            name: f.name.clone(),
+            status: "ok".into(),
+            gefunden: 0,
+            uebernommen: 0,
+            fehler: None,
+        };
+        match screening::hole(&klient, &f.url, Some(&gedaechtnis)) {
+            Err(e) => {
+                eintrag.status = "Fehler".into();
+                eintrag.fehler = Some(format!("{e:#}"));
+            }
+            Ok(a) if a.unveraendert => eintrag.status = "unveraendert".into(),
+            Ok(a) => {
+                match screening::feed_lesen(&a.koerper) {
+                    Err(e) => {
+                        eintrag.status = "Fehler".into();
+                        eintrag.fehler = Some(format!("{e:#}"));
+                    }
+                    Ok(eintraege) => {
+                        eintrag.gefunden = eintraege.len();
+                        geprueft += eintraege.len();
+                        let schwelle = f.mindestpunkte.unwrap_or(tax.schwelle);
+                        for r in eintraege {
+                            let b = screening::bewerten(&r.titel, &r.text, &tax);
+                            if b.punkte < schwelle {
+                                continue;
+                            }
+                            let datum = screening::datum_iso(r.datum.as_ref())
+                                .unwrap_or_else(|| start.clone());
+                            gefundene.push(screening::Meldung {
+                                id: screening::kennung(&r.url),
+                                titel: r.titel.clone(),
+                                url: r.url.clone(),
+                                quelle: f.id.clone(),
+                                quelle_name: f.name.clone(),
+                                herausgeber: f.herausgeber.clone(),
+                                datum,
+                                gefunden: start.clone(),
+                                kategorie: screening::kategorie(&r.titel, &r.text).to_string(),
+                                punkte: b.punkte,
+                                zusammenfassung: screening::zusammenfassen(
+                                    &r.text,
+                                    &b.begruendung,
+                                    320,
+                                ),
+                                begruendung: b.begruendung,
+                                themen: b.themen.into_iter().collect(),
+                                regelwerke: b.regelwerke.into_iter().collect(),
+                                vorschlag: None,
+                            });
+                            eintrag.uebernommen += 1;
+                        }
+                    }
+                }
+                stand.quellen.insert(
+                    f.id.clone(),
+                    screening::Quellgedaechtnis {
+                        etag: a.etag,
+                        stand: a.stand,
+                        hash: None,
+                        zuletzt: start.clone(),
+                    },
+                );
+            }
+        }
+        println!(
+            "  [{}] {} - {} gefunden, {} uebernommen{}",
+            eintrag.status,
+            f.name,
+            eintrag.gefunden,
+            eintrag.uebernommen,
+            eintrag.fehler.as_deref().map(|e| format!(" ({e})")).unwrap_or_default()
+        );
+        protokoll.push(eintrag);
+    }
+
+    // ---- Seitenueberwachung (Quellen ohne Feed) ----
+    let seiten: Vec<screening::Seitenquelle> =
+        serde_json::from_value(quellen["seiten"].clone()).unwrap_or_default();
+    for s in seiten.iter().filter(|s| s.aktiv != Some(false)) {
+        let gedaechtnis = stand.quellen.get(&s.id).cloned().unwrap_or_default();
+        let mut eintrag = screening::Quellenstand {
+            quelle: s.id.clone(),
+            name: s.name.clone(),
+            status: "ok".into(),
+            gefunden: 0,
+            uebernommen: 0,
+            fehler: None,
+        };
+        match screening::hole(&klient, &s.url, None) {
+            Err(e) => {
+                eintrag.status = "Fehler".into();
+                eintrag.fehler = Some(format!("{e:#}"));
+            }
+            Ok(a) => {
+                let dok = scraper::Html::parse_document(&a.koerper);
+                match scraper::Selector::parse(&s.selektor) {
+                    Err(_) => {
+                        eintrag.status = "Fehler".into();
+                        eintrag.fehler = Some(format!("Selektor '{}' ist ungueltig", s.selektor));
+                    }
+                    Ok(sel) => {
+                        let text: String = dok
+                            .select(&sel)
+                            .map(|e| e.text().collect::<Vec<_>>().join(" "))
+                            .collect::<Vec<_>>()
+                            .join(" ");
+                        let text = screening::text_saeubern(&text);
+                        if text.len() < 40 {
+                            eintrag.status = "Warnung".into();
+                            eintrag.fehler = Some(
+                                "Der ueberwachte Bereich ist leer - Seitenstruktur pruefen, Stand bleibt unveraendert".into(),
+                            );
+                        } else {
+                            eintrag.gefunden = 1;
+                            geprueft += 1;
+                            let neu = hash(&text);
+                            match &gedaechtnis.hash {
+                                Some(alt) if alt == &neu => eintrag.status = "unveraendert".into(),
+                                Some(_) => {
+                                    eintrag.uebernommen = 1;
+                                    gefundene.push(screening::Meldung {
+                                        id: screening::kennung(&format!("{}#{}", s.url, neu)),
+                                        titel: format!("{} hat sich geändert", s.name),
+                                        url: s.url.clone(),
+                                        quelle: s.id.clone(),
+                                        quelle_name: s.name.clone(),
+                                        herausgeber: s.herausgeber.clone(),
+                                        datum: start.clone(),
+                                        gefunden: start.clone(),
+                                        kategorie: "Änderung".into(),
+                                        punkte: 30,
+                                        begruendung: vec![
+                                            "überwachte Seite ohne Feed (Seitenüberwachung)".into(),
+                                        ],
+                                        zusammenfassung: screening::zusammenfassen(
+                                            &text,
+                                            &[],
+                                            320,
+                                        ),
+                                        themen: Vec::new(),
+                                        regelwerke: Vec::new(),
+                                        vorschlag: None,
+                                    });
+                                }
+                                None => eintrag.status = "erstmals erfasst".into(),
+                            }
+                            stand.quellen.insert(
+                                s.id.clone(),
+                                screening::Quellgedaechtnis {
+                                    etag: None,
+                                    stand: None,
+                                    hash: Some(neu),
+                                    zuletzt: start.clone(),
+                                },
+                            );
+                        }
+                    }
+                }
+            }
+        }
+        println!("  [{}] {} (Seitenüberwachung)", eintrag.status, s.name);
+        protokoll.push(eintrag);
+    }
+
+    // ---- Neue Level-2-Rechtsakte ueber den SPARQL-Dienst ----
+    let mut eintrag = screening::Quellenstand {
+        quelle: "eurlex-folgeakte".into(),
+        name: "EUR-Lex: Rechtsakte auf Grundlage der DORA".into(),
+        status: "ok".into(),
+        gefunden: 0,
+        uebernommen: 0,
+        fehler: None,
+    };
+    match folgeakte(&klient, "32022R2554") {
+        Err(e) => {
+            eintrag.status = "Fehler".into();
+            eintrag.fehler = Some(format!("{e:#}"));
+        }
+        Ok(liste) => {
+            let bekannt: BTreeSet<String> = katalog["regelwerke"]
+                .as_array()
+                .map(|a| {
+                    a.iter()
+                        .filter_map(|r| r["quelle"]["celex"].as_str().map(String::from))
+                        .collect()
+                })
+                .unwrap_or_default();
+            eintrag.gefunden = liste.len();
+            geprueft += liste.len();
+            for (celex, titel) in liste {
+                if bekannt.contains(&celex) {
+                    continue;
+                }
+                let url = format!("https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:{celex}");
+                eintrag.uebernommen += 1;
+                gefundene.push(screening::Meldung {
+                    id: screening::kennung(&url),
+                    titel: format!("Neuer Rechtsakt zur DORA: {titel}"),
+                    url: url.clone(),
+                    quelle: "eurlex-folgeakte".into(),
+                    quelle_name: "EUR-Lex (SPARQL)".into(),
+                    herausgeber: "Amt für Veröffentlichungen der EU".into(),
+                    datum: start.clone(),
+                    gefunden: start.clone(),
+                    kategorie: "Neue Regulierung".into(),
+                    punkte: 60,
+                    begruendung: vec![format!("beruht auf DORA, CELEX {celex}, im Katalog unbekannt")],
+                    zusammenfassung: titel.clone(),
+                    themen: Vec::new(),
+                    regelwerke: vec!["dora".into()],
+                    vorschlag: Some(screening::Vorschlag { celex, titel, url }),
+                });
+            }
+        }
+    }
+    println!(
+        "  [{}] {} - {} geprueft, {} neu",
+        eintrag.status, eintrag.name, eintrag.gefunden, eintrag.uebernommen
+    );
+    protokoll.push(eintrag);
+
+    // ---- Zusammenfuehren und schreiben ----
+    let neu = meldungen_ablegen(daten, gefundene)?;
+    schreib_json(&stand_pfad, &stand, true)?;
+
+    let lauf = screening::Lauf {
+        start: start.clone(),
+        dauer_s: (beginn.elapsed().as_millis() as f64 / 1000.0 * 10.0).round() / 10.0,
+        ausloeser: ausloeser.to_string(),
+        quellen: protokoll,
+        neu,
+        geprueft,
+    };
+    let laufpfad = daten.join("screening-laeufe.json");
+    let mut laeufe: serde_json::Value = if laufpfad.exists() {
+        lies_json(&laufpfad)?
+    } else {
+        serde_json::json!({ "laeufe": [] })
+    };
+    if let Some(a) = laeufe["laeufe"].as_array_mut() {
+        a.insert(0, serde_json::to_value(&lauf)?);
+        a.truncate(60);
+    }
+    schreib_json(&laufpfad, &laeufe, true)?;
+
+    println!(
+        "Screening fertig: {} Meldungen geprueft, {} neu, {:.1} s.",
+        geprueft, neu, lauf.dauer_s
+    );
+    Ok(())
+}
+
+/// Ist es gerade das gewünschte Zeitfenster in Europe/Berlin (± 30 Minuten)?
+/// Der GitHub-Cron läuft in UTC; die Sommerzeit muss deshalb hier geprüft werden.
+fn zeitfenster(zeit: &str) -> Result<bool> {
+    let (h, m) = zeit
+        .split_once(':')
+        .context("--nur-um erwartet die Form HH:MM")?;
+    let soll: i64 = h.trim().parse::<i64>()? * 60 + m.trim().parse::<i64>()?;
+    let jetzt = Utc::now().with_timezone(&chrono_tz::Europe::Berlin);
+    let ist = jetzt.hour() as i64 * 60 + jetzt.minute() as i64;
+    Ok((ist - soll).abs() <= 30)
+}
+
+/// Rechtsakte, die auf einem Rechtsakt beruhen - über den SPARQL-Dienst des
+/// Amts für Veröffentlichungen. Damit bleibt die Level-2-Liste vollständig,
+/// ohne sie von Hand zu pflegen.
+fn folgeakte(
+    klient: &reqwest::blocking::Client,
+    celex: &str,
+) -> Result<Vec<(String, String)>> {
+    let abfrage = format!(
+        "PREFIX cdm: <http://publications.europa.eu/ontology/cdm#>\n\
+         SELECT DISTINCT ?celex ?t WHERE {{\n\
+           ?act cdm:resource_legal_based_on_resource_legal ?b .\n\
+           ?b cdm:resource_legal_id_celex ?bc . FILTER(str(?bc)=\"{celex}\")\n\
+           ?act cdm:resource_legal_id_celex ?celex .\n\
+           OPTIONAL {{ ?e cdm:expression_belongs_to_work ?act ;\n\
+             cdm:expression_uses_language <http://publications.europa.eu/resource/authority/language/DEU> ;\n\
+             cdm:expression_title ?t }}\n\
+         }} ORDER BY ?celex"
+    );
+    // Die Abfrage selbst in die Adresse kodieren: `query()` von reqwest steht in
+    // dieser Zusammenstellung nicht zur Verfuegung.
+    let adresse = format!(
+        "https://publications.europa.eu/webapi/rdf/sparql?query={}&format={}",
+        url_kodieren(&abfrage),
+        url_kodieren("application/sparql-results+json")
+    );
+    let antwort = klient.get(&adresse).send()?;
+    if !antwort.status().is_success() {
+        anyhow::bail!("SPARQL antwortete mit {}", antwort.status());
+    }
+    let d: serde_json::Value = serde_json::from_str(&antwort.text()?)
+        .context("SPARQL-Antwort ist kein JSON")?;
+    let mut aus = Vec::new();
+    for b in d["results"]["bindings"].as_array().unwrap_or(&vec![]) {
+        let Some(c) = b["celex"]["value"].as_str() else { continue };
+        // Entschliessungen und aehnliche Dokumente sind keine Rechtsakte.
+        if !c.starts_with('3') {
+            continue;
+        }
+        let t = b["t"]["value"].as_str().unwrap_or(c);
+        aus.push((c.to_string(), screening::text_saeubern(t)));
+    }
+    Ok(aus)
+}
+
+/// Legt neue Meldungen in der Monatsdatei ab. Bereits bekannte bleiben, wie sie
+/// sind - sonst wanderte das Funddatum bei jedem Lauf nach vorn.
+fn meldungen_ablegen(daten: &Path, neue: Vec<screening::Meldung>) -> Result<usize> {
+    let mut nach_monat: BTreeMap<String, Vec<screening::Meldung>> = BTreeMap::new();
+    for m in neue {
+        nach_monat.entry(screening::monat(&m.datum)).or_default().push(m);
+    }
+    let mut neu_gesamt = 0;
+    let ordner = daten.join("news");
+    std::fs::create_dir_all(&ordner)?;
+
+    for (monat, liste) in nach_monat {
+        let pfad = ordner.join(format!("{monat}.json"));
+        let mut vorhanden: Vec<screening::Meldung> = if pfad.exists() {
+            let d: serde_json::Value = lies_json(&pfad)?;
+            serde_json::from_value(d["meldungen"].clone()).unwrap_or_default()
+        } else {
+            Vec::new()
+        };
+        let bekannt: BTreeSet<String> = vorhanden.iter().map(|m| m.id.clone()).collect();
+        for m in liste {
+            if bekannt.contains(&m.id) {
+                continue;
+            }
+            // Dieselbe Meldung aus einem zweiten Feed: gleicher Titel, andere Adresse.
+            if vorhanden.iter().any(|v| screening::aehnlich(&v.titel, &m.titel)) {
+                continue;
+            }
+            vorhanden.push(m);
+            neu_gesamt += 1;
+        }
+        vorhanden.sort_by(|a, b| b.datum.cmp(&a.datum));
+        schreib_json(
+            &pfad,
+            &serde_json::json!({ "monat": monat, "meldungen": vorhanden }),
+            false,
+        )?;
+    }
+
+    // Verzeichnis der Monate fuer die App.
+    let mut monate = Vec::new();
+    for e in std::fs::read_dir(&ordner)? {
+        let p = e?.path();
+        let Some(name) = p.file_stem().and_then(|s| s.to_str()) else { continue };
+        if name == "index" || p.extension().and_then(|s| s.to_str()) != Some("json") {
+            continue;
+        }
+        let d: serde_json::Value = lies_json(&p)?;
+        let n = d["meldungen"].as_array().map(|a| a.len()).unwrap_or(0);
+        monate.push(serde_json::json!({ "monat": name, "meldungen": n }));
+    }
+    monate.sort_by(|a, b| b["monat"].as_str().cmp(&a["monat"].as_str()));
+    schreib_json(
+        &ordner.join("index.json"),
+        &serde_json::json!({ "gebaut": jetzt(), "monate": monate }),
+        true,
+    )?;
+    Ok(neu_gesamt)
+}
+
 // ------------------------------------------------------------------ Ableitungen
 
 /// Alles, was sich aus dem Bestand ergibt: Suchindizes und die belegten Verweise.
@@ -677,7 +1093,7 @@ fn pruefen(daten: &Path) -> Result<()> {
         .map(|a| a.iter().filter_map(|t| t["id"].as_str().map(String::from)).collect())
         .unwrap_or_default();
 
-    let mut pruefe_stelle = |quelle: &str, rw: &str, pfad: Option<&str>, fehler: &mut Vec<String>| {
+    let pruefe_stelle = |quelle: &str, rw: &str, pfad: Option<&str>, fehler: &mut Vec<String>| {
         if !ids.contains(rw) {
             fehler.push(format!("{quelle}: unbekanntes Regelwerk '{rw}'"));
             return;
@@ -866,6 +1282,20 @@ fn titel_uebernehmen(kn: &mut [Knoten], karte: &BTreeMap<String, String>, sprach
         }
         titel_uebernehmen(&mut k.kinder, karte, sprache);
     }
+}
+
+/// Prozentkodierung fuer Abfrageparameter (RFC 3986, unreservierte Zeichen bleiben).
+fn url_kodieren(s: &str) -> String {
+    let mut aus = String::with_capacity(s.len() * 2);
+    for b in s.as_bytes() {
+        match b {
+            b'A'..=b'Z' | b'a'..=b'z' | b'0'..=b'9' | b'-' | b'_' | b'.' | b'~' => {
+                aus.push(*b as char)
+            }
+            _ => aus.push_str(&format!("%{b:02X}")),
+        }
+    }
+    aus
 }
 
 fn lies_json<T: serde::de::DeserializeOwned>(p: &Path) -> Result<T> {

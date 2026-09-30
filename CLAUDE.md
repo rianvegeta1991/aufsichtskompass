@@ -123,6 +123,44 @@ ein Zeichen** – Farbe ist immer nur Zugabe. Die Heatmap stuft deshalb die Hell
 Farbtons statt einen Ampelverlauf zu nutzen, und die Matrixzellen tragen die Typzeichen
 (`=`, `⊂`, `∩`, `>`, `≠`, `§`) neben der Zahl.
 
+## Screening (Phase 5)
+
+`kompass screening [--nur-um 06:30] [--ausloeser <text>]` – täglich über
+`.github/workflows/screening.yml`, jederzeit auch von Hand.
+
+- **14 Feeds**, alle am 30.09.2026 einzeln geprüft: BaFin (Rundschreiben, Aufsicht,
+  Presse, Maßnahmen), BSI, CERT-Bund, CERT-EU, EBA, ESMA, Europäische Kommission,
+  GDV, Cloud Security Alliance.
+- **Seitenüberwachung** für EIOPA und ENISA: Die beiden bieten keinen auffindbaren
+  Feed. Der Bereich `#main-content` bzw. `main` wird geholt, gehasht und verglichen.
+  Liefert der Selektor zu wenig Text, wird **gewarnt statt überschrieben** – sonst
+  meldete eine geänderte Seitenstruktur täglich eine „Änderung".
+- **Neue Level-2-Rechtsakte** über den SPARQL-Dienst: Was auf DORA beruht und nicht
+  im Katalog steht, wird als Vorschlag „In Bibliothek aufnehmen" gemeldet.
+- **Bewertung** über `daten/taxonomie.json`: Begriffe mit Gewicht, Synonymen, Themen
+  und Regelwerken; Treffer in der Überschrift zählen doppelt; Ausschlussbegriffe
+  ziehen ab. Jede Meldung trägt die Begriffe mit, die gegriffen haben.
+- **Zusammenfassung** extraktiv ohne Sprachmodell: Sätze nach Begriffsüberdeckung
+  gewichtet, die besten zwei in Originalreihenfolge.
+
+Drei Fallen, die beim Bauen aufgefallen sind und in den Tests festgehalten sind:
+
+1. **Wortgrenzen**: „ITS" traf mitten in „bereits". Gesucht wird jetzt mit Wortgrenze
+   am Anfang – Komposita wie „IKT-Risikomanagementrahmen" greifen weiter.
+2. **Akronyme groß**: Das englische „its" traf die Abkürzung ITS. Kurze
+   Großbuchstaben-Kürzel werden in der Schreibweise der Quelle gesucht.
+3. **Eigene Schwelle je Quelle** (`mindestpunkte`): CERT-Bund liefert 250 Hinweise
+   zu beliebiger Software. Ohne eigene Schwelle landeten alle im Feed; mit 22 nur
+   noch das, was zusätzlich zum Aufsichtsthema passt.
+
+Ablage: `daten/news/<jahr>-<monat>.json`, Verzeichnis `news/index.json`, Protokoll
+`screening-laeufe.json`, Abrufgedächtnis `screening-stand.json`. Von fremden
+Beiträgen werden nur Titel, Adresse, Datum und ein kurzer Auszug gespeichert.
+
+**Zeitsteuerung:** GitHub-Cron läuft in UTC. Der Auftrag feuert deshalb um 04:30 und
+05:30 UTC; `--nur-um 06:30` prüft die Berliner Zeit und lässt nur den passenden Lauf
+arbeiten. So bleibt es sommers wie winters bei einem Lauf pro Tag.
+
 ## Deep-Links
 
 Adressen laufen über den Hash, weil GitHub Pages keine Pfade auf `index.html` umschreiben kann:
@@ -228,8 +266,8 @@ auch wirklich Text hat).
 
 ## Stand und offene Punkte
 
-Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht), Phase 2b (deutsche Gesetze) und
-Phase 4 (Themenseiten, Beziehungen, Matrizen) –
+Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht), Phase 2b (deutsche Gesetze),
+Phase 4 (Themenseiten, Beziehungen, Matrizen) und Phase 5 (Screening) –
 **20 Regelwerke im Volltext mit rund 3.750 adressierbaren Fundstellen**: DORA (DE/EN),
 die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und BDSG vollständig sowie HGB
 und AO als IT-relevanter Auszug. Viewer mit Gliederungsbaum, Deep-Links, Glossar aus den
@@ -244,6 +282,8 @@ sechs Matrix-Ansichten mit CSV-Export; Beziehungen im Kontext-Panel des Viewers.
 
 Offen, in dieser Reihenfolge sinnvoll:
 
+0. **Phase 7** – Lernbereich (Lektionen, Quizzes, Fallstudien, Karteikarten,
+   Fortschritt). Der einzige Modulblock des Auftrags, der noch ganz fehlt.
 1. **Phase 2c** – BaFin-Veröffentlichungen (MaGo 09/2025 (VA), MaRisk, Aufsichtsmitteilung,
    DORA-FAQ). Zwei Hürden, beide fachlich: die Nutzungsbedingungen für den Volltext sind je
    Veröffentlichung zu prüfen und zu dokumentieren, und die BaFin hat ihre Seitenstruktur

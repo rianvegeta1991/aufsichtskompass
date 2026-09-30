@@ -25,6 +25,10 @@ amtlich veröffentlichte Fassung.
   Texte selbst gewonnen hat, jeder mit seiner Belegstelle.
 - **Themenseiten** zu 22 Themen mit Zielbild, Fundstellen über alle Regelwerke hinweg,
   Prüfungsschwerpunkten und typischen Nachweisen.
+- **Tägliches Screening** um 06:30 Uhr: 14 geprüfte Feeds von BaFin, BSI, CERT-Bund,
+  EBA, ESMA, Kommission, GDV und anderen, Seitenüberwachung für EIOPA und ENISA,
+  neue DORA-Rechtsakte über den SPARQL-Dienst. Jede Meldung nennt die Begriffe, die
+  ihre Relevanz begründen; dazu Newsfeed, Tages-Digest und ein Protokoll jedes Laufs.
 - **Versionierung**: jede Fassung bleibt unveränderlich liegen, mit SHA-256 je Fundstelle als
   Grundlage der Änderungserkennung.
 - Hell und dunkel, WCAG 2.2 AA, offlinefähig als PWA.
@@ -66,8 +70,8 @@ in eigenen Worten, mit Bezugsfassung, Herkunft, Prüfstatus und Verweis auf die 
 
 ## Stand
 
-Die Phasen 1, 2, 2b und 4 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
-gesetze-im-internet.de, dazu Themenseiten, Beziehungen und Matrizen. Offen: BaFin-
-Veröffentlichungen (erst nach Klärung der Nutzungsbedingungen), die eigenen
-Framework-Zusammenfassungen, das tägliche Screening und der Lernbereich. Der Ausbaustand
+Die Phasen 1, 2, 2b, 4 und 5 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
+gesetze-im-internet.de, Themenseiten, Beziehungen, Matrizen und das tägliche Screening.
+Offen: der Lernbereich, BaFin-Veröffentlichungen (erst nach Klärung der
+Nutzungsbedingungen) und die eigenen Framework-Zusammenfassungen. Der Ausbaustand
 steht auch in der App auf der Startseite.
