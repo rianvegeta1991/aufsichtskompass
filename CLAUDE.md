@@ -157,6 +157,12 @@ Ablage: `daten/news/<jahr>-<monat>.json`, Verzeichnis `news/index.json`, Protoko
 `screening-laeufe.json`, Abrufgedächtnis `screening-stand.json`. Von fremden
 Beiträgen werden nur Titel, Adresse, Datum und ein kurzer Auszug gespeichert.
 
+**Ein Commit aus Actions löst keinen Deploy aus.** GitHub startet für Commits mit dem
+Standard-Token bewusst keine weiteren Workflows (Schleifenschutz). Der Screening-Lauf
+stößt `pages.yml` deshalb am Ende selbst an (`gh workflow run pages.yml`, Berechtigung
+`actions: write`). Ohne diesen Schritt lägen die täglichen Daten im Repo, aber nicht
+auf der Seite – genau so war es beim ersten Lauf.
+
 **Zeitsteuerung:** GitHub-Cron läuft in UTC. Der Auftrag feuert deshalb um 04:30 und
 05:30 UTC; `--nur-um 06:30` prüft die Berliner Zeit und lässt nur den passenden Lauf
 arbeiten. So bleibt es sommers wie winters bei einem Lauf pro Tag.
