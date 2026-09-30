@@ -1,6 +1,134 @@
 {
   "laeufe": [
     {
+      "start": "2026-09-30T17:21:54Z",
+      "dauer_s": 13.7,
+      "ausloeser": "workflow_dispatch",
+      "quellen": [
+        {
+          "quelle": "bafin-rundschreiben",
+          "name": "BaFin – Rundschreiben",
+          "status": "ok",
+          "gefunden": 20,
+          "uebernommen": 19
+        },
+        {
+          "quelle": "bafin-aufsicht",
+          "name": "BaFin – Aufsicht",
+          "status": "ok",
+          "gefunden": 20,
+          "uebernommen": 14
+        },
+        {
+          "quelle": "bafin-presse",
+          "name": "BaFin – Presse und Fachartikel",
+          "status": "ok",
+          "gefunden": 20,
+          "uebernommen": 12
+        },
+        {
+          "quelle": "bafin-massnahmen",
+          "name": "BaFin – Massnahmen",
+          "status": "ok",
+          "gefunden": 20,
+          "uebernommen": 13
+        },
+        {
+          "quelle": "bsi-csw",
+          "name": "BSI – Cyber-Sicherheitswarnungen",
+          "status": "ok",
+          "gefunden": 50,
+          "uebernommen": 0
+        },
+        {
+          "quelle": "bsi-presse",
+          "name": "BSI – Presse und Veranstaltungen",
+          "status": "ok",
+          "gefunden": 40,
+          "uebernommen": 15
+        },
+        {
+          "quelle": "cert-bund",
+          "name": "CERT-Bund – Sicherheitshinweise",
+          "status": "ok",
+          "gefunden": 250,
+          "uebernommen": 0
+        },
+        {
+          "quelle": "eba",
+          "name": "EBA – News",
+          "status": "ok",
+          "gefunden": 10,
+          "uebernommen": 1
+        },
+        {
+          "quelle": "esma",
+          "name": "ESMA – News",
+          "status": "unveraendert",
+          "gefunden": 0,
+          "uebernommen": 0
+        },
+        {
+          "quelle": "ek-finanz",
+          "name": "Europäische Kommission – Finanzdienstleistungen",
+          "status": "ok",
+          "gefunden": 30,
+          "uebernommen": 0
+        },
+        {
+          "quelle": "cert-eu",
+          "name": "CERT-EU – Security Advisories",
+          "status": "ok",
+          "gefunden": 10,
+          "uebernommen": 4
+        },
+        {
+          "quelle": "gdv-fach",
+          "name": "GDV – Fachbeiträge",
+          "status": "ok",
+          "gefunden": 50,
+          "uebernommen": 4
+        },
+        {
+          "quelle": "gdv-presse",
+          "name": "GDV – Presse",
+          "status": "ok",
+          "gefunden": 50,
+          "uebernommen": 7
+        },
+        {
+          "quelle": "csa-blog",
+          "name": "Cloud Security Alliance – Blog",
+          "status": "unveraendert",
+          "gefunden": 0,
+          "uebernommen": 0
+        },
+        {
+          "quelle": "eiopa-publikationen",
+          "name": "EIOPA – Publikationen",
+          "status": "unveraendert",
+          "gefunden": 1,
+          "uebernommen": 0
+        },
+        {
+          "quelle": "enisa-publikationen",
+          "name": "ENISA – Publikationen",
+          "status": "unveraendert",
+          "gefunden": 1,
+          "uebernommen": 0
+        },
+        {
+          "quelle": "eurlex-folgeakte",
+          "name": "EUR-Lex: Rechtsakte auf Grundlage der DORA",
+          "status": "ok",
+          "gefunden": 12,
+          "uebernommen": 0
+        }
+      ],
+      "neu": 0,
+      "geprueft": 584
+    },
+    {
       "start": "2026-09-30T17:18:29Z",
       "dauer_s": 12.0,
       "ausloeser": "workflow_dispatch",
