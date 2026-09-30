@@ -1,0 +1,116 @@
+{
+  "stand": "2026-10-01",
+  "hinweis": "Eigene Kurzfassungen zum Ausdrucken. Sie ersetzen den Originaltext nicht; jede Zeile nennt ihre Fundstelle.",
+  "geprueft": false,
+  "herkunft": "KI-erstellt",
+  "cheatsheets": [
+    {
+      "id": "dora-eine-seite",
+      "titel": "DORA auf einer Seite",
+      "untertitel": "Verordnung (EU) 2022/2554 – anwendbar seit 17.01.2025",
+      "bloecke": [
+        {
+          "titel": "Aufbau",
+          "punkte": [
+            { "text": "Kapitel II – IKT-Risikomanagement (Artikel 5 bis 16)", "rw": "dora", "pfad": "kap/II" },
+            { "text": "Kapitel III – Behandlung, Klassifizierung und Meldung von Vorfällen (17 bis 23)", "rw": "dora", "pfad": "kap/III" },
+            { "text": "Kapitel IV – Testen der digitalen operationalen Resilienz (24 bis 27)", "rw": "dora", "pfad": "kap/IV" },
+            { "text": "Kapitel V – IKT-Drittparteienrisiko und Überwachungsrahmen (28 bis 44)", "rw": "dora", "pfad": "kap/V" },
+            { "text": "Kapitel VI – Austausch von Informationen (45)", "rw": "dora", "pfad": "kap/VI" }
+          ]
+        },
+        {
+          "titel": "Verantwortung",
+          "punkte": [
+            { "text": "Letztverantwortung beim Leitungsorgan, nicht delegierbar", "rw": "dora", "pfad": "art/5" },
+            { "text": "Kontrollfunktion mit angemessener Unabhängigkeit", "rw": "dora", "pfad": "art/6/abs/4" },
+            { "text": "Rahmen mindestens jährlich überprüfen", "rw": "dora", "pfad": "art/6/abs/5" },
+            { "text": "Interne Revision prüft den Rahmen", "rw": "dora", "pfad": "art/6/abs/6" }
+          ]
+        },
+        {
+          "titel": "Drittparteien",
+          "punkte": [
+            { "text": "Verantwortung bleibt beim Finanzunternehmen", "rw": "dora", "pfad": "art/28/abs/1" },
+            { "text": "Informationsregister auf drei Ebenen führen", "rw": "dora", "pfad": "art/28/abs/3" },
+            { "text": "Risiko- und Konzentrationsbewertung vor Vertragsschluss", "rw": "dora", "pfad": "art/29" },
+            { "text": "Pflichtinhalte des Vertrags, Ausstiegsstrategie", "rw": "dora", "pfad": "art/30" }
+          ]
+        },
+        {
+          "titel": "Merksätze",
+          "punkte": [
+            { "text": "Verhältnismäßigkeit bestimmt das Maß, nicht das Ob", "rw": "dora", "pfad": "art/4" },
+            { "text": "Für Finanzunternehmen verdrängt DORA die IKT-Pflichten des BSIG", "rw": "bsig", "pfad": "par/28/abs/6" },
+            { "text": "Das VAG gilt daneben weiter – Geschäftsorganisation, IKS, Revision", "rw": "vag", "pfad": "par/23" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "meldefristen",
+      "titel": "Meldefristen im Vergleich",
+      "untertitel": "DORA, BSIG und DSGVO nebeneinander",
+      "bloecke": [
+        {
+          "titel": "DORA – schwerwiegender IKT-Vorfall (gilt für Versicherer)",
+          "punkte": [
+            { "text": "Erstmeldung: 4 Stunden nach Einstufung, spätestens 24 Stunden nach Kenntnis", "rw": "dora-rts-301", "pfad": "art/5" },
+            { "text": "Zwischenmeldung: spätestens 72 Stunden nach der Erstmeldung", "rw": "dora-rts-301", "pfad": "art/5" },
+            { "text": "Abschlussmeldung: spätestens einen Monat nach der Zwischenmeldung", "rw": "dora-rts-301", "pfad": "art/5" },
+            { "text": "Empfänger: zuständige Behörde – für Versicherer die BaFin", "rw": "dora", "pfad": "art/19/abs/1" },
+            { "text": "Kunden unterrichten, wenn finanzielle Interessen betroffen sind", "rw": "dora", "pfad": "art/19/abs/3" }
+          ]
+        },
+        {
+          "titel": "DSGVO – Verletzung des Schutzes personenbezogener Daten (gilt daneben)",
+          "punkte": [
+            { "text": "Meldung: unverzüglich, möglichst binnen 72 Stunden nach Bekanntwerden", "rw": "dsgvo", "pfad": "art/33/abs/1" },
+            { "text": "Empfänger: zuständige Datenschutz-Aufsichtsbehörde", "rw": "dsgvo", "pfad": "art/33" },
+            { "text": "Betroffene benachrichtigen bei voraussichtlich hohem Risiko", "rw": "dsgvo", "pfad": "art/34" },
+            { "text": "Jede Verletzung dokumentieren – auch die nicht gemeldete", "rw": "dsgvo", "pfad": "art/33/abs/5" }
+          ]
+        },
+        {
+          "titel": "BSIG – erheblicher Sicherheitsvorfall (für Finanzunternehmen ausgenommen)",
+          "punkte": [
+            { "text": "Erstmeldung: unverzüglich, spätestens 24 Stunden nach Kenntnis", "rw": "bsig", "pfad": "par/32/abs/1" },
+            { "text": "Ausnahme für Finanzunternehmen nach Artikel 2 Absatz 2 DORA", "rw": "bsig", "pfad": "par/28/abs/6" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dora-vag",
+      "titel": "DORA neben VAG und MaGo",
+      "untertitel": "Was wo geregelt ist – und wo es sich überschneidet",
+      "bloecke": [
+        {
+          "titel": "Geschäftsorganisation",
+          "punkte": [
+            { "text": "§ 23 VAG: wirksame und ordnungsgemäße Geschäftsorganisation insgesamt", "rw": "vag", "pfad": "par/23" },
+            { "text": "Artikel 5 DORA: IKT-bezogene Letztverantwortung des Leitungsorgans", "rw": "dora", "pfad": "art/5" },
+            { "text": "Beide gelten nebeneinander – DORA schärft den IKT-Ausschnitt" }
+          ]
+        },
+        {
+          "titel": "Risikomanagement und Kontrolle",
+          "punkte": [
+            { "text": "§ 26 VAG: Risikomanagementsystem über sämtliche Risiken", "rw": "vag", "pfad": "par/26" },
+            { "text": "Artikel 6 DORA: eigenständiger IKT-Risikomanagementrahmen, jährlich zu prüfen", "rw": "dora", "pfad": "art/6" },
+            { "text": "§ 29 VAG: internes Kontrollsystem – dort ist die IKT-Kontrollfunktion einzuordnen", "rw": "vag", "pfad": "par/29" },
+            { "text": "§ 30 VAG: interne Revision – prüft auch den IKT-Rahmen", "rw": "vag", "pfad": "par/30" }
+          ]
+        },
+        {
+          "titel": "Auslagerung",
+          "punkte": [
+            { "text": "§ 32 VAG: Ausgliederung wichtiger Funktionen – auch ohne IT-Bezug", "rw": "vag", "pfad": "par/32" },
+            { "text": "Artikel 28 DORA: jede Nutzung von IKT-Dienstleistungen – auch ohne Ausgliederung", "rw": "dora", "pfad": "art/28" },
+            { "text": "Zwei Prüfpfade, zwei Dokumentationen – die Abgrenzung gehört festgehalten" }
+          ]
+        }
+      ]
+    }
+  ]
+}

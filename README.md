@@ -29,6 +29,10 @@ amtlich veröffentlichte Fassung.
   EBA, ESMA, Kommission, GDV und anderen, Seitenüberwachung für EIOPA und ENISA,
   neue DORA-Rechtsakte über den SPARQL-Dienst. Jede Meldung nennt die Begriffe, die
   ihre Relevanz begründen; dazu Newsfeed, Tages-Digest und ein Protokoll jedes Laufs.
+- **Lernbereich**: drei Lektionen mit Lernpfad, drei Quizzes mit sechs Fragearten,
+  eine Fallstudie mit Entscheidungsbaum, 24 Karteikarten mit verteilter Wiederholung,
+  Cheat Sheets und eine druckbare Teilnahmebestätigung. Jede Erläuterung verlinkt die
+  Fundstelle; ändert sich dort der Text, meldet das Werkzeug die Stelle zur Überprüfung.
 - **Versionierung**: jede Fassung bleibt unveränderlich liegen, mit SHA-256 je Fundstelle als
   Grundlage der Änderungserkennung.
 - Hell und dunkel, WCAG 2.2 AA, offlinefähig als PWA.
@@ -70,8 +74,8 @@ in eigenen Worten, mit Bezugsfassung, Herkunft, Prüfstatus und Verweis auf die 
 
 ## Stand
 
-Die Phasen 1, 2, 2b, 4 und 5 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
-gesetze-im-internet.de, Themenseiten, Beziehungen, Matrizen und das tägliche Screening.
-Offen: der Lernbereich, BaFin-Veröffentlichungen (erst nach Klärung der
-Nutzungsbedingungen) und die eigenen Framework-Zusammenfassungen. Der Ausbaustand
-steht auch in der App auf der Startseite.
+Die Phasen 1, 2, 2b, 4, 5 und 7 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
+gesetze-im-internet.de, Themenseiten, Beziehungen, Matrizen, das tägliche Screening und der
+Lernbereich. Offen: BaFin-Veröffentlichungen (erst nach Klärung der Nutzungsbedingungen),
+die eigenen Framework-Zusammenfassungen zu ISO, COBIT, ITIL und CSA CCM sowie die
+Härtung nach ASVS. Der Ausbaustand steht auch in der App auf der Startseite.

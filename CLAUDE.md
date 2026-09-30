@@ -167,6 +167,38 @@ auf der Seite – genau so war es beim ersten Lauf.
 05:30 UTC; `--nur-um 06:30` prüft die Berliner Zeit und lässt nur den passenden Lauf
 arbeiten. So bleibt es sommers wie winters bei einem Lauf pro Tag.
 
+## Lernbereich (Phase 7)
+
+Inhalte als Daten unter `daten/lernen/`: `lektionen.json` (drei Lektionen samt Lernpfad),
+`quizzes.json` (drei Quizzes zu je zehn Fragen), `fallstudien.json` (Entscheidungsbaum mit
+Musterlösung), `karten.json` (24 Karteikarten), `cheatsheets.json` (drei Kurzfassungen).
+Eine neue Lektion oder Frage braucht **keine** Code-Änderung.
+
+**Sechs Fragearten**, alle in `eingabefeld()` in `js/lernen.js`: `mc`, `mehrfach`,
+`wahrfalsch`, `luecke`, `zuordnung`, `reihenfolge`. Die Reihenfolge-Frage wird über
+Hoch-/Runter-Knöpfe sortiert, nicht per Ziehen – das bleibt mit Tastatur und auf dem
+Handy bedienbar. Jede Frage nennt nach der Antwort ihre Erläuterung **und** die
+Fundstelle, an der sich die Antwort überprüfen lässt.
+
+**Verteilte Wiederholung** der Karteikarten: Abstände 1, 3, 7, 16 und 35 Tage aus der
+Datendatei. Wer die Karte weiß, rückt eine Stufe vor; wer sie nicht weiß, fängt vorn an.
+
+**`kompass lernstand`** prüft alle 140 Fundstellenbezüge der Lerninhalte gegen den
+Bestand und merkt sich deren Hash. Ändert sich der Text einer Fundstelle, steht die
+betroffene Lektion, Frage oder Karte beim nächsten Lauf als **„zu prüfen"** in
+`daten/lernen/pruefstand.json` – damit erfüllt die App die Forderung, betroffene Fragen
+bei Änderungen der Vorgaben automatisch zu markieren. Nach der Durchsicht:
+`kompass lernstand --bestaetigen`. Ein Bezug „ohne Fundstelle" heißt: Tippfehler im Pfad.
+
+**Teilnahmebestätigung**: eigene Druckansicht (`.urkunde`, `@media print`), gespeichert
+wird sie über den Druckdialog als PDF. Sie ist bewusst als das ausgewiesen, was sie ist –
+kein Zertifikat und kein Nachweis gegenüber Dritten.
+
+**Fallstrick beim Schreiben der Inhalte:** Deutsche Anführungszeichen mit geradem
+Schlusszeichen (`„so"`) beenden den JSON-String und machen die Datei ungültig. Richtig
+ist `„so“`. Beide Dateien waren davon betroffen; `python -c "import json,io; json.load(...)"`
+findet es sofort.
+
 ## Deep-Links
 
 Adressen laufen über den Hash, weil GitHub Pages keine Pfade auf `index.html` umschreiben kann:
@@ -273,7 +305,8 @@ auch wirklich Text hat).
 ## Stand und offene Punkte
 
 Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht), Phase 2b (deutsche Gesetze),
-Phase 4 (Themenseiten, Beziehungen, Matrizen) und Phase 5 (Screening) –
+Phase 4 (Themenseiten, Beziehungen, Matrizen), Phase 5 (Screening) und
+Phase 7 (Lernbereich) –
 **20 Regelwerke im Volltext mit rund 3.750 adressierbaren Fundstellen**: DORA (DE/EN),
 die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und BDSG vollständig sowie HGB
 und AO als IT-relevanter Auszug. Viewer mit Gliederungsbaum, Deep-Links, Glossar aus den
@@ -288,8 +321,6 @@ sechs Matrix-Ansichten mit CSV-Export; Beziehungen im Kontext-Panel des Viewers.
 
 Offen, in dieser Reihenfolge sinnvoll:
 
-0. **Phase 7** – Lernbereich (Lektionen, Quizzes, Fallstudien, Karteikarten,
-   Fortschritt). Der einzige Modulblock des Auftrags, der noch ganz fehlt.
 1. **Phase 2c** – BaFin-Veröffentlichungen (MaGo 09/2025 (VA), MaRisk, Aufsichtsmitteilung,
    DORA-FAQ). Zwei Hürden, beide fachlich: die Nutzungsbedingungen für den Volltext sind je
    Veröffentlichung zu prüfen und zu dokumentieren, und die BaFin hat ihre Seitenstruktur

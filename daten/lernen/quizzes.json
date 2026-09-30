@@ -1,0 +1,333 @@
+{
+  "stand": "2026-10-01",
+  "hinweis": "Eigene Fragen mit Erläuterung und Fundstelle. KI-erstellt und fachlich noch nicht abgenommen – jede Erläuterung verlinkt den Originaltext, an dem sich die Antwort überprüfen lässt.",
+  "geprueft": false,
+  "herkunft": "KI-erstellt",
+  "arten": {
+    "mc": "Eine Antwort ist richtig",
+    "mehrfach": "Mehrere Antworten sind richtig",
+    "wahrfalsch": "Wahr oder falsch, mit Begründung",
+    "luecke": "Lückentext",
+    "zuordnung": "Paare zuordnen",
+    "reihenfolge": "In die richtige Reihenfolge bringen"
+  },
+  "quizzes": [
+    {
+      "id": "quiz-dora-grundlagen",
+      "titel": "DORA-Grundlagen",
+      "stufe": "Einsteiger",
+      "themen": ["ikt-risikomanagement", "it-governance"],
+      "lektion": "dora-grundzuege",
+      "fragen": [
+        {
+          "art": "mc",
+          "frage": "Wer trägt nach DORA die Letztverantwortung für das IKT-Risiko?",
+          "optionen": ["Die IKT-Risikokontrollfunktion", "Das Leitungsorgan", "Die interne Revision", "Der ausgelagerte Dienstleister"],
+          "loesung": 1,
+          "erlaeuterung": "Artikel 5 weist die Letztverantwortung dem Leitungsorgan zu. Es genehmigt und überwacht den Rahmen; delegieren lässt sich die Verantwortung nicht.",
+          "fundstelle": { "rw": "dora", "pfad": "art/5" }
+        },
+        {
+          "art": "wahrfalsch",
+          "aussage": "DORA muss erst in nationales Recht umgesetzt werden, bevor sie für deutsche Versicherer gilt.",
+          "loesung": false,
+          "erlaeuterung": "DORA ist eine Verordnung und gilt unmittelbar. Umsetzungsbedarf besteht nur dort, wo sie selbst nationale Regelungen verlangt.",
+          "fundstelle": { "rw": "dora", "pfad": "art/1" }
+        },
+        {
+          "art": "mc",
+          "frage": "Wie oft ist der IKT-Risikomanagementrahmen mindestens zu überprüfen?",
+          "optionen": ["Alle drei Jahre", "Mindestens einmal jährlich", "Nur nach schwerwiegenden Vorfällen", "Nur auf Verlangen der Aufsicht"],
+          "loesung": 1,
+          "erlaeuterung": "Mindestens einmal jährlich – bei Kleinstunternehmen regelmäßig – sowie zusätzlich nach schwerwiegenden Vorfällen und nach aufsichtlichen Anweisungen.",
+          "fundstelle": { "rw": "dora", "pfad": "art/6/abs/5" }
+        },
+        {
+          "art": "mehrfach",
+          "frage": "Welche Elemente regelt Kapitel II (IKT-Risikomanagement)?",
+          "optionen": ["Schutz und Prävention", "Erkennung", "Backup und Wiederherstellung", "Bedrohungsorientierte Penetrationstests", "Überwachungsrahmen für kritische Drittdienstleister"],
+          "loesung": [0, 1, 2],
+          "erlaeuterung": "Penetrationstests stehen in Kapitel IV, der Überwachungsrahmen in Kapitel V. Kapitel II umfasst Identifizierung, Schutz, Erkennung, Reaktion, Backup, Lernprozesse und Kommunikation.",
+          "fundstelle": { "rw": "dora", "pfad": "kap/II" }
+        },
+        {
+          "art": "zuordnung",
+          "frage": "Ordnen Sie den Artikel seinem Gegenstand zu.",
+          "paare": [
+            ["Artikel 5", "Governance und Organisation"],
+            ["Artikel 17", "Prozess für die Behandlung IKT-bezogener Vorfälle"],
+            ["Artikel 26", "Erweiterte Tests auf Basis von Bedrohungsdaten (TLPT)"],
+            ["Artikel 28", "Allgemeine Prinzipien zum IKT-Drittparteienrisiko"]
+          ],
+          "erlaeuterung": "Die vier Artikel markieren die Kernbereiche: Governance, Vorfallbehandlung, Tests und Drittparteienrisiko.",
+          "fundstelle": { "rw": "dora", "pfad": "art/5" }
+        },
+        {
+          "art": "luecke",
+          "frage": "Ergänzen Sie den Grundsatz, der die Umsetzungstiefe steuert.",
+          "text": "Finanzunternehmen setzen die Anforderungen nach dem Grundsatz der ___ um – gemessen an Größe, Risikoprofil sowie Art, Umfang und Komplexität ihrer Tätigkeiten.",
+          "loesung": ["Verhältnismäßigkeit", "Verhaeltnismaessigkeit", "Proportionalität"],
+          "erlaeuterung": "Artikel 4 verankert den Grundsatz der Verhältnismäßigkeit. Er begründet keine Ausnahme, sondern bestimmt das Maß.",
+          "fundstelle": { "rw": "dora", "pfad": "art/4" }
+        },
+        {
+          "art": "wahrfalsch",
+          "aussage": "Die interne Revision prüft den IKT-Risikomanagementrahmen regelmäßig.",
+          "loesung": true,
+          "erlaeuterung": "Artikel 6 Absatz 6 verlangt die regelmäßige Prüfung durch Prüfer mit ausreichendem Wissen, im Einklang mit dem Revisionsplan – die dritte Verteidigungslinie.",
+          "fundstelle": { "rw": "dora", "pfad": "art/6/abs/6" }
+        },
+        {
+          "art": "mc",
+          "frage": "Wem wird das Management und die Überwachung des IKT-Risikos übertragen?",
+          "optionen": ["Einer Kontrollfunktion mit angemessener Unabhängigkeit", "Dem IT-Betrieb", "Dem Abschlussprüfer", "Dem Auslagerungsbeauftragten"],
+          "loesung": 0,
+          "erlaeuterung": "Artikel 6 Absatz 4 verlangt die Übertragung auf eine Kontrollfunktion und ein angemessenes Maß an Unabhängigkeit, um Interessenkonflikte zu vermeiden. Kleinstunternehmen sind ausgenommen.",
+          "fundstelle": { "rw": "dora", "pfad": "art/6/abs/4" }
+        },
+        {
+          "art": "mc",
+          "frage": "Welche Aussage zum Verhältnis von DORA und BSIG trifft für ein Versicherungsunternehmen zu?",
+          "optionen": [
+            "Beide Meldepflichten sind parallel zu erfüllen",
+            "Das BSIG geht der DORA vor",
+            "Die Risikomanagement- und Meldepflichten des BSIG gelten für Finanzunternehmen nicht",
+            "DORA gilt nur, wenn das Unternehmen keine kritische Anlage betreibt"
+          ],
+          "loesung": 2,
+          "erlaeuterung": "§ 28 Absatz 6 Nummer 1 BSIG nimmt Finanzunternehmen im Sinne des Artikels 2 Absatz 2 DORA von den §§ 30, 31, 32, 35, 36, 38 und 39 aus.",
+          "fundstelle": { "rw": "bsig", "pfad": "par/28/abs/6" }
+        },
+        {
+          "art": "reihenfolge",
+          "frage": "Bringen Sie die Schritte des IKT-Risikomanagementrahmens in die Reihenfolge der Artikel 8 bis 13.",
+          "elemente": ["Identifizierung", "Schutz und Prävention", "Erkennung", "Reaktion und Wiederherstellung", "Lernprozesse und Weiterentwicklung"],
+          "loesung": [0, 1, 2, 3, 4],
+          "erlaeuterung": "Die Artikel folgen dem Lebenszyklus: erst wissen, was man hat (8), dann schützen (9), erkennen (10), reagieren und wiederherstellen (11), daraus lernen (13).",
+          "fundstelle": { "rw": "dora", "pfad": "art/8" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-drittparteien",
+      "titel": "IKT-Drittparteienrisiko",
+      "stufe": "Fortgeschritten",
+      "themen": ["drittparteien-auslagerung", "informationsregister"],
+      "lektion": "drittparteien",
+      "fragen": [
+        {
+          "art": "wahrfalsch",
+          "aussage": "Jede IKT-Dienstleistung im Sinne der DORA ist zugleich eine Ausgliederung nach § 32 VAG.",
+          "loesung": false,
+          "erlaeuterung": "Die Anwendungsbereiche decken sich nicht. § 32 VAG erfasst die Ausgliederung wichtiger Funktionen, Artikel 28 DORA jede Nutzung von IKT-Dienstleistungen – auch solche, die keine Ausgliederung sind.",
+          "fundstelle": { "rw": "vag", "pfad": "par/32" }
+        },
+        {
+          "art": "mc",
+          "frage": "Wo ist die Pflicht zum Informationsregister verankert?",
+          "optionen": ["Artikel 28 Absatz 3 DORA", "Artikel 30 Absatz 1 DORA", "§ 32 VAG", "Artikel 5 DORA"],
+          "loesung": 0,
+          "erlaeuterung": "Artikel 28 Absatz 3 verlangt, das Register im Rahmen des IKT-Risikomanagementrahmens zu führen und aktuell zu halten – auf Unternehmens-, teilkonsolidierter und konsolidierter Ebene.",
+          "fundstelle": { "rw": "dora", "pfad": "art/28/abs/3" }
+        },
+        {
+          "art": "mehrfach",
+          "frage": "Welche Inhalte verlangt Artikel 30 zusätzlich, wenn die Dienstleistung eine kritische oder wichtige Funktion unterstützt?",
+          "optionen": [
+            "Vollständige Leistungsbeschreibungen und Leistungsziele",
+            "Uneingeschränkte Zugangs-, Inspektions- und Prüfungsrechte",
+            "Ausstiegsstrategien",
+            "Die Höhe möglicher Bußgelder der Aufsicht",
+            "Vorgaben zur Unterstützung bei IKT-Vorfällen"
+          ],
+          "loesung": [0, 1, 2, 4],
+          "erlaeuterung": "Bußgelder sind nicht Gegenstand des Vertrags mit dem Dienstleister. Die übrigen Punkte gehören zu den zusätzlichen Pflichtinhalten für kritische oder wichtige Funktionen.",
+          "fundstelle": { "rw": "dora", "pfad": "art/30" }
+        },
+        {
+          "art": "zuordnung",
+          "frage": "Welcher Level-2-Rechtsakt regelt was?",
+          "paare": [
+            ["Durchführungsverordnung (EU) 2024/2956", "Standardvorlagen für das Informationsregister"],
+            ["Delegierte Verordnung (EU) 2025/532", "Untervergabe von IKT-Dienstleistungen"],
+            ["Delegierte Verordnung (EU) 2024/1773", "Inhalt der Leitlinie für vertragliche Vereinbarungen"],
+            ["Delegierte Verordnung (EU) 2024/1502", "Einstufung als kritischer IKT-Drittdienstleister"]
+          ],
+          "erlaeuterung": "Alle vier beruhen auf DORA; die Zuordnung zur jeweiligen Ermächtigungsgrundlage steht in der Matrix unter „Interdependenzen“.",
+          "fundstelle": { "rw": "dora-its-2956", "pfad": "art/1" }
+        },
+        {
+          "art": "luecke",
+          "frage": "Ergänzen Sie die Risikoart, die vor Vertragsschluss gesondert zu bewerten ist.",
+          "text": "Vor dem Abschluss einer vertraglichen Vereinbarung über IKT-Dienstleistungen ist auch das IKT-___risiko zu bewerten – etwa bei mehreren Verträgen mit demselben oder mit schwer ersetzbaren Anbietern.",
+          "loesung": ["Konzentrations", "Konzentrationsrisiko", "Konzentration"],
+          "erlaeuterung": "Artikel 29 verlangt die vorläufige Bewertung des IKT-Konzentrationsrisikos auf Unternehmensebene.",
+          "fundstelle": { "rw": "dora", "pfad": "art/29" }
+        },
+        {
+          "art": "mc",
+          "frage": "Wer stuft IKT-Drittdienstleister als kritisch ein?",
+          "optionen": ["Das Finanzunternehmen selbst", "Die Europäischen Aufsichtsbehörden (ESA)", "Der Dienstleister durch Selbsterklärung", "Die nationale Datenschutzaufsicht"],
+          "loesung": 1,
+          "erlaeuterung": "Nach Artikel 31 nehmen die ESA über den Gemeinsamen Ausschuss und auf Empfehlung des Überwachungsforums die Einstufung vor.",
+          "fundstelle": { "rw": "dora", "pfad": "art/31" }
+        },
+        {
+          "art": "wahrfalsch",
+          "aussage": "Das Informationsregister ist ausschließlich auf Unternehmensebene zu führen.",
+          "loesung": false,
+          "erlaeuterung": "Es ist auf Unternehmensebene sowie auf teilkonsolidierter und konsolidierter Ebene zu führen und aktuell zu halten.",
+          "fundstelle": { "rw": "dora", "pfad": "art/28/abs/3" }
+        },
+        {
+          "art": "mc",
+          "frage": "Ein Cloud-Dienst verarbeitet Bestandsdaten, ohne dass eine wichtige Funktion ausgegliedert wird. Was folgt daraus?",
+          "optionen": [
+            "Weder DORA noch VAG sind einschlägig",
+            "Nur § 32 VAG ist einschlägig",
+            "DORA ist einschlägig, eine Ausgliederung nach § 32 VAG liegt aber nicht zwingend vor",
+            "Die Einstufung entscheidet der Dienstleister"
+          ],
+          "loesung": 2,
+          "erlaeuterung": "Artikel 28 DORA knüpft an die Nutzung von IKT-Dienstleistungen an, nicht an den Ausgliederungsbegriff des VAG. Beide Prüfpfade sind getrennt zu führen und zu dokumentieren.",
+          "fundstelle": { "rw": "dora", "pfad": "art/28" }
+        },
+        {
+          "art": "mehrfach",
+          "frage": "Welche Nachweise erwartet eine Prüfung typischerweise zum Drittparteienrisiko?",
+          "optionen": [
+            "Informationsregister in der amtlichen Vorlage",
+            "Risikoanalyse vor Vertragsschluss",
+            "Vertrag mit den Pflichtinhalten",
+            "Erprobte Ausstiegsstrategie",
+            "Gehaltsstruktur des Dienstleisters"
+          ],
+          "loesung": [0, 1, 2, 3],
+          "erlaeuterung": "Die Vergütung des Dienstleisterpersonals ist kein Nachweis der Vertragssteuerung. Die übrigen vier sind die üblichen Belege.",
+          "fundstelle": { "rw": "dora", "pfad": "art/28" }
+        },
+        {
+          "art": "reihenfolge",
+          "frage": "Bringen Sie den Lebenszyklus einer IKT-Dienstleistung in die richtige Reihenfolge.",
+          "elemente": [
+            "Funktion als kritisch oder wichtig einstufen",
+            "Risiko- und Konzentrationsanalyse durchführen",
+            "Vertrag mit den Pflichtinhalten schließen",
+            "Eintrag im Informationsregister",
+            "Laufende Überwachung des Dienstleisters",
+            "Ausstieg nach der Ausstiegsstrategie"
+          ],
+          "loesung": [0, 1, 2, 3, 4, 5],
+          "erlaeuterung": "Die Einstufung steht am Anfang – sie entscheidet über die Tiefe aller weiteren Schritte.",
+          "fundstelle": { "rw": "dora", "pfad": "art/28/abs/4" }
+        }
+      ]
+    },
+    {
+      "id": "quiz-meldewesen",
+      "titel": "Vorfälle und Meldefristen",
+      "stufe": "Fortgeschritten",
+      "themen": ["incident-meldewesen"],
+      "lektion": "vorfaelle",
+      "fragen": [
+        {
+          "art": "mc",
+          "frage": "Bis wann ist die Erstmeldung eines schwerwiegenden IKT-bezogenen Vorfalls abzusetzen?",
+          "optionen": [
+            "Innerhalb von 24 Stunden nach der Einstufung",
+            "Innerhalb von vier Stunden nach der Einstufung als schwerwiegend, spätestens 24 Stunden nach Kenntniserlangung",
+            "Unverzüglich, spätestens binnen 72 Stunden",
+            "Spätestens einen Monat nach dem Vorfall"
+          ],
+          "loesung": 1,
+          "erlaeuterung": "Die Delegierte Verordnung (EU) 2025/301 nennt beide Grenzen: vier Stunden ab Einstufung und als äußerste Grenze 24 Stunden ab Kenntnis vom Vorfall.",
+          "fundstelle": { "rw": "dora-rts-301", "pfad": "art/5" }
+        },
+        {
+          "art": "mc",
+          "frage": "Wann ist die Zwischenmeldung fällig?",
+          "optionen": ["Spätestens 24 Stunden nach der Erstmeldung", "Spätestens 72 Stunden nach der Erstmeldung", "Spätestens eine Woche nach dem Vorfall", "Nur auf Anforderung der Aufsicht"],
+          "loesung": 1,
+          "erlaeuterung": "Spätestens 72 Stunden nach Übermittlung der Erstmeldung – auch dann, wenn sich Status oder Bewertung nicht geändert haben.",
+          "fundstelle": { "rw": "dora-rts-301", "pfad": "art/5" }
+        },
+        {
+          "art": "mc",
+          "frage": "Bis wann ist die Abschlussmeldung zu übermitteln?",
+          "optionen": ["Spätestens eine Woche nach der Zwischenmeldung", "Spätestens einen Monat nach der Zwischenmeldung", "Spätestens drei Monate nach dem Vorfall", "Es gibt keine Abschlussmeldung"],
+          "loesung": 1,
+          "erlaeuterung": "Spätestens einen Monat nach der Zwischenmeldung beziehungsweise nach der letzten aktualisierten Zwischenmeldung.",
+          "fundstelle": { "rw": "dora-rts-301", "pfad": "art/5" }
+        },
+        {
+          "art": "wahrfalsch",
+          "aussage": "Ist eine Datenschutzverletzung gemeldet, erübrigt sich die Meldung nach DORA.",
+          "loesung": false,
+          "erlaeuterung": "Die Pflichten bestehen unabhängig voneinander: unterschiedliche Auslöser, Empfänger und Fristen. Eine Meldung ersetzt die andere nicht.",
+          "fundstelle": { "rw": "dsgvo", "pfad": "art/33" }
+        },
+        {
+          "art": "luecke",
+          "frage": "Ergänzen Sie die Frist der DSGVO.",
+          "text": "Der Verantwortliche meldet eine Verletzung des Schutzes personenbezogener Daten unverzüglich und möglichst binnen ___ Stunden, nachdem sie ihm bekannt wurde.",
+          "loesung": ["72", "zweiundsiebzig"],
+          "erlaeuterung": "Artikel 33 Absatz 1 DSGVO. Die Ausnahme: Die Meldung entfällt, wenn die Verletzung voraussichtlich nicht zu einem Risiko für die Rechte und Freiheiten führt.",
+          "fundstelle": { "rw": "dsgvo", "pfad": "art/33/abs/1" }
+        },
+        {
+          "art": "zuordnung",
+          "frage": "Welche Meldung geht an wen?",
+          "paare": [
+            ["DORA – schwerwiegender IKT-Vorfall", "Zuständige Behörde, für Versicherer die BaFin"],
+            ["DSGVO – Verletzung des Datenschutzes", "Zuständige Datenschutz-Aufsichtsbehörde"],
+            ["BSIG – erheblicher Sicherheitsvorfall", "Gemeinsame Meldestelle von BSI und BBK"]
+          ],
+          "erlaeuterung": "Die Empfänger unterscheiden sich – ebenso die Fristen. Die Meldepflichten-Matrix stellt beides nebeneinander.",
+          "fundstelle": { "rw": "dora", "pfad": "art/19/abs/1" }
+        },
+        {
+          "art": "reihenfolge",
+          "frage": "Bringen Sie die drei Meldungen nach DORA in die richtige Reihenfolge.",
+          "elemente": ["Erstmeldung", "Zwischenmeldung", "Abschlussmeldung"],
+          "loesung": [0, 1, 2],
+          "erlaeuterung": "Dreistufig: erst melden, dann den Stand aktualisieren, zuletzt Ursachen und Maßnahmen abschließend berichten.",
+          "fundstelle": { "rw": "dora-rts-301", "pfad": "art/5" }
+        },
+        {
+          "art": "mehrfach",
+          "frage": "Welche Kriterien zählen zur Klassifizierung IKT-bezogener Vorfälle?",
+          "optionen": [
+            "Zahl der betroffenen Kunden und Gegenparteien",
+            "Dauer und Ausfallzeit",
+            "Geografische Ausbreitung",
+            "Datenverluste",
+            "Umsatz des IKT-Dienstleisters"
+          ],
+          "loesung": [0, 1, 2, 3],
+          "erlaeuterung": "Der Umsatz des Dienstleisters gehört nicht dazu. Die Kriterien und Wesentlichkeitsschwellen füllt die Delegierte Verordnung (EU) 2024/1772 aus.",
+          "fundstelle": { "rw": "dora", "pfad": "art/18" }
+        },
+        {
+          "art": "wahrfalsch",
+          "aussage": "Ein Versicherungsunternehmen meldet einen erheblichen Sicherheitsvorfall zusätzlich nach § 32 BSIG.",
+          "loesung": false,
+          "erlaeuterung": "§ 28 Absatz 6 Nummer 1 BSIG nimmt Finanzunternehmen im Sinne des Artikels 2 Absatz 2 DORA von § 32 aus. Maßgeblich ist die Meldung nach DORA.",
+          "fundstelle": { "rw": "bsig", "pfad": "par/28/abs/6" }
+        },
+        {
+          "art": "mc",
+          "frage": "Wann sind Kunden über einen schwerwiegenden IKT-bezogenen Vorfall zu unterrichten?",
+          "optionen": [
+            "Immer, sobald der Vorfall eingestuft ist",
+            "Wenn der Vorfall Auswirkungen auf ihre finanziellen Interessen hat",
+            "Erst nach Abschluss der Untersuchung",
+            "Nur auf Anordnung der Aufsicht"
+          ],
+          "loesung": 1,
+          "erlaeuterung": "Artikel 19 Absatz 3: Unterrichtung unverzüglich, sobald das Unternehmen Kenntnis hat, wenn finanzielle Interessen der Kunden betroffen sind.",
+          "fundstelle": { "rw": "dora", "pfad": "art/19/abs/3" }
+        }
+      ]
+    }
+  ]
+}

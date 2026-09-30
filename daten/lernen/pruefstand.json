@@ -1,0 +1,1406 @@
+{
+  "gebaut": "2026-09-30T18:23:16Z",
+  "hinweis": "Stand der Fundstellen, auf die sich die Lerninhalte stuetzen. Status 'zu pruefen' heisst: Der Text der Fundstelle hat sich geaendert, der Lerninhalt ist nachzuziehen. Nach der Durchsicht: `kompass lernstand --bestaetigen`.",
+  "eintraege": [
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-1#dora#art/1",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-1",
+      "rw": "dora",
+      "pfad": "art/1",
+      "hash": "fd5ad8237025aae746d8da26f2716f8d",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-2#dora#art/2",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-2",
+      "rw": "dora",
+      "pfad": "art/2",
+      "hash": "2f2d9a0a355350e7ce5eeec6292308f8",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-2#dora#art/4",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-2",
+      "rw": "dora",
+      "pfad": "art/4",
+      "hash": "6e6776b3c810bc98e0e506dc8f2cb8e9",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-3#dora#kap/II",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-3",
+      "rw": "dora",
+      "pfad": "kap/II",
+      "hash": "126465a5de1b76e177b74d6bd7db3c90",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-3#dora#kap/III",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-3",
+      "rw": "dora",
+      "pfad": "kap/III",
+      "hash": "fe2b215567babc868a8644aa8fc77673",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-3#dora#kap/IV",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-3",
+      "rw": "dora",
+      "pfad": "kap/IV",
+      "hash": "86d7c3a46e40c1e1e635d1581b63a263",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-3#dora#kap/V",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-3",
+      "rw": "dora",
+      "pfad": "kap/V",
+      "hash": "7136227017f46b30110d59171cad980b",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-4#dora#art/5",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-4",
+      "rw": "dora",
+      "pfad": "art/5",
+      "hash": "dd0f6051e1cf94ac6e6d8f70e8b5c27b",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-4#dora#art/6/abs/4",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-4",
+      "rw": "dora",
+      "pfad": "art/6/abs/4",
+      "hash": "1897176c22a289a89932c96ec56bc414",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-4#dora#art/6/abs/6",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-4",
+      "rw": "dora",
+      "pfad": "art/6/abs/6",
+      "hash": "f984ce08917e5c6e87fceb2111cdcac3",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-5#vag#par/23",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-5",
+      "rw": "vag",
+      "pfad": "par/23",
+      "hash": "10ddfd6bbe244d4fe9b1295967673b94",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-5#vag#par/26",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-5",
+      "rw": "vag",
+      "pfad": "par/26",
+      "hash": "dde8551876fb89ed2070714cde1ba2de",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#dora-grundzuege/abschnitt-5#bsig#par/28/abs/6",
+      "datei": "lektionen.json",
+      "id": "dora-grundzuege/abschnitt-5",
+      "rw": "bsig",
+      "pfad": "par/28/abs/6",
+      "hash": "916121adadc305997d529388d8c8384e",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#drittparteien/abschnitt-1#dora#art/28",
+      "datei": "lektionen.json",
+      "id": "drittparteien/abschnitt-1",
+      "rw": "dora",
+      "pfad": "art/28",
+      "hash": "36197c93453b22afbec57f126ae6eaae",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#drittparteien/abschnitt-1#vag#par/32",
+      "datei": "lektionen.json",
+      "id": "drittparteien/abschnitt-1",
+      "rw": "vag",
+      "pfad": "par/32",
+      "hash": "3f9cdafd9ff5c175bb7cb4750229a65a",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#drittparteien/abschnitt-2#dora#art/28/abs/4",
+      "datei": "lektionen.json",
+      "id": "drittparteien/abschnitt-2",
+      "rw": "dora",
+      "pfad": "art/28/abs/4",
+      "hash": "b244ba38bff9baf41cd0dd644295830e",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#drittparteien/abschnitt-2#dora#art/29",
+      "datei": "lektionen.json",
+      "id": "drittparteien/abschnitt-2",
+      "rw": "dora",
+      "pfad": "art/29",
+      "hash": "b9a95272d2eaa4e9a58eff95be09ed19",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#drittparteien/abschnitt-3#dora#art/30",
+      "datei": "lektionen.json",
+      "id": "drittparteien/abschnitt-3",
+      "rw": "dora",
+      "pfad": "art/30",
+      "hash": "c7f58907dd5368e2d635071261aa1f34",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#drittparteien/abschnitt-4#dora#art/28/abs/3",
+      "datei": "lektionen.json",
+      "id": "drittparteien/abschnitt-4",
+      "rw": "dora",
+      "pfad": "art/28/abs/3",
+      "hash": "8cebf301bb39583139c444ae17077e40",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#drittparteien/abschnitt-4#dora-its-2956#art/3",
+      "datei": "lektionen.json",
+      "id": "drittparteien/abschnitt-4",
+      "rw": "dora-its-2956",
+      "pfad": "art/3",
+      "hash": "53bce627888175363c3f311611365f2a",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#drittparteien/abschnitt-5#dora-rts-532#art/1",
+      "datei": "lektionen.json",
+      "id": "drittparteien/abschnitt-5",
+      "rw": "dora-rts-532",
+      "pfad": "art/1",
+      "hash": "21e7c145acbb444953fa16b2a7cafc37",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#drittparteien/abschnitt-5#dora#art/28/abs/8",
+      "datei": "lektionen.json",
+      "id": "drittparteien/abschnitt-5",
+      "rw": "dora",
+      "pfad": "art/28/abs/8",
+      "hash": "5ada313ed68b917e1eb7532fd49ab0be",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-1#dora#art/17",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-1",
+      "rw": "dora",
+      "pfad": "art/17",
+      "hash": "d2a90f06fe2927f3f3083933401f2173",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-2#dora#art/18",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-2",
+      "rw": "dora",
+      "pfad": "art/18",
+      "hash": "7400c835f470c080fb72b3814cecf496",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-2#dora-rts-1772#art/1",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-2",
+      "rw": "dora-rts-1772",
+      "pfad": "art/1",
+      "hash": "4fd78b39794f1bece415a2807bfdbf1d",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-3#dora#art/19",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-3",
+      "rw": "dora",
+      "pfad": "art/19",
+      "hash": "c8ca02527feefc1e67fc9c80284e20a9",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-3#dora-rts-301#art/5",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-3",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-4#dora#art/19/abs/1",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-4",
+      "rw": "dora",
+      "pfad": "art/19/abs/1",
+      "hash": "30bd694d3bd628543ce4e25c5db6aeae",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-4#dsgvo#art/33",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-4",
+      "rw": "dsgvo",
+      "pfad": "art/33",
+      "hash": "72480dd445efedbf2a0e67f6d0c1c471",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-4#bsig#par/28/abs/6",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-4",
+      "rw": "bsig",
+      "pfad": "par/28/abs/6",
+      "hash": "916121adadc305997d529388d8c8384e",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-5#dora#art/13",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-5",
+      "rw": "dora",
+      "pfad": "art/13",
+      "hash": "cf249b5ce119abfc40a4a7bda7e3e7b2",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "lektionen.json#vorfaelle/abschnitt-5#dora#art/19/abs/3",
+      "datei": "lektionen.json",
+      "id": "vorfaelle/abschnitt-5",
+      "rw": "dora",
+      "pfad": "art/19/abs/3",
+      "hash": "4b0f25bb3d09f64e2a149c37f7c8ee31",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-1#dora#art/5",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-1",
+      "rw": "dora",
+      "pfad": "art/5",
+      "hash": "dd0f6051e1cf94ac6e6d8f70e8b5c27b",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-2#dora#art/1",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-2",
+      "rw": "dora",
+      "pfad": "art/1",
+      "hash": "fd5ad8237025aae746d8da26f2716f8d",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-3#dora#art/6/abs/5",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-3",
+      "rw": "dora",
+      "pfad": "art/6/abs/5",
+      "hash": "3142625fc3210f3c631dc5fed811ae33",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-4#dora#kap/II",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-4",
+      "rw": "dora",
+      "pfad": "kap/II",
+      "hash": "126465a5de1b76e177b74d6bd7db3c90",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-5#dora#art/5",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-5",
+      "rw": "dora",
+      "pfad": "art/5",
+      "hash": "dd0f6051e1cf94ac6e6d8f70e8b5c27b",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-6#dora#art/4",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-6",
+      "rw": "dora",
+      "pfad": "art/4",
+      "hash": "6e6776b3c810bc98e0e506dc8f2cb8e9",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-7#dora#art/6/abs/6",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-7",
+      "rw": "dora",
+      "pfad": "art/6/abs/6",
+      "hash": "f984ce08917e5c6e87fceb2111cdcac3",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-8#dora#art/6/abs/4",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-8",
+      "rw": "dora",
+      "pfad": "art/6/abs/4",
+      "hash": "1897176c22a289a89932c96ec56bc414",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-9#bsig#par/28/abs/6",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-9",
+      "rw": "bsig",
+      "pfad": "par/28/abs/6",
+      "hash": "916121adadc305997d529388d8c8384e",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-dora-grundlagen/frage-10#dora#art/8",
+      "datei": "quizzes.json",
+      "id": "quiz-dora-grundlagen/frage-10",
+      "rw": "dora",
+      "pfad": "art/8",
+      "hash": "5764ae81751c5186be3bf5df405a7f35",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-1#vag#par/32",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-1",
+      "rw": "vag",
+      "pfad": "par/32",
+      "hash": "3f9cdafd9ff5c175bb7cb4750229a65a",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-2#dora#art/28/abs/3",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-2",
+      "rw": "dora",
+      "pfad": "art/28/abs/3",
+      "hash": "8cebf301bb39583139c444ae17077e40",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-3#dora#art/30",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-3",
+      "rw": "dora",
+      "pfad": "art/30",
+      "hash": "c7f58907dd5368e2d635071261aa1f34",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-4#dora-its-2956#art/1",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-4",
+      "rw": "dora-its-2956",
+      "pfad": "art/1",
+      "hash": "614ec5992714250a1c04b6a4f49ad1ad",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-5#dora#art/29",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-5",
+      "rw": "dora",
+      "pfad": "art/29",
+      "hash": "b9a95272d2eaa4e9a58eff95be09ed19",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-6#dora#art/31",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-6",
+      "rw": "dora",
+      "pfad": "art/31",
+      "hash": "420fa2c4f67358d7945d60f5f704dd76",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-7#dora#art/28/abs/3",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-7",
+      "rw": "dora",
+      "pfad": "art/28/abs/3",
+      "hash": "8cebf301bb39583139c444ae17077e40",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-8#dora#art/28",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-8",
+      "rw": "dora",
+      "pfad": "art/28",
+      "hash": "36197c93453b22afbec57f126ae6eaae",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-9#dora#art/28",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-9",
+      "rw": "dora",
+      "pfad": "art/28",
+      "hash": "36197c93453b22afbec57f126ae6eaae",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-drittparteien/frage-10#dora#art/28/abs/4",
+      "datei": "quizzes.json",
+      "id": "quiz-drittparteien/frage-10",
+      "rw": "dora",
+      "pfad": "art/28/abs/4",
+      "hash": "b244ba38bff9baf41cd0dd644295830e",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-1#dora-rts-301#art/5",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-1",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-2#dora-rts-301#art/5",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-2",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-3#dora-rts-301#art/5",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-3",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-4#dsgvo#art/33",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-4",
+      "rw": "dsgvo",
+      "pfad": "art/33",
+      "hash": "72480dd445efedbf2a0e67f6d0c1c471",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-5#dsgvo#art/33/abs/1",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-5",
+      "rw": "dsgvo",
+      "pfad": "art/33/abs/1",
+      "hash": "3d17fdc8449335b2bd731f4d007079a2",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-6#dora#art/19/abs/1",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-6",
+      "rw": "dora",
+      "pfad": "art/19/abs/1",
+      "hash": "30bd694d3bd628543ce4e25c5db6aeae",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-7#dora-rts-301#art/5",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-7",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-8#dora#art/18",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-8",
+      "rw": "dora",
+      "pfad": "art/18",
+      "hash": "7400c835f470c080fb72b3814cecf496",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-9#bsig#par/28/abs/6",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-9",
+      "rw": "bsig",
+      "pfad": "par/28/abs/6",
+      "hash": "916121adadc305997d529388d8c8384e",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "quizzes.json#quiz-meldewesen/frage-10#dora#art/19/abs/3",
+      "datei": "quizzes.json",
+      "id": "quiz-meldewesen/frage-10",
+      "rw": "dora",
+      "pfad": "art/19/abs/3",
+      "hash": "4b0f25bb3d09f64e2a149c37f7c8ee31",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k01#dora#art/5",
+      "datei": "karten.json",
+      "id": "k01",
+      "rw": "dora",
+      "pfad": "art/5",
+      "hash": "dd0f6051e1cf94ac6e6d8f70e8b5c27b",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k02#dora#art/6/abs/5",
+      "datei": "karten.json",
+      "id": "k02",
+      "rw": "dora",
+      "pfad": "art/6/abs/5",
+      "hash": "3142625fc3210f3c631dc5fed811ae33",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k03#dora#art/6/abs/4",
+      "datei": "karten.json",
+      "id": "k03",
+      "rw": "dora",
+      "pfad": "art/6/abs/4",
+      "hash": "1897176c22a289a89932c96ec56bc414",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k04#dora-rts-301#art/5",
+      "datei": "karten.json",
+      "id": "k04",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k05#dora-rts-301#art/5",
+      "datei": "karten.json",
+      "id": "k05",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k06#dora-rts-301#art/5",
+      "datei": "karten.json",
+      "id": "k06",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k07#dsgvo#art/33/abs/1",
+      "datei": "karten.json",
+      "id": "k07",
+      "rw": "dsgvo",
+      "pfad": "art/33/abs/1",
+      "hash": "3d17fdc8449335b2bd731f4d007079a2",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k08#bsig#par/28/abs/6",
+      "datei": "karten.json",
+      "id": "k08",
+      "rw": "bsig",
+      "pfad": "par/28/abs/6",
+      "hash": "916121adadc305997d529388d8c8384e",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k09#dora#art/28/abs/3",
+      "datei": "karten.json",
+      "id": "k09",
+      "rw": "dora",
+      "pfad": "art/28/abs/3",
+      "hash": "8cebf301bb39583139c444ae17077e40",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k10#dora-its-2956#art/3",
+      "datei": "karten.json",
+      "id": "k10",
+      "rw": "dora-its-2956",
+      "pfad": "art/3",
+      "hash": "53bce627888175363c3f311611365f2a",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k11#dora#art/28",
+      "datei": "karten.json",
+      "id": "k11",
+      "rw": "dora",
+      "pfad": "art/28",
+      "hash": "36197c93453b22afbec57f126ae6eaae",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k12#dora#art/29",
+      "datei": "karten.json",
+      "id": "k12",
+      "rw": "dora",
+      "pfad": "art/29",
+      "hash": "b9a95272d2eaa4e9a58eff95be09ed19",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k13#dora#art/30",
+      "datei": "karten.json",
+      "id": "k13",
+      "rw": "dora",
+      "pfad": "art/30",
+      "hash": "c7f58907dd5368e2d635071261aa1f34",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k14#dora#art/31",
+      "datei": "karten.json",
+      "id": "k14",
+      "rw": "dora",
+      "pfad": "art/31",
+      "hash": "420fa2c4f67358d7945d60f5f704dd76",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k15#dora#art/4",
+      "datei": "karten.json",
+      "id": "k15",
+      "rw": "dora",
+      "pfad": "art/4",
+      "hash": "6e6776b3c810bc98e0e506dc8f2cb8e9",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k16#dora#art/3",
+      "datei": "karten.json",
+      "id": "k16",
+      "rw": "dora",
+      "pfad": "art/3",
+      "hash": "9a0f9606593fc791736fbacc9b3fc1af",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k17#dora#kap/IV",
+      "datei": "karten.json",
+      "id": "k17",
+      "rw": "dora",
+      "pfad": "kap/IV",
+      "hash": "86d7c3a46e40c1e1e635d1581b63a263",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k18#vag#par/23",
+      "datei": "karten.json",
+      "id": "k18",
+      "rw": "vag",
+      "pfad": "par/23",
+      "hash": "10ddfd6bbe244d4fe9b1295967673b94",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k19#vag#par/29",
+      "datei": "karten.json",
+      "id": "k19",
+      "rw": "vag",
+      "pfad": "par/29",
+      "hash": "5e60b7a44a984218bc28ae2362a60872",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k20#dora#art/6/abs/6",
+      "datei": "karten.json",
+      "id": "k20",
+      "rw": "dora",
+      "pfad": "art/6/abs/6",
+      "hash": "f984ce08917e5c6e87fceb2111cdcac3",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k21#dora#art/19/abs/3",
+      "datei": "karten.json",
+      "id": "k21",
+      "rw": "dora",
+      "pfad": "art/19/abs/3",
+      "hash": "4b0f25bb3d09f64e2a149c37f7c8ee31",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k22#dora-rts-532#art/1",
+      "datei": "karten.json",
+      "id": "k22",
+      "rw": "dora-rts-532",
+      "pfad": "art/1",
+      "hash": "21e7c145acbb444953fa16b2a7cafc37",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k23#dora-rts-1774#art/1",
+      "datei": "karten.json",
+      "id": "k23",
+      "rw": "dora-rts-1774",
+      "pfad": "art/1",
+      "hash": "f487adc14789898ca76945afe26f3557",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "karten.json#k24#dora#art/13",
+      "datei": "karten.json",
+      "id": "k24",
+      "rw": "dora",
+      "pfad": "art/13",
+      "hash": "cf249b5ce119abfc40a4a7bda7e3e7b2",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s1#dora#art/17",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s1",
+      "rw": "dora",
+      "pfad": "art/17",
+      "hash": "d2a90f06fe2927f3f3083933401f2173",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s1#dora#art/19",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s1",
+      "rw": "dora",
+      "pfad": "art/19",
+      "hash": "c8ca02527feefc1e67fc9c80284e20a9",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s1#dora-its-302#art/1",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s1",
+      "rw": "dora-its-302",
+      "pfad": "art/1",
+      "hash": "0f6b7520888471df5d0c847183ab3b85",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s2#dora#art/18",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s2",
+      "rw": "dora",
+      "pfad": "art/18",
+      "hash": "7400c835f470c080fb72b3814cecf496",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s2#dora#art/28/abs/1",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s2",
+      "rw": "dora",
+      "pfad": "art/28/abs/1",
+      "hash": "f79f419b535b1722d921510594a7b572",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s2#dora#art/18",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s2",
+      "rw": "dora",
+      "pfad": "art/18",
+      "hash": "7400c835f470c080fb72b3814cecf496",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s3#dora-rts-301#art/5",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s3",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s3#dora-rts-301#art/5",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s3",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s3#dora-rts-301#art/5",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s3",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s4#dsgvo#art/33",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s4",
+      "rw": "dsgvo",
+      "pfad": "art/33",
+      "hash": "72480dd445efedbf2a0e67f6d0c1c471",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s4#dsgvo#art/33",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s4",
+      "rw": "dsgvo",
+      "pfad": "art/33",
+      "hash": "72480dd445efedbf2a0e67f6d0c1c471",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s4#dora#art/19/abs/3",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s4",
+      "rw": "dora",
+      "pfad": "art/19/abs/3",
+      "hash": "4b0f25bb3d09f64e2a149c37f7c8ee31",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s5#dora#art/30",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s5",
+      "rw": "dora",
+      "pfad": "art/30",
+      "hash": "c7f58907dd5368e2d635071261aa1f34",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/s5#dora#art/28/abs/8",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/s5",
+      "rw": "dora",
+      "pfad": "art/28/abs/8",
+      "hash": "5ada313ed68b917e1eb7532fd49ab0be",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/ende#dora#art/13",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/ende",
+      "rw": "dora",
+      "pfad": "art/13",
+      "hash": "cf249b5ce119abfc40a4a7bda7e3e7b2",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/ende#dora#art/19",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/ende",
+      "rw": "dora",
+      "pfad": "art/19",
+      "hash": "c8ca02527feefc1e67fc9c80284e20a9",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/ende#dora-rts-301#art/5",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/ende",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/ende#dsgvo#art/33",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/ende",
+      "rw": "dsgvo",
+      "pfad": "art/33",
+      "hash": "72480dd445efedbf2a0e67f6d0c1c471",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "fallstudien.json#ransomware-dienstleister/ende#dora#art/30",
+      "datei": "fallstudien.json",
+      "id": "ransomware-dienstleister/ende",
+      "rw": "dora",
+      "pfad": "art/30",
+      "hash": "c7f58907dd5368e2d635071261aa1f34",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#kap/II",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "kap/II",
+      "hash": "126465a5de1b76e177b74d6bd7db3c90",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#kap/III",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "kap/III",
+      "hash": "fe2b215567babc868a8644aa8fc77673",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#kap/IV",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "kap/IV",
+      "hash": "86d7c3a46e40c1e1e635d1581b63a263",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#kap/V",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "kap/V",
+      "hash": "7136227017f46b30110d59171cad980b",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#kap/VI",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "kap/VI",
+      "hash": "e26e973f0636644bcba8e056da5e0730",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#art/5",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "art/5",
+      "hash": "dd0f6051e1cf94ac6e6d8f70e8b5c27b",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#art/6/abs/4",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "art/6/abs/4",
+      "hash": "1897176c22a289a89932c96ec56bc414",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#art/6/abs/5",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "art/6/abs/5",
+      "hash": "3142625fc3210f3c631dc5fed811ae33",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#art/6/abs/6",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "art/6/abs/6",
+      "hash": "f984ce08917e5c6e87fceb2111cdcac3",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#art/28/abs/1",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "art/28/abs/1",
+      "hash": "f79f419b535b1722d921510594a7b572",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#art/28/abs/3",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "art/28/abs/3",
+      "hash": "8cebf301bb39583139c444ae17077e40",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#art/29",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "art/29",
+      "hash": "b9a95272d2eaa4e9a58eff95be09ed19",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#art/30",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "art/30",
+      "hash": "c7f58907dd5368e2d635071261aa1f34",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#dora#art/4",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "dora",
+      "pfad": "art/4",
+      "hash": "6e6776b3c810bc98e0e506dc8f2cb8e9",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#bsig#par/28/abs/6",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "bsig",
+      "pfad": "par/28/abs/6",
+      "hash": "916121adadc305997d529388d8c8384e",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-eine-seite#vag#par/23",
+      "datei": "cheatsheets.json",
+      "id": "dora-eine-seite",
+      "rw": "vag",
+      "pfad": "par/23",
+      "hash": "10ddfd6bbe244d4fe9b1295967673b94",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#dora-rts-301#art/5",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#dora-rts-301#art/5",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#dora-rts-301#art/5",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "dora-rts-301",
+      "pfad": "art/5",
+      "hash": "b2dc3854dc6f63aa94534f7325cda0ce",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#dora#art/19/abs/1",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "dora",
+      "pfad": "art/19/abs/1",
+      "hash": "30bd694d3bd628543ce4e25c5db6aeae",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#dora#art/19/abs/3",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "dora",
+      "pfad": "art/19/abs/3",
+      "hash": "4b0f25bb3d09f64e2a149c37f7c8ee31",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#dsgvo#art/33/abs/1",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "dsgvo",
+      "pfad": "art/33/abs/1",
+      "hash": "3d17fdc8449335b2bd731f4d007079a2",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#dsgvo#art/33",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "dsgvo",
+      "pfad": "art/33",
+      "hash": "72480dd445efedbf2a0e67f6d0c1c471",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#dsgvo#art/34",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "dsgvo",
+      "pfad": "art/34",
+      "hash": "2d13e74a98213d690bce0e5d2deaa4e2",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#dsgvo#art/33/abs/5",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "dsgvo",
+      "pfad": "art/33/abs/5",
+      "hash": "ec687bf2453d59eb4f1569e2050305d5",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#bsig#par/32/abs/1",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "bsig",
+      "pfad": "par/32/abs/1",
+      "hash": "a07307ad6c8d1d32da6c3f05475256d9",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#meldefristen#bsig#par/28/abs/6",
+      "datei": "cheatsheets.json",
+      "id": "meldefristen",
+      "rw": "bsig",
+      "pfad": "par/28/abs/6",
+      "hash": "916121adadc305997d529388d8c8384e",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-vag#vag#par/23",
+      "datei": "cheatsheets.json",
+      "id": "dora-vag",
+      "rw": "vag",
+      "pfad": "par/23",
+      "hash": "10ddfd6bbe244d4fe9b1295967673b94",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-vag#dora#art/5",
+      "datei": "cheatsheets.json",
+      "id": "dora-vag",
+      "rw": "dora",
+      "pfad": "art/5",
+      "hash": "dd0f6051e1cf94ac6e6d8f70e8b5c27b",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-vag#vag#par/26",
+      "datei": "cheatsheets.json",
+      "id": "dora-vag",
+      "rw": "vag",
+      "pfad": "par/26",
+      "hash": "dde8551876fb89ed2070714cde1ba2de",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-vag#dora#art/6",
+      "datei": "cheatsheets.json",
+      "id": "dora-vag",
+      "rw": "dora",
+      "pfad": "art/6",
+      "hash": "bbb9b51cb60a8dc3410f258044d3e086",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-vag#vag#par/29",
+      "datei": "cheatsheets.json",
+      "id": "dora-vag",
+      "rw": "vag",
+      "pfad": "par/29",
+      "hash": "5e60b7a44a984218bc28ae2362a60872",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-vag#vag#par/30",
+      "datei": "cheatsheets.json",
+      "id": "dora-vag",
+      "rw": "vag",
+      "pfad": "par/30",
+      "hash": "24465e276a663159f4029148ed3b3547",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-vag#vag#par/32",
+      "datei": "cheatsheets.json",
+      "id": "dora-vag",
+      "rw": "vag",
+      "pfad": "par/32",
+      "hash": "3f9cdafd9ff5c175bb7cb4750229a65a",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    },
+    {
+      "schluessel": "cheatsheets.json#dora-vag#dora#art/28",
+      "datei": "cheatsheets.json",
+      "id": "dora-vag",
+      "rw": "dora",
+      "pfad": "art/28",
+      "hash": "36197c93453b22afbec57f126ae6eaae",
+      "status": "aktuell",
+      "seit": "2026-09-30T18:23:16Z"
+    }
+  ]
+}

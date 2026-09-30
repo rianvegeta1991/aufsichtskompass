@@ -54,6 +54,7 @@ fn lauf() -> Result<()> {
             wert("--nur-um").as_deref(),
             wert("--ausloeser").as_deref().unwrap_or("von Hand"),
         ),
+        "lernstand" => lernstand(&daten, schalter("--bestaetigen")),
         "verweise" => {
             let n = verweise_bauen(&daten)?;
             println!("{n} belegte Verweise gefunden.");
@@ -68,6 +69,7 @@ fn lauf() -> Result<()> {
                    index                            Suchindizes und Verweise neu bauen\n\
                    verweise                         nur die Verweise aus den Texten sammeln\n\
                    screening [--nur-um 06:30]       Feeds, Seitenueberwachung und neue Rechtsakte\n\
+                   lernstand [--bestaetigen]        Lerninhalte gegen den Bestand pruefen\n\
                    pruefen                          Datenbestand auf Konsistenz pruefen\n\
                  \n\
                  Gemeinsame Schalter: --daten <pfad> (Standard: ../daten bzw. daten)"
@@ -427,6 +429,243 @@ fn texte_aus(roh: &BTreeMap<String, Vec<Block>>) -> Textdatei {
     let mut aus: Textdatei = BTreeMap::new();
     for (id, bloecke) in roh {
         aus.insert(id.clone(), fundstelle(bloecke.clone()));
+    }
+    aus
+}
+
+// ------------------------------------------------------------------ Lernstand
+
+/// Prueft die Lerninhalte gegen den Bestand und merkt sich den Stand der
+/// Fundstellen, auf die sie sich stuetzen. Aendert sich dort der Text, wird die
+/// betroffene Lektion, Frage oder Karte als "zu pruefen" gefuehrt - der Auftrag
+/// verlangt genau das: Bei Aenderungen der Vorgaben werden betroffene Fragen
+/// automatisch zur Ueberpruefung markiert.
+fn lernstand(daten: &Path, bestaetigen: bool) -> Result<()> {
+    let ordner = daten.join("lernen");
+    if !ordner.is_dir() {
+        println!("Kein Ordner daten/lernen - nichts zu pruefen.");
+        return Ok(());
+    }
+
+    // Aktuelle Hashes je Fundstelle aufbauen.
+    let mut hashes: BTreeMap<(String, String), String> = BTreeMap::new();
+    let rw_ordner = daten.join("rw");
+    if rw_ordner.is_dir() {
+        for e in std::fs::read_dir(&rw_ordner)? {
+            let p = e?.path();
+            let reg_pfad = p.join("fassungen.json");
+            if !p.is_dir() || !reg_pfad.exists() {
+                continue;
+            }
+            let register: Fassungsregister = lies_json(&reg_pfad)?;
+            let Some(aktuell) = register.fassungen.last() else { continue };
+            let ord = p.join(&aktuell.id);
+            let struktur: Struktur = lies_json(&ord.join("struktur.json"))?;
+            let leit = struktur.sprachen.first().cloned().unwrap_or_else(|| "de".into());
+            let text: Textdatei = lies_json(&ord.join(format!("text-{leit}.json")))?;
+            let mut nach_pfad: BTreeMap<String, Vec<String>> = BTreeMap::new();
+            sammle_hashkette(&struktur.knoten, &text, &mut nach_pfad);
+            for (pfad, teile) in nach_pfad {
+                hashes.insert((struktur.regelwerk.clone(), pfad), hash(&teile.join("|")));
+            }
+        }
+    }
+
+    // Alle Fundstellenbezuege der Lerninhalte einsammeln.
+    let mut bezuege: Vec<(String, String, String, String)> = Vec::new(); // datei, id, rw, pfad
+    for (datei, sammler) in [
+        ("lektionen.json", bezuege_lektionen as fn(&serde_json::Value) -> Vec<(String, String, String)>),
+        ("quizzes.json", bezuege_quizzes),
+        ("karten.json", bezuege_karten),
+        ("fallstudien.json", bezuege_fallstudien),
+        ("cheatsheets.json", bezuege_cheatsheets),
+    ] {
+        let pfad = ordner.join(datei);
+        if !pfad.exists() {
+            continue;
+        }
+        let d: serde_json::Value = lies_json(&pfad)?;
+        for (id, rw, p) in sammler(&d) {
+            bezuege.push((datei.to_string(), id, rw, p));
+        }
+    }
+
+    let stand_pfad = ordner.join("pruefstand.json");
+    let alt: serde_json::Value = if stand_pfad.exists() {
+        lies_json(&stand_pfad)?
+    } else {
+        serde_json::json!({ "eintraege": [] })
+    };
+    let mut bekannt: BTreeMap<String, (String, String)> = BTreeMap::new(); // schluessel -> (hash, seit)
+    for e in alt["eintraege"].as_array().unwrap_or(&vec![]) {
+        if let (Some(s), Some(h)) = (e["schluessel"].as_str(), e["hash"].as_str()) {
+            bekannt.insert(
+                s.to_string(),
+                (h.to_string(), e["seit"].as_str().unwrap_or("").to_string()),
+            );
+        }
+    }
+
+    let mut eintraege = Vec::new();
+    let (mut neu, mut geaendert, mut fehlt) = (0, 0, 0);
+    for (datei, id, rw, pfad) in &bezuege {
+        let schluessel = format!("{datei}#{id}#{rw}#{pfad}");
+        let jetziger = hashes.get(&(rw.clone(), pfad.clone()));
+        let (status, wert) = match (jetziger, bekannt.get(&schluessel)) {
+            (None, _) => {
+                fehlt += 1;
+                ("Fundstelle fehlt", String::new())
+            }
+            (Some(h), None) => {
+                neu += 1;
+                ("erfasst", h.clone())
+            }
+            (Some(h), Some((alt_hash, _))) if h == alt_hash => ("aktuell", h.clone()),
+            (Some(h), Some(_)) => {
+                geaendert += 1;
+                if bestaetigen {
+                    ("bestaetigt", h.clone())
+                } else {
+                    ("zu pruefen", h.clone())
+                }
+            }
+        };
+        eintraege.push(serde_json::json!({
+            "schluessel": schluessel,
+            "datei": datei,
+            "id": id,
+            "rw": rw,
+            "pfad": pfad,
+            "hash": wert,
+            "status": status,
+            "seit": jetzt(),
+        }));
+    }
+
+    schreib_json(
+        &stand_pfad,
+        &serde_json::json!({
+            "gebaut": jetzt(),
+            "hinweis": "Stand der Fundstellen, auf die sich die Lerninhalte stuetzen. \
+                        Status 'zu pruefen' heisst: Der Text der Fundstelle hat sich geaendert, \
+                        der Lerninhalt ist nachzuziehen. Nach der Durchsicht: \
+                        `kompass lernstand --bestaetigen`.",
+            "eintraege": eintraege,
+        }),
+        true,
+    )?;
+
+    println!(
+        "{} Bezuege geprueft: {} neu erfasst, {} geaendert{}, {} ohne Fundstelle.",
+        bezuege.len(),
+        neu,
+        geaendert,
+        if bestaetigen { " (bestaetigt)" } else { " -> zu pruefen" },
+        fehlt
+    );
+    if fehlt > 0 {
+        println!("  Achtung: Bezuege ohne Fundstelle deuten auf einen Tippfehler im Pfad hin.");
+    }
+    Ok(())
+}
+
+/// Hash einer Fundstelle: hat der Knoten selbst Text, zaehlt dessen Hash;
+/// sonst die Hashes seiner Kinder - so faellt auch eine Aenderung in einem
+/// einzelnen Absatz eines Artikels auf.
+fn sammle_hashkette(
+    kn: &[Knoten],
+    text: &Textdatei,
+    aus: &mut BTreeMap<String, Vec<String>>,
+) -> Vec<String> {
+    let mut eigene = Vec::new();
+    for k in kn {
+        let mut teile = Vec::new();
+        if let Some(f) = text.get(&k.id) {
+            teile.push(f.h.clone());
+        }
+        teile.extend(sammle_hashkette(&k.kinder, text, aus));
+        if let Some(p) = &k.pfad {
+            aus.insert(p.clone(), teile.clone());
+        }
+        eigene.extend(teile);
+    }
+    eigene
+}
+
+fn bezuege_lektionen(d: &serde_json::Value) -> Vec<(String, String, String)> {
+    let mut aus = Vec::new();
+    for l in d["lektionen"].as_array().unwrap_or(&vec![]) {
+        let id = l["id"].as_str().unwrap_or("?");
+        for (i, a) in l["abschnitte"].as_array().unwrap_or(&vec![]).iter().enumerate() {
+            for f in a["fundstellen"].as_array().unwrap_or(&vec![]) {
+                if let (Some(rw), Some(p)) = (f["rw"].as_str(), f["pfad"].as_str()) {
+                    aus.push((format!("{id}/abschnitt-{}", i + 1), rw.into(), p.into()));
+                }
+            }
+        }
+    }
+    aus
+}
+
+fn bezuege_quizzes(d: &serde_json::Value) -> Vec<(String, String, String)> {
+    let mut aus = Vec::new();
+    for q in d["quizzes"].as_array().unwrap_or(&vec![]) {
+        let id = q["id"].as_str().unwrap_or("?");
+        for (i, f) in q["fragen"].as_array().unwrap_or(&vec![]).iter().enumerate() {
+            let s = &f["fundstelle"];
+            if let (Some(rw), Some(p)) = (s["rw"].as_str(), s["pfad"].as_str()) {
+                aus.push((format!("{id}/frage-{}", i + 1), rw.into(), p.into()));
+            }
+        }
+    }
+    aus
+}
+
+fn bezuege_karten(d: &serde_json::Value) -> Vec<(String, String, String)> {
+    let mut aus = Vec::new();
+    for k in d["karten"].as_array().unwrap_or(&vec![]) {
+        let id = k["id"].as_str().unwrap_or("?");
+        let s = &k["fundstelle"];
+        if let (Some(rw), Some(p)) = (s["rw"].as_str(), s["pfad"].as_str()) {
+            aus.push((id.to_string(), rw.into(), p.into()));
+        }
+    }
+    aus
+}
+
+fn bezuege_fallstudien(d: &serde_json::Value) -> Vec<(String, String, String)> {
+    let mut aus = Vec::new();
+    for f in d["fallstudien"].as_array().unwrap_or(&vec![]) {
+        let id = f["id"].as_str().unwrap_or("?");
+        for s in f["schritte"].as_array().unwrap_or(&vec![]) {
+            let schritt = s["id"].as_str().unwrap_or("?");
+            for o in s["optionen"].as_array().unwrap_or(&vec![]) {
+                let q = &o["fundstelle"];
+                if let (Some(rw), Some(p)) = (q["rw"].as_str(), q["pfad"].as_str()) {
+                    aus.push((format!("{id}/{schritt}"), rw.into(), p.into()));
+                }
+            }
+            for q in s["fundstellen"].as_array().unwrap_or(&vec![]) {
+                if let (Some(rw), Some(p)) = (q["rw"].as_str(), q["pfad"].as_str()) {
+                    aus.push((format!("{id}/{schritt}"), rw.into(), p.into()));
+                }
+            }
+        }
+    }
+    aus
+}
+
+fn bezuege_cheatsheets(d: &serde_json::Value) -> Vec<(String, String, String)> {
+    let mut aus = Vec::new();
+    for c in d["cheatsheets"].as_array().unwrap_or(&vec![]) {
+        let id = c["id"].as_str().unwrap_or("?");
+        for b in c["bloecke"].as_array().unwrap_or(&vec![]) {
+            for p in b["punkte"].as_array().unwrap_or(&vec![]) {
+                if let (Some(rw), Some(pf)) = (p["rw"].as_str(), p["pfad"].as_str()) {
+                    aus.push((id.to_string(), rw.into(), pf.into()));
+                }
+            }
+        }
     }
     aus
 }

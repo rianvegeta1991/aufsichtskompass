@@ -13,6 +13,13 @@ const STANDARD = {
   gelesen: {},            // Meldungs-Id -> true
   newsGemerkt: [],        // { id, titel, url, zeit }
   rueckmeldungen: {},     // Meldungs-Id -> { wert, begriffe, zeit }
+  lernen: {               // Lernfortschritt - ausschliesslich auf diesem Geraet
+    name: '',
+    lektionen: {},        // id -> ISO-Zeit
+    quizze: {},           // id -> { versuche: [...], beste: 0..1 }
+    karten: {},           // id -> { stufe, faellig }
+    faelle: {},           // id -> { zeit, bewertungen }
+  },
 };
 
 let zustand = laden();
@@ -168,3 +175,61 @@ export function rueckmeldungSetzen(id, wert, begriffe = []) {
 }
 
 export function rueckmeldungen() { return zustand.rueckmeldungen; }
+
+// ------------------------------------------------------------------ Lernen
+
+export function lernstand() {
+  if (!zustand.lernen) zustand.lernen = structuredClone(STANDARD.lernen);
+  return zustand.lernen;
+}
+
+export function lernname() { return lernstand().name || ''; }
+
+export function lernnameSetzen(n) {
+  lernstand().name = n;
+  sichern();
+}
+
+export function lektionUmschalten(id) {
+  const l = lernstand();
+  if (l.lektionen[id]) delete l.lektionen[id];
+  else l.lektionen[id] = new Date().toISOString();
+  sichern();
+  return Boolean(l.lektionen[id]);
+}
+
+export function quizErgebnis(id, richtig, gesamt) {
+  const l = lernstand();
+  const quote = gesamt ? richtig / gesamt : 0;
+  const e = l.quizze[id] || { versuche: [], beste: 0 };
+  e.versuche.unshift({ zeit: new Date().toISOString(), richtig, gesamt });
+  e.versuche = e.versuche.slice(0, 20);
+  e.beste = Math.max(e.beste || 0, quote);
+  l.quizze[id] = e;
+  sichern();
+  return e;
+}
+
+/**
+ * Verteilte Wiederholung: Wer die Karte weiß, rückt eine Stufe vor, wer sie nicht
+ * weiß, faengt wieder vorn an. Die Abstaende kommen aus der Datendatei.
+ */
+export function karteAntwort(id, gewusst, intervalle = [1, 3, 7, 16, 35]) {
+  const l = lernstand();
+  const alt = l.karten[id] || { stufe: -1 };
+  const stufe = gewusst ? Math.min(alt.stufe + 1, intervalle.length - 1) : 0;
+  const tage = intervalle[stufe] || 1;
+  l.karten[id] = {
+    stufe,
+    faellig: new Date(Date.now() + tage * 86400000).toISOString(),
+    zuletzt: new Date().toISOString(),
+  };
+  sichern();
+  return l.karten[id];
+}
+
+export function fallAbschluss(id, bewertungen) {
+  const l = lernstand();
+  l.faelle[id] = { zeit: new Date().toISOString(), bewertungen };
+  sichern();
+}

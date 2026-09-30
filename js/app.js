@@ -16,8 +16,9 @@ import * as suche from './suche.js';
 import * as matrizen from './matrizen.js';
 import * as analyse from './analyse.js';
 import * as news from './news.js';
+import * as lernen from './lernen.js';
 
-export const APP_VERSION = '1.4';
+export const APP_VERSION = '1.5';
 
 const seite = document.getElementById('seite');
 
@@ -57,7 +58,7 @@ const MENUE = [
   { pfad: 'newsfeed', name: 'Screening', zeichen: '◎' },
   { trenner: 'Analyse' },
   { pfad: 'matrizen', name: 'Interdependenzen', zeichen: '⊞' },
-  { pfad: 'lernen', name: 'Lernbereich', zeichen: '✎', stufe: 'Phase 7' },
+  { pfad: 'lernen', name: 'Lernbereich', zeichen: '✎' },
   { trenner: 'Eigenes' },
   { pfad: 'lesezeichen', name: 'Lesezeichen & Notizen', zeichen: '★' },
   { pfad: 'quellen', name: 'Quellen & Betrieb', zeichen: '⚙' },
@@ -149,8 +150,7 @@ async function leiten() {
       case 'quellen': await quellenseite(seite); break;
       case 'newsfeed': await news.zeigen(seite, teile[1] || ''); break;
       case 'matrizen': await matrizen.zeigen(seite, teile[1] || ''); break;
-      case 'lernen': platzhalter(seite, 'Lernbereich', 7,
-        'Lektionen je Regelwerk und Thema, Cheat Sheets, sechs Quiz-Typen, Fallstudien mit Entscheidungsbaum, Karteikarten mit Spaced Repetition und Lernfortschritt.'); break;
+      case 'lernen': await lernen.zeigen(seite, teile[1] || '', teile.slice(2).join('/')); break;
       default:
         leere(seite).append(fehlerkarte(`Die Adresse „${location.hash}" kennt die App nicht.`));
     }
@@ -195,6 +195,7 @@ async function start(wurzel) {
     ['BSIG – Meldepflichten und Verhältnis zu DORA', '#/rw/bsig'],
     ['Meldepflichten im Vergleich: DORA, BSIG, DSGVO', '#/matrizen/meldepflichten'],
     ['Wer macht was: Rollen und drei Verteidigungslinien', '#/matrizen/rollen'],
+    ['Lernbereich: DORA in Grundzügen', '#/lernen/lektion/dora-grundzuege'],
   ];
 
   wurzel.append(el('div.gitter.zwei', { style: 'margin-top:18px' },
@@ -250,7 +251,7 @@ async function start(wurzel) {
       phasenzeile('4', 'Themenseiten mit Fundstellen, Beziehungsmodell, Matrizen, Heatmap, Meldepflichten, Rollen, Graph, Zeitstrahl, CSV-Export', 'fertig'),
       phasenzeile('5', 'Tägliches Screening: 14 Feeds, Seitenüberwachung, neue Rechtsakte über SPARQL, Newsfeed, Digest, Protokoll', 'fertig'),
       phasenzeile('6', 'Change Detection, Archiv, Diff-Ansicht, Benachrichtigung', 'Grundlage steht (Hashes, Änderungslog)'),
-      phasenzeile('7', 'Lernbereich mit Quizzes, Fallstudien, Karteikarten', 'offen'),
+      phasenzeile('7', 'Lernbereich: Lektionen, sechs Quiz-Arten, Fallstudie mit Entscheidungsbaum, Karteikarten, Cheat Sheets, Bestätigung', 'fertig'),
       phasenzeile('8', 'Härtung: Tests, Security-Review, Betriebsdoku', 'teilweise (Werkzeug-Tests)'),
     ])));
 }

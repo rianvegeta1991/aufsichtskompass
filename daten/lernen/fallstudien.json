@@ -1,0 +1,158 @@
+{
+  "stand": "2026-10-01",
+  "hinweis": "Erdachte Lage zum Üben. Namen und Abläufe sind frei erfunden; die Bewertungen stützen sich auf die verlinkten Fundstellen. Keine Rechtsberatung.",
+  "geprueft": false,
+  "herkunft": "KI-erstellt",
+  "fallstudien": [
+    {
+      "id": "ransomware-dienstleister",
+      "titel": "Ransomware beim Cloud-Dienstleister",
+      "stufe": "Experte",
+      "dauer": 20,
+      "themen": ["incident-meldewesen", "drittparteien-auslagerung", "bcm-backup"],
+      "lage": "Dienstagmorgen, 7:40 Uhr. Ihr Cloud-Dienstleister meldet telefonisch, dass in der Nacht Teile seiner Umgebung verschlüsselt wurden. Betroffen ist unter anderem die Plattform, auf der Ihre Bestandsverwaltung läuft – eine Funktion, die Sie im Informationsregister als kritisch geführt haben. Der Dienstleister kann noch nicht sagen, ob Daten abgeflossen sind. Sie sind Leiterin der IKT-Risikokontrollfunktion.",
+      "schritte": [
+        {
+          "id": "s1",
+          "frage": "Was tun Sie zuerst?",
+          "optionen": [
+            {
+              "text": "Krisenstab einberufen und parallel die Einstufung des Vorfalls beginnen",
+              "bewertung": "gut",
+              "rueckmeldung": "Richtig. Der Prozess nach Artikel 17 sieht Erkennung, Behandlung und Eskalation vor – und die Einstufung entscheidet über den Fristenlauf. Beides parallel zu starten kostet nichts und gewinnt Zeit.",
+              "fundstelle": { "rw": "dora", "pfad": "art/17" },
+              "folge": "s2"
+            },
+            {
+              "text": "Den schriftlichen Bericht des Dienstleisters abwarten, bevor Sie etwas veranlassen",
+              "bewertung": "schlecht",
+              "rueckmeldung": "Gefährlich. Die Meldepflicht knüpft an Ihre Kenntnis und Ihre Einstufung an, nicht an die Zuarbeit des Dienstleisters. Warten verbraucht die Frist, ohne sie anzuhalten.",
+              "fundstelle": { "rw": "dora", "pfad": "art/19" },
+              "folge": "s2"
+            },
+            {
+              "text": "Sofort die BaFin anrufen und den Vorfall mündlich ankündigen",
+              "bewertung": "mittel",
+              "rueckmeldung": "Gut gemeint, aber unvollständig. Die Meldung erfolgt in festgelegter Form und mit festgelegtem Inhalt; ohne Einstufung fehlt ihr die Grundlage. Ein Kontakt zur Aufsicht schadet nicht, ersetzt die Meldung aber nicht.",
+              "fundstelle": { "rw": "dora-its-302", "pfad": "art/1" },
+              "folge": "s2"
+            }
+          ]
+        },
+        {
+          "id": "s2",
+          "frage": "Wer stuft den Vorfall ein – und wonach?",
+          "optionen": [
+            {
+              "text": "Die IKT-Risikokontrollfunktion nach den Kriterien des Artikels 18 und der Delegierten Verordnung (EU) 2024/1772",
+              "bewertung": "gut",
+              "rueckmeldung": "Richtig. Kunden und Gegenparteien, Dauer, geografische Ausbreitung, Datenverluste, Kritikalität und wirtschaftliche Auswirkungen sind die Kriterien – nicht das Bauchgefühl.",
+              "fundstelle": { "rw": "dora", "pfad": "art/18" },
+              "folge": "s3"
+            },
+            {
+              "text": "Der Dienstleister, schließlich kennt er seine Umgebung am besten",
+              "bewertung": "schlecht",
+              "rueckmeldung": "Nein. Die Verantwortung bleibt bei Ihnen: Wer IKT-Dienstleistungen nutzt, bleibt in vollem Umfang für die Einhaltung der Verordnung verantwortlich.",
+              "fundstelle": { "rw": "dora", "pfad": "art/28/abs/1" },
+              "folge": "s3"
+            },
+            {
+              "text": "Der IT-Leiter entscheidet nach Erfahrung",
+              "bewertung": "schlecht",
+              "rueckmeldung": "Die Einstufung muss nachvollziehbar an den Kriterien hängen – sonst lässt sich weder die Frist noch die Entscheidung gegenüber der Aufsicht begründen.",
+              "fundstelle": { "rw": "dora", "pfad": "art/18" },
+              "folge": "s3"
+            }
+          ]
+        },
+        {
+          "id": "s3",
+          "frage": "Um 9:15 Uhr stufen Sie den Vorfall als schwerwiegend ein. Wann muss die Erstmeldung spätestens draußen sein?",
+          "optionen": [
+            {
+              "text": "Um 13:15 Uhr – vier Stunden nach der Einstufung",
+              "bewertung": "gut",
+              "rueckmeldung": "Richtig. Vier Stunden ab Einstufung, dabei nie später als 24 Stunden nach Kenntniserlangung. Kenntnis hatten Sie um 7:40 Uhr, die äußere Grenze liegt also am Mittwoch um 7:40 Uhr – die vier Stunden greifen früher.",
+              "fundstelle": { "rw": "dora-rts-301", "pfad": "art/5" },
+              "folge": "s4"
+            },
+            {
+              "text": "Am Mittwoch um 7:40 Uhr – 24 Stunden nach Kenntnis",
+              "bewertung": "mittel",
+              "rueckmeldung": "Das ist die äußere Grenze, nicht die maßgebliche. Sobald eingestuft ist, laufen die vier Stunden – hier also bis 13:15 Uhr.",
+              "fundstelle": { "rw": "dora-rts-301", "pfad": "art/5" },
+              "folge": "s4"
+            },
+            {
+              "text": "Sobald die Ursache geklärt ist",
+              "bewertung": "schlecht",
+              "rueckmeldung": "Nein. Die Erstmeldung darf unvollständig sein – sie ist eine frühe Anzeige, keine Ursachenanalyse. Dafür gibt es Zwischen- und Abschlussmeldung.",
+              "fundstelle": { "rw": "dora-rts-301", "pfad": "art/5" },
+              "folge": "s4"
+            }
+          ]
+        },
+        {
+          "id": "s4",
+          "frage": "Am Nachmittag verdichtet sich, dass auch personenbezogene Daten von Versicherungsnehmern abgeflossen sind. Was folgt daraus?",
+          "optionen": [
+            {
+              "text": "Datenschutzbeauftragte einbinden und die Meldung nach Artikel 33 DSGVO prüfen – unverzüglich, möglichst binnen 72 Stunden",
+              "bewertung": "gut",
+              "rueckmeldung": "Richtig. Die Pflichten laufen nebeneinander: andere Empfänger, andere Frist, andere Inhalte. Bei hohem Risiko kommt die Benachrichtigung der Betroffenen nach Artikel 34 dazu.",
+              "fundstelle": { "rw": "dsgvo", "pfad": "art/33" },
+              "folge": "s5"
+            },
+            {
+              "text": "Nichts weiter – die DORA-Meldung deckt das ab",
+              "bewertung": "schlecht",
+              "rueckmeldung": "Nein. Eine Meldung ersetzt die andere nicht. Die DSGVO-Meldung geht an die Datenschutzaufsicht, die DORA-Meldung an die BaFin.",
+              "fundstelle": { "rw": "dsgvo", "pfad": "art/33" },
+              "folge": "s5"
+            },
+            {
+              "text": "Nur die betroffenen Kunden informieren",
+              "bewertung": "mittel",
+              "rueckmeldung": "Die Benachrichtigung Betroffener kann nötig sein, ersetzt aber die Meldung an die Aufsichtsbehörde nicht. Und nach DORA sind Kunden zu unterrichten, wenn ihre finanziellen Interessen berührt sind.",
+              "fundstelle": { "rw": "dora", "pfad": "art/19/abs/3" },
+              "folge": "s5"
+            }
+          ]
+        },
+        {
+          "id": "s5",
+          "frage": "Am dritten Tag ist absehbar: Der Dienstleister braucht länger als vereinbart. Was prüfen Sie jetzt?",
+          "optionen": [
+            {
+              "text": "Vertragsrechte nach Artikel 30, Ausstiegsstrategie und Alternativen – und ob das Informationsregister den Sachverhalt noch richtig abbildet",
+              "bewertung": "gut",
+              "rueckmeldung": "Richtig. Genau dafür gibt es die Pflichtinhalte und die Ausstiegsstrategie. Der Vorfall ist auch der Moment, in dem sich zeigt, ob die Strategie mehr war als ein Dokument.",
+              "fundstelle": { "rw": "dora", "pfad": "art/30" },
+              "folge": "ende"
+            },
+            {
+              "text": "Abwarten – Vertragsstrafen klären wir später",
+              "bewertung": "schlecht",
+              "rueckmeldung": "Die Frage ist nicht die Vertragsstrafe, sondern die Fortführung der kritischen Funktion. Genau dafür verlangt DORA eine Ausstiegsstrategie.",
+              "fundstelle": { "rw": "dora", "pfad": "art/28/abs/8" },
+              "folge": "ende"
+            }
+          ]
+        },
+        {
+          "id": "ende",
+          "abschluss": true,
+          "musterloesung": "Der Fall prüft vier Dinge: Erstens, ob Sie Einstufung und Fristenlauf auseinanderhalten – die Vier-Stunden-Frist beginnt mit der Einstufung, die 24-Stunden-Grenze mit der Kenntnis. Zweitens, ob Ihnen klar ist, dass die Verantwortung trotz Auslagerung bei Ihnen bleibt. Drittens, ob Sie die parallelen Meldewege erkennen: DORA an die BaFin, DSGVO an die Datenschutzaufsicht; das BSIG bleibt für Finanzunternehmen außen vor. Viertens, ob Vertrag, Register und Ausstiegsstrategie im Ernstfall tragen. Nach dem Vorfall gehört die Auswertung in den IKT-Risikomanagementrahmen zurück – Artikel 13 verlangt genau das.",
+          "fundstellen": [
+            { "rw": "dora", "pfad": "art/13" },
+            { "rw": "dora", "pfad": "art/19" },
+            { "rw": "dora-rts-301", "pfad": "art/5" },
+            { "rw": "dsgvo", "pfad": "art/33" },
+            { "rw": "dora", "pfad": "art/30" }
+          ]
+        }
+      ]
+    }
+  ]
+}

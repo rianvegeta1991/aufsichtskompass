@@ -1,0 +1,132 @@
+{
+  "stand": "2026-10-01",
+  "hinweis": "Eigene Lerntexte. Sie fassen zusammen und ordnen ein – rechtsverbindlich ist allein der verlinkte Originaltext. Jeder Abschnitt nennt seine Fundstellen; ändert sich dort der Text, meldet 'kompass lernstand' die betroffene Stelle zur Überprüfung.",
+  "geprueft": false,
+  "herkunft": "KI-erstellt",
+  "lektionen": [
+    {
+      "id": "dora-grundzuege",
+      "titel": "DORA in Grundzügen",
+      "stufe": "Einsteiger",
+      "dauer": 12,
+      "themen": ["ikt-risikomanagement", "it-governance"],
+      "einleitung": "Was die Verordnung will, für wen sie gilt und wie sie aufgebaut ist. Am Ende wissen Sie, wo im Text Sie welche Frage nachschlagen.",
+      "abschnitte": [
+        {
+          "titel": "Worum es geht",
+          "text": "DORA bündelt die Anforderungen an die digitale operationale Resilienz des Finanzsektors in einer unmittelbar geltenden Verordnung. Der Gedanke dahinter: Ein Finanzunternehmen soll auch dann weiterarbeiten können, wenn seine IT gestört ist oder angegriffen wird – und die Aufsicht soll das nachvollziehen können. Anders als eine Richtlinie muss DORA nicht in nationales Recht umgesetzt werden; sie gilt direkt.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/1" }]
+        },
+        {
+          "titel": "Für wen sie gilt",
+          "text": "Der Anwendungsbereich ist breit: Er reicht von Kreditinstituten über Versicherungs- und Rückversicherungsunternehmen bis zu IKT-Drittdienstleistern. Für Versicherer ist der Einstieg deshalb nicht die Frage „ob“, sondern „in welcher Tiefe“. Diese Tiefe steuert der Grundsatz der Verhältnismäßigkeit: Größe, Risikoprofil sowie Art, Umfang und Komplexität der Tätigkeiten bestimmen, wie umfangreich die Umsetzung ausfallen muss.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/2" }, { "rw": "dora", "pfad": "art/4" }]
+        },
+        {
+          "titel": "Die fünf Säulen",
+          "text": "DORA lässt sich als fünf Blöcke lesen. Erstens das IKT-Risikomanagement (Artikel 5 bis 16) – vom Rahmen über Schutz und Erkennung bis zu Backup und Lernprozessen. Zweitens die Behandlung, Klassifizierung und Meldung IKT-bezogener Vorfälle (17 bis 23). Drittens das Testen der digitalen operationalen Resilienz (24 bis 27), einschließlich bedrohungsorientierter Penetrationstests. Viertens das Management des IKT-Drittparteienrisikos (28 bis 44), samt Überwachungsrahmen für kritische Drittdienstleister. Fünftens Vereinbarungen über den Austausch von Informationen (45).",
+          "fundstellen": [{ "rw": "dora", "pfad": "kap/II" }, { "rw": "dora", "pfad": "kap/III" }, { "rw": "dora", "pfad": "kap/IV" }, { "rw": "dora", "pfad": "kap/V" }]
+        },
+        {
+          "titel": "Wer verantwortet was",
+          "text": "Die Letztverantwortung für das IKT-Risiko liegt beim Leitungsorgan – sie lässt sich nicht delegieren. Das Leitungsorgan genehmigt und überwacht den Rahmen und hält seine eigenen Kenntnisse aktuell. Das Management und die Überwachung des IKT-Risikos werden einer Kontrollfunktion mit angemessener Unabhängigkeit übertragen; die interne Revision prüft den Rahmen regelmäßig nach ihrem Revisionsplan. Diese Dreiteilung entspricht dem Bild der drei Verteidigungslinien.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/5" }, { "rw": "dora", "pfad": "art/6/abs/4" }, { "rw": "dora", "pfad": "art/6/abs/6" }]
+        },
+        {
+          "titel": "Wie DORA neben VAG, MaGo und BSIG steht",
+          "text": "DORA ersetzt das Aufsichtsrecht nicht, sondern schärft seinen IKT-Ausschnitt. Das VAG verlangt weiterhin eine wirksame Geschäftsorganisation samt Risikomanagement, internem Kontrollsystem und interner Revision. Umgekehrt tritt DORA für Finanzunternehmen an die Stelle des BSIG: § 28 Absatz 6 Nummer 1 BSIG nimmt Finanzunternehmen im Sinne des Artikels 2 Absatz 2 DORA ausdrücklich von den Risikomanagement-, Melde- und Leitungspflichten des BSIG aus.",
+          "fundstellen": [{ "rw": "vag", "pfad": "par/23" }, { "rw": "vag", "pfad": "par/26" }, { "rw": "bsig", "pfad": "par/28/abs/6" }]
+        }
+      ],
+      "quiz": "quiz-dora-grundlagen"
+    },
+    {
+      "id": "drittparteien",
+      "titel": "IKT-Drittparteienrisiko und Auslagerung",
+      "stufe": "Fortgeschritten",
+      "dauer": 15,
+      "themen": ["drittparteien-auslagerung", "informationsregister"],
+      "einleitung": "Der Bereich, in dem DORA und VAG am deutlichsten nebeneinanderstehen – und in dem die meisten Umsetzungsfehler passieren.",
+      "abschnitte": [
+        {
+          "titel": "Zwei Begriffe, zwei Prüfpfade",
+          "text": "Die Anwendungsbereiche decken sich nicht. § 32 VAG erfasst die Ausgliederung wichtiger Funktionen und Tätigkeiten – unabhängig davon, ob IT im Spiel ist. Artikel 28 DORA erfasst jede Nutzung von IKT-Dienstleistungen, auch solche, die keine Ausgliederung im Sinne des VAG sind. Wer beides in einen Topf wirft, übersieht regelmäßig Verträge: Ein Software-as-a-Service-Vertrag kann DORA-relevant sein, ohne eine Ausgliederung zu sein. Beide Prüfpfade sind deshalb nebeneinander zu führen und die Einstufung ist zu dokumentieren.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/28" }, { "rw": "vag", "pfad": "par/32" }]
+        },
+        {
+          "titel": "Vor dem Vertrag",
+          "text": "Vor Abschluss einer vertraglichen Vereinbarung sind die Risiken zu bewerten – insbesondere, ob die Dienstleistung eine kritische oder wichtige Funktion unterstützt. Dazu kommt die Bewertung des IKT-Konzentrationsrisikos: Häufen sich kritische Funktionen bei einem Anbieter oder bei schwer ersetzbaren Anbietern, ist das eigens zu betrachten.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/28/abs/4" }, { "rw": "dora", "pfad": "art/29" }]
+        },
+        {
+          "titel": "Der Vertrag",
+          "text": "Artikel 30 zählt die Mindestinhalte auf. Für alle Verträge gelten Grundangaben wie Leistungsbeschreibung, Orte der Leistungserbringung und Datenverarbeitung, Kündigungsrechte und Mitwirkungspflichten. Unterstützt die Dienstleistung eine kritische oder wichtige Funktion, kommen weitere Pflichtinhalte hinzu – Leistungsziele, uneingeschränkte Zugangs-, Inspektions- und Prüfungsrechte, Vorgaben zur Unterstützung bei Vorfällen und eine Ausstiegsstrategie.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/30" }]
+        },
+        {
+          "titel": "Das Informationsregister",
+          "text": "Alle vertraglichen Vereinbarungen über die Nutzung von IKT-Dienstleistungen sind in einem Informationsregister zu führen und aktuell zu halten – auf Unternehmensebene sowie auf teilkonsolidierter und konsolidierter Ebene. Die Standardvorlagen gibt die Durchführungsverordnung (EU) 2024/2956 vor. Das Register ist kein Selbstzweck: Es ist meldefähig zu halten und mit Vertragsakte und Assetverzeichnis abzustimmen.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/28/abs/3" }, { "rw": "dora-its-2956", "pfad": "art/3" }]
+        },
+        {
+          "titel": "Unterauftragsvergabe und Ausstieg",
+          "text": "Die Kette endet nicht beim unmittelbaren Dienstleister. Für die Untervergabe von IKT-Dienstleistungen, die kritische oder wichtige Funktionen unterstützen, präzisiert die Delegierte Verordnung (EU) 2025/532, welche Aspekte das Finanzunternehmen bestimmen und bewerten muss. Und für den Fall, dass die Zusammenarbeit endet – geplant oder ungeplant – braucht es Ausstiegsstrategien, die tatsächlich tragen.",
+          "fundstellen": [{ "rw": "dora-rts-532", "pfad": "art/1" }, { "rw": "dora", "pfad": "art/28/abs/8" }]
+        }
+      ],
+      "quiz": "quiz-drittparteien"
+    },
+    {
+      "id": "vorfaelle",
+      "titel": "Vorfälle erkennen, klassifizieren, melden",
+      "stufe": "Fortgeschritten",
+      "dauer": 14,
+      "themen": ["incident-meldewesen"],
+      "einleitung": "Hier zählt jede Stunde. Die Lektion führt durch den Prozess und stellt die drei Meldewege nebeneinander, die gleichzeitig greifen können.",
+      "abschnitte": [
+        {
+          "titel": "Der Prozess",
+          "text": "Verlangt wird ein Managementprozess für IKT-bezogene Vorfälle: erkennen, behandeln, dokumentieren, Ursachen analysieren. Frühwarnindikatoren, Rollen und Verantwortlichkeiten, Kommunikationspläne und Eskalationswege gehören dazu – ebenso die Festlegung, wer die Einstufung vornimmt und wer meldet.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/17" }]
+        },
+        {
+          "titel": "Klassifizierung",
+          "text": "Ob ein Vorfall schwerwiegend ist, entscheidet sich nach festen Kriterien – betroffene Kunden und Gegenparteien, Dauer und Ausfallzeit, geografische Ausbreitung, Datenverluste, Kritikalität der betroffenen Dienste und wirtschaftliche Auswirkungen. Die Kriterien und Wesentlichkeitsschwellen füllt die Delegierte Verordnung (EU) 2024/1772 aus.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/18" }, { "rw": "dora-rts-1772", "pfad": "art/1" }]
+        },
+        {
+          "titel": "Die Fristen",
+          "text": "Für schwerwiegende Vorfälle gilt eine dreistufige Meldung. Die Erstmeldung ist innerhalb von vier Stunden nach der Einstufung als schwerwiegend abzusetzen, spätestens jedoch 24 Stunden nach Kenntniserlangung von dem Vorfall. Die Zwischenmeldung folgt spätestens 72 Stunden nach der Erstmeldung, die Abschlussmeldung spätestens einen Monat nach der Zwischenmeldung. Wer erst bei der Meldung anfängt, die Uhr zu lesen, hat schon verloren: Die Vier-Stunden-Frist beginnt mit der Einstufung – der Einstufungsprozess muss also selbst schnell sein.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/19" }, { "rw": "dora-rts-301", "pfad": "art/5" }]
+        },
+        {
+          "titel": "Drei Meldewege nebeneinander",
+          "text": "Ein Vorfall kann mehrere Pflichten gleichzeitig auslösen. Nach DORA wird an die zuständige Behörde gemeldet – für Versicherer die BaFin. Sind personenbezogene Daten betroffen, tritt die Meldung nach Artikel 33 DSGVO an die Datenschutzaufsicht daneben: unverzüglich, möglichst binnen 72 Stunden. Die Meldepflicht des § 32 BSIG greift für Finanzunternehmen dagegen nicht, weil § 28 Absatz 6 BSIG sie ausnimmt. Eine Meldung ersetzt die andere nicht.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/19/abs/1" }, { "rw": "dsgvo", "pfad": "art/33" }, { "rw": "bsig", "pfad": "par/28/abs/6" }]
+        },
+        {
+          "titel": "Aus Vorfällen lernen",
+          "text": "Nach dem Vorfall ist vor dem Vorfall: Erkenntnisse aus schwerwiegenden Störungen sind auszuwerten und in den IKT-Risikomanagementrahmen zurückzuspielen. Auch die Kunden sind zu unterrichten, wenn der Vorfall Auswirkungen auf ihre finanziellen Interessen hat.",
+          "fundstellen": [{ "rw": "dora", "pfad": "art/13" }, { "rw": "dora", "pfad": "art/19/abs/3" }]
+        }
+      ],
+      "quiz": "quiz-meldewesen"
+    }
+  ],
+  "lernpfade": [
+    {
+      "id": "einstieg",
+      "name": "Einstieg für die Fachabteilung",
+      "beschreibung": "Drei Lektionen in der Reihenfolge, in der sie aufeinander aufbauen – vom Überblick bis zu den Fristen.",
+      "schritte": [
+        { "art": "lektion", "id": "dora-grundzuege" },
+        { "art": "quiz", "id": "quiz-dora-grundlagen" },
+        { "art": "lektion", "id": "drittparteien" },
+        { "art": "quiz", "id": "quiz-drittparteien" },
+        { "art": "lektion", "id": "vorfaelle" },
+        { "art": "quiz", "id": "quiz-meldewesen" },
+        { "art": "fallstudie", "id": "ransomware-dienstleister" }
+      ]
+    }
+  ]
+}

@@ -424,6 +424,73 @@ td.raci[data-raci="I"] { background: var(--color-surface-alt); color: var(--colo
   .zeitstrahl .jahr { grid-template-columns: 1fr; gap: 4px; }
 }
 
+/* ------------------------------------------------------------------ Lernen */
+.lernpfad { display: flex; flex-direction: column; gap: 2px; padding: 8px; }
+.pfadschritt {
+  display: flex; align-items: center; gap: 10px; padding: 10px 12px; min-height: 48px;
+  border-radius: var(--radius-klein); text-decoration: none; color: var(--color-text);
+}
+.pfadschritt:hover { background: var(--color-surface-sunken); }
+.pfadschritt .pfadnummer {
+  flex: 0 0 26px; height: 26px; border-radius: 50%; display: flex; align-items: center;
+  justify-content: center; font-size: .82rem; font-weight: 700;
+  background: var(--color-surface-sunken); color: var(--color-text-muted);
+}
+.pfadschritt[data-fertig="ja"] .pfadnummer { background: var(--color-success); color: var(--color-surface); }
+.pfadschritt .chip { margin-left: auto; }
+
+.quiz-fortschritt { display: flex; align-items: center; gap: 5px; margin-bottom: 14px; flex-wrap: wrap; }
+.quiz-punkt { width: 26px; height: 8px; border-radius: 4px; background: var(--color-border-strong); }
+.quiz-punkt[data-zustand="aktuell"] { background: var(--color-primary); }
+.quiz-punkt[data-zustand="richtig"] { background: var(--color-success); }
+/* Falsch: dunkelrot UND schmaler - die Form traegt die Aussage mit. */
+.quiz-punkt[data-zustand="falsch"] { background: var(--color-danger); height: 5px; align-self: center; }
+
+.quiz-optionen { display: flex; flex-direction: column; gap: 8px; }
+.quiz-option {
+  display: flex; align-items: flex-start; gap: 10px; padding: 11px 13px; min-height: 46px;
+  border: 1px solid var(--color-border-strong); border-radius: var(--radius-klein);
+  cursor: pointer; background: var(--color-surface);
+}
+.quiz-option:hover { background: var(--color-surface-alt); }
+.quiz-option input { margin-top: 3px; }
+.quiz-option[data-los="richtig"] { border-color: var(--color-success); background: var(--color-success-soft); }
+.quiz-option[data-los="richtig"] > span::after { content: " ✓"; font-weight: 700; color: var(--color-success); }
+.quiz-option[data-los="falsch"] { border-color: var(--color-danger); background: var(--color-danger-soft); }
+.quiz-option[data-los="falsch"] > span::after { content: " ✕"; font-weight: 700; color: var(--color-danger); }
+
+.quiz-rueck { margin-top: 14px; padding: 12px 14px; border-radius: var(--radius-klein); border-left: 4px solid var(--color-border-strong); background: var(--color-surface-alt); }
+.quiz-rueck[data-richtig="ja"] { border-left-color: var(--color-success); background: var(--color-success-soft); }
+.quiz-rueck[data-richtig="nein"] { border-left-color: var(--color-danger); background: var(--color-danger-soft); }
+
+.quiz-zuordnung { display: flex; flex-direction: column; gap: 8px; }
+.zuordnungszeile { display: grid; grid-template-columns: 1fr auto 1fr; gap: 10px; align-items: center; }
+.zuordnungszeile select { padding: 9px; min-height: 44px; width: 100%; border: 1px solid var(--color-border-strong); border-radius: var(--radius-klein); background: var(--color-surface); color: var(--color-text); }
+
+.quiz-reihenfolge { list-style: decimal; margin: 0; padding-left: 1.6em; }
+.quiz-reihenfolge li { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-bottom: 1px solid var(--color-border); }
+.quiz-reihenfolge .knopf { min-width: 42px; min-height: 40px; justify-content: center; }
+
+.karteikarte { text-align: center; padding: 30px 20px; }
+.karteikarte h2 { font-size: 1.2rem; }
+.fallknopf { text-align: left; justify-content: flex-start; min-height: 48px; }
+.fallknopf[data-bewertung="gut"] { border-color: var(--color-success); background: var(--color-success-soft); }
+.fallknopf[data-bewertung="mittel"] { border-color: var(--color-warning); background: var(--color-warning-soft); }
+.fallknopf[data-bewertung="schlecht"] { border-color: var(--color-danger); background: var(--color-danger-soft); }
+
+.urkunde { padding: 34px 30px; border: 2px solid var(--color-primary); }
+.urkunde-kopf { text-align: center; font-size: 1.5rem; font-weight: 700; letter-spacing: .04em; color: var(--color-primary); margin: 0 0 14px; }
+.urkunde-name { text-align: center; font-size: 1.7rem; font-weight: 700; margin: 0 0 10px; }
+.urkunde h3 { margin: 16px 0 4px; font-size: .78rem; text-transform: uppercase; letter-spacing: .07em; color: var(--color-text-muted); }
+.urkunde ul { margin: 0; padding-left: 1.2em; }
+.urkunde-fuss { margin: 22px 0 0; padding-top: 12px; border-top: 1px solid var(--color-border); font-size: .78rem; color: var(--color-text-muted); }
+
+@media print {
+  .nicht-drucken, .kopfzeile .brotkrumen { display: none !important; }
+  .urkunde { border-color: #000; box-shadow: none; page-break-inside: avoid; }
+  .blatt { grid-template-columns: 1fr 1fr !important; }
+}
+
 /* -------------------------------------------------------------------- News */
 /* Gelesene Meldungen treten zurueck, bleiben aber lesbar - ausgegraut wuerde die
    Kontrastforderung reissen. Stattdessen ein ruhigerer Rand und weniger Gewicht. */
