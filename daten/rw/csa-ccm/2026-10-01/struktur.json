@@ -1,0 +1,214 @@
+{
+  "regelwerk": "csa-ccm",
+  "fassung": "2026-10-01",
+  "abgerufen": "2026-09-30T19:18:24Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Cloud Controls Matrix v4.x",
+    "url": "https://cloudsecurityalliance.org/research/cloud-controls-matrix",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein Cloud Security Alliance, Cloud Controls Matrix (Cloud Controls Matrix v4.x)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_ccm",
+      "art": "abschnitt",
+      "nummer": "CCM",
+      "bez": "CCM",
+      "titel": {
+        "de": "Domänen der Cloud Controls Matrix"
+      },
+      "pfad": "gr/ccm",
+      "kinder": [
+        {
+          "id": "z_a_a",
+          "art": "control",
+          "nummer": "A&A",
+          "bez": "A&A",
+          "titel": {
+            "de": "Audit und Prüfungssicherheit"
+          },
+          "pfad": "d/aa",
+          "text": true
+        },
+        {
+          "id": "z_ais",
+          "art": "control",
+          "nummer": "AIS",
+          "bez": "AIS",
+          "titel": {
+            "de": "Anwendungs- und Schnittstellensicherheit"
+          },
+          "pfad": "d/ais",
+          "text": true
+        },
+        {
+          "id": "z_bcr",
+          "art": "control",
+          "nummer": "BCR",
+          "bez": "BCR",
+          "titel": {
+            "de": "Geschäftsfortführung und operative Resilienz"
+          },
+          "pfad": "d/bcr",
+          "text": true
+        },
+        {
+          "id": "z_ccc",
+          "art": "control",
+          "nummer": "CCC",
+          "bez": "CCC",
+          "titel": {
+            "de": "Änderungs- und Konfigurationsmanagement"
+          },
+          "pfad": "d/ccc",
+          "text": true
+        },
+        {
+          "id": "z_cek",
+          "art": "control",
+          "nummer": "CEK",
+          "bez": "CEK",
+          "titel": {
+            "de": "Kryptografie, Verschlüsselung und Schlüsselverwaltung"
+          },
+          "pfad": "d/cek",
+          "text": true
+        },
+        {
+          "id": "z_dcs",
+          "art": "control",
+          "nummer": "DCS",
+          "bez": "DCS",
+          "titel": {
+            "de": "Rechenzentrumssicherheit"
+          },
+          "pfad": "d/dcs",
+          "text": true
+        },
+        {
+          "id": "z_dsp",
+          "art": "control",
+          "nummer": "DSP",
+          "bez": "DSP",
+          "titel": {
+            "de": "Datensicherheit und Lebenszyklus personenbezogener Daten"
+          },
+          "pfad": "d/dsp",
+          "text": true
+        },
+        {
+          "id": "z_grc",
+          "art": "control",
+          "nummer": "GRC",
+          "bez": "GRC",
+          "titel": {
+            "de": "Governance, Risikomanagement und Compliance"
+          },
+          "pfad": "d/grc",
+          "text": true
+        },
+        {
+          "id": "z_hrs",
+          "art": "control",
+          "nummer": "HRS",
+          "bez": "HRS",
+          "titel": {
+            "de": "Personal"
+          },
+          "pfad": "d/hrs",
+          "text": true
+        },
+        {
+          "id": "z_iam",
+          "art": "control",
+          "nummer": "IAM",
+          "bez": "IAM",
+          "titel": {
+            "de": "Identitäts- und Zugriffsmanagement"
+          },
+          "pfad": "d/iam",
+          "text": true
+        },
+        {
+          "id": "z_ipy",
+          "art": "control",
+          "nummer": "IPY",
+          "bez": "IPY",
+          "titel": {
+            "de": "Interoperabilität und Portabilität"
+          },
+          "pfad": "d/ipy",
+          "text": true
+        },
+        {
+          "id": "z_ivs",
+          "art": "control",
+          "nummer": "IVS",
+          "bez": "IVS",
+          "titel": {
+            "de": "Infrastruktur- und Virtualisierungssicherheit"
+          },
+          "pfad": "d/ivs",
+          "text": true
+        },
+        {
+          "id": "z_log",
+          "art": "control",
+          "nummer": "LOG",
+          "bez": "LOG",
+          "titel": {
+            "de": "Protokollierung und Überwachung"
+          },
+          "pfad": "d/log",
+          "text": true
+        },
+        {
+          "id": "z_sef",
+          "art": "control",
+          "nummer": "SEF",
+          "bez": "SEF",
+          "titel": {
+            "de": "Sicherheitsvorfälle, E-Discovery und Cloud-Forensik"
+          },
+          "pfad": "d/sef",
+          "text": true
+        },
+        {
+          "id": "z_sta",
+          "art": "control",
+          "nummer": "STA",
+          "bez": "STA",
+          "titel": {
+            "de": "Lieferkette, Transparenz und Rechenschaft"
+          },
+          "pfad": "d/sta",
+          "text": true
+        },
+        {
+          "id": "z_tvm",
+          "art": "control",
+          "nummer": "TVM",
+          "bez": "TVM",
+          "titel": {
+            "de": "Bedrohungs- und Schwachstellenmanagement"
+          },
+          "pfad": "d/tvm",
+          "text": true
+        },
+        {
+          "id": "z_uem",
+          "art": "control",
+          "nummer": "UEM",
+          "bez": "UEM",
+          "titel": {
+            "de": "Endgeräteverwaltung"
+          },
+          "pfad": "d/uem",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

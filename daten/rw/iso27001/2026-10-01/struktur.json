@@ -1,0 +1,1175 @@
+{
+  "regelwerk": "iso27001",
+  "fassung": "2026-10-01",
+  "abgerufen": "2026-09-30T19:18:25Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: ISO/IEC 27001:2022",
+    "url": "https://www.iso.org/standard/27001",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27001 (ISO/IEC 27001:2022)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_kl",
+      "art": "abschnitt",
+      "nummer": "KL",
+      "bez": "KL",
+      "titel": {
+        "de": "Klauseln 4 bis 10 - Anforderungen an das Managementsystem"
+      },
+      "pfad": "gr/kl",
+      "kinder": [
+        {
+          "id": "z_4",
+          "art": "control",
+          "nummer": "4",
+          "bez": "4",
+          "titel": {
+            "de": "Kontext der Organisation"
+          },
+          "pfad": "kl/4",
+          "text": true
+        },
+        {
+          "id": "z_5",
+          "art": "control",
+          "nummer": "5",
+          "bez": "5",
+          "titel": {
+            "de": "Führung"
+          },
+          "pfad": "kl/5",
+          "text": true
+        },
+        {
+          "id": "z_6",
+          "art": "control",
+          "nummer": "6",
+          "bez": "6",
+          "titel": {
+            "de": "Planung"
+          },
+          "pfad": "kl/6",
+          "text": true
+        },
+        {
+          "id": "z_7",
+          "art": "control",
+          "nummer": "7",
+          "bez": "7",
+          "titel": {
+            "de": "Unterstützung"
+          },
+          "pfad": "kl/7",
+          "text": true
+        },
+        {
+          "id": "z_8",
+          "art": "control",
+          "nummer": "8",
+          "bez": "8",
+          "titel": {
+            "de": "Betrieb"
+          },
+          "pfad": "kl/8",
+          "text": true
+        },
+        {
+          "id": "z_9",
+          "art": "control",
+          "nummer": "9",
+          "bez": "9",
+          "titel": {
+            "de": "Bewertung der Leistung"
+          },
+          "pfad": "kl/9",
+          "text": true
+        },
+        {
+          "id": "z_10",
+          "art": "control",
+          "nummer": "10",
+          "bez": "10",
+          "titel": {
+            "de": "Verbesserung"
+          },
+          "pfad": "kl/10",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_a_5",
+      "art": "abschnitt",
+      "nummer": "A.5",
+      "bez": "A.5",
+      "titel": {
+        "de": "Annex A - Organisatorische Controls"
+      },
+      "pfad": "gr/a_5",
+      "kinder": [
+        {
+          "id": "z_a_5_1",
+          "art": "control",
+          "nummer": "A.5.1",
+          "bez": "A.5.1",
+          "titel": {
+            "de": "Informationssicherheitsrichtlinien"
+          },
+          "pfad": "a/5.1",
+          "text": true
+        },
+        {
+          "id": "z_a_5_2",
+          "art": "control",
+          "nummer": "A.5.2",
+          "bez": "A.5.2",
+          "titel": {
+            "de": "Rollen und Verantwortlichkeiten der Informationssicherheit"
+          },
+          "pfad": "a/5.2",
+          "text": true
+        },
+        {
+          "id": "z_a_5_3",
+          "art": "control",
+          "nummer": "A.5.3",
+          "bez": "A.5.3",
+          "titel": {
+            "de": "Aufgabentrennung"
+          },
+          "pfad": "a/5.3",
+          "text": true
+        },
+        {
+          "id": "z_a_5_4",
+          "art": "control",
+          "nummer": "A.5.4",
+          "bez": "A.5.4",
+          "titel": {
+            "de": "Verantwortung der Leitung"
+          },
+          "pfad": "a/5.4",
+          "text": true
+        },
+        {
+          "id": "z_a_5_5",
+          "art": "control",
+          "nummer": "A.5.5",
+          "bez": "A.5.5",
+          "titel": {
+            "de": "Kontakt mit Behörden"
+          },
+          "pfad": "a/5.5",
+          "text": true
+        },
+        {
+          "id": "z_a_5_6",
+          "art": "control",
+          "nummer": "A.5.6",
+          "bez": "A.5.6",
+          "titel": {
+            "de": "Kontakt mit speziellen Interessengruppen"
+          },
+          "pfad": "a/5.6",
+          "text": true
+        },
+        {
+          "id": "z_a_5_7",
+          "art": "control",
+          "nummer": "A.5.7",
+          "bez": "A.5.7",
+          "titel": {
+            "de": "Bedrohungsinformationen"
+          },
+          "pfad": "a/5.7",
+          "text": true
+        },
+        {
+          "id": "z_a_5_8",
+          "art": "control",
+          "nummer": "A.5.8",
+          "bez": "A.5.8",
+          "titel": {
+            "de": "Informationssicherheit im Projektmanagement"
+          },
+          "pfad": "a/5.8",
+          "text": true
+        },
+        {
+          "id": "z_a_5_9",
+          "art": "control",
+          "nummer": "A.5.9",
+          "bez": "A.5.9",
+          "titel": {
+            "de": "Verzeichnis der Informationen und zugehörigen Werte"
+          },
+          "pfad": "a/5.9",
+          "text": true
+        },
+        {
+          "id": "z_a_5_10",
+          "art": "control",
+          "nummer": "A.5.10",
+          "bez": "A.5.10",
+          "titel": {
+            "de": "Zulässiger Gebrauch von Informationen und Werten"
+          },
+          "pfad": "a/5.10",
+          "text": true
+        },
+        {
+          "id": "z_a_5_11",
+          "art": "control",
+          "nummer": "A.5.11",
+          "bez": "A.5.11",
+          "titel": {
+            "de": "Rückgabe von Werten"
+          },
+          "pfad": "a/5.11",
+          "text": true
+        },
+        {
+          "id": "z_a_5_12",
+          "art": "control",
+          "nummer": "A.5.12",
+          "bez": "A.5.12",
+          "titel": {
+            "de": "Klassifizierung von Informationen"
+          },
+          "pfad": "a/5.12",
+          "text": true
+        },
+        {
+          "id": "z_a_5_13",
+          "art": "control",
+          "nummer": "A.5.13",
+          "bez": "A.5.13",
+          "titel": {
+            "de": "Kennzeichnung von Informationen"
+          },
+          "pfad": "a/5.13",
+          "text": true
+        },
+        {
+          "id": "z_a_5_14",
+          "art": "control",
+          "nummer": "A.5.14",
+          "bez": "A.5.14",
+          "titel": {
+            "de": "Informationsübertragung"
+          },
+          "pfad": "a/5.14",
+          "text": true
+        },
+        {
+          "id": "z_a_5_15",
+          "art": "control",
+          "nummer": "A.5.15",
+          "bez": "A.5.15",
+          "titel": {
+            "de": "Zugangssteuerung"
+          },
+          "pfad": "a/5.15",
+          "text": true
+        },
+        {
+          "id": "z_a_5_16",
+          "art": "control",
+          "nummer": "A.5.16",
+          "bez": "A.5.16",
+          "titel": {
+            "de": "Identitätsverwaltung"
+          },
+          "pfad": "a/5.16",
+          "text": true
+        },
+        {
+          "id": "z_a_5_17",
+          "art": "control",
+          "nummer": "A.5.17",
+          "bez": "A.5.17",
+          "titel": {
+            "de": "Authentisierungsinformation"
+          },
+          "pfad": "a/5.17",
+          "text": true
+        },
+        {
+          "id": "z_a_5_18",
+          "art": "control",
+          "nummer": "A.5.18",
+          "bez": "A.5.18",
+          "titel": {
+            "de": "Zugangsrechte"
+          },
+          "pfad": "a/5.18",
+          "text": true
+        },
+        {
+          "id": "z_a_5_19",
+          "art": "control",
+          "nummer": "A.5.19",
+          "bez": "A.5.19",
+          "titel": {
+            "de": "Informationssicherheit in Lieferantenbeziehungen"
+          },
+          "pfad": "a/5.19",
+          "text": true
+        },
+        {
+          "id": "z_a_5_20",
+          "art": "control",
+          "nummer": "A.5.20",
+          "bez": "A.5.20",
+          "titel": {
+            "de": "Sicherheit in Lieferantenvereinbarungen"
+          },
+          "pfad": "a/5.20",
+          "text": true
+        },
+        {
+          "id": "z_a_5_21",
+          "art": "control",
+          "nummer": "A.5.21",
+          "bez": "A.5.21",
+          "titel": {
+            "de": "Sicherheit in der IKT-Lieferkette"
+          },
+          "pfad": "a/5.21",
+          "text": true
+        },
+        {
+          "id": "z_a_5_22",
+          "art": "control",
+          "nummer": "A.5.22",
+          "bez": "A.5.22",
+          "titel": {
+            "de": "Überwachung und Änderung von Lieferantenleistungen"
+          },
+          "pfad": "a/5.22",
+          "text": true
+        },
+        {
+          "id": "z_a_5_23",
+          "art": "control",
+          "nummer": "A.5.23",
+          "bez": "A.5.23",
+          "titel": {
+            "de": "Informationssicherheit bei Cloud-Diensten"
+          },
+          "pfad": "a/5.23",
+          "text": true
+        },
+        {
+          "id": "z_a_5_24",
+          "art": "control",
+          "nummer": "A.5.24",
+          "bez": "A.5.24",
+          "titel": {
+            "de": "Planung und Vorbereitung des Vorfallmanagements"
+          },
+          "pfad": "a/5.24",
+          "text": true
+        },
+        {
+          "id": "z_a_5_25",
+          "art": "control",
+          "nummer": "A.5.25",
+          "bez": "A.5.25",
+          "titel": {
+            "de": "Beurteilung und Entscheidung über Sicherheitsereignisse"
+          },
+          "pfad": "a/5.25",
+          "text": true
+        },
+        {
+          "id": "z_a_5_26",
+          "art": "control",
+          "nummer": "A.5.26",
+          "bez": "A.5.26",
+          "titel": {
+            "de": "Reaktion auf Sicherheitsvorfälle"
+          },
+          "pfad": "a/5.26",
+          "text": true
+        },
+        {
+          "id": "z_a_5_27",
+          "art": "control",
+          "nummer": "A.5.27",
+          "bez": "A.5.27",
+          "titel": {
+            "de": "Lernen aus Sicherheitsvorfällen"
+          },
+          "pfad": "a/5.27",
+          "text": true
+        },
+        {
+          "id": "z_a_5_28",
+          "art": "control",
+          "nummer": "A.5.28",
+          "bez": "A.5.28",
+          "titel": {
+            "de": "Sammlung von Beweismaterial"
+          },
+          "pfad": "a/5.28",
+          "text": true
+        },
+        {
+          "id": "z_a_5_29",
+          "art": "control",
+          "nummer": "A.5.29",
+          "bez": "A.5.29",
+          "titel": {
+            "de": "Informationssicherheit bei Störungen"
+          },
+          "pfad": "a/5.29",
+          "text": true
+        },
+        {
+          "id": "z_a_5_30",
+          "art": "control",
+          "nummer": "A.5.30",
+          "bez": "A.5.30",
+          "titel": {
+            "de": "IKT-Bereitschaft für die Geschäftsfortführung"
+          },
+          "pfad": "a/5.30",
+          "text": true
+        },
+        {
+          "id": "z_a_5_31",
+          "art": "control",
+          "nummer": "A.5.31",
+          "bez": "A.5.31",
+          "titel": {
+            "de": "Rechtliche, gesetzliche, regulatorische und vertragliche Anforderungen"
+          },
+          "pfad": "a/5.31",
+          "text": true
+        },
+        {
+          "id": "z_a_5_32",
+          "art": "control",
+          "nummer": "A.5.32",
+          "bez": "A.5.32",
+          "titel": {
+            "de": "Geistiges Eigentum"
+          },
+          "pfad": "a/5.32",
+          "text": true
+        },
+        {
+          "id": "z_a_5_33",
+          "art": "control",
+          "nummer": "A.5.33",
+          "bez": "A.5.33",
+          "titel": {
+            "de": "Schutz von Aufzeichnungen"
+          },
+          "pfad": "a/5.33",
+          "text": true
+        },
+        {
+          "id": "z_a_5_34",
+          "art": "control",
+          "nummer": "A.5.34",
+          "bez": "A.5.34",
+          "titel": {
+            "de": "Privatsphäre und Schutz personenbezogener Daten"
+          },
+          "pfad": "a/5.34",
+          "text": true
+        },
+        {
+          "id": "z_a_5_35",
+          "art": "control",
+          "nummer": "A.5.35",
+          "bez": "A.5.35",
+          "titel": {
+            "de": "Unabhängige Überprüfung der Informationssicherheit"
+          },
+          "pfad": "a/5.35",
+          "text": true
+        },
+        {
+          "id": "z_a_5_36",
+          "art": "control",
+          "nummer": "A.5.36",
+          "bez": "A.5.36",
+          "titel": {
+            "de": "Einhaltung von Richtlinien und Standards"
+          },
+          "pfad": "a/5.36",
+          "text": true
+        },
+        {
+          "id": "z_a_5_37",
+          "art": "control",
+          "nummer": "A.5.37",
+          "bez": "A.5.37",
+          "titel": {
+            "de": "Dokumentierte Betriebsabläufe"
+          },
+          "pfad": "a/5.37",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_a_6",
+      "art": "abschnitt",
+      "nummer": "A.6",
+      "bez": "A.6",
+      "titel": {
+        "de": "Annex A - Personenbezogene Controls"
+      },
+      "pfad": "gr/a_6",
+      "kinder": [
+        {
+          "id": "z_a_6_1",
+          "art": "control",
+          "nummer": "A.6.1",
+          "bez": "A.6.1",
+          "titel": {
+            "de": "Sicherheitsüberprüfung"
+          },
+          "pfad": "a/6.1",
+          "text": true
+        },
+        {
+          "id": "z_a_6_2",
+          "art": "control",
+          "nummer": "A.6.2",
+          "bez": "A.6.2",
+          "titel": {
+            "de": "Arbeitsvertragliche Regelungen"
+          },
+          "pfad": "a/6.2",
+          "text": true
+        },
+        {
+          "id": "z_a_6_3",
+          "art": "control",
+          "nummer": "A.6.3",
+          "bez": "A.6.3",
+          "titel": {
+            "de": "Sensibilisierung, Ausbildung und Schulung"
+          },
+          "pfad": "a/6.3",
+          "text": true
+        },
+        {
+          "id": "z_a_6_4",
+          "art": "control",
+          "nummer": "A.6.4",
+          "bez": "A.6.4",
+          "titel": {
+            "de": "Disziplinarverfahren"
+          },
+          "pfad": "a/6.4",
+          "text": true
+        },
+        {
+          "id": "z_a_6_5",
+          "art": "control",
+          "nummer": "A.6.5",
+          "bez": "A.6.5",
+          "titel": {
+            "de": "Pflichten nach Beendigung oder Wechsel"
+          },
+          "pfad": "a/6.5",
+          "text": true
+        },
+        {
+          "id": "z_a_6_6",
+          "art": "control",
+          "nummer": "A.6.6",
+          "bez": "A.6.6",
+          "titel": {
+            "de": "Vertraulichkeitsvereinbarungen"
+          },
+          "pfad": "a/6.6",
+          "text": true
+        },
+        {
+          "id": "z_a_6_7",
+          "art": "control",
+          "nummer": "A.6.7",
+          "bez": "A.6.7",
+          "titel": {
+            "de": "Arbeiten aus der Ferne"
+          },
+          "pfad": "a/6.7",
+          "text": true
+        },
+        {
+          "id": "z_a_6_8",
+          "art": "control",
+          "nummer": "A.6.8",
+          "bez": "A.6.8",
+          "titel": {
+            "de": "Meldung von Sicherheitsereignissen"
+          },
+          "pfad": "a/6.8",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_a_7",
+      "art": "abschnitt",
+      "nummer": "A.7",
+      "bez": "A.7",
+      "titel": {
+        "de": "Annex A - Physische Controls"
+      },
+      "pfad": "gr/a_7",
+      "kinder": [
+        {
+          "id": "z_a_7_1",
+          "art": "control",
+          "nummer": "A.7.1",
+          "bez": "A.7.1",
+          "titel": {
+            "de": "Sicherheitszonen"
+          },
+          "pfad": "a/7.1",
+          "text": true
+        },
+        {
+          "id": "z_a_7_2",
+          "art": "control",
+          "nummer": "A.7.2",
+          "bez": "A.7.2",
+          "titel": {
+            "de": "Physischer Zutritt"
+          },
+          "pfad": "a/7.2",
+          "text": true
+        },
+        {
+          "id": "z_a_7_3",
+          "art": "control",
+          "nummer": "A.7.3",
+          "bez": "A.7.3",
+          "titel": {
+            "de": "Sicherung von Büros, Räumen und Einrichtungen"
+          },
+          "pfad": "a/7.3",
+          "text": true
+        },
+        {
+          "id": "z_a_7_4",
+          "art": "control",
+          "nummer": "A.7.4",
+          "bez": "A.7.4",
+          "titel": {
+            "de": "Physische Sicherheitsüberwachung"
+          },
+          "pfad": "a/7.4",
+          "text": true
+        },
+        {
+          "id": "z_a_7_5",
+          "art": "control",
+          "nummer": "A.7.5",
+          "bez": "A.7.5",
+          "titel": {
+            "de": "Schutz vor physischen und umweltbedingten Bedrohungen"
+          },
+          "pfad": "a/7.5",
+          "text": true
+        },
+        {
+          "id": "z_a_7_6",
+          "art": "control",
+          "nummer": "A.7.6",
+          "bez": "A.7.6",
+          "titel": {
+            "de": "Arbeiten in Sicherheitsbereichen"
+          },
+          "pfad": "a/7.6",
+          "text": true
+        },
+        {
+          "id": "z_a_7_7",
+          "art": "control",
+          "nummer": "A.7.7",
+          "bez": "A.7.7",
+          "titel": {
+            "de": "Aufgeräumter Arbeitsplatz und Bildschirmsperre"
+          },
+          "pfad": "a/7.7",
+          "text": true
+        },
+        {
+          "id": "z_a_7_8",
+          "art": "control",
+          "nummer": "A.7.8",
+          "bez": "A.7.8",
+          "titel": {
+            "de": "Aufstellung und Schutz von Geräten"
+          },
+          "pfad": "a/7.8",
+          "text": true
+        },
+        {
+          "id": "z_a_7_9",
+          "art": "control",
+          "nummer": "A.7.9",
+          "bez": "A.7.9",
+          "titel": {
+            "de": "Sicherheit von Werten außerhalb der Räumlichkeiten"
+          },
+          "pfad": "a/7.9",
+          "text": true
+        },
+        {
+          "id": "z_a_7_10",
+          "art": "control",
+          "nummer": "A.7.10",
+          "bez": "A.7.10",
+          "titel": {
+            "de": "Speichermedien"
+          },
+          "pfad": "a/7.10",
+          "text": true
+        },
+        {
+          "id": "z_a_7_11",
+          "art": "control",
+          "nummer": "A.7.11",
+          "bez": "A.7.11",
+          "titel": {
+            "de": "Versorgungseinrichtungen"
+          },
+          "pfad": "a/7.11",
+          "text": true
+        },
+        {
+          "id": "z_a_7_12",
+          "art": "control",
+          "nummer": "A.7.12",
+          "bez": "A.7.12",
+          "titel": {
+            "de": "Sicherheit der Verkabelung"
+          },
+          "pfad": "a/7.12",
+          "text": true
+        },
+        {
+          "id": "z_a_7_13",
+          "art": "control",
+          "nummer": "A.7.13",
+          "bez": "A.7.13",
+          "titel": {
+            "de": "Instandhaltung von Geräten"
+          },
+          "pfad": "a/7.13",
+          "text": true
+        },
+        {
+          "id": "z_a_7_14",
+          "art": "control",
+          "nummer": "A.7.14",
+          "bez": "A.7.14",
+          "titel": {
+            "de": "Sichere Entsorgung oder Wiederverwendung"
+          },
+          "pfad": "a/7.14",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_a_8",
+      "art": "abschnitt",
+      "nummer": "A.8",
+      "bez": "A.8",
+      "titel": {
+        "de": "Annex A - Technologische Controls"
+      },
+      "pfad": "gr/a_8",
+      "kinder": [
+        {
+          "id": "z_a_8_1",
+          "art": "control",
+          "nummer": "A.8.1",
+          "bez": "A.8.1",
+          "titel": {
+            "de": "Endgeräte der Benutzer"
+          },
+          "pfad": "a/8.1",
+          "text": true
+        },
+        {
+          "id": "z_a_8_2",
+          "art": "control",
+          "nummer": "A.8.2",
+          "bez": "A.8.2",
+          "titel": {
+            "de": "Privilegierte Zugriffsrechte"
+          },
+          "pfad": "a/8.2",
+          "text": true
+        },
+        {
+          "id": "z_a_8_3",
+          "art": "control",
+          "nummer": "A.8.3",
+          "bez": "A.8.3",
+          "titel": {
+            "de": "Einschränkung des Informationszugriffs"
+          },
+          "pfad": "a/8.3",
+          "text": true
+        },
+        {
+          "id": "z_a_8_4",
+          "art": "control",
+          "nummer": "A.8.4",
+          "bez": "A.8.4",
+          "titel": {
+            "de": "Zugriff auf Quellcode"
+          },
+          "pfad": "a/8.4",
+          "text": true
+        },
+        {
+          "id": "z_a_8_5",
+          "art": "control",
+          "nummer": "A.8.5",
+          "bez": "A.8.5",
+          "titel": {
+            "de": "Sichere Authentisierung"
+          },
+          "pfad": "a/8.5",
+          "text": true
+        },
+        {
+          "id": "z_a_8_6",
+          "art": "control",
+          "nummer": "A.8.6",
+          "bez": "A.8.6",
+          "titel": {
+            "de": "Kapazitätssteuerung"
+          },
+          "pfad": "a/8.6",
+          "text": true
+        },
+        {
+          "id": "z_a_8_7",
+          "art": "control",
+          "nummer": "A.8.7",
+          "bez": "A.8.7",
+          "titel": {
+            "de": "Schutz vor Schadsoftware"
+          },
+          "pfad": "a/8.7",
+          "text": true
+        },
+        {
+          "id": "z_a_8_8",
+          "art": "control",
+          "nummer": "A.8.8",
+          "bez": "A.8.8",
+          "titel": {
+            "de": "Umgang mit technischen Schwachstellen"
+          },
+          "pfad": "a/8.8",
+          "text": true
+        },
+        {
+          "id": "z_a_8_9",
+          "art": "control",
+          "nummer": "A.8.9",
+          "bez": "A.8.9",
+          "titel": {
+            "de": "Konfigurationsmanagement"
+          },
+          "pfad": "a/8.9",
+          "text": true
+        },
+        {
+          "id": "z_a_8_10",
+          "art": "control",
+          "nummer": "A.8.10",
+          "bez": "A.8.10",
+          "titel": {
+            "de": "Löschung von Informationen"
+          },
+          "pfad": "a/8.10",
+          "text": true
+        },
+        {
+          "id": "z_a_8_11",
+          "art": "control",
+          "nummer": "A.8.11",
+          "bez": "A.8.11",
+          "titel": {
+            "de": "Datenmaskierung"
+          },
+          "pfad": "a/8.11",
+          "text": true
+        },
+        {
+          "id": "z_a_8_12",
+          "art": "control",
+          "nummer": "A.8.12",
+          "bez": "A.8.12",
+          "titel": {
+            "de": "Verhinderung von Datenabfluss"
+          },
+          "pfad": "a/8.12",
+          "text": true
+        },
+        {
+          "id": "z_a_8_13",
+          "art": "control",
+          "nummer": "A.8.13",
+          "bez": "A.8.13",
+          "titel": {
+            "de": "Sicherung von Informationen"
+          },
+          "pfad": "a/8.13",
+          "text": true
+        },
+        {
+          "id": "z_a_8_14",
+          "art": "control",
+          "nummer": "A.8.14",
+          "bez": "A.8.14",
+          "titel": {
+            "de": "Redundanz von informationsverarbeitenden Einrichtungen"
+          },
+          "pfad": "a/8.14",
+          "text": true
+        },
+        {
+          "id": "z_a_8_15",
+          "art": "control",
+          "nummer": "A.8.15",
+          "bez": "A.8.15",
+          "titel": {
+            "de": "Protokollierung"
+          },
+          "pfad": "a/8.15",
+          "text": true
+        },
+        {
+          "id": "z_a_8_16",
+          "art": "control",
+          "nummer": "A.8.16",
+          "bez": "A.8.16",
+          "titel": {
+            "de": "Überwachungsaktivitäten"
+          },
+          "pfad": "a/8.16",
+          "text": true
+        },
+        {
+          "id": "z_a_8_17",
+          "art": "control",
+          "nummer": "A.8.17",
+          "bez": "A.8.17",
+          "titel": {
+            "de": "Uhrensynchronisation"
+          },
+          "pfad": "a/8.17",
+          "text": true
+        },
+        {
+          "id": "z_a_8_18",
+          "art": "control",
+          "nummer": "A.8.18",
+          "bez": "A.8.18",
+          "titel": {
+            "de": "Gebrauch privilegierter Hilfsprogramme"
+          },
+          "pfad": "a/8.18",
+          "text": true
+        },
+        {
+          "id": "z_a_8_19",
+          "art": "control",
+          "nummer": "A.8.19",
+          "bez": "A.8.19",
+          "titel": {
+            "de": "Installation von Software auf Produktivsystemen"
+          },
+          "pfad": "a/8.19",
+          "text": true
+        },
+        {
+          "id": "z_a_8_20",
+          "art": "control",
+          "nummer": "A.8.20",
+          "bez": "A.8.20",
+          "titel": {
+            "de": "Netzwerksicherheit"
+          },
+          "pfad": "a/8.20",
+          "text": true
+        },
+        {
+          "id": "z_a_8_21",
+          "art": "control",
+          "nummer": "A.8.21",
+          "bez": "A.8.21",
+          "titel": {
+            "de": "Sicherheit von Netzwerkdiensten"
+          },
+          "pfad": "a/8.21",
+          "text": true
+        },
+        {
+          "id": "z_a_8_22",
+          "art": "control",
+          "nummer": "A.8.22",
+          "bez": "A.8.22",
+          "titel": {
+            "de": "Trennung von Netzwerken"
+          },
+          "pfad": "a/8.22",
+          "text": true
+        },
+        {
+          "id": "z_a_8_23",
+          "art": "control",
+          "nummer": "A.8.23",
+          "bez": "A.8.23",
+          "titel": {
+            "de": "Web-Filterung"
+          },
+          "pfad": "a/8.23",
+          "text": true
+        },
+        {
+          "id": "z_a_8_24",
+          "art": "control",
+          "nummer": "A.8.24",
+          "bez": "A.8.24",
+          "titel": {
+            "de": "Einsatz von Kryptografie"
+          },
+          "pfad": "a/8.24",
+          "text": true
+        },
+        {
+          "id": "z_a_8_25",
+          "art": "control",
+          "nummer": "A.8.25",
+          "bez": "A.8.25",
+          "titel": {
+            "de": "Sicherer Entwicklungslebenszyklus"
+          },
+          "pfad": "a/8.25",
+          "text": true
+        },
+        {
+          "id": "z_a_8_26",
+          "art": "control",
+          "nummer": "A.8.26",
+          "bez": "A.8.26",
+          "titel": {
+            "de": "Sicherheitsanforderungen an Anwendungen"
+          },
+          "pfad": "a/8.26",
+          "text": true
+        },
+        {
+          "id": "z_a_8_27",
+          "art": "control",
+          "nummer": "A.8.27",
+          "bez": "A.8.27",
+          "titel": {
+            "de": "Grundsätze für sichere Systemarchitektur"
+          },
+          "pfad": "a/8.27",
+          "text": true
+        },
+        {
+          "id": "z_a_8_28",
+          "art": "control",
+          "nummer": "A.8.28",
+          "bez": "A.8.28",
+          "titel": {
+            "de": "Sichere Programmierung"
+          },
+          "pfad": "a/8.28",
+          "text": true
+        },
+        {
+          "id": "z_a_8_29",
+          "art": "control",
+          "nummer": "A.8.29",
+          "bez": "A.8.29",
+          "titel": {
+            "de": "Sicherheitsprüfungen in Entwicklung und Abnahme"
+          },
+          "pfad": "a/8.29",
+          "text": true
+        },
+        {
+          "id": "z_a_8_30",
+          "art": "control",
+          "nummer": "A.8.30",
+          "bez": "A.8.30",
+          "titel": {
+            "de": "Ausgelagerte Entwicklung"
+          },
+          "pfad": "a/8.30",
+          "text": true
+        },
+        {
+          "id": "z_a_8_31",
+          "art": "control",
+          "nummer": "A.8.31",
+          "bez": "A.8.31",
+          "titel": {
+            "de": "Trennung von Entwicklungs-, Test- und Produktionsumgebungen"
+          },
+          "pfad": "a/8.31",
+          "text": true
+        },
+        {
+          "id": "z_a_8_32",
+          "art": "control",
+          "nummer": "A.8.32",
+          "bez": "A.8.32",
+          "titel": {
+            "de": "Änderungsmanagement"
+          },
+          "pfad": "a/8.32",
+          "text": true
+        },
+        {
+          "id": "z_a_8_33",
+          "art": "control",
+          "nummer": "A.8.33",
+          "bez": "A.8.33",
+          "titel": {
+            "de": "Testdaten"
+          },
+          "pfad": "a/8.33",
+          "text": true
+        },
+        {
+          "id": "z_a_8_34",
+          "art": "control",
+          "nummer": "A.8.34",
+          "bez": "A.8.34",
+          "titel": {
+            "de": "Schutz von Systemen bei Audit-Tests"
+          },
+          "pfad": "a/8.34",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

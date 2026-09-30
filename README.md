@@ -69,8 +69,12 @@ Ausschließlich kostenlose, amtliche Quellen ohne Anmeldung:
 | Level-2-Rechtsakte | SPARQL-Dienst des Amts für Veröffentlichungen | wie oben |
 | Deutsche Gesetze | gesetze-im-internet.de, XML-Fassung je Gesetz (ZIP) | amtliche Werke, § 5 UrhG |
 
-Wo kein Volltext zulässig ist (ISO, COBIT, ITIL, CSA CCM …), stehen eigene Zusammenfassungen –
-in eigenen Worten, mit Bezugsfassung, Herkunft, Prüfstatus und Verweis auf die Bezugsquelle.
+Wo kein Volltext zulässig ist, stehen eigene Zusammenfassungen – in eigenen Worten, mit
+Bezugsfassung, Herkunft, Prüfstatus und Verweis auf die Bezugsquelle. Enthalten sind
+**ISO/IEC 27001:2022 vollständig** (Klauseln 4–10 und alle 93 Annex-A-Controls),
+**CSA CCM v4** und **NIST CSF 2.0** im Überblick; COBIT und ITIL folgen. Sie laufen durch
+dieselbe Maschinerie wie die Originaltexte und sind deshalb genauso durchsuchbar,
+verlinkbar und in den Matrizen verankert.
 
 ## Stand
 

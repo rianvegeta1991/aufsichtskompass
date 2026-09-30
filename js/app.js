@@ -18,7 +18,7 @@ import * as analyse from './analyse.js';
 import * as news from './news.js';
 import * as lernen from './lernen.js';
 
-export const APP_VERSION = '1.5';
+export const APP_VERSION = '1.6';
 
 const seite = document.getElementById('seite');
 
@@ -196,6 +196,7 @@ async function start(wurzel) {
     ['Meldepflichten im Vergleich: DORA, BSIG, DSGVO', '#/matrizen/meldepflichten'],
     ['Wer macht was: Rollen und drei Verteidigungslinien', '#/matrizen/rollen'],
     ['Lernbereich: DORA in Grundzügen', '#/lernen/lektion/dora-grundzuege'],
+    ['ISO/IEC 27001 – A.5.19: Informationssicherheit in Lieferantenbeziehungen', '#/rw/iso27001/a/5.19'],
   ];
 
   wurzel.append(el('div.gitter.zwei', { style: 'margin-top:18px' },
@@ -247,7 +248,7 @@ async function start(wurzel) {
       phasenzeile('2', 'Bibliothek und Viewer: CELLAR-Konnektor, DORA (DE/EN) und Level-2-Rechtsakte, Deep-Links, Suche', 'fertig'),
       phasenzeile('2b', 'Konnektor für gesetze-im-internet.de: VAG, BSIG, BDSG vollständig, HGB und AO als Auszug', 'fertig'),
       phasenzeile('2c', 'BaFin-Veröffentlichungen (MaGo, MaRisk, DORA-FAQ) – erst nach Klärung der Nutzungsbedingungen', 'offen'),
-      phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001, COBIT 2019, ITIL 4, CSA CCM, C5, NIST CSF, GDV', 'offen'),
+      phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001 vollständig (100 Einträge), CSA CCM und NIST CSF 2.0 im Überblick', 'teilweise (COBIT, ITIL, C5, GDV offen)'),
       phasenzeile('4', 'Themenseiten mit Fundstellen, Beziehungsmodell, Matrizen, Heatmap, Meldepflichten, Rollen, Graph, Zeitstrahl, CSV-Export', 'fertig'),
       phasenzeile('5', 'Tägliches Screening: 14 Feeds, Seitenüberwachung, neue Rechtsakte über SPARQL, Newsfeed, Digest, Protokoll', 'fertig'),
       phasenzeile('6', 'Change Detection, Archiv, Diff-Ansicht, Benachrichtigung', 'Grundlage steht (Hashes, Änderungslog)'),

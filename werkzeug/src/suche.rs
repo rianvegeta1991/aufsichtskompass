@@ -247,6 +247,7 @@ fn sammle_bezeichnungen(
             k.art,
             crate::modell::Art::Artikel
                 | crate::modell::Art::Paragraf
+                | crate::modell::Art::Control
                 | crate::modell::Art::Erwaegungsgrund
         ) {
             kette = vec![eigen.clone()];

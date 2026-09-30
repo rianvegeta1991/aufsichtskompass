@@ -59,6 +59,8 @@ export async function zeigen(wurzel, rwId, pfad) {
     leere(lesen);
     lesen.append(werkzeugzeile(rw, fassung, struktur, ziel, sprache, glossar, begriffeAn));
 
+    if (rw.modus === 'zusammenfassung') lesen.append(zusammenfassungshinweis(rw, fassung));
+
     if (!ziel) {
       lesen.append(...uebersicht(rw, fassung, struktur, sprache, karten));
     } else {
@@ -90,6 +92,22 @@ function reiterleiste(flaeche) {
   return leiste;
 }
 
+/**
+ * Pflichthinweis für Werke ohne zulässigen Volltext. Er nennt Bezugsfassung,
+ * Herkunft und Prüfstatus und verlinkt die Bezugsquelle - genau das verlangt der
+ * Auftrag, und genau daran erkennt man beim Lesen, dass hier nicht der Normtext steht.
+ */
+function zusammenfassungshinweis(rw, fassung) {
+  return el('div.hinweis.eigen', { style: 'margin-bottom:16px' },
+    el('div',
+      el('strong', 'Eigene Zusammenfassung – ersetzt nicht das Original. '),
+      el('span', fassung.quelle.name),
+      el('div', { style: 'margin-top:6px;display:flex;flex-wrap:wrap;gap:6px;align-items:center' },
+        chip('Zusammenfassung', 'zusammenfassung'),
+        chip(rw.geprueft ? 'Katalogangaben geprüft' : 'Katalogangaben ungeprüft', rw.geprueft ? '' : 'warn'),
+        el('a', { href: rw.quelle.url, target: '_blank', rel: 'noopener' }, 'Zur Bezugsquelle ↗'))));
+}
+
 // ------------------------------------------------------------------ Auswahl
 
 /** Welche Knoten werden für ein Ziel gezeigt? Absätze zeigen ihren ganzen Artikel. */
@@ -109,7 +127,7 @@ function wahl(ziel, karten) {
 }
 
 /** Artikel, Paragrafen bzw. Erwägungsgründe unterhalb eines Containers, in Reihenfolge. */
-const TEXTARTEN = ['artikel', 'paragraf', 'anhang', 'erwaegungsgrund', 'bezugsvermerk'];
+const TEXTARTEN = ['artikel', 'paragraf', 'control', 'anhang', 'erwaegungsgrund', 'bezugsvermerk'];
 
 function flachInhalt(knoten) {
   const aus = [];
@@ -128,7 +146,7 @@ function knotenZeichnen(knoten, text, sprache, rwId, karten) {
   const aus = [];
   const bez = daten.bezeichnung(knoten, sprache);
 
-  if (knoten.art === 'artikel' || knoten.art === 'paragraf') {
+  if (['artikel', 'paragraf', 'control'].includes(knoten.art)) {
     const kap = gliederungVon(knoten, karten);
     if (kap) aus.push(el('p.kap', kapitelBeschriftung(kap, sprache)));
     aus.push(el('h2.artikel', { dataset: { fs: knoten.id } },
@@ -136,7 +154,7 @@ function knotenZeichnen(knoten, text, sprache, rwId, karten) {
       el('a', {
         href: `#/rw/${rwId}/${knoten.pfad}`, style: 'float:right;font-size:.7rem;font-weight:400;text-decoration:none',
         title: 'Deep-Link auf diese Fundstelle', 'aria-label': `Deep-Link auf ${bez}`,
-      }, '§ Link')));
+      }, '⧉ Link')));
   } else {
     aus.push(el('h2.artikel', { dataset: { fs: knoten.id } }, bez));
   }

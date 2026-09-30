@@ -1,0 +1,47 @@
+{
+  "regelwerk": "nist-csf2",
+  "bezugsfassung": "NIST Cybersecurity Framework 2.0",
+  "stand": "2026-10-01",
+  "herkunft": "KI-erstellt",
+  "geprueft": false,
+  "hinweis": "Bewusst nur grobe Übersicht über die sechs Funktionen. NIST-Publikationen sind gemeinfrei – der Volltext wäre also zulässig, wird hier aber nicht geführt, weil das Rahmenwerk für Versicherungsunternehmen nur Referenzcharakter hat. Kennungen und Bezeichnungen sind gegen das Rahmenwerk abzugleichen.",
+  "quelle": {
+    "name": "NIST Cybersecurity Framework",
+    "url": "https://www.nist.gov/cyberframework"
+  },
+  "gruppen": [
+    { "kennung": "CSF", "titel": "Funktionen des Rahmenwerks" }
+  ],
+  "eintraege": [
+    { "kennung": "GV", "titel": "Govern – Steuern", "gruppe": "CSF", "pfad": "f/gv",
+      "zweck": "Die 2.0 neu hinzugekommene Funktion: Strategie, Rollen, Richtlinien, Risikoappetit und die Steuerung der Lieferkette. Sie klammert die übrigen fünf Funktionen ein.",
+      "anforderungen": ["Strategie und Risikoappetit festlegen", "Rollen und Verantwortlichkeiten zuweisen", "Richtlinien in Kraft setzen und überwachen", "Risiken in der Lieferkette steuern"],
+      "nachweise": ["Strategiepapier", "Rollenbeschreibungen", "Richtlinienverzeichnis"],
+      "bezuege": ["Entspricht dem Gedanken des Artikels 5 DORA: Steuerung ist Sache des Leitungsorgans."] },
+    { "kennung": "ID", "titel": "Identify – Erkennen der eigenen Lage", "gruppe": "CSF", "pfad": "f/id",
+      "zweck": "Verstehen, was man hat und was es bedroht: Assets, Geschäftsprozesse, Abhängigkeiten und Risiken.",
+      "anforderungen": ["Assets und Abhängigkeiten erfassen", "Risiken bewerten", "Verbesserungsbedarf ableiten"],
+      "nachweise": ["Assetverzeichnis", "Risikoregister"],
+      "bezuege": ["Artikel 8 DORA verlangt dieselbe Identifizierung als Grundlage des Rahmens."] },
+    { "kennung": "PR", "titel": "Protect – Schützen", "gruppe": "CSF", "pfad": "f/pr",
+      "zweck": "Schutzmaßnahmen, die einen Vorfall verhindern oder begrenzen: Zugriffssteuerung, Schulung, Datensicherheit, sichere Konfiguration und Resilienz der Technik.",
+      "anforderungen": ["Zugriffe steuern", "Beschäftigte schulen", "Daten und Plattformen absichern", "Resilienz technisch verankern"],
+      "nachweise": ["Berechtigungskonzept", "Schulungsnachweise", "Härtungsvorgaben"],
+      "bezuege": ["Artikel 9 DORA regelt Schutz und Prävention."] },
+    { "kennung": "DE", "titel": "Detect – Erkennen von Ereignissen", "gruppe": "CSF", "pfad": "f/de",
+      "zweck": "Fortlaufende Überwachung und Analyse, damit Auffälligkeiten früh sichtbar werden.",
+      "anforderungen": ["Überwachung einrichten", "Ereignisse analysieren und bewerten", "Erkennungsregeln pflegen"],
+      "nachweise": ["Überwachungskonzept", "Alarmauswertungen"],
+      "bezuege": ["Artikel 10 DORA verlangt Erkennungsmechanismen mit festgelegten Alarmschwellen."] },
+    { "kennung": "RS", "titel": "Respond – Reagieren", "gruppe": "CSF", "pfad": "f/rs",
+      "zweck": "Handeln im Vorfall: eindämmen, analysieren, kommunizieren, abmildern.",
+      "anforderungen": ["Vorfallprozess festlegen und üben", "Kommunikation regeln", "Maßnahmen dokumentieren"],
+      "nachweise": ["Vorfallhandbuch", "Vorfallakten", "Übungsprotokolle"],
+      "bezuege": ["Artikel 17 DORA verlangt einen solchen Prozess, Artikel 19 zusätzlich die Meldung an die Aufsicht."] },
+    { "kennung": "RC", "titel": "Recover – Wiederherstellen", "gruppe": "CSF", "pfad": "f/rc",
+      "zweck": "Zurück in den Normalbetrieb: Wiederherstellungspläne, Prioritäten und Kommunikation nach dem Vorfall.",
+      "anforderungen": ["Wiederherstellungspläne erstellen und testen", "Prioritäten festlegen", "Nach der Wiederherstellung kommunizieren und auswerten"],
+      "nachweise": ["Wiederherstellungspläne", "Testberichte", "Nachbetrachtungen"],
+      "bezuege": ["Artikel 11 und 12 DORA verlangen Wiederherstellung und Backup mit festen Zielgrößen."] }
+  ]
+}

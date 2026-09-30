@@ -1,0 +1,3714 @@
+{
+  "z_10": {
+    "h": "16994d9f8885bbc50c5f4c598d677e42",
+    "b": [
+      {
+        "art": "p",
+        "t": "Abweichungen sind kein Makel, sondern Material: Sie werden erfasst, in ihrer Ursache verstanden, abgestellt und zur fortlaufenden Verbesserung genutzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Nichtkonformitäten erfassen und unmittelbar reagieren"
+          },
+          {
+            "m": "2.",
+            "t": "Ursachen ermitteln und Korrekturmaßnahmen festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Wirksamkeit der Korrekturmaßnahmen prüfen"
+          },
+          {
+            "m": "4.",
+            "t": "Das Managementsystem fortlaufend verbessern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Maßnahmenverfolgung, Ursachenanalysen, Nachweis der Wirksamkeitsprüfung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 DORA verlangt entsprechend, Erkenntnisse aus Vorfällen in den Rahmen zurückzuspielen."
+      }
+    ]
+  },
+  "z_4": {
+    "h": "5b30b93018baf4457658115f82f60797",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bevor Maßnahmen festgelegt werden, ist zu klären, worum es überhaupt geht: welche internen und externen Themen die Informationssicherheit beeinflussen, wer etwas erwartet – Aufsicht, Kunden, Dienstleister – und wie weit das Managementsystem reichen soll."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Interne und externe Themen bestimmen, die auf die Informationssicherheit wirken"
+          },
+          {
+            "m": "2.",
+            "t": "Interessierte Parteien und ihre Anforderungen erfassen, einschließlich rechtlicher und aufsichtlicher Vorgaben"
+          },
+          {
+            "m": "3.",
+            "t": "Den Anwendungsbereich des Managementsystems festlegen und begründen, auch die Ausschlüsse"
+          },
+          {
+            "m": "4.",
+            "t": "Das Managementsystem einrichten, betreiben und fortlaufend verbessern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kontextanalyse, Verzeichnis der interessierten Parteien und ihrer Anforderungen, Dokumentierter Anwendungsbereich."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die Anforderungen der DORA und des VAG gehören zu den Vorgaben, die hier zu erfassen sind."
+      }
+    ]
+  },
+  "z_5": {
+    "h": "37baa94f25bffd19fb548c3f098c441a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die oberste Leitung trägt das Managementsystem – nicht als Formalie, sondern durch Beschlüsse, Ressourcen und sichtbares Einfordern. Aus dieser Klausel entsteht die Sicherheitsleitlinie, aus der sich alles Weitere ableitet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Führung und Verpflichtung der obersten Leitung nachweisbar machen"
+          },
+          {
+            "m": "2.",
+            "t": "Eine Informationssicherheitsleitlinie festlegen, in Kraft setzen und bekannt machen"
+          },
+          {
+            "m": "3.",
+            "t": "Rollen, Verantwortlichkeiten und Befugnisse zuweisen und kommunizieren"
+          },
+          {
+            "m": "4.",
+            "t": "Die Sicherheitsziele mit der Geschäftsstrategie verzahnen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Beschlossene Sicherheitsleitlinie, Sitzungsprotokolle mit Sicherheitsbezug, Rollenbeschreibungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht dem Gedanken des Artikels 5 DORA: Die Letztverantwortung liegt beim Leitungsorgan."
+      }
+    ]
+  },
+  "z_6": {
+    "h": "98db61813f28e366b0b8ed793b236d49",
+    "b": [
+      {
+        "art": "p",
+        "t": "Hier wird aus Absicht Planung: Risiken und Chancen bestimmen, ein nachvollziehbares Verfahren zur Risikobeurteilung und -behandlung festlegen, Ziele setzen und Änderungen geordnet einführen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren zur Risikobeurteilung mit Kriterien für Akzeptanz und Bewertung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Risiken identifizieren, analysieren und bewerten"
+          },
+          {
+            "m": "3.",
+            "t": "Risikobehandlung planen, Maßnahmen auswählen und die Erklärung zur Anwendbarkeit erstellen"
+          },
+          {
+            "m": "4.",
+            "t": "Messbare Sicherheitsziele festlegen und ihre Erreichung planen"
+          },
+          {
+            "m": "5.",
+            "t": "Geplante Änderungen am Managementsystem beherrschen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikobeurteilungsverfahren, Risikoregister, Risikobehandlungsplan, Erklärung zur Anwendbarkeit."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Der IKT-Risikomanagementrahmen nach Artikel 6 DORA verlangt dieselbe Systematik für IKT-Risiken."
+      }
+    ]
+  },
+  "z_7": {
+    "h": "75a75b3c237022a0ef180d76793c0ad4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein Managementsystem lebt von Ressourcen, Kompetenz, Bewusstsein, Kommunikation und einer belastbaren Dokumentenlenkung. Diese Klausel sorgt dafür, dass die geplanten Maßnahmen auch tragen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Erforderliche Ressourcen bereitstellen"
+          },
+          {
+            "m": "2.",
+            "t": "Kompetenz der Beteiligten sicherstellen und nachweisen"
+          },
+          {
+            "m": "3.",
+            "t": "Bewusstsein für Leitlinie, Beiträge und Folgen von Abweichungen schaffen"
+          },
+          {
+            "m": "4.",
+            "t": "Interne und externe Kommunikation regeln"
+          },
+          {
+            "m": "5.",
+            "t": "Dokumentierte Information lenken: erstellen, freigeben, aktuell halten, verfügbar machen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Schulungs- und Qualifikationsnachweise, Kommunikationsplan, Dokumentenlenkungsverfahren."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit den Schulungs- und Kommunikationspflichten der Artikel 13 und 14 DORA."
+      }
+    ]
+  },
+  "z_8": {
+    "h": "97f605c655afd3faf8e83f886c3aac37",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der laufende Betrieb: geplante Prozesse durchführen und steuern, Risikobeurteilungen in festgelegten Abständen und bei wesentlichen Änderungen wiederholen, die Risikobehandlung umsetzen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prozesse planen, umsetzen und steuern, ausgelagerte Prozesse eingeschlossen"
+          },
+          {
+            "m": "2.",
+            "t": "Risikobeurteilungen regelmäßig und anlassbezogen wiederholen"
+          },
+          {
+            "m": "3.",
+            "t": "Den Risikobehandlungsplan umsetzen und die Umsetzung dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prozessdokumentation, Wiederholte Risikobeurteilungen, Umsetzungsstand des Behandlungsplans."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 Absatz 5 DORA verlangt die jährliche Überprüfung des IKT-Rahmens in derselben Logik."
+      }
+    ]
+  },
+  "z_9": {
+    "h": "16e2a10020c1995150bf5efc2afe04a8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wirksamkeit wird gemessen, nicht angenommen: Überwachung und Messung, interne Audits und die Managementbewertung machen sichtbar, ob das System trägt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Festlegen, was wann von wem gemessen und ausgewertet wird"
+          },
+          {
+            "m": "2.",
+            "t": "Interne Audits nach Programm planen und durchführen"
+          },
+          {
+            "m": "3.",
+            "t": "Managementbewertung in festgelegten Abständen durchführen und dokumentieren"
+          },
+          {
+            "m": "4.",
+            "t": "Ergebnisse in Entscheidungen überführen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kennzahlenberichte, Auditprogramm und Auditberichte, Protokoll der Managementbewertung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht der Prüfung des IKT-Rahmens durch die interne Revision nach Artikel 6 Absatz 6 DORA."
+      }
+    ]
+  },
+  "z_a_5_1": {
+    "h": "5e5aac90b91ab16ab6f4f7995076c074",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine von der Leitung verabschiedete Leitlinie und darauf aufbauende themenspezifische Richtlinien geben die Richtung vor und machen Erwartungen verbindlich."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Leitlinie und themenspezifische Richtlinien von der Leitung verabschieden lassen"
+          },
+          {
+            "m": "2.",
+            "t": "An alle Beteiligten kommunizieren und Kenntnisnahme nachhalten"
+          },
+          {
+            "m": "3.",
+            "t": "In geplanten Abständen und bei wesentlichen Änderungen überprüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Leitlinie mit Freigabevermerk, Richtlinienverzeichnis, Nachweis der Bekanntgabe."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 DORA verlangt Richtlinien als Bestandteil des IKT-Risikomanagementrahmens."
+      }
+    ]
+  },
+  "z_a_5_10": {
+    "h": "d12be7f217496852c0fc9ae30ee62b71",
+    "b": [
+      {
+        "art": "p",
+        "t": "Regeln für den Umgang mit Informationen und Geräten machen deutlich, was erlaubt ist – und was nicht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Nutzungsregeln festlegen und bekannt machen"
+          },
+          {
+            "m": "2.",
+            "t": "Regeln für private Nutzung und mobile Geräte klären"
+          },
+          {
+            "m": "3.",
+            "t": "Einhaltung stichprobenweise prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nutzungsrichtlinie, Kenntnisnahmen, Prüfberichte."
+      }
+    ]
+  },
+  "z_a_5_11": {
+    "h": "ca818b8376327d3da2035cc9218f5bc2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beim Ausscheiden oder Rollenwechsel sind Geräte, Datenträger, Ausweise und Informationen vollständig zurückzugeben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Rückgabepflichten vertraglich verankern"
+          },
+          {
+            "m": "2.",
+            "t": "Rückgabe beim Austritt prüfen und dokumentieren"
+          },
+          {
+            "m": "3.",
+            "t": "Nicht zurückgegebene Werte nachverfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Austrittsprozess, Rückgabeprotokolle."
+      }
+    ]
+  },
+  "z_a_5_12": {
+    "h": "4c9c4126fe68e1effa23dd289ed6197a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein einheitliches Klassifizierungsschema macht den Schutzbedarf sichtbar und lenkt die Maßnahmen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Klassifizierungsschema festlegen, an Vertraulichkeit, Integrität und Verfügbarkeit ausgerichtet"
+          },
+          {
+            "m": "2.",
+            "t": "Informationen einstufen und die Einstufung pflegen"
+          },
+          {
+            "m": "3.",
+            "t": "Schutzmaßnahmen je Klasse festlegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Klassifizierungsrichtlinie, Einstufungsübersicht, Maßnahmenzuordnung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 8 DORA verlangt die Einstufung nach Kritikalität."
+      }
+    ]
+  },
+  "z_a_5_13": {
+    "h": "f2e13c8e2ac7437a3c320788adc8833d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Einstufung nützt nur, wenn sie am Objekt erkennbar ist – auf Dokumenten, in Systemen und bei der Übermittlung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kennzeichnungsregeln je Klasse und Medium festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Kennzeichnung technisch unterstützen, wo möglich"
+          },
+          {
+            "m": "3.",
+            "t": "Beschäftigte im Umgang schulen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kennzeichnungsvorgaben, Stichproben, Schulungsnachweise."
+      }
+    ]
+  },
+  "z_a_5_14": {
+    "h": "fe0db6cbd8a84ea93de7677ffe4805b4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für jede Art der Übermittlung – elektronisch, physisch, mündlich – sind Regeln und Schutzmaßnahmen festzulegen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Übertragungsregeln je Kanal und Klasse festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Verschlüsselung für schutzbedürftige Übertragungen vorsehen"
+          },
+          {
+            "m": "3.",
+            "t": "Vereinbarungen mit Empfängern treffen, wo nötig"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Übertragungsrichtlinie, Vereinbarungen, Konfigurationsnachweise."
+      }
+    ]
+  },
+  "z_a_5_15": {
+    "h": "e5c0eca6b7061067fa81a12671238a34",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zugriffe folgen einer dokumentierten Regelung, die sich am Geschäftsbedarf und am Schutzbedarf ausrichtet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugangssteuerungsrichtlinie festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Zugriff nach dem Prinzip der geringsten Rechte gewähren"
+          },
+          {
+            "m": "3.",
+            "t": "Kenntnis nur, soweit erforderlich"
+          },
+          {
+            "m": "4.",
+            "t": "Regelmäßig auf Angemessenheit prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berechtigungskonzept, Rezertifizierungsprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA verlangt Zugriffsbeschränkungen als Schutzmaßnahme."
+      }
+    ]
+  },
+  "z_a_5_16": {
+    "h": "73557d5146d31d886a1907329f3d77ac",
+    "b": [
+      {
+        "art": "p",
+        "t": "Identitäten werden über ihren gesamten Lebenszyklus verwaltet – vom Anlegen bis zum Löschen, eindeutig und nachvollziehbar."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Eindeutige Identitäten vergeben, Sammelkonten begründen"
+          },
+          {
+            "m": "2.",
+            "t": "Lebenszyklus von Eintritt bis Austritt steuern"
+          },
+          {
+            "m": "3.",
+            "t": "Identitäten regelmäßig abgleichen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Identitätsverzeichnis, Prozessdokumentation, Abgleichberichte."
+      }
+    ]
+  },
+  "z_a_5_17": {
+    "h": "7fd4182ad7f5bcb8151af99805b6f095",
+    "b": [
+      {
+        "art": "p",
+        "t": "Passwörter und andere Authentisierungsmittel werden sicher vergeben, übermittelt, gespeichert und gewechselt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vorgaben für Vergabe, Stärke und Wechsel festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Sichere Übermittlung und Speicherung sicherstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Beschäftigte zum Umgang verpflichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Passwortrichtlinie, technische Umsetzungsnachweise."
+      }
+    ]
+  },
+  "z_a_5_18": {
+    "h": "631d8dd59e8de9bb73312c494b31bce6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Rechte werden auf Antrag vergeben, bei Änderungen angepasst und beim Austritt entzogen – und regelmäßig überprüft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vergabe, Änderung und Entzug in einem Prozess regeln"
+          },
+          {
+            "m": "2.",
+            "t": "Rechte beim Austritt unverzüglich entziehen"
+          },
+          {
+            "m": "3.",
+            "t": "Rezertifizierung in festen Abständen durchführen"
+          },
+          {
+            "m": "4.",
+            "t": "Privilegierte Rechte gesondert behandeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Antrags- und Genehmigungsunterlagen, Rezertifizierungsberichte, Austrittsnachweise."
+      }
+    ]
+  },
+  "z_a_5_19": {
+    "h": "7accc669e3f3dd55ab5801ebcfeaa547",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wer Leistungen einkauft, kauft Risiken mit. Für Lieferantenbeziehungen sind Sicherheitsanforderungen festzulegen, bevor die Zusammenarbeit beginnt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsanforderungen je Lieferantentyp festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Lieferanten vor Beauftragung bewerten"
+          },
+          {
+            "m": "3.",
+            "t": "Anforderungen in die Beschaffung einbinden"
+          },
+          {
+            "m": "4.",
+            "t": "Verantwortliche für die Lieferantensteuerung benennen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Lieferantenrichtlinie, Bewertungen vor Beauftragung, Lieferantenverzeichnis."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 DORA verlangt darüber hinaus ein vollständiges Informationsregister und eine Risikobewertung vor Vertragsschluss."
+      }
+    ]
+  },
+  "z_a_5_2": {
+    "h": "1765b57b432060076c7f01d93f9172b9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheit braucht Zuständige. Rollen sind zu benennen, abzugrenzen und mit Befugnissen auszustatten – sonst bleibt Verantwortung diffus."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsrollen festlegen und personell besetzen"
+          },
+          {
+            "m": "2.",
+            "t": "Aufgaben, Befugnisse und Berichtswege beschreiben"
+          },
+          {
+            "m": "3.",
+            "t": "Zuständigkeiten bei Vertretung und Wechsel regeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Rollenbeschreibungen, Organigramm, Benennungsschreiben."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 Absatz 4 DORA verlangt eine eigene Kontrollfunktion für das IKT-Risiko."
+      }
+    ]
+  },
+  "z_a_5_20": {
+    "h": "d48b5b6cdf0539a600bd1ab545a8aeb8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Was gelten soll, gehört in den Vertrag: Sicherheitsanforderungen sind mit dem Lieferanten zu vereinbaren und durchsetzbar zu machen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsanforderungen vertraglich festhalten"
+          },
+          {
+            "m": "2.",
+            "t": "Prüf- und Auditrechte vereinbaren"
+          },
+          {
+            "m": "3.",
+            "t": "Meldepflichten bei Vorfällen regeln"
+          },
+          {
+            "m": "4.",
+            "t": "Regelungen für Vertragsende und Datenrückgabe treffen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verträge mit Sicherheitsanlagen, Nachweise über Prüfungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 30 DORA zählt die Pflichtinhalte deutlich detaillierter auf – einschließlich Ausstiegsstrategie."
+      }
+    ]
+  },
+  "z_a_5_21": {
+    "h": "00410700258b590c4398c73cd6f41fff",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Kette endet nicht beim unmittelbaren Lieferanten. Auch Unterauftragnehmer und Vorprodukte sind zu betrachten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen auf die Lieferkette erstrecken"
+          },
+          {
+            "m": "2.",
+            "t": "Unterauftragsvergabe transparent machen und begrenzen"
+          },
+          {
+            "m": "3.",
+            "t": "Herkunft und Integrität von Komponenten prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Lieferkettenanalyse, Vertragsklauseln zur Untervergabe."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die Delegierte Verordnung (EU) 2025/532 regelt die Untervergabe für kritische oder wichtige Funktionen."
+      }
+    ]
+  },
+  "z_a_5_22": {
+    "h": "2cf06727411db9e491f1b9cd4331cfb0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Zusammenarbeit wird laufend überwacht; Änderungen an Leistungen werden bewertet, bevor sie wirksam werden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Leistung und Sicherheitsniveau regelmäßig überprüfen"
+          },
+          {
+            "m": "2.",
+            "t": "Berichte und Nachweise des Lieferanten auswerten"
+          },
+          {
+            "m": "3.",
+            "t": "Änderungen bewerten und genehmigen"
+          },
+          {
+            "m": "4.",
+            "t": "Bei Abweichungen eskalieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dienstleistersteuerungsberichte, Prüfberichte nach IDW PS 951 oder ISAE 3402, Änderungsprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 DORA verlangt die laufende Überwachung des IKT-Drittparteienrisikos."
+      }
+    ]
+  },
+  "z_a_5_23": {
+    "h": "5b75b2ad9463faf224d9ec9b801f26d4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Cloud-Dienste gelten eigene Festlegungen: Auswahl, Nutzung, Steuerung und Ausstieg sind zu regeln."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Auswahlkriterien und Freigabeprozess für Cloud-Dienste festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Verantwortungsteilung mit dem Anbieter klären und dokumentieren"
+          },
+          {
+            "m": "3.",
+            "t": "Ausstieg und Datenrückführung vorbereiten"
+          },
+          {
+            "m": "4.",
+            "t": "Nutzung überwachen, auch die nicht genehmigte"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Cloud-Richtlinie, Verantwortungsmatrix, Ausstiegskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 und 30 DORA gelten unabhängig davon, ob der Dienst eine Ausgliederung nach § 32 VAG ist."
+      }
+    ]
+  },
+  "z_a_5_24": {
+    "h": "834689d54d8259cd7460f9075d188252",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vor dem ersten Vorfall müssen Prozess, Rollen und Meldewege stehen – improvisieren kostet Zeit, die man nicht hat."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vorfallprozess festlegen und bekannt machen"
+          },
+          {
+            "m": "2.",
+            "t": "Rollen und Erreichbarkeiten definieren, auch außerhalb der Geschäftszeiten"
+          },
+          {
+            "m": "3.",
+            "t": "Eskalations- und Meldewege festlegen"
+          },
+          {
+            "m": "4.",
+            "t": "Vorbereitung regelmäßig üben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vorfallhandbuch, Erreichbarkeitsplan, Übungsprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 17 DORA verlangt einen solchen Managementprozess ausdrücklich."
+      }
+    ]
+  },
+  "z_a_5_25": {
+    "h": "f0f7fb79bac6272fddd7b6d1b9ff5ab1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nicht jedes Ereignis ist ein Vorfall. Es braucht klare Kriterien, wer nach welchem Maßstab einstuft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kriterien für die Einstufung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Zuständigkeit für die Einstufung benennen"
+          },
+          {
+            "m": "3.",
+            "t": "Entscheidung dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Einstufungskriterien, Ereignisregister mit Entscheidungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 18 DORA und die Delegierte Verordnung (EU) 2024/1772 geben die Kriterien vor; an der Einstufung hängt die Vier-Stunden-Frist."
+      }
+    ]
+  },
+  "z_a_5_26": {
+    "h": "cc003a4b94a9eda934bfff57e6238e54",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Reaktion folgt dem vorbereiteten Verfahren: eindämmen, beheben, dokumentieren, kommunizieren."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Nach festgelegtem Verfahren reagieren"
+          },
+          {
+            "m": "2.",
+            "t": "Maßnahmen und Zeitpunkte lückenlos dokumentieren"
+          },
+          {
+            "m": "3.",
+            "t": "Betroffene und Beteiligte informieren"
+          },
+          {
+            "m": "4.",
+            "t": "Wiederherstellung koordinieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vorfallakten, Zeitleisten, Kommunikationsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 11 DORA verlangt Reaktions- und Wiederherstellungspläne."
+      }
+    ]
+  },
+  "z_a_5_27": {
+    "h": "53987610d96563779cbde947b3a2e8c0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Jeder Vorfall ist eine Erkenntnisquelle: Ursachen, Wirksamkeit der Maßnahmen und Lücken sind auszuwerten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Nachbetrachtung verbindlich vorsehen"
+          },
+          {
+            "m": "2.",
+            "t": "Ursachen analysieren und Maßnahmen ableiten"
+          },
+          {
+            "m": "3.",
+            "t": "Erkenntnisse in Richtlinien und Schulungen überführen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachbetrachtungen, Maßnahmenverfolgung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 DORA verlangt genau diese Rückkopplung in den IKT-Rahmen."
+      }
+    ]
+  },
+  "z_a_5_28": {
+    "h": "ef4cb55f886b627f5266bb28d7293eaa",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beweise sind so zu sichern, dass sie später verwertbar bleiben – gerichtsfest, nachvollziehbar, unverändert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren zur Beweissicherung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Zuständige benennen und schulen"
+          },
+          {
+            "m": "3.",
+            "t": "Lückenlose Übergabekette dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verfahrensbeschreibung, Sicherungsprotokolle."
+      }
+    ]
+  },
+  "z_a_5_29": {
+    "h": "b5c08bc94b7f5901a963ee30b8a34a9b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auch im Ausnahmezustand darf das Schutzniveau nicht einbrechen: Notbetrieb und Wiederanlauf sind sicher zu gestalten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsanforderungen für den Notbetrieb festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Notfallmaßnahmen auf Sicherheitswirkung prüfen"
+          },
+          {
+            "m": "3.",
+            "t": "Nach der Störung in den Regelbetrieb zurückführen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Notfallpläne mit Sicherheitsvorgaben, Testberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit den Anforderungen an Reaktion und Wiederherstellung nach Artikel 11 DORA."
+      }
+    ]
+  },
+  "z_a_5_3": {
+    "h": "a705069fac3bd0f38926a08009161acb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unverträgliche Aufgaben gehören in verschiedene Hände, damit niemand einen Vorgang allein anstoßen, ausführen und kontrollieren kann."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Unverträgliche Aufgabenkombinationen bestimmen"
+          },
+          {
+            "m": "2.",
+            "t": "Trennung technisch und organisatorisch durchsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Wo Trennung nicht möglich ist, kompensierende Maßnahmen festlegen und begründen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Funktionstrennungsmatrix, Berechtigungsauswertungen, Begründete Ausnahmen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: § 29 VAG verlangt ein internes Kontrollsystem, in dem die Trennung abzubilden ist."
+      }
+    ]
+  },
+  "z_a_5_30": {
+    "h": "426ef26c56fd57eb94417320efc5951e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die IKT muss die Wiederanlaufziele des Geschäfts tragen können – geplant, umgesetzt und getestet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Wiederanlaufzeiten und Datenverlusttoleranzen je Funktion festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "IKT-Fortführungspläne daran ausrichten"
+          },
+          {
+            "m": "3.",
+            "t": "Regelmäßig testen und Ergebnisse auswerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Business-Impact-Analyse, IKT-Notfallpläne, Testberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 11 und 12 DORA verlangen Reaktions-, Wiederherstellungs- und Backup-Verfahren mit denselben Zielgrößen."
+      }
+    ]
+  },
+  "z_a_5_31": {
+    "h": "9dccbdf115adfb5477a496127fcc36cf",
+    "b": [
+      {
+        "art": "p",
+        "t": "Alle einschlägigen Anforderungen sind zu ermitteln, zu dokumentieren und aktuell zu halten – und ihre Einhaltung ist nachzuweisen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungsverzeichnis führen und pflegen"
+          },
+          {
+            "m": "2.",
+            "t": "Zuständige für die Beobachtung benennen"
+          },
+          {
+            "m": "3.",
+            "t": "Umsetzung je Anforderung nachweisen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Anforderungsverzeichnis, Umsetzungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Genau dafür ist diese Anwendung gedacht: Bibliothek, Themenseiten und Screening halten das Verzeichnis aktuell."
+      }
+    ]
+  },
+  "z_a_5_32": {
+    "h": "ea19d1528801ef1d593d8bc3e4c1f7e4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Lizenzen und Urheberrechte sind einzuhalten – auch bei Software, Bibliotheken und Inhalten Dritter."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Lizenzbestand führen"
+          },
+          {
+            "m": "2.",
+            "t": "Nutzung gegen Lizenzumfang abgleichen"
+          },
+          {
+            "m": "3.",
+            "t": "Beschäftigte über Vorgaben unterrichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Lizenzverzeichnis, Abgleichberichte."
+      }
+    ]
+  },
+  "z_a_5_33": {
+    "h": "50dd4679856cdae9b9ac86947c99fb66",
+    "b": [
+      {
+        "art": "p",
+        "t": "Aufzeichnungen sind vor Verlust, Veränderung und unbefugtem Zugriff zu schützen – über die gesamte Aufbewahrungsfrist."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Aufbewahrungsfristen je Art festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Schutz gegen Veränderung sicherstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Lesbarkeit über die Frist gewährleisten"
+          },
+          {
+            "m": "4.",
+            "t": "Löschung nach Fristablauf regeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Aufbewahrungskonzept, technische Schutznachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: § 257 HGB und die §§ 146, 147 AO geben die handels- und steuerrechtlichen Fristen vor."
+      }
+    ]
+  },
+  "z_a_5_34": {
+    "h": "3b47e5622a251c4829bfb41a84ccc498",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Schutz personenbezogener Daten ist als eigener Anforderungsstrang zu führen und mit der Informationssicherheit zu verzahnen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen aus dem Datenschutzrecht bestimmen"
+          },
+          {
+            "m": "2.",
+            "t": "Technische und organisatorische Maßnahmen ableiten"
+          },
+          {
+            "m": "3.",
+            "t": "Verantwortliche benennen und einbinden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verarbeitungsverzeichnis, Maßnahmenbeschreibung, Nachweis der Einbindung des Datenschutzbeauftragten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 32 DSGVO verlangt dem Risiko angemessene Maßnahmen; Artikel 33 die Meldung binnen 72 Stunden."
+      }
+    ]
+  },
+  "z_a_5_35": {
+    "h": "a324bbb8a90e79ade08845cfe5675c09",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Sicherheitsniveau wird in geplanten Abständen unabhängig überprüft – von Stellen, die es nicht selbst verantworten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Überprüfungen planen und beauftragen"
+          },
+          {
+            "m": "2.",
+            "t": "Unabhängigkeit der Prüfenden sicherstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Feststellungen nachverfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfplan, Prüfberichte, Maßnahmenverfolgung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 Absatz 6 DORA und § 30 VAG weisen diese Rolle der internen Revision zu."
+      }
+    ]
+  },
+  "z_a_5_36": {
+    "h": "b9cebda5aab920ecfd996aa6283dad21",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Einhaltung der eigenen Vorgaben wird regelmäßig überprüft – nicht nur angenommen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfungen der Einhaltung planen"
+          },
+          {
+            "m": "2.",
+            "t": "Abweichungen erfassen und abstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Ergebnisse an die Leitung berichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfpläne, Abweichungsberichte, Leitungsberichte."
+      }
+    ]
+  },
+  "z_a_5_37": {
+    "h": "848f1b1b05dd6411a2e55e38de80f78c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Betriebsabläufe sind so zu dokumentieren, dass sie auch von Vertretungen sicher ausgeführt werden können."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Abläufe dokumentieren und aktuell halten"
+          },
+          {
+            "m": "2.",
+            "t": "Dokumentation den Ausführenden zugänglich machen"
+          },
+          {
+            "m": "3.",
+            "t": "Bei Änderungen nachziehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Betriebshandbücher, Änderungshistorie."
+      }
+    ]
+  },
+  "z_a_5_4": {
+    "h": "facb54f1af4bfa82ee64211f1e39984e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Leitung fordert die Einhaltung der Vorgaben aktiv ein – durch Vorgabe, Nachfrage und Konsequenz."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Von allen Beschäftigten die Anwendung der Vorgaben verlangen"
+          },
+          {
+            "m": "2.",
+            "t": "Voraussetzungen dafür schaffen: Zeit, Mittel, Schulung"
+          },
+          {
+            "m": "3.",
+            "t": "Einhaltung nachhalten und Abweichungen aufgreifen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Führungsvorgaben, Berichte an die Leitung, Maßnahmen bei Abweichungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 5 DORA weist dem Leitungsorgan dieselbe aktive Rolle zu."
+      }
+    ]
+  },
+  "z_a_5_5": {
+    "h": "98563d76815721411f667756a0da179b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Ernstfall darf nicht erst gesucht werden, wen man anruft. Kontakte zu Aufsicht, Strafverfolgung und zuständigen Stellen sind vorab zu klären und zu pflegen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zuständige Behörden bestimmen und Ansprechstellen dokumentieren"
+          },
+          {
+            "m": "2.",
+            "t": "Meldewege und Zuständigkeiten im Haus festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Kontaktdaten aktuell halten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kontaktverzeichnis, Meldeprozess, Nachweise über geführte Kontakte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Für Versicherer ist die BaFin der Empfänger der Meldung nach Artikel 19 DORA."
+      }
+    ]
+  },
+  "z_a_5_6": {
+    "h": "43eb18493f8650ef56cb9359c3b67c94",
+    "b": [
+      {
+        "art": "p",
+        "t": "Fachlicher Austausch mit Verbänden, CERTs und Fachgremien hält das eigene Bild der Bedrohungslage aktuell."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Relevante Fachgruppen und Warndienste bestimmen"
+          },
+          {
+            "m": "2.",
+            "t": "Mitgliedschaften und Bezugsquellen pflegen"
+          },
+          {
+            "m": "3.",
+            "t": "Erkenntnisse in die eigene Lagebewertung überführen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Mitgliedschaften, Bezug von Warnmeldungen, Auswertungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 45 DORA regelt den Austausch von Informationen über Cyberbedrohungen."
+      }
+    ]
+  },
+  "z_a_5_7": {
+    "h": "ab05802ed995a32d5064d7e61934fe5a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen über Bedrohungen werden gesammelt, bewertet und in Maßnahmen übersetzt – strategisch, taktisch und operativ."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Quellen für Bedrohungsinformationen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Meldungen auf Relevanz für die eigene Lage bewerten"
+          },
+          {
+            "m": "3.",
+            "t": "Erkenntnisse in Schutzmaßnahmen und Erkennungsregeln überführen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Quellenverzeichnis, Bewertungen, abgeleitete Maßnahmen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die Erkennung nach Artikel 10 DORA stützt sich auf dieselben Erkenntnisse."
+      }
+    ]
+  },
+  "z_a_5_8": {
+    "h": "e316b0c11cc9fe3842951dbd1d46ab53",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheit wird im Projekt mitgeplant, nicht nachgerüstet: von der Anforderungsaufnahme bis zur Abnahme."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsanforderungen früh im Projekt erheben"
+          },
+          {
+            "m": "2.",
+            "t": "Risiken projektbegleitend bewerten"
+          },
+          {
+            "m": "3.",
+            "t": "Sicherheitsabnahme vor Produktivsetzung vorsehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Projekthandbuch mit Sicherheitsvorgaben, Risikobewertungen, Abnahmeprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit den Anforderungen an die Anwendungsentwicklung nach Artikel 9 DORA."
+      }
+    ]
+  },
+  "z_a_5_9": {
+    "h": "8d45384e4e0ad3ff36f6c264ca3198e4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wer seine Werte nicht kennt, kann sie nicht schützen. Informationen und zugehörige Assets sind zu erfassen, einem Verantwortlichen zuzuordnen und aktuell zu halten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Assetverzeichnis führen und pflegen"
+          },
+          {
+            "m": "2.",
+            "t": "Je Asset einen Verantwortlichen benennen"
+          },
+          {
+            "m": "3.",
+            "t": "Abhängigkeiten zu Geschäftsprozessen abbilden"
+          },
+          {
+            "m": "4.",
+            "t": "Aktualität durch einen festen Prozess sichern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Assetverzeichnis, Zuordnung der Verantwortlichen, Abgleichprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 8 DORA verlangt die Identifizierung aller IKT-gestützten Funktionen und Assets."
+      }
+    ]
+  },
+  "z_a_6_1": {
+    "h": "f008320951e64b63b7bc1ddbc95ce861",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vor der Einstellung wird geprüft, was rechtlich zulässig und für die Rolle angemessen ist – je exponierter die Stelle, desto genauer."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfumfang je Rolle festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Rechtliche Grenzen und Mitbestimmung beachten"
+          },
+          {
+            "m": "3.",
+            "t": "Ergebnisse dokumentieren und geschützt aufbewahren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfrichtlinie, Nachweise der Überprüfung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: § 24 VAG stellt Anforderungen an die Zuverlässigkeit von Personen in Schlüsselfunktionen."
+      }
+    ]
+  },
+  "z_a_6_2": {
+    "h": "56b713e01afd50978658fcd3b6e072cd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheitspflichten gehören in den Arbeitsvertrag – damit sie durchsetzbar sind."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitspflichten vertraglich verankern"
+          },
+          {
+            "m": "2.",
+            "t": "Auf Richtlinien verweisen und deren Kenntnisnahme sicherstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Folgen von Verstößen benennen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vertragsmuster, Kenntnisnahmen."
+      }
+    ]
+  },
+  "z_a_6_3": {
+    "h": "480d431d4e5a469d31dda87c27d44f46",
+    "b": [
+      {
+        "art": "p",
+        "t": "Alle Beschäftigten werden regelmäßig und rollengerecht geschult; die Wirksamkeit wird gemessen, nicht nur die Teilnahme gezählt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Schulungsprogramm mit Zielgruppen und Takt festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Rollenspezifische Inhalte für exponierte Gruppen vorsehen"
+          },
+          {
+            "m": "3.",
+            "t": "Teilnahme nachhalten"
+          },
+          {
+            "m": "4.",
+            "t": "Wirksamkeit messen, etwa durch Simulationen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Schulungskonzept, Teilnahmenachweise, Auswertung von Phishing-Simulationen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 DORA verlangt Schulungsprogramme; Artikel 5 zusätzlich die Fortbildung des Leitungsorgans."
+      }
+    ]
+  },
+  "z_a_6_4": {
+    "h": "89a3d28cb8f7b032416c5953ce67dd32",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Verstöße gibt es ein festgelegtes, angemessenes und bekannt gemachtes Verfahren."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren festlegen und kommunizieren"
+          },
+          {
+            "m": "2.",
+            "t": "Abgestufte Maßnahmen vorsehen"
+          },
+          {
+            "m": "3.",
+            "t": "Mitbestimmung und Rechtslage beachten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verfahrensbeschreibung, anonymisierte Fallübersicht."
+      }
+    ]
+  },
+  "z_a_6_5": {
+    "h": "a5c480314b50cee1b2aeb3b0011a51e9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bestimmte Pflichten – Vertraulichkeit vor allem – gelten über das Arbeitsverhältnis hinaus und sind deshalb ausdrücklich zu regeln."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Fortgeltende Pflichten benennen und vertraglich absichern"
+          },
+          {
+            "m": "2.",
+            "t": "Beim Austritt auf die Pflichten hinweisen"
+          },
+          {
+            "m": "3.",
+            "t": "Rechte und Werte entziehen beziehungsweise einziehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Austrittsprozess, Bestätigungen."
+      }
+    ]
+  },
+  "z_a_6_6": {
+    "h": "d196b7085c5d8072d132c9fd759665dc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Mit Beschäftigten und Dritten werden Vertraulichkeitsvereinbarungen geschlossen und regelmäßig überprüft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vereinbarungen für Beschäftigte und Dritte vorsehen"
+          },
+          {
+            "m": "2.",
+            "t": "Inhalte auf Angemessenheit prüfen"
+          },
+          {
+            "m": "3.",
+            "t": "Bestand pflegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vereinbarungsmuster, Verzeichnis abgeschlossener Vereinbarungen."
+      }
+    ]
+  },
+  "z_a_6_7": {
+    "h": "a09e4f19f7b9dadf682fcc24ee523499",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Telearbeit und mobiles Arbeiten gelten eigene Schutzmaßnahmen – technisch wie organisatorisch."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln für Ausstattung, Netzzugang und Umgebung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Sichere Verbindungen und Geräteschutz vorschreiben"
+          },
+          {
+            "m": "3.",
+            "t": "Umgang mit Unterlagen und Bildschirmen außerhalb des Büros regeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinie zum mobilen Arbeiten, Konfigurationsnachweise."
+      }
+    ]
+  },
+  "z_a_6_8": {
+    "h": "68d9ceb58b5d06b4e65ba0b5e589ac87",
+    "b": [
+      {
+        "art": "p",
+        "t": "Jeder muss wissen, wie und wohin er ein Ereignis meldet – niedrigschwellig und ohne Angst vor Nachteilen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Meldeweg festlegen und allen bekannt machen"
+          },
+          {
+            "m": "2.",
+            "t": "Meldungen ohne Sanktionierung ermöglichen"
+          },
+          {
+            "m": "3.",
+            "t": "Eingang und Bearbeitung nachhalten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Meldeweg-Beschreibung, Ereignisregister."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 17 DORA verlangt Verfahren zur Erkennung und Meldung intern; Artikel 19 die Meldung an die Aufsicht."
+      }
+    ]
+  },
+  "z_a_7_1": {
+    "h": "041899f61fd0cd74ed35574e71794fd0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bereiche mit schutzbedürftigen Werten werden durch definierte Sicherheitszonen abgegrenzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zonen festlegen und dokumentieren"
+          },
+          {
+            "m": "2.",
+            "t": "Abgrenzungen baulich und technisch umsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Zutrittsregeln je Zone festlegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zonenplan, Nachweise der Umsetzung."
+      }
+    ]
+  },
+  "z_a_7_10": {
+    "h": "425c0b34c5f84ce2cf246860f351a4aa",
+    "b": [
+      {
+        "art": "p",
+        "t": "Datenträger werden über ihren Lebenszyklus gesteuert: Beschaffung, Nutzung, Transport, Entsorgung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Umgang je Klassifizierung regeln"
+          },
+          {
+            "m": "2.",
+            "t": "Transport absichern"
+          },
+          {
+            "m": "3.",
+            "t": "Entsorgung sicher und nachweisbar gestalten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinie für Datenträger, Vernichtungsnachweise."
+      }
+    ]
+  },
+  "z_a_7_11": {
+    "h": "47f4e4987c323db214413943a731edad",
+    "b": [
+      {
+        "art": "p",
+        "t": "Strom, Kühlung und Netzanbindung sind so auszulegen und zu warten, dass Ausfälle den Betrieb nicht unmittelbar treffen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Versorgungseinrichtungen dimensionieren und redundant auslegen"
+          },
+          {
+            "m": "2.",
+            "t": "Regelmäßig warten und testen"
+          },
+          {
+            "m": "3.",
+            "t": "Alarmierung bei Störungen vorsehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Wartungspläne, Testprotokolle der Notstromversorgung."
+      }
+    ]
+  },
+  "z_a_7_12": {
+    "h": "c159439851ca57070a548584782f6d94",
+    "b": [
+      {
+        "art": "p",
+        "t": "Strom- und Datenleitungen werden gegen Beschädigung und Abhören geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Leitungswege schützen und dokumentieren"
+          },
+          {
+            "m": "2.",
+            "t": "Trennung von Strom- und Datenleitungen beachten"
+          },
+          {
+            "m": "3.",
+            "t": "Zugang zu Verteilern beschränken"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verkabelungspläne, Zugangsregelungen."
+      }
+    ]
+  },
+  "z_a_7_13": {
+    "h": "680cae4e459c7d79ebf6679a670ee8cd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Geräte werden nach Vorgabe gewartet, damit Verfügbarkeit und Integrität erhalten bleiben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Wartungsintervalle festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Wartung durch befugte Stellen durchführen lassen"
+          },
+          {
+            "m": "3.",
+            "t": "Wartungsarbeiten dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Wartungspläne, Wartungsprotokolle."
+      }
+    ]
+  },
+  "z_a_7_14": {
+    "h": "589a2318258d4e88c4bb505620f17e9c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vor Entsorgung oder Weitergabe werden Daten nachweislich und unwiederbringlich entfernt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren zur Datenlöschung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Nachweise über die Löschung führen"
+          },
+          {
+            "m": "3.",
+            "t": "Dienstleister vertraglich binden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Löschkonzept, Vernichtungs- und Löschnachweise."
+      }
+    ]
+  },
+  "z_a_7_2": {
+    "h": "af175571e0f97f19a642665122d0507c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zutritt erhält nur, wer ihn braucht – kontrolliert, protokolliert und regelmäßig überprüft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zutrittsberechtigungen nach Bedarf vergeben"
+          },
+          {
+            "m": "2.",
+            "t": "Besucher begleiten und erfassen"
+          },
+          {
+            "m": "3.",
+            "t": "Protokolle auswerten"
+          },
+          {
+            "m": "4.",
+            "t": "Berechtigungen regelmäßig überprüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zutrittskonzept, Besucherprotokolle, Rezertifizierungen."
+      }
+    ]
+  },
+  "z_a_7_3": {
+    "h": "0483dbbcd7ae3e6c885ca30272f16181",
+    "b": [
+      {
+        "art": "p",
+        "t": "Räume mit schutzbedürftigen Werten werden baulich und organisatorisch gesichert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Schutzbedarf je Raum bestimmen"
+          },
+          {
+            "m": "2.",
+            "t": "Maßnahmen ableiten und umsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Unauffälligkeit sensibler Bereiche wahren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Raumkonzept, Umsetzungsnachweise."
+      }
+    ]
+  },
+  "z_a_7_4": {
+    "h": "8f803cc52c2fbd8aaea091266afb9c43",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bereiche werden auf unbefugten Zutritt überwacht – mit Technik und Organisation, die zum Schutzbedarf passt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Überwachungsmaßnahmen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Alarmierung und Reaktion regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Datenschutz und Mitbestimmung beachten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Überwachungskonzept, Alarmprotokolle."
+      }
+    ]
+  },
+  "z_a_7_5": {
+    "h": "313530228d53a6858c4eff46a1c62e1d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Feuer, Wasser, Stromausfall, Hitze: Umweltrisiken sind zu bewerten und durch Maßnahmen zu begrenzen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Umweltrisiken je Standort bewerten"
+          },
+          {
+            "m": "2.",
+            "t": "Schutzmaßnahmen festlegen und warten"
+          },
+          {
+            "m": "3.",
+            "t": "Wirksamkeit prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikobewertung je Standort, Wartungsnachweise, Prüfprotokolle."
+      }
+    ]
+  },
+  "z_a_7_6": {
+    "h": "b3c19e39c7bfa1472fbbd40c75d6177d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für das Arbeiten in besonders geschützten Bereichen gelten zusätzliche Regeln."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verhaltensregeln festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Mitführen von Geräten regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Arbeiten Dritter begleiten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Regelwerk für Sicherheitsbereiche, Begleitprotokolle."
+      }
+    ]
+  },
+  "z_a_7_7": {
+    "h": "8949a9f12485ec67f0b0f9a211a053df",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unterlagen und Bildschirme dürfen keine schutzbedürftigen Informationen preisgeben, wenn der Platz verlassen wird."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln für Unterlagen und Datenträger festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Automatische Bildschirmsperre erzwingen"
+          },
+          {
+            "m": "3.",
+            "t": "Einhaltung stichprobenweise prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinie, technische Vorgabe der Sperre, Begehungsprotokolle."
+      }
+    ]
+  },
+  "z_a_7_8": {
+    "h": "9c26204c351be306f018d3437c208bda",
+    "b": [
+      {
+        "art": "p",
+        "t": "Geräte werden so aufgestellt und geschützt, dass Risiken und unbefugte Einsicht minimiert werden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Aufstellungsvorgaben festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Schutz gegen Diebstahl und Einsicht sicherstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Besondere Vorgaben für Publikumsbereiche treffen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Aufstellungsvorgaben, Begehungsprotokolle."
+      }
+    ]
+  },
+  "z_a_7_9": {
+    "h": "adc576f2ba7cf305f201f1437642bd31",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Geräte und Unterlagen außerhalb des Hauses gelten eigene Schutzmaßnahmen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln für Mitnahme und Transport festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Verschlüsselung mobiler Geräte vorschreiben"
+          },
+          {
+            "m": "3.",
+            "t": "Verlustmeldung regeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinie, Verschlüsselungsnachweise, Verlustmeldungen."
+      }
+    ]
+  },
+  "z_a_8_1": {
+    "h": "83e80fe144d73d3cb169411929d3a9cc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Arbeitsplatzrechner, Notebooks und mobile Geräte sind besonders exponiert und deshalb gesondert abzusichern."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vorgaben für Konfiguration und Härtung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Verschlüsselung und Sperrmechanismen erzwingen"
+          },
+          {
+            "m": "3.",
+            "t": "Verlust und Diebstahl regeln"
+          },
+          {
+            "m": "4.",
+            "t": "Private Nutzung und mitgebrachte Geräte klären"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Geräterichtlinie, Konfigurationsvorgaben, Verschlüsselungsnachweise."
+      }
+    ]
+  },
+  "z_a_8_10": {
+    "h": "01fe7f060afd513ac36432b6586c70dc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen werden gelöscht, wenn sie nicht mehr benötigt werden – nachweisbar und fristgerecht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Löschfristen je Informationsart festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Löschverfahren technisch umsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Löschung dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Löschkonzept, Löschprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die Löschpflichten der DSGVO und die Aufbewahrungsfristen des Handels- und Steuerrechts sind gemeinsam zu betrachten."
+      }
+    ]
+  },
+  "z_a_8_11": {
+    "h": "04c84911b1b7c7bea4b279203f805fa6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wo vollständige Daten nicht nötig sind, werden sie maskiert, pseudonymisiert oder anonymisiert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Einsatzfälle bestimmen, etwa Test und Auswertung"
+          },
+          {
+            "m": "2.",
+            "t": "Verfahren festlegen und umsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Wirksamkeit überprüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Maskierungskonzept, Prüfberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 25 DSGVO verlangt Datenschutz durch Technikgestaltung."
+      }
+    ]
+  },
+  "z_a_8_12": {
+    "h": "fbb2cccb36240e597a9fb0b2df25c555",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der unkontrollierte Abfluss schutzbedürftiger Informationen wird durch Maßnahmen an den Übergängen begrenzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Abflusswege bestimmen"
+          },
+          {
+            "m": "2.",
+            "t": "Maßnahmen an Endgeräten, Netzübergängen und Diensten umsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Warnmeldungen auswerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Konzept zur Abflussverhinderung, Auswertungen."
+      }
+    ]
+  },
+  "z_a_8_13": {
+    "h": "a12f16f7e56969fe032f766c3a83e67a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Daten und Systeme werden gesichert und die Rücksicherung wird tatsächlich geprobt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherungskonzept mit Umfang, Takt und Aufbewahrung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Sicherungen vom Produktivnetz trennen und gegen Verschlüsselung schützen"
+          },
+          {
+            "m": "3.",
+            "t": "Rücksicherung regelmäßig testen"
+          },
+          {
+            "m": "4.",
+            "t": "Testergebnisse dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Sicherungskonzept, Protokolle erfolgreicher Rücksicherungstests."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 12 DORA verlangt Backup-Richtlinien sowie Verfahren und Methoden zur Wiederherstellung."
+      }
+    ]
+  },
+  "z_a_8_14": {
+    "h": "315ac7b3be7656df8a82c3d1ae53e719",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verfügbarkeitsanforderungen werden durch redundante Auslegung erfüllt – und die Umschaltung wird getestet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfügbarkeitsanforderungen je Funktion bestimmen"
+          },
+          {
+            "m": "2.",
+            "t": "Redundanzen entsprechend auslegen"
+          },
+          {
+            "m": "3.",
+            "t": "Umschaltung regelmäßig testen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Architekturdokumentation, Testprotokolle der Umschaltung."
+      }
+    ]
+  },
+  "z_a_8_15": {
+    "h": "eb9925dbdbcbd8c29f465e4b1095ac00",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheitsrelevante Ereignisse werden protokolliert, geschützt aufbewahrt und ausgewertet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Festlegen, welche Ereignisse zu protokollieren sind"
+          },
+          {
+            "m": "2.",
+            "t": "Protokolle vor Veränderung schützen"
+          },
+          {
+            "m": "3.",
+            "t": "Aufbewahrungsfristen festlegen"
+          },
+          {
+            "m": "4.",
+            "t": "Auswertung und Reaktion regeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Protokollierungskonzept, Aufbewahrungsregelung, Auswertungsberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 10 DORA verlangt Mechanismen zur Erkennung ungewöhnlicher Aktivitäten."
+      }
+    ]
+  },
+  "z_a_8_16": {
+    "h": "b6b8dfe83d0edce4b5920c7cce0419a8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Netze, Systeme und Anwendungen werden auf ungewöhnliches Verhalten überwacht; Auffälligkeiten lösen eine definierte Reaktion aus."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Überwachungsumfang und Kennzahlen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Schwellen und Alarmregeln definieren"
+          },
+          {
+            "m": "3.",
+            "t": "Reaktionswege festlegen"
+          },
+          {
+            "m": "4.",
+            "t": "Fehlalarme auswerten und Regeln nachschärfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Überwachungskonzept, Alarmregeln, Auswertungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 10 DORA verlangt mehrere Kontrollebenen und festgelegte Alarmschwellen."
+      }
+    ]
+  },
+  "z_a_8_17": {
+    "h": "6da167c61325103cd8ca8f849a8d108d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ohne gleiche Zeit kein verwertbares Protokoll: Systemuhren werden gegen eine verlässliche Quelle synchronisiert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Referenzzeitquelle festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Synchronisation flächendeckend umsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Abweichungen überwachen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zeitkonzept, Überwachungsberichte."
+      }
+    ]
+  },
+  "z_a_8_18": {
+    "h": "96f73e4c119c5d88c9530363527b3f15",
+    "b": [
+      {
+        "art": "p",
+        "t": "Werkzeuge, die Schutzmaßnahmen umgehen können, werden streng begrenzt und überwacht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Solche Werkzeuge erfassen und freigeben"
+          },
+          {
+            "m": "2.",
+            "t": "Nutzung auf benannte Personen beschränken"
+          },
+          {
+            "m": "3.",
+            "t": "Einsatz protokollieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Werkzeugverzeichnis, Protokolle."
+      }
+    ]
+  },
+  "z_a_8_19": {
+    "h": "f907e119466cef980779f2b181eb215a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Software gelangt nur geordnet und freigegeben auf Produktivsysteme."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Freigabeverfahren festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Installationsrechte beschränken"
+          },
+          {
+            "m": "3.",
+            "t": "Installierte Software erfassen"
+          },
+          {
+            "m": "4.",
+            "t": "Rückfallmöglichkeit vorsehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Freigabeprotokolle, Softwareverzeichnis."
+      }
+    ]
+  },
+  "z_a_8_2": {
+    "h": "ce3f32fd6a30ae0a04ebf94d44a45073",
+    "b": [
+      {
+        "art": "p",
+        "t": "Administrative Rechte sind der Generalschlüssel: Sie werden restriktiv vergeben, gesondert abgesichert und überwacht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Privilegierte Konten benennen und begrenzen"
+          },
+          {
+            "m": "2.",
+            "t": "Getrennte Konten für administrative Tätigkeiten vorsehen"
+          },
+          {
+            "m": "3.",
+            "t": "Starke Authentisierung erzwingen"
+          },
+          {
+            "m": "4.",
+            "t": "Nutzung protokollieren und auswerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verzeichnis privilegierter Konten, Protokollauswertungen, Rezertifizierungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA verlangt strenge Zugriffsbeschränkungen für kritische Funktionen."
+      }
+    ]
+  },
+  "z_a_8_20": {
+    "h": "f497e0742fe0d209d5a7251fa16a65ee",
+    "b": [
+      {
+        "art": "p",
+        "t": "Netze werden geplant, abgesichert und überwacht – Übergänge nach außen besonders."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Netzarchitektur dokumentieren"
+          },
+          {
+            "m": "2.",
+            "t": "Übergänge absichern und Regelwerke pflegen"
+          },
+          {
+            "m": "3.",
+            "t": "Änderungen am Regelwerk dem Änderungsverfahren unterwerfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Netzplan, Regelwerke der Übergänge, Änderungsprotokolle."
+      }
+    ]
+  },
+  "z_a_8_21": {
+    "h": "2f051514a267231c74319ecb990292a7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für bezogene Netzdienste werden Sicherheitsmerkmale, Dienstgüte und Überwachung festgelegt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsanforderungen je Dienst bestimmen"
+          },
+          {
+            "m": "2.",
+            "t": "Vertraglich vereinbaren und überwachen"
+          },
+          {
+            "m": "3.",
+            "t": "Abweichungen nachverfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dienstvereinbarungen, Überwachungsberichte."
+      }
+    ]
+  },
+  "z_a_8_22": {
+    "h": "605404ff4fc6ac91b687615d8813fa82",
+    "b": [
+      {
+        "art": "p",
+        "t": "Netzsegmente werden nach Schutzbedarf getrennt, damit sich ein Angriff nicht ungehindert ausbreitet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Segmentierung nach Schutzbedarf festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Übergänge kontrollieren und dokumentieren"
+          },
+          {
+            "m": "3.",
+            "t": "Wirksamkeit regelmäßig prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Segmentierungskonzept, Prüfberichte."
+      }
+    ]
+  },
+  "z_a_8_23": {
+    "h": "d1a3b7d1fda610f9a5b0fab0cb3b2edd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Zugriff auf Webinhalte wird gesteuert, um Schadsoftware und Abfluss zu begrenzen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Filterregeln festlegen und pflegen"
+          },
+          {
+            "m": "2.",
+            "t": "Ausnahmen begründen"
+          },
+          {
+            "m": "3.",
+            "t": "Datenschutz und Mitbestimmung beachten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Filterkonzept, Ausnahmeverzeichnis."
+      }
+    ]
+  },
+  "z_a_8_24": {
+    "h": "49b25247a6e44152f881ce803d1bd251",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kryptografie wird nach einer festgelegten Richtlinie eingesetzt; die Schlüsselverwaltung ist über den Lebenszyklus geregelt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugelassene Verfahren und Schlüssellängen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Schlüsselverwaltung von Erzeugung bis Vernichtung regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Verfahren regelmäßig auf Aktualität prüfen"
+          },
+          {
+            "m": "4.",
+            "t": "Ausnahmen dokumentieren und befristen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kryptografierichtlinie, Schlüsselverwaltungskonzept, Prüfberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA verlangt Verschlüsselung ruhender, übertragener und – soweit möglich – verarbeiteter Daten."
+      }
+    ]
+  },
+  "z_a_8_25": {
+    "h": "6e8ac12aea3677a50e94c3471e1c93e7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheit ist Teil des Entwicklungsprozesses – von der Anforderung bis zur Auslieferung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsaktivitäten je Phase festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Rollen und Freigaben bestimmen"
+          },
+          {
+            "m": "3.",
+            "t": "Vorgaben für eingesetzte Werkzeuge treffen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Entwicklungsrichtlinie, Phasenfreigaben."
+      }
+    ]
+  },
+  "z_a_8_26": {
+    "h": "87ab72e656b1cd617a52edb496173edc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für jede Anwendung werden Sicherheitsanforderungen erhoben, dokumentiert und geprüft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen früh erheben und testbar formulieren"
+          },
+          {
+            "m": "2.",
+            "t": "Besondere Anforderungen für Transaktionen und Zahlungen berücksichtigen"
+          },
+          {
+            "m": "3.",
+            "t": "Erfüllung vor Abnahme prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Anforderungsdokumentation, Abnahmeprotokolle."
+      }
+    ]
+  },
+  "z_a_8_27": {
+    "h": "57b925e45bc63aea3eeb7b83ef77effc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Architekturgrundsätze halten Sicherheit dauerhaft im Entwurf – statt sie im Einzelfall neu zu erfinden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Architekturgrundsätze festlegen und veröffentlichen"
+          },
+          {
+            "m": "2.",
+            "t": "Bei Entwürfen anwenden und Abweichungen begründen"
+          },
+          {
+            "m": "3.",
+            "t": "Grundsätze regelmäßig überprüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Architekturleitlinie, Entwurfsdokumente, Abweichungsbegründungen."
+      }
+    ]
+  },
+  "z_a_8_28": {
+    "h": "129f9fb3fd255ca486bb9677a87bb11f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Programmierung gelten Vorgaben, die typische Schwachstellen von vornherein vermeiden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Programmiervorgaben festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Werkzeuge zur Prüfung einsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Abhängigkeiten auf bekannte Schwachstellen prüfen"
+          },
+          {
+            "m": "4.",
+            "t": "Befunde nachverfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Programmiervorgaben, Prüfberichte der Werkzeuge."
+      }
+    ]
+  },
+  "z_a_8_29": {
+    "h": "6468eb96714acce0dadb211c18417244",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheitsprüfungen sind fester Bestandteil von Entwicklung und Abnahme."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfumfang je Kritikalität festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Prüfungen vor Produktivsetzung durchführen"
+          },
+          {
+            "m": "3.",
+            "t": "Befunde vor Freigabe bewerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Testkonzept, Testberichte, Freigabeentscheidungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 24 und 25 DORA verlangen ein Programm für Resilienztests, das hier ansetzt."
+      }
+    ]
+  },
+  "z_a_8_3": {
+    "h": "a359da283c27000fe3ecb7abfdf5b4aa",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Zugriff auf Informationen wird technisch auf das Notwendige begrenzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugriffsbeschränkungen anhand der Klassifizierung umsetzen"
+          },
+          {
+            "m": "2.",
+            "t": "Rechte an Rollen statt an Personen binden"
+          },
+          {
+            "m": "3.",
+            "t": "Wirksamkeit prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Rollenkonzept, Berechtigungsauswertungen."
+      }
+    ]
+  },
+  "z_a_8_30": {
+    "h": "d96f8d53ef6791399023e4c58561b6e8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wird Entwicklung vergeben, gelten dieselben Anforderungen – vertraglich abgesichert und überwacht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsanforderungen vertraglich festhalten"
+          },
+          {
+            "m": "2.",
+            "t": "Prüfrechte vereinbaren"
+          },
+          {
+            "m": "3.",
+            "t": "Ergebnisse vor Übernahme prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verträge, Abnahmeprüfungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Für IKT-Dienstleistungen gelten zusätzlich die Vertragsinhalte des Artikels 30 DORA."
+      }
+    ]
+  },
+  "z_a_8_31": {
+    "h": "0bfbeaba1fd193e714c0cbd72b90c21c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Umgebungen werden getrennt, damit Entwicklung und Test den Produktivbetrieb nicht gefährden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Umgebungen technisch und organisatorisch trennen"
+          },
+          {
+            "m": "2.",
+            "t": "Übergaben geregelt gestalten"
+          },
+          {
+            "m": "3.",
+            "t": "Zugriffsrechte je Umgebung unterscheiden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Umgebungskonzept, Berechtigungsauswertungen."
+      }
+    ]
+  },
+  "z_a_8_32": {
+    "h": "9c9476dd138c3d7a6b4678f9441437c0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Änderungen an Systemen und Anwendungen werden beantragt, bewertet, getestet, freigegeben und dokumentiert – auch die eiligen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Änderungsverfahren festlegen, einschließlich Notfall-Changes"
+          },
+          {
+            "m": "2.",
+            "t": "Freigabe von der Umsetzung trennen"
+          },
+          {
+            "m": "3.",
+            "t": "Tests und Rückfallpläne vorsehen"
+          },
+          {
+            "m": "4.",
+            "t": "Notfall-Changes nachdokumentieren und genehmigen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Change-Verzeichnis, Freigabeprotokolle, Auswertung der Notfall-Changes."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA verlangt Verfahren für das Änderungsmanagement einschließlich Notfalländerungen."
+      }
+    ]
+  },
+  "z_a_8_33": {
+    "h": "6671f4be3b4af1d419cc5de36ac3287c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Testdaten werden sorgfältig ausgewählt und geschützt; Produktivdaten gehören grundsätzlich nicht in Testumgebungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Auswahl und Schutz von Testdaten regeln"
+          },
+          {
+            "m": "2.",
+            "t": "Produktivdaten nur maskiert und begründet verwenden"
+          },
+          {
+            "m": "3.",
+            "t": "Testdaten nach Gebrauch löschen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Testdatenkonzept, Löschnachweise."
+      }
+    ]
+  },
+  "z_a_8_34": {
+    "h": "5b2ec34560116430794f4439c8af802c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Prüfungen an Produktivsystemen werden geplant und begleitet, damit sie den Betrieb nicht stören."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfaktivitäten vorab abstimmen und genehmigen"
+          },
+          {
+            "m": "2.",
+            "t": "Umfang und Zeitfenster festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Zugriffe der Prüfenden protokollieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfplanung, Genehmigungen, Protokolle."
+      }
+    ]
+  },
+  "z_a_8_4": {
+    "h": "c1e3e38cbbb84cd050bc4df88a445db2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Quellcode und zugehörige Werkzeuge werden vor unbefugtem Zugriff und unkontrollierter Änderung geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugriff auf Repositories beschränken"
+          },
+          {
+            "m": "2.",
+            "t": "Änderungen nachvollziehbar halten"
+          },
+          {
+            "m": "3.",
+            "t": "Freigaben vor Übernahme vorsehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berechtigungen der Repositories, Änderungshistorie, Freigabeprotokolle."
+      }
+    ]
+  },
+  "z_a_8_5": {
+    "h": "009e6937521eb426b28437bdba3bb435",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Anmeldung wird dem Schutzbedarf entsprechend abgesichert – bei erhöhtem Bedarf mit mehreren Faktoren."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Authentisierungsverfahren je Schutzbedarf festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Mehrfaktor-Authentisierung für kritische Zugänge vorsehen"
+          },
+          {
+            "m": "3.",
+            "t": "Fehlversuche begrenzen und auswerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Authentisierungskonzept, Konfigurationsnachweise, Auswertung von Fehlversuchen."
+      }
+    ]
+  },
+  "z_a_8_6": {
+    "h": "ef605d8b4aa3d262b5b8e5c6647f53db",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kapazitäten werden überwacht und vorausschauend geplant, damit Engpässe nicht zur Störung werden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kapazitäten überwachen und Schwellen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Bedarf vorausschauend planen"
+          },
+          {
+            "m": "3.",
+            "t": "Maßnahmen bei Annäherung an Grenzen auslösen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kapazitätsberichte, Planungsunterlagen."
+      }
+    ]
+  },
+  "z_a_8_7": {
+    "h": "d3f2647417441e2740654694c4d66021",
+    "b": [
+      {
+        "art": "p",
+        "t": "Technische Schutzmaßnahmen gegen Schadsoftware werden durch Regeln und Sensibilisierung ergänzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Schutzsoftware flächendeckend einsetzen und aktuell halten"
+          },
+          {
+            "m": "2.",
+            "t": "Ausführung nicht freigegebener Software unterbinden"
+          },
+          {
+            "m": "3.",
+            "t": "Beschäftigte sensibilisieren"
+          },
+          {
+            "m": "4.",
+            "t": "Erkennungen auswerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Abdeckungsberichte, Konfigurationsvorgaben, Auswertungen."
+      }
+    ]
+  },
+  "z_a_8_8": {
+    "h": "140447e5f4f62e8d0708f13b92aa1fac",
+    "b": [
+      {
+        "art": "p",
+        "t": "Schwachstellen werden systematisch erkannt, bewertet und fristgerecht behoben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Informationsquellen für Schwachstellen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Bestand regelmäßig prüfen"
+          },
+          {
+            "m": "3.",
+            "t": "Behebungsfristen nach Kritikalität festlegen"
+          },
+          {
+            "m": "4.",
+            "t": "Ausnahmen begründen und befristen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Schwachstellenberichte, Fristenregelung, Ausnahmeverzeichnis."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 und 10 DORA verlangen Prävention und Erkennung, die auf denselben Erkenntnissen aufsetzen."
+      }
+    ]
+  },
+  "z_a_8_9": {
+    "h": "53a5abeb0442af992e6d0affd3fb590a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sollkonfigurationen werden festgelegt, umgesetzt, überwacht und bei Abweichung zurückgeführt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sollkonfigurationen je Systemtyp festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Abweichungen erkennen und behandeln"
+          },
+          {
+            "m": "3.",
+            "t": "Änderungen an Konfigurationen dem Änderungsverfahren unterwerfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Härtungsvorgaben, Abweichungsberichte, Konfigurationsdatenbank."
+      }
+    ]
+  }
+}

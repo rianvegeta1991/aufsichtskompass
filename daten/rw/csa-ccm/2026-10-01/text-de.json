@@ -1,0 +1,636 @@
+{
+  "z_a_a": {
+    "h": "804686ea7337a15fd894a81773391ea8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Planung, Durchführung und Nachverfolgung von Prüfungen in der Cloud-Umgebung – einschließlich der Frage, welche Nachweise der Anbieter liefert und welche der Kunde selbst erbringen muss."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfplanung und unabhängige Prüfungen vorsehen"
+          },
+          {
+            "m": "2.",
+            "t": "Prüfrechte gegenüber dem Anbieter sichern"
+          },
+          {
+            "m": "3.",
+            "t": "Feststellungen nachverfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfpläne, Berichte des Anbieters nach ISAE 3402 oder IDW PS 951."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 30 DORA verlangt uneingeschränkte Zugangs-, Inspektions- und Prüfungsrechte."
+      }
+    ]
+  },
+  "z_ais": {
+    "h": "980d826d8cfbbdedf27b81609c080ff2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sichere Entwicklung, Absicherung von Schnittstellen und Prüfung von Anwendungen, die in oder mit der Cloud betrieben werden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsanforderungen im Entwicklungsprozess verankern"
+          },
+          {
+            "m": "2.",
+            "t": "Schnittstellen absichern und dokumentieren"
+          },
+          {
+            "m": "3.",
+            "t": "Anwendungen vor Freigabe prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Entwicklungsrichtlinie, Schnittstellendokumentation, Testberichte."
+      }
+    ]
+  },
+  "z_bcr": {
+    "h": "52d3d9cd293178398398e95988508fb4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Fortführung des Betriebs bei Störungen: Pläne, Wiederanlaufziele, Tests und die Frage, was der Anbieter zusichert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Wiederanlaufziele festlegen und mit dem Anbieter abgleichen"
+          },
+          {
+            "m": "2.",
+            "t": "Pläne erstellen und testen"
+          },
+          {
+            "m": "3.",
+            "t": "Abhängigkeiten von Anbietern berücksichtigen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Notfallpläne, Testberichte, Zusicherungen des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 11 und 12 DORA verlangen Reaktions-, Wiederherstellungs- und Backup-Verfahren."
+      }
+    ]
+  },
+  "z_ccc": {
+    "h": "267530a348e59d9597fc13e56fe1a38b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Geordnete Änderungen und beherrschte Konfigurationen – beim Kunden wie beim Anbieter."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Änderungsverfahren festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Sollkonfigurationen definieren und überwachen"
+          },
+          {
+            "m": "3.",
+            "t": "Änderungen des Anbieters bewerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Change-Verzeichnis, Konfigurationsvorgaben."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit A.8.32 ISO/IEC 27001 und Artikel 9 DORA."
+      }
+    ]
+  },
+  "z_cek": {
+    "h": "a8ff71c7f6b27d8e979a7e7cce7c6df8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verfahren, Schlüsselverwaltung und die entscheidende Frage, wer die Schlüssel hält."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugelassene Verfahren festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Schlüsselverwaltung über den Lebenszyklus regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Verantwortung für Schlüssel eindeutig zuordnen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kryptografierichtlinie, Schlüsselverwaltungskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA verlangt Verschlüsselung ruhender und übertragener Daten."
+      }
+    ]
+  },
+  "z_dcs": {
+    "h": "47373b39516625e260330f0e0df875a9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Physische Sicherheit der Standorte, an denen die Daten tatsächlich liegen – einschließlich der Frage, wo das ist."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Standorte und Verarbeitungsorte kennen und vertraglich festhalten"
+          },
+          {
+            "m": "2.",
+            "t": "Physische Schutzmaßnahmen nachweisen lassen"
+          },
+          {
+            "m": "3.",
+            "t": "Zutrittsregelungen prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Standortverzeichnis, Zertifikate und Prüfberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 30 DORA verlangt die Angabe der Orte der Leistungserbringung und Datenverarbeitung."
+      }
+    ]
+  },
+  "z_dsp": {
+    "h": "aec18c834d075f94597f22eca5f6beb5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Schutz der Daten über ihren gesamten Lebenszyklus, von der Klassifizierung bis zur Löschung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Daten klassifizieren und Schutzmaßnahmen zuordnen"
+          },
+          {
+            "m": "2.",
+            "t": "Löschung und Rückgabe regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Datenschutzanforderungen einbinden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Klassifizierungsschema, Lösch- und Rückgabekonzept, Auftragsverarbeitungsvertrag."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 und 32 DSGVO sind hier mitzudenken."
+      }
+    ]
+  },
+  "z_grc": {
+    "h": "37340bf8a12a16b0419bf58c6154f457",
+    "b": [
+      {
+        "art": "p",
+        "t": "Steuerung, Risikobehandlung und Nachweis der Einhaltung für Cloud-Nutzung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verantwortlichkeiten festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Cloud-Risiken im Risikomanagement führen"
+          },
+          {
+            "m": "3.",
+            "t": "Einhaltung regelmäßig nachweisen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Cloud-Richtlinie, Risikoregister, Nachweisdokumentation."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 DORA verlangt die Einbettung in den IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_hrs": {
+    "h": "b03f88b81e8f2d877e58e51de7e186a9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Anforderungen an Beschäftigte und Dienstleisterpersonal – von der Überprüfung bis zur Schulung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen an Personal vertraglich verankern"
+          },
+          {
+            "m": "2.",
+            "t": "Schulung und Sensibilisierung sicherstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Austrittsprozesse regeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vertragsklauseln, Schulungsnachweise."
+      }
+    ]
+  },
+  "z_iam": {
+    "h": "cb7f76016b89590a6498bfb3f697c1bc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wer darf was in der Cloud-Umgebung – einschließlich der privilegierten Zugänge des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Rollen- und Rechtekonzept für Cloud-Dienste führen"
+          },
+          {
+            "m": "2.",
+            "t": "Starke Authentisierung erzwingen"
+          },
+          {
+            "m": "3.",
+            "t": "Zugriffe des Anbieters begrenzen und protokollieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berechtigungskonzept, Protokollauswertungen, Rezertifizierungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit A.5.15 bis A.5.18 und A.8.2 ISO/IEC 27001."
+      }
+    ]
+  },
+  "z_ipy": {
+    "h": "7af5123e8e15316fd92b4e4bedb7ef7d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Fähigkeit, Daten und Verarbeitung wieder herauszubekommen – technische Grundlage jeder Ausstiegsstrategie."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Exportformate und Schnittstellen vereinbaren"
+          },
+          {
+            "m": "2.",
+            "t": "Rückführung der Daten erproben"
+          },
+          {
+            "m": "3.",
+            "t": "Abhängigkeiten von anbieterspezifischen Diensten bewerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Ausstiegskonzept, Exporttests."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 30 DORA verlangt Ausstiegsstrategien für kritische oder wichtige Funktionen."
+      }
+    ]
+  },
+  "z_ivs": {
+    "h": "450eb242613653a80f8f62bf7dcf73fa",
+    "b": [
+      {
+        "art": "p",
+        "t": "Absicherung der geteilten Infrastruktur, Mandantentrennung und Netzsegmentierung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Mandantentrennung nachweisen lassen"
+          },
+          {
+            "m": "2.",
+            "t": "Netzsegmentierung umsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Härtung der virtuellen Ressourcen sicherstellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Architekturdokumentation, Prüfberichte des Anbieters."
+      }
+    ]
+  },
+  "z_log": {
+    "h": "ffe3d4be58400eae07ea5277e0dc2440",
+    "b": [
+      {
+        "art": "p",
+        "t": "Welche Protokolle entstehen, wer sie sieht und wie lange sie verfügbar sind – in der Cloud keine Selbstverständlichkeit."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfügbare Protokolle und Aufbewahrung vertraglich klären"
+          },
+          {
+            "m": "2.",
+            "t": "Auswertung und Alarmierung einrichten"
+          },
+          {
+            "m": "3.",
+            "t": "Zugriff auf Protokolle sicherstellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Protokollierungskonzept, Vertragliche Zusagen zur Protokollbereitstellung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 10 DORA verlangt Mechanismen zur Erkennung ungewöhnlicher Aktivitäten."
+      }
+    ]
+  },
+  "z_sef": {
+    "h": "41586312f17527cfe4dd44aadb629bef",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zusammenarbeit im Vorfall: Meldewege zum Anbieter, Beweissicherung und Unterstützungspflichten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Meldepflichten des Anbieters vertraglich festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Unterstützung bei Untersuchungen vereinbaren"
+          },
+          {
+            "m": "3.",
+            "t": "Forensische Möglichkeiten vorab klären"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vertragsklauseln zu Vorfällen, Eskalationsplan."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 30 DORA verlangt Vorgaben zur Unterstützung bei IKT-Vorfällen."
+      }
+    ]
+  },
+  "z_sta": {
+    "h": "9f10e1ee62d1698b0d1bb66a7c295882",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wer steht hinter dem Anbieter? Unterauftragnehmer, Verantwortungsteilung und Nachweispflichten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Unterauftragnehmer offenlegen lassen"
+          },
+          {
+            "m": "2.",
+            "t": "Verantwortungsteilung dokumentieren"
+          },
+          {
+            "m": "3.",
+            "t": "Nachweise regelmäßig einfordern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verantwortungsmatrix, Verzeichnis der Unterauftragnehmer."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die Delegierte Verordnung (EU) 2025/532 regelt die Untervergabe bei kritischen oder wichtigen Funktionen."
+      }
+    ]
+  },
+  "z_tvm": {
+    "h": "a8334b2359980924cd346e7d26326be4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Erkennen und Beheben von Schwachstellen in geteilter Verantwortung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verantwortung für Schwachstellen je Ebene klären"
+          },
+          {
+            "m": "2.",
+            "t": "Behebungsfristen vereinbaren"
+          },
+          {
+            "m": "3.",
+            "t": "Meldungen des Anbieters auswerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verantwortungsmatrix, Schwachstellenberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit A.8.8 ISO/IEC 27001."
+      }
+    ]
+  },
+  "z_uem": {
+    "h": "8512030ffdb718c7f62b37f5c06d6018",
+    "b": [
+      {
+        "art": "p",
+        "t": "Absicherung der Geräte, über die auf Cloud-Dienste zugegriffen wird."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Geräteanforderungen für den Cloud-Zugriff festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Verwaltung und Härtung sicherstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Zugriff nicht verwalteter Geräte begrenzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Geräterichtlinie, Verwaltungsberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit A.8.1 ISO/IEC 27001."
+      }
+    ]
+  }
+}

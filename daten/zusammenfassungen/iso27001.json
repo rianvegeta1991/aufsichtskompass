@@ -1,0 +1,1913 @@
+{
+  "regelwerk": "iso27001",
+  "bezugsfassung": "ISO/IEC 27001:2022",
+  "stand": "2026-10-01",
+  "herkunft": "KI-erstellt",
+  "geprueft": false,
+  "hinweis": "Eigene Zusammenfassung in eigenen Worten. Der Normtext ist kostenpflichtig und darf hier nicht stehen; wiedergegeben werden Kennung und Titel sowie eine selbst verfasste Darstellung von Zweck, Kernanforderungen, typischen Nachweisen und Bezuegen. Kennungen und Titel sind gegen die Norm abzugleichen - solange 'geprueft: false' steht, ist das nicht geschehen.",
+  "quelle": {
+    "name": "ISO/IEC 27001",
+    "url": "https://www.iso.org/standard/27001"
+  },
+  "gruppen": [
+    {
+      "kennung": "KL",
+      "titel": "Klauseln 4 bis 10 - Anforderungen an das Managementsystem"
+    },
+    {
+      "kennung": "A.5",
+      "titel": "Annex A - Organisatorische Controls"
+    },
+    {
+      "kennung": "A.6",
+      "titel": "Annex A - Personenbezogene Controls"
+    },
+    {
+      "kennung": "A.7",
+      "titel": "Annex A - Physische Controls"
+    },
+    {
+      "kennung": "A.8",
+      "titel": "Annex A - Technologische Controls"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "4",
+      "titel": "Kontext der Organisation",
+      "gruppe": "KL",
+      "pfad": "kl/4",
+      "zweck": "Bevor Maßnahmen festgelegt werden, ist zu klären, worum es überhaupt geht: welche internen und externen Themen die Informationssicherheit beeinflussen, wer etwas erwartet – Aufsicht, Kunden, Dienstleister – und wie weit das Managementsystem reichen soll.",
+      "anforderungen": [
+        "Interne und externe Themen bestimmen, die auf die Informationssicherheit wirken",
+        "Interessierte Parteien und ihre Anforderungen erfassen, einschließlich rechtlicher und aufsichtlicher Vorgaben",
+        "Den Anwendungsbereich des Managementsystems festlegen und begründen, auch die Ausschlüsse",
+        "Das Managementsystem einrichten, betreiben und fortlaufend verbessern"
+      ],
+      "nachweise": [
+        "Kontextanalyse",
+        "Verzeichnis der interessierten Parteien und ihrer Anforderungen",
+        "Dokumentierter Anwendungsbereich"
+      ],
+      "bezuege": [
+        "Die Anforderungen der DORA und des VAG gehören zu den Vorgaben, die hier zu erfassen sind."
+      ]
+    },
+    {
+      "kennung": "5",
+      "titel": "Führung",
+      "gruppe": "KL",
+      "pfad": "kl/5",
+      "zweck": "Die oberste Leitung trägt das Managementsystem – nicht als Formalie, sondern durch Beschlüsse, Ressourcen und sichtbares Einfordern. Aus dieser Klausel entsteht die Sicherheitsleitlinie, aus der sich alles Weitere ableitet.",
+      "anforderungen": [
+        "Führung und Verpflichtung der obersten Leitung nachweisbar machen",
+        "Eine Informationssicherheitsleitlinie festlegen, in Kraft setzen und bekannt machen",
+        "Rollen, Verantwortlichkeiten und Befugnisse zuweisen und kommunizieren",
+        "Die Sicherheitsziele mit der Geschäftsstrategie verzahnen"
+      ],
+      "nachweise": [
+        "Beschlossene Sicherheitsleitlinie",
+        "Sitzungsprotokolle mit Sicherheitsbezug",
+        "Rollenbeschreibungen"
+      ],
+      "bezuege": [
+        "Entspricht dem Gedanken des Artikels 5 DORA: Die Letztverantwortung liegt beim Leitungsorgan."
+      ]
+    },
+    {
+      "kennung": "6",
+      "titel": "Planung",
+      "gruppe": "KL",
+      "pfad": "kl/6",
+      "zweck": "Hier wird aus Absicht Planung: Risiken und Chancen bestimmen, ein nachvollziehbares Verfahren zur Risikobeurteilung und -behandlung festlegen, Ziele setzen und Änderungen geordnet einführen.",
+      "anforderungen": [
+        "Verfahren zur Risikobeurteilung mit Kriterien für Akzeptanz und Bewertung festlegen",
+        "Risiken identifizieren, analysieren und bewerten",
+        "Risikobehandlung planen, Maßnahmen auswählen und die Erklärung zur Anwendbarkeit erstellen",
+        "Messbare Sicherheitsziele festlegen und ihre Erreichung planen",
+        "Geplante Änderungen am Managementsystem beherrschen"
+      ],
+      "nachweise": [
+        "Risikobeurteilungsverfahren",
+        "Risikoregister",
+        "Risikobehandlungsplan",
+        "Erklärung zur Anwendbarkeit"
+      ],
+      "bezuege": [
+        "Der IKT-Risikomanagementrahmen nach Artikel 6 DORA verlangt dieselbe Systematik für IKT-Risiken."
+      ]
+    },
+    {
+      "kennung": "7",
+      "titel": "Unterstützung",
+      "gruppe": "KL",
+      "pfad": "kl/7",
+      "zweck": "Ein Managementsystem lebt von Ressourcen, Kompetenz, Bewusstsein, Kommunikation und einer belastbaren Dokumentenlenkung. Diese Klausel sorgt dafür, dass die geplanten Maßnahmen auch tragen.",
+      "anforderungen": [
+        "Erforderliche Ressourcen bereitstellen",
+        "Kompetenz der Beteiligten sicherstellen und nachweisen",
+        "Bewusstsein für Leitlinie, Beiträge und Folgen von Abweichungen schaffen",
+        "Interne und externe Kommunikation regeln",
+        "Dokumentierte Information lenken: erstellen, freigeben, aktuell halten, verfügbar machen"
+      ],
+      "nachweise": [
+        "Schulungs- und Qualifikationsnachweise",
+        "Kommunikationsplan",
+        "Dokumentenlenkungsverfahren"
+      ],
+      "bezuege": [
+        "Vergleichbar mit den Schulungs- und Kommunikationspflichten der Artikel 13 und 14 DORA."
+      ]
+    },
+    {
+      "kennung": "8",
+      "titel": "Betrieb",
+      "gruppe": "KL",
+      "pfad": "kl/8",
+      "zweck": "Der laufende Betrieb: geplante Prozesse durchführen und steuern, Risikobeurteilungen in festgelegten Abständen und bei wesentlichen Änderungen wiederholen, die Risikobehandlung umsetzen.",
+      "anforderungen": [
+        "Prozesse planen, umsetzen und steuern, ausgelagerte Prozesse eingeschlossen",
+        "Risikobeurteilungen regelmäßig und anlassbezogen wiederholen",
+        "Den Risikobehandlungsplan umsetzen und die Umsetzung dokumentieren"
+      ],
+      "nachweise": [
+        "Prozessdokumentation",
+        "Wiederholte Risikobeurteilungen",
+        "Umsetzungsstand des Behandlungsplans"
+      ],
+      "bezuege": [
+        "Artikel 6 Absatz 5 DORA verlangt die jährliche Überprüfung des IKT-Rahmens in derselben Logik."
+      ]
+    },
+    {
+      "kennung": "9",
+      "titel": "Bewertung der Leistung",
+      "gruppe": "KL",
+      "pfad": "kl/9",
+      "zweck": "Wirksamkeit wird gemessen, nicht angenommen: Überwachung und Messung, interne Audits und die Managementbewertung machen sichtbar, ob das System trägt.",
+      "anforderungen": [
+        "Festlegen, was wann von wem gemessen und ausgewertet wird",
+        "Interne Audits nach Programm planen und durchführen",
+        "Managementbewertung in festgelegten Abständen durchführen und dokumentieren",
+        "Ergebnisse in Entscheidungen überführen"
+      ],
+      "nachweise": [
+        "Kennzahlenberichte",
+        "Auditprogramm und Auditberichte",
+        "Protokoll der Managementbewertung"
+      ],
+      "bezuege": [
+        "Entspricht der Prüfung des IKT-Rahmens durch die interne Revision nach Artikel 6 Absatz 6 DORA."
+      ]
+    },
+    {
+      "kennung": "10",
+      "titel": "Verbesserung",
+      "gruppe": "KL",
+      "pfad": "kl/10",
+      "zweck": "Abweichungen sind kein Makel, sondern Material: Sie werden erfasst, in ihrer Ursache verstanden, abgestellt und zur fortlaufenden Verbesserung genutzt.",
+      "anforderungen": [
+        "Nichtkonformitäten erfassen und unmittelbar reagieren",
+        "Ursachen ermitteln und Korrekturmaßnahmen festlegen",
+        "Wirksamkeit der Korrekturmaßnahmen prüfen",
+        "Das Managementsystem fortlaufend verbessern"
+      ],
+      "nachweise": [
+        "Maßnahmenverfolgung",
+        "Ursachenanalysen",
+        "Nachweis der Wirksamkeitsprüfung"
+      ],
+      "bezuege": [
+        "Artikel 13 DORA verlangt entsprechend, Erkenntnisse aus Vorfällen in den Rahmen zurückzuspielen."
+      ]
+    },
+    {
+      "kennung": "A.5.1",
+      "titel": "Informationssicherheitsrichtlinien",
+      "gruppe": "A.5",
+      "pfad": "a/5.1",
+      "zweck": "Eine von der Leitung verabschiedete Leitlinie und darauf aufbauende themenspezifische Richtlinien geben die Richtung vor und machen Erwartungen verbindlich.",
+      "anforderungen": [
+        "Leitlinie und themenspezifische Richtlinien von der Leitung verabschieden lassen",
+        "An alle Beteiligten kommunizieren und Kenntnisnahme nachhalten",
+        "In geplanten Abständen und bei wesentlichen Änderungen überprüfen"
+      ],
+      "nachweise": [
+        "Leitlinie mit Freigabevermerk",
+        "Richtlinienverzeichnis",
+        "Nachweis der Bekanntgabe"
+      ],
+      "bezuege": [
+        "Artikel 6 DORA verlangt Richtlinien als Bestandteil des IKT-Risikomanagementrahmens."
+      ]
+    },
+    {
+      "kennung": "A.5.2",
+      "titel": "Rollen und Verantwortlichkeiten der Informationssicherheit",
+      "gruppe": "A.5",
+      "pfad": "a/5.2",
+      "zweck": "Sicherheit braucht Zuständige. Rollen sind zu benennen, abzugrenzen und mit Befugnissen auszustatten – sonst bleibt Verantwortung diffus.",
+      "anforderungen": [
+        "Sicherheitsrollen festlegen und personell besetzen",
+        "Aufgaben, Befugnisse und Berichtswege beschreiben",
+        "Zuständigkeiten bei Vertretung und Wechsel regeln"
+      ],
+      "nachweise": [
+        "Rollenbeschreibungen",
+        "Organigramm",
+        "Benennungsschreiben"
+      ],
+      "bezuege": [
+        "Artikel 6 Absatz 4 DORA verlangt eine eigene Kontrollfunktion für das IKT-Risiko."
+      ]
+    },
+    {
+      "kennung": "A.5.3",
+      "titel": "Aufgabentrennung",
+      "gruppe": "A.5",
+      "pfad": "a/5.3",
+      "zweck": "Unverträgliche Aufgaben gehören in verschiedene Hände, damit niemand einen Vorgang allein anstoßen, ausführen und kontrollieren kann.",
+      "anforderungen": [
+        "Unverträgliche Aufgabenkombinationen bestimmen",
+        "Trennung technisch und organisatorisch durchsetzen",
+        "Wo Trennung nicht möglich ist, kompensierende Maßnahmen festlegen und begründen"
+      ],
+      "nachweise": [
+        "Funktionstrennungsmatrix",
+        "Berechtigungsauswertungen",
+        "Begründete Ausnahmen"
+      ],
+      "bezuege": [
+        "§ 29 VAG verlangt ein internes Kontrollsystem, in dem die Trennung abzubilden ist."
+      ]
+    },
+    {
+      "kennung": "A.5.4",
+      "titel": "Verantwortung der Leitung",
+      "gruppe": "A.5",
+      "pfad": "a/5.4",
+      "zweck": "Die Leitung fordert die Einhaltung der Vorgaben aktiv ein – durch Vorgabe, Nachfrage und Konsequenz.",
+      "anforderungen": [
+        "Von allen Beschäftigten die Anwendung der Vorgaben verlangen",
+        "Voraussetzungen dafür schaffen: Zeit, Mittel, Schulung",
+        "Einhaltung nachhalten und Abweichungen aufgreifen"
+      ],
+      "nachweise": [
+        "Führungsvorgaben",
+        "Berichte an die Leitung",
+        "Maßnahmen bei Abweichungen"
+      ],
+      "bezuege": [
+        "Artikel 5 DORA weist dem Leitungsorgan dieselbe aktive Rolle zu."
+      ]
+    },
+    {
+      "kennung": "A.5.5",
+      "titel": "Kontakt mit Behörden",
+      "gruppe": "A.5",
+      "pfad": "a/5.5",
+      "zweck": "Im Ernstfall darf nicht erst gesucht werden, wen man anruft. Kontakte zu Aufsicht, Strafverfolgung und zuständigen Stellen sind vorab zu klären und zu pflegen.",
+      "anforderungen": [
+        "Zuständige Behörden bestimmen und Ansprechstellen dokumentieren",
+        "Meldewege und Zuständigkeiten im Haus festlegen",
+        "Kontaktdaten aktuell halten"
+      ],
+      "nachweise": [
+        "Kontaktverzeichnis",
+        "Meldeprozess",
+        "Nachweise über geführte Kontakte"
+      ],
+      "bezuege": [
+        "Für Versicherer ist die BaFin der Empfänger der Meldung nach Artikel 19 DORA."
+      ]
+    },
+    {
+      "kennung": "A.5.6",
+      "titel": "Kontakt mit speziellen Interessengruppen",
+      "gruppe": "A.5",
+      "pfad": "a/5.6",
+      "zweck": "Fachlicher Austausch mit Verbänden, CERTs und Fachgremien hält das eigene Bild der Bedrohungslage aktuell.",
+      "anforderungen": [
+        "Relevante Fachgruppen und Warndienste bestimmen",
+        "Mitgliedschaften und Bezugsquellen pflegen",
+        "Erkenntnisse in die eigene Lagebewertung überführen"
+      ],
+      "nachweise": [
+        "Mitgliedschaften",
+        "Bezug von Warnmeldungen",
+        "Auswertungen"
+      ],
+      "bezuege": [
+        "Artikel 45 DORA regelt den Austausch von Informationen über Cyberbedrohungen."
+      ]
+    },
+    {
+      "kennung": "A.5.7",
+      "titel": "Bedrohungsinformationen",
+      "gruppe": "A.5",
+      "pfad": "a/5.7",
+      "zweck": "Informationen über Bedrohungen werden gesammelt, bewertet und in Maßnahmen übersetzt – strategisch, taktisch und operativ.",
+      "anforderungen": [
+        "Quellen für Bedrohungsinformationen festlegen",
+        "Meldungen auf Relevanz für die eigene Lage bewerten",
+        "Erkenntnisse in Schutzmaßnahmen und Erkennungsregeln überführen"
+      ],
+      "nachweise": [
+        "Quellenverzeichnis",
+        "Bewertungen",
+        "abgeleitete Maßnahmen"
+      ],
+      "bezuege": [
+        "Die Erkennung nach Artikel 10 DORA stützt sich auf dieselben Erkenntnisse."
+      ]
+    },
+    {
+      "kennung": "A.5.8",
+      "titel": "Informationssicherheit im Projektmanagement",
+      "gruppe": "A.5",
+      "pfad": "a/5.8",
+      "zweck": "Sicherheit wird im Projekt mitgeplant, nicht nachgerüstet: von der Anforderungsaufnahme bis zur Abnahme.",
+      "anforderungen": [
+        "Sicherheitsanforderungen früh im Projekt erheben",
+        "Risiken projektbegleitend bewerten",
+        "Sicherheitsabnahme vor Produktivsetzung vorsehen"
+      ],
+      "nachweise": [
+        "Projekthandbuch mit Sicherheitsvorgaben",
+        "Risikobewertungen",
+        "Abnahmeprotokolle"
+      ],
+      "bezuege": [
+        "Vergleichbar mit den Anforderungen an die Anwendungsentwicklung nach Artikel 9 DORA."
+      ]
+    },
+    {
+      "kennung": "A.5.9",
+      "titel": "Verzeichnis der Informationen und zugehörigen Werte",
+      "gruppe": "A.5",
+      "pfad": "a/5.9",
+      "zweck": "Wer seine Werte nicht kennt, kann sie nicht schützen. Informationen und zugehörige Assets sind zu erfassen, einem Verantwortlichen zuzuordnen und aktuell zu halten.",
+      "anforderungen": [
+        "Assetverzeichnis führen und pflegen",
+        "Je Asset einen Verantwortlichen benennen",
+        "Abhängigkeiten zu Geschäftsprozessen abbilden",
+        "Aktualität durch einen festen Prozess sichern"
+      ],
+      "nachweise": [
+        "Assetverzeichnis",
+        "Zuordnung der Verantwortlichen",
+        "Abgleichprotokolle"
+      ],
+      "bezuege": [
+        "Artikel 8 DORA verlangt die Identifizierung aller IKT-gestützten Funktionen und Assets."
+      ]
+    },
+    {
+      "kennung": "A.5.10",
+      "titel": "Zulässiger Gebrauch von Informationen und Werten",
+      "gruppe": "A.5",
+      "pfad": "a/5.10",
+      "zweck": "Regeln für den Umgang mit Informationen und Geräten machen deutlich, was erlaubt ist – und was nicht.",
+      "anforderungen": [
+        "Nutzungsregeln festlegen und bekannt machen",
+        "Regeln für private Nutzung und mobile Geräte klären",
+        "Einhaltung stichprobenweise prüfen"
+      ],
+      "nachweise": [
+        "Nutzungsrichtlinie",
+        "Kenntnisnahmen",
+        "Prüfberichte"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.11",
+      "titel": "Rückgabe von Werten",
+      "gruppe": "A.5",
+      "pfad": "a/5.11",
+      "zweck": "Beim Ausscheiden oder Rollenwechsel sind Geräte, Datenträger, Ausweise und Informationen vollständig zurückzugeben.",
+      "anforderungen": [
+        "Rückgabepflichten vertraglich verankern",
+        "Rückgabe beim Austritt prüfen und dokumentieren",
+        "Nicht zurückgegebene Werte nachverfolgen"
+      ],
+      "nachweise": [
+        "Austrittsprozess",
+        "Rückgabeprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.12",
+      "titel": "Klassifizierung von Informationen",
+      "gruppe": "A.5",
+      "pfad": "a/5.12",
+      "zweck": "Ein einheitliches Klassifizierungsschema macht den Schutzbedarf sichtbar und lenkt die Maßnahmen.",
+      "anforderungen": [
+        "Klassifizierungsschema festlegen, an Vertraulichkeit, Integrität und Verfügbarkeit ausgerichtet",
+        "Informationen einstufen und die Einstufung pflegen",
+        "Schutzmaßnahmen je Klasse festlegen"
+      ],
+      "nachweise": [
+        "Klassifizierungsrichtlinie",
+        "Einstufungsübersicht",
+        "Maßnahmenzuordnung"
+      ],
+      "bezuege": [
+        "Artikel 8 DORA verlangt die Einstufung nach Kritikalität."
+      ]
+    },
+    {
+      "kennung": "A.5.13",
+      "titel": "Kennzeichnung von Informationen",
+      "gruppe": "A.5",
+      "pfad": "a/5.13",
+      "zweck": "Die Einstufung nützt nur, wenn sie am Objekt erkennbar ist – auf Dokumenten, in Systemen und bei der Übermittlung.",
+      "anforderungen": [
+        "Kennzeichnungsregeln je Klasse und Medium festlegen",
+        "Kennzeichnung technisch unterstützen, wo möglich",
+        "Beschäftigte im Umgang schulen"
+      ],
+      "nachweise": [
+        "Kennzeichnungsvorgaben",
+        "Stichproben",
+        "Schulungsnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.14",
+      "titel": "Informationsübertragung",
+      "gruppe": "A.5",
+      "pfad": "a/5.14",
+      "zweck": "Für jede Art der Übermittlung – elektronisch, physisch, mündlich – sind Regeln und Schutzmaßnahmen festzulegen.",
+      "anforderungen": [
+        "Übertragungsregeln je Kanal und Klasse festlegen",
+        "Verschlüsselung für schutzbedürftige Übertragungen vorsehen",
+        "Vereinbarungen mit Empfängern treffen, wo nötig"
+      ],
+      "nachweise": [
+        "Übertragungsrichtlinie",
+        "Vereinbarungen",
+        "Konfigurationsnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.15",
+      "titel": "Zugangssteuerung",
+      "gruppe": "A.5",
+      "pfad": "a/5.15",
+      "zweck": "Zugriffe folgen einer dokumentierten Regelung, die sich am Geschäftsbedarf und am Schutzbedarf ausrichtet.",
+      "anforderungen": [
+        "Zugangssteuerungsrichtlinie festlegen",
+        "Zugriff nach dem Prinzip der geringsten Rechte gewähren",
+        "Kenntnis nur, soweit erforderlich",
+        "Regelmäßig auf Angemessenheit prüfen"
+      ],
+      "nachweise": [
+        "Berechtigungskonzept",
+        "Rezertifizierungsprotokolle"
+      ],
+      "bezuege": [
+        "Artikel 9 DORA verlangt Zugriffsbeschränkungen als Schutzmaßnahme."
+      ]
+    },
+    {
+      "kennung": "A.5.16",
+      "titel": "Identitätsverwaltung",
+      "gruppe": "A.5",
+      "pfad": "a/5.16",
+      "zweck": "Identitäten werden über ihren gesamten Lebenszyklus verwaltet – vom Anlegen bis zum Löschen, eindeutig und nachvollziehbar.",
+      "anforderungen": [
+        "Eindeutige Identitäten vergeben, Sammelkonten begründen",
+        "Lebenszyklus von Eintritt bis Austritt steuern",
+        "Identitäten regelmäßig abgleichen"
+      ],
+      "nachweise": [
+        "Identitätsverzeichnis",
+        "Prozessdokumentation",
+        "Abgleichberichte"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.17",
+      "titel": "Authentisierungsinformation",
+      "gruppe": "A.5",
+      "pfad": "a/5.17",
+      "zweck": "Passwörter und andere Authentisierungsmittel werden sicher vergeben, übermittelt, gespeichert und gewechselt.",
+      "anforderungen": [
+        "Vorgaben für Vergabe, Stärke und Wechsel festlegen",
+        "Sichere Übermittlung und Speicherung sicherstellen",
+        "Beschäftigte zum Umgang verpflichten"
+      ],
+      "nachweise": [
+        "Passwortrichtlinie",
+        "technische Umsetzungsnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.18",
+      "titel": "Zugangsrechte",
+      "gruppe": "A.5",
+      "pfad": "a/5.18",
+      "zweck": "Rechte werden auf Antrag vergeben, bei Änderungen angepasst und beim Austritt entzogen – und regelmäßig überprüft.",
+      "anforderungen": [
+        "Vergabe, Änderung und Entzug in einem Prozess regeln",
+        "Rechte beim Austritt unverzüglich entziehen",
+        "Rezertifizierung in festen Abständen durchführen",
+        "Privilegierte Rechte gesondert behandeln"
+      ],
+      "nachweise": [
+        "Antrags- und Genehmigungsunterlagen",
+        "Rezertifizierungsberichte",
+        "Austrittsnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.19",
+      "titel": "Informationssicherheit in Lieferantenbeziehungen",
+      "gruppe": "A.5",
+      "pfad": "a/5.19",
+      "zweck": "Wer Leistungen einkauft, kauft Risiken mit. Für Lieferantenbeziehungen sind Sicherheitsanforderungen festzulegen, bevor die Zusammenarbeit beginnt.",
+      "anforderungen": [
+        "Sicherheitsanforderungen je Lieferantentyp festlegen",
+        "Lieferanten vor Beauftragung bewerten",
+        "Anforderungen in die Beschaffung einbinden",
+        "Verantwortliche für die Lieferantensteuerung benennen"
+      ],
+      "nachweise": [
+        "Lieferantenrichtlinie",
+        "Bewertungen vor Beauftragung",
+        "Lieferantenverzeichnis"
+      ],
+      "bezuege": [
+        "Artikel 28 DORA verlangt darüber hinaus ein vollständiges Informationsregister und eine Risikobewertung vor Vertragsschluss."
+      ]
+    },
+    {
+      "kennung": "A.5.20",
+      "titel": "Sicherheit in Lieferantenvereinbarungen",
+      "gruppe": "A.5",
+      "pfad": "a/5.20",
+      "zweck": "Was gelten soll, gehört in den Vertrag: Sicherheitsanforderungen sind mit dem Lieferanten zu vereinbaren und durchsetzbar zu machen.",
+      "anforderungen": [
+        "Sicherheitsanforderungen vertraglich festhalten",
+        "Prüf- und Auditrechte vereinbaren",
+        "Meldepflichten bei Vorfällen regeln",
+        "Regelungen für Vertragsende und Datenrückgabe treffen"
+      ],
+      "nachweise": [
+        "Verträge mit Sicherheitsanlagen",
+        "Nachweise über Prüfungen"
+      ],
+      "bezuege": [
+        "Artikel 30 DORA zählt die Pflichtinhalte deutlich detaillierter auf – einschließlich Ausstiegsstrategie."
+      ]
+    },
+    {
+      "kennung": "A.5.21",
+      "titel": "Sicherheit in der IKT-Lieferkette",
+      "gruppe": "A.5",
+      "pfad": "a/5.21",
+      "zweck": "Die Kette endet nicht beim unmittelbaren Lieferanten. Auch Unterauftragnehmer und Vorprodukte sind zu betrachten.",
+      "anforderungen": [
+        "Anforderungen auf die Lieferkette erstrecken",
+        "Unterauftragsvergabe transparent machen und begrenzen",
+        "Herkunft und Integrität von Komponenten prüfen"
+      ],
+      "nachweise": [
+        "Lieferkettenanalyse",
+        "Vertragsklauseln zur Untervergabe"
+      ],
+      "bezuege": [
+        "Die Delegierte Verordnung (EU) 2025/532 regelt die Untervergabe für kritische oder wichtige Funktionen."
+      ]
+    },
+    {
+      "kennung": "A.5.22",
+      "titel": "Überwachung und Änderung von Lieferantenleistungen",
+      "gruppe": "A.5",
+      "pfad": "a/5.22",
+      "zweck": "Die Zusammenarbeit wird laufend überwacht; Änderungen an Leistungen werden bewertet, bevor sie wirksam werden.",
+      "anforderungen": [
+        "Leistung und Sicherheitsniveau regelmäßig überprüfen",
+        "Berichte und Nachweise des Lieferanten auswerten",
+        "Änderungen bewerten und genehmigen",
+        "Bei Abweichungen eskalieren"
+      ],
+      "nachweise": [
+        "Dienstleistersteuerungsberichte",
+        "Prüfberichte nach IDW PS 951 oder ISAE 3402",
+        "Änderungsprotokolle"
+      ],
+      "bezuege": [
+        "Artikel 28 DORA verlangt die laufende Überwachung des IKT-Drittparteienrisikos."
+      ]
+    },
+    {
+      "kennung": "A.5.23",
+      "titel": "Informationssicherheit bei Cloud-Diensten",
+      "gruppe": "A.5",
+      "pfad": "a/5.23",
+      "zweck": "Für Cloud-Dienste gelten eigene Festlegungen: Auswahl, Nutzung, Steuerung und Ausstieg sind zu regeln.",
+      "anforderungen": [
+        "Auswahlkriterien und Freigabeprozess für Cloud-Dienste festlegen",
+        "Verantwortungsteilung mit dem Anbieter klären und dokumentieren",
+        "Ausstieg und Datenrückführung vorbereiten",
+        "Nutzung überwachen, auch die nicht genehmigte"
+      ],
+      "nachweise": [
+        "Cloud-Richtlinie",
+        "Verantwortungsmatrix",
+        "Ausstiegskonzept"
+      ],
+      "bezuege": [
+        "Artikel 28 und 30 DORA gelten unabhängig davon, ob der Dienst eine Ausgliederung nach § 32 VAG ist."
+      ]
+    },
+    {
+      "kennung": "A.5.24",
+      "titel": "Planung und Vorbereitung des Vorfallmanagements",
+      "gruppe": "A.5",
+      "pfad": "a/5.24",
+      "zweck": "Vor dem ersten Vorfall müssen Prozess, Rollen und Meldewege stehen – improvisieren kostet Zeit, die man nicht hat.",
+      "anforderungen": [
+        "Vorfallprozess festlegen und bekannt machen",
+        "Rollen und Erreichbarkeiten definieren, auch außerhalb der Geschäftszeiten",
+        "Eskalations- und Meldewege festlegen",
+        "Vorbereitung regelmäßig üben"
+      ],
+      "nachweise": [
+        "Vorfallhandbuch",
+        "Erreichbarkeitsplan",
+        "Übungsprotokolle"
+      ],
+      "bezuege": [
+        "Artikel 17 DORA verlangt einen solchen Managementprozess ausdrücklich."
+      ]
+    },
+    {
+      "kennung": "A.5.25",
+      "titel": "Beurteilung und Entscheidung über Sicherheitsereignisse",
+      "gruppe": "A.5",
+      "pfad": "a/5.25",
+      "zweck": "Nicht jedes Ereignis ist ein Vorfall. Es braucht klare Kriterien, wer nach welchem Maßstab einstuft.",
+      "anforderungen": [
+        "Kriterien für die Einstufung festlegen",
+        "Zuständigkeit für die Einstufung benennen",
+        "Entscheidung dokumentieren"
+      ],
+      "nachweise": [
+        "Einstufungskriterien",
+        "Ereignisregister mit Entscheidungen"
+      ],
+      "bezuege": [
+        "Artikel 18 DORA und die Delegierte Verordnung (EU) 2024/1772 geben die Kriterien vor; an der Einstufung hängt die Vier-Stunden-Frist."
+      ]
+    },
+    {
+      "kennung": "A.5.26",
+      "titel": "Reaktion auf Sicherheitsvorfälle",
+      "gruppe": "A.5",
+      "pfad": "a/5.26",
+      "zweck": "Die Reaktion folgt dem vorbereiteten Verfahren: eindämmen, beheben, dokumentieren, kommunizieren.",
+      "anforderungen": [
+        "Nach festgelegtem Verfahren reagieren",
+        "Maßnahmen und Zeitpunkte lückenlos dokumentieren",
+        "Betroffene und Beteiligte informieren",
+        "Wiederherstellung koordinieren"
+      ],
+      "nachweise": [
+        "Vorfallakten",
+        "Zeitleisten",
+        "Kommunikationsnachweise"
+      ],
+      "bezuege": [
+        "Artikel 11 DORA verlangt Reaktions- und Wiederherstellungspläne."
+      ]
+    },
+    {
+      "kennung": "A.5.27",
+      "titel": "Lernen aus Sicherheitsvorfällen",
+      "gruppe": "A.5",
+      "pfad": "a/5.27",
+      "zweck": "Jeder Vorfall ist eine Erkenntnisquelle: Ursachen, Wirksamkeit der Maßnahmen und Lücken sind auszuwerten.",
+      "anforderungen": [
+        "Nachbetrachtung verbindlich vorsehen",
+        "Ursachen analysieren und Maßnahmen ableiten",
+        "Erkenntnisse in Richtlinien und Schulungen überführen"
+      ],
+      "nachweise": [
+        "Nachbetrachtungen",
+        "Maßnahmenverfolgung"
+      ],
+      "bezuege": [
+        "Artikel 13 DORA verlangt genau diese Rückkopplung in den IKT-Rahmen."
+      ]
+    },
+    {
+      "kennung": "A.5.28",
+      "titel": "Sammlung von Beweismaterial",
+      "gruppe": "A.5",
+      "pfad": "a/5.28",
+      "zweck": "Beweise sind so zu sichern, dass sie später verwertbar bleiben – gerichtsfest, nachvollziehbar, unverändert.",
+      "anforderungen": [
+        "Verfahren zur Beweissicherung festlegen",
+        "Zuständige benennen und schulen",
+        "Lückenlose Übergabekette dokumentieren"
+      ],
+      "nachweise": [
+        "Verfahrensbeschreibung",
+        "Sicherungsprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.29",
+      "titel": "Informationssicherheit bei Störungen",
+      "gruppe": "A.5",
+      "pfad": "a/5.29",
+      "zweck": "Auch im Ausnahmezustand darf das Schutzniveau nicht einbrechen: Notbetrieb und Wiederanlauf sind sicher zu gestalten.",
+      "anforderungen": [
+        "Sicherheitsanforderungen für den Notbetrieb festlegen",
+        "Notfallmaßnahmen auf Sicherheitswirkung prüfen",
+        "Nach der Störung in den Regelbetrieb zurückführen"
+      ],
+      "nachweise": [
+        "Notfallpläne mit Sicherheitsvorgaben",
+        "Testberichte"
+      ],
+      "bezuege": [
+        "Vergleichbar mit den Anforderungen an Reaktion und Wiederherstellung nach Artikel 11 DORA."
+      ]
+    },
+    {
+      "kennung": "A.5.30",
+      "titel": "IKT-Bereitschaft für die Geschäftsfortführung",
+      "gruppe": "A.5",
+      "pfad": "a/5.30",
+      "zweck": "Die IKT muss die Wiederanlaufziele des Geschäfts tragen können – geplant, umgesetzt und getestet.",
+      "anforderungen": [
+        "Wiederanlaufzeiten und Datenverlusttoleranzen je Funktion festlegen",
+        "IKT-Fortführungspläne daran ausrichten",
+        "Regelmäßig testen und Ergebnisse auswerten"
+      ],
+      "nachweise": [
+        "Business-Impact-Analyse",
+        "IKT-Notfallpläne",
+        "Testberichte"
+      ],
+      "bezuege": [
+        "Artikel 11 und 12 DORA verlangen Reaktions-, Wiederherstellungs- und Backup-Verfahren mit denselben Zielgrößen."
+      ]
+    },
+    {
+      "kennung": "A.5.31",
+      "titel": "Rechtliche, gesetzliche, regulatorische und vertragliche Anforderungen",
+      "gruppe": "A.5",
+      "pfad": "a/5.31",
+      "zweck": "Alle einschlägigen Anforderungen sind zu ermitteln, zu dokumentieren und aktuell zu halten – und ihre Einhaltung ist nachzuweisen.",
+      "anforderungen": [
+        "Anforderungsverzeichnis führen und pflegen",
+        "Zuständige für die Beobachtung benennen",
+        "Umsetzung je Anforderung nachweisen"
+      ],
+      "nachweise": [
+        "Anforderungsverzeichnis",
+        "Umsetzungsnachweise"
+      ],
+      "bezuege": [
+        "Genau dafür ist diese Anwendung gedacht: Bibliothek, Themenseiten und Screening halten das Verzeichnis aktuell."
+      ]
+    },
+    {
+      "kennung": "A.5.32",
+      "titel": "Geistiges Eigentum",
+      "gruppe": "A.5",
+      "pfad": "a/5.32",
+      "zweck": "Lizenzen und Urheberrechte sind einzuhalten – auch bei Software, Bibliotheken und Inhalten Dritter.",
+      "anforderungen": [
+        "Lizenzbestand führen",
+        "Nutzung gegen Lizenzumfang abgleichen",
+        "Beschäftigte über Vorgaben unterrichten"
+      ],
+      "nachweise": [
+        "Lizenzverzeichnis",
+        "Abgleichberichte"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.33",
+      "titel": "Schutz von Aufzeichnungen",
+      "gruppe": "A.5",
+      "pfad": "a/5.33",
+      "zweck": "Aufzeichnungen sind vor Verlust, Veränderung und unbefugtem Zugriff zu schützen – über die gesamte Aufbewahrungsfrist.",
+      "anforderungen": [
+        "Aufbewahrungsfristen je Art festlegen",
+        "Schutz gegen Veränderung sicherstellen",
+        "Lesbarkeit über die Frist gewährleisten",
+        "Löschung nach Fristablauf regeln"
+      ],
+      "nachweise": [
+        "Aufbewahrungskonzept",
+        "technische Schutznachweise"
+      ],
+      "bezuege": [
+        "§ 257 HGB und die §§ 146, 147 AO geben die handels- und steuerrechtlichen Fristen vor."
+      ]
+    },
+    {
+      "kennung": "A.5.34",
+      "titel": "Privatsphäre und Schutz personenbezogener Daten",
+      "gruppe": "A.5",
+      "pfad": "a/5.34",
+      "zweck": "Der Schutz personenbezogener Daten ist als eigener Anforderungsstrang zu führen und mit der Informationssicherheit zu verzahnen.",
+      "anforderungen": [
+        "Anforderungen aus dem Datenschutzrecht bestimmen",
+        "Technische und organisatorische Maßnahmen ableiten",
+        "Verantwortliche benennen und einbinden"
+      ],
+      "nachweise": [
+        "Verarbeitungsverzeichnis",
+        "Maßnahmenbeschreibung",
+        "Nachweis der Einbindung des Datenschutzbeauftragten"
+      ],
+      "bezuege": [
+        "Artikel 32 DSGVO verlangt dem Risiko angemessene Maßnahmen; Artikel 33 die Meldung binnen 72 Stunden."
+      ]
+    },
+    {
+      "kennung": "A.5.35",
+      "titel": "Unabhängige Überprüfung der Informationssicherheit",
+      "gruppe": "A.5",
+      "pfad": "a/5.35",
+      "zweck": "Das Sicherheitsniveau wird in geplanten Abständen unabhängig überprüft – von Stellen, die es nicht selbst verantworten.",
+      "anforderungen": [
+        "Überprüfungen planen und beauftragen",
+        "Unabhängigkeit der Prüfenden sicherstellen",
+        "Feststellungen nachverfolgen"
+      ],
+      "nachweise": [
+        "Prüfplan",
+        "Prüfberichte",
+        "Maßnahmenverfolgung"
+      ],
+      "bezuege": [
+        "Artikel 6 Absatz 6 DORA und § 30 VAG weisen diese Rolle der internen Revision zu."
+      ]
+    },
+    {
+      "kennung": "A.5.36",
+      "titel": "Einhaltung von Richtlinien und Standards",
+      "gruppe": "A.5",
+      "pfad": "a/5.36",
+      "zweck": "Die Einhaltung der eigenen Vorgaben wird regelmäßig überprüft – nicht nur angenommen.",
+      "anforderungen": [
+        "Prüfungen der Einhaltung planen",
+        "Abweichungen erfassen und abstellen",
+        "Ergebnisse an die Leitung berichten"
+      ],
+      "nachweise": [
+        "Prüfpläne",
+        "Abweichungsberichte",
+        "Leitungsberichte"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.5.37",
+      "titel": "Dokumentierte Betriebsabläufe",
+      "gruppe": "A.5",
+      "pfad": "a/5.37",
+      "zweck": "Betriebsabläufe sind so zu dokumentieren, dass sie auch von Vertretungen sicher ausgeführt werden können.",
+      "anforderungen": [
+        "Abläufe dokumentieren und aktuell halten",
+        "Dokumentation den Ausführenden zugänglich machen",
+        "Bei Änderungen nachziehen"
+      ],
+      "nachweise": [
+        "Betriebshandbücher",
+        "Änderungshistorie"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.6.1",
+      "titel": "Sicherheitsüberprüfung",
+      "gruppe": "A.6",
+      "pfad": "a/6.1",
+      "zweck": "Vor der Einstellung wird geprüft, was rechtlich zulässig und für die Rolle angemessen ist – je exponierter die Stelle, desto genauer.",
+      "anforderungen": [
+        "Prüfumfang je Rolle festlegen",
+        "Rechtliche Grenzen und Mitbestimmung beachten",
+        "Ergebnisse dokumentieren und geschützt aufbewahren"
+      ],
+      "nachweise": [
+        "Prüfrichtlinie",
+        "Nachweise der Überprüfung"
+      ],
+      "bezuege": [
+        "§ 24 VAG stellt Anforderungen an die Zuverlässigkeit von Personen in Schlüsselfunktionen."
+      ]
+    },
+    {
+      "kennung": "A.6.2",
+      "titel": "Arbeitsvertragliche Regelungen",
+      "gruppe": "A.6",
+      "pfad": "a/6.2",
+      "zweck": "Sicherheitspflichten gehören in den Arbeitsvertrag – damit sie durchsetzbar sind.",
+      "anforderungen": [
+        "Sicherheitspflichten vertraglich verankern",
+        "Auf Richtlinien verweisen und deren Kenntnisnahme sicherstellen",
+        "Folgen von Verstößen benennen"
+      ],
+      "nachweise": [
+        "Vertragsmuster",
+        "Kenntnisnahmen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.6.3",
+      "titel": "Sensibilisierung, Ausbildung und Schulung",
+      "gruppe": "A.6",
+      "pfad": "a/6.3",
+      "zweck": "Alle Beschäftigten werden regelmäßig und rollengerecht geschult; die Wirksamkeit wird gemessen, nicht nur die Teilnahme gezählt.",
+      "anforderungen": [
+        "Schulungsprogramm mit Zielgruppen und Takt festlegen",
+        "Rollenspezifische Inhalte für exponierte Gruppen vorsehen",
+        "Teilnahme nachhalten",
+        "Wirksamkeit messen, etwa durch Simulationen"
+      ],
+      "nachweise": [
+        "Schulungskonzept",
+        "Teilnahmenachweise",
+        "Auswertung von Phishing-Simulationen"
+      ],
+      "bezuege": [
+        "Artikel 13 DORA verlangt Schulungsprogramme; Artikel 5 zusätzlich die Fortbildung des Leitungsorgans."
+      ]
+    },
+    {
+      "kennung": "A.6.4",
+      "titel": "Disziplinarverfahren",
+      "gruppe": "A.6",
+      "pfad": "a/6.4",
+      "zweck": "Für Verstöße gibt es ein festgelegtes, angemessenes und bekannt gemachtes Verfahren.",
+      "anforderungen": [
+        "Verfahren festlegen und kommunizieren",
+        "Abgestufte Maßnahmen vorsehen",
+        "Mitbestimmung und Rechtslage beachten"
+      ],
+      "nachweise": [
+        "Verfahrensbeschreibung",
+        "anonymisierte Fallübersicht"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.6.5",
+      "titel": "Pflichten nach Beendigung oder Wechsel",
+      "gruppe": "A.6",
+      "pfad": "a/6.5",
+      "zweck": "Bestimmte Pflichten – Vertraulichkeit vor allem – gelten über das Arbeitsverhältnis hinaus und sind deshalb ausdrücklich zu regeln.",
+      "anforderungen": [
+        "Fortgeltende Pflichten benennen und vertraglich absichern",
+        "Beim Austritt auf die Pflichten hinweisen",
+        "Rechte und Werte entziehen beziehungsweise einziehen"
+      ],
+      "nachweise": [
+        "Austrittsprozess",
+        "Bestätigungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.6.6",
+      "titel": "Vertraulichkeitsvereinbarungen",
+      "gruppe": "A.6",
+      "pfad": "a/6.6",
+      "zweck": "Mit Beschäftigten und Dritten werden Vertraulichkeitsvereinbarungen geschlossen und regelmäßig überprüft.",
+      "anforderungen": [
+        "Vereinbarungen für Beschäftigte und Dritte vorsehen",
+        "Inhalte auf Angemessenheit prüfen",
+        "Bestand pflegen"
+      ],
+      "nachweise": [
+        "Vereinbarungsmuster",
+        "Verzeichnis abgeschlossener Vereinbarungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.6.7",
+      "titel": "Arbeiten aus der Ferne",
+      "gruppe": "A.6",
+      "pfad": "a/6.7",
+      "zweck": "Für Telearbeit und mobiles Arbeiten gelten eigene Schutzmaßnahmen – technisch wie organisatorisch.",
+      "anforderungen": [
+        "Regeln für Ausstattung, Netzzugang und Umgebung festlegen",
+        "Sichere Verbindungen und Geräteschutz vorschreiben",
+        "Umgang mit Unterlagen und Bildschirmen außerhalb des Büros regeln"
+      ],
+      "nachweise": [
+        "Richtlinie zum mobilen Arbeiten",
+        "Konfigurationsnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.6.8",
+      "titel": "Meldung von Sicherheitsereignissen",
+      "gruppe": "A.6",
+      "pfad": "a/6.8",
+      "zweck": "Jeder muss wissen, wie und wohin er ein Ereignis meldet – niedrigschwellig und ohne Angst vor Nachteilen.",
+      "anforderungen": [
+        "Meldeweg festlegen und allen bekannt machen",
+        "Meldungen ohne Sanktionierung ermöglichen",
+        "Eingang und Bearbeitung nachhalten"
+      ],
+      "nachweise": [
+        "Meldeweg-Beschreibung",
+        "Ereignisregister"
+      ],
+      "bezuege": [
+        "Artikel 17 DORA verlangt Verfahren zur Erkennung und Meldung intern; Artikel 19 die Meldung an die Aufsicht."
+      ]
+    },
+    {
+      "kennung": "A.7.1",
+      "titel": "Sicherheitszonen",
+      "gruppe": "A.7",
+      "pfad": "a/7.1",
+      "zweck": "Bereiche mit schutzbedürftigen Werten werden durch definierte Sicherheitszonen abgegrenzt.",
+      "anforderungen": [
+        "Zonen festlegen und dokumentieren",
+        "Abgrenzungen baulich und technisch umsetzen",
+        "Zutrittsregeln je Zone festlegen"
+      ],
+      "nachweise": [
+        "Zonenplan",
+        "Nachweise der Umsetzung"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.2",
+      "titel": "Physischer Zutritt",
+      "gruppe": "A.7",
+      "pfad": "a/7.2",
+      "zweck": "Zutritt erhält nur, wer ihn braucht – kontrolliert, protokolliert und regelmäßig überprüft.",
+      "anforderungen": [
+        "Zutrittsberechtigungen nach Bedarf vergeben",
+        "Besucher begleiten und erfassen",
+        "Protokolle auswerten",
+        "Berechtigungen regelmäßig überprüfen"
+      ],
+      "nachweise": [
+        "Zutrittskonzept",
+        "Besucherprotokolle",
+        "Rezertifizierungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.3",
+      "titel": "Sicherung von Büros, Räumen und Einrichtungen",
+      "gruppe": "A.7",
+      "pfad": "a/7.3",
+      "zweck": "Räume mit schutzbedürftigen Werten werden baulich und organisatorisch gesichert.",
+      "anforderungen": [
+        "Schutzbedarf je Raum bestimmen",
+        "Maßnahmen ableiten und umsetzen",
+        "Unauffälligkeit sensibler Bereiche wahren"
+      ],
+      "nachweise": [
+        "Raumkonzept",
+        "Umsetzungsnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.4",
+      "titel": "Physische Sicherheitsüberwachung",
+      "gruppe": "A.7",
+      "pfad": "a/7.4",
+      "zweck": "Bereiche werden auf unbefugten Zutritt überwacht – mit Technik und Organisation, die zum Schutzbedarf passt.",
+      "anforderungen": [
+        "Überwachungsmaßnahmen festlegen",
+        "Alarmierung und Reaktion regeln",
+        "Datenschutz und Mitbestimmung beachten"
+      ],
+      "nachweise": [
+        "Überwachungskonzept",
+        "Alarmprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.5",
+      "titel": "Schutz vor physischen und umweltbedingten Bedrohungen",
+      "gruppe": "A.7",
+      "pfad": "a/7.5",
+      "zweck": "Feuer, Wasser, Stromausfall, Hitze: Umweltrisiken sind zu bewerten und durch Maßnahmen zu begrenzen.",
+      "anforderungen": [
+        "Umweltrisiken je Standort bewerten",
+        "Schutzmaßnahmen festlegen und warten",
+        "Wirksamkeit prüfen"
+      ],
+      "nachweise": [
+        "Risikobewertung je Standort",
+        "Wartungsnachweise",
+        "Prüfprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.6",
+      "titel": "Arbeiten in Sicherheitsbereichen",
+      "gruppe": "A.7",
+      "pfad": "a/7.6",
+      "zweck": "Für das Arbeiten in besonders geschützten Bereichen gelten zusätzliche Regeln.",
+      "anforderungen": [
+        "Verhaltensregeln festlegen",
+        "Mitführen von Geräten regeln",
+        "Arbeiten Dritter begleiten"
+      ],
+      "nachweise": [
+        "Regelwerk für Sicherheitsbereiche",
+        "Begleitprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.7",
+      "titel": "Aufgeräumter Arbeitsplatz und Bildschirmsperre",
+      "gruppe": "A.7",
+      "pfad": "a/7.7",
+      "zweck": "Unterlagen und Bildschirme dürfen keine schutzbedürftigen Informationen preisgeben, wenn der Platz verlassen wird.",
+      "anforderungen": [
+        "Regeln für Unterlagen und Datenträger festlegen",
+        "Automatische Bildschirmsperre erzwingen",
+        "Einhaltung stichprobenweise prüfen"
+      ],
+      "nachweise": [
+        "Richtlinie",
+        "technische Vorgabe der Sperre",
+        "Begehungsprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.8",
+      "titel": "Aufstellung und Schutz von Geräten",
+      "gruppe": "A.7",
+      "pfad": "a/7.8",
+      "zweck": "Geräte werden so aufgestellt und geschützt, dass Risiken und unbefugte Einsicht minimiert werden.",
+      "anforderungen": [
+        "Aufstellungsvorgaben festlegen",
+        "Schutz gegen Diebstahl und Einsicht sicherstellen",
+        "Besondere Vorgaben für Publikumsbereiche treffen"
+      ],
+      "nachweise": [
+        "Aufstellungsvorgaben",
+        "Begehungsprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.9",
+      "titel": "Sicherheit von Werten außerhalb der Räumlichkeiten",
+      "gruppe": "A.7",
+      "pfad": "a/7.9",
+      "zweck": "Für Geräte und Unterlagen außerhalb des Hauses gelten eigene Schutzmaßnahmen.",
+      "anforderungen": [
+        "Regeln für Mitnahme und Transport festlegen",
+        "Verschlüsselung mobiler Geräte vorschreiben",
+        "Verlustmeldung regeln"
+      ],
+      "nachweise": [
+        "Richtlinie",
+        "Verschlüsselungsnachweise",
+        "Verlustmeldungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.10",
+      "titel": "Speichermedien",
+      "gruppe": "A.7",
+      "pfad": "a/7.10",
+      "zweck": "Datenträger werden über ihren Lebenszyklus gesteuert: Beschaffung, Nutzung, Transport, Entsorgung.",
+      "anforderungen": [
+        "Umgang je Klassifizierung regeln",
+        "Transport absichern",
+        "Entsorgung sicher und nachweisbar gestalten"
+      ],
+      "nachweise": [
+        "Richtlinie für Datenträger",
+        "Vernichtungsnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.11",
+      "titel": "Versorgungseinrichtungen",
+      "gruppe": "A.7",
+      "pfad": "a/7.11",
+      "zweck": "Strom, Kühlung und Netzanbindung sind so auszulegen und zu warten, dass Ausfälle den Betrieb nicht unmittelbar treffen.",
+      "anforderungen": [
+        "Versorgungseinrichtungen dimensionieren und redundant auslegen",
+        "Regelmäßig warten und testen",
+        "Alarmierung bei Störungen vorsehen"
+      ],
+      "nachweise": [
+        "Wartungspläne",
+        "Testprotokolle der Notstromversorgung"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.12",
+      "titel": "Sicherheit der Verkabelung",
+      "gruppe": "A.7",
+      "pfad": "a/7.12",
+      "zweck": "Strom- und Datenleitungen werden gegen Beschädigung und Abhören geschützt.",
+      "anforderungen": [
+        "Leitungswege schützen und dokumentieren",
+        "Trennung von Strom- und Datenleitungen beachten",
+        "Zugang zu Verteilern beschränken"
+      ],
+      "nachweise": [
+        "Verkabelungspläne",
+        "Zugangsregelungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.13",
+      "titel": "Instandhaltung von Geräten",
+      "gruppe": "A.7",
+      "pfad": "a/7.13",
+      "zweck": "Geräte werden nach Vorgabe gewartet, damit Verfügbarkeit und Integrität erhalten bleiben.",
+      "anforderungen": [
+        "Wartungsintervalle festlegen",
+        "Wartung durch befugte Stellen durchführen lassen",
+        "Wartungsarbeiten dokumentieren"
+      ],
+      "nachweise": [
+        "Wartungspläne",
+        "Wartungsprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.7.14",
+      "titel": "Sichere Entsorgung oder Wiederverwendung",
+      "gruppe": "A.7",
+      "pfad": "a/7.14",
+      "zweck": "Vor Entsorgung oder Weitergabe werden Daten nachweislich und unwiederbringlich entfernt.",
+      "anforderungen": [
+        "Verfahren zur Datenlöschung festlegen",
+        "Nachweise über die Löschung führen",
+        "Dienstleister vertraglich binden"
+      ],
+      "nachweise": [
+        "Löschkonzept",
+        "Vernichtungs- und Löschnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.1",
+      "titel": "Endgeräte der Benutzer",
+      "gruppe": "A.8",
+      "pfad": "a/8.1",
+      "zweck": "Arbeitsplatzrechner, Notebooks und mobile Geräte sind besonders exponiert und deshalb gesondert abzusichern.",
+      "anforderungen": [
+        "Vorgaben für Konfiguration und Härtung festlegen",
+        "Verschlüsselung und Sperrmechanismen erzwingen",
+        "Verlust und Diebstahl regeln",
+        "Private Nutzung und mitgebrachte Geräte klären"
+      ],
+      "nachweise": [
+        "Geräterichtlinie",
+        "Konfigurationsvorgaben",
+        "Verschlüsselungsnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.2",
+      "titel": "Privilegierte Zugriffsrechte",
+      "gruppe": "A.8",
+      "pfad": "a/8.2",
+      "zweck": "Administrative Rechte sind der Generalschlüssel: Sie werden restriktiv vergeben, gesondert abgesichert und überwacht.",
+      "anforderungen": [
+        "Privilegierte Konten benennen und begrenzen",
+        "Getrennte Konten für administrative Tätigkeiten vorsehen",
+        "Starke Authentisierung erzwingen",
+        "Nutzung protokollieren und auswerten"
+      ],
+      "nachweise": [
+        "Verzeichnis privilegierter Konten",
+        "Protokollauswertungen",
+        "Rezertifizierungen"
+      ],
+      "bezuege": [
+        "Artikel 9 DORA verlangt strenge Zugriffsbeschränkungen für kritische Funktionen."
+      ]
+    },
+    {
+      "kennung": "A.8.3",
+      "titel": "Einschränkung des Informationszugriffs",
+      "gruppe": "A.8",
+      "pfad": "a/8.3",
+      "zweck": "Der Zugriff auf Informationen wird technisch auf das Notwendige begrenzt.",
+      "anforderungen": [
+        "Zugriffsbeschränkungen anhand der Klassifizierung umsetzen",
+        "Rechte an Rollen statt an Personen binden",
+        "Wirksamkeit prüfen"
+      ],
+      "nachweise": [
+        "Rollenkonzept",
+        "Berechtigungsauswertungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.4",
+      "titel": "Zugriff auf Quellcode",
+      "gruppe": "A.8",
+      "pfad": "a/8.4",
+      "zweck": "Quellcode und zugehörige Werkzeuge werden vor unbefugtem Zugriff und unkontrollierter Änderung geschützt.",
+      "anforderungen": [
+        "Zugriff auf Repositories beschränken",
+        "Änderungen nachvollziehbar halten",
+        "Freigaben vor Übernahme vorsehen"
+      ],
+      "nachweise": [
+        "Berechtigungen der Repositories",
+        "Änderungshistorie",
+        "Freigabeprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.5",
+      "titel": "Sichere Authentisierung",
+      "gruppe": "A.8",
+      "pfad": "a/8.5",
+      "zweck": "Die Anmeldung wird dem Schutzbedarf entsprechend abgesichert – bei erhöhtem Bedarf mit mehreren Faktoren.",
+      "anforderungen": [
+        "Authentisierungsverfahren je Schutzbedarf festlegen",
+        "Mehrfaktor-Authentisierung für kritische Zugänge vorsehen",
+        "Fehlversuche begrenzen und auswerten"
+      ],
+      "nachweise": [
+        "Authentisierungskonzept",
+        "Konfigurationsnachweise",
+        "Auswertung von Fehlversuchen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.6",
+      "titel": "Kapazitätssteuerung",
+      "gruppe": "A.8",
+      "pfad": "a/8.6",
+      "zweck": "Kapazitäten werden überwacht und vorausschauend geplant, damit Engpässe nicht zur Störung werden.",
+      "anforderungen": [
+        "Kapazitäten überwachen und Schwellen festlegen",
+        "Bedarf vorausschauend planen",
+        "Maßnahmen bei Annäherung an Grenzen auslösen"
+      ],
+      "nachweise": [
+        "Kapazitätsberichte",
+        "Planungsunterlagen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.7",
+      "titel": "Schutz vor Schadsoftware",
+      "gruppe": "A.8",
+      "pfad": "a/8.7",
+      "zweck": "Technische Schutzmaßnahmen gegen Schadsoftware werden durch Regeln und Sensibilisierung ergänzt.",
+      "anforderungen": [
+        "Schutzsoftware flächendeckend einsetzen und aktuell halten",
+        "Ausführung nicht freigegebener Software unterbinden",
+        "Beschäftigte sensibilisieren",
+        "Erkennungen auswerten"
+      ],
+      "nachweise": [
+        "Abdeckungsberichte",
+        "Konfigurationsvorgaben",
+        "Auswertungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.8",
+      "titel": "Umgang mit technischen Schwachstellen",
+      "gruppe": "A.8",
+      "pfad": "a/8.8",
+      "zweck": "Schwachstellen werden systematisch erkannt, bewertet und fristgerecht behoben.",
+      "anforderungen": [
+        "Informationsquellen für Schwachstellen festlegen",
+        "Bestand regelmäßig prüfen",
+        "Behebungsfristen nach Kritikalität festlegen",
+        "Ausnahmen begründen und befristen"
+      ],
+      "nachweise": [
+        "Schwachstellenberichte",
+        "Fristenregelung",
+        "Ausnahmeverzeichnis"
+      ],
+      "bezuege": [
+        "Artikel 9 und 10 DORA verlangen Prävention und Erkennung, die auf denselben Erkenntnissen aufsetzen."
+      ]
+    },
+    {
+      "kennung": "A.8.9",
+      "titel": "Konfigurationsmanagement",
+      "gruppe": "A.8",
+      "pfad": "a/8.9",
+      "zweck": "Sollkonfigurationen werden festgelegt, umgesetzt, überwacht und bei Abweichung zurückgeführt.",
+      "anforderungen": [
+        "Sollkonfigurationen je Systemtyp festlegen",
+        "Abweichungen erkennen und behandeln",
+        "Änderungen an Konfigurationen dem Änderungsverfahren unterwerfen"
+      ],
+      "nachweise": [
+        "Härtungsvorgaben",
+        "Abweichungsberichte",
+        "Konfigurationsdatenbank"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.10",
+      "titel": "Löschung von Informationen",
+      "gruppe": "A.8",
+      "pfad": "a/8.10",
+      "zweck": "Informationen werden gelöscht, wenn sie nicht mehr benötigt werden – nachweisbar und fristgerecht.",
+      "anforderungen": [
+        "Löschfristen je Informationsart festlegen",
+        "Löschverfahren technisch umsetzen",
+        "Löschung dokumentieren"
+      ],
+      "nachweise": [
+        "Löschkonzept",
+        "Löschprotokolle"
+      ],
+      "bezuege": [
+        "Die Löschpflichten der DSGVO und die Aufbewahrungsfristen des Handels- und Steuerrechts sind gemeinsam zu betrachten."
+      ]
+    },
+    {
+      "kennung": "A.8.11",
+      "titel": "Datenmaskierung",
+      "gruppe": "A.8",
+      "pfad": "a/8.11",
+      "zweck": "Wo vollständige Daten nicht nötig sind, werden sie maskiert, pseudonymisiert oder anonymisiert.",
+      "anforderungen": [
+        "Einsatzfälle bestimmen, etwa Test und Auswertung",
+        "Verfahren festlegen und umsetzen",
+        "Wirksamkeit überprüfen"
+      ],
+      "nachweise": [
+        "Maskierungskonzept",
+        "Prüfberichte"
+      ],
+      "bezuege": [
+        "Artikel 25 DSGVO verlangt Datenschutz durch Technikgestaltung."
+      ]
+    },
+    {
+      "kennung": "A.8.12",
+      "titel": "Verhinderung von Datenabfluss",
+      "gruppe": "A.8",
+      "pfad": "a/8.12",
+      "zweck": "Der unkontrollierte Abfluss schutzbedürftiger Informationen wird durch Maßnahmen an den Übergängen begrenzt.",
+      "anforderungen": [
+        "Abflusswege bestimmen",
+        "Maßnahmen an Endgeräten, Netzübergängen und Diensten umsetzen",
+        "Warnmeldungen auswerten"
+      ],
+      "nachweise": [
+        "Konzept zur Abflussverhinderung",
+        "Auswertungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.13",
+      "titel": "Sicherung von Informationen",
+      "gruppe": "A.8",
+      "pfad": "a/8.13",
+      "zweck": "Daten und Systeme werden gesichert und die Rücksicherung wird tatsächlich geprobt.",
+      "anforderungen": [
+        "Sicherungskonzept mit Umfang, Takt und Aufbewahrung festlegen",
+        "Sicherungen vom Produktivnetz trennen und gegen Verschlüsselung schützen",
+        "Rücksicherung regelmäßig testen",
+        "Testergebnisse dokumentieren"
+      ],
+      "nachweise": [
+        "Sicherungskonzept",
+        "Protokolle erfolgreicher Rücksicherungstests"
+      ],
+      "bezuege": [
+        "Artikel 12 DORA verlangt Backup-Richtlinien sowie Verfahren und Methoden zur Wiederherstellung."
+      ]
+    },
+    {
+      "kennung": "A.8.14",
+      "titel": "Redundanz von informationsverarbeitenden Einrichtungen",
+      "gruppe": "A.8",
+      "pfad": "a/8.14",
+      "zweck": "Verfügbarkeitsanforderungen werden durch redundante Auslegung erfüllt – und die Umschaltung wird getestet.",
+      "anforderungen": [
+        "Verfügbarkeitsanforderungen je Funktion bestimmen",
+        "Redundanzen entsprechend auslegen",
+        "Umschaltung regelmäßig testen"
+      ],
+      "nachweise": [
+        "Architekturdokumentation",
+        "Testprotokolle der Umschaltung"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.15",
+      "titel": "Protokollierung",
+      "gruppe": "A.8",
+      "pfad": "a/8.15",
+      "zweck": "Sicherheitsrelevante Ereignisse werden protokolliert, geschützt aufbewahrt und ausgewertet.",
+      "anforderungen": [
+        "Festlegen, welche Ereignisse zu protokollieren sind",
+        "Protokolle vor Veränderung schützen",
+        "Aufbewahrungsfristen festlegen",
+        "Auswertung und Reaktion regeln"
+      ],
+      "nachweise": [
+        "Protokollierungskonzept",
+        "Aufbewahrungsregelung",
+        "Auswertungsberichte"
+      ],
+      "bezuege": [
+        "Artikel 10 DORA verlangt Mechanismen zur Erkennung ungewöhnlicher Aktivitäten."
+      ]
+    },
+    {
+      "kennung": "A.8.16",
+      "titel": "Überwachungsaktivitäten",
+      "gruppe": "A.8",
+      "pfad": "a/8.16",
+      "zweck": "Netze, Systeme und Anwendungen werden auf ungewöhnliches Verhalten überwacht; Auffälligkeiten lösen eine definierte Reaktion aus.",
+      "anforderungen": [
+        "Überwachungsumfang und Kennzahlen festlegen",
+        "Schwellen und Alarmregeln definieren",
+        "Reaktionswege festlegen",
+        "Fehlalarme auswerten und Regeln nachschärfen"
+      ],
+      "nachweise": [
+        "Überwachungskonzept",
+        "Alarmregeln",
+        "Auswertungen"
+      ],
+      "bezuege": [
+        "Artikel 10 DORA verlangt mehrere Kontrollebenen und festgelegte Alarmschwellen."
+      ]
+    },
+    {
+      "kennung": "A.8.17",
+      "titel": "Uhrensynchronisation",
+      "gruppe": "A.8",
+      "pfad": "a/8.17",
+      "zweck": "Ohne gleiche Zeit kein verwertbares Protokoll: Systemuhren werden gegen eine verlässliche Quelle synchronisiert.",
+      "anforderungen": [
+        "Referenzzeitquelle festlegen",
+        "Synchronisation flächendeckend umsetzen",
+        "Abweichungen überwachen"
+      ],
+      "nachweise": [
+        "Zeitkonzept",
+        "Überwachungsberichte"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.18",
+      "titel": "Gebrauch privilegierter Hilfsprogramme",
+      "gruppe": "A.8",
+      "pfad": "a/8.18",
+      "zweck": "Werkzeuge, die Schutzmaßnahmen umgehen können, werden streng begrenzt und überwacht.",
+      "anforderungen": [
+        "Solche Werkzeuge erfassen und freigeben",
+        "Nutzung auf benannte Personen beschränken",
+        "Einsatz protokollieren"
+      ],
+      "nachweise": [
+        "Werkzeugverzeichnis",
+        "Protokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.19",
+      "titel": "Installation von Software auf Produktivsystemen",
+      "gruppe": "A.8",
+      "pfad": "a/8.19",
+      "zweck": "Software gelangt nur geordnet und freigegeben auf Produktivsysteme.",
+      "anforderungen": [
+        "Freigabeverfahren festlegen",
+        "Installationsrechte beschränken",
+        "Installierte Software erfassen",
+        "Rückfallmöglichkeit vorsehen"
+      ],
+      "nachweise": [
+        "Freigabeprotokolle",
+        "Softwareverzeichnis"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.20",
+      "titel": "Netzwerksicherheit",
+      "gruppe": "A.8",
+      "pfad": "a/8.20",
+      "zweck": "Netze werden geplant, abgesichert und überwacht – Übergänge nach außen besonders.",
+      "anforderungen": [
+        "Netzarchitektur dokumentieren",
+        "Übergänge absichern und Regelwerke pflegen",
+        "Änderungen am Regelwerk dem Änderungsverfahren unterwerfen"
+      ],
+      "nachweise": [
+        "Netzplan",
+        "Regelwerke der Übergänge",
+        "Änderungsprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.21",
+      "titel": "Sicherheit von Netzwerkdiensten",
+      "gruppe": "A.8",
+      "pfad": "a/8.21",
+      "zweck": "Für bezogene Netzdienste werden Sicherheitsmerkmale, Dienstgüte und Überwachung festgelegt.",
+      "anforderungen": [
+        "Sicherheitsanforderungen je Dienst bestimmen",
+        "Vertraglich vereinbaren und überwachen",
+        "Abweichungen nachverfolgen"
+      ],
+      "nachweise": [
+        "Dienstvereinbarungen",
+        "Überwachungsberichte"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.22",
+      "titel": "Trennung von Netzwerken",
+      "gruppe": "A.8",
+      "pfad": "a/8.22",
+      "zweck": "Netzsegmente werden nach Schutzbedarf getrennt, damit sich ein Angriff nicht ungehindert ausbreitet.",
+      "anforderungen": [
+        "Segmentierung nach Schutzbedarf festlegen",
+        "Übergänge kontrollieren und dokumentieren",
+        "Wirksamkeit regelmäßig prüfen"
+      ],
+      "nachweise": [
+        "Segmentierungskonzept",
+        "Prüfberichte"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.23",
+      "titel": "Web-Filterung",
+      "gruppe": "A.8",
+      "pfad": "a/8.23",
+      "zweck": "Der Zugriff auf Webinhalte wird gesteuert, um Schadsoftware und Abfluss zu begrenzen.",
+      "anforderungen": [
+        "Filterregeln festlegen und pflegen",
+        "Ausnahmen begründen",
+        "Datenschutz und Mitbestimmung beachten"
+      ],
+      "nachweise": [
+        "Filterkonzept",
+        "Ausnahmeverzeichnis"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.24",
+      "titel": "Einsatz von Kryptografie",
+      "gruppe": "A.8",
+      "pfad": "a/8.24",
+      "zweck": "Kryptografie wird nach einer festgelegten Richtlinie eingesetzt; die Schlüsselverwaltung ist über den Lebenszyklus geregelt.",
+      "anforderungen": [
+        "Zugelassene Verfahren und Schlüssellängen festlegen",
+        "Schlüsselverwaltung von Erzeugung bis Vernichtung regeln",
+        "Verfahren regelmäßig auf Aktualität prüfen",
+        "Ausnahmen dokumentieren und befristen"
+      ],
+      "nachweise": [
+        "Kryptografierichtlinie",
+        "Schlüsselverwaltungskonzept",
+        "Prüfberichte"
+      ],
+      "bezuege": [
+        "Artikel 9 DORA verlangt Verschlüsselung ruhender, übertragener und – soweit möglich – verarbeiteter Daten."
+      ]
+    },
+    {
+      "kennung": "A.8.25",
+      "titel": "Sicherer Entwicklungslebenszyklus",
+      "gruppe": "A.8",
+      "pfad": "a/8.25",
+      "zweck": "Sicherheit ist Teil des Entwicklungsprozesses – von der Anforderung bis zur Auslieferung.",
+      "anforderungen": [
+        "Sicherheitsaktivitäten je Phase festlegen",
+        "Rollen und Freigaben bestimmen",
+        "Vorgaben für eingesetzte Werkzeuge treffen"
+      ],
+      "nachweise": [
+        "Entwicklungsrichtlinie",
+        "Phasenfreigaben"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.26",
+      "titel": "Sicherheitsanforderungen an Anwendungen",
+      "gruppe": "A.8",
+      "pfad": "a/8.26",
+      "zweck": "Für jede Anwendung werden Sicherheitsanforderungen erhoben, dokumentiert und geprüft.",
+      "anforderungen": [
+        "Anforderungen früh erheben und testbar formulieren",
+        "Besondere Anforderungen für Transaktionen und Zahlungen berücksichtigen",
+        "Erfüllung vor Abnahme prüfen"
+      ],
+      "nachweise": [
+        "Anforderungsdokumentation",
+        "Abnahmeprotokolle"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.27",
+      "titel": "Grundsätze für sichere Systemarchitektur",
+      "gruppe": "A.8",
+      "pfad": "a/8.27",
+      "zweck": "Architekturgrundsätze halten Sicherheit dauerhaft im Entwurf – statt sie im Einzelfall neu zu erfinden.",
+      "anforderungen": [
+        "Architekturgrundsätze festlegen und veröffentlichen",
+        "Bei Entwürfen anwenden und Abweichungen begründen",
+        "Grundsätze regelmäßig überprüfen"
+      ],
+      "nachweise": [
+        "Architekturleitlinie",
+        "Entwurfsdokumente",
+        "Abweichungsbegründungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.28",
+      "titel": "Sichere Programmierung",
+      "gruppe": "A.8",
+      "pfad": "a/8.28",
+      "zweck": "Für die Programmierung gelten Vorgaben, die typische Schwachstellen von vornherein vermeiden.",
+      "anforderungen": [
+        "Programmiervorgaben festlegen",
+        "Werkzeuge zur Prüfung einsetzen",
+        "Abhängigkeiten auf bekannte Schwachstellen prüfen",
+        "Befunde nachverfolgen"
+      ],
+      "nachweise": [
+        "Programmiervorgaben",
+        "Prüfberichte der Werkzeuge"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.29",
+      "titel": "Sicherheitsprüfungen in Entwicklung und Abnahme",
+      "gruppe": "A.8",
+      "pfad": "a/8.29",
+      "zweck": "Sicherheitsprüfungen sind fester Bestandteil von Entwicklung und Abnahme.",
+      "anforderungen": [
+        "Prüfumfang je Kritikalität festlegen",
+        "Prüfungen vor Produktivsetzung durchführen",
+        "Befunde vor Freigabe bewerten"
+      ],
+      "nachweise": [
+        "Testkonzept",
+        "Testberichte",
+        "Freigabeentscheidungen"
+      ],
+      "bezuege": [
+        "Artikel 24 und 25 DORA verlangen ein Programm für Resilienztests, das hier ansetzt."
+      ]
+    },
+    {
+      "kennung": "A.8.30",
+      "titel": "Ausgelagerte Entwicklung",
+      "gruppe": "A.8",
+      "pfad": "a/8.30",
+      "zweck": "Wird Entwicklung vergeben, gelten dieselben Anforderungen – vertraglich abgesichert und überwacht.",
+      "anforderungen": [
+        "Sicherheitsanforderungen vertraglich festhalten",
+        "Prüfrechte vereinbaren",
+        "Ergebnisse vor Übernahme prüfen"
+      ],
+      "nachweise": [
+        "Verträge",
+        "Abnahmeprüfungen"
+      ],
+      "bezuege": [
+        "Für IKT-Dienstleistungen gelten zusätzlich die Vertragsinhalte des Artikels 30 DORA."
+      ]
+    },
+    {
+      "kennung": "A.8.31",
+      "titel": "Trennung von Entwicklungs-, Test- und Produktionsumgebungen",
+      "gruppe": "A.8",
+      "pfad": "a/8.31",
+      "zweck": "Die Umgebungen werden getrennt, damit Entwicklung und Test den Produktivbetrieb nicht gefährden.",
+      "anforderungen": [
+        "Umgebungen technisch und organisatorisch trennen",
+        "Übergaben geregelt gestalten",
+        "Zugriffsrechte je Umgebung unterscheiden"
+      ],
+      "nachweise": [
+        "Umgebungskonzept",
+        "Berechtigungsauswertungen"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.32",
+      "titel": "Änderungsmanagement",
+      "gruppe": "A.8",
+      "pfad": "a/8.32",
+      "zweck": "Änderungen an Systemen und Anwendungen werden beantragt, bewertet, getestet, freigegeben und dokumentiert – auch die eiligen.",
+      "anforderungen": [
+        "Änderungsverfahren festlegen, einschließlich Notfall-Changes",
+        "Freigabe von der Umsetzung trennen",
+        "Tests und Rückfallpläne vorsehen",
+        "Notfall-Changes nachdokumentieren und genehmigen"
+      ],
+      "nachweise": [
+        "Change-Verzeichnis",
+        "Freigabeprotokolle",
+        "Auswertung der Notfall-Changes"
+      ],
+      "bezuege": [
+        "Artikel 9 DORA verlangt Verfahren für das Änderungsmanagement einschließlich Notfalländerungen."
+      ]
+    },
+    {
+      "kennung": "A.8.33",
+      "titel": "Testdaten",
+      "gruppe": "A.8",
+      "pfad": "a/8.33",
+      "zweck": "Testdaten werden sorgfältig ausgewählt und geschützt; Produktivdaten gehören grundsätzlich nicht in Testumgebungen.",
+      "anforderungen": [
+        "Auswahl und Schutz von Testdaten regeln",
+        "Produktivdaten nur maskiert und begründet verwenden",
+        "Testdaten nach Gebrauch löschen"
+      ],
+      "nachweise": [
+        "Testdatenkonzept",
+        "Löschnachweise"
+      ],
+      "bezuege": []
+    },
+    {
+      "kennung": "A.8.34",
+      "titel": "Schutz von Systemen bei Audit-Tests",
+      "gruppe": "A.8",
+      "pfad": "a/8.34",
+      "zweck": "Prüfungen an Produktivsystemen werden geplant und begleitet, damit sie den Betrieb nicht stören.",
+      "anforderungen": [
+        "Prüfaktivitäten vorab abstimmen und genehmigen",
+        "Umfang und Zeitfenster festlegen",
+        "Zugriffe der Prüfenden protokollieren"
+      ],
+      "nachweise": [
+        "Prüfplanung",
+        "Genehmigungen",
+        "Protokolle"
+      ],
+      "bezuege": []
+    }
+  ]
+}

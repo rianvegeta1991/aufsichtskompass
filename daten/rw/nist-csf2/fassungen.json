@@ -1,0 +1,17 @@
+{
+  "regelwerk": "nist-csf2",
+  "fassungen": [
+    {
+      "id": "2026-10-01",
+      "stand": "2026-10-01T00:00:00Z",
+      "abgerufen": "2026-09-30T19:18:25Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: NIST Cybersecurity Framework 2.0",
+        "url": "https://www.nist.gov/cyberframework",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein NIST Cybersecurity Framework (NIST Cybersecurity Framework 2.0)."
+      },
+      "hash": "2b7f76b40e4c4e4f05692555bda808ec3661633ce1a251dd4700182ee5e513cf",
+      "fundstellen": 6
+    }
+  ]
+}

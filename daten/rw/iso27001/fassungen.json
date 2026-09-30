@@ -1,0 +1,17 @@
+{
+  "regelwerk": "iso27001",
+  "fassungen": [
+    {
+      "id": "2026-10-01",
+      "stand": "2026-10-01T00:00:00Z",
+      "abgerufen": "2026-09-30T19:18:25Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: ISO/IEC 27001:2022",
+        "url": "https://www.iso.org/standard/27001",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27001 (ISO/IEC 27001:2022)."
+      },
+      "hash": "ffc9810a01897458914132866c9701eb700520fbf1513d12a9dfa57a25d81d43",
+      "fundstellen": 100
+    }
+  ]
+}

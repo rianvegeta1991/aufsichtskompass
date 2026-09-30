@@ -139,6 +139,27 @@
       "fassung": "2026-08-31",
       "art": "Erstaufnahme",
       "quelle": "https://www.gesetze-im-internet.de/ao_1977/"
+    },
+    {
+      "zeitpunkt": "2026-09-30T19:13:51Z",
+      "regelwerk": "iso27001",
+      "fassung": "2026-10-01",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.iso.org/standard/27001"
+    },
+    {
+      "zeitpunkt": "2026-09-30T19:18:24Z",
+      "regelwerk": "csa-ccm",
+      "fassung": "2026-10-01",
+      "art": "Erstaufnahme",
+      "quelle": "https://cloudsecurityalliance.org/research/cloud-controls-matrix"
+    },
+    {
+      "zeitpunkt": "2026-09-30T19:18:25Z",
+      "regelwerk": "nist-csf2",
+      "fassung": "2026-10-01",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.nist.gov/cyberframework"
     }
   ]
 }

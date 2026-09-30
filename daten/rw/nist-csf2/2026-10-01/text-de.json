@@ -1,0 +1,238 @@
+{
+  "z_de": {
+    "h": "eb5925d2b83d69ca5c13ba3416e1f3e3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Fortlaufende Überwachung und Analyse, damit Auffälligkeiten früh sichtbar werden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Überwachung einrichten"
+          },
+          {
+            "m": "2.",
+            "t": "Ereignisse analysieren und bewerten"
+          },
+          {
+            "m": "3.",
+            "t": "Erkennungsregeln pflegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Überwachungskonzept, Alarmauswertungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 10 DORA verlangt Erkennungsmechanismen mit festgelegten Alarmschwellen."
+      }
+    ]
+  },
+  "z_gv": {
+    "h": "bb8ec42b9891d53f025a72db0beb7ef4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die 2.0 neu hinzugekommene Funktion: Strategie, Rollen, Richtlinien, Risikoappetit und die Steuerung der Lieferkette. Sie klammert die übrigen fünf Funktionen ein."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Strategie und Risikoappetit festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Rollen und Verantwortlichkeiten zuweisen"
+          },
+          {
+            "m": "3.",
+            "t": "Richtlinien in Kraft setzen und überwachen"
+          },
+          {
+            "m": "4.",
+            "t": "Risiken in der Lieferkette steuern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Strategiepapier, Rollenbeschreibungen, Richtlinienverzeichnis."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht dem Gedanken des Artikels 5 DORA: Steuerung ist Sache des Leitungsorgans."
+      }
+    ]
+  },
+  "z_id": {
+    "h": "84a162fa976eab17aee935e1031c9856",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verstehen, was man hat und was es bedroht: Assets, Geschäftsprozesse, Abhängigkeiten und Risiken."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Assets und Abhängigkeiten erfassen"
+          },
+          {
+            "m": "2.",
+            "t": "Risiken bewerten"
+          },
+          {
+            "m": "3.",
+            "t": "Verbesserungsbedarf ableiten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Assetverzeichnis, Risikoregister."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 8 DORA verlangt dieselbe Identifizierung als Grundlage des Rahmens."
+      }
+    ]
+  },
+  "z_pr": {
+    "h": "8d4c9834cde0ffd27f5e218976ba19e1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Schutzmaßnahmen, die einen Vorfall verhindern oder begrenzen: Zugriffssteuerung, Schulung, Datensicherheit, sichere Konfiguration und Resilienz der Technik."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugriffe steuern"
+          },
+          {
+            "m": "2.",
+            "t": "Beschäftigte schulen"
+          },
+          {
+            "m": "3.",
+            "t": "Daten und Plattformen absichern"
+          },
+          {
+            "m": "4.",
+            "t": "Resilienz technisch verankern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berechtigungskonzept, Schulungsnachweise, Härtungsvorgaben."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA regelt Schutz und Prävention."
+      }
+    ]
+  },
+  "z_rc": {
+    "h": "da40faabe079e12f9383a68ff64049d2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zurück in den Normalbetrieb: Wiederherstellungspläne, Prioritäten und Kommunikation nach dem Vorfall."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Wiederherstellungspläne erstellen und testen"
+          },
+          {
+            "m": "2.",
+            "t": "Prioritäten festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Nach der Wiederherstellung kommunizieren und auswerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Wiederherstellungspläne, Testberichte, Nachbetrachtungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 11 und 12 DORA verlangen Wiederherstellung und Backup mit festen Zielgrößen."
+      }
+    ]
+  },
+  "z_rs": {
+    "h": "c59f0fc6a93c271bcd95bcf3a94a2854",
+    "b": [
+      {
+        "art": "p",
+        "t": "Handeln im Vorfall: eindämmen, analysieren, kommunizieren, abmildern."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vorfallprozess festlegen und üben"
+          },
+          {
+            "m": "2.",
+            "t": "Kommunikation regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Maßnahmen dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vorfallhandbuch, Vorfallakten, Übungsprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 17 DORA verlangt einen solchen Prozess, Artikel 19 zusätzlich die Meldung an die Aufsicht."
+      }
+    ]
+  }
+}

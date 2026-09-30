@@ -105,6 +105,7 @@ export const WORT = {
   abschnitt: ['Abschnitt', 'Section'],
   artikel: ['Artikel', 'Article'],
   paragraf: ['§', 'Section'],
+  control: ['Control', 'Control'],
   absatz: ['Absatz', 'paragraph'],
   erwaegungsgrund: ['Erwägungsgrund', 'Recital'],
   bezugsvermerk: ['Bezugsvermerk', 'Citation'],

@@ -1,0 +1,17 @@
+{
+  "regelwerk": "csa-ccm",
+  "fassungen": [
+    {
+      "id": "2026-10-01",
+      "stand": "2026-10-01T00:00:00Z",
+      "abgerufen": "2026-09-30T19:18:24Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Cloud Controls Matrix v4.x",
+        "url": "https://cloudsecurityalliance.org/research/cloud-controls-matrix",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein Cloud Security Alliance, Cloud Controls Matrix (Cloud Controls Matrix v4.x)."
+      },
+      "hash": "2506e1954441731f29bf4208b452b1b4382afb6d5f7962ea55cd4312d0820e64",
+      "fundstellen": 17
+    }
+  ]
+}

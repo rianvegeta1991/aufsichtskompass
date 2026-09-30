@@ -16,6 +16,7 @@ mod modell;
 mod screening;
 mod suche;
 mod verweise;
+mod zusammenfassung;
 
 use anyhow::{Context, Result, bail};
 use chrono::{DateTime, Timelike, Utc};
@@ -55,6 +56,7 @@ fn lauf() -> Result<()> {
             wert("--ausloeser").as_deref().unwrap_or("von Hand"),
         ),
         "lernstand" => lernstand(&daten, schalter("--bestaetigen")),
+        "zusammenfassungen" => zusammenfassungen(&daten, wert("--rw").as_deref()),
         "verweise" => {
             let n = verweise_bauen(&daten)?;
             println!("{n} belegte Verweise gefunden.");
@@ -70,6 +72,7 @@ fn lauf() -> Result<()> {
                    verweise                         nur die Verweise aus den Texten sammeln\n\
                    screening [--nur-um 06:30]       Feeds, Seitenueberwachung und neue Rechtsakte\n\
                    lernstand [--bestaetigen]        Lerninhalte gegen den Bestand pruefen\n\
+                   zusammenfassungen [--rw <id>]    eigene Zusammenfassungen uebernehmen\n\
                    pruefen                          Datenbestand auf Konsistenz pruefen\n\
                  \n\
                  Gemeinsame Schalter: --daten <pfad> (Standard: ../daten bzw. daten)"
@@ -431,6 +434,60 @@ fn texte_aus(roh: &BTreeMap<String, Vec<Block>>) -> Textdatei {
         aus.insert(id.clone(), fundstelle(bloecke.clone()));
     }
     aus
+}
+
+// ----------------------------------------------------- Eigene Zusammenfassungen
+
+/// Uebernimmt die Zusammenfassungen aus `daten/zusammenfassungen/*.json` in den
+/// Bestand - in derselben Form wie Originaltexte, damit Viewer, Suche und
+/// Mappings ohne Sonderweg damit arbeiten.
+fn zusammenfassungen(daten: &Path, nur: Option<&str>) -> Result<()> {
+    let ordner = daten.join("zusammenfassungen");
+    if !ordner.is_dir() {
+        println!("Kein Ordner daten/zusammenfassungen - nichts zu tun.");
+        return Ok(());
+    }
+    let mut dateien: Vec<PathBuf> = std::fs::read_dir(&ordner)?
+        .filter_map(|e| e.ok().map(|e| e.path()))
+        .filter(|p| p.extension().and_then(|s| s.to_str()) == Some("json"))
+        .collect();
+    dateien.sort();
+
+    let mut behandelt = 0;
+    for pfad in dateien {
+        let d = zusammenfassung::lies(&pfad)?;
+        if let Some(n) = nur {
+            if d.regelwerk != n {
+                continue;
+            }
+        }
+        behandelt += 1;
+        let g = zusammenfassung::bauen(&d)?;
+        println!(
+            "[{}] {} Eintraege, Bezugsfassung {} - wird uebernommen ...",
+            d.regelwerk,
+            d.eintraege.len(),
+            d.bezugsfassung
+        );
+        uebernehmen(
+            daten,
+            Uebernahme {
+                rw: d.regelwerk.clone(),
+                quelle: g.quelle,
+                etag: None,
+                // Der "Stand" ist hier kein Abrufdatum, sondern der Stand der
+                // Redaktion - die Fassungskennung folgt daraus.
+                stand: Some(format!("{}T00:00:00Z", g.stand)),
+                knoten: g.struktur.knoten,
+                sprachtexte: vec![("de".to_string(), g.texte)],
+            },
+            true, // immer an Ort und Stelle schreiben: eine Zusammenfassung ist keine neue Fassung der Quelle
+        )?;
+    }
+    if behandelt == 0 {
+        println!("Keine passende Zusammenfassung gefunden.");
+    }
+    Ok(())
 }
 
 // ------------------------------------------------------------------ Lernstand
@@ -1457,6 +1514,14 @@ fn sammle_textknoten(kn: &[Knoten], aus: &mut Vec<String>) {
 fn fundstelle(b: Vec<Block>) -> Fundstelle {
     let text = b.iter().map(|x| x.nur_text()).collect::<Vec<_>>().join("\n");
     Fundstelle { h: hash(&text), b }
+}
+
+pub fn hash_oeffentlich(s: &str) -> String {
+    hash(s)
+}
+
+pub fn jetzt_oeffentlich() -> String {
+    jetzt()
 }
 
 fn hash(s: &str) -> String {

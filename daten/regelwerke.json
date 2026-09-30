@@ -18,17 +18,28 @@
       "status": "in Kraft",
       "gueltigAb": "2025-01-17",
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R2554", "celex": "32022R2554" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022R2554",
+        "celex": "32022R2554"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "schwerpunkt": true,
       "gruppe": "dora",
-      "themen": ["ikt-risikomanagement", "it-governance", "incident-meldewesen", "drittparteien-auslagerung", "resilienztests", "informationsregister", "bcm-backup", "leitungsorgan"],
+      "themen": [
+        "ikt-risikomanagement",
+        "it-governance",
+        "incident-meldewesen",
+        "drittparteien-auslagerung",
+        "resilienztests",
+        "informationsregister",
+        "bcm-backup",
+        "leitungsorgan"
+      ],
       "geprueft": true,
       "hinweis": "Schwerpunkt der Anwendung. Anwendbar seit 17.01.2025."
     },
-
     {
       "id": "dora-rts-1774",
       "kurzname": "RTS IKT-Risikomanagement (2024/1774)",
@@ -39,13 +50,27 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1774", "celex": "32024R1774" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1774",
+        "celex": "32024R1774"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["ikt-risikomanagement", "infosec", "opsec", "change-management", "iam", "kryptografie", "logging-monitoring", "asset-konfiguration", "sdlc", "bcm-backup"],
+      "themen": [
+        "ikt-risikomanagement",
+        "infosec",
+        "opsec",
+        "change-management",
+        "iam",
+        "kryptografie",
+        "logging-monitoring",
+        "asset-konfiguration",
+        "sdlc",
+        "bcm-backup"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -59,13 +84,19 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1772", "celex": "32024R1772" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1772",
+        "celex": "32024R1772"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["incident-meldewesen", "ikt-risikomanagement"],
+      "themen": [
+        "incident-meldewesen",
+        "ikt-risikomanagement"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -79,13 +110,20 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1773", "celex": "32024R1773" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1773",
+        "celex": "32024R1773"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["drittparteien-auslagerung", "it-governance", "leitungsorgan"],
+      "themen": [
+        "drittparteien-auslagerung",
+        "it-governance",
+        "leitungsorgan"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -99,13 +137,20 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R2956", "celex": "32024R2956" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R2956",
+        "celex": "32024R2956"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["informationsregister", "drittparteien-auslagerung", "asset-konfiguration"],
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung",
+        "asset-konfiguration"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -119,13 +164,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0301", "celex": "32025R0301" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0301",
+        "celex": "32025R0301"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["incident-meldewesen"],
+      "themen": [
+        "incident-meldewesen"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -139,13 +189,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0302", "celex": "32025R0302" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0302",
+        "celex": "32025R0302"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["incident-meldewesen"],
+      "themen": [
+        "incident-meldewesen"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -159,13 +214,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R1190", "celex": "32025R1190" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R1190",
+        "celex": "32025R1190"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["resilienztests"],
+      "themen": [
+        "resilienztests"
+      ],
       "geprueft": true,
       "hinweis": "Langtitel hier gekürzt; der vollständige amtliche Titel steht in der Fassung selbst."
     },
@@ -179,13 +239,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0532", "celex": "32025R0532" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0532",
+        "celex": "32025R0532"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["drittparteien-auslagerung"],
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -199,13 +264,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1502", "celex": "32024R1502" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1502",
+        "celex": "32024R1502"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["drittparteien-auslagerung"],
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -219,13 +289,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1505", "celex": "32024R1505" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1505",
+        "celex": "32024R1505"
+      },
       "modus": "original",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["drittparteien-auslagerung"],
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
       "geprueft": true,
       "hinweis": "Für Finanzunternehmen nur mittelbar relevant (betrifft die Gebühren der CTPP)."
     },
@@ -239,13 +314,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0295", "celex": "32025R0295" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0295",
+        "celex": "32025R0295"
+      },
       "modus": "original",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["drittparteien-auslagerung"],
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -259,17 +339,21 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0420", "celex": "32025R0420" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32025R0420",
+        "celex": "32025R0420"
+      },
       "modus": "original",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "dora-level2",
       "konkretisiert": "dora",
-      "themen": ["drittparteien-auslagerung"],
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
       "geprueft": true,
       "hinweis": "Langtitel gekürzt."
     },
-
     {
       "id": "mago-va",
       "kurzname": "MaGo für SII-VU",
@@ -280,12 +364,23 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.bafin.de/", "suchbegriff": "MaGo Rundschreiben 09/2025 (VA)" },
+      "quelle": {
+        "url": "https://www.bafin.de/",
+        "suchbegriff": "MaGo Rundschreiben 09/2025 (VA)"
+      },
       "modus": "zusammenfassung",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "aufsicht-de",
-      "themen": ["it-governance", "iks", "ikt-risikomanagement", "drittparteien-auslagerung", "bcm-backup", "leitungsorgan", "funktionstrennung"],
+      "themen": [
+        "it-governance",
+        "iks",
+        "ikt-risikomanagement",
+        "drittparteien-auslagerung",
+        "bcm-backup",
+        "leitungsorgan",
+        "funktionstrennung"
+      ],
       "geprueft": false,
       "hinweis": "Direktlink und Rundschreiben-Nummer noch gegen die BaFin-Seite abzugleichen (Seitenstruktur der BaFin hat sich geändert). Darstellungsmodus vorläufig 'Zusammenfassung', bis die Nutzungsbedingungen für den Volltext geprüft und im Datensatz dokumentiert sind."
     },
@@ -299,12 +394,18 @@
       "status": "zu prüfen",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.bafin.de/", "suchbegriff": "MaGo kleine Versicherungsunternehmen" },
+      "quelle": {
+        "url": "https://www.bafin.de/",
+        "suchbegriff": "MaGo kleine Versicherungsunternehmen"
+      },
       "modus": "zusammenfassung",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "aufsicht-de",
-      "themen": ["it-governance", "iks"],
+      "themen": [
+        "it-governance",
+        "iks"
+      ],
       "geprueft": false,
       "hinweis": "Aktueller Stand und Fortgeltung noch zu ermitteln."
     },
@@ -318,12 +419,19 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.bafin.de/", "suchbegriff": "Aufsichtsmitteilung DORA IKT-Risikomanagement" },
+      "quelle": {
+        "url": "https://www.bafin.de/",
+        "suchbegriff": "Aufsichtsmitteilung DORA IKT-Risikomanagement"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "aufsicht-de",
-      "themen": ["ikt-risikomanagement", "drittparteien-auslagerung", "it-governance"],
+      "themen": [
+        "ikt-risikomanagement",
+        "drittparteien-auslagerung",
+        "it-governance"
+      ],
       "geprueft": false,
       "hinweis": "Direktlink noch zu verifizieren."
     },
@@ -337,12 +445,20 @@
       "status": "laufend aktualisiert",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.bafin.de/", "suchbegriff": "DORA FAQ" },
+      "quelle": {
+        "url": "https://www.bafin.de/",
+        "suchbegriff": "DORA FAQ"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "aufsicht-de",
-      "themen": ["ikt-risikomanagement", "incident-meldewesen", "informationsregister", "drittparteien-auslagerung"],
+      "themen": [
+        "ikt-risikomanagement",
+        "incident-meldewesen",
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ],
       "geprueft": false,
       "hinweis": "Wird fortgeschrieben – Kandidat für die Seitenüberwachung im Screening (Phase 5)."
     },
@@ -356,16 +472,24 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.bafin.de/", "suchbegriff": "MaRisk Rundschreiben" },
+      "quelle": {
+        "url": "https://www.bafin.de/",
+        "suchbegriff": "MaRisk Rundschreiben"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "referenz",
       "gruppe": "aufsicht-de",
-      "themen": ["iks", "ikt-risikomanagement", "drittparteien-auslagerung", "bcm-backup", "it-governance"],
+      "themen": [
+        "iks",
+        "ikt-risikomanagement",
+        "drittparteien-auslagerung",
+        "bcm-backup",
+        "it-governance"
+      ],
       "geprueft": false,
       "hinweis": "Vergleichsregelwerk für Kreditinstitute. Aktuelle Fassung und Rundschreiben-Nummer noch zu ermitteln."
     },
-
     {
       "id": "vag",
       "kurzname": "VAG",
@@ -376,12 +500,21 @@
       "status": "in Kraft",
       "gueltigAb": "2016-01-01",
       "gueltigBis": null,
-      "quelle": { "url": "https://www.gesetze-im-internet.de/vag_2016/", "fundstelle": "VAG 2016" },
+      "quelle": {
+        "url": "https://www.gesetze-im-internet.de/vag_2016/",
+        "fundstelle": "VAG 2016"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "recht-de",
-      "themen": ["it-governance", "iks", "drittparteien-auslagerung", "leitungsorgan", "funktionstrennung"],
+      "themen": [
+        "it-governance",
+        "iks",
+        "drittparteien-auslagerung",
+        "leitungsorgan",
+        "funktionstrennung"
+      ],
       "geprueft": true,
       "hinweis": "Vollständig aufgenommen. Fachlicher Schwerpunkt: §§ 23–32 (Geschäftsorganisation, Ausgliederung) und § 35 (Prüfung durch den Abschlussprüfer). Amtliches Werk, § 5 UrhG."
     },
@@ -395,12 +528,20 @@
       "status": "in Kraft",
       "gueltigAb": "2025-12-06",
       "gueltigBis": null,
-      "quelle": { "url": "https://www.gesetze-im-internet.de/bsig_2025/", "fundstelle": "BSIG 2025" },
+      "quelle": {
+        "url": "https://www.gesetze-im-internet.de/bsig_2025/",
+        "fundstelle": "BSIG 2025"
+      },
       "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "recht-de",
-      "themen": ["infosec", "incident-meldewesen", "ikt-risikomanagement", "leitungsorgan"],
+      "themen": [
+        "infosec",
+        "incident-meldewesen",
+        "ikt-risikomanagement",
+        "leitungsorgan"
+      ],
       "geprueft": true,
       "hinweis": "Verhältnis zu DORA (lex specialis, Ausnahmen, Meldewege) ist über Mappings abzubilden. Inkrafttreten laut Auftrag 06.12.2025 – noch gegen das Verkündungsblatt abzugleichen."
     },
@@ -414,12 +555,19 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022L2555", "celex": "32022L2555" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32022L2555",
+        "celex": "32022L2555"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "eu-recht",
-      "themen": ["infosec", "incident-meldewesen", "ikt-risikomanagement"],
+      "themen": [
+        "infosec",
+        "incident-meldewesen",
+        "ikt-risikomanagement"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -433,12 +581,21 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32009L0138", "celex": "32009L0138" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32009L0138",
+        "celex": "32009L0138"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "eu-recht",
-      "themen": ["it-governance", "iks", "leitungsorgan", "funktionstrennung", "drittparteien-auslagerung"],
+      "themen": [
+        "it-governance",
+        "iks",
+        "leitungsorgan",
+        "funktionstrennung",
+        "drittparteien-auslagerung"
+      ],
       "geprueft": true,
       "hinweis": "Schwerpunkt Governance-Artikel (Art. 41 ff.)."
     },
@@ -452,12 +609,21 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32015R0035", "celex": "32015R0035" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32015R0035",
+        "celex": "32015R0035"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "eu-recht",
-      "themen": ["it-governance", "iks", "leitungsorgan", "funktionstrennung", "drittparteien-auslagerung"],
+      "themen": [
+        "it-governance",
+        "iks",
+        "leitungsorgan",
+        "funktionstrennung",
+        "drittparteien-auslagerung"
+      ],
       "geprueft": true,
       "hinweis": "Schwerpunkt Governance-Artikel (Art. 258 ff.)."
     },
@@ -471,12 +637,20 @@
       "status": "in Kraft",
       "gueltigAb": "2018-05-25",
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679", "celex": "32016R0679" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679",
+        "celex": "32016R0679"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "eu-recht",
-      "themen": ["datenschutz", "infosec", "incident-meldewesen", "drittparteien-auslagerung"],
+      "themen": [
+        "datenschutz",
+        "infosec",
+        "incident-meldewesen",
+        "drittparteien-auslagerung"
+      ],
       "geprueft": true,
       "hinweis": "IT-relevante Teile: Art. 5, 24, 25, 28, 30, 32–36."
     },
@@ -490,12 +664,17 @@
       "status": "in Kraft",
       "gueltigAb": "2018-05-25",
       "gueltigBis": null,
-      "quelle": { "url": "https://www.gesetze-im-internet.de/bdsg_2018/", "fundstelle": "BDSG 2018" },
+      "quelle": {
+        "url": "https://www.gesetze-im-internet.de/bdsg_2018/",
+        "fundstelle": "BDSG 2018"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "recht-de",
-      "themen": ["datenschutz"],
+      "themen": [
+        "datenschutz"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -509,12 +688,19 @@
       "status": "in Kraft (gestufte Anwendung)",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689", "celex": "32024R1689" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R1689",
+        "celex": "32024R1689"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "eu-recht",
-      "themen": ["ki-governance", "it-governance", "iks"],
+      "themen": [
+        "ki-governance",
+        "it-governance",
+        "iks"
+      ],
       "geprueft": true,
       "hinweis": "Anwendungsstufen und Fristen noch je Vorschrift zu erfassen."
     },
@@ -528,12 +714,19 @@
       "status": "in Kraft (gestufte Anwendung)",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R2847", "celex": "32024R2847" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32024R2847",
+        "celex": "32024R2847"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "referenz",
       "gruppe": "eu-recht",
-      "themen": ["infosec", "sdlc", "drittparteien-auslagerung"],
+      "themen": [
+        "infosec",
+        "sdlc",
+        "drittparteien-auslagerung"
+      ],
       "geprueft": true,
       "hinweis": null
     },
@@ -547,12 +740,18 @@
       "status": "in Kraft (gestufte Anwendung)",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R2854", "celex": "32023R2854" },
+      "quelle": {
+        "url": "https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R2854",
+        "celex": "32023R2854"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "referenz",
       "gruppe": "eu-recht",
-      "themen": ["drittparteien-auslagerung", "datenschutz"],
+      "themen": [
+        "drittparteien-auslagerung",
+        "datenschutz"
+      ],
       "geprueft": true,
       "hinweis": "Relevant vor allem für Cloud-Wechsel und Datenportabilität."
     },
@@ -566,12 +765,20 @@
       "status": "zu prüfen",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.eiopa.europa.eu/publications_en", "suchbegriff": "Guidelines on system of governance" },
+      "quelle": {
+        "url": "https://www.eiopa.europa.eu/publications_en",
+        "suchbegriff": "Guidelines on system of governance"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "eu-aufsicht",
-      "themen": ["it-governance", "iks", "leitungsorgan", "funktionstrennung"],
+      "themen": [
+        "it-governance",
+        "iks",
+        "leitungsorgan",
+        "funktionstrennung"
+      ],
       "geprueft": false,
       "hinweis": "Fortgeltung und Fassung nach DORA noch zu prüfen und zu kennzeichnen."
     },
@@ -585,12 +792,18 @@
       "status": "zu prüfen",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.eiopa.europa.eu/publications_en", "suchbegriff": "Guidelines on outsourcing to cloud service providers" },
+      "quelle": {
+        "url": "https://www.eiopa.europa.eu/publications_en",
+        "suchbegriff": "Guidelines on outsourcing to cloud service providers"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "eu-aufsicht",
-      "themen": ["drittparteien-auslagerung", "it-governance"],
+      "themen": [
+        "drittparteien-auslagerung",
+        "it-governance"
+      ],
       "geprueft": false,
       "hinweis": "Nach Inkrafttreten von DORA ist der Anwendungsbereich zu prüfen; Status im Datensatz kennzeichnen."
     },
@@ -604,12 +817,17 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/tiber-de", "suchbegriff": "TIBER-DE" },
+      "quelle": {
+        "url": "https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/tiber-de",
+        "suchbegriff": "TIBER-DE"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "eu-aufsicht",
-      "themen": ["resilienztests"],
+      "themen": [
+        "resilienztests"
+      ],
       "geprueft": true,
       "hinweis": "Verhältnis zu TLPT nach DORA über Mappings abbilden."
     },
@@ -623,12 +841,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.gesetze-im-internet.de/hgb/", "fundstelle": "HGB" },
+      "quelle": {
+        "url": "https://www.gesetze-im-internet.de/hgb/",
+        "fundstelle": "HGB"
+      },
       "modus": "original",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "recht-de",
-      "themen": ["iks", "asset-konfiguration"],
+      "themen": [
+        "iks",
+        "asset-konfiguration"
+      ],
       "geprueft": true,
       "hinweis": "Als Auszug aufgenommen: nur §§ 238, 239 und 257 (Buchführung, Aufbewahrung). Das übrige HGB ist für die IT-Compliance ohne Belang."
     },
@@ -642,12 +866,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.gesetze-im-internet.de/ao_1977/", "fundstelle": "AO" },
+      "quelle": {
+        "url": "https://www.gesetze-im-internet.de/ao_1977/",
+        "fundstelle": "AO"
+      },
       "modus": "original",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "recht-de",
-      "themen": ["iks", "logging-monitoring"],
+      "themen": [
+        "iks",
+        "logging-monitoring"
+      ],
       "geprueft": true,
       "hinweis": "Als Auszug aufgenommen: nur §§ 146, 146a, 146b, 147, 147a und 147b (Ordnungsvorschriften, elektronische Aufzeichnungen, Aufbewahrung, Datenzugriff)."
     },
@@ -661,12 +891,20 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.bundesfinanzministerium.de/", "suchbegriff": "GoBD" },
+      "quelle": {
+        "url": "https://www.bundesfinanzministerium.de/",
+        "suchbegriff": "GoBD"
+      },
       "modus": "zusammenfassung",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "recht-de",
-      "themen": ["iks", "change-management", "logging-monitoring", "asset-konfiguration"],
+      "themen": [
+        "iks",
+        "change-management",
+        "logging-monitoring",
+        "asset-konfiguration"
+      ],
       "geprueft": false,
       "hinweis": "Direktlink und Fassung noch zu verifizieren."
     },
@@ -680,16 +918,24 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final", "suchbegriff": "SP 800-53 Rev. 5" },
+      "quelle": {
+        "url": "https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final",
+        "suchbegriff": "SP 800-53 Rev. 5"
+      },
       "modus": "original",
       "tiefe": "mittel",
       "relevanz": "referenz",
       "gruppe": "framework",
-      "themen": ["infosec", "opsec", "iam", "logging-monitoring", "kryptografie"],
+      "themen": [
+        "infosec",
+        "opsec",
+        "iam",
+        "logging-monitoring",
+        "kryptografie"
+      ],
       "geprueft": false,
       "hinweis": "NIST-Publikationen sind gemeinfrei; Volltext daher zulässig. Nur als Referenzkatalog für Mappings."
     },
-
     {
       "id": "cobit2019",
       "kurzname": "COBIT 2019",
@@ -700,12 +946,22 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.isaca.org/resources/cobit", "suchbegriff": "COBIT 2019" },
+      "quelle": {
+        "url": "https://www.isaca.org/resources/cobit",
+        "suchbegriff": "COBIT 2019"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "framework",
-      "themen": ["it-governance", "iks", "change-management", "incident-meldewesen", "test-anforderungsmanagement", "asset-konfiguration"],
+      "themen": [
+        "it-governance",
+        "iks",
+        "change-management",
+        "incident-meldewesen",
+        "test-anforderungsmanagement",
+        "asset-konfiguration"
+      ],
       "geprueft": true,
       "hinweis": "Kein zulässiger Volltext. 40 Governance- und Management-Objectives als eigene Zusammenfassungen (Phase 3)."
     },
@@ -719,12 +975,21 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.peoplecert.org/", "suchbegriff": "ITIL 4" },
+      "quelle": {
+        "url": "https://www.peoplecert.org/",
+        "suchbegriff": "ITIL 4"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "framework",
-      "themen": ["change-management", "incident-meldewesen", "it-governance", "test-anforderungsmanagement", "asset-konfiguration"],
+      "themen": [
+        "change-management",
+        "incident-meldewesen",
+        "it-governance",
+        "test-anforderungsmanagement",
+        "asset-konfiguration"
+      ],
       "geprueft": true,
       "hinweis": "Kein zulässiger Volltext. 34 Practices als eigene Zusammenfassungen (Phase 3)."
     },
@@ -738,14 +1003,26 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.iso.org/standard/27001", "suchbegriff": "ISO/IEC 27001:2022" },
+      "quelle": {
+        "url": "https://www.iso.org/standard/27001",
+        "suchbegriff": "ISO/IEC 27001:2022"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "framework",
-      "themen": ["infosec", "ikt-risikomanagement", "iks", "iam", "kryptografie", "logging-monitoring", "bcm-backup", "awareness"],
+      "themen": [
+        "infosec",
+        "ikt-risikomanagement",
+        "iks",
+        "iam",
+        "kryptografie",
+        "logging-monitoring",
+        "bcm-backup",
+        "awareness"
+      ],
       "geprueft": true,
-      "hinweis": "Kostenpflichtige Norm, kein Volltext. Je Klausel und Annex-A-Control eine eigene Zusammenfassung (Phase 3)."
+      "hinweis": "Kostenpflichtige Norm, kein Volltext. Aufgenommen als eigene Zusammenfassung: Klauseln 4 bis 10 und alle 93 Annex-A-Controls, je mit Zweck, Kernanforderungen, typischen Nachweisen und Bezügen. Kennungen und Titel sind noch gegen die Norm abzugleichen."
     },
     {
       "id": "iso27002",
@@ -757,12 +1034,21 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.iso.org/standard/27002", "suchbegriff": "ISO/IEC 27002" },
+      "quelle": {
+        "url": "https://www.iso.org/standard/27002",
+        "suchbegriff": "ISO/IEC 27002"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "framework",
-      "themen": ["infosec", "opsec", "iam", "kryptografie", "logging-monitoring"],
+      "themen": [
+        "infosec",
+        "opsec",
+        "iam",
+        "kryptografie",
+        "logging-monitoring"
+      ],
       "geprueft": false,
       "hinweis": "Kostenpflichtige Norm, kein Volltext."
     },
@@ -776,12 +1062,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.iso.org/standard/27005", "suchbegriff": "ISO/IEC 27005" },
+      "quelle": {
+        "url": "https://www.iso.org/standard/27005",
+        "suchbegriff": "ISO/IEC 27005"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "framework",
-      "themen": ["ikt-risikomanagement", "infosec"],
+      "themen": [
+        "ikt-risikomanagement",
+        "infosec"
+      ],
       "geprueft": false,
       "hinweis": "Kostenpflichtige Norm, kein Volltext."
     },
@@ -795,12 +1087,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.iso.org/standard/27017", "suchbegriff": "ISO/IEC 27017" },
+      "quelle": {
+        "url": "https://www.iso.org/standard/27017",
+        "suchbegriff": "ISO/IEC 27017"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "framework",
-      "themen": ["drittparteien-auslagerung", "infosec"],
+      "themen": [
+        "drittparteien-auslagerung",
+        "infosec"
+      ],
       "geprueft": false,
       "hinweis": "Kostenpflichtige Norm, kein Volltext."
     },
@@ -814,12 +1112,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.iso.org/standard/27018", "suchbegriff": "ISO/IEC 27018" },
+      "quelle": {
+        "url": "https://www.iso.org/standard/27018",
+        "suchbegriff": "ISO/IEC 27018"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "referenz",
       "gruppe": "framework",
-      "themen": ["datenschutz", "drittparteien-auslagerung"],
+      "themen": [
+        "datenschutz",
+        "drittparteien-auslagerung"
+      ],
       "geprueft": false,
       "hinweis": "Kostenpflichtige Norm, kein Volltext. Nummer 27018 gegen die ISO-Seite abgleichen (27018 vs. 27701)."
     },
@@ -833,12 +1137,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.iso.org/standard/22301", "suchbegriff": "ISO 22301" },
+      "quelle": {
+        "url": "https://www.iso.org/standard/22301",
+        "suchbegriff": "ISO 22301"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "framework",
-      "themen": ["bcm-backup", "resilienztests"],
+      "themen": [
+        "bcm-backup",
+        "resilienztests"
+      ],
       "geprueft": false,
       "hinweis": "Kostenpflichtige Norm, kein Volltext."
     },
@@ -852,14 +1162,23 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://cloudsecurityalliance.org/research/cloud-controls-matrix", "suchbegriff": "Cloud Controls Matrix v4" },
+      "quelle": {
+        "url": "https://cloudsecurityalliance.org/research/cloud-controls-matrix",
+        "suchbegriff": "Cloud Controls Matrix v4"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "framework",
-      "themen": ["drittparteien-auslagerung", "infosec", "iam", "kryptografie", "logging-monitoring"],
+      "themen": [
+        "drittparteien-auslagerung",
+        "infosec",
+        "iam",
+        "kryptografie",
+        "logging-monitoring"
+      ],
       "geprueft": false,
-      "hinweis": "Domänen und Control-Ziele zusammengefasst. Die von der CSA veröffentlichten Mappings dürfen nur im Rahmen ihrer Nutzungsbedingungen verwendet werden – vor der Übernahme prüfen und im Datensatz dokumentieren."
+      "hinweis": "Domänen der Cloud Controls Matrix als eigene Zusammenfassung (grobe Tiefe). Die von der CSA veröffentlichten Mappings dürfen nur im Rahmen ihrer Nutzungsbedingungen verwendet werden – das ist vor einer Übernahme zu prüfen und im Datensatz zu dokumentieren."
     },
     {
       "id": "coso-ic",
@@ -871,16 +1190,22 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.coso.org/guidance-on-ic", "suchbegriff": "COSO Internal Control Integrated Framework" },
+      "quelle": {
+        "url": "https://www.coso.org/guidance-on-ic",
+        "suchbegriff": "COSO Internal Control Integrated Framework"
+      },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
       "relevanz": "relevant",
       "gruppe": "framework",
-      "themen": ["iks", "it-governance", "funktionstrennung"],
+      "themen": [
+        "iks",
+        "it-governance",
+        "funktionstrennung"
+      ],
       "geprueft": false,
       "hinweis": "Kein zulässiger Volltext. IKS-Referenz für Mappings."
     },
-
     {
       "id": "bsi-c5",
       "kurzname": "BSI C5",
@@ -891,12 +1216,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.bsi.bund.de/", "suchbegriff": "C5 Kriterienkatalog" },
+      "quelle": {
+        "url": "https://www.bsi.bund.de/",
+        "suchbegriff": "C5 Kriterienkatalog"
+      },
       "modus": "zusammenfassung",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "framework",
-      "themen": ["drittparteien-auslagerung", "infosec"],
+      "themen": [
+        "drittparteien-auslagerung",
+        "infosec"
+      ],
       "geprueft": false,
       "hinweis": "Nur Kriterienbereiche im Überblick. Direktlink noch zu verifizieren."
     },
@@ -910,14 +1241,21 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.nist.gov/cyberframework", "suchbegriff": "Cybersecurity Framework 2.0" },
+      "quelle": {
+        "url": "https://www.nist.gov/cyberframework",
+        "suchbegriff": "Cybersecurity Framework 2.0"
+      },
       "modus": "zusammenfassung",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "framework",
-      "themen": ["infosec", "ikt-risikomanagement", "it-governance"],
+      "themen": [
+        "infosec",
+        "ikt-risikomanagement",
+        "it-governance"
+      ],
       "geprueft": false,
-      "hinweis": "Volltext wäre gemeinfrei; hier bewusst nur grobe Übersicht."
+      "hinweis": "Volltext wäre gemeinfrei; hier bewusst nur die sechs Funktionen im Überblick, weil das Rahmenwerk für Versicherungsunternehmen Referenzcharakter hat."
     },
     {
       "id": "gdv-coc",
@@ -929,16 +1267,20 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.gdv.de/", "suchbegriff": "Code of Conduct Datenschutz" },
+      "quelle": {
+        "url": "https://www.gdv.de/",
+        "suchbegriff": "Code of Conduct Datenschutz"
+      },
       "modus": "zusammenfassung",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "verband",
-      "themen": ["datenschutz"],
+      "themen": [
+        "datenschutz"
+      ],
       "geprueft": false,
       "hinweis": "Nur Kernaussagen im Überblick."
     },
-
     {
       "id": "idw-ps330",
       "kurzname": "IDW PS 330",
@@ -949,12 +1291,19 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.idw.de/", "suchbegriff": "IDW PS 330" },
+      "quelle": {
+        "url": "https://www.idw.de/",
+        "suchbegriff": "IDW PS 330"
+      },
       "modus": "zusammenfassung",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "pruefungsstandard",
-      "themen": ["iks", "it-governance", "change-management"],
+      "themen": [
+        "iks",
+        "it-governance",
+        "change-management"
+      ],
       "geprueft": false,
       "hinweis": "Nur Zweck und Anwendungsfall."
     },
@@ -968,12 +1317,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.idw.de/", "suchbegriff": "IDW PS 860" },
+      "quelle": {
+        "url": "https://www.idw.de/",
+        "suchbegriff": "IDW PS 860"
+      },
       "modus": "zusammenfassung",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "pruefungsstandard",
-      "themen": ["iks", "it-governance"],
+      "themen": [
+        "iks",
+        "it-governance"
+      ],
       "geprueft": false,
       "hinweis": "Nur Zweck und Anwendungsfall."
     },
@@ -987,12 +1342,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.idw.de/", "suchbegriff": "IDW PS 951" },
+      "quelle": {
+        "url": "https://www.idw.de/",
+        "suchbegriff": "IDW PS 951"
+      },
       "modus": "zusammenfassung",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "pruefungsstandard",
-      "themen": ["drittparteien-auslagerung", "iks"],
+      "themen": [
+        "drittparteien-auslagerung",
+        "iks"
+      ],
       "geprueft": false,
       "hinweis": "Nur Zweck und Anwendungsfall."
     },
@@ -1006,12 +1367,18 @@
       "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
-      "quelle": { "url": "https://www.iaasb.org/", "suchbegriff": "ISAE 3402" },
+      "quelle": {
+        "url": "https://www.iaasb.org/",
+        "suchbegriff": "ISAE 3402"
+      },
       "modus": "zusammenfassung",
       "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "pruefungsstandard",
-      "themen": ["drittparteien-auslagerung", "iks"],
+      "themen": [
+        "drittparteien-auslagerung",
+        "iks"
+      ],
       "geprueft": false,
       "hinweis": "Nur Zweck und Anwendungsfall."
     }

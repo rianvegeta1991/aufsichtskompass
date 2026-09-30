@@ -199,6 +199,31 @@ Schlusszeichen (`„so"`) beenden den JSON-String und machen die Datei ungültig
 ist `„so“`. Beide Dateien waren davon betroffen; `python -c "import json,io; json.load(...)"`
 findet es sofort.
 
+## Eigene Zusammenfassungen (Phase 3)
+
+Für Werke ohne zulässigen Volltext (ISO, COBIT, ITIL, CSA CCM …) liegen eigene
+Zusammenfassungen unter `daten/zusammenfassungen/<id>.json`. Je Eintrag: Kennung,
+Titel, Zweck, Kernanforderungen, typische Nachweise und Bezüge.
+
+**Der Kniff:** `kompass zusammenfassungen` formt sie in **dieselbe Form** wie die
+Originaltexte um – Gliederungsbaum plus Text je Fundstelle – und übergibt sie an
+dieselbe Versionslogik. Dadurch funktionieren Viewer, Deep-Links, Suche,
+Themenzuordnung, Beziehungen und Matrizen ohne einen einzigen Sonderweg. Was sich
+unterscheidet, steht im Katalog (`modus: zusammenfassung`) und im Quellenhinweis der
+Fassung; der Viewer zeigt daraufhin den Pflichthinweis
+„Eigene Zusammenfassung – ersetzt nicht das Original" samt Bezugsfassung, Herkunft
+und Prüfstatus (`zusammenfassungshinweis()` in `js/viewer.js`).
+
+Enthalten: **ISO/IEC 27001:2022 vollständig** (Klauseln 4–10 und alle 93 Annex-A-Controls,
+`#/rw/iso27001/a/5.19`), **CSA CCM v4** (17 Domänen) und **NIST CSF 2.0** (6 Funktionen),
+beide in grober Tiefe. Offen: COBIT 2019 (40 Objectives), ITIL 4 (34 Practices),
+BSI C5 und die GDV-Verhaltensregeln.
+
+**Wichtig zur Sorgfalt:** Der Normtext darf nicht wiedergegeben werden – die Texte sind
+durchweg selbst formuliert. Kennungen und Titel stammen aus dem Gedächtnis und sind
+**noch nicht gegen die Norm abgeglichen**; genau dafür steht `geprueft: false` in der
+Datei und „ungeprüft" im Hinweis der App.
+
 ## Deep-Links
 
 Adressen laufen über den Hash, weil GitHub Pages keine Pfade auf `index.html` umschreiben kann:
@@ -305,8 +330,8 @@ auch wirklich Text hat).
 ## Stand und offene Punkte
 
 Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht), Phase 2b (deutsche Gesetze),
-Phase 4 (Themenseiten, Beziehungen, Matrizen), Phase 5 (Screening) und
-Phase 7 (Lernbereich) –
+Phase 4 (Themenseiten, Beziehungen, Matrizen), Phase 5 (Screening), Phase 7 (Lernbereich)
+und Phase 3 zum größeren Teil (ISO 27001 vollständig, CSA CCM und NIST CSF im Überblick) –
 **20 Regelwerke im Volltext mit rund 3.750 adressierbaren Fundstellen**: DORA (DE/EN),
 die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und BDSG vollständig sowie HGB
 und AO als IT-relevanter Auszug. Viewer mit Gliederungsbaum, Deep-Links, Glossar aus den
@@ -326,10 +351,11 @@ Offen, in dieser Reihenfolge sinnvoll:
    Veröffentlichung zu prüfen und zu dokumentieren, und die BaFin hat ihre Seitenstruktur
    umgebaut – die Direktlinks müssen neu ermittelt werden. Bis dahin bleiben diese Einträge
    auf „Zusammenfassung" und `geprueft: false`.
-2. **Phase 3** – eigene Zusammenfassungen (ISO 27001 inkl. 93 Annex-A-Controls, COBIT 2019 mit
-   40 Objectives, ITIL 4 mit 34 Practices, CSA CCM; grob C5, NIST CSF 2.0, GDV). Das ist vor allem
-   Schreibarbeit und braucht mehrere Sitzungen. Pflicht je Eintrag: eigene Worte, Bezugsfassung,
-   Herkunft, Prüfstatus und der sichtbare Hinweis „Eigene Zusammenfassung – ersetzt nicht das Original".
+2. **Phase 3 abschließen** – es fehlen COBIT 2019 (40 Objectives), ITIL 4 (34 Practices),
+   BSI C5 und die GDV-Verhaltensregeln. Der Mechanismus steht, es ist reine Schreibarbeit:
+   eine neue Datei unter `daten/zusammenfassungen/` und ein Lauf von
+   `kompass zusammenfassungen`. Danach lohnt es, die ISO-Kennungen und -Titel gegen die
+   Norm abzugleichen und `geprueft` zu setzen.
 3. **Phase 4 vertiefen** – die Beziehungen zu MaGo, ISO 27001, COBIT und ITIL hängen bisher
    am ganzen Regelwerk und tragen die Konfidenz „niedrig", weil diese Werke noch keine
    Fundstellen haben. Mit Phase 3 lassen sie sich auf Control- bzw. Abschnittsebene

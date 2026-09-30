@@ -1,0 +1,93 @@
+{
+  "regelwerk": "nist-csf2",
+  "fassung": "2026-10-01",
+  "abgerufen": "2026-09-30T19:18:25Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: NIST Cybersecurity Framework 2.0",
+    "url": "https://www.nist.gov/cyberframework",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein NIST Cybersecurity Framework (NIST Cybersecurity Framework 2.0)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_csf",
+      "art": "abschnitt",
+      "nummer": "CSF",
+      "bez": "CSF",
+      "titel": {
+        "de": "Funktionen des Rahmenwerks"
+      },
+      "pfad": "gr/csf",
+      "kinder": [
+        {
+          "id": "z_gv",
+          "art": "control",
+          "nummer": "GV",
+          "bez": "GV",
+          "titel": {
+            "de": "Govern – Steuern"
+          },
+          "pfad": "f/gv",
+          "text": true
+        },
+        {
+          "id": "z_id",
+          "art": "control",
+          "nummer": "ID",
+          "bez": "ID",
+          "titel": {
+            "de": "Identify – Erkennen der eigenen Lage"
+          },
+          "pfad": "f/id",
+          "text": true
+        },
+        {
+          "id": "z_pr",
+          "art": "control",
+          "nummer": "PR",
+          "bez": "PR",
+          "titel": {
+            "de": "Protect – Schützen"
+          },
+          "pfad": "f/pr",
+          "text": true
+        },
+        {
+          "id": "z_de",
+          "art": "control",
+          "nummer": "DE",
+          "bez": "DE",
+          "titel": {
+            "de": "Detect – Erkennen von Ereignissen"
+          },
+          "pfad": "f/de",
+          "text": true
+        },
+        {
+          "id": "z_rs",
+          "art": "control",
+          "nummer": "RS",
+          "bez": "RS",
+          "titel": {
+            "de": "Respond – Reagieren"
+          },
+          "pfad": "f/rs",
+          "text": true
+        },
+        {
+          "id": "z_rc",
+          "art": "control",
+          "nummer": "RC",
+          "bez": "RC",
+          "titel": {
+            "de": "Recover – Wiederherstellen"
+          },
+          "pfad": "f/rc",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

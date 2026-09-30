@@ -1,5 +1,5 @@
 {
-  "gebaut": "2026-09-29T21:26:31Z",
+  "gebaut": "2026-09-30T19:18:25Z",
   "indizes": [
     {
       "regelwerk": "ao",
@@ -21,6 +21,13 @@
       "fassung": "2026-07-28",
       "datei": "rw/bsig/2026-07-28/index-de.json",
       "dokumente": 277
+    },
+    {
+      "regelwerk": "csa-ccm",
+      "sprache": "de",
+      "fassung": "2026-10-01",
+      "datei": "rw/csa-ccm/2026-10-01/index-de.json",
+      "dokumente": 17
     },
     {
       "regelwerk": "dora",
@@ -135,11 +142,25 @@
       "dokumente": 11
     },
     {
+      "regelwerk": "iso27001",
+      "sprache": "de",
+      "fassung": "2026-10-01",
+      "datei": "rw/iso27001/2026-10-01/index-de.json",
+      "dokumente": 100
+    },
+    {
       "regelwerk": "nis2",
       "sprache": "de",
       "fassung": "2024-10-15",
       "datei": "rw/nis2/2024-10-15/index-de.json",
       "dokumente": 350
+    },
+    {
+      "regelwerk": "nist-csf2",
+      "sprache": "de",
+      "fassung": "2026-10-01",
+      "datei": "rw/nist-csf2/2026-10-01/index-de.json",
+      "dokumente": 6
     },
     {
       "regelwerk": "vag",

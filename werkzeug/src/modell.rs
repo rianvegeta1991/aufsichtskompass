@@ -132,6 +132,9 @@ pub enum Art {
     Artikel,
     /// Paragraf deutscher Gesetze (§).
     Paragraf,
+    /// Control, Objective oder Practice eines Frameworks - dort, wo nur eine
+    /// eigene Zusammenfassung stehen darf.
+    Control,
     Absatz,
     Erwaegungsgrund,
     Bezugsvermerk,
@@ -148,6 +151,7 @@ impl Art {
             Art::Abschnitt => ("Abschnitt", "Section"),
             Art::Artikel => ("Artikel", "Article"),
             Art::Paragraf => ("§", "Section"),
+            Art::Control => ("Control", "Control"),
             Art::Absatz => ("Absatz", "paragraph"),
             Art::Erwaegungsgrund => ("Erwägungsgrund", "Recital"),
             Art::Bezugsvermerk => ("Bezugsvermerk", "Citation"),

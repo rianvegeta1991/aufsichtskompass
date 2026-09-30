@@ -1,5 +1,5 @@
 {
-  "gebaut": "2026-09-29T21:26:31Z",
+  "gebaut": "2026-09-30T19:18:25Z",
   "bestand": {
     "ao": {
       "fassung": {
@@ -52,6 +52,24 @@
         "etag": "\"cede-657b138fa6953\"",
         "hash": "3a03379e6ff7596c002e033c7130d8e5ed78913625159a300b160ed0bce08ac8",
         "fundstellen": 277
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
+    "csa-ccm": {
+      "fassung": {
+        "id": "2026-10-01",
+        "stand": "2026-10-01T00:00:00Z",
+        "abgerufen": "2026-09-30T19:18:24Z",
+        "quelle": {
+          "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Cloud Controls Matrix v4.x",
+          "url": "https://cloudsecurityalliance.org/research/cloud-controls-matrix",
+          "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein Cloud Security Alliance, Cloud Controls Matrix (Cloud Controls Matrix v4.x)."
+        },
+        "hash": "2506e1954441731f29bf4208b452b1b4382afb6d5f7962ea55cd4312d0820e64",
+        "fundstellen": 17
       },
       "sprachen": [
         "de"
@@ -358,6 +376,24 @@
       ],
       "fassungen": 1
     },
+    "iso27001": {
+      "fassung": {
+        "id": "2026-10-01",
+        "stand": "2026-10-01T00:00:00Z",
+        "abgerufen": "2026-09-30T19:18:25Z",
+        "quelle": {
+          "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: ISO/IEC 27001:2022",
+          "url": "https://www.iso.org/standard/27001",
+          "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27001 (ISO/IEC 27001:2022)."
+        },
+        "hash": "ffc9810a01897458914132866c9701eb700520fbf1513d12a9dfa57a25d81d43",
+        "fundstellen": 100
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
     "nis2": {
       "fassung": {
         "id": "2024-10-15",
@@ -372,6 +408,24 @@
         "etag": "\"Con-20241015165900000\"",
         "hash": "7d0219a507c8418b84e8c826b50bd0f45f51abeaa7727a15db4eaf35f499283f",
         "fundstellen": 350
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
+    "nist-csf2": {
+      "fassung": {
+        "id": "2026-10-01",
+        "stand": "2026-10-01T00:00:00Z",
+        "abgerufen": "2026-09-30T19:18:25Z",
+        "quelle": {
+          "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: NIST Cybersecurity Framework 2.0",
+          "url": "https://www.nist.gov/cyberframework",
+          "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein NIST Cybersecurity Framework (NIST Cybersecurity Framework 2.0)."
+        },
+        "hash": "2b7f76b40e4c4e4f05692555bda808ec3661633ce1a251dd4700182ee5e513cf",
+        "fundstellen": 6
       },
       "sprachen": [
         "de"
