@@ -1,0 +1,190 @@
+# Abhaengigkeiten des Werkzeugs (Stand 2026-10-01)
+#
+# Erzeugt mit: cargo tree --prefix none --no-dedupe | sort -u
+# Die App selbst hat KEINE Abhaengigkeiten - kein Build, kein Paketmanager, kein CDN.
+#
+# Auf Sicherheitsmeldungen pruefen: 'cargo audit' bzw. 'cargo deny check advisories'
+# (beide hier nicht installiert; beim naechsten Netzzugang nachholen).
+
+adler2 v2.0.1
+aho-corasick v1.1.5
+anyhow v1.0.104
+async-compression v0.4.48
+atomic-waker v1.1.2
+autocfg v1.5.1
+aws-lc-rs v1.18.1
+aws-lc-sys v0.45.0
+base64 v0.23.1
+bitflags v2.13.2
+block-buffer v0.10.4
+bumpalo v3.20.3
+byteorder v1.5.0
+bytes v1.12.1
+cc v1.5.1
+cfg-if v1.0.5
+chrono v0.4.45
+chrono-tz v0.10.4
+cmake v0.1.58
+compression-codecs v0.4.43
+compression-core v0.4.33
+core_detect v1.0.0
+cpufeatures v0.2.17
+crc32fast v1.5.2
+crypto-common v0.1.7
+cssparser v0.35.0
+cssparser-macros v0.6.1 (proc-macro)
+derive_more v2.1.1
+derive_more-impl v2.1.1 (proc-macro)
+digest v0.10.7
+displaydoc v0.2.7 (proc-macro)
+dtoa v1.0.11
+dtoa-short v0.3.5
+dunce v1.0.5
+ego-tree v0.10.0
+encoding_rs v0.8.42
+equivalent v1.0.2
+find-msvc-tools v0.1.14
+flate2 v1.1.10
+form_urlencoded v1.2.2
+fs_extra v1.3.0
+futf v0.1.5
+futures-channel v0.3.34
+futures-core v0.3.34
+futures-io v0.3.34
+futures-sink v0.3.34
+futures-task v0.3.34
+futures-util v0.3.34
+fxhash v0.2.1
+generic-array v0.14.7
+getopts v0.2.24
+getrandom v0.4.3
+hashbrown v0.17.1
+hex v0.4.3
+html5ever v0.35.0
+http v1.5.0
+http-body v1.1.0
+http-body-util v0.1.5
+httparse v1.10.1
+hyper v1.11.1
+hyper-rustls v0.27.10
+hyper-util v0.1.21
+icu_collections v2.3.0
+icu_locale_core v2.3.0
+icu_normalizer v2.3.0
+icu_normalizer_data v2.3.0
+icu_properties v2.3.0
+icu_properties_data v2.3.0
+icu_provider v2.3.1
+idna v1.1.0
+idna_adapter v1.2.2
+indexmap v2.14.2
+ipnet v2.12.2
+itoa v1.0.18
+jobserver v0.1.35
+kompass-werkzeug v0.1.0 (C:\Users\Bastian\Claude Data\aufsichtskompass\werkzeug)
+libc v0.2.189
+litemap v0.8.3
+lock_api v0.4.14
+log v0.4.34
+mac v0.1.1
+markup5ever v0.35.0
+match_token v0.35.0 (proc-macro)
+memchr v2.8.3
+mime v0.3.17
+miniz_oxide v0.9.1
+mio v1.2.3
+multiversion_no_op v1.0.0 (proc-macro)
+new_debug_unreachable v1.0.6
+num-traits v0.2.19
+once_cell v1.21.4
+parking_lot v0.12.5
+parking_lot_core v0.9.12
+percent-encoding v2.3.2
+phf v0.11.3
+phf v0.12.1
+phf_codegen v0.11.3
+phf_generator v0.11.3
+phf_macros v0.11.3 (proc-macro)
+phf_shared v0.11.3
+phf_shared v0.12.1
+pin-project-lite v0.2.17
+potential_utf v0.1.6
+precomputed-hash v0.1.1
+proc-macro2 v1.0.107
+quote v1.0.47
+rand v0.8.8
+rand_core v0.6.4
+regex v1.13.1
+regex-automata v0.4.18
+regex-syntax v0.8.11
+reqwest v0.13.5
+roxmltree v0.21.1
+rustc_version v0.4.1
+rustls v0.23.45
+rustls-pki-types v1.15.1
+rustls-platform-verifier v0.7.1
+rustls-webpki v0.103.15
+rustversion v1.0.23 (proc-macro)
+scopeguard v1.2.0
+scraper v0.24.0
+selectors v0.31.0
+semver v1.0.28
+serde v1.0.229
+serde_core v1.0.229
+serde_derive v1.0.229 (proc-macro)
+serde_json v1.0.151
+servo_arc v0.4.3
+sha2 v0.10.9
+shlex v2.0.1
+simd-adler32 v0.3.10
+simdutf8 v0.1.5
+siphasher v1.0.4
+slab v0.4.12
+smallvec v1.16.2
+socket2 v0.6.5
+stable_deref_trait v1.2.1
+string_cache v0.8.9
+string_cache_codegen v0.5.4
+subtle v2.6.1
+syn v2.0.119
+syn v3.0.6
+sync_wrapper v1.0.2
+synstructure v0.14.0
+tendril v0.4.3
+tinystr v0.8.4
+tokio v1.53.1
+tokio-rustls v0.26.5
+tokio-util v0.7.19
+tower v0.5.3
+tower-http v0.6.11
+tower-layer v0.3.3
+tower-service v0.3.3
+tracing v0.1.44
+tracing-core v0.1.36
+try-lock v0.2.5
+typed-path v0.12.3
+typenum v1.20.1
+unicode-ident v1.0.26
+unicode-width v0.2.2
+untrusted v0.9.0
+url v2.5.8
+utf-8 v0.7.6
+utf8_iter v1.0.4
+version_check v0.9.5
+want v0.3.1
+web_atoms v0.1.3
+windows-link v0.2.1
+windows-sys v0.61.2
+writeable v0.6.4
+yoke v0.8.3
+yoke-derive v0.8.3 (proc-macro)
+zerofrom v0.1.8
+zerofrom-derive v0.1.8 (proc-macro)
+zeroize v1.9.0
+zerotrie v0.2.5
+zerovec v0.11.8
+zerovec-derive v0.11.6 (proc-macro)
+zip v8.6.0
+zlib-rs v0.6.8
+zmij v1.0.23
+zopfli v0.8.3

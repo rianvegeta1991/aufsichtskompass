@@ -22,8 +22,11 @@ use std::collections::BTreeMap;
 use std::io::Read;
 
 pub const BASIS: &str = "https://www.gesetze-im-internet.de";
+const KENNUNG: &str = "Aufsichtskompass/0.1 (private Lernanwendung)";
 
 pub struct Abruf {
+    /// Abgerufene Adresse - steht im Protokoll des Laufs und in Fehlermeldungen.
+    #[allow(dead_code)]
     pub url: String,
     pub etag: Option<String>,
     pub stand: Option<String>,
@@ -31,12 +34,14 @@ pub struct Abruf {
 }
 
 /// Holt die XML-Fassung eines Gesetzes und packt sie aus.
-pub fn hole(kennung: &str, etag: Option<&str>) -> Result<Option<Abruf>> {
+pub fn hole(
+    leine: &crate::netz::Leine,
+    kennung: &str,
+    etag: Option<&str>,
+) -> Result<Option<Abruf>> {
     let url = format!("{BASIS}/{kennung}/xml.zip");
-    let klient = reqwest::blocking::Client::builder()
-        .user_agent("Aufsichtskompass/0.1 (private Lernanwendung)")
-        .timeout(std::time::Duration::from_secs(180))
-        .build()?;
+    leine.erlaubt(&url)?;
+    let klient = leine.klient(KENNUNG, 180)?;
     let mut anfrage = klient.get(&url);
     if let Some(e) = etag {
         anfrage = anfrage.header("If-None-Match", e);
@@ -493,11 +498,10 @@ fn marke_lesen(t: &str) -> Option<String> {
 }
 
 fn marke_weg(t: &str) -> String {
-    if marke_lesen(t).is_some() {
-        if let Some((_, rest)) = t.split_once(')') {
+    if marke_lesen(t).is_some()
+        && let Some((_, rest)) = t.split_once(')') {
             return rest.trim_start().to_string();
         }
-    }
     t.to_string()
 }
 
@@ -514,6 +518,104 @@ mod tests {
         // Keine Marke: Klammern im laufenden Text
         assert_eq!(marke_lesen("(Produktfreigabeverfahren) Das Verfahren"), None);
         assert_eq!(marke_lesen("(a) Buchstabe zuerst"), None);
+    }
+
+    /// Aufbau wie in der XML-Fassung von gesetze-im-internet.de: erst die Norm
+    /// mit der Gliederungseinheit, dann die Paragrafen darunter.
+    const GESETZ: &str = r#"<?xml version="1.0" encoding="utf-8"?>
+    <dokumente>
+      <norm><metadaten><jurabk>VAG 2016</jurabk><enbez>Inhaltsübersicht</enbez></metadaten></norm>
+      <norm><metadaten><jurabk>VAG 2016</jurabk>
+        <gliederungseinheit><gliederungskennzahl>020</gliederungskennzahl>
+          <gliederungsbez>Erstes Kapitel</gliederungsbez>
+          <gliederungstitel>Vorschriften für die Erstversicherung</gliederungstitel></gliederungseinheit>
+      </metadaten></norm>
+      <norm><metadaten><jurabk>VAG 2016</jurabk>
+        <gliederungseinheit><gliederungskennzahl>020030</gliederungskennzahl>
+          <gliederungsbez>Zweiter Abschnitt</gliederungsbez>
+          <gliederungstitel>Geschäftsorganisation</gliederungstitel></gliederungseinheit>
+      </metadaten></norm>
+      <norm>
+        <metadaten><jurabk>VAG 2016</jurabk><enbez>§ 23</enbez>
+          <titel>Allgemeine Anforderungen an die Geschäftsorganisation</titel></metadaten>
+        <textdaten><text><Content>
+          <P>(1) Versicherungsunternehmen müssen über eine Geschäftsorganisation verfügen.</P>
+          <P>(2) Die Geschäftsorganisation umfasst
+            <DL><DT>1.</DT><DD><LA>ein Risikomanagement,</LA></DD>
+                <DT>2.</DT><DD><LA>ein internes Kontrollsystem.</LA></DD></DL>
+          </P>
+        </Content></text></textdaten>
+      </norm>
+      <norm>
+        <metadaten><jurabk>VAG 2016</jurabk><enbez>§ 26</enbez><titel>Risikomanagement</titel></metadaten>
+        <textdaten><text><Content><P>Versicherungsunternehmen müssen ein wirksames Risikomanagement haben.</P></Content></text></textdaten>
+      </norm>
+    </dokumente>"#;
+
+    #[test]
+    fn ganzes_gesetz_mit_gliederung() {
+        let g = parse(GESETZ, &[]).unwrap();
+        assert_eq!(g.jurabk.as_deref(), Some("VAG 2016"));
+        // Kapitel -> Abschnitt -> Paragrafen
+        assert_eq!(g.knoten.len(), 1);
+        let kapitel = &g.knoten[0];
+        assert_eq!(kapitel.art, Art::Kapitel);
+        assert_eq!(kapitel.bez.as_deref(), Some("Erstes Kapitel"), "Wortform der Quelle bleibt");
+        let abschnitt = &kapitel.kinder[0];
+        assert_eq!(abschnitt.art, Art::Abschnitt);
+        let paragrafen: Vec<&str> =
+            abschnitt.kinder.iter().map(|k| k.pfad.as_deref().unwrap_or("")).collect();
+        assert_eq!(paragrafen, ["par/23", "par/26"]);
+
+        // § 23 hat zwei Absaetze, § 26 traegt seinen Text unmittelbar.
+        let p23 = &abschnitt.kinder[0];
+        assert_eq!(p23.bez.as_deref(), Some("§ 23"));
+        assert_eq!(p23.kinder.len(), 2);
+        assert_eq!(p23.kinder[1].pfad.as_deref(), Some("par/23/abs/2"));
+        assert!(g.texte.contains_key("par_26"));
+        assert!(!g.texte.contains_key("par_23"));
+
+        // Die Aufzaehlung im Absatz wird zur Liste, der Text davor bleibt stehen.
+        let abs2 = g.texte.get("par_23.2").unwrap();
+        assert!(matches!(abs2[0], Block::P { .. }));
+        let liste = abs2.iter().find_map(|b| match b {
+            Block::Liste { p } => Some(p),
+            _ => None,
+        }).expect("Aufzaehlung erkannt");
+        assert_eq!(liste.len(), 2);
+        assert_eq!(liste[0].m, "1.");
+        assert_eq!(liste[1].t, "ein internes Kontrollsystem.");
+    }
+
+    #[test]
+    fn auszug_nimmt_nur_die_benannten_paragrafen() {
+        let g = parse(GESETZ, &["26".to_string()]).unwrap();
+        let mut pfade = Vec::new();
+        fn sammle(kn: &[Knoten], aus: &mut Vec<String>) {
+            for k in kn {
+                if let Some(p) = &k.pfad {
+                    aus.push(p.clone());
+                }
+                sammle(&k.kinder, aus);
+            }
+        }
+        sammle(&g.knoten, &mut pfade);
+        assert!(pfade.contains(&"par/26".to_string()));
+        assert!(!pfade.contains(&"par/23".to_string()));
+        // Leere Gliederungsaeste werden weggeraeumt - der Ast ueber § 26 bleibt stehen.
+        // Gliederungsknoten tragen ihre Kennzahl im Pfad ("gl/020030").
+        assert_eq!(pfade, ["gl/020", "gl/020030", "par/26"], "nur der tragende Ast bleibt");
+    }
+
+    #[test]
+    fn ohne_paragrafen_wird_abgebrochen() {
+        // Liefert die Quelle nichts Brauchbares, darf der Bestand nicht ueberschrieben werden.
+        let leer = r#"<?xml version="1.0"?><dokumente><norm><metadaten><jurabk>X</jurabk>
+          <enbez>Inhaltsübersicht</enbez></metadaten></norm></dokumente>"#;
+        assert!(parse(leer, &[]).is_err());
+        assert!(parse("kein XML", &[]).is_err());
+        // Auszug, dessen Paragraf im Gesetz fehlt: ebenfalls Abbruch statt leerer Fassung.
+        assert!(parse(GESETZ, &["999".to_string()]).is_err());
     }
 
     #[test]

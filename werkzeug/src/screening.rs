@@ -30,7 +30,9 @@ pub struct Feedquelle {
     pub url: String,
     #[serde(default)]
     pub herausgeber: String,
+    /// Nutzungsbedingungen der Quelle - dokumentationspflichtig, wird nicht ausgewertet.
     #[serde(default)]
+    #[allow(dead_code)]
     pub nutzung: Option<String>,
     #[serde(default)]
     pub aktiv: Option<bool>,
@@ -158,11 +160,8 @@ pub struct Quellgedaechtnis {
 
 // ----------------------------------------------------------------------- Abruf
 
-pub fn klient() -> Result<reqwest::blocking::Client> {
-    Ok(reqwest::blocking::Client::builder()
-        .user_agent("Aufsichtskompass/0.1 (private Lernanwendung; taeglicher Lauf)")
-        .timeout(std::time::Duration::from_secs(60))
-        .build()?)
+pub fn klient(leine: &crate::netz::Leine) -> Result<reqwest::blocking::Client> {
+    leine.klient("Aufsichtskompass/0.1 (private Lernanwendung; taeglicher Lauf)", 60)
 }
 
 pub struct Antwort {
@@ -173,10 +172,14 @@ pub struct Antwort {
 }
 
 pub fn hole(
+    leine: &crate::netz::Leine,
     klient: &reqwest::blocking::Client,
     url: &str,
     gedaechtnis: Option<&Quellgedaechtnis>,
 ) -> Result<Antwort> {
+    // Erst die Leine, dann die Verbindung: eine Quelle, die nicht auf der Liste
+    // steht, wird gar nicht angefragt (Phase 8, Schutz vor SSRF).
+    leine.erlaubt(url)?;
     let mut anfrage = klient.get(url);
     if let Some(g) = gedaechtnis {
         if let Some(e) = &g.etag {
@@ -250,7 +253,10 @@ pub fn feed_lesen(roh: &str) -> Result<Vec<Roheintrag>> {
             .or_else(|| kind("summary"))
             .or_else(|| kind("content"))
             .unwrap_or_default();
-        if titel.is_empty() || url.is_empty() {
+        // Nur http(s) uebernehmen: was eine fremde Quelle als Adresse schickt,
+        // landet spaeter in einem Link der App. `javascript:`, `data:` und
+        // Verwandte haben dort nichts zu suchen (Phase 8).
+        if titel.is_empty() || !ist_webadresse(&url) {
             continue;
         }
         aus.push(Roheintrag { titel: text_saeubern(&titel), url, datum, text: text_saeubern(&text) });
@@ -311,6 +317,12 @@ pub fn text_saeubern(s: &str) -> String {
 
 /// URL auf das Wesentliche zurückführen: ohne Tracking-Parameter, ohne Anker,
 /// ohne abschließenden Schrägstrich.
+/// Taugt die Adresse als Link in der App? Nur http und https, Rest fliegt raus.
+pub fn ist_webadresse(url: &str) -> bool {
+    let u = url.trim().to_ascii_lowercase();
+    (u.starts_with("https://") || u.starts_with("http://")) && u.len() > 10
+}
+
 pub fn url_kanonisch(url: &str) -> String {
     let ohne_anker = url.split('#').next().unwrap_or(url);
     let (pfad, abfrage) = match ohne_anker.split_once('?') {
@@ -632,5 +644,76 @@ mod tests {
 
         let b2 = bewerten("Stellenangebot", "Wir suchen", &tax);
         assert!(b2.punkte < 0);
+    }
+
+    #[test]
+    fn nur_webadressen_kommen_aus_dem_feed() {
+        let feed = r#"<rss><channel>
+          <item><title>Gut</title><link>https://beispiel.test/eins</link></item>
+          <item><title>Boese</title><link>javascript:alert(1)</link></item>
+          <item><title>Daten</title><link>data:text/html,x</link></item>
+          <item><title>Leer</title><link></link></item>
+        </channel></rss>"#;
+        let e = feed_lesen(feed).unwrap();
+        assert_eq!(e.len(), 1, "nur http(s) wird uebernommen");
+        assert_eq!(e[0].url, "https://beispiel.test/eins");
+        assert!(ist_webadresse("http://beispiel.test/x"));
+        assert!(!ist_webadresse("ftp://beispiel.test/x"));
+        assert!(!ist_webadresse("https://"));
+    }
+
+    #[test]
+    fn text_wird_von_html_und_entitaeten_befreit() {
+        let roh = "<p>Aufsicht&nbsp;pr&uuml;ft   die
+  Ma&szlig;nahmen &amp; mehr</p>";
+        assert_eq!(text_saeubern(roh), "Aufsicht prüft die Maßnahmen & mehr");
+        // Unbekannte Entitaet wird zu Leerraum, nicht zu Text.
+        assert_eq!(text_saeubern("a&unbekannt;b"), "a b");
+    }
+
+    #[test]
+    fn kategorien_fuer_die_haeufigen_faelle() {
+        assert_eq!(kategorie("Konsultation zu DORA", ""), "Konsultation");
+        assert_eq!(kategorie("Neue Schwachstelle", "ransomware"), "Vorfall & Bedrohungslage");
+        assert_eq!(kategorie("Bußgeld verhaengt", ""), "Sanktion");
+        assert_eq!(kategorie("Delegierte Verordnung", "tritt in kraft"), "Neue Regulierung");
+        assert_eq!(kategorie("Leitlinie geaendert", "neufassung"), "Änderung");
+        assert_eq!(kategorie("Rundschreiben", ""), "Aufsichtspraxis");
+        assert_eq!(kategorie("Jahresbericht", "Zahlen"), "Fachartikel");
+    }
+
+    #[test]
+    fn zusammenfassung_waehlt_die_passenden_saetze() {
+        let text = "Ein einleitender Satz ohne Bezug zur Sache.                     Die Aufsicht erwartet ein Informationsregister nach DORA.                     Noch ein Satz ohne jeden Bezug zur Fragestellung.                     Das Register ist jaehrlich einzureichen und vollstaendig zu fuehren.";
+        let z = zusammenfassen(text, &["Informationsregister".to_string(), "Register".to_string()], 200);
+        assert!(z.contains("Informationsregister"), "{z}");
+        assert!(!z.contains("ohne Bezug zur Sache"), "der belanglose Satz fehlt: {z}");
+        // Kurzer Text bleibt, wie er ist.
+        assert_eq!(zusammenfassen("Kurz und knapp.", &[], 200), "Kurz und knapp.");
+        // Ohne Satzzeichen wird hart geschnitten, aber mit Zeichen-, nicht Bytegrenze.
+        let lang = "ä".repeat(60);
+        let z2 = zusammenfassen(&lang, &[], 20);
+        assert_eq!(z2.chars().count(), 21, "20 Zeichen und Auslassungspunkt");
+    }
+
+    #[test]
+    fn datum_und_monatsdatei() {
+        let rfc2822 = "Wed, 30 Sep 2026 08:15:00 +0200".to_string();
+        assert_eq!(datum_iso(Some(&rfc2822)).as_deref(), Some("2026-09-30T06:15:00Z"));
+        let rfc3339 = "2026-09-30T08:15:00+02:00".to_string();
+        assert_eq!(datum_iso(Some(&rfc3339)).as_deref(), Some("2026-09-30T06:15:00Z"));
+        assert_eq!(datum_iso(Some(&"Unfug".to_string())), None);
+        assert_eq!(datum_iso(None), None);
+        assert_eq!(monat("2026-09-30T06:15:00Z"), "2026-09");
+        // Unlesbares Datum: dann die laufende Monatsdatei, nicht Absturz.
+        assert_eq!(monat("Unfug").len(), 7);
+    }
+
+    #[test]
+    fn kennung_ist_stabil_gegen_schmuck_in_der_adresse() {
+        let a = kennung("https://www.bafin.de/x.html?nn=1&utm_source=rss#anker");
+        let b = kennung("https://www.bafin.de/x.html");
+        assert_eq!(a, b, "dieselbe Meldung, dieselbe Kennung");
+        assert_ne!(a, kennung("https://www.bafin.de/y.html"));
     }
 }

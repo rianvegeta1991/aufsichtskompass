@@ -1,7 +1,7 @@
 // Regelwerks-Bibliothek: Katalog mit Filtern. Der Katalog selbst ist eine Datei
 // (daten/regelwerke.json) – ein neues Regelwerk erscheint hier ohne Code-Änderung.
 
-import { el, leere, chip, datum, zahl, titel, VERBINDLICHKEIT, MODUS, TIEFE, kurz } from './ui.js';
+import { el, leere, chip, datum, zahl, titel, externURL, VERBINDLICHKEIT, MODUS, TIEFE, kurz } from './ui.js';
 import * as daten from './daten.js';
 import * as nutzer from './nutzer.js';
 
@@ -148,7 +148,9 @@ function karte(r, th) {
     el('div.fuss',
       el('span', r.herausgeber),
       r._fassung ? el('span', `Fassung ${datum(r._fassung.id)} · ${zahl(r._fassung.fundstellen)} Fundstellen`) : el('span', 'noch kein Volltext'),
-      r.quelle && r.quelle.url ? el('a', { href: r.quelle.url, target: '_blank', rel: 'noopener' }, 'amtliche Quelle ↗') : null,
+      externURL(r.quelle && r.quelle.url)
+        ? el('a', { href: externURL(r.quelle.url), target: '_blank', rel: 'noopener' }, 'amtliche Quelle ↗')
+        : null,
       el('span', { style: 'margin-left:auto' }, relWahl),
     ),
   );

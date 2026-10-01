@@ -4,8 +4,20 @@
 // werden nur die Monate, die gebraucht werden. Was der Nutzer damit macht - gelesen,
 // gemerkt, Rückmeldung zur Relevanz - bleibt ausschließlich auf seinem Gerät.
 
-import { el, leere, chip, datum, zahl, kurz, titel, tabelle, exportknoepfe, fehlerkarte, ton } from './ui.js';
+import { el, leere, chip, datum, zahl, kurz, titel, tabelle, exportknoepfe, fehlerkarte, ton, externURL } from './ui.js';
 import * as daten from './daten.js';
+
+/**
+ * Link auf eine Meldung. Die Adresse stammt aus einem fremden Feed, deshalb geht
+ * sie durch `externURL`; trägt sie etwas anderes als http(s), bleibt der Titel
+ * stehen – nur ohne Link (Phase 8).
+ */
+function aussenlink(url, ...inhalt) {
+  const u = externURL(url);
+  return u
+    ? el('a', { href: u, target: '_blank', rel: 'noopener noreferrer' }, ...inhalt)
+    : el('span', { title: 'Die Quelle hat keine verwendbare Adresse mitgeliefert.' }, ...inhalt);
+}
 import * as nutzer from './nutzer.js';
 
 const WURZEL = 'daten/news/';
@@ -164,7 +176,7 @@ function karte(m) {
       el('span.punktzahl', datum(m.datum)),
       el('span.punktzahl', { title: (m.begruendung || []).join(' · ') }, `Relevanz ${m.punkte}`)),
     el('h2', { style: 'font-size:1.03rem;margin:0 0 5px' },
-      el('a', { href: m.url, target: '_blank', rel: 'noopener noreferrer' }, m.titel, ' ↗')),
+      aussenlink(m.url, m.titel, ' ↗')),
     m.zusammenfassung ? el('p', { style: 'margin:0 0 8px;color:var(--color-text-muted)' }, kurz(m.zusammenfassung, 300)) : null,
   );
 

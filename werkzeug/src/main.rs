@@ -13,6 +13,7 @@
 mod cellar;
 mod gii;
 mod modell;
+mod netz;
 mod screening;
 mod suche;
 mod verweise;
@@ -95,24 +96,31 @@ fn daten_ordner(angabe: Option<String>) -> Result<PathBuf> {
     bail!("Datenordner nicht gefunden - mit --daten <pfad> angeben")
 }
 
+/// Die Leine fuer alle Abrufe - Hostliste aus `quellen.json`. Fehlt sie, bricht
+/// der Lauf ab: ohne Liste wuerde das Werkzeug beliebige Adressen abrufen.
+fn leine_laden(daten: &Path) -> Result<netz::Leine> {
+    let quellen: serde_json::Value = lies_json(&daten.join("quellen.json"))?;
+    netz::Leine::aus_quellen(&quellen)
+}
+
 // ----------------------------------------------------------------------- Abruf
 
 fn abruf(daten: &Path, nur: Option<&str>, erzwingen: bool) -> Result<()> {
     let liste: Quellenliste = lies_json(&daten.join("quellen.json"))?;
+    let leine = leine_laden(daten)?;
     let mut behandelt = 0;
     for k in &liste.konnektoren {
         if k.aktiv == Some(false) {
             continue;
         }
-        if let Some(n) = nur {
-            if k.regelwerk != n {
+        if let Some(n) = nur
+            && k.regelwerk != n {
                 continue;
             }
-        }
         behandelt += 1;
         match k.typ.as_str() {
-            "cellar" => abruf_cellar(daten, k, erzwingen)?,
-            "gii" => abruf_gii(daten, k, erzwingen)?,
+            "cellar" => abruf_cellar(daten, &leine, k, erzwingen)?,
+            "gii" => abruf_gii(daten, &leine, k, erzwingen)?,
             sonst => println!("[{}] Konnektortyp '{sonst}' noch nicht umgesetzt - uebersprungen", k.regelwerk),
         }
     }
@@ -139,7 +147,7 @@ fn register_laden(
     Ok((pfad, register, letzte, etag))
 }
 
-fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
+fn abruf_cellar(daten: &Path, leine: &netz::Leine, k: &Konnektor, erzwingen: bool) -> Result<()> {
     let rw = &k.regelwerk;
     let celex = k
         .celex
@@ -154,7 +162,7 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
     let (_, _, _, etag) = register_laden(daten, rw, erzwingen)?;
 
     println!("[{rw}] CELEX {celex}, Sprachen {sprachen:?} - Abruf laeuft ...");
-    let Some(haupt) = cellar::hole(celex, &leit, etag.as_deref())? else {
+    let Some(haupt) = cellar::hole(leine, celex, &leit, etag.as_deref())? else {
         println!("[{rw}] unveraendert (ETag der Quelle stimmt) - nichts zu tun.");
         return Ok(());
     };
@@ -165,7 +173,7 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
 
     // Weitere Sprachfassungen: gleiche Kennungen, nur andere Texte und Titel.
     for s in sprachen.iter().skip(1) {
-        match cellar::hole(celex, s, None)? {
+        match cellar::hole(leine, celex, s, None)? {
             Some(a) => {
                 let g = cellar::parse(&a.koerper)?;
                 let ks = kurz(s);
@@ -197,7 +205,7 @@ fn abruf_cellar(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
     )
 }
 
-fn abruf_gii(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
+fn abruf_gii(daten: &Path, leine: &netz::Leine, k: &Konnektor, erzwingen: bool) -> Result<()> {
     let rw = &k.regelwerk;
     let kennung = k
         .kennung
@@ -211,7 +219,7 @@ fn abruf_gii(daten: &Path, k: &Konnektor, erzwingen: bool) -> Result<()> {
         format!("nur §§ {}", k.paragraphen.join(", "))
     };
     println!("[{rw}] gesetze-im-internet.de/{kennung} ({auswahl}) - Abruf laeuft ...");
-    let Some(haupt) = gii::hole(kennung, etag.as_deref())? else {
+    let Some(haupt) = gii::hole(leine, kennung, etag.as_deref())? else {
         println!("[{rw}] unveraendert (ETag der Quelle stimmt) - nichts zu tun.");
         return Ok(());
     };
@@ -281,8 +289,7 @@ fn uebernehmen(daten: &Path, u: Uebernahme, erzwingen: bool) -> Result<()> {
     let (leitsprache, texte) = u
         .sprachtexte
         .first()
-        .context("Uebernahme ohne Text")?
-        .clone();
+        .context("Uebernahme ohne Text")?;
 
     if texte.len() < 3 {
         bail!(
@@ -290,7 +297,7 @@ fn uebernehmen(daten: &Path, u: Uebernahme, erzwingen: bool) -> Result<()> {
             texte.len()
         );
     }
-    let gesamt = gesamthash(&texte);
+    let gesamt = gesamthash(texte);
 
     // `--erzwingen` heisst: die vorhandene Fassung mit dem aktuellen Parser neu erzeugen.
     // Das ist der Weg, eine Parserkorrektur auf den Bestand anzuwenden, ohne eine Fassung
@@ -456,11 +463,10 @@ fn zusammenfassungen(daten: &Path, nur: Option<&str>) -> Result<()> {
     let mut behandelt = 0;
     for pfad in dateien {
         let d = zusammenfassung::lies(&pfad)?;
-        if let Some(n) = nur {
-            if d.regelwerk != n {
+        if let Some(n) = nur
+            && d.regelwerk != n {
                 continue;
             }
-        }
         behandelt += 1;
         let g = zusammenfassung::bauen(&d)?;
         println!(
@@ -469,6 +475,15 @@ fn zusammenfassungen(daten: &Path, nur: Option<&str>) -> Result<()> {
             d.eintraege.len(),
             d.bezugsfassung
         );
+        // Derselbe Stand bedeutet: dieselbe Fassung, nur nachgearbeitet - dann wird
+        // an Ort und Stelle geschrieben. Ein neuer Stand ist eine neue Fassung der
+        // Zusammenfassung: dann bleibt die alte liegen und das Aenderungsereignis
+        // nennt, welche Eintraege neu, geaendert oder entfallen sind. Sonst waere
+        // der Fortschritt einer Zusammenfassung nicht nachvollziehbar - und die
+        // Pruefhinweise im Lernbereich bekaemen nie einen Anlass.
+        let (_, register, letzte, _) = register_laden(daten, &d.regelwerk, false)?;
+        let _ = register;
+        let gleicher_stand = letzte.as_ref().is_some_and(|l| l.id == g.stand);
         uebernehmen(
             daten,
             Uebernahme {
@@ -481,7 +496,7 @@ fn zusammenfassungen(daten: &Path, nur: Option<&str>) -> Result<()> {
                 knoten: g.struktur.knoten,
                 sprachtexte: vec![("de".to_string(), g.texte)],
             },
-            true, // immer an Ort und Stelle schreiben: eine Zusammenfassung ist keine neue Fassung der Quelle
+            gleicher_stand,
         )?;
     }
     if behandelt == 0 {
@@ -731,8 +746,8 @@ fn bezuege_cheatsheets(d: &serde_json::Value) -> Vec<(String, String, String)> {
 
 /// Täglicher Lauf: Feeds, Seitenüberwachung und neue Level-2-Rechtsakte.
 fn screening(daten: &Path, nur_um: Option<&str>, ausloeser: &str) -> Result<()> {
-    if let Some(zeit) = nur_um {
-        if !zeitfenster(zeit)? {
+    if let Some(zeit) = nur_um
+        && !zeitfenster(zeit)? {
             let jetzt = Utc::now().with_timezone(&chrono_tz::Europe::Berlin);
             println!(
                 "Ausserhalb des Zeitfensters ({zeit} Europe/Berlin, jetzt {}). Nichts zu tun.",
@@ -740,7 +755,6 @@ fn screening(daten: &Path, nur_um: Option<&str>, ausloeser: &str) -> Result<()> 
             );
             return Ok(());
         }
-    }
 
     let beginn = std::time::Instant::now();
     let start = jetzt();
@@ -755,7 +769,8 @@ fn screening(daten: &Path, nur_um: Option<&str>, ausloeser: &str) -> Result<()> 
         screening::Stand::default()
     };
 
-    let klient = screening::klient()?;
+    let leine = netz::Leine::aus_quellen(&quellen)?;
+    let klient = screening::klient(&leine)?;
     let mut protokoll: Vec<screening::Quellenstand> = Vec::new();
     let mut gefundene: Vec<screening::Meldung> = Vec::new();
     let mut geprueft = 0usize;
@@ -773,7 +788,7 @@ fn screening(daten: &Path, nur_um: Option<&str>, ausloeser: &str) -> Result<()> 
             uebernommen: 0,
             fehler: None,
         };
-        match screening::hole(&klient, &f.url, Some(&gedaechtnis)) {
+        match screening::hole(&leine, &klient, &f.url, Some(&gedaechtnis)) {
             Err(e) => {
                 eintrag.status = "Fehler".into();
                 eintrag.fehler = Some(format!("{e:#}"));
@@ -856,7 +871,7 @@ fn screening(daten: &Path, nur_um: Option<&str>, ausloeser: &str) -> Result<()> 
             uebernommen: 0,
             fehler: None,
         };
-        match screening::hole(&klient, &s.url, None) {
+        match screening::hole(&leine, &klient, &s.url, None) {
             Err(e) => {
                 eintrag.status = "Fehler".into();
                 eintrag.fehler = Some(format!("{e:#}"));
@@ -941,7 +956,7 @@ fn screening(daten: &Path, nur_um: Option<&str>, ausloeser: &str) -> Result<()> 
         uebernommen: 0,
         fehler: None,
     };
-    match folgeakte(&klient, "32022R2554") {
+    match folgeakte(&leine, &klient, "32022R2554") {
         Err(e) => {
             eintrag.status = "Fehler".into();
             eintrag.fehler = Some(format!("{e:#}"));
@@ -1036,6 +1051,7 @@ fn zeitfenster(zeit: &str) -> Result<bool> {
 /// Amts für Veröffentlichungen. Damit bleibt die Level-2-Liste vollständig,
 /// ohne sie von Hand zu pflegen.
 fn folgeakte(
+    leine: &netz::Leine,
     klient: &reqwest::blocking::Client,
     celex: &str,
 ) -> Result<Vec<(String, String)>> {
@@ -1057,6 +1073,7 @@ fn folgeakte(
         url_kodieren(&abfrage),
         url_kodieren("application/sparql-results+json")
     );
+    leine.erlaubt(&adresse)?;
     let antwort = klient.get(&adresse).send()?;
     if !antwort.status().is_success() {
         anyhow::bail!("SPARQL antwortete mit {}", antwort.status());
@@ -1318,6 +1335,43 @@ fn pruefen(daten: &Path) -> Result<()> {
         }
     }
     println!("{} Konnektoren.", quellen.konnektoren.len());
+
+    // Jede Adresse, die ein Lauf anfassen wuerde, gegen die Leine halten (Phase 8).
+    // Besser hier auffallen als mitten im naechsten Screening um 06:30.
+    let roh: serde_json::Value = lies_json(&daten.join("quellen.json"))?;
+    match netz::Leine::aus_quellen(&roh) {
+        Err(f) => fehler.push(f.to_string()),
+        Ok(leine) => {
+            let mut adressen: Vec<String> = Vec::new();
+            for k in &quellen.konnektoren {
+                match (k.typ.as_str(), &k.celex, &k.kennung) {
+                    ("cellar", Some(c), _) => adressen.push(format!("{}/{c}", cellar::BASIS)),
+                    ("gii", _, Some(n)) => adressen.push(format!("{}/{n}/xml.zip", gii::BASIS)),
+                    _ => {}
+                }
+            }
+            for feld in ["feeds", "seiten"] {
+                for q in roh[feld].as_array().into_iter().flatten() {
+                    if let Some(u) = q["url"].as_str() {
+                        adressen.push(u.to_string());
+                    }
+                }
+            }
+            if let Some(u) = roh["folgeakte"]["endpunkt"].as_str() {
+                adressen.push(u.to_string());
+            }
+            for a in &adressen {
+                if let Err(f) = leine.erlaubt(a) {
+                    fehler.push(format!("Leine: {f}"));
+                }
+            }
+            println!(
+                "{} Adressen gegen {} erlaubte Hosts geprueft.",
+                adressen.len(),
+                leine.hosts().len()
+            );
+        }
+    }
 
     // Strukturen gegen Texte pruefen.
     let rw_ordner = daten.join("rw");

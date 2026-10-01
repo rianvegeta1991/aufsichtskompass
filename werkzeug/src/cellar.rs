@@ -8,11 +8,13 @@
 //!
 //! Die ausgelieferte XHTML-Fassung ist ELI-strukturiert, deshalb haengt der Parser nicht
 //! an der Optik, sondern an stabilen Kennungen:
-//!   * `div.eli-subdivision#art_28`   - Artikel 28
-//!   * `div.eli-title > p.oj-sti-art` - seine Ueberschrift
-//!   * `div#028.001`                  - dessen Absatz 1 (Kennung bleibt ueber Fassungen gleich)
-//!   * `p.oj-ti-section-1/2`          - "KAPITEL II" bzw. "Abschnitt I" und der Titel dazu
-//!   * `div#rct_47` / `div#cit_3`     - Erwaegungsgrund 47, Bezugsvermerk 3
+//!
+//! * `div.eli-subdivision#art_28` - Artikel 28
+//! * `div.eli-title > p.oj-sti-art` - seine Ueberschrift
+//! * `div#028.001` - dessen Absatz 1 (Kennung bleibt ueber Fassungen gleich)
+//! * `p.oj-ti-section-1/2` - "KAPITEL II" bzw. "Abschnitt I" und der Titel dazu
+//! * `div#rct_47` / `div#cit_3` - Erwaegungsgrund 47, Bezugsvermerk 3
+//!
 //! Listenpunkte stehen je Punkt in einer eigenen einzeiligen `table` (Marke | Text),
 //! verschachtelte Punkte als Tabelle in der Textzelle.
 
@@ -22,8 +24,11 @@ use scraper::{ElementRef, Html, Node, Selector};
 use std::collections::BTreeMap;
 
 pub const BASIS: &str = "https://publications.europa.eu/resource/celex";
+const KENNUNG: &str = "Aufsichtskompass/0.1 (private Lernanwendung)";
 
 pub struct Abruf {
+    /// Abgerufene Adresse - steht im Protokoll des Laufs und in Fehlermeldungen.
+    #[allow(dead_code)]
     pub url: String,
     pub etag: Option<String>,
     pub stand: Option<String>,
@@ -32,12 +37,15 @@ pub struct Abruf {
 
 /// Holt eine Sprachfassung. `etag` aus dem letzten Lauf mitgeben - antwortet die Quelle
 /// mit 304, gibt es `Ok(None)` und der Volltext wird gar nicht uebertragen.
-pub fn hole(celex: &str, sprache: &str, etag: Option<&str>) -> Result<Option<Abruf>> {
+pub fn hole(
+    leine: &crate::netz::Leine,
+    celex: &str,
+    sprache: &str,
+    etag: Option<&str>,
+) -> Result<Option<Abruf>> {
     let url = format!("{BASIS}/{celex}");
-    let klient = reqwest::blocking::Client::builder()
-        .user_agent("Aufsichtskompass/0.1 (private Lernanwendung)")
-        .timeout(std::time::Duration::from_secs(180))
-        .build()?;
+    leine.erlaubt(&url)?;
+    let klient = leine.klient(KENNUNG, 180)?;
     let mut anfrage = klient
         .get(&url)
         .header("Accept", "application/xhtml+xml")
@@ -292,12 +300,11 @@ impl Lauf {
             }
             let mut bloecke = bloecke_von(k);
             let mut abs_nr = None;
-            if let Some(Block::P { t }) = bloecke.first_mut() {
-                if let Some(n) = marke_lesen(t) {
+            if let Some(Block::P { t }) = bloecke.first_mut()
+                && let Some(n) = marke_lesen(t) {
                     abs_nr = Some(n);
                     *t = marke_weg(t);
                 }
-            }
             let nr = abs_nr.unwrap_or_else(|| {
                 // Rueckfall: laufende Nummer aus der Kennung (028.003 -> 3)
                 kid.split('.')
@@ -514,24 +521,6 @@ fn marke_weg(t: &str) -> String {
     }
 }
 
-#[cfg(test)]
-mod tests {
-    use super::*;
-
-    #[test]
-    fn absatzmarken_beider_sprachen() {
-        assert_eq!(marke_lesen("(1) Finanzunternehmen managen ..."), Some("1".into()));
-        assert_eq!(marke_lesen("1. Financial entities shall ..."), Some("1".into()));
-        assert_eq!(marke_lesen("12. Where a financial entity ..."), Some("12".into()));
-        assert_eq!(marke_weg("(4) Vor Abschluss"), "Vor Abschluss");
-        assert_eq!(marke_weg("4. Before entering"), "Before entering");
-        // Kein Marker: Zahlen im Text bleiben stehen.
-        assert_eq!(marke_lesen("1.000 Euro sind faellig"), None);
-        assert_eq!(marke_lesen("Artikel 6 Absatz 1 gilt"), None);
-        assert_eq!(marke_weg("1.000 Euro"), "1.000 Euro");
-    }
-}
-
 /// "KAPITEL II" -> (Kapitel, "II"); "Abschnitt I" -> (Abschnitt, "I").
 /// Englische Fassung: "CHAPTER II", "SECTION I", "TITLE".
 fn zerlege_kopf(roh: &str) -> Option<(Art, String)> {
@@ -557,4 +546,102 @@ fn paar(de: &str, en: &str) -> BTreeMap<String, String> {
     m.insert("de".into(), de.into());
     m.insert("en".into(), en.into());
     m
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn absatzmarken_beider_sprachen() {
+        assert_eq!(marke_lesen("(1) Finanzunternehmen managen ..."), Some("1".into()));
+        assert_eq!(marke_lesen("1. Financial entities shall ..."), Some("1".into()));
+        assert_eq!(marke_lesen("12. Where a financial entity ..."), Some("12".into()));
+        assert_eq!(marke_weg("(4) Vor Abschluss"), "Vor Abschluss");
+        assert_eq!(marke_weg("4. Before entering"), "Before entering");
+        // Kein Marker: Zahlen im Text bleiben stehen.
+        assert_eq!(marke_lesen("1.000 Euro sind faellig"), None);
+        assert_eq!(marke_lesen("Artikel 6 Absatz 1 gilt"), None);
+        assert_eq!(marke_weg("1.000 Euro"), "1.000 Euro");
+    }
+
+    /// Ausschnitt in der Form, in der CELLAR ausliefert: Bezugsvermerk,
+    /// Erwaegungsgrund, Kapitel mit Abschnitt, Artikel mit nummerierten
+    /// Absaetzen und eine Aufzaehlung in der Tabellenform der Quelle.
+    const AUSSCHNITT: &str = r#"<html><body>
+      <div class="eli-subdivision" id="cit_1"><p class="oj-normal">gestützt auf den Vertrag …</p></div>
+      <div class="eli-subdivision" id="rct_47"><p class="oj-normal">(47) Die Finanzunternehmen sollten …</p></div>
+      <p class="oj-ti-section-1">KAPITEL II</p>
+      <p class="oj-ti-section-2">IKT-Risikomanagement</p>
+      <p class="oj-ti-section-1">Abschnitt I</p>
+      <p class="oj-ti-section-2">Allgemeine Bestimmungen</p>
+      <div class="eli-subdivision" id="art_6">
+        <div class="eli-title"><p class="oj-ti-art">Artikel 6</p><p class="oj-sti-art">IKT-Risikomanagementrahmen</p></div>
+        <div id="006.001"><p class="oj-normal">(1) Die Finanzunternehmen verfügen über einen Rahmen.</p></div>
+        <div id="006.002">
+          <p class="oj-normal">(2) Der Rahmen umfasst</p>
+          <table><tr><td><p class="oj-normal">a)</p></td><td><p class="oj-normal">Strategien,</p></td></tr></table>
+          <table><tr><td><p class="oj-normal">b)</p></td><td><p class="oj-normal">Verfahren.</p></td></tr></table>
+        </div>
+      </div>
+      <div class="eli-subdivision" id="art_7">
+        <div class="eli-title"><p class="oj-ti-art">Artikel 7</p><p class="oj-sti-art">IKT-Systeme</p></div>
+        <p class="oj-normal">Die Finanzunternehmen verwenden angemessene Systeme.</p>
+      </div>
+    </body></html>"#;
+
+    #[test]
+    fn gliederung_aus_dem_ausschnitt() {
+        let g = parse(AUSSCHNITT).unwrap();
+        // Bezugsvermerke und Erwaegungsgruende stehen vorn, dann das Kapitel.
+        let pfade: Vec<&str> =
+            g.knoten.iter().map(|k| k.pfad.as_deref().unwrap_or("")).collect();
+        assert_eq!(pfade, ["bezug", "eg", "kap/II"]);
+        assert_eq!(g.knoten[0].kinder[0].pfad.as_deref(), Some("bezug/1"));
+        assert_eq!(g.knoten[1].kinder[0].pfad.as_deref(), Some("eg/47"));
+
+        let kapitel = &g.knoten[2];
+        assert_eq!(kapitel.titel.get("de").map(String::as_str), Some("IKT-Risikomanagement"));
+        // Abschnitt und Artikel haengen im Kapitel.
+        let abschnitt = kapitel.kinder.iter().find(|k| k.art == Art::Abschnitt).unwrap();
+        assert_eq!(abschnitt.pfad.as_deref(), Some("kap/II/abschnitt/I"));
+        assert_eq!(abschnitt.titel.get("de").map(String::as_str), Some("Allgemeine Bestimmungen"));
+    }
+
+    #[test]
+    fn artikel_absaetze_und_aufzaehlung() {
+        let g = parse(AUSSCHNITT).unwrap();
+        // Artikel 6 mit zwei Absaetzen - die Absatzmarke wandert in die Nummer.
+        let a6 = g.texte.get("006.001").expect("Absatz 1 hat Text");
+        assert_eq!(a6[0].nur_text(), "Die Finanzunternehmen verfügen über einen Rahmen.");
+        let a6_2 = g.texte.get("006.002").unwrap();
+        assert!(matches!(a6_2[1], Block::Liste { .. }), "die Tabellenform wird Liste");
+        if let Block::Liste { p } = &a6_2[1] {
+            assert_eq!(p.len(), 2);
+            assert_eq!(p[0].m, "a)");
+            assert_eq!(p[1].t, "Verfahren.");
+        }
+
+        // Artikel 7 hat keine nummerierten Absaetze - der Text haengt am Artikel.
+        assert!(g.texte.contains_key("art_7"));
+        assert!(!g.texte.contains_key("art_6"), "Artikel 6 traegt seinen Text in den Absaetzen");
+    }
+
+    #[test]
+    fn ohne_struktur_wird_abgebrochen_statt_geleert() {
+        // Aendert die Quelle ihren Aufbau, darf der Parser nicht "nichts" liefern -
+        // sonst wuerde ein Lauf den Bestand mit einer leeren Fassung ueberschreiben.
+        assert!(parse("<html><body><p>Zugriff verweigert</p></body></html>").is_err());
+        assert!(parse("kein HTML").is_err());
+    }
+
+    #[test]
+    fn kopfzeilen_beider_sprachen() {
+        assert_eq!(zerlege_kopf("KAPITEL II"), Some((Art::Kapitel, "II".into())));
+        assert_eq!(zerlege_kopf("CHAPTER III"), Some((Art::Kapitel, "III".into())));
+        assert_eq!(zerlege_kopf("Abschnitt I"), Some((Art::Abschnitt, "I".into())));
+        assert_eq!(zerlege_kopf("SECTION II"), Some((Art::Abschnitt, "II".into())));
+        assert_eq!(zerlege_kopf("ANHANG"), None, "ohne Nummer kein Knoten");
+        assert_eq!(zerlege_kopf("Irgendwas X"), None);
+    }
 }

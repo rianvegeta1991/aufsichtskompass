@@ -1,5 +1,5 @@
 {
-  "stand": "2026-09-27",
+  "stand": "2026-10-01",
   "hinweis": "Abrufwege je Regelwerk. Alles hier ist kostenlos und ohne Anmeldung nutzbar. Ein neues Regelwerk braucht nur einen neuen Eintrag - keinen Code-Patch, solange der Konnektortyp schon umgesetzt ist.",
   "typen": {
     "cellar": "EUR-Lex ueber CELLAR (publications.europa.eu/resource/celex/<CELEX>), Content-Negotiation auf XHTML. Umgesetzt.",
@@ -8,6 +8,22 @@
     "rss": "RSS-/Atom-Feed. Umgesetzt; Abruf mit ETag und Last-Modified, Fehler je Quelle brechen den Lauf nicht ab.",
     "seite": "Seitenueberwachung fuer Quellen ohne Feed: Bereich per CSS-Selektor herausloesen, Hash vergleichen. Umgesetzt."
   },
+  "erlaubte_hosts_hinweis": "Leine fuer alle Abrufe des Werkzeugs (Phase 8, Schutz vor SSRF): Es wird nur abgerufen, was hier steht - per https, ohne Adressliterale, und auch nach einer Umleitung wird erneut geprueft. Eine neue Quelle braucht deshalb zusaetzlich zum Eintrag unter konnektoren/feeds/seiten einen Host hier. Echte Unterdomaenen sind mit abgedeckt. `kompass pruefen` haelt jede konfigurierte Adresse gegen diese Liste.",
+  "erlaubte_hosts": [
+    "publications.europa.eu",
+    "www.gesetze-im-internet.de",
+    "www.bafin.de",
+    "www.bsi.bund.de",
+    "wid.cert-bund.de",
+    "cert.europa.eu",
+    "www.eiopa.europa.eu",
+    "www.eba.europa.eu",
+    "www.esma.europa.eu",
+    "www.enisa.europa.eu",
+    "finance.ec.europa.eu",
+    "www.gdv.de",
+    "cloudsecurityalliance.org"
+  ],
   "nutzungsbedingungen": {
     "eu": "Weiterverwendung von EU-Rechtstexten mit Quellenangabe zulaessig (Beschluss 2011/833/EU). Rechtsverbindlich ist nur die im Amtsblatt veroeffentlichte Fassung.",
     "gii": "Amtliche Werke, § 5 UrhG - gemeinfrei. Quellenangabe trotzdem verpflichtend.",

@@ -7,7 +7,7 @@
 //   #/themen  ·  #/themen/iks  ·  #/aenderungen  ·  #/quellen  ·  #/lesezeichen
 // 404.html rechnet zusätzlich Pfad-Adressen (…/dora/art/28) in diese Hash-Form um.
 
-import { el, leere, chip, datum, zahl, titel, kurz, tabelle, fehlerkarte, ton, VERBINDLICHKEIT, MODUS } from './ui.js';
+import { el, leere, chip, datum, zahl, titel, kurz, tabelle, fehlerkarte, ton, externURL, textLaden, VERBINDLICHKEIT, MODUS } from './ui.js';
 import * as daten from './daten.js';
 import * as nutzer from './nutzer.js';
 import * as bibliothek from './bibliothek.js';
@@ -18,7 +18,7 @@ import * as analyse from './analyse.js';
 import * as news from './news.js';
 import * as lernen from './lernen.js';
 
-export const APP_VERSION = '1.7';
+export const APP_VERSION = '1.8';
 
 const seite = document.getElementById('seite');
 
@@ -225,7 +225,7 @@ async function start(wurzel) {
         el('a', { href: '#/newsfeed', style: 'margin-left:auto' }, 'Alle Meldungen →')),
       liste.length
         ? el('ul', { style: 'margin:10px 0 0;padding-left:1.1em' }, liste.map((m) => el('li', { style: 'margin:6px 0' },
-            el('a', { href: m.url, target: '_blank', rel: 'noopener noreferrer' }, m.titel),
+            meldungslink(m, m.titel),
             el('span.punktzahl', ` · ${m.quelle_name} · ${datum(m.datum)}`))))
         : el('p.unterzeile', { style: 'margin:10px 0 0' }, 'Noch keine Meldungen – der erste Lauf steht aus.'));
   }).catch(() => {
@@ -253,13 +253,25 @@ async function start(wurzel) {
       phasenzeile('5', 'Tägliches Screening: 14 Feeds, Seitenüberwachung, neue Rechtsakte über SPARQL, Newsfeed, Digest, Protokoll', 'fertig'),
       phasenzeile('6', 'Change Detection, Archiv, Diff-Ansicht, Benachrichtigung', 'Grundlage steht (Hashes, Änderungslog)'),
       phasenzeile('7', 'Lernbereich: Lektionen, sechs Quiz-Arten, Fallstudie mit Entscheidungsbaum, Karteikarten, Cheat Sheets, Bestätigung', 'fertig'),
-      phasenzeile('8', 'Härtung: Tests, Security-Review, Betriebsdoku', 'teilweise (Werkzeug-Tests)'),
+      phasenzeile('8', 'Härtung: ASVS-L2-Prüfung, CSP, SSRF-Leine, Löschfunktion, 56 Tests (Kernlogik 89 %), Betriebsdoku', 'fertig (cargo audit offen)'),
     ])));
 }
 
 function phasenzeile(nr, inhalt, stand) {
   const fertig = stand.startsWith('fertig');
   return [el('strong', nr), inhalt, chip(stand, fertig ? 'original' : stand === 'offen' ? '' : 'zusammenfassung')];
+}
+
+/**
+ * Link auf eine Meldung aus dem Screening. Fremde Feeds liefern die Adresse,
+ * deshalb erst durch `externURL`; ohne brauchbare Adresse bleibt der Titel als
+ * Text stehen (Phase 8).
+ */
+function meldungslink(m, ...inhalt) {
+  const u = externURL(m.url);
+  return u
+    ? el('a', { href: u, target: '_blank', rel: 'noopener noreferrer' }, ...inhalt)
+    : el('span', { title: 'Die Quelle hat keine verwendbare Adresse mitgeliefert.' }, ...inhalt);
 }
 
 function kurzname(katalog, id) {
@@ -479,10 +491,11 @@ async function lesezeichenseite(wurzel) {
     nutzer.newsGemerkt().length
       ? el('div.karte', el('ul', { style: 'margin:0;padding-left:1.1em' },
           nutzer.newsGemerkt().map((m) => el('li', { style: 'margin:5px 0' },
-            el('a', { href: m.url, target: '_blank', rel: 'noopener noreferrer' }, m.titel, ' ↗'),
+            meldungslink(m, m.titel, ' ↗'),
             el('span.punktzahl', ' · ' + datum(m.zeit))))))
       : el('p.leer', 'Noch keine Meldung gemerkt.'),
     rueckmeldungsblock(),
+    eigene_daten(),
     el('h2', { style: 'margin-top:20px' }, `Notizen (${notizen.length})`),
     notizen.length
       ? el('div.karte', notizen.map((n) => el('div', { style: 'padding:9px 0;border-bottom:1px solid var(--color-border)' },
@@ -490,6 +503,47 @@ async function lesezeichenseite(wurzel) {
           el('p', { style: 'margin:0;white-space:pre-wrap' }, n.text))))
       : el('p.leer', 'Noch keine Notiz.'),
   );
+}
+
+/**
+ * Eigene Daten: zeigen, mitnehmen, löschen (Phase 8).
+ *
+ * Der Auftrag verlangt möglichst wenige personenbezogene Daten und eine
+ * Löschmöglichkeit. Wenige Daten sind es von Anfang an – es gibt kein Konto und
+ * nichts verlässt das Gerät. Was fehlte, war der Knopf: hier ist er, samt
+ * Auflistung dessen, was überhaupt gespeichert ist, und einer Rückfrage vor dem
+ * Löschen. Danach wird die Seite neu gezeichnet, damit nichts Altes stehenbleibt.
+ */
+function eigene_daten() {
+  const u = nutzer.umfang();
+  const posten = [
+    ['Lesezeichen', u.lesezeichen], ['Notizen', u.notizen], ['gemerkte Meldungen', u.meldungen],
+    ['als gelesen markiert', u.gelesen], ['eigene Relevanz-Einstufungen', u.relevanz],
+    ['Rückmeldungen', u.rueckmeldungen], ['Lektionen', u.lektionen],
+    ['Quiz-Ergebnisse', u.quizze], ['Karteikarten', u.karten],
+  ].filter(([, n]) => n > 0);
+
+  return el('div.karte', { style: 'margin-top:20px' },
+    el('h2', { style: 'margin-top:0' }, 'Eigene Daten'),
+    el('p', { style: 'margin:0 0 8px;color:var(--color-text-muted)' },
+      'Gespeichert wird ausschließlich im Browser dieses Geräts (localStorage), ohne Konto und ohne Übertragung. ',
+      'Gespeichert sind zurzeit: ',
+      posten.length ? posten.map(([t, n]) => `${n} ${t}`).join(', ') + '.' : 'nichts.'),
+    el('div', { style: 'display:flex;gap:8px;flex-wrap:wrap' },
+      el('button.knopf', {
+        type: 'button',
+        onclick: () => textLaden('aufsichtskompass-eigene-daten.json', nutzer.ausgeben()),
+      }, '↓ Als JSON mitnehmen'),
+      el('button.knopf', {
+        type: 'button',
+        onclick: () => {
+          if (!confirm('Alle eigenen Daten auf diesem Gerät löschen? Lesezeichen, Notizen, '
+            + 'Lernfortschritt und Einstellungen sind danach weg. Das lässt sich nicht rückgängig machen.')) return;
+          nutzer.loeschen();
+          ton('Alle eigenen Daten gelöscht.');
+          leiten();
+        },
+      }, '✕ Alles löschen')));
 }
 
 /** Was der Nutzer als unpassend markiert hat - als Hinweis für die Taxonomie. */
@@ -550,6 +604,20 @@ async function quellenseite(wurzel) {
       el('p', el('strong', 'Warum nicht direkt EUR-Lex: '), 'Die Weboberfläche von EUR-Lex weist automatisierte Abrufe über eine WAF ab (HTTP 202, leerer Körper). Der amtliche Dienst CELLAR liefert dieselben Fassungen mit ETag und Last-Modified.'),
       el('p', el('strong', 'Level-2-Rechtsakte: '), 'Die zwölf Rechtsakte zu DORA wurden nicht von Hand gepflegt, sondern über den SPARQL-Dienst des Amts für Veröffentlichungen ermittelt (Rechtsgrundlage CELEX 32022R2554).'),
       el('p', { style: 'margin:0' }, el('strong', 'Diese Seite ist statisch: '), 'Sie liest nur JSON-Dateien. Der tägliche Lauf um 06:30 Europe/Berlin läuft ab Phase 5 als GitHub-Actions-Auftrag und schreibt die Daten ins Repository.')),
+    el('h2', { style: 'margin-top:22px' }, 'Sicherheit & Datenschutz'),
+    el('div.karte',
+      el('p', el('strong', 'Keine Konten, keine Übertragung: '),
+        'Es gibt keine Anmeldung, keine Cookies und keine Zählpixel. Lesezeichen, Notizen, Relevanz-Einstufungen und Lernfortschritt bleiben im Speicher dieses Browsers. ',
+        el('a', { href: '#/lesezeichen' }, 'Dort'), ' stehen sie zum Mitnehmen als JSON und zum Löschen bereit.'),
+      el('p', el('strong', 'Keine Drittinhalte: '),
+        'Die Seite lädt ausschließlich eigene Dateien – kein CDN, keine Schrift von außen. Durchgesetzt wird das über eine Content-Security-Policy mit ',
+        el('code', "default-src 'none'"), '.'),
+      el('p', el('strong', 'Abrufe an der Leine: '),
+        'Das Werkzeug ruft nur Adressen ab, die in ', el('code', 'quellen.json'),
+        ' unter ', el('code', 'erlaubte_hosts'), ' stehen – über https, ohne Adressliterale, und auch nach einer Umleitung wird erneut geprüft (Schutz vor SSRF).'),
+      el('p', { style: 'margin:0' }, el('strong', 'Nachzulesen: '),
+        'Die Prüfung nach OWASP ASVS Level 2 steht als ', el('code', 'SICHERHEIT.md'),
+        ' im Repository, der Betrieb samt Sicherung und Wiederherstellung als ', el('code', 'BETRIEB.md'), '.')),
   );
 }
 

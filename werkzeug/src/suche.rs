@@ -292,4 +292,110 @@ mod tests {
             vec!["ikt", "drittparteienrisiko", "finanzunternehm"]
         );
     }
+
+    // ------------------------------------------------------------- Indexaufbau
+
+    use crate::modell::{Art, Block, Fundstelle, Knoten, Punkt, Quelle};
+
+    fn probe_index() -> Index {
+        let absatz = Knoten {
+            id: "028.001".into(),
+            art: Art::Absatz,
+            nummer: Some("1".into()),
+            bez: None,
+            titel: BTreeMap::new(),
+            pfad: Some("art/28/abs/1".into()),
+            text: true,
+            kinder: Vec::new(),
+        };
+        let artikel = Knoten {
+            id: "art_28".into(),
+            art: Art::Artikel,
+            nummer: Some("28".into()),
+            bez: None,
+            titel: BTreeMap::from([("de".to_string(), "Allgemeine Grundsätze".to_string())]),
+            pfad: Some("art/28".into()),
+            text: false,
+            kinder: vec![absatz],
+        };
+        let struktur = Struktur {
+            regelwerk: "dora".into(),
+            fassung: "2024-10-15".into(),
+            abgerufen: "2026-10-01T00:00:00Z".into(),
+            quelle: Quelle {
+                name: "Probe".into(),
+                url: "https://beispiel.test".into(),
+                celex: None,
+                hinweis: String::new(),
+            },
+            sprachen: vec!["de".into()],
+            knoten: vec![artikel],
+        };
+        let mut text: Textdatei = BTreeMap::new();
+        text.insert(
+            "028.001".into(),
+            Fundstelle {
+                h: "x".into(),
+                b: vec![
+                    Block::P { t: "Die Finanzunternehmen führen ein Informationsregister.".into() },
+                    Block::Liste {
+                        p: vec![Punkt {
+                            m: "a)".into(),
+                            t: "Auslagerungen kritischer Funktionen".into(),
+                            u: vec![],
+                        }],
+                    },
+                ],
+            },
+        );
+        baue(&struktur, &text, "de")
+    }
+
+    #[test]
+    fn index_kennt_pfad_bezeichnung_und_laenge() {
+        let i = probe_index();
+        assert_eq!(i.regelwerk, "dora");
+        assert_eq!(i.dokumente.len(), 1);
+        let d = &i.dokumente[0];
+        assert_eq!(d.id, "028.001");
+        assert_eq!(d.pfad, "art/28/abs/1");
+        // Die Bezeichnung führt den Artikel mit - wer "Artikel 28" sucht, findet den Absatz.
+        assert!(d.b.contains("28"), "Bezeichnung: {}", d.b);
+        assert!(d.t.starts_with("Die Finanzunternehmen"));
+        assert_eq!(d.l as usize, i.avgdl as usize, "ein Dokument: avgdl ist seine Länge");
+    }
+
+    #[test]
+    fn listenpunkte_landen_im_index() {
+        let i = probe_index();
+        // Auch der Text in der Aufzählung ist durchsuchbar.
+        assert!(i.worte.contains_key("auslag"), "Stämme: {:?}", i.worte.keys());
+        assert!(i.worte.contains_key("informationsregist"));
+        // Stoppwörter nicht.
+        assert!(!i.worte.contains_key("die"));
+        // Die Bezeichnung zählt doppelt (worte_mit_gewicht), der Absatztext einfach.
+        assert_eq!(i.worte["informationsregist"][0], [0, 1]);
+    }
+
+    #[test]
+    fn leere_fundstellen_kommen_nicht_in_den_index() {
+        let mut leer: Textdatei = BTreeMap::new();
+        leer.insert("x".into(), Fundstelle { h: "h".into(), b: vec![] });
+        let struktur = Struktur {
+            regelwerk: "leer".into(),
+            fassung: "2026-01-01".into(),
+            abgerufen: "2026-01-01T00:00:00Z".into(),
+            quelle: Quelle {
+                name: String::new(),
+                url: String::new(),
+                celex: None,
+                hinweis: String::new(),
+            },
+            sprachen: vec!["de".into()],
+            knoten: vec![],
+        };
+        let i = baue(&struktur, &leer, "de");
+        assert!(i.dokumente.is_empty());
+        assert_eq!(i.avgdl, 0.0, "keine Division durch Null");
+    }
 }

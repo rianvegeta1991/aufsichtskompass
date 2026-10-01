@@ -3,6 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Sicherheitsvorgaben (Phase 8, ASVS L2). GitHub Pages setzt keine eigenen Kopfzeilen,
+     deshalb stehen sie hier als meta-Angaben - wirksam ist davon alles ausser
+     frame-options, das nur als echte Kopfzeile zaehlt; frame-ancestors erledigt das aber.
+     Die Seite laedt ausschliesslich eigene Dateien: kein CDN, keine Schrift von aussen,
+     keine Einbettung. 'unsafe-inline' braucht es nur fuer Stil (der Stilblock im Kopf und
+     style-Attribute im Code), NICHT fuer Skript - Skript laeuft allein aus js/. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self'; manifest-src 'self'; worker-src 'self'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>Aufsichtskompass – IT-Compliance und IT-Governance für Versicherungsunternehmen</title>
 <meta name="description" content="Regelwerks-Bibliothek, Interdependenzen, Screening und Lernbereich für IT-Compliance und IT-Governance in der Versicherungsbranche.">
 <meta name="theme-color" content="#C6093B" media="(prefers-color-scheme: light)">

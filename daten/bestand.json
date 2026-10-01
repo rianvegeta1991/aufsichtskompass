@@ -1,5 +1,5 @@
 {
-  "gebaut": "2026-10-01T18:33:05Z",
+  "gebaut": "2026-10-01T20:12:41Z",
   "bestand": {
     "ao": {
       "fassung": {
@@ -43,7 +43,7 @@
       "fassung": {
         "id": "2026-10-01",
         "stand": "2026-10-01T00:00:00Z",
-        "abgerufen": "2026-10-01T18:33:03Z",
+        "abgerufen": "2026-10-01T20:12:39Z",
         "quelle": {
           "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Cloud Computing Compliance Criteria Catalogue (C5) des BSI, Fassung 2020",
           "url": "https://www.bsi.bund.de/",
@@ -80,7 +80,7 @@
       "fassung": {
         "id": "2026-10-01",
         "stand": "2026-10-01T00:00:00Z",
-        "abgerufen": "2026-10-01T18:33:04Z",
+        "abgerufen": "2026-10-01T20:12:39Z",
         "quelle": {
           "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: COBIT 2019 (Framework: Governance and Management Objectives)",
           "url": "https://www.isaca.org/resources/cobit",
@@ -98,7 +98,7 @@
       "fassung": {
         "id": "2026-10-01",
         "stand": "2026-10-01T00:00:00Z",
-        "abgerufen": "2026-10-01T18:33:04Z",
+        "abgerufen": "2026-10-01T20:12:40Z",
         "quelle": {
           "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Cloud Controls Matrix v4.x",
           "url": "https://cloudsecurityalliance.org/research/cloud-controls-matrix",
@@ -397,7 +397,7 @@
       "fassung": {
         "id": "2026-10-01",
         "stand": "2026-10-01T00:00:00Z",
-        "abgerufen": "2026-10-01T18:33:04Z",
+        "abgerufen": "2026-10-01T20:12:40Z",
         "quelle": {
           "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Verhaltensregeln für den Umgang mit personenbezogenen Daten durch die deutsche Versicherungswirtschaft (Code of Conduct), nach der Datenschutz-Grundverordnung überarbeitete Fassung",
           "url": "https://www.gdv.de/",
@@ -434,7 +434,7 @@
       "fassung": {
         "id": "2026-10-01",
         "stand": "2026-10-01T00:00:00Z",
-        "abgerufen": "2026-10-01T18:33:05Z",
+        "abgerufen": "2026-10-01T20:12:40Z",
         "quelle": {
           "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: ISO/IEC 27001:2022",
           "url": "https://www.iso.org/standard/27001",
@@ -452,7 +452,7 @@
       "fassung": {
         "id": "2026-10-01",
         "stand": "2026-10-01T00:00:00Z",
-        "abgerufen": "2026-10-01T18:33:05Z",
+        "abgerufen": "2026-10-01T20:12:41Z",
         "quelle": {
           "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: ITIL 4 (Service Value System, 34 Practices)",
           "url": "https://www.peoplecert.org/",
@@ -490,7 +490,7 @@
       "fassung": {
         "id": "2026-10-01",
         "stand": "2026-10-01T00:00:00Z",
-        "abgerufen": "2026-10-01T18:33:05Z",
+        "abgerufen": "2026-10-01T20:12:41Z",
         "quelle": {
           "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: NIST Cybersecurity Framework 2.0",
           "url": "https://www.nist.gov/cyberframework",

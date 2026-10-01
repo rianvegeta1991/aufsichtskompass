@@ -37,6 +37,10 @@ amtlich veröffentlichte Fassung.
 - **Versionierung**: jede Fassung bleibt unveränderlich liegen, mit SHA-256 je Fundstelle als
   Grundlage der Änderungserkennung.
 - Hell und dunkel, WCAG 2.2 AA, offlinefähig als PWA.
+- **Gehärtet**: Content-Security-Policy ohne Drittinhalte, Allowlist für alle Abrufe
+  des Werkzeugs (Schutz vor SSRF), Export und Löschung der eigenen Daten, 56 Tests
+  (Kernlogik zu 89 % abgedeckt). Einzelheiten in [SICHERHEIT.md](SICHERHEIT.md)
+  und [BETRIEB.md](BETRIEB.md).
 - **Auf dem Smartphone** ein eigenes Format: untere Navigationsleiste, Viewer mit den
   Reitern Text, Gliederung und Kontext, gestapelte Tabellen statt Querscrollen.
 
@@ -82,9 +86,9 @@ steht; die Kennungen der kostenpflichtigen Werke sind noch gegen die Norm abzugl
 
 ## Stand
 
-Die Phasen 1, 2, 2b, 3, 4, 5 und 7 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
-gesetze-im-internet.de, die eigenen Zusammenfassungen, Themenseiten, Beziehungen, Matrizen,
-das tägliche Screening und der Lernbereich. Offen: BaFin-Veröffentlichungen (erst nach
-Klärung der Nutzungsbedingungen), der fachliche Abgleich der Kennungen aus den
-kostenpflichtigen Werken sowie die Härtung nach ASVS. Der Ausbaustand steht auch in der
-App auf der Startseite.
+Die Phasen 1, 2, 2b, 3, 4, 5, 7 und 8 sind fertig – EU-Recht über CELLAR, deutsche Gesetze
+über gesetze-im-internet.de, die eigenen Zusammenfassungen, Themenseiten, Beziehungen,
+Matrizen, das tägliche Screening, der Lernbereich und die Härtung nach ASVS Level 2.
+Offen: BaFin-Veröffentlichungen (erst nach Klärung der Nutzungsbedingungen), der fachliche
+Abgleich der Kennungen aus den kostenpflichtigen Werken, ein regelmäßiger `cargo audit`
+sowie XLSX- und PDF-Export. Der Ausbaustand steht auch in der App auf der Startseite.

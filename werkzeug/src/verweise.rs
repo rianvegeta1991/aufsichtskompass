@@ -14,7 +14,7 @@
 //! stehen dagegen redaktionell in `daten/beziehungen.json` - die kann kein Muster finden.
 
 use crate::modell::{Knoten, Struktur, Textdatei};
-use anyhow::Result;
+
 use regex::Regex;
 use serde::Serialize;
 use std::collections::{BTreeMap, BTreeSet};
@@ -196,6 +196,9 @@ fn fremdes_regelwerk(
     bestand.nach_nummer.get(&m[1]).cloned()
 }
 
+// Acht Angaben, aber jede gehoert zur Sache: woher, wohin, welche Art, welche
+// Nummer, welcher Absatz, was im Bestand existiert und der Beleg.
+#[allow(clippy::too_many_arguments)]
 fn bauen(
     von_rw: &str,
     von_pfad: &str,
@@ -259,4 +262,186 @@ fn grenze(text: &str, bis: usize) -> usize {
         i -= 1;
     }
     i
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+    use crate::modell::{Art, Block, Fundstelle, Quelle};
+
+    fn knoten(id: &str, pfad: &str, kinder: Vec<Knoten>) -> Knoten {
+        Knoten {
+            id: id.into(),
+            art: Art::Artikel,
+            nummer: None,
+            bez: None,
+            titel: BTreeMap::new(),
+            pfad: Some(pfad.into()),
+            text: kinder.is_empty(),
+            kinder,
+        }
+    }
+
+    fn struktur(rw: &str, knoten: Vec<Knoten>) -> Struktur {
+        Struktur {
+            regelwerk: rw.into(),
+            fassung: "2024-01-01".into(),
+            abgerufen: "2024-01-01T00:00:00Z".into(),
+            quelle: Quelle {
+                name: "Probe".into(),
+                url: "https://beispiel.test".into(),
+                celex: None,
+                hinweis: String::new(),
+            },
+            sprachen: vec!["de".into()],
+            knoten,
+        }
+    }
+
+    fn text(stellen: &[(&str, &str)]) -> Textdatei {
+        stellen
+            .iter()
+            .map(|(id, t)| {
+                (id.to_string(), Fundstelle { h: "x".into(), b: vec![Block::P { t: t.to_string() }] })
+            })
+            .collect()
+    }
+
+    /// Zwei Regelwerke: ein EU-Rechtsakt mit Artikeln und ein Gesetz mit Paragrafen.
+    fn welt() -> (Bestand, Muster) {
+        let katalog = serde_json::json!({ "regelwerke": [
+            { "id": "dora", "quelle": { "celex": "32022R2554" } },
+            { "id": "dsgvo", "quelle": { "celex": "32016R0679" } },
+            { "id": "vag", "quelle": {} },
+        ]});
+        let mut strukturen = BTreeMap::new();
+        strukturen.insert(
+            "dora".to_string(),
+            struktur("dora", vec![
+                knoten("a6", "art/6", vec![knoten("a6_1", "art/6/abs/1", vec![])]),
+                knoten("a28", "art/28", vec![]),
+            ]),
+        );
+        strukturen.insert(
+            "dsgvo".to_string(),
+            struktur("dsgvo", vec![knoten("a32", "art/32", vec![])]),
+        );
+        strukturen.insert(
+            "vag".to_string(),
+            struktur("vag", vec![
+                knoten("p23", "par/23", vec![]),
+                knoten("p26", "par/26", vec![knoten("p26_1", "par/26/abs/1", vec![])]),
+            ]),
+        );
+        (bestand(&katalog, &strukturen), Muster::neu())
+    }
+
+    #[test]
+    fn celex_wird_zur_rechtsaktnummer() {
+        let (b, _) = welt();
+        assert_eq!(b.nach_nummer.get("2022/2554").map(String::as_str), Some("dora"));
+        // fuehrende Nullen fallen weg: 32016R0679 -> 2016/679
+        assert_eq!(b.nach_nummer.get("2016/679").map(String::as_str), Some("dsgvo"));
+        assert!(!b.nach_nummer.values().any(|v| v == "vag"), "ohne CELEX kein Eintrag");
+    }
+
+    #[test]
+    fn verweis_im_eigenen_regelwerk_bis_auf_den_absatz() {
+        let (b, m) = welt();
+        let s = struktur("dora", vec![knoten("a28", "art/28", vec![])]);
+        let t = text(&[("a28", "Die Stellen wenden Artikel 6 Absatz 1 entsprechend an.")]);
+        let v = finde("dora", &s, &t, &b, &m);
+        assert_eq!(v.len(), 1);
+        assert_eq!(v[0].von.pfad, "art/28");
+        assert_eq!(v[0].nach.rw, "dora");
+        assert_eq!(v[0].nach.pfad, "art/6/abs/1", "feinster vorhandener Treffer");
+        assert!(v[0].beleg.contains("Artikel 6 Absatz 1"), "der Beleg traegt die Stelle");
+        assert_eq!(v[0].typ, "verweist");
+    }
+
+    #[test]
+    fn nicht_vorhandener_absatz_faellt_auf_den_artikel_zurueck() {
+        let (b, m) = welt();
+        let s = struktur("dora", vec![knoten("a28", "art/28", vec![])]);
+        // Absatz 9 gibt es nicht - dann der Artikel, aber nie ein Verweis ins Leere.
+        let t = text(&[("a28", "Siehe Artikel 6 Absatz 9 sowie Artikel 99 Absatz 1.")]);
+        let v = finde("dora", &s, &t, &b, &m);
+        assert_eq!(v.len(), 1, "Artikel 99 existiert nicht und wird weggelassen");
+        assert_eq!(v[0].nach.pfad, "art/6");
+    }
+
+    #[test]
+    fn fremder_rechtsakt_wird_zugeordnet() {
+        let (b, m) = welt();
+        let s = struktur("dora", vec![knoten("a28", "art/28", vec![])]);
+        let t = text(&[(
+            "a28",
+            "unberuehrt bleibt Artikel 32 der Verordnung (EU) 2016/679 des Europaeischen Parlaments",
+        )]);
+        let v = finde("dora", &s, &t, &b, &m);
+        assert_eq!(v.len(), 1);
+        assert_eq!(v[0].nach.rw, "dsgvo", "nicht das eigene Regelwerk");
+        assert_eq!(v[0].nach.pfad, "art/32");
+    }
+
+    #[test]
+    fn rechtsakt_weit_hinter_der_stelle_zaehlt_nicht() {
+        let (b, m) = welt();
+        let s = struktur("dora", vec![knoten("a28", "art/28", vec![])]);
+        // Der Rechtsakt steht in einem anderen Satzteil - dann bleibt es beim eigenen Werk.
+        let t = text(&[(
+            "a28",
+            "Artikel 6 gilt entsprechend; davon unabhaengig bleiben die Befugnisse der Behoerden \
+             nach den Vorschriften der Verordnung (EU) 2016/679 bestehen.",
+        )]);
+        let v = finde("dora", &s, &t, &b, &m);
+        assert_eq!(v.len(), 1);
+        assert_eq!(v[0].nach.rw, "dora");
+    }
+
+    #[test]
+    fn paragrafen_nur_im_deutschen_gesetz() {
+        let (b, m) = welt();
+        let s = struktur("vag", vec![knoten("p23", "par/23", vec![])]);
+        let t = text(&[("p23", "Im Rahmen des § 26 Absatz 1 ist dies zu beruecksichtigen.")]);
+        let v = finde("vag", &s, &t, &b, &m);
+        assert_eq!(v.len(), 1);
+        assert_eq!(v[0].nach.pfad, "par/26/abs/1");
+
+        // Dasselbe Muster in einem EU-Rechtsakt: dort gibt es keine Paragrafen.
+        let s2 = struktur("dora", vec![knoten("a28", "art/28", vec![])]);
+        let t2 = text(&[("a28", "§ 26 Absatz 1 waere hier nicht zuzuordnen.")]);
+        assert!(finde("dora", &s2, &t2, &b, &m).is_empty());
+    }
+
+    #[test]
+    fn kein_verweis_auf_sich_selbst() {
+        let (b, m) = welt();
+        let s = struktur("dora", vec![knoten("a6", "art/6", vec![])]);
+        let t = text(&[("a6", "Dieser Artikel 6 regelt den Rahmen.")]);
+        assert!(finde("dora", &s, &t, &b, &m).is_empty());
+    }
+
+    #[test]
+    fn beleg_schneidet_an_zeichengrenzen() {
+        // Umlaute und Anfuehrungszeichen sind mehrere Bytes lang; ein roher
+        // Byte-Schnitt wuerde hier in Panik enden (genau das ist mal passiert).
+        let lang = format!("{} Artikel 6 Absatz 1 {}", "Grundsätze „üblich“ ".repeat(6), "Maßnahmen äöüß ".repeat(6));
+        let (b, m) = welt();
+        let s = struktur("dora", vec![knoten("a28", "art/28", vec![])]);
+        let t = text(&[("a28", &lang)]);
+        let v = finde("dora", &s, &t, &b, &m);
+        assert_eq!(v.len(), 1);
+        assert!(v[0].beleg.starts_with('…') && v[0].beleg.ends_with('…'));
+        assert!(v[0].beleg.contains("Artikel 6 Absatz 1"));
+    }
+
+    #[test]
+    fn grenze_schneidet_nie_mitten_im_zeichen() {
+        let s = "aä€ß";
+        for i in 0..=s.len() + 3 {
+            let g = grenze(s, i);
+            assert!(s.is_char_boundary(g), "{i} -> {g}");
+        }
+    }
 }

@@ -243,3 +243,42 @@ pub struct Aenderung {
     pub entfallen: Vec<String>,
     pub quelle: String,
 }
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn nur_text_zieht_listen_und_unterpunkte_zusammen() {
+        let b = Block::Liste {
+            p: vec![Punkt {
+                m: "a)".into(),
+                t: "Strategien,".into(),
+                u: vec![Punkt { m: "i)".into(), t: "erstens".into(), u: vec![] }],
+            }],
+        };
+        assert_eq!(b.nur_text(), "a) Strategien, i) erstens");
+        assert_eq!(Block::P { t: "Fliesstext".into() }.nur_text(), "Fliesstext");
+    }
+
+    #[test]
+    fn arten_bleiben_in_der_schreibweise_der_dateien() {
+        // Die Oberflaeche liest diese Werte - sie duerfen sich nicht aendern.
+        let j = serde_json::to_string(&Art::Paragraf).unwrap();
+        assert_eq!(j, "\"paragraf\"");
+        assert_eq!(serde_json::to_string(&Art::Erwaegungsgrund).unwrap(), "\"erwaegungsgrund\"");
+        assert_eq!(serde_json::to_string(&Art::Control).unwrap(), "\"control\"");
+        let zurueck: Art = serde_json::from_str("\"absatz\"").unwrap();
+        assert_eq!(zurueck, Art::Absatz);
+    }
+
+    #[test]
+    fn bloecke_reisen_mit_ihrer_art() {
+        let bloecke = vec![Block::P { t: "x".into() }, Block::Liste { p: vec![] }];
+        let j = serde_json::to_string(&bloecke).unwrap();
+        assert!(j.contains(r#""art":"p""#), "{j}");
+        assert!(j.contains(r#""art":"liste""#));
+        let zurueck: Vec<Block> = serde_json::from_str(&j).unwrap();
+        assert_eq!(zurueck.len(), 2);
+    }
+}

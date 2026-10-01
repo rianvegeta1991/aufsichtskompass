@@ -1,0 +1,57 @@
+# Pruefung bei jedem Push: Tests, Lints und der Datenbestand selbst.
+#
+# Warum der Datenbestand mitgeprueft wird: Die fachlichen Inhalte liegen als Daten im
+# Repository. Ein Tippfehler in einem Pfad faellt sonst erst in der App auf - und dort
+# nur als leere Stelle. `kompass pruefen` haelt jede Zuordnung, jede Beziehung und jede
+# konfigurierte Adresse gegen den Bestand und endet mit Fehler, wenn etwas nicht passt.
+name: Pruefung
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: pruefung-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  werkzeug:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Rust-Abhaengigkeiten aus dem Zwischenspeicher
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/registry
+            ~/.cargo/git
+            werkzeug/target
+          key: kompass-${{ runner.os }}-${{ hashFiles('werkzeug/Cargo.lock') }}
+          restore-keys: kompass-${{ runner.os }}-
+
+      - name: Lints
+        run: cargo clippy --manifest-path werkzeug/Cargo.toml --all-targets -- -D warnings
+
+      - name: Tests
+        run: cargo test --manifest-path werkzeug/Cargo.toml
+
+      - name: Datenbestand pruefen
+        run: |
+          cargo build --release --manifest-path werkzeug/Cargo.toml
+          ./werkzeug/target/release/kompass pruefen --daten daten
+
+      # Die Tests rufen nichts ab (die Leine laesst in den Fixtures nur beispiel.test zu).
+      # Diese Probe haelt das fest: taucht hier eine echte Adresse auf, ist ein Test
+      # ins Netz gegangen und muss umgebaut werden.
+      - name: Keine Live-Abrufe in Tests
+        run: |
+          if grep -rnE "https://(publications|www\.gesetze|www\.bafin|www\.bsi)" werkzeug/tests/; then
+            echo "Ein Test benutzt eine echte Adresse - bitte mit Fixture arbeiten."
+            exit 1
+          fi

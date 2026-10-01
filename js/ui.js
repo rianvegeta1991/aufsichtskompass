@@ -1,5 +1,24 @@
 // Kleine Bausteine für die Oberfläche. Kein Framework, keine Abhängigkeiten.
 
+/**
+ * Adresse für einen Link nach außen – oder `null`.
+ *
+ * Grund (Phase 8): Die Adressen der Meldungen kommen aus **fremden** Feeds. Stünde
+ * dort `javascript:…`, würde ein Klick Code im Kontext der Seite ausführen. Deshalb
+ * wird hier nur durchgelassen, was sich als http- oder https-Adresse lesen lässt;
+ * das Werkzeug prüft beim Einsammeln dasselbe noch einmal. Kinder von `el` sind
+ * immer Textknoten, Attribute setzt `setAttribute` – damit bleibt nur dieser Weg.
+ */
+export function externURL(u) {
+  if (typeof u !== 'string' || !u) return null;
+  try {
+    const a = new URL(u, location.href);
+    return a.protocol === 'https:' || a.protocol === 'http:' ? a.href : null;
+  } catch {
+    return null;
+  }
+}
+
 /** Element bauen: el('div.karte', {id:'x'}, 'Text', kindElement, …) */
 export function el(spec, attrs, ...kinder) {
   const [tag, ...klassen] = String(spec).split('.');
@@ -10,8 +29,7 @@ export function el(spec, attrs, ...kinder) {
   } else if (attrs) {
     for (const [k, v] of Object.entries(attrs)) {
       if (v === null || v === undefined || v === false) continue;
-      if (k === 'html') n.innerHTML = v;
-      else if (k === 'text') n.textContent = v;
+      if (k === 'text') n.textContent = v;
       else if (k === 'dataset') Object.assign(n.dataset, v);
       else if (k.startsWith('on') && typeof v === 'function') n.addEventListener(k.slice(2), v);
       else n.setAttribute(k, v === true ? '' : v);
@@ -99,6 +117,17 @@ export function csvLaden(name, spalten, zeilen) {
   a.remove();
   setTimeout(() => URL.revokeObjectURL(url), 2000);
   ton(`${name}.csv gespeichert.`);
+}
+
+/** Lädt Text als Datei herunter – dieselbe Mechanik wie `csvLaden`, nur ohne Tabelle. */
+export function textLaden(name, inhalt, typ = 'application/json;charset=utf-8') {
+  const url = URL.createObjectURL(new Blob([inhalt], { type: typ }));
+  const a = el('a', { href: url, download: name });
+  document.body.append(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(url), 2000);
+  ton(`${name} gespeichert.`);
 }
 
 /** Knopfpaar für den Export einer Ansicht. */

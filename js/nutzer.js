@@ -233,3 +233,43 @@ export function fallAbschluss(id, bewertungen) {
   l.faelle[id] = { zeit: new Date().toISOString(), bewertungen };
   sichern();
 }
+
+// ------------------------------------------------- Eigene Daten (Phase 8)
+
+/**
+ * Alles, was auf diesem Gerät liegt, als JSON – zum Mitnehmen auf ein anderes
+ * Gerät oder einfach, um nachzusehen, was gespeichert ist.
+ */
+export function ausgeben() {
+  return JSON.stringify({ stand: new Date().toISOString(), nutzer: zustand }, null, 2);
+}
+
+/**
+ * Löscht alles Eigene. Der Auftrag verlangt eine Löschmöglichkeit – hier ist sie,
+ * und sie wirkt sofort und vollständig: Schlüssel weg, Zustand auf Standard.
+ * Was gelöscht ist, lässt sich nicht wiederherstellen (es lag nur hier).
+ */
+export function loeschen() {
+  try {
+    localStorage.removeItem(SCHLUESSEL);
+  } catch {
+    /* privates Fenster: dann war ohnehin nichts gespeichert */
+  }
+  zustand = structuredClone(STANDARD);
+}
+
+/** Zählt, was gespeichert ist – für die Anzeige vor dem Löschen. */
+export function umfang() {
+  const l = zustand.lernen || {};
+  return {
+    lesezeichen: zustand.lesezeichen.length,
+    notizen: Object.keys(zustand.notizen).length,
+    meldungen: zustand.newsGemerkt.length,
+    gelesen: Object.keys(zustand.gelesen).length,
+    relevanz: Object.keys(zustand.relevanz).length,
+    rueckmeldungen: Object.keys(zustand.rueckmeldungen).length,
+    lektionen: Object.keys(l.lektionen || {}).length,
+    quizze: Object.keys(l.quizze || {}).length,
+    karten: Object.keys(l.karten || {}).length,
+  };
+}

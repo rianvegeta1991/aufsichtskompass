@@ -43,7 +43,10 @@ pub struct Quellenangabe {
 pub struct Gruppe {
     pub kennung: String,
     pub titel: String,
+    /// Redaktionelle Notiz zur Gruppe; die App zeigt sie nicht, sie erklaert
+    /// in der Datei, wofuer die Gruppe steht.
     #[serde(default)]
+    #[allow(dead_code)]
     pub beschreibung: Option<String>,
 }
 

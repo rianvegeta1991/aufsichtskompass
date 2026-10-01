@@ -2,7 +2,7 @@
 // Jede Fundstelle ist über einen stabilen Deep-Link erreichbar, z. B.
 // #/rw/dora/art/28/abs/4 oder #/rw/dora/eg/47.
 
-import { el, leere, chip, datum, zahl, kurz, titel, ton, tabelle, VERBINDLICHKEIT, MODUS, fehlerkarte } from './ui.js';
+import { el, leere, chip, datum, zahl, kurz, titel, ton, tabelle, externURL, VERBINDLICHKEIT, MODUS, fehlerkarte } from './ui.js';
 import * as daten from './daten.js';
 import * as nutzer from './nutzer.js';
 import * as analyse from './analyse.js';
@@ -105,7 +105,7 @@ function zusammenfassungshinweis(rw, fassung) {
       el('div', { style: 'margin-top:6px;display:flex;flex-wrap:wrap;gap:6px;align-items:center' },
         chip('Zusammenfassung', 'zusammenfassung'),
         chip(rw.geprueft ? 'Katalogangaben geprüft' : 'Katalogangaben ungeprüft', rw.geprueft ? '' : 'warn'),
-        el('a', { href: rw.quelle.url, target: '_blank', rel: 'noopener' }, 'Zur Bezugsquelle ↗'))));
+        el('a', { href: externURL(rw.quelle.url), target: '_blank', rel: 'noopener' }, 'Zur Bezugsquelle ↗'))));
 }
 
 // ------------------------------------------------------------------ Auswahl
@@ -346,7 +346,7 @@ function kontextTeile(rw, fassung, struktur, ziel, sprache, karten, text) {
 
   teile.push(el('h3', 'Quelle'),
     el('p', { style: 'margin:0 0 4px' }, fassung.quelle.name),
-    el('p', { style: 'margin:0 0 6px' }, el('a', { href: rw.quelle.url, target: '_blank', rel: 'noopener' },
+    el('p', { style: 'margin:0 0 6px' }, el('a', { href: externURL(rw.quelle.url), target: '_blank', rel: 'noopener' },
       rw.quelle.celex ? `CELEX ${rw.quelle.celex} ↗` : 'amtliche Quelle ↗')),
     el('div.hinweis.recht', { style: 'font-size:.8rem' }, fassung.quelle.hinweis));
 
@@ -482,7 +482,7 @@ async function fussnotenNachladen(ziel, rw) {
   ziel.append(el('h3', 'Fußnoten'),
     ...passend.map((x) => el('p', { style: 'margin:0 0 8px;font-size:.82rem' },
       el('strong', x.quelle + ': '), x.text, ' ',
-      x.url ? el('a', { href: x.url, target: '_blank', rel: 'noopener' }, '↗') : null)));
+      externURL(x.url) ? el('a', { href: externURL(x.url), target: '_blank', rel: 'noopener' }, '↗') : null)));
 }
 
 // ----------------------------------------------------------- Übersicht / Rest
@@ -545,7 +545,7 @@ function ohneVolltext(rw) {
         : 'Hier darf kein Volltext stehen. Die eigenen Zusammenfassungen entstehen in Phase 3.'),
       rw.hinweis ? el('div.hinweis.recht', rw.hinweis) : null,
       el('p', { style: 'margin-top:14px' },
-        el('a.knopf.haupt', { href: rw.quelle.url, target: '_blank', rel: 'noopener' }, 'Zur amtlichen Quelle ↗'),
+        el('a.knopf.haupt', { href: externURL(rw.quelle.url), target: '_blank', rel: 'noopener' }, 'Zur amtlichen Quelle ↗'),
         rw.quelle.suchbegriff ? el('span.punktzahl', { style: 'margin-left:10px' }, `Suchbegriff dort: „${rw.quelle.suchbegriff}"`) : null)),
   );
 }
