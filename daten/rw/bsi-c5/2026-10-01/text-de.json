@@ -1,0 +1,652 @@
+{
+  "z_am": {
+    "h": "12dc01c33c94c6467a63021e38bd4c2a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Erfassung, Zuordnung und Behandlung der Vermögenswerte, mit denen die Leistung erbracht wird."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verzeichnis der Assets mit Verantwortlichen"
+          },
+          {
+            "m": "2.",
+            "t": "Einstufung nach Schutzbedarf"
+          },
+          {
+            "m": "3.",
+            "t": "Regeln für Rückgabe und Aussonderung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Auszug aus dem Assetverzeichnis des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Stützt die eigene Pflicht aus Artikel 8 DORA, Abhängigkeiten bis zum Dienstleister zu kennen."
+      }
+    ]
+  },
+  "z_bcm": {
+    "h": "02c1d812be99822dde9a60b1e2107765",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vorsorge des Anbieters für schwere Störungen: Auswirkungsanalyse, Pläne, Redundanzen und Übungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Auswirkungsanalyse und Wiederherstellungsziele"
+          },
+          {
+            "m": "2.",
+            "t": "Pläne und Redundanzen"
+          },
+          {
+            "m": "3.",
+            "t": "Regelmäßige Übungen mit Auswertung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Testberichte des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 11 und 12 DORA verlangen, dass die Pläne des Dienstleisters zu den eigenen Wiederherstellungszielen passen."
+      }
+    ]
+  },
+  "z_com": {
+    "h": "6b5af0004c214f7f108353a0dd1c1988",
+    "b": [
+      {
+        "art": "p",
+        "t": "Umgang des Anbieters mit rechtlichen Vorgaben sowie Ermöglichung interner und externer Prüfungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Identifizierung der anwendbaren Vorgaben"
+          },
+          {
+            "m": "2.",
+            "t": "Interne Überprüfungen"
+          },
+          {
+            "m": "3.",
+            "t": "Prüfungsrechte für Kunden und Aufsicht"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Vertragliche Prüfungs- und Zutrittsrechte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 30 Absatz 3 DORA verlangt uneingeschränkte Zugangs-, Einsichts- und Prüfungsrechte bei kritischen oder wichtigen Funktionen."
+      }
+    ]
+  },
+  "z_cos": {
+    "h": "625f1f41f0b64f654faf87d96c99d119",
+    "b": [
+      {
+        "art": "p",
+        "t": "Absicherung der Netze und Übertragungswege, Trennung der Mandanten und Schutz gegen Angriffe aus dem Netz."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Netztrennung und Zonenbildung"
+          },
+          {
+            "m": "2.",
+            "t": "Schutz der Übertragungswege"
+          },
+          {
+            "m": "3.",
+            "t": "Abwehr von Überlastangriffen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Netz- und Mandantentrennungskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht A.8.20 bis A.8.23 ISO/IEC 27001."
+      }
+    ]
+  },
+  "z_cry": {
+    "h": "445bbe6f78f6228323a25e1d0c31291f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Einsatz von Verschlüsselung für ruhende und übertragene Daten sowie geordnete Verwaltung der Schlüssel."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vorgaben zu Verfahren und Schlüssellängen"
+          },
+          {
+            "m": "2.",
+            "t": "Schlüsselverwaltung über den Lebenszyklus"
+          },
+          {
+            "m": "3.",
+            "t": "Trennung der Schlüssel von den Daten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Kryptokonzept des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA verlangt Verschlüsselung ruhender und übertragener Daten; A.8.24 ISO/IEC 27001 entspricht dem."
+      }
+    ]
+  },
+  "z_dev": {
+    "h": "6ca10568b94566329aba09324b839be0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sichere Entwicklung und geordnete Änderung der Dienste des Anbieters einschließlich der Trennung von Umgebungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sichere Entwicklungsvorgaben"
+          },
+          {
+            "m": "2.",
+            "t": "Trennung von Entwicklung, Test und Produktion"
+          },
+          {
+            "m": "3.",
+            "t": "Geordnetes Änderungsverfahren mit Freigabe"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Änderungsnachweise des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht A.8.25 bis A.8.33 ISO/IEC 27001 und Artikel 9 DORA."
+      }
+    ]
+  },
+  "z_hr": {
+    "h": "627b04057c7097c6cf6a225a29adcfb5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eignung, Verpflichtung, Sensibilisierung und geordneter Austritt der Beschäftigten des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Überprüfung vor Einstellung in sensiblen Rollen"
+          },
+          {
+            "m": "2.",
+            "t": "Verpflichtung zur Vertraulichkeit"
+          },
+          {
+            "m": "3.",
+            "t": "Sensibilisierung und geordnete Austrittsprozesse"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Nachweis der Sensibilisierungsmaßnahmen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht den personenbezogenen Controls A.6.1 bis A.6.6 ISO/IEC 27001."
+      }
+    ]
+  },
+  "z_idm": {
+    "h": "d7fbd9f0e6cdfbdcba47c51c1a73bcf0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vergabe, Überprüfung und Entzug von Zugängen, besonders für privilegierte Zugriffe des Anbieters auf Kundendaten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren für Vergabe und Entzug"
+          },
+          {
+            "m": "2.",
+            "t": "Regelmäßige Überprüfung der Berechtigungen"
+          },
+          {
+            "m": "3.",
+            "t": "Besondere Regeln für privilegierte Zugriffe"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Auswertungen der Berechtigungsüberprüfung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht A.5.15 bis A.5.18 ISO/IEC 27001; privilegierte Fernzugriffe sind nach Artikel 9 DORA besonders abzusichern."
+      }
+    ]
+  },
+  "z_inv": {
+    "h": "f565987734c733cfe229da1fff5ccac2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Geordnetes Verfahren des Anbieters für Auskunfts- und Herausgabeverlangen von Behörden, einschließlich der Information der Kunden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Festgelegtes Prüf- und Entscheidungsverfahren"
+          },
+          {
+            "m": "2.",
+            "t": "Rechtliche Prüfung jedes Verlangens"
+          },
+          {
+            "m": "3.",
+            "t": "Information der Kunden, soweit zulässig"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Verfahrensbeschreibung des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Berührt die Übermittlung in Drittländer nach Kapitel V DSGVO und das Vertraulichkeitsinteresse des Versicherungsunternehmens."
+      }
+    ]
+  },
+  "z_ois": {
+    "h": "44c1c58347dbfa43bb13f50ea7bbb57d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verankerung der Informationssicherheit in der Organisation des Anbieters: Verantwortlichkeiten, Steuerung, Risikoverfahren und Berichtswege."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Benannte Verantwortliche und Steuerungsgremien"
+          },
+          {
+            "m": "2.",
+            "t": "Risikoverfahren für die erbrachte Leistung"
+          },
+          {
+            "m": "3.",
+            "t": "Berichtswege zur Leitung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5 mit diesem Bereich, Organisations- und Rollenbeschreibung des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Als Nachweis verwendbar für die Überwachung von IKT-Dienstleistern nach Artikel 28 DORA, ersetzt die eigene Bewertung jedoch nicht."
+      }
+    ]
+  },
+  "z_ops": {
+    "h": "fde2bb33dd7c8aeb91d136f041c663ee",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kapazitätssteuerung, Schutz vor Schadsoftware, Datensicherung, Protokollierung und Umgang mit Schwachstellen im laufenden Betrieb."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kapazitäts- und Verfügbarkeitssteuerung"
+          },
+          {
+            "m": "2.",
+            "t": "Datensicherung mit überprüfter Wiederherstellung"
+          },
+          {
+            "m": "3.",
+            "t": "Protokollierung und Auswertung"
+          },
+          {
+            "m": "4.",
+            "t": "Schwachstellen- und Patchverfahren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Sicherungs- und Wiederherstellungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Deckt Anforderungen der Artikel 9, 10 und 12 DORA auf Seiten des Dienstleisters ab."
+      }
+    ]
+  },
+  "z_pi": {
+    "h": "c3b9ec7de338016a7f62ff78a30cf770",
+    "b": [
+      {
+        "art": "p",
+        "t": "Möglichkeit, Daten und Verarbeitungen in verwertbarer Form zurückzuerhalten oder zu einem anderen Anbieter zu überführen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Export in dokumentierten Formaten"
+          },
+          {
+            "m": "2.",
+            "t": "Beschriebene Schnittstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Löschung nach Vertragsende"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Beschreibung der Export- und Löschverfahren."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Trägt die Ausstiegsstrategie nach Artikel 28 Absatz 8 DORA; die Datenverordnung verstärkt die Wechselmöglichkeit."
+      }
+    ]
+  },
+  "z_ps": {
+    "h": "a30e020e33abf5fe3cfa8ae98858fda9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Schutz der Rechenzentren und Räume gegen unbefugten Zutritt, Umwelteinflüsse und Versorgungsausfälle."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zutrittsschutz mit Protokollierung"
+          },
+          {
+            "m": "2.",
+            "t": "Schutz vor Umwelteinflüssen"
+          },
+          {
+            "m": "3.",
+            "t": "Redundante Versorgung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Standortangaben des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht den physischen Controls A.7.1 bis A.7.14 ISO/IEC 27001; die Standorte sind Teil des Informationsregisters nach Artikel 28 DORA."
+      }
+    ]
+  },
+  "z_sim": {
+    "h": "855d4cae0b663fd156b322cb41a63821",
+    "b": [
+      {
+        "art": "p",
+        "t": "Erkennung, Bearbeitung und Meldung von Sicherheitsvorfällen beim Anbieter, einschließlich der Unterrichtung der Kunden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vorfallprozess mit Rollen und Fristen"
+          },
+          {
+            "m": "2.",
+            "t": "Unterrichtung der betroffenen Kunden"
+          },
+          {
+            "m": "3.",
+            "t": "Auswertung und Ursachenbeseitigung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Vertragliche Meldefristen des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Erforderlich, damit das Versicherungsunternehmen seine eigenen Fristen nach Artikel 19 DORA und Artikel 33 DSGVO einhalten kann."
+      }
+    ]
+  },
+  "z_sp": {
+    "h": "b0380f188304b358e0a9c019beebe4e2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vorhandensein, Freigabe, Bekanntgabe und Überprüfung der Regelwerke, nach denen der Anbieter arbeitet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Richtlinien mit Freigabe und Überprüfungsdatum"
+          },
+          {
+            "m": "2.",
+            "t": "Bekanntgabe an die Beschäftigten"
+          },
+          {
+            "m": "3.",
+            "t": "Regelmäßige Überprüfung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinienverzeichnis des Anbieters, Prüfungsbericht nach C5."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht A.5.1 ISO/IEC 27001."
+      }
+    ]
+  },
+  "z_sso": {
+    "h": "64ae56ba1d7f2f7addeba1b2cc9c0477",
+    "b": [
+      {
+        "art": "p",
+        "t": "Umgang des Anbieters mit seinen eigenen Unterauftragnehmern: Auswahl, Vertrag, Überwachung und Offenlegung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verzeichnis der Unterauftragnehmer"
+          },
+          {
+            "m": "2.",
+            "t": "Weitergabe der Anforderungen in die Kette"
+          },
+          {
+            "m": "3.",
+            "t": "Überwachung und Information der Kunden bei Wechsel"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Liste der Unterauftragnehmer mit Standorten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Trägt die Pflichten zur Untervergabe nach Artikel 30 DORA und der Delegierten Verordnung (EU) 2025/532 sowie Artikel 28 DSGVO."
+      }
+    ]
+  },
+  "z_up": {
+    "h": "9209b0e9a36431b0732a4bae6aa2a83d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheitsmerkmale des Dienstes selbst: Voreinstellungen, Härtungsmöglichkeiten, Protokolle für Kunden und Dokumentation."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sichere Voreinstellungen"
+          },
+          {
+            "m": "2.",
+            "t": "Für Kunden nutzbare Sicherheitsfunktionen und Protokolle"
+          },
+          {
+            "m": "3.",
+            "t": "Verständliche Dokumentation"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht nach C5, Produktdokumentation des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Ergänzt die eigene Konfigurationsverantwortung: Was der Dienst anbietet, muss das Versicherungsunternehmen auch einstellen (Artikel 9 DORA)."
+      }
+    ]
+  }
+}

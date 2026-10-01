@@ -160,6 +160,34 @@
       "fassung": "2026-10-01",
       "art": "Erstaufnahme",
       "quelle": "https://www.nist.gov/cyberframework"
+    },
+    {
+      "zeitpunkt": "2026-10-01T18:33:03Z",
+      "regelwerk": "bsi-c5",
+      "fassung": "2026-10-01",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.bsi.bund.de/"
+    },
+    {
+      "zeitpunkt": "2026-10-01T18:33:04Z",
+      "regelwerk": "cobit2019",
+      "fassung": "2026-10-01",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.isaca.org/resources/cobit"
+    },
+    {
+      "zeitpunkt": "2026-10-01T18:33:04Z",
+      "regelwerk": "gdv-coc",
+      "fassung": "2026-10-01",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.gdv.de/"
+    },
+    {
+      "zeitpunkt": "2026-10-01T18:33:05Z",
+      "regelwerk": "itil4",
+      "fassung": "2026-10-01",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.peoplecert.org/"
     }
   ]
 }

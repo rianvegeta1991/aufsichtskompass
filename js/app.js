@@ -18,7 +18,7 @@ import * as analyse from './analyse.js';
 import * as news from './news.js';
 import * as lernen from './lernen.js';
 
-export const APP_VERSION = '1.6';
+export const APP_VERSION = '1.7';
 
 const seite = document.getElementById('seite');
 
@@ -248,7 +248,7 @@ async function start(wurzel) {
       phasenzeile('2', 'Bibliothek und Viewer: CELLAR-Konnektor, DORA (DE/EN) und Level-2-Rechtsakte, Deep-Links, Suche', 'fertig'),
       phasenzeile('2b', 'Konnektor für gesetze-im-internet.de: VAG, BSIG, BDSG vollständig, HGB und AO als Auszug', 'fertig'),
       phasenzeile('2c', 'BaFin-Veröffentlichungen (MaGo, MaRisk, DORA-FAQ) – erst nach Klärung der Nutzungsbedingungen', 'offen'),
-      phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001 vollständig (100 Einträge), CSA CCM und NIST CSF 2.0 im Überblick', 'teilweise (COBIT, ITIL, C5, GDV offen)'),
+      phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001 (100 Einträge), COBIT 2019 (40 Objectives), ITIL 4 (34 Practices), BSI C5, GDV-Verhaltensregeln, CSA CCM, NIST CSF 2.0', 'fertig (Kennungen noch abzugleichen)'),
       phasenzeile('4', 'Themenseiten mit Fundstellen, Beziehungsmodell, Matrizen, Heatmap, Meldepflichten, Rollen, Graph, Zeitstrahl, CSV-Export', 'fertig'),
       phasenzeile('5', 'Tägliches Screening: 14 Feeds, Seitenüberwachung, neue Rechtsakte über SPARQL, Newsfeed, Digest, Protokoll', 'fertig'),
       phasenzeile('6', 'Change Detection, Archiv, Diff-Ansicht, Benachrichtigung', 'Grundlage steht (Hashes, Änderungslog)'),

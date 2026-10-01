@@ -1,0 +1,1682 @@
+{
+  "z_apo01": {
+    "h": "c3802fd291b41b397d04f29a0cacea01",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation der IT festlegen: Aufbau, Rollen, Richtlinien, Prozesse und Kultur, in denen alles Weitere abläuft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Organisationsstruktur und Rollen der IT festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Richtlinienwerk aufbauen und pflegen"
+          },
+          {
+            "m": "3.",
+            "t": "Prozesse definieren, verantworten und messen"
+          },
+          {
+            "m": "4.",
+            "t": "Kommunikation und Verbindlichkeit der Vorgaben sichern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Organigramm mit Rollenbeschreibungen, Richtlinienverzeichnis mit Freigabe und Überprüfungsdatum, Prozesslandkarte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht dem Verlangen des Artikels 6 DORA nach einem dokumentierten IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_apo02": {
+    "h": "161cbba23dd6a4e756c2ac1dbbfb7941",
+    "b": [
+      {
+        "art": "p",
+        "t": "Aus der Geschäftsstrategie eine IT-Strategie ableiten, den Abstand zur heutigen Lage bestimmen und einen Weg dorthin beschreiben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ist-Lage und Zielbild beschreiben"
+          },
+          {
+            "m": "2.",
+            "t": "Lücken und Handlungsfelder bestimmen"
+          },
+          {
+            "m": "3.",
+            "t": "Umsetzungsfahrplan mit Prioritäten festlegen"
+          },
+          {
+            "m": "4.",
+            "t": "Strategie regelmäßig überprüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: IT-Strategie mit Fahrplan, Lückenanalyse, Fortschrittsberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 Absatz 8 DORA verlangt zusätzlich eine eigene Strategie für digitale operationale Resilienz."
+      }
+    ]
+  },
+  "z_apo03": {
+    "h": "2f5e4eb21f32bf4ea2abb0f44de7e43f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Fachliche und technische Architektur so beschreiben und steuern, dass Veränderungen planbar bleiben und Abhängigkeiten sichtbar sind."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Architekturmodelle und Bausteine pflegen"
+          },
+          {
+            "m": "2.",
+            "t": "Zielarchitektur und Übergangsschritte festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Vorhaben gegen die Architektur prüfen"
+          },
+          {
+            "m": "4.",
+            "t": "Abweichungen bewusst entscheiden und befristen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Architekturdokumentation, Architekturentscheidungen mit Begründung, Ausnahmeregister."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Grundlage für Artikel 8 DORA: Ohne Architektur- und Abhängigkeitsbild lässt sich die Identifizierung nicht vollständig führen."
+      }
+    ]
+  },
+  "z_apo04": {
+    "h": "5a4920efb2af1c8061dd68fc56fb3224",
+    "b": [
+      {
+        "art": "p",
+        "t": "Neue Technologien bewusst beobachten, erproben und bewerten, statt sie dem Zufall zu überlassen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Technologiebeobachtung organisieren"
+          },
+          {
+            "m": "2.",
+            "t": "Erprobung in abgegrenzter Umgebung ermöglichen"
+          },
+          {
+            "m": "3.",
+            "t": "Nutzen und Risiko vor der Einführung bewerten"
+          },
+          {
+            "m": "4.",
+            "t": "Ergebnisse in Architektur und Portfolio überführen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Technologieradar, Erprobungsberichte, Entscheidungen zur Einführung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Berührt die KI-Verordnung: Erprobung ist der Ort, an dem Risikoeinstufung und Pflichten früh zu klären sind."
+      }
+    ]
+  },
+  "z_apo05": {
+    "h": "31865a068f30d2dbcb1b6ebf94eee5ef",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vorhaben als Gesamtheit priorisieren, mit Mitteln versehen, überwachen und beenden – nicht jedes Vorhaben für sich."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vorhaben nach einheitlichen Kriterien bewerten und priorisieren"
+          },
+          {
+            "m": "2.",
+            "t": "Mittel zuteilen und bei Bedarf umsteuern"
+          },
+          {
+            "m": "3.",
+            "t": "Fortschritt und Nutzen überwachen"
+          },
+          {
+            "m": "4.",
+            "t": "Vorhaben geordnet beenden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Portfolioübersicht, Priorisierungskriterien, Entscheidungsprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Bindeglied zu EDM02: Dort wird der Nutzen verlangt, hier über das Portfolio durchgesetzt."
+      }
+    ]
+  },
+  "z_apo06": {
+    "h": "783345c8c5a4193d78e82fe89df7dccc",
+    "b": [
+      {
+        "art": "p",
+        "t": "IT-Kosten planen, zuordnen, überwachen und verursachungsgerecht zurechnen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kostenarten und Zurechnungsmodell festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Budget planen und freigeben"
+          },
+          {
+            "m": "3.",
+            "t": "Abweichungen erkennen und begründen"
+          },
+          {
+            "m": "4.",
+            "t": "Kostentransparenz gegenüber den Fachbereichen herstellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: IT-Kostenplan, Abweichungsanalysen, Verrechnungsmodell."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Keine unmittelbare aufsichtliche Vorgabe, aber Grundlage dafür, ausreichende Mittel im Sinne des Artikels 13 DORA nachzuweisen."
+      }
+    ]
+  },
+  "z_apo07": {
+    "h": "a34c3f56a9a359982e24dd8db7aecca7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Besetzung, Fähigkeiten, Entwicklung und Abhängigkeiten von Schlüsselpersonen bewusst führen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Soll-Fähigkeiten je Rolle beschreiben und Lücken ermitteln"
+          },
+          {
+            "m": "2.",
+            "t": "Fortbildung planen und nachweisen"
+          },
+          {
+            "m": "3.",
+            "t": "Abhängigkeiten von Einzelpersonen verringern"
+          },
+          {
+            "m": "4.",
+            "t": "Eintritt, Wechsel und Austritt geordnet abwickeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Fähigkeitenmatrix, Schulungsnachweise, Vertretungs- und Nachfolgeregelungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 Absatz 6 DORA verlangt fortlaufende Schulung zu IKT-Risiken, auch für das Leitungsorgan."
+      }
+    ]
+  },
+  "z_apo08": {
+    "h": "faca4b292fa03635edeaca688ec78979",
+    "b": [
+      {
+        "art": "p",
+        "t": "Einen geregelten Austausch zwischen IT und Geschäft herstellen, damit Bedarf, Prioritäten und Leistungsbild übereinstimmen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ansprechpartner und Austauschformate festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Erwartungen und Zufriedenheit erheben"
+          },
+          {
+            "m": "3.",
+            "t": "Gemeinsame Prioritäten abstimmen"
+          },
+          {
+            "m": "4.",
+            "t": "Konflikte geregelt eskalieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Abstimmungsprotokolle, Zufriedenheitserhebungen, Eskalationsregelung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Voraussetzung für die Geschäftsauswirkungsanalyse nach Artikel 11 DORA: Kritikalität bestimmt das Geschäft, nicht die IT."
+      }
+    ]
+  },
+  "z_apo09": {
+    "h": "0f7d58ef40e0ba88c2580485a896b9a7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Leistungen der IT in Vereinbarungen fassen – mit Inhalt, Güte, Zeiten und Folgen bei Abweichung – und deren Einhaltung messen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Leistungskatalog und Vereinbarungen aufsetzen"
+          },
+          {
+            "m": "2.",
+            "t": "Messgrößen und Schwellen festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Einhaltung messen und berichten"
+          },
+          {
+            "m": "4.",
+            "t": "Vereinbarungen bei Bedarf anpassen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Leistungsvereinbarungen, Leistungsberichte, Maßnahmen bei Unterschreitung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 30 DORA schreibt für IKT-Dienstleister Pflichtinhalte des Vertrags vor, darunter Leistungsziele und Berichtspflichten."
+      }
+    ]
+  },
+  "z_apo10": {
+    "h": "315217cbe0e1297e0f0fd12b128f25f8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auswahl, Vertrag, Überwachung und Beendigung von Lieferbeziehungen nach einem festen Verfahren führen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Auswahl- und Eignungsprüfung vor Vertragsschluss"
+          },
+          {
+            "m": "2.",
+            "t": "Risiken der Beziehung bewerten und steuern"
+          },
+          {
+            "m": "3.",
+            "t": "Leistung und Risikolage fortlaufend überwachen"
+          },
+          {
+            "m": "4.",
+            "t": "Ausstieg vorbereiten und erproben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dienstleisterverzeichnis, Eignungs- und Risikobewertungen, Überwachungsberichte, Ausstiegspläne."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 bis 30 DORA machen daraus harte Pflichten: Informationsregister, Vorabbewertung, Pflichtvertragsinhalte, Ausstiegsstrategie."
+      }
+    ]
+  },
+  "z_apo11": {
+    "h": "9453388b58c4d2ab2e44a7e987c203e9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Qualitätsanforderungen festlegen, in Verfahren verankern und ihre Einhaltung prüfen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Qualitätskriterien je Ergebnisart festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Qualitätssicherung in die Abläufe einbauen"
+          },
+          {
+            "m": "3.",
+            "t": "Fehler und Nacharbeit auswerten"
+          },
+          {
+            "m": "4.",
+            "t": "Verbesserungen umsetzen und messen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Qualitätsvorgaben, Prüf- und Abnahmeprotokolle, Fehlerstatistiken."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Ergänzt Artikel 24 bis 27 DORA: Resilienztests prüfen die Wirksamkeit, Qualitätssicherung verhindert Fehler vorher."
+      }
+    ]
+  },
+  "z_apo12": {
+    "h": "0cc406f32dbef4ae1e9659e3ec5e97ef",
+    "b": [
+      {
+        "art": "p",
+        "t": "IT-Risiken erkennen, bewerten, behandeln und überwachen – mit einem Verfahren, das Ergebnisse vergleichbar macht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Risiken erfassen und nach einheitlichen Kriterien bewerten"
+          },
+          {
+            "m": "2.",
+            "t": "Behandlungsentscheidung treffen und begründen"
+          },
+          {
+            "m": "3.",
+            "t": "Restrisiken bewusst annehmen und dokumentieren"
+          },
+          {
+            "m": "4.",
+            "t": "Wirksamkeit der Maßnahmen überwachen und berichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikoregister, Bewertungsmaßstab, Maßnahmenplan, Berichte zur Risikolage."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Kernstück des Artikels 6 DORA und der Klausel 6 ISO/IEC 27001; § 26 VAG verlangt dasselbe für alle wesentlichen Risiken."
+      }
+    ]
+  },
+  "z_apo13": {
+    "h": "2c8ed4cf186128f96d4ea316168b603e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein Managementsystem für Informationssicherheit aufbauen, betreiben und verbessern."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsrichtlinien und Zuständigkeiten festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Schutzbedarf und Maßnahmen ableiten"
+          },
+          {
+            "m": "3.",
+            "t": "Wirksamkeit messen und Vorfälle auswerten"
+          },
+          {
+            "m": "4.",
+            "t": "System fortlaufend verbessern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Sicherheitsrichtlinie, Maßnahmenverzeichnis, Wirksamkeitsnachweise, Managementbewertung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht dem Managementsystem der ISO/IEC 27001 und den Anforderungen der Artikel 9 und 13 DORA."
+      }
+    ]
+  },
+  "z_apo14": {
+    "h": "494e5654123300c1390bdbe9cd1e205f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Daten als Vermögenswert führen: Verantwortlichkeiten, Qualität, Lebenszyklus und Bedeutung der Begriffe."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Datenverantwortliche benennen"
+          },
+          {
+            "m": "2.",
+            "t": "Datenqualität messen und sichern"
+          },
+          {
+            "m": "3.",
+            "t": "Lebenszyklus von Erhebung bis Löschung regeln"
+          },
+          {
+            "m": "4.",
+            "t": "Begriffe und Bedeutungen einheitlich festlegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Datenkatalog mit Verantwortlichen, Qualitätskennzahlen, Löschkonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Berührt Artikel 5 Absatz 1 Buchstabe e DSGVO (Speicherbegrenzung) sowie die Aufbewahrungspflichten des § 257 HGB und des § 147 AO."
+      }
+    ]
+  },
+  "z_bai01": {
+    "h": "3946a76194f6ab662d41dbc845b0aa96",
+    "b": [
+      {
+        "art": "p",
+        "t": "Mehrere zusammenhängende Vorhaben gemeinsam planen, steuern und zum Abschluss bringen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Programmziele, Umfang und Nutzen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Rollen und Entscheidungswege bestimmen"
+          },
+          {
+            "m": "3.",
+            "t": "Fortschritt, Risiken und Abhängigkeiten überwachen"
+          },
+          {
+            "m": "4.",
+            "t": "Abschluss mit Nutzenbetrachtung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Programmauftrag, Statusberichte, Abschlussbericht."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Ohne Programmsteuerung bleibt die Umsetzung aufsichtlicher Anforderungen wie DORA ein unverbundenes Bündel von Einzelmaßnahmen."
+      }
+    ]
+  },
+  "z_bai02": {
+    "h": "f207cb49c6ddeefdcd554846f803cc7b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Fachliche und nichtfachliche Anforderungen vollständig erheben, bewerten und freigeben, bevor gebaut wird."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen erheben und nachvollziehbar dokumentieren"
+          },
+          {
+            "m": "2.",
+            "t": "Sicherheits-, Datenschutz- und Resilienzanforderungen von Anfang an aufnehmen"
+          },
+          {
+            "m": "3.",
+            "t": "Anforderungen abstimmen und freigeben"
+          },
+          {
+            "m": "4.",
+            "t": "Änderungen an Anforderungen verfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Anforderungskatalog mit Freigabe, Nachverfolgbarkeit bis zum Test, Änderungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 25 DSGVO verlangt Datenschutz durch Technikgestaltung – also bereits an dieser Stelle."
+      }
+    ]
+  },
+  "z_bai03": {
+    "h": "89dad3c593d2e30cd6e2e734d931323e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Aus Anforderungen eine Lösung entwerfen, bauen oder beschaffen und für die Abnahme vorbereiten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Entwurf dokumentieren und prüfen"
+          },
+          {
+            "m": "2.",
+            "t": "Sicher entwickeln und Abhängigkeiten dokumentieren"
+          },
+          {
+            "m": "3.",
+            "t": "Umgebungen trennen"
+          },
+          {
+            "m": "4.",
+            "t": "Lösung dokumentieren und übergabefähig machen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Entwurfsdokumente, Ergebnisse der Entwurfsprüfung, Betriebsdokumentation."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA verlangt sichere Entwicklung und getrennte Umgebungen; A.8.25 bis A.8.31 ISO/IEC 27001 führen das aus."
+      }
+    ]
+  },
+  "z_bai04": {
+    "h": "81b128c9942f2e56c35f5c4d6b3562f9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bedarf an Leistung und Verfügbarkeit vorhersehen und die Kapazitäten darauf einstellen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Bedarf erheben und fortschreiben"
+          },
+          {
+            "m": "2.",
+            "t": "Auslastung überwachen und Engpässe früh erkennen"
+          },
+          {
+            "m": "3.",
+            "t": "Kapazitätsmaßnahmen planen und umsetzen"
+          },
+          {
+            "m": "4.",
+            "t": "Verfügbarkeitsziele mit dem Geschäft abstimmen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kapazitätsplan, Auslastungsberichte, Verfügbarkeitsstatistik."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA verlangt Maßnahmen zur Leistungsfähigkeit und Verfügbarkeit, Artikel 11 die Ausrichtung an Wiederherstellungszielen."
+      }
+    ]
+  },
+  "z_bai05": {
+    "h": "76345bdd30de6fd638a9eed4cd349fb8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Veränderungen so begleiten, dass die Beteiligten sie annehmen und die neue Arbeitsweise tatsächlich gelebt wird."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Betroffene früh einbinden und informieren"
+          },
+          {
+            "m": "2.",
+            "t": "Schulung und Begleitung bereitstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Annahme messen und nachsteuern"
+          },
+          {
+            "m": "4.",
+            "t": "Rückfall in alte Abläufe verhindern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kommunikationsplan, Schulungsnachweise, Erhebungen zur Nutzung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Ergänzt die Awareness-Pflicht des Artikels 13 Absatz 6 DORA um die Veränderungsseite."
+      }
+    ]
+  },
+  "z_bai06": {
+    "h": "b2e7ab977e8aebd661e0236f0e53ef1f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Änderungen an Systemen geordnet beantragen, bewerten, freigeben, umsetzen und nachverfolgen – einschließlich der Eilfälle."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Änderungsarten und Freigabewege festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Auswirkung und Risiko je Änderung bewerten"
+          },
+          {
+            "m": "3.",
+            "t": "Notfalländerungen nachträglich dokumentieren und genehmigen"
+          },
+          {
+            "m": "4.",
+            "t": "Rückfalloption vorsehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Änderungsverzeichnis, Freigabeprotokolle, Auswertung der Notfalländerungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA verlangt ein Änderungsmanagement mit Nachvollziehbarkeit; A.8.32 ISO/IEC 27001 entspricht dem."
+      }
+    ]
+  },
+  "z_bai07": {
+    "h": "7c9ac7c7041658f8d744eb7b2f5758ec",
+    "b": [
+      {
+        "art": "p",
+        "t": "Den Übergang von der Entwicklung in den Betrieb planen, testen, abnehmen und bei Fehlschlag zurücknehmen können."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Abnahmekriterien vorab festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Tests einschließlich Datenmigration durchführen"
+          },
+          {
+            "m": "3.",
+            "t": "Produktionsfreigabe dokumentieren"
+          },
+          {
+            "m": "4.",
+            "t": "Rückfallplan bereithalten und Übergang nachbetrachten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Testberichte, Abnahmeerklärung, Rückfallplan, Nachbetrachtung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 8 Absatz 7 DORA verlangt, Testumgebungen von der Produktion zu trennen und Produktionsdaten im Test nur abgesichert zu verwenden."
+      }
+    ]
+  },
+  "z_bai08": {
+    "h": "f66ab724577773b599af08ba7744de4d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wissen auffindbar, aktuell und nutzbar halten, damit Betrieb und Weiterentwicklung nicht an Einzelpersonen hängen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Wissensquellen festlegen und pflegen"
+          },
+          {
+            "m": "2.",
+            "t": "Aktualität verantworten"
+          },
+          {
+            "m": "3.",
+            "t": "Zugriff und Auffindbarkeit sicherstellen"
+          },
+          {
+            "m": "4.",
+            "t": "Veraltetes aussondern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dokumentationsrichtlinie, Nachweis der Überprüfungen, Betriebshandbücher."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 Absatz 2 DORA verlangt, Erkenntnisse aus Vorfällen und Tests in das Wissen des Unternehmens zurückzuführen."
+      }
+    ]
+  },
+  "z_bai09": {
+    "h": "2cd9f489140859ae40d177fb4c0d7c9d",
+    "b": [
+      {
+        "art": "p",
+        "t": "IT-Vermögenswerte über ihren Lebenszyklus führen: erfassen, zuordnen, lizenzrechtlich sauber halten, aussondern."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vermögenswerte erfassen und Verantwortliche zuordnen"
+          },
+          {
+            "m": "2.",
+            "t": "Lebenszyklus und Wartungsstand überwachen"
+          },
+          {
+            "m": "3.",
+            "t": "Lizenz- und Vertragslage beachten"
+          },
+          {
+            "m": "4.",
+            "t": "Aussonderung sicher durchführen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Assetverzeichnis, Lizenzübersicht, Nachweise der Datenträgervernichtung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 8 DORA verlangt ein Verzeichnis aller IKT-Assets mit Kritikalität; A.5.9 bis A.5.11 ISO/IEC 27001 entsprechen dem."
+      }
+    ]
+  },
+  "z_bai10": {
+    "h": "883f1b05c44de1cf96cbe7f551bc8595",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bestandteile der IT und ihre Beziehungen in einer verlässlichen Konfigurationsbasis führen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Konfigurationsobjekte und Tiefe festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Beziehungen und Abhängigkeiten abbilden"
+          },
+          {
+            "m": "3.",
+            "t": "Abweichungen zwischen Soll und Ist erkennen"
+          },
+          {
+            "m": "4.",
+            "t": "Änderungen nur über das Änderungsverfahren einbringen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Konfigurationsdatenbank, Abweichungsberichte, Prüfungen der Datenqualität."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Grundlage des Artikels 8 DORA: Abhängigkeiten zwischen Assets müssen bekannt sein, auch zu Dienstleistern."
+      }
+    ]
+  },
+  "z_bai11": {
+    "h": "7d3218cee95036f0245964c688534129",
+    "b": [
+      {
+        "art": "p",
+        "t": "Einzelvorhaben nach einem festen Vorgehen planen, steuern, abschließen und auswerten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Auftrag, Umfang und Rollen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Planung, Risiken und Fortschritt führen"
+          },
+          {
+            "m": "3.",
+            "t": "Entscheidungspunkte vorsehen"
+          },
+          {
+            "m": "4.",
+            "t": "Abschluss dokumentieren und auswerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Projektauftrag, Statusberichte, Projektabschlussbericht."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Bindeglied zu BAI01 und APO05: Das Portfolio entscheidet, das Programm bündelt, das Projekt liefert."
+      }
+    ]
+  },
+  "z_dss01": {
+    "h": "002c110b1c6f8682f0c5378ea2b180d3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Den laufenden Betrieb planvoll durchführen: Aufträge, Überwachung, Umgebung, Sicherung und Arbeiten Dritter."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Betriebsabläufe und Verantwortlichkeiten festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Verarbeitungen und Aufträge überwachen"
+          },
+          {
+            "m": "3.",
+            "t": "Sicherungen durchführen und überprüfen"
+          },
+          {
+            "m": "4.",
+            "t": "Arbeiten Dritter im Betrieb beaufsichtigen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Betriebshandbuch, Überwachungsprotokolle, Sicherungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 und 12 DORA verlangen betriebliche Schutz- und Sicherungsmaßnahmen mit überprüfter Wiederherstellung."
+      }
+    ]
+  },
+  "z_dss02": {
+    "h": "83b168f2119da9eb94991bdde8fec447",
+    "b": [
+      {
+        "art": "p",
+        "t": "Anfragen und Störungen annehmen, einordnen, priorisieren und bis zur Lösung führen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Annahmewege und Klassifizierung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Priorisierung an der Geschäftsauswirkung ausrichten"
+          },
+          {
+            "m": "3.",
+            "t": "Bearbeitung, Eskalation und Abschluss dokumentieren"
+          },
+          {
+            "m": "4.",
+            "t": "Betroffene informieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vorfallverzeichnis, Klassifizierungsschema, Auswertung der Bearbeitungszeiten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 17 DORA verlangt genau diesen Prozess, Artikel 18 die Klassifizierung nach aufsichtlichen Kriterien und Artikel 19 die Meldung."
+      }
+    ]
+  },
+  "z_dss03": {
+    "h": "1f279b7896011d9e2017623ec52bc471",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wiederkehrende Störungen auf ihre Ursache zurückführen und diese dauerhaft beseitigen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Probleme erkennen und erfassen"
+          },
+          {
+            "m": "2.",
+            "t": "Ursachen untersuchen"
+          },
+          {
+            "m": "3.",
+            "t": "Dauerhafte Abhilfe planen und umsetzen"
+          },
+          {
+            "m": "4.",
+            "t": "Bekannte Fehler dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Problemverzeichnis, Ursachenanalysen, Verzeichnis bekannter Fehler."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 Absatz 1 DORA verlangt, Ursachen von Vorfällen zu ermitteln und Erkenntnisse umzusetzen."
+      }
+    ]
+  },
+  "z_dss04": {
+    "h": "72e32fadc0075974827e7b417163bac6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Ausfälle vorsorgen: Pläne, Zuständigkeiten, Übungen und Wiederherstellung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Geschäftsauswirkungen analysieren und Ziele festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Fortführungs- und Wiederherstellungspläne erstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Pläne regelmäßig üben und auswerten"
+          },
+          {
+            "m": "4.",
+            "t": "Pläne nach Änderungen und Vorfällen fortschreiben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Geschäftsauswirkungsanalyse, Notfall- und Wiederherstellungspläne, Übungsberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 11 und 12 DORA verlangen Pläne, jährliche Tests, Krisenkommunikation und Wiederherstellungsziele; ISO 22301 beschreibt das Managementsystem dazu."
+      }
+    ]
+  },
+  "z_dss05": {
+    "h": "553c2e45022078f56041cc6afd34e811",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die technischen Schutzmaßnahmen im Betrieb wirksam halten: Zugänge, Netze, Endgeräte, Schadsoftware, Überwachung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugänge vergeben, prüfen und entziehen"
+          },
+          {
+            "m": "2.",
+            "t": "Netze trennen und absichern"
+          },
+          {
+            "m": "3.",
+            "t": "Endgeräte und Datenträger schützen"
+          },
+          {
+            "m": "4.",
+            "t": "Sicherheitsrelevante Ereignisse überwachen und auswerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berechtigungskonzept und Rezertifizierungen, Netzplan mit Zonen, Protokollierungs- und Auswertungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 und 10 DORA verlangen Schutz, Prävention und Erkennung; die technologischen Controls des Annex A ISO/IEC 27001 führen die Einzelmaßnahmen aus."
+      }
+    ]
+  },
+  "z_dss06": {
+    "h": "9d00eb50cf7074e1decac71b29db085a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherstellen, dass die Verarbeitung in den Fachverfahren vollständig, richtig und nachvollziehbar abläuft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verarbeitungskontrollen für Eingabe, Verarbeitung und Ausgabe festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Rollen und Funktionstrennung im Verfahren verankern"
+          },
+          {
+            "m": "3.",
+            "t": "Fehler erkennen, korrigieren und auswerten"
+          },
+          {
+            "m": "4.",
+            "t": "Nachvollziehbarkeit der Verarbeitung sichern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kontrollmatrix je Verfahren, Abstimmungs- und Fehlerprotokolle, Berechtigungsauswertungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: § 29 VAG verlangt ein internes Kontrollsystem; die GoBD verlangen Nachvollziehbarkeit und Unveränderbarkeit aufzeichnungspflichtiger Daten."
+      }
+    ]
+  },
+  "z_edm01": {
+    "h": "3f9ab1f596e238deeaca9dd6d179fe79",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Leitungsorgan legt fest, nach welchen Grundsätzen, Strukturen und Entscheidungsrechten die IT gesteuert wird, und hält diesen Rahmen aktuell. Governance wird damit von Management unterschieden: Das Leitungsorgan bewertet, gibt die Richtung und überwacht; das Management plant, baut, betreibt und überwacht im Tagesgeschäft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Grundsätze, Entscheidungsrechte und Eskalationswege schriftlich festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Governance-Gremien einrichten und mit Mandat versehen"
+          },
+          {
+            "m": "3.",
+            "t": "Delegation und Vorbehalte für das Leitungsorgan abgrenzen"
+          },
+          {
+            "m": "4.",
+            "t": "Den Rahmen regelmäßig auf Wirksamkeit prüfen und fortschreiben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: IT-Governance-Richtlinie, Geschäftsordnungen der Gremien, Delegationsmatrix."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 5 DORA verlangt genau diese Letztverantwortung des Leitungsorgans; § 23 VAG verlangt eine ordnungsgemäße Geschäftsorganisation mit klaren Zuständigkeiten."
+      }
+    ]
+  },
+  "z_edm02": {
+    "h": "57f0c63c319d59fbd913f5396f3aeff4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Dafür sorgen, dass IT-Vorhaben einen nachvollziehbaren Beitrag zum Geschäftswert leisten – vor der Entscheidung begründet, nach der Umsetzung gemessen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Nutzenerwartung je Vorhaben vorab beschreiben und bewerten"
+          },
+          {
+            "m": "2.",
+            "t": "Investitionen am Nutzen-Risiko-Verhältnis ausrichten"
+          },
+          {
+            "m": "3.",
+            "t": "Nutzenrealisierung nach Abschluss messen und berichten"
+          },
+          {
+            "m": "4.",
+            "t": "Vorhaben ohne Nutzenbeitrag beenden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Entscheidungsvorlagen mit Nutzenbetrachtung, Nachkalkulationen, Portfolioberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Ergänzt die aufsichtliche Sicht: DORA fordert Resilienz, COBIT die wirtschaftliche Begründung derselben Maßnahmen."
+      }
+    ]
+  },
+  "z_edm03": {
+    "h": "4afdaa056ca8af25f3d4bdc660355750",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Leitungsorgan bestimmt, wie viel IT-Risiko das Unternehmen tragen will, und überwacht, dass die tatsächliche Risikolage dazu passt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Risikoappetit und Toleranzen für IT-Risiken festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Risikolage regelmäßig gegen den Appetit berichten"
+          },
+          {
+            "m": "3.",
+            "t": "Bei Überschreitung Maßnahmen verlangen und nachhalten"
+          },
+          {
+            "m": "4.",
+            "t": "Risikokultur fördern und einfordern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikostrategie mit Toleranzen, Risikoberichte an das Leitungsorgan, Maßnahmenverfolgung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 Absatz 8 DORA verlangt eine Strategie für digitale operationale Resilienz mit Risikotoleranzschwelle; § 26 VAG verlangt ein eigenes Risikomanagementsystem."
+      }
+    ]
+  },
+  "z_edm04": {
+    "h": "a176a3f5576189bb66e5defe475a9539",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherstellen, dass Personal, Fähigkeiten, Technik und Mittel in ausreichendem Maß und am richtigen Ort zur Verfügung stehen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Bedarf an Ressourcen und Fähigkeiten planen"
+          },
+          {
+            "m": "2.",
+            "t": "Engpässe und Schlüsselabhängigkeiten sichtbar machen"
+          },
+          {
+            "m": "3.",
+            "t": "Beschaffung und Eigenleistung bewusst abwägen"
+          },
+          {
+            "m": "4.",
+            "t": "Auslastung und Wirksamkeit überwachen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Ressourcen- und Kapazitätsplanung, Fähigkeitenmatrix, Nachfolgeplanung für Schlüsselrollen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 Absatz 6 DORA verlangt ausreichende Ressourcen und Fähigkeiten für den IKT-Risikorahmen."
+      }
+    ]
+  },
+  "z_edm05": {
+    "h": "8bc76029019cb25717077304193dab6e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Berichterstattung und Austausch so gestalten, dass Leitungsorgan, Aufsicht, Fachbereiche und weitere Beteiligte ein zutreffendes Bild der IT-Lage erhalten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Berichtsempfänger, Inhalte und Takte festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Berichte auf Richtigkeit und Verständlichkeit prüfen"
+          },
+          {
+            "m": "3.",
+            "t": "Rückmeldungen aufnehmen und verarbeiten"
+          },
+          {
+            "m": "4.",
+            "t": "Pflichtberichte an Außenstehende sicherstellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berichtskonzept, Protokolle der Gremien, Nachweis aufsichtlicher Berichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 Absatz 5 und Artikel 19 DORA begründen Berichtspflichten nach innen und gegenüber der Aufsicht."
+      }
+    ]
+  },
+  "z_mea01": {
+    "h": "72722b3cf7b4f9458fb8d0bb9d52868b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Messen, ob Ziele erreicht und Vorgaben eingehalten werden, und daraus Maßnahmen ableiten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ziele und Messgrößen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Daten verlässlich erheben"
+          },
+          {
+            "m": "3.",
+            "t": "Abweichungen bewerten und berichten"
+          },
+          {
+            "m": "4.",
+            "t": "Maßnahmen nachhalten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kennzahlensystem, Berichtswesen, Maßnahmenverfolgung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 Absatz 5 DORA verlangt die Berichterstattung über Erkenntnisse aus Tests und Prüfungen an das Leitungsorgan."
+      }
+    ]
+  },
+  "z_mea02": {
+    "h": "9366626705d89eb0cbd10d16f996d163",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die eigenen Kontrollen auf Vorhandensein und Wirksamkeit prüfen und Mängel beheben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kontrollen beschreiben und Verantwortliche benennen"
+          },
+          {
+            "m": "2.",
+            "t": "Wirksamkeit regelmäßig prüfen"
+          },
+          {
+            "m": "3.",
+            "t": "Mängel bewerten und abstellen"
+          },
+          {
+            "m": "4.",
+            "t": "Selbstbewertungen und unabhängige Prüfungen verbinden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kontrollverzeichnis, Wirksamkeitsnachweise, Mängelverfolgung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: § 29 VAG verlangt ein internes Kontrollsystem, § 30 VAG eine davon unabhängige interne Revision; das COSO-Rahmenwerk beschreibt den Aufbau."
+      }
+    ]
+  },
+  "z_mea03": {
+    "h": "df6f42cdfa6123384b570a8b6895b718",
+    "b": [
+      {
+        "art": "p",
+        "t": "Rechtliche und aufsichtliche Anforderungen an die IT erfassen, zuordnen, überwachen und Abweichungen anzeigen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen fortlaufend erheben und den Prozessen zuordnen"
+          },
+          {
+            "m": "2.",
+            "t": "Erfüllungsgrad bewerten"
+          },
+          {
+            "m": "3.",
+            "t": "Abweichungen melden und abstellen"
+          },
+          {
+            "m": "4.",
+            "t": "Änderungen der Rechtslage verfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Anforderungsverzeichnis mit Zuordnung, Erfüllungsbewertungen, Nachweis der Rechtsbeobachtung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Genau die Aufgabe, für die diese Anwendung gebaut ist; § 29 Absatz 1 VAG verlangt eine Compliance-Funktion."
+      }
+    ]
+  },
+  "z_mea04": {
+    "h": "19a8d97c8cb3a3e5a915123b07b87916",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unabhängige Prüfungen so planen und durchführen, dass belastbare Aussagen über die IT möglich sind."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfungsplanung am Risiko ausrichten"
+          },
+          {
+            "m": "2.",
+            "t": "Unabhängigkeit und Fachkunde der Prüfenden sichern"
+          },
+          {
+            "m": "3.",
+            "t": "Prüfungen durchführen und berichten"
+          },
+          {
+            "m": "4.",
+            "t": "Feststellungen nachverfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsplan, Prüfungsberichte, Nachverfolgung der Feststellungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: § 30 VAG verlangt eine interne Revision; IDW PS 330 behandelt die Prüfung der IT im Rahmen der Abschlussprüfung, ISAE 3402 die Prüfung bei Dienstleistern."
+      }
+    ]
+  }
+}

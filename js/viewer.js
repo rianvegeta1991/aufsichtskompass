@@ -427,6 +427,11 @@ async function beziehungenNachladen(behaelter, rw, ziel) {
   const [b, k] = await Promise.all([analyse.beziehungen(), daten.katalog()]);
   const name = (id) => (k.regelwerke.find((r) => r.id === id) || {}).kurzname || id;
   const treffer = analyse.zuFundstelle(b.beziehungen, rw.id, ziel ? ziel.pfad : null);
+  // Die Gegenstelle mit ihrer Bezeichnung zeigen, nicht mit ihrem Pfad: „APO12 – Risiken
+  // steuern" sagt mehr als „o/apo12". Geladen wird dafür nur die Struktur, nicht der Text.
+  const bez = await analyse.bezeichnungen(
+    treffer.filter((t) => t.gegenueber.pfad).map((t) => t.gegenueber)).catch(() => new Map());
+  const stelle = (g) => bez.get(`${g.rw}|${g.pfad}`) || g.pfad;
 
   leere(behaelter);
   behaelter.append(el('h3', `Beziehungen (${treffer.length})`));
@@ -443,7 +448,7 @@ async function beziehungenNachladen(behaelter, rw, ziel) {
         t.geprueft ? chip('geprüft', 'original') : chip('ungeprüft', 'zusammenfassung')),
       el('p', { style: 'margin:0 0 3px' },
         el('a', { href: `#/rw/${g.rw}${g.pfad ? '/' + g.pfad : ''}` },
-          `${name(g.rw)}${g.pfad ? ' · ' + g.pfad : ''}`)),
+          `${name(g.rw)}${g.pfad ? ' · ' + stelle(g) : ''}`)),
       el('p', { style: 'margin:0;font-size:.82rem;color:var(--color-text-muted)' }, t.begruendung)));
   }
 

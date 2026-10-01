@@ -1,0 +1,17 @@
+{
+  "regelwerk": "gdv-coc",
+  "fassungen": [
+    {
+      "id": "2026-10-01",
+      "stand": "2026-10-01T00:00:00Z",
+      "abgerufen": "2026-10-01T18:33:04Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Verhaltensregeln für den Umgang mit personenbezogenen Daten durch die deutsche Versicherungswirtschaft (Code of Conduct), nach der Datenschutz-Grundverordnung überarbeitete Fassung",
+        "url": "https://www.gdv.de/",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein GDV, Verhaltensregeln für den Umgang mit personenbezogenen Daten (Code of Conduct) (Verhaltensregeln für den Umgang mit personenbezogenen Daten durch die deutsche Versicherungswirtschaft (Code of Conduct), nach der Datenschutz-Grundverordnung überarbeitete Fassung)."
+      },
+      "hash": "7dce045a21209bc96e97d5cf5ee07d3c86acd573249f9b5fb920b5d8e0e56a6c",
+      "fundstellen": 12
+    }
+  ]
+}

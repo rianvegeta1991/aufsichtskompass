@@ -1,0 +1,17 @@
+{
+  "regelwerk": "itil4",
+  "fassungen": [
+    {
+      "id": "2026-10-01",
+      "stand": "2026-10-01T00:00:00Z",
+      "abgerufen": "2026-10-01T18:33:05Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: ITIL 4 (Service Value System, 34 Practices)",
+        "url": "https://www.peoplecert.org/",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ITIL 4 (PeopleCert / AXELOS) (ITIL 4 (Service Value System, 34 Practices))."
+      },
+      "hash": "79dc4a2efb56f36d0cf52c491e979dc0dbf336a00426c104ae99708e8a5cd75b",
+      "fundstellen": 34
+    }
+  ]
+}

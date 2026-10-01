@@ -1,5 +1,5 @@
 {
-  "gebaut": "2026-09-30T19:18:25Z",
+  "gebaut": "2026-10-01T18:33:05Z",
   "indizes": [
     {
       "regelwerk": "ao",
@@ -16,11 +16,25 @@
       "dokumente": 289
     },
     {
+      "regelwerk": "bsi-c5",
+      "sprache": "de",
+      "fassung": "2026-10-01",
+      "datei": "rw/bsi-c5/2026-10-01/index-de.json",
+      "dokumente": 17
+    },
+    {
       "regelwerk": "bsig",
       "sprache": "de",
       "fassung": "2026-07-28",
       "datei": "rw/bsig/2026-07-28/index-de.json",
       "dokumente": 277
+    },
+    {
+      "regelwerk": "cobit2019",
+      "sprache": "de",
+      "fassung": "2026-10-01",
+      "datei": "rw/cobit2019/2026-10-01/index-de.json",
+      "dokumente": 40
     },
     {
       "regelwerk": "csa-ccm",
@@ -135,6 +149,13 @@
       "dokumente": 568
     },
     {
+      "regelwerk": "gdv-coc",
+      "sprache": "de",
+      "fassung": "2026-10-01",
+      "datei": "rw/gdv-coc/2026-10-01/index-de.json",
+      "dokumente": 12
+    },
+    {
       "regelwerk": "hgb",
       "sprache": "de",
       "fassung": "2026-07-09",
@@ -147,6 +168,13 @@
       "fassung": "2026-10-01",
       "datei": "rw/iso27001/2026-10-01/index-de.json",
       "dokumente": 100
+    },
+    {
+      "regelwerk": "itil4",
+      "sprache": "de",
+      "fassung": "2026-10-01",
+      "datei": "rw/itil4/2026-10-01/index-de.json",
+      "dokumente": 34
     },
     {
       "regelwerk": "nis2",

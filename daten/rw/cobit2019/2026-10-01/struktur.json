@@ -1,0 +1,515 @@
+{
+  "regelwerk": "cobit2019",
+  "fassung": "2026-10-01",
+  "abgerufen": "2026-10-01T18:33:04Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: COBIT 2019 (Framework: Governance and Management Objectives)",
+    "url": "https://www.isaca.org/resources/cobit",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein COBIT 2019 (ISACA) (COBIT 2019 (Framework: Governance and Management Objectives))."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_edm",
+      "art": "abschnitt",
+      "nummer": "EDM",
+      "bez": "EDM",
+      "titel": {
+        "de": "Evaluate, Direct and Monitor – Aufgaben des Leitungsorgans"
+      },
+      "pfad": "gr/edm",
+      "kinder": [
+        {
+          "id": "z_edm01",
+          "art": "control",
+          "nummer": "EDM01",
+          "bez": "EDM01",
+          "titel": {
+            "de": "Governance-Rahmen setzen und erhalten"
+          },
+          "pfad": "o/edm01",
+          "text": true
+        },
+        {
+          "id": "z_edm02",
+          "art": "control",
+          "nummer": "EDM02",
+          "bez": "EDM02",
+          "titel": {
+            "de": "Nutzen aus IT-Investitionen sicherstellen"
+          },
+          "pfad": "o/edm02",
+          "text": true
+        },
+        {
+          "id": "z_edm03",
+          "art": "control",
+          "nummer": "EDM03",
+          "bez": "EDM03",
+          "titel": {
+            "de": "Risiko im vertretbaren Rahmen halten"
+          },
+          "pfad": "o/edm03",
+          "text": true
+        },
+        {
+          "id": "z_edm04",
+          "art": "control",
+          "nummer": "EDM04",
+          "bez": "EDM04",
+          "titel": {
+            "de": "Ressourcen angemessen einsetzen"
+          },
+          "pfad": "o/edm04",
+          "text": true
+        },
+        {
+          "id": "z_edm05",
+          "art": "control",
+          "nummer": "EDM05",
+          "bez": "EDM05",
+          "titel": {
+            "de": "Einbindung der Beteiligten sicherstellen"
+          },
+          "pfad": "o/edm05",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_apo",
+      "art": "abschnitt",
+      "nummer": "APO",
+      "bez": "APO",
+      "titel": {
+        "de": "Align, Plan and Organise – Ausrichten, Planen, Organisieren"
+      },
+      "pfad": "gr/apo",
+      "kinder": [
+        {
+          "id": "z_apo01",
+          "art": "control",
+          "nummer": "APO01",
+          "bez": "APO01",
+          "titel": {
+            "de": "IT-Managementrahmen gestalten"
+          },
+          "pfad": "o/apo01",
+          "text": true
+        },
+        {
+          "id": "z_apo02",
+          "art": "control",
+          "nummer": "APO02",
+          "bez": "APO02",
+          "titel": {
+            "de": "IT-Strategie entwickeln"
+          },
+          "pfad": "o/apo02",
+          "text": true
+        },
+        {
+          "id": "z_apo03",
+          "art": "control",
+          "nummer": "APO03",
+          "bez": "APO03",
+          "titel": {
+            "de": "Unternehmensarchitektur steuern"
+          },
+          "pfad": "o/apo03",
+          "text": true
+        },
+        {
+          "id": "z_apo04",
+          "art": "control",
+          "nummer": "APO04",
+          "bez": "APO04",
+          "titel": {
+            "de": "Innovation steuern"
+          },
+          "pfad": "o/apo04",
+          "text": true
+        },
+        {
+          "id": "z_apo05",
+          "art": "control",
+          "nummer": "APO05",
+          "bez": "APO05",
+          "titel": {
+            "de": "Portfolio steuern"
+          },
+          "pfad": "o/apo05",
+          "text": true
+        },
+        {
+          "id": "z_apo06",
+          "art": "control",
+          "nummer": "APO06",
+          "bez": "APO06",
+          "titel": {
+            "de": "Budget und Kosten steuern"
+          },
+          "pfad": "o/apo06",
+          "text": true
+        },
+        {
+          "id": "z_apo07",
+          "art": "control",
+          "nummer": "APO07",
+          "bez": "APO07",
+          "titel": {
+            "de": "Personal steuern"
+          },
+          "pfad": "o/apo07",
+          "text": true
+        },
+        {
+          "id": "z_apo08",
+          "art": "control",
+          "nummer": "APO08",
+          "bez": "APO08",
+          "titel": {
+            "de": "Beziehungen zu den Fachbereichen pflegen"
+          },
+          "pfad": "o/apo08",
+          "text": true
+        },
+        {
+          "id": "z_apo09",
+          "art": "control",
+          "nummer": "APO09",
+          "bez": "APO09",
+          "titel": {
+            "de": "Dienstleistungsvereinbarungen steuern"
+          },
+          "pfad": "o/apo09",
+          "text": true
+        },
+        {
+          "id": "z_apo10",
+          "art": "control",
+          "nummer": "APO10",
+          "bez": "APO10",
+          "titel": {
+            "de": "Dienstleister steuern"
+          },
+          "pfad": "o/apo10",
+          "text": true
+        },
+        {
+          "id": "z_apo11",
+          "art": "control",
+          "nummer": "APO11",
+          "bez": "APO11",
+          "titel": {
+            "de": "Qualität steuern"
+          },
+          "pfad": "o/apo11",
+          "text": true
+        },
+        {
+          "id": "z_apo12",
+          "art": "control",
+          "nummer": "APO12",
+          "bez": "APO12",
+          "titel": {
+            "de": "Risiken steuern"
+          },
+          "pfad": "o/apo12",
+          "text": true
+        },
+        {
+          "id": "z_apo13",
+          "art": "control",
+          "nummer": "APO13",
+          "bez": "APO13",
+          "titel": {
+            "de": "Informationssicherheit steuern"
+          },
+          "pfad": "o/apo13",
+          "text": true
+        },
+        {
+          "id": "z_apo14",
+          "art": "control",
+          "nummer": "APO14",
+          "bez": "APO14",
+          "titel": {
+            "de": "Daten steuern"
+          },
+          "pfad": "o/apo14",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_bai",
+      "art": "abschnitt",
+      "nummer": "BAI",
+      "bez": "BAI",
+      "titel": {
+        "de": "Build, Acquire and Implement – Erstellen, Beschaffen, Einführen"
+      },
+      "pfad": "gr/bai",
+      "kinder": [
+        {
+          "id": "z_bai01",
+          "art": "control",
+          "nummer": "BAI01",
+          "bez": "BAI01",
+          "titel": {
+            "de": "Programme steuern"
+          },
+          "pfad": "o/bai01",
+          "text": true
+        },
+        {
+          "id": "z_bai02",
+          "art": "control",
+          "nummer": "BAI02",
+          "bez": "BAI02",
+          "titel": {
+            "de": "Anforderungen bestimmen"
+          },
+          "pfad": "o/bai02",
+          "text": true
+        },
+        {
+          "id": "z_bai03",
+          "art": "control",
+          "nummer": "BAI03",
+          "bez": "BAI03",
+          "titel": {
+            "de": "Lösungen entwerfen und bauen"
+          },
+          "pfad": "o/bai03",
+          "text": true
+        },
+        {
+          "id": "z_bai04",
+          "art": "control",
+          "nummer": "BAI04",
+          "bez": "BAI04",
+          "titel": {
+            "de": "Verfügbarkeit und Kapazität steuern"
+          },
+          "pfad": "o/bai04",
+          "text": true
+        },
+        {
+          "id": "z_bai05",
+          "art": "control",
+          "nummer": "BAI05",
+          "bez": "BAI05",
+          "titel": {
+            "de": "Organisatorische Veränderung begleiten"
+          },
+          "pfad": "o/bai05",
+          "text": true
+        },
+        {
+          "id": "z_bai06",
+          "art": "control",
+          "nummer": "BAI06",
+          "bez": "BAI06",
+          "titel": {
+            "de": "IT-Änderungen steuern"
+          },
+          "pfad": "o/bai06",
+          "text": true
+        },
+        {
+          "id": "z_bai07",
+          "art": "control",
+          "nummer": "BAI07",
+          "bez": "BAI07",
+          "titel": {
+            "de": "Abnahme und Überführung in den Betrieb"
+          },
+          "pfad": "o/bai07",
+          "text": true
+        },
+        {
+          "id": "z_bai08",
+          "art": "control",
+          "nummer": "BAI08",
+          "bez": "BAI08",
+          "titel": {
+            "de": "Wissen steuern"
+          },
+          "pfad": "o/bai08",
+          "text": true
+        },
+        {
+          "id": "z_bai09",
+          "art": "control",
+          "nummer": "BAI09",
+          "bez": "BAI09",
+          "titel": {
+            "de": "Vermögenswerte steuern"
+          },
+          "pfad": "o/bai09",
+          "text": true
+        },
+        {
+          "id": "z_bai10",
+          "art": "control",
+          "nummer": "BAI10",
+          "bez": "BAI10",
+          "titel": {
+            "de": "Konfiguration steuern"
+          },
+          "pfad": "o/bai10",
+          "text": true
+        },
+        {
+          "id": "z_bai11",
+          "art": "control",
+          "nummer": "BAI11",
+          "bez": "BAI11",
+          "titel": {
+            "de": "Projekte steuern"
+          },
+          "pfad": "o/bai11",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_dss",
+      "art": "abschnitt",
+      "nummer": "DSS",
+      "bez": "DSS",
+      "titel": {
+        "de": "Deliver, Service and Support – Liefern, Betreiben, Unterstützen"
+      },
+      "pfad": "gr/dss",
+      "kinder": [
+        {
+          "id": "z_dss01",
+          "art": "control",
+          "nummer": "DSS01",
+          "bez": "DSS01",
+          "titel": {
+            "de": "Betrieb führen"
+          },
+          "pfad": "o/dss01",
+          "text": true
+        },
+        {
+          "id": "z_dss02",
+          "art": "control",
+          "nummer": "DSS02",
+          "bez": "DSS02",
+          "titel": {
+            "de": "Serviceanfragen und Vorfälle bearbeiten"
+          },
+          "pfad": "o/dss02",
+          "text": true
+        },
+        {
+          "id": "z_dss03",
+          "art": "control",
+          "nummer": "DSS03",
+          "bez": "DSS03",
+          "titel": {
+            "de": "Probleme bearbeiten"
+          },
+          "pfad": "o/dss03",
+          "text": true
+        },
+        {
+          "id": "z_dss04",
+          "art": "control",
+          "nummer": "DSS04",
+          "bez": "DSS04",
+          "titel": {
+            "de": "Fortführung des Betriebs sichern"
+          },
+          "pfad": "o/dss04",
+          "text": true
+        },
+        {
+          "id": "z_dss05",
+          "art": "control",
+          "nummer": "DSS05",
+          "bez": "DSS05",
+          "titel": {
+            "de": "Sicherheitsdienste erbringen"
+          },
+          "pfad": "o/dss05",
+          "text": true
+        },
+        {
+          "id": "z_dss06",
+          "art": "control",
+          "nummer": "DSS06",
+          "bez": "DSS06",
+          "titel": {
+            "de": "Kontrollen in den Geschäftsprozessen führen"
+          },
+          "pfad": "o/dss06",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_mea",
+      "art": "abschnitt",
+      "nummer": "MEA",
+      "bez": "MEA",
+      "titel": {
+        "de": "Monitor, Evaluate and Assess – Überwachen, Bewerten, Beurteilen"
+      },
+      "pfad": "gr/mea",
+      "kinder": [
+        {
+          "id": "z_mea01",
+          "art": "control",
+          "nummer": "MEA01",
+          "bez": "MEA01",
+          "titel": {
+            "de": "Leistung und Regelkonformität überwachen"
+          },
+          "pfad": "o/mea01",
+          "text": true
+        },
+        {
+          "id": "z_mea02",
+          "art": "control",
+          "nummer": "MEA02",
+          "bez": "MEA02",
+          "titel": {
+            "de": "Internes Kontrollsystem überwachen"
+          },
+          "pfad": "o/mea02",
+          "text": true
+        },
+        {
+          "id": "z_mea03",
+          "art": "control",
+          "nummer": "MEA03",
+          "bez": "MEA03",
+          "titel": {
+            "de": "Einhaltung externer Anforderungen überwachen"
+          },
+          "pfad": "o/mea03",
+          "text": true
+        },
+        {
+          "id": "z_mea04",
+          "art": "control",
+          "nummer": "MEA04",
+          "bez": "MEA04",
+          "titel": {
+            "de": "Prüfungssicherheit herstellen"
+          },
+          "pfad": "o/mea04",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

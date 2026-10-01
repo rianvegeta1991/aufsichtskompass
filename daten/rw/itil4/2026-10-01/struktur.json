@@ -1,0 +1,425 @@
+{
+  "regelwerk": "itil4",
+  "fassung": "2026-10-01",
+  "abgerufen": "2026-10-01T18:33:05Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: ITIL 4 (Service Value System, 34 Practices)",
+    "url": "https://www.peoplecert.org/",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ITIL 4 (PeopleCert / AXELOS) (ITIL 4 (Service Value System, 34 Practices))."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_am",
+      "art": "abschnitt",
+      "nummer": "AM",
+      "bez": "AM",
+      "titel": {
+        "de": "Allgemeine Managementpraktiken (14)"
+      },
+      "pfad": "gr/am",
+      "kinder": [
+        {
+          "id": "z_am01",
+          "art": "control",
+          "nummer": "AM01",
+          "bez": "AM01",
+          "titel": {
+            "de": "Architekturmanagement"
+          },
+          "pfad": "p/am01",
+          "text": true
+        },
+        {
+          "id": "z_am02",
+          "art": "control",
+          "nummer": "AM02",
+          "bez": "AM02",
+          "titel": {
+            "de": "Kontinuierliche Verbesserung"
+          },
+          "pfad": "p/am02",
+          "text": true
+        },
+        {
+          "id": "z_am03",
+          "art": "control",
+          "nummer": "AM03",
+          "bez": "AM03",
+          "titel": {
+            "de": "Informationssicherheitsmanagement"
+          },
+          "pfad": "p/am03",
+          "text": true
+        },
+        {
+          "id": "z_am04",
+          "art": "control",
+          "nummer": "AM04",
+          "bez": "AM04",
+          "titel": {
+            "de": "Wissensmanagement"
+          },
+          "pfad": "p/am04",
+          "text": true
+        },
+        {
+          "id": "z_am05",
+          "art": "control",
+          "nummer": "AM05",
+          "bez": "AM05",
+          "titel": {
+            "de": "Messung und Berichtswesen"
+          },
+          "pfad": "p/am05",
+          "text": true
+        },
+        {
+          "id": "z_am06",
+          "art": "control",
+          "nummer": "AM06",
+          "bez": "AM06",
+          "titel": {
+            "de": "Organisatorisches Veränderungsmanagement"
+          },
+          "pfad": "p/am06",
+          "text": true
+        },
+        {
+          "id": "z_am07",
+          "art": "control",
+          "nummer": "AM07",
+          "bez": "AM07",
+          "titel": {
+            "de": "Portfoliomanagement"
+          },
+          "pfad": "p/am07",
+          "text": true
+        },
+        {
+          "id": "z_am08",
+          "art": "control",
+          "nummer": "AM08",
+          "bez": "AM08",
+          "titel": {
+            "de": "Projektmanagement"
+          },
+          "pfad": "p/am08",
+          "text": true
+        },
+        {
+          "id": "z_am09",
+          "art": "control",
+          "nummer": "AM09",
+          "bez": "AM09",
+          "titel": {
+            "de": "Beziehungsmanagement"
+          },
+          "pfad": "p/am09",
+          "text": true
+        },
+        {
+          "id": "z_am10",
+          "art": "control",
+          "nummer": "AM10",
+          "bez": "AM10",
+          "titel": {
+            "de": "Risikomanagement"
+          },
+          "pfad": "p/am10",
+          "text": true
+        },
+        {
+          "id": "z_am11",
+          "art": "control",
+          "nummer": "AM11",
+          "bez": "AM11",
+          "titel": {
+            "de": "Finanzmanagement für Services"
+          },
+          "pfad": "p/am11",
+          "text": true
+        },
+        {
+          "id": "z_am12",
+          "art": "control",
+          "nummer": "AM12",
+          "bez": "AM12",
+          "titel": {
+            "de": "Strategiemanagement"
+          },
+          "pfad": "p/am12",
+          "text": true
+        },
+        {
+          "id": "z_am13",
+          "art": "control",
+          "nummer": "AM13",
+          "bez": "AM13",
+          "titel": {
+            "de": "Lieferantenmanagement"
+          },
+          "pfad": "p/am13",
+          "text": true
+        },
+        {
+          "id": "z_am14",
+          "art": "control",
+          "nummer": "AM14",
+          "bez": "AM14",
+          "titel": {
+            "de": "Personal- und Talentmanagement"
+          },
+          "pfad": "p/am14",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_sm",
+      "art": "abschnitt",
+      "nummer": "SM",
+      "bez": "SM",
+      "titel": {
+        "de": "Servicemanagement-Praktiken (17)"
+      },
+      "pfad": "gr/sm",
+      "kinder": [
+        {
+          "id": "z_sm01",
+          "art": "control",
+          "nummer": "SM01",
+          "bez": "SM01",
+          "titel": {
+            "de": "Verfügbarkeitsmanagement"
+          },
+          "pfad": "p/sm01",
+          "text": true
+        },
+        {
+          "id": "z_sm02",
+          "art": "control",
+          "nummer": "SM02",
+          "bez": "SM02",
+          "titel": {
+            "de": "Business-Analyse"
+          },
+          "pfad": "p/sm02",
+          "text": true
+        },
+        {
+          "id": "z_sm03",
+          "art": "control",
+          "nummer": "SM03",
+          "bez": "SM03",
+          "titel": {
+            "de": "Kapazitäts- und Leistungsmanagement"
+          },
+          "pfad": "p/sm03",
+          "text": true
+        },
+        {
+          "id": "z_sm04",
+          "art": "control",
+          "nummer": "SM04",
+          "bez": "SM04",
+          "titel": {
+            "de": "Änderungsfreigabe (Change Enablement)"
+          },
+          "pfad": "p/sm04",
+          "text": true
+        },
+        {
+          "id": "z_sm05",
+          "art": "control",
+          "nummer": "SM05",
+          "bez": "SM05",
+          "titel": {
+            "de": "Vorfallmanagement"
+          },
+          "pfad": "p/sm05",
+          "text": true
+        },
+        {
+          "id": "z_sm06",
+          "art": "control",
+          "nummer": "SM06",
+          "bez": "SM06",
+          "titel": {
+            "de": "IT-Asset-Management"
+          },
+          "pfad": "p/sm06",
+          "text": true
+        },
+        {
+          "id": "z_sm07",
+          "art": "control",
+          "nummer": "SM07",
+          "bez": "SM07",
+          "titel": {
+            "de": "Überwachung und Ereignismanagement"
+          },
+          "pfad": "p/sm07",
+          "text": true
+        },
+        {
+          "id": "z_sm08",
+          "art": "control",
+          "nummer": "SM08",
+          "bez": "SM08",
+          "titel": {
+            "de": "Problemmanagement"
+          },
+          "pfad": "p/sm08",
+          "text": true
+        },
+        {
+          "id": "z_sm09",
+          "art": "control",
+          "nummer": "SM09",
+          "bez": "SM09",
+          "titel": {
+            "de": "Releasemanagement"
+          },
+          "pfad": "p/sm09",
+          "text": true
+        },
+        {
+          "id": "z_sm10",
+          "art": "control",
+          "nummer": "SM10",
+          "bez": "SM10",
+          "titel": {
+            "de": "Servicekatalogmanagement"
+          },
+          "pfad": "p/sm10",
+          "text": true
+        },
+        {
+          "id": "z_sm11",
+          "art": "control",
+          "nummer": "SM11",
+          "bez": "SM11",
+          "titel": {
+            "de": "Servicekonfigurationsmanagement"
+          },
+          "pfad": "p/sm11",
+          "text": true
+        },
+        {
+          "id": "z_sm12",
+          "art": "control",
+          "nummer": "SM12",
+          "bez": "SM12",
+          "titel": {
+            "de": "Service Continuity Management"
+          },
+          "pfad": "p/sm12",
+          "text": true
+        },
+        {
+          "id": "z_sm13",
+          "art": "control",
+          "nummer": "SM13",
+          "bez": "SM13",
+          "titel": {
+            "de": "Servicedesign"
+          },
+          "pfad": "p/sm13",
+          "text": true
+        },
+        {
+          "id": "z_sm14",
+          "art": "control",
+          "nummer": "SM14",
+          "bez": "SM14",
+          "titel": {
+            "de": "Service Desk"
+          },
+          "pfad": "p/sm14",
+          "text": true
+        },
+        {
+          "id": "z_sm15",
+          "art": "control",
+          "nummer": "SM15",
+          "bez": "SM15",
+          "titel": {
+            "de": "Service-Level-Management"
+          },
+          "pfad": "p/sm15",
+          "text": true
+        },
+        {
+          "id": "z_sm16",
+          "art": "control",
+          "nummer": "SM16",
+          "bez": "SM16",
+          "titel": {
+            "de": "Serviceanfragemanagement"
+          },
+          "pfad": "p/sm16",
+          "text": true
+        },
+        {
+          "id": "z_sm17",
+          "art": "control",
+          "nummer": "SM17",
+          "bez": "SM17",
+          "titel": {
+            "de": "Servicevalidierung und -test"
+          },
+          "pfad": "p/sm17",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_tm",
+      "art": "abschnitt",
+      "nummer": "TM",
+      "bez": "TM",
+      "titel": {
+        "de": "Technische Managementpraktiken (3)"
+      },
+      "pfad": "gr/tm",
+      "kinder": [
+        {
+          "id": "z_tm01",
+          "art": "control",
+          "nummer": "TM01",
+          "bez": "TM01",
+          "titel": {
+            "de": "Deployment-Management"
+          },
+          "pfad": "p/tm01",
+          "text": true
+        },
+        {
+          "id": "z_tm02",
+          "art": "control",
+          "nummer": "TM02",
+          "bez": "TM02",
+          "titel": {
+            "de": "Infrastruktur- und Plattformmanagement"
+          },
+          "pfad": "p/tm02",
+          "text": true
+        },
+        {
+          "id": "z_tm03",
+          "art": "control",
+          "nummer": "TM03",
+          "bez": "TM03",
+          "titel": {
+            "de": "Softwareentwicklung und -management"
+          },
+          "pfad": "p/tm03",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

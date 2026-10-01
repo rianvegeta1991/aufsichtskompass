@@ -15,7 +15,8 @@ amtlich veröffentlichte Fassung.
   Darstellungsmodus, Tiefe und Prüfstatus.
 - **Originaltext-Viewer** für 20 Regelwerke mit rund 3.750 adressierbaren Fundstellen:
   DORA (deutsch und englisch), die zwölf Level-2-Rechtsakte (RTS/ITS), NIS2, DSGVO sowie
-  VAG, BSIG, BDSG vollständig und HGB und AO als IT-relevanter Auszug.
+  VAG, BSIG, BDSG vollständig und HGB und AO als IT-relevanter Auszug. Dazu sieben Werke
+  als eigene Zusammenfassung – zusammen **27 Regelwerke mit 3.978 Fundstellen**.
   Gliederungsbaum, Deep-Link auf jeden Absatz bzw. Paragrafen, Glossar aus den
   Begriffsbestimmungen, Zitat-Export mit Quellenangabe, Lesezeichen und Notizen.
 - **Volltextsuche** über alle Fundstellen (BM25, deutsche Stammbildung), clientseitig.
@@ -71,15 +72,19 @@ Ausschließlich kostenlose, amtliche Quellen ohne Anmeldung:
 
 Wo kein Volltext zulässig ist, stehen eigene Zusammenfassungen – in eigenen Worten, mit
 Bezugsfassung, Herkunft, Prüfstatus und Verweis auf die Bezugsquelle. Enthalten sind
-**ISO/IEC 27001:2022 vollständig** (Klauseln 4–10 und alle 93 Annex-A-Controls),
-**CSA CCM v4** und **NIST CSF 2.0** im Überblick; COBIT und ITIL folgen. Sie laufen durch
-dieselbe Maschinerie wie die Originaltexte und sind deshalb genauso durchsuchbar,
-verlinkbar und in den Matrizen verankert.
+**ISO/IEC 27001:2022** (Klauseln 4–10 und alle 93 Annex-A-Controls), **COBIT 2019**
+(40 Governance- und Management-Objectives), **ITIL 4** (34 Practices), **BSI C5**
+(17 Kriterienbereiche), die **GDV-Verhaltensregeln** (12 Regelungsfelder) sowie
+**CSA CCM v4** und **NIST CSF 2.0** im Überblick. Sie laufen durch dieselbe Maschinerie
+wie die Originaltexte und sind deshalb genauso durchsuchbar, verlinkbar und in den
+Matrizen verankert. Jede Fundstelle trägt den Hinweis, dass hier nicht der Originaltext
+steht; die Kennungen der kostenpflichtigen Werke sind noch gegen die Norm abzugleichen.
 
 ## Stand
 
-Die Phasen 1, 2, 2b, 4, 5 und 7 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
-gesetze-im-internet.de, Themenseiten, Beziehungen, Matrizen, das tägliche Screening und der
-Lernbereich. Offen: BaFin-Veröffentlichungen (erst nach Klärung der Nutzungsbedingungen),
-die eigenen Framework-Zusammenfassungen zu ISO, COBIT, ITIL und CSA CCM sowie die
-Härtung nach ASVS. Der Ausbaustand steht auch in der App auf der Startseite.
+Die Phasen 1, 2, 2b, 3, 4, 5 und 7 sind fertig – EU-Recht über CELLAR, deutsche Gesetze über
+gesetze-im-internet.de, die eigenen Zusammenfassungen, Themenseiten, Beziehungen, Matrizen,
+das tägliche Screening und der Lernbereich. Offen: BaFin-Veröffentlichungen (erst nach
+Klärung der Nutzungsbedingungen), der fachliche Abgleich der Kennungen aus den
+kostenpflichtigen Werken sowie die Härtung nach ASVS. Der Ausbaustand steht auch in der
+App auf der Startseite.

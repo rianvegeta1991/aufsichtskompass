@@ -963,7 +963,7 @@
         "asset-konfiguration"
       ],
       "geprueft": true,
-      "hinweis": "Kein zulässiger Volltext. 40 Governance- und Management-Objectives als eigene Zusammenfassungen (Phase 3)."
+      "hinweis": "Kein zulässiger Volltext. Die 40 Governance- und Management-Objectives stehen als eigene Zusammenfassungen in eigenen Worten; Kennungen und Zuschnitt sind gegen die Bezugsfassung abzugleichen."
     },
     {
       "id": "itil4",
@@ -991,7 +991,7 @@
         "asset-konfiguration"
       ],
       "geprueft": true,
-      "hinweis": "Kein zulässiger Volltext. 34 Practices als eigene Zusammenfassungen (Phase 3)."
+      "hinweis": "Kein zulässiger Volltext. Die 34 Practices stehen als eigene Zusammenfassungen in eigenen Worten. Die Kennungen AM, SM und TM sind eigene Ordnungsmerkmale dieser Anwendung – ITIL nummeriert seine Practices nicht."
     },
     {
       "id": "iso27001",
@@ -1229,7 +1229,7 @@
         "infosec"
       ],
       "geprueft": false,
-      "hinweis": "Nur Kriterienbereiche im Überblick. Direktlink noch zu verifizieren."
+      "hinweis": "Die 17 Kriterienbereiche im Überblick, als eigene Zusammenfassung. Der Katalog selbst ist beim BSI kostenlos erhältlich; Direktlink noch zu verifizieren. Basiskriterien, Zusatzanforderungen und Umfeldparameter sind hier nicht abgebildet."
     },
     {
       "id": "nist-csf2",
@@ -1279,7 +1279,7 @@
         "datenschutz"
       ],
       "geprueft": false,
-      "hinweis": "Nur Kernaussagen im Überblick."
+      "hinweis": "Zwölf Regelungsfelder im Überblick, als eigene Zusammenfassung. Selbstverpflichtung nach Artikel 40 DSGVO, kein Rechtsetzungsakt. Fassung und Gliederung sind gegen die veröffentlichte Fassung des Verbands abzugleichen."
     },
     {
       "id": "idw-ps330",

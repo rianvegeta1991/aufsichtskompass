@@ -1,0 +1,17 @@
+{
+  "regelwerk": "bsi-c5",
+  "fassungen": [
+    {
+      "id": "2026-10-01",
+      "stand": "2026-10-01T00:00:00Z",
+      "abgerufen": "2026-10-01T18:33:03Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Cloud Computing Compliance Criteria Catalogue (C5) des BSI, Fassung 2020",
+        "url": "https://www.bsi.bund.de/",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein BSI, Cloud Computing Compliance Criteria Catalogue (C5) (Cloud Computing Compliance Criteria Catalogue (C5) des BSI, Fassung 2020)."
+      },
+      "hash": "bcd2cc299b3823cad829e486ffc2d37c9cb61277b82d7465515234c9ba9222de",
+      "fundstellen": 17
+    }
+  ]
+}

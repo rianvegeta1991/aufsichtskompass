@@ -677,6 +677,362 @@
         "test-anforderungsmanagement",
         "resilienztests"
       ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/edm01",
+      "themen": [
+        "it-governance",
+        "leitungsorgan"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/edm03",
+      "themen": [
+        "ikt-risikomanagement",
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/apo07",
+      "themen": [
+        "awareness"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/apo10",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/apo12",
+      "themen": [
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/apo13",
+      "themen": [
+        "infosec"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/apo14",
+      "themen": [
+        "datenschutz"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/bai02",
+      "themen": [
+        "test-anforderungsmanagement",
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/bai06",
+      "themen": [
+        "change-management"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/bai07",
+      "themen": [
+        "change-management",
+        "test-anforderungsmanagement"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/bai09",
+      "themen": [
+        "asset-konfiguration"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/bai10",
+      "themen": [
+        "asset-konfiguration"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/dss02",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/dss03",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/dss04",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/dss05",
+      "themen": [
+        "opsec",
+        "iam",
+        "logging-monitoring"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/dss06",
+      "themen": [
+        "iks"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/mea02",
+      "themen": [
+        "iks"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/mea03",
+      "themen": [
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "cobit2019",
+      "pfad": "o/mea04",
+      "themen": [
+        "iks"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/am03",
+      "themen": [
+        "infosec"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/am10",
+      "themen": [
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/am13",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/am14",
+      "themen": [
+        "awareness"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm04",
+      "themen": [
+        "change-management"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm05",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm06",
+      "themen": [
+        "asset-konfiguration"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm07",
+      "themen": [
+        "logging-monitoring",
+        "opsec"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm08",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm09",
+      "themen": [
+        "change-management"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm11",
+      "themen": [
+        "asset-konfiguration"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm12",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm16",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/sm17",
+      "themen": [
+        "test-anforderungsmanagement"
+      ]
+    },
+    {
+      "rw": "itil4",
+      "pfad": "p/tm03",
+      "themen": [
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "bsi-c5",
+      "pfad": "kb/idm",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "bsi-c5",
+      "pfad": "kb/cry",
+      "themen": [
+        "kryptografie"
+      ]
+    },
+    {
+      "rw": "bsi-c5",
+      "pfad": "kb/ops",
+      "themen": [
+        "opsec",
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "bsi-c5",
+      "pfad": "kb/dev",
+      "themen": [
+        "sdlc",
+        "change-management"
+      ]
+    },
+    {
+      "rw": "bsi-c5",
+      "pfad": "kb/sso",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bsi-c5",
+      "pfad": "kb/sim",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "bsi-c5",
+      "pfad": "kb/bcm",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "bsi-c5",
+      "pfad": "kb/com",
+      "themen": [
+        "drittparteien-auslagerung",
+        "iks"
+      ]
+    },
+    {
+      "rw": "bsi-c5",
+      "pfad": "kb/pi",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "gdv-coc",
+      "pfad": "k/05",
+      "themen": [
+        "datenschutz"
+      ]
+    },
+    {
+      "rw": "gdv-coc",
+      "pfad": "k/09",
+      "themen": [
+        "datenschutz",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "gdv-coc",
+      "pfad": "k/10",
+      "themen": [
+        "datenschutz"
+      ]
+    },
+    {
+      "rw": "gdv-coc",
+      "pfad": "k/11",
+      "themen": [
+        "datenschutz",
+        "infosec"
+      ]
+    },
+    {
+      "rw": "gdv-coc",
+      "pfad": "k/12",
+      "themen": [
+        "datenschutz",
+        "iks"
+      ]
     }
   ]
 }

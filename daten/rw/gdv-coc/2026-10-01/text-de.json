@@ -1,0 +1,458 @@
+{
+  "z_k01": {
+    "h": "aac47da0263413c36de1fbe162008d8e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verhaltensregeln binden die Unternehmen, die ihnen beigetreten sind. Sie konkretisieren die Datenschutz-Grundverordnung für die besonderen Verarbeitungslagen der Versicherungswirtschaft und entfalten keine eigene gesetzliche Wirkung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Beitritt dokumentieren und innerbetrieblich bekannt machen"
+          },
+          {
+            "m": "2.",
+            "t": "Verhältnis zu DSGVO und BDSG klarstellen: die Regeln konkretisieren, sie ersetzen nicht"
+          },
+          {
+            "m": "3.",
+            "t": "Einhaltung als Selbstverpflichtung nachweisen können"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Beitrittserklärung, Innerbetriebliche Datenschutzrichtlinie mit Bezug auf die Verhaltensregeln."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 40 und 41 DSGVO regeln Verhaltensregeln und ihre Überwachung."
+      }
+    ]
+  },
+  "z_k02": {
+    "h": "67582e7d270202c24bf55fa3e3930c88",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zweckbindung, Erforderlichkeit, Richtigkeit, Speicherbegrenzung und Rechenschaft werden für das Versicherungsgeschäft ausbuchstabiert – von der Antragsaufnahme bis zur Beendigung des Vertrags."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zwecke je Verarbeitung festlegen und dokumentieren"
+          },
+          {
+            "m": "2.",
+            "t": "Rechtsgrundlage je Zweck bestimmen"
+          },
+          {
+            "m": "3.",
+            "t": "Datenbestand auf das Erforderliche begrenzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verzeichnis der Verarbeitungstätigkeiten, Löschkonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 5 und 6 DSGVO; § 26 BDSG ergänzt für das Beschäftigungsverhältnis."
+      }
+    ]
+  },
+  "z_k03": {
+    "h": "696f3df8058d259b7a92dbb17ffa1c73",
+    "b": [
+      {
+        "art": "p",
+        "t": "Antragstellende, Versicherte und weitere Betroffene sind verständlich darüber zu unterrichten, welche Daten zu welchen Zwecken verarbeitet und an wen sie weitergegeben werden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Informationen zum Zeitpunkt der Erhebung bereitstellen"
+          },
+          {
+            "m": "2.",
+            "t": "Verständliche Sprache und erreichbare Form wählen"
+          },
+          {
+            "m": "3.",
+            "t": "Änderungen der Verarbeitung nachziehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Datenschutzhinweise in den Antragsunterlagen, Nachweis der Aktualisierung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 und 14 DSGVO."
+      }
+    ]
+  },
+  "z_k04": {
+    "h": "d24eb5bdbba4480a603e667777d8781d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wo die Verarbeitung auf eine Einwilligung gestützt wird, muss diese freiwillig, bestimmt, informiert und nachweisbar erteilt und jederzeit widerrufbar sein."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Einwilligungstexte auf Zweck und Umfang begrenzen"
+          },
+          {
+            "m": "2.",
+            "t": "Erteilung und Widerruf nachweisbar protokollieren"
+          },
+          {
+            "m": "3.",
+            "t": "Auf den Widerruf hinweisen und ihn umsetzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Einwilligungstexte, Protokoll der Erteilungen und Widerrufe."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 Absatz 1 Buchstabe a und Artikel 7 DSGVO."
+      }
+    ]
+  },
+  "z_k05": {
+    "h": "6a516406da67171be421dde9f216e73d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Gesundheits- und andere besonders geschützte Daten gelten engere Voraussetzungen, eine engere Zweckbindung und besondere Vorkehrungen gegen unbefugte Kenntnisnahme im Unternehmen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verarbeitung auf die zulässigen Ausnahmetatbestände stützen"
+          },
+          {
+            "m": "2.",
+            "t": "Zugriff im Unternehmen eng begrenzen und protokollieren"
+          },
+          {
+            "m": "3.",
+            "t": "Weitergabe an Dritte nur in den vorgesehenen Fällen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berechtigungskonzept mit besonderer Schutzklasse, Zugriffsprotokolle, Schulungsnachweise der betroffenen Bereiche."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DSGVO und § 22 BDSG; Artikel 32 DSGVO verlangt dem Risiko angemessene Maßnahmen, was bei diesen Daten ein höheres Maß bedeutet."
+      }
+    ]
+  },
+  "z_k06": {
+    "h": "3121e48a715c11c665319729c44460cd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Risikoprüfung, Vertragsverwaltung und Leistungsbearbeitung wird beschrieben, welche Daten erforderlich sind und wie weit Erhebungen bei Dritten reichen dürfen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Erhebung auf den jeweiligen Bearbeitungsschritt begrenzen"
+          },
+          {
+            "m": "2.",
+            "t": "Erhebungen bei Dritten offenlegen und begründen"
+          },
+          {
+            "m": "3.",
+            "t": "Entscheidungen nachvollziehbar dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verfahrensbeschreibungen für Antrag und Leistung, Dokumentation der Erhebungen bei Dritten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 Absatz 1 Buchstabe b DSGVO (Vertragserfüllung); bei vollautomatisierten Entscheidungen zusätzlich Artikel 22 DSGVO."
+      }
+    ]
+  },
+  "z_k07": {
+    "h": "80dc664a37b15eb227c7a0f04eeffcdb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Aufklärung und Verhinderung von Versicherungsmissbrauch wird an feste Voraussetzungen gebunden, ebenso die Beteiligung an branchenbezogenen Hinweis- und Auskunftssystemen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Voraussetzungen für eine Einmeldung festlegen und prüfen"
+          },
+          {
+            "m": "2.",
+            "t": "Betroffene über Einmeldungen unterrichten"
+          },
+          {
+            "m": "3.",
+            "t": "Speicherdauer begrenzen und Einträge überprüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verfahrensanweisung zur Missbrauchsbekämpfung, Protokoll der Einmeldungen und Unterrichtungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 Absatz 1 Buchstabe f DSGVO (berechtigtes Interesse) mit Abwägung; Artikel 14 DSGVO für die Unterrichtung."
+      }
+    ]
+  },
+  "z_k08": {
+    "h": "ae89d88e4c06cbeac87d4aff28f69923",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Weitergabe von Daten an Vermittler, Mit- und Rückversicherer sowie innerhalb einer Unternehmensgruppe werden Zweck und Umfang eingegrenzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Empfängerkategorien und Zwecke festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Weitergabe auf das Erforderliche begrenzen"
+          },
+          {
+            "m": "3.",
+            "t": "Empfänger vertraglich binden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Übersicht der Empfängerkategorien, Vereinbarungen mit Vermittlern und Rückversicherern."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 Absatz 1 Buchstabe e DSGVO verlangt die Angabe der Empfänger; ein Konzernprivileg kennt die DSGVO nicht."
+      }
+    ]
+  },
+  "z_k09": {
+    "h": "0619b38c9a51da27e7d4d7a996657164",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wer Daten im Auftrag verarbeitet, ist auszuwählen, vertraglich zu binden und zu überwachen; die Verantwortung bleibt beim Versicherungsunternehmen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Eignung vor Beauftragung prüfen"
+          },
+          {
+            "m": "2.",
+            "t": "Vertrag mit den vorgeschriebenen Inhalten schließen"
+          },
+          {
+            "m": "3.",
+            "t": "Einhaltung überwachen und dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verträge zur Auftragsverarbeitung, Verzeichnis der Auftragsverarbeiter, Überwachungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 DSGVO; für IKT-Dienstleistungen treten die Pflichten der Artikel 28 bis 30 DORA hinzu, einschließlich Informationsregister und Ausstiegsstrategie."
+      }
+    ]
+  },
+  "z_k10": {
+    "h": "37acd03da7e2330eaf10068b4c675d32",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auskunft, Berichtigung, Löschung, Einschränkung, Übertragbarkeit und Widerspruch sind in festgelegten Verfahren und Fristen zu bearbeiten; zusätzlich steht ein Beschwerdeweg offen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren und Fristen je Recht festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Identität der Anfragenden prüfen"
+          },
+          {
+            "m": "3.",
+            "t": "Beschwerdestelle benennen und erreichbar halten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verfahrensanweisung Betroffenenrechte, Auswertung der Bearbeitungsfristen, Beschwerdeverzeichnis."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 15 bis 22 DSGVO; Artikel 12 Absatz 3 DSGVO setzt die Monatsfrist."
+      }
+    ]
+  },
+  "z_k11": {
+    "h": "7bf12e13a4edd3c3bc9d490f428c2f80",
+    "b": [
+      {
+        "art": "p",
+        "t": "Technische und organisatorische Maßnahmen, Aufbewahrungsfristen und Löschregeln werden für die Versicherungswirtschaft eingeordnet – einschließlich des Gleichlaufs mit handels- und steuerrechtlichen Pflichten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Maßnahmen am Risiko ausrichten und überprüfen"
+          },
+          {
+            "m": "2.",
+            "t": "Aufbewahrungsfristen je Datenart festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Löschung nach Fristende durchführen und nachweisen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Maßnahmenverzeichnis, Löschkonzept mit Fristen je Datenart, Löschprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 32 DSGVO; die Fristen folgen unter anderem § 257 HGB und § 147 AO, die Informationssicherheit zusätzlich Artikel 9 DORA."
+      }
+    ]
+  },
+  "z_k12": {
+    "h": "99e76cad991ddde36b87d5da4e1113fe",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Einhaltung der Verhaltensregeln wird innerbetrieblich und durch eine überwachende Stelle kontrolliert; Verstöße haben Folgen bis zum Ausschluss aus den Verhaltensregeln."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Datenschutzbeauftragte Person bestellen und einbinden"
+          },
+          {
+            "m": "2.",
+            "t": "Einhaltung regelmäßig überprüfen"
+          },
+          {
+            "m": "3.",
+            "t": "Verstöße bewerten, abstellen und melden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Bestellungsurkunde und Berichte der datenschutzbeauftragten Person, Prüfberichte, Verzeichnis der Datenschutzverstöße."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 37 bis 39 DSGVO zur datenschutzbeauftragten Person, Artikel 41 DSGVO zur Überwachung von Verhaltensregeln, Artikel 33 DSGVO zur Meldung von Verletzungen."
+      }
+    ]
+  }
+}

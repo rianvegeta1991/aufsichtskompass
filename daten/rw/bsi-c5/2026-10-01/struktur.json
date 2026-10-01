@@ -1,0 +1,214 @@
+{
+  "regelwerk": "bsi-c5",
+  "fassung": "2026-10-01",
+  "abgerufen": "2026-10-01T18:33:03Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Cloud Computing Compliance Criteria Catalogue (C5) des BSI, Fassung 2020",
+    "url": "https://www.bsi.bund.de/",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein BSI, Cloud Computing Compliance Criteria Catalogue (C5) (Cloud Computing Compliance Criteria Catalogue (C5) des BSI, Fassung 2020)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_c5",
+      "art": "abschnitt",
+      "nummer": "C5",
+      "bez": "C5",
+      "titel": {
+        "de": "Kriterienbereiche des Katalogs"
+      },
+      "pfad": "gr/c5",
+      "kinder": [
+        {
+          "id": "z_ois",
+          "art": "control",
+          "nummer": "OIS",
+          "bez": "OIS",
+          "titel": {
+            "de": "Organisation der Informationssicherheit"
+          },
+          "pfad": "kb/ois",
+          "text": true
+        },
+        {
+          "id": "z_sp",
+          "art": "control",
+          "nummer": "SP",
+          "bez": "SP",
+          "titel": {
+            "de": "Sicherheitsrichtlinien und Arbeitsanweisungen"
+          },
+          "pfad": "kb/sp",
+          "text": true
+        },
+        {
+          "id": "z_hr",
+          "art": "control",
+          "nummer": "HR",
+          "bez": "HR",
+          "titel": {
+            "de": "Personal"
+          },
+          "pfad": "kb/hr",
+          "text": true
+        },
+        {
+          "id": "z_am",
+          "art": "control",
+          "nummer": "AM",
+          "bez": "AM",
+          "titel": {
+            "de": "Asset Management"
+          },
+          "pfad": "kb/am",
+          "text": true
+        },
+        {
+          "id": "z_ps",
+          "art": "control",
+          "nummer": "PS",
+          "bez": "PS",
+          "titel": {
+            "de": "Physische Sicherheit"
+          },
+          "pfad": "kb/ps",
+          "text": true
+        },
+        {
+          "id": "z_ops",
+          "art": "control",
+          "nummer": "OPS",
+          "bez": "OPS",
+          "titel": {
+            "de": "Regelbetrieb"
+          },
+          "pfad": "kb/ops",
+          "text": true
+        },
+        {
+          "id": "z_idm",
+          "art": "control",
+          "nummer": "IDM",
+          "bez": "IDM",
+          "titel": {
+            "de": "Identitäts- und Berechtigungsmanagement"
+          },
+          "pfad": "kb/idm",
+          "text": true
+        },
+        {
+          "id": "z_cry",
+          "art": "control",
+          "nummer": "CRY",
+          "bez": "CRY",
+          "titel": {
+            "de": "Kryptografie und Schlüsselverwaltung"
+          },
+          "pfad": "kb/cry",
+          "text": true
+        },
+        {
+          "id": "z_cos",
+          "art": "control",
+          "nummer": "COS",
+          "bez": "COS",
+          "titel": {
+            "de": "Kommunikationssicherheit"
+          },
+          "pfad": "kb/cos",
+          "text": true
+        },
+        {
+          "id": "z_pi",
+          "art": "control",
+          "nummer": "PI",
+          "bez": "PI",
+          "titel": {
+            "de": "Portabilität und Interoperabilität"
+          },
+          "pfad": "kb/pi",
+          "text": true
+        },
+        {
+          "id": "z_dev",
+          "art": "control",
+          "nummer": "DEV",
+          "bez": "DEV",
+          "titel": {
+            "de": "Beschaffung, Entwicklung und Änderung von Informationssystemen"
+          },
+          "pfad": "kb/dev",
+          "text": true
+        },
+        {
+          "id": "z_sso",
+          "art": "control",
+          "nummer": "SSO",
+          "bez": "SSO",
+          "titel": {
+            "de": "Steuerung und Überwachung von Dienstleistern und Lieferanten"
+          },
+          "pfad": "kb/sso",
+          "text": true
+        },
+        {
+          "id": "z_sim",
+          "art": "control",
+          "nummer": "SIM",
+          "bez": "SIM",
+          "titel": {
+            "de": "Umgang mit Sicherheitsvorfällen"
+          },
+          "pfad": "kb/sim",
+          "text": true
+        },
+        {
+          "id": "z_bcm",
+          "art": "control",
+          "nummer": "BCM",
+          "bez": "BCM",
+          "titel": {
+            "de": "Fortführung des Geschäftsbetriebs"
+          },
+          "pfad": "kb/bcm",
+          "text": true
+        },
+        {
+          "id": "z_com",
+          "art": "control",
+          "nummer": "COM",
+          "bez": "COM",
+          "titel": {
+            "de": "Einhaltung rechtlicher Anforderungen und Prüfungen"
+          },
+          "pfad": "kb/com",
+          "text": true
+        },
+        {
+          "id": "z_inv",
+          "art": "control",
+          "nummer": "INV",
+          "bez": "INV",
+          "titel": {
+            "de": "Umgang mit Ermittlungsanfragen staatlicher Stellen"
+          },
+          "pfad": "kb/inv",
+          "text": true
+        },
+        {
+          "id": "z_up",
+          "art": "control",
+          "nummer": "UP",
+          "bez": "UP",
+          "titel": {
+            "de": "Produktsicherheit"
+          },
+          "pfad": "kb/up",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

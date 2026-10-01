@@ -1,0 +1,17 @@
+{
+  "regelwerk": "cobit2019",
+  "fassungen": [
+    {
+      "id": "2026-10-01",
+      "stand": "2026-10-01T00:00:00Z",
+      "abgerufen": "2026-10-01T18:33:04Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: COBIT 2019 (Framework: Governance and Management Objectives)",
+        "url": "https://www.isaca.org/resources/cobit",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein COBIT 2019 (ISACA) (COBIT 2019 (Framework: Governance and Management Objectives))."
+      },
+      "hash": "8ad0e35cb3a71dbb80075044a82b47f275f8a6d19e56c840c753e4efe748c0cd",
+      "fundstellen": 40
+    }
+  ]
+}

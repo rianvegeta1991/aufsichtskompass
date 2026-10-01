@@ -1,0 +1,159 @@
+{
+  "regelwerk": "gdv-coc",
+  "fassung": "2026-10-01",
+  "abgerufen": "2026-10-01T18:33:04Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt, ungeprüft) – Bezugsfassung: Verhaltensregeln für den Umgang mit personenbezogenen Daten durch die deutsche Versicherungswirtschaft (Code of Conduct), nach der Datenschutz-Grundverordnung überarbeitete Fassung",
+    "url": "https://www.gdv.de/",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein GDV, Verhaltensregeln für den Umgang mit personenbezogenen Daten (Code of Conduct) (Verhaltensregeln für den Umgang mit personenbezogenen Daten durch die deutsche Versicherungswirtschaft (Code of Conduct), nach der Datenschutz-Grundverordnung überarbeitete Fassung)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_coc",
+      "art": "abschnitt",
+      "nummer": "COC",
+      "bez": "COC",
+      "titel": {
+        "de": "Regelungsfelder der Verhaltensregeln"
+      },
+      "pfad": "gr/coc",
+      "kinder": [
+        {
+          "id": "z_k01",
+          "art": "control",
+          "nummer": "K01",
+          "bez": "K01",
+          "titel": {
+            "de": "Geltung und Bindungswirkung"
+          },
+          "pfad": "k/01",
+          "text": true
+        },
+        {
+          "id": "z_k02",
+          "art": "control",
+          "nummer": "K02",
+          "bez": "K02",
+          "titel": {
+            "de": "Grundsätze der Verarbeitung"
+          },
+          "pfad": "k/02",
+          "text": true
+        },
+        {
+          "id": "z_k03",
+          "art": "control",
+          "nummer": "K03",
+          "bez": "K03",
+          "titel": {
+            "de": "Information der Betroffenen"
+          },
+          "pfad": "k/03",
+          "text": true
+        },
+        {
+          "id": "z_k04",
+          "art": "control",
+          "nummer": "K04",
+          "bez": "K04",
+          "titel": {
+            "de": "Einwilligung"
+          },
+          "pfad": "k/04",
+          "text": true
+        },
+        {
+          "id": "z_k05",
+          "art": "control",
+          "nummer": "K05",
+          "bez": "K05",
+          "titel": {
+            "de": "Gesundheitsdaten und weitere besondere Kategorien"
+          },
+          "pfad": "k/05",
+          "text": true
+        },
+        {
+          "id": "z_k06",
+          "art": "control",
+          "nummer": "K06",
+          "bez": "K06",
+          "titel": {
+            "de": "Antrag, Vertrag und Leistungsfall"
+          },
+          "pfad": "k/06",
+          "text": true
+        },
+        {
+          "id": "z_k07",
+          "art": "control",
+          "nummer": "K07",
+          "bez": "K07",
+          "titel": {
+            "de": "Missbrauchsbekämpfung und branchenbezogene Auskunftssysteme"
+          },
+          "pfad": "k/07",
+          "text": true
+        },
+        {
+          "id": "z_k08",
+          "art": "control",
+          "nummer": "K08",
+          "bez": "K08",
+          "titel": {
+            "de": "Weitergabe an Vermittler, Rückversicherer und Unternehmensgruppe"
+          },
+          "pfad": "k/08",
+          "text": true
+        },
+        {
+          "id": "z_k09",
+          "art": "control",
+          "nummer": "K09",
+          "bez": "K09",
+          "titel": {
+            "de": "Auftragsverarbeitung und Dienstleister"
+          },
+          "pfad": "k/09",
+          "text": true
+        },
+        {
+          "id": "z_k10",
+          "art": "control",
+          "nummer": "K10",
+          "bez": "K10",
+          "titel": {
+            "de": "Rechte der Betroffenen und Beschwerdeweg"
+          },
+          "pfad": "k/10",
+          "text": true
+        },
+        {
+          "id": "z_k11",
+          "art": "control",
+          "nummer": "K11",
+          "bez": "K11",
+          "titel": {
+            "de": "Datensicherheit, Aufbewahrung und Löschung"
+          },
+          "pfad": "k/11",
+          "text": true
+        },
+        {
+          "id": "z_k12",
+          "art": "control",
+          "nummer": "K12",
+          "bez": "K12",
+          "titel": {
+            "de": "Überwachung der Einhaltung"
+          },
+          "pfad": "k/12",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

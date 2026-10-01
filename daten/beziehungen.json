@@ -838,6 +838,416 @@
       "quelle": "eigene Analyse",
       "konfidenz": "mittel",
       "geprueft": false
+    },
+    {
+      "id": "dora-5-cobit-edm01",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/5"
+      },
+      "nach": {
+        "rw": "cobit2019",
+        "pfad": "o/edm01"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "it-governance",
+        "leitungsorgan"
+      ],
+      "begruendung": "Beide weisen die Steuerung der IT dem Leitungsorgan zu und trennen sie von der Ausführung durch das Management. Artikel 5 DORA macht daraus eine Pflicht mit Letztverantwortung, EDM01 beschreibt den Aufbau des Rahmens.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-6-8-cobit-edm03",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/6/abs/8"
+      },
+      "nach": {
+        "rw": "cobit2019",
+        "pfad": "o/edm03"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "ikt-risikomanagement",
+        "it-governance"
+      ],
+      "begruendung": "Artikel 6 Absatz 8 DORA verlangt eine Strategie für digitale operationale Resilienz mit Risikotoleranzschwelle für IKT-Störungen. EDM03 verlangt dasselbe allgemeiner: Das Leitungsorgan bestimmt den Risikoappetit und überwacht die Einhaltung.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-6-cobit-apo12",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/6"
+      },
+      "nach": {
+        "rw": "cobit2019",
+        "pfad": "o/apo12"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "ikt-risikomanagement"
+      ],
+      "begruendung": "APO12 beschreibt den Kreislauf aus Erkennen, Bewerten, Behandeln und Überwachen von IT-Risiken. Artikel 6 DORA verlangt genau diesen Kreislauf als dokumentierten IKT-Risikomanagementrahmen und schreibt zusätzlich die jährliche Überprüfung vor.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-9-cobit-dss05",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/9"
+      },
+      "nach": {
+        "rw": "cobit2019",
+        "pfad": "o/dss05"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "infosec",
+        "opsec",
+        "iam"
+      ],
+      "begruendung": "DSS05 bündelt die betrieblichen Schutzmaßnahmen - Zugänge, Netze, Endgeräte, Überwachung. Artikel 9 DORA verlangt dieselben Maßnahmen und benennt zusätzlich Verschlüsselung und Netzsegmentierung ausdrücklich.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-9-cobit-bai06",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/9"
+      },
+      "nach": {
+        "rw": "cobit2019",
+        "pfad": "o/bai06"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "change-management"
+      ],
+      "begruendung": "Artikel 9 Absatz 4 Buchstabe e DORA verlangt Richtlinien für Änderungen an IKT-Systemen. BAI06 beschreibt das Verfahren dazu einschließlich der Notfalländerungen; BAI07 ergänzt die Abnahme.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-cobit-apo10",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "nach": {
+        "rw": "cobit2019",
+        "pfad": "o/apo10"
+      },
+      "typ": "geht-weiter",
+      "themen": [
+        "drittparteien-auslagerung",
+        "informationsregister"
+      ],
+      "begruendung": "APO10 verlangt ein Verfahren für Auswahl, Vertrag, Überwachung und Beendigung von Lieferbeziehungen. Artikel 28 DORA geht darüber hinaus: Informationsregister, Vorabbewertung des Konzentrationsrisikos, Ausstiegsstrategien und Meldung an die Aufsicht.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "vag-29-cobit-mea02",
+      "von": {
+        "rw": "vag",
+        "pfad": "par/29"
+      },
+      "nach": {
+        "rw": "cobit2019",
+        "pfad": "o/mea02"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "iks"
+      ],
+      "begruendung": "MEA02 verlangt, die eigenen Kontrollen auf Vorhandensein und Wirksamkeit zu prüfen. § 29 VAG verlangt ein internes Kontrollsystem einschließlich der Compliance-Funktion - die Überwachung nach MEA02 ist der Nachweis dafür.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "vag-30-cobit-mea04",
+      "von": {
+        "rw": "vag",
+        "pfad": "par/30"
+      },
+      "nach": {
+        "rw": "cobit2019",
+        "pfad": "o/mea04"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "iks"
+      ],
+      "begruendung": "§ 30 VAG verlangt eine von den übrigen Funktionen unabhängige interne Revision. MEA04 beschreibt, wie unabhängige Prüfungen geplant, durchgeführt und nachverfolgt werden; die Unabhängigkeit selbst ist dort nur Grundsatz, bei § 30 VAG Pflicht.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "iso-kl6-cobit-apo12",
+      "von": {
+        "rw": "iso27001",
+        "pfad": "kl/6"
+      },
+      "nach": {
+        "rw": "cobit2019",
+        "pfad": "o/apo12"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "ikt-risikomanagement",
+        "infosec"
+      ],
+      "begruendung": "Klausel 6 ISO/IEC 27001 und APO12 beschreiben denselben Risikokreislauf, nur mit unterschiedlichem Zuschnitt: die Norm auf Informationssicherheit, COBIT auf die Unternehmens-IT insgesamt.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-10-itil-sm07",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/10"
+      },
+      "nach": {
+        "rw": "itil4",
+        "pfad": "p/sm07"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "logging-monitoring",
+        "opsec"
+      ],
+      "begruendung": "Überwachung und Ereignismanagement in ITIL deckt die Erkennung ab, die Artikel 10 DORA verlangt. DORA schreibt zusätzlich mehrere Kontrollebenen, festgelegte Alarmschwellen und die Aufbewahrung der Protokolle vor.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-17-itil-sm05",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/17"
+      },
+      "nach": {
+        "rw": "itil4",
+        "pfad": "p/sm05"
+      },
+      "typ": "geht-weiter",
+      "themen": [
+        "incident-meldewesen"
+      ],
+      "begruendung": "Das Vorfallmanagement nach ITIL zielt auf die Wiederherstellung des Normalbetriebs. Artikel 17 DORA verlangt darüber hinaus einheitliche Erfassung und Klassifizierung, Artikel 18 und 19 die aufsichtliche Einstufung und die Meldung in festen Fristen.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-11-itil-sm12",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/11"
+      },
+      "nach": {
+        "rw": "itil4",
+        "pfad": "p/sm12"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "bcm-backup"
+      ],
+      "begruendung": "Service Continuity Management und Artikel 11 DORA verlangen beide Pläne, Auswirkungsanalyse und Übungen. DORA bindet die Pläne zusätzlich an die Kritikalität der Funktionen und verlangt mindestens jährliche Tests sowie Krisenkommunikation.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-8-itil-sm11",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/8"
+      },
+      "nach": {
+        "rw": "itil4",
+        "pfad": "p/sm11"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "asset-konfiguration",
+        "informationsregister"
+      ],
+      "begruendung": "Servicekonfigurationsmanagement liefert das Bild der Bestandteile und ihrer Beziehungen. Artikel 8 DORA verlangt dasselbe als Grundlage der Identifizierung, einschließlich der Abhängigkeiten zu IKT-Drittdienstleistern.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-30-itil-am13",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/30"
+      },
+      "nach": {
+        "rw": "itil4",
+        "pfad": "p/am13"
+      },
+      "typ": "geht-weiter",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Lieferantenmanagement nach ITIL regelt Auswahl, Vereinbarung und Überwachung. Artikel 30 DORA zählt die Pflichtinhalte des Vertrags abschließend auf - bis zu Prüfungsrechten, Kündigungsgründen und Ausstiegsplänen.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "iso-a524-itil-sm05",
+      "von": {
+        "rw": "iso27001",
+        "pfad": "a/5.24"
+      },
+      "nach": {
+        "rw": "itil4",
+        "pfad": "p/sm05"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "incident-meldewesen"
+      ],
+      "begruendung": "A.5.24 verlangt Planung und Vorbereitung des Vorfallmanagements mit Rollen und Meldewegen; die ITIL-Praktik beschreibt denselben Prozess aus Sicht des Servicebetriebs.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-30-c5-sso",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/30"
+      },
+      "nach": {
+        "rw": "bsi-c5",
+        "pfad": "kb/sso"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Der Kriterienbereich zur Steuerung eigener Unterauftragnehmer liefert den Nachweis für die Anforderungen, die Artikel 30 DORA und die Delegierte Verordnung (EU) 2025/532 für die Untervergabe bei kritischen oder wichtigen Funktionen stellen.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-c5-com",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "nach": {
+        "rw": "bsi-c5",
+        "pfad": "kb/com"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "drittparteien-auslagerung",
+        "iks"
+      ],
+      "begruendung": "Ein Prüfungsbericht nach C5 kann die Überwachung des Dienstleisters stützen, ersetzt aber weder die eigene Risikobewertung nach Artikel 28 DORA noch die vertraglichen Prüfungsrechte nach Artikel 30 Absatz 3 DORA.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-12-c5-bcm",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/12"
+      },
+      "nach": {
+        "rw": "bsi-c5",
+        "pfad": "kb/bcm"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "bcm-backup"
+      ],
+      "begruendung": "Der Kriterienbereich zur Fortführung des Geschäftsbetriebs zeigt, welche Wiederherstellungsziele der Anbieter zusagt. Artikel 12 DORA verlangt, dass diese Ziele zu den eigenen Vorgaben passen und die Wiederherstellung überprüft wird.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dsgvo-9-gdv-k05",
+      "von": {
+        "rw": "dsgvo",
+        "pfad": "art/9"
+      },
+      "nach": {
+        "rw": "gdv-coc",
+        "pfad": "k/05"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "datenschutz"
+      ],
+      "begruendung": "Artikel 9 DSGVO lässt die Verarbeitung von Gesundheitsdaten nur in Ausnahmefällen zu. Die Verhaltensregeln buchstabieren für die Versicherungswirtschaft aus, wie diese Ausnahmen in Risikoprüfung und Leistungsbearbeitung anzuwenden sind.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dsgvo-28-gdv-k09",
+      "von": {
+        "rw": "dsgvo",
+        "pfad": "art/28"
+      },
+      "nach": {
+        "rw": "gdv-coc",
+        "pfad": "k/09"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "datenschutz",
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Artikel 28 DSGVO regelt die Auftragsverarbeitung allgemein; die Verhaltensregeln konkretisieren Auswahl, Bindung und Überwachung für Versicherungsunternehmen. Für IKT-Dienstleistungen treten die Pflichten der Artikel 28 bis 30 DORA hinzu.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dsgvo-32-gdv-k11",
+      "von": {
+        "rw": "dsgvo",
+        "pfad": "art/32"
+      },
+      "nach": {
+        "rw": "gdv-coc",
+        "pfad": "k/11"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "datenschutz",
+        "infosec"
+      ],
+      "begruendung": "Artikel 32 DSGVO verlangt dem Risiko angemessene Maßnahmen. Die Verhaltensregeln ordnen das für die Versicherungswirtschaft ein, einschließlich Aufbewahrung und Löschung im Gleichlauf mit handels- und steuerrechtlichen Fristen.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
     }
   ]
 }
