@@ -214,15 +214,24 @@ Fassung; der Viewer zeigt daraufhin den Pflichthinweis
 „Eigene Zusammenfassung – ersetzt nicht das Original" samt Bezugsfassung, Herkunft
 und Prüfstatus (`zusammenfassungshinweis()` in `js/viewer.js`).
 
-Enthalten: **ISO/IEC 27001:2022 vollständig** (Klauseln 4–10 und alle 93 Annex-A-Controls,
-`#/rw/iso27001/a/5.19`), **CSA CCM v4** (17 Domänen) und **NIST CSF 2.0** (6 Funktionen),
-beide in grober Tiefe. Offen: COBIT 2019 (40 Objectives), ITIL 4 (34 Practices),
-BSI C5 und die GDV-Verhaltensregeln.
+Enthalten sind **sieben Werke** (Stand v1.7, zusammen 226 Fundstellen):
+
+| Werk | Umfang | Pfade |
+|---|---|---|
+| ISO/IEC 27001:2022 | Klauseln 4–10 und alle 93 Annex-A-Controls (100) | `kl/6`, `a/5.19` |
+| COBIT 2019 | alle 40 Objectives (EDM 5, APO 14, BAI 11, DSS 6, MEA 4) | `o/apo12` |
+| ITIL 4 | alle 34 Practices (14 allgemeine, 17 Service, 3 technische) | `p/sm05` |
+| BSI C5 | 17 Kriterienbereiche | `kb/sso` |
+| GDV-Verhaltensregeln | 12 Regelungsfelder | `k/05` |
+| CSA CCM v4 | 17 Domänen | `d/sta` |
+| NIST CSF 2.0 | 6 Funktionen | `f/gv` |
 
 **Wichtig zur Sorgfalt:** Der Normtext darf nicht wiedergegeben werden – die Texte sind
 durchweg selbst formuliert. Kennungen und Titel stammen aus dem Gedächtnis und sind
 **noch nicht gegen die Norm abgeglichen**; genau dafür steht `geprueft: false` in der
-Datei und „ungeprüft" im Hinweis der App.
+Datei und „ungeprüft" im Hinweis der App. Wo ein Werk seine Teile selbst **nicht**
+nummeriert (ITIL, GDV-Verhaltensregeln), ist die eigene Zählung in der Datei **und** im
+Katalog-Hinweis als solche gekennzeichnet – sonst sähe sie wie eine amtliche Kennung aus.
 
 ## Deep-Links
 
@@ -330,8 +339,9 @@ auch wirklich Text hat).
 ## Stand und offene Punkte
 
 Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht), Phase 2b (deutsche Gesetze),
-Phase 4 (Themenseiten, Beziehungen, Matrizen), Phase 5 (Screening), Phase 7 (Lernbereich)
-und Phase 3 zum größeren Teil (ISO 27001 vollständig, CSA CCM und NIST CSF im Überblick) –
+Phase 3 (eigene Zusammenfassungen, sieben Werke), Phase 4 (Themenseiten, Beziehungen,
+Matrizen), Phase 5 (Screening), Phase 7 (Lernbereich). Zusammen **27 Regelwerke mit
+3.978 adressierbaren Fundstellen**, davon
 **20 Regelwerke im Volltext mit rund 3.750 adressierbaren Fundstellen**: DORA (DE/EN),
 die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und BDSG vollständig sowie HGB
 und AO als IT-relevanter Auszug. Viewer mit Gliederungsbaum, Deep-Links, Glossar aus den
@@ -351,17 +361,15 @@ Offen, in dieser Reihenfolge sinnvoll:
    Veröffentlichung zu prüfen und zu dokumentieren, und die BaFin hat ihre Seitenstruktur
    umgebaut – die Direktlinks müssen neu ermittelt werden. Bis dahin bleiben diese Einträge
    auf „Zusammenfassung" und `geprueft: false`.
-2. **Phase 3 abschließen** – es fehlen COBIT 2019 (40 Objectives), ITIL 4 (34 Practices),
-   BSI C5 und die GDV-Verhaltensregeln. Der Mechanismus steht, es ist reine Schreibarbeit:
-   eine neue Datei unter `daten/zusammenfassungen/` und ein Lauf von
-   `kompass zusammenfassungen`. Danach lohnt es, die ISO-Kennungen und -Titel gegen die
-   Norm abzugleichen und `geprueft` zu setzen.
-3. **Phase 4 vertiefen** – die Beziehungen zu MaGo, ISO 27001, COBIT und ITIL hängen bisher
-   am ganzen Regelwerk und tragen die Konfidenz „niedrig", weil diese Werke noch keine
-   Fundstellen haben. Mit Phase 3 lassen sie sich auf Control- bzw. Abschnittsebene
-   verankern. Ebenfalls offen: XLSX- und PDF-Export (zurzeit CSV und Druckansicht).
-4. **Phase 5** – Screening (Feeds, Seitenüberwachung, GDELT, Taxonomie, Digest) als Actions-Lauf
-   um 06:30 Europe/Berlin; GitHub-Cron läuft in UTC, die Sommerzeit muss das Werkzeug prüfen.
+2. **Kennungen abgleichen** – die Kennungen und Titel der kostenpflichtigen Werke (ISO,
+   COBIT, ITIL) sind gegen die jeweilige Bezugsfassung zu prüfen; erst dann `geprueft: true`
+   in `daten/zusammenfassungen/<id>.json` setzen und neu übernehmen. Ebenso die Fassung der
+   GDV-Verhaltensregeln und der Direktlink zum C5-Katalog.
+3. **Phase 4 vertiefen** – die Beziehungen zu ISO 27001, COBIT, ITIL und C5 hängen seit
+   v1.6/v1.7 auf Control-, Objective- bzw. Bereichsebene (64 Beziehungen). Noch am ganzen
+   Regelwerk hängen die Beziehungen zu MaGo und MaRisk – die brauchen Phase 2c.
+   Ebenfalls offen: XLSX- und PDF-Export (zurzeit CSV und Druckansicht).
+4. **Phase 8** – Härtung: Security-Review, ASVS-Checkliste, Testabdeckung, Betriebsdoku.
 
 Hinweis zum Umfang: Die Suchindizes sind zusammen rund 2,6 MB (0,6 MB gzip) und werden bei
 der ersten Suche vollständig geladen. `verweise.json` ist rund 800 KB groß und wird deshalb
