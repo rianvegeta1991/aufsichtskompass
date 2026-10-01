@@ -327,20 +327,49 @@ Mit Reitern beginnt der Text bei 341 px.
   komplett verloren (aus dem letzten Commit wiederhergestellt). Die Hilfsskripte im
   Scratchpad machen es richtig: Inhalt lesen, ersetzen, prüfen, dann schreiben.
 
+## Sicherheit (Phase 8)
+
+Einzelheiten und die ASVS-L2-Checkliste stehen in `SICHERHEIT.md`, der Betrieb samt
+Sicherung in `BETRIEB.md`. Vier Dinge, die beim Weiterbauen zu beachten sind:
+
+1. **Die Leine** (`werkzeug/src/netz.rs`): **jeder** Abruf läuft über
+   `netz::Leine` – nur https, Host aus `quellen.json` (`erlaubte_hosts`), keine
+   Adressliterale, Umleitungen werden erneut geprüft. Ein neuer Konnektor oder Feed
+   braucht deshalb **zwei** Einträge: den Abrufweg und den Host. `kompass pruefen`
+   schlägt sonst an. Nie einen `reqwest::Client` von Hand bauen.
+2. **Fremde Adressen** (Feeds) gehen in der App durch `externURL()` aus `js/ui.js`
+   und im Werkzeug durch `ist_webadresse()`. `el()` hat **keine** `html:`-Option
+   mehr – wer HTML einsetzen will, baut Knoten.
+3. **Die CSP** steht als `meta` im Kopf von `index.html` (`default-src 'none'`).
+   Kein CDN, keine Schrift von außen, kein Inline-Skript. Wer eine Bibliothek
+   einbinden will, legt sie als Datei dazu – und prüft die Konsole auf
+   `securitypolicyviolation`.
+4. **Keine Live-Abrufe in Tests.** Die Fixtures lassen nur `beispiel.test` zu;
+   der Auftrag „Pruefung" sucht in `werkzeug/tests/` nach echten Adressen und
+   schlägt fehl, wenn eine auftaucht.
+
 ## Testen
 
 Verifizieren statt hoffen: `preview_start` (Port 8798), Konsole auf Fehler prüfen, Zustand per DOM
 auslesen. Die Kontrastprüfung läuft über die gerenderten Elemente – Verhältnis aus
 `getComputedStyle(color)` und der ersten deckenden Hintergrundfarbe gegen 4.5:1 (bzw. 3:1 für große
-Schrift), in **beiden** Erscheinungsbildern. Für das Werkzeug: `cargo test` und
-`kompass pruefen` (prüft Katalogfelder, Konnektorbezüge und ob jeder als „Text" markierte Knoten
-auch wirklich Text hat).
+Schrift), in **beiden** Erscheinungsbildern.
+
+Für das Werkzeug: `cargo test` (56 Tests: Einheitstests je Modul plus neun
+Ablauftests in `werkzeug/tests/ablauf.rs`, die das fertige Programm gegen einen
+Datenordner im Temp-Verzeichnis laufen lassen), `cargo clippy --all-targets -- -D warnings`
+und `kompass pruefen` (Katalogfelder, Konnektorbezüge, Zuordnungen, Beziehungen,
+jede konfigurierte Adresse gegen die Leine, und ob jeder als „Text" markierte
+Knoten auch wirklich Text hat). Abdeckung messen: `cargo llvm-cov --summary-only`
+(Kernlogik 89 %, Zahlen in `SICHERHEIT.md`). Dasselbe läuft bei jedem Push als
+Auftrag „Pruefung".
 
 ## Stand und offene Punkte
 
 Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht), Phase 2b (deutsche Gesetze),
 Phase 3 (eigene Zusammenfassungen, sieben Werke), Phase 4 (Themenseiten, Beziehungen,
-Matrizen), Phase 5 (Screening), Phase 7 (Lernbereich). Zusammen **27 Regelwerke mit
+Matrizen), Phase 5 (Screening), Phase 7 (Lernbereich), Phase 8 (Härtung nach
+ASVS L2, siehe `SICHERHEIT.md`). Zusammen **27 Regelwerke mit
 3.978 adressierbaren Fundstellen**, davon
 **20 Regelwerke im Volltext mit rund 3.750 adressierbaren Fundstellen**: DORA (DE/EN),
 die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und BDSG vollständig sowie HGB
@@ -369,7 +398,10 @@ Offen, in dieser Reihenfolge sinnvoll:
    v1.6/v1.7 auf Control-, Objective- bzw. Bereichsebene (64 Beziehungen). Noch am ganzen
    Regelwerk hängen die Beziehungen zu MaGo und MaRisk – die brauchen Phase 2c.
    Ebenfalls offen: XLSX- und PDF-Export (zurzeit CSV und Druckansicht).
-4. **Phase 8** – Härtung: Security-Review, ASVS-Checkliste, Testabdeckung, Betriebsdoku.
+4. **Reste aus Phase 8** – `cargo audit` als Schritt im Auftrag „Pruefung"
+   (hier nicht installiert), Actions auf Commit-Stand festnageln statt `@v4`,
+   und echte HTTP-Kopfzeilen statt `meta` (geht erst ohne GitHub Pages).
+   Die Liste steht am Ende von `SICHERHEIT.md`.
 
 Hinweis zum Umfang: Die Suchindizes sind zusammen rund 2,6 MB (0,6 MB gzip) und werden bei
 der ersten Suche vollständig geladen. `verweise.json` ist rund 800 KB groß und wird deshalb
