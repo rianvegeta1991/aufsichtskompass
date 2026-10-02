@@ -18,7 +18,7 @@ import * as analyse from './analyse.js';
 import * as news from './news.js';
 import * as lernen from './lernen.js';
 
-export const APP_VERSION = '1.9';
+export const APP_VERSION = '1.10';
 
 const seite = document.getElementById('seite');
 
@@ -416,9 +416,10 @@ async function themenseite(wurzel, id) {
     }
 
     raum.append(el('div.hinweis.phase', { style: 'margin-top:20px' },
-      el('div', el('strong', 'Noch offen: '),
-        'Best-Practice-Einordnungen aus öffentlichen Quellen kommen mit dem Screening (Phase 5), verknüpfte Lektionen und Quizzes mit dem Lernbereich (Phase 7). ',
-        'Zielbild, Prüfungsschwerpunkte und Nachweise sind eigene Einordnungen und fachlich noch nicht abgenommen.')));
+      el('div', el('strong', 'Hinweis: '),
+        'Zielbild, Prüfungsschwerpunkte und Nachweise sind eigene Einordnungen (KI-erstellt) und fachlich noch nicht abgenommen. ',
+        'Aktuelle Meldungen zum Thema stehen im ', el('a', { href: '#/newsfeed' }, 'Screening'),
+        ', Lerninhalte im ', el('a', { href: '#/lernen' }, 'Lernbereich'), '.')));
     return;
   }
 
@@ -447,9 +448,9 @@ async function aenderungsseite(wurzel) {
   wurzel.append(
     el('div.kopfzeile', el('div.wachs',
       el('h1', 'Änderungen & Archiv'),
-      el('p.unterzeile', 'Jede übernommene Fassung bleibt unverändert liegen. Grundlage sind SHA-256-Hashes je Fundstelle – daraus entstehen in Phase 6 Diff-Ansicht und „zu prüfen"-Markierungen.'))),
-    el('div.hinweis.phase', el('div', el('strong', 'Phase 6: '),
-      'Die Erfassung läuft schon (Hash je Fundstelle, Änderungslog, unveränderliche Fassungsordner). Es fehlen die Wort-Diff-Ansicht, das Benachrichtigungszentrum und die Folgenabschätzung auf Mappings und Lerninhalte.')),
+      el('p.unterzeile', 'Jede übernommene Fassung bleibt unverändert liegen. Grundlage sind SHA-256-Hashes je Fundstelle.'))),
+    el('div.hinweis.phase', el('div', el('strong', 'Noch offen: '),
+      'Die Erfassung läuft (Hash je Fundstelle, Änderungslog, unveränderliche Fassungsordner), und Lerninhalte, deren Fundstelle sich ändert, werden zur Prüfung markiert. Es fehlen noch die Wort-Diff-Ansicht zweier Fassungen und ein Benachrichtigungszentrum.')),
     el('h2', { style: 'margin-top:20px' }, `Protokoll (${ereignisse.length})`),
     ereignisse.length
       ? el('div.karte', { style: 'padding:12px' },
@@ -603,7 +604,7 @@ async function quellenseite(wurzel) {
         ' und baut die Suchindizes. Befehle: ', el('code', 'kompass abruf'), ', ', el('code', 'kompass index'), ', ', el('code', 'kompass pruefen'), '.'),
       el('p', el('strong', 'Warum nicht direkt EUR-Lex: '), 'Die Weboberfläche von EUR-Lex weist automatisierte Abrufe über eine WAF ab (HTTP 202, leerer Körper). Der amtliche Dienst CELLAR liefert dieselben Fassungen mit ETag und Last-Modified.'),
       el('p', el('strong', 'Level-2-Rechtsakte: '), 'Die zwölf Rechtsakte zu DORA wurden nicht von Hand gepflegt, sondern über den SPARQL-Dienst des Amts für Veröffentlichungen ermittelt (Rechtsgrundlage CELEX 32022R2554).'),
-      el('p', { style: 'margin:0' }, el('strong', 'Diese Seite ist statisch: '), 'Sie liest nur JSON-Dateien. Der tägliche Lauf um 06:30 Europe/Berlin läuft ab Phase 5 als GitHub-Actions-Auftrag und schreibt die Daten ins Repository.')),
+      el('p', { style: 'margin:0' }, el('strong', 'Diese Seite ist statisch: '), 'Sie liest nur JSON-Dateien. Der tägliche Lauf um 06:30 Europe/Berlin ist ein GitHub-Actions-Auftrag und schreibt die Daten ins Repository.')),
     el('h2', { style: 'margin-top:22px' }, 'Sicherheit & Datenschutz'),
     el('div.karte',
       el('p', el('strong', 'Keine Konten, keine Übertragung: '),
@@ -618,19 +619,6 @@ async function quellenseite(wurzel) {
       el('p', { style: 'margin:0' }, el('strong', 'Nachzulesen: '),
         'Die Prüfung nach OWASP ASVS Level 2 steht als ', el('code', 'SICHERHEIT.md'),
         ' im Repository, der Betrieb samt Sicherung und Wiederherstellung als ', el('code', 'BETRIEB.md'), '.')),
-  );
-}
-
-function platzhalter(wurzel, name, phase, beschreibung) {
-  titel(name);
-  leere(wurzel).append(
-    el('div.kopfzeile', el('div.wachs', el('h1', name),
-      el('p.unterzeile', `Dieses Modul ist für Phase ${phase} vorgesehen und noch nicht gebaut.`))),
-    el('div.karte',
-      el('h2', 'Was hier entsteht'),
-      el('p', beschreibung),
-      el('div.hinweis.phase', el('div',
-        'Der Platzhalter steht bewusst hier, statt das Modul halbfertig anzudeuten: was in der App zu sehen ist, soll auch belastbar sein.'))),
   );
 }
 

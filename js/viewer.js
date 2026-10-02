@@ -52,7 +52,7 @@ export async function zeigen(wurzel, rwId, pfad) {
     if (pfad && !ziel) {
       leere(lesen).append(fehlerkarte(
         `Die Fundstelle „${pfad}" gibt es in dieser Fassung nicht.`,
-        'Vielleicht ist sie in einer älteren Fassung enthalten – das Archiv kommt in Phase 6.'));
+        'Vielleicht ist sie nur in einer älteren Fassung enthalten – unter „Änderungen & Archiv" stehen alle übernommenen Fassungen.'));
       leere(kontext).append(...kontextTeile(rw, fassung, struktur, null, sprache));
       return;
     }
@@ -395,10 +395,6 @@ function kontextTeile(rw, fassung, struktur, ziel, sprache, karten, text) {
   teile.push(bezieBox);
   beziehungenNachladen(bezieBox, rw, ziel);
 
-  teile.push(el('h3', 'Noch nicht fertig'),
-    el('div.hinweis.phase', { style: 'font-size:.8rem' },
-      'Best-Practice-Einordnungen kommen mit dem Screening (Phase 5), verknüpfte Lerninhalte mit dem Lernbereich (Phase 7).'));
-
   return teile;
 }
 
@@ -542,7 +538,7 @@ function ohneVolltext(rw) {
       el('h2', 'Für dieses Regelwerk liegt noch kein Text vor'),
       el('p', rw.modus === 'original'
         ? 'Der Originaltext ist zulässig, der passende Konnektor ist aber noch nicht umgesetzt oder noch nicht aktiviert.'
-        : 'Hier darf kein Volltext stehen. Die eigenen Zusammenfassungen entstehen in Phase 3.'),
+        : 'Hier darf kein Volltext stehen, und eine eigene Zusammenfassung gibt es dafür noch nicht. Maßgeblich ist die Quelle.'),
       rw.hinweis ? el('div.hinweis.recht', rw.hinweis) : null,
       el('p', { style: 'margin-top:14px' },
         el('a.knopf.haupt', { href: externURL(rw.quelle.url), target: '_blank', rel: 'noopener' }, 'Zur amtlichen Quelle ↗'),
