@@ -20,8 +20,16 @@ pub struct Quellenliste {
 pub struct Konnektor {
     /// Id des Regelwerks, zu dem der Abruf gehoert (Schluessel in `regelwerke.json`).
     pub regelwerk: String,
-    /// Bauart des Abrufs. Zurzeit: `cellar` (EUR-Lex/CELLAR).
+    /// Bauart des Abrufs: `cellar` (EU-Recht), `gii` (deutsche Gesetze) oder
+    /// `bafin` (Veroeffentlichungen der BaFin).
     pub typ: String,
+    /// Adresse der Quelle, soweit der Konnektor sie nicht selbst bildet
+    /// (CELLAR und gesetze-im-internet.de brauchen nur die Kennung).
+    #[serde(default)]
+    pub url: Option<String>,
+    /// Unterform innerhalb des Konnektortyps, bei `bafin`: `rundschreiben` oder `faq`.
+    #[serde(default)]
+    pub bauart: Option<String>,
     /// CELEX-Nummer, z. B. `32022R2554` fuer DORA.
     #[serde(default)]
     pub celex: Option<String>,

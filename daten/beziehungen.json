@@ -1,5 +1,5 @@
 {
-  "stand": "2026-10-01",
+  "stand": "2026-10-02",
   "hinweis": "Fachliche Beziehungen zwischen Fundstellen. Was sich aus dem Wortlaut ergibt (Verweise), steht dagegen in verweise.json und wird vom Werkzeug erzeugt. Jede Beziehung hier nennt Quelle der Zuordnung, Begründung, Konfidenz und Prüfstatus; 'geprueft: false' heißt: noch nicht fachlich abgenommen.",
   "typen": {
     "entspricht": "Gleiche Anforderung in anderem Regelwerk",
@@ -507,9 +507,9 @@
         "ikt-risikomanagement",
         "drittparteien-auslagerung"
       ],
-      "begruendung": "Die MaGo legt die Verwaltungspraxis der BaFin zur Geschäftsorganisation nach den §§ 23 ff. VAG dar und behandelt dabei auch IT-Themen. Wo DORA unmittelbar gilt, geht sie als Verordnung vor; die MaGo bleibt für die nicht IKT-bezogenen Teile der Geschäftsorganisation maßgeblich. Die Zuordnung auf Abschnittsebene steht noch aus, weil die MaGo bisher nicht im Volltext vorliegt.",
-      "quelle": "eigene Analyse",
-      "konfidenz": "mittel",
+      "begruendung": "Beide gelten nebeneinander: Die MaGo legt die Verwaltungspraxis der BaFin zur Geschäftsorganisation nach den §§ 23 ff. VAG dar, DORA setzt die sektorspezifischen IKT-Anforderungen. Randziffer 11 MaGo sagt das selbst – für die allgemeinen Prozesse der Geschäftsorganisation bleiben die Auslegungshinweise maßgeblich. Die Einzelbezüge hängen seit v1.9 an den Randziffern (siehe die Beziehungen zu rz/11, rz/15, rz/34, rz/79, rz/168, rz/209, rz/215, rz/225 und rz/251).",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
       "geprueft": false
     },
     {
@@ -1247,6 +1247,356 @@
       "begruendung": "Artikel 32 DSGVO verlangt dem Risiko angemessene Maßnahmen. Die Verhaltensregeln ordnen das für die Versicherungswirtschaft ein, einschließlich Aufbewahrung und Löschung im Gleichlauf mit handels- und steuerrechtlichen Fristen.",
       "quelle": "eigene Analyse",
       "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "mago-11-dora-6",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/11"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/6"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "it-governance",
+        "ikt-risikomanagement"
+      ],
+      "begruendung": "Randziffer 11 ordnet das Verhältnis selbst: DORA und die KI-Verordnung setzen die sektorspezifischen Anforderungen, die Auslegungshinweise der MaGo bleiben für die allgemeinen Prozesse der Geschäftsorganisation maßgeblich. Beide gelten also nebeneinander – die MaGo wird durch DORA nicht verdrängt.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-15-dora-5",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/15"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/5"
+      },
+      "typ": "entspricht",
+      "themen": [
+        "leitungsorgan",
+        "it-governance"
+      ],
+      "begruendung": "Beide weisen die Verantwortung der gesamten Geschäftsleitung zu, unabhängig von einer Ressortverteilung. Artikel 5 DORA macht daraus die Letztverantwortung für den IKT-Rahmen, Randziffer 15 MaGo die Gesamtverantwortung für Geschäftsorganisation, Risikomanagement- und internes Kontrollsystem.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-15-vag-23",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/15"
+      },
+      "nach": {
+        "rw": "vag",
+        "pfad": "par/23"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "it-governance",
+        "leitungsorgan"
+      ],
+      "begruendung": "Die MaGo legt die Vorschriften über die Geschäftsorganisation im VAG für die BaFin verbindlich aus (Randziffer 1). Randziffer 15 füllt damit § 23 VAG aus.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-34-vag-29",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/34"
+      },
+      "nach": {
+        "rw": "vag",
+        "pfad": "par/29"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "funktionstrennung",
+        "iks"
+      ],
+      "begruendung": "Randziffer 34 verlangt eine dem Risikoprofil angemessene Trennung der Zuständigkeiten bis auf Ebene der Geschäftsleitung – das ist die Auslegung der Anforderung an das interne Kontrollsystem nach § 29 VAG.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-34-dora-6-4",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/34"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/6/abs/4"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "funktionstrennung"
+      ],
+      "begruendung": "Beide verlangen getrennte Zuständigkeiten. Artikel 6 Absatz 4 DORA geht weiter und schreibt für die Kontrollfunktion im IKT-Risikomanagement eine angemessene Unabhängigkeit vor.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "mago-79-dora-9",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/79"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/9"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "iks",
+        "it-governance",
+        "ki-governance"
+      ],
+      "begruendung": "Der Abschnitt zu automatisierten Geschäftsabläufen verbindet nach Randziffer 11 ausdrücklich die nationalen Regelungen zur Geschäftsorganisation mit den technischen Anforderungen aus DORA und der KI-Verordnung. Randziffer 79 verlangt Steuerung und Überwachung automatisierter Abläufe – Artikel 9 DORA die technischen Schutz- und Kontrollmaßnahmen dazu.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-79-ai-act",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/79"
+      },
+      "nach": {
+        "rw": "ai-act"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "ki-governance"
+      ],
+      "begruendung": "Automatisierte Risikozeichnung und automatisierte Einzelfallentscheidungen in der Leistungs- bearbeitung sind genau die Anwendungen, für die die KI-Verordnung zusätzliche Pflichten begründen kann. Die MaGo verlangt dafür die organisatorische Einbettung.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "mago-168-dora-6",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/168"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/6"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "ikt-risikomanagement",
+        "iks"
+      ],
+      "begruendung": "Randziffer 168 zählt IT-Risiken zu den operationellen Risiken, gleich ob sie aus der IT-Aufbauorganisation, den IT-Systemen oder den IT-Prozessen stammen. Artikel 6 DORA verlangt für genau diese Risiken einen eigenen, dokumentierten Rahmen.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-193-vag-29",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/193"
+      },
+      "nach": {
+        "rw": "vag",
+        "pfad": "par/29"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "iks"
+      ],
+      "begruendung": "Randziffer 193 beschreibt, was das interne Kontrollsystem leisten muss – einschließlich der Verfügbarkeit und Verlässlichkeit der für den Geschäftsbetrieb notwendigen Informationen. Das ist die Auslegung des § 29 VAG.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-209-dora-28",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/209"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "drittparteien-auslagerung",
+        "ikt-risikomanagement"
+      ],
+      "begruendung": "Randziffer 209 verlangt, die Risiken einer Ausgliederung vor und nach Vertragsschluss zu identifizieren, zu bewerten, zu überwachen und zu berichten, ausdrücklich auch IT-Risiken. Artikel 28 DORA fordert dasselbe für IKT-Dienstleistungen und ergänzt Informationsregister und Konzentrationsrisikobetrachtung.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-215-dora-3",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/215"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/3"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Randziffer 215 löst die Begriffsfrage: Soweit europäische Rechtstexte von „kritischen\" Funktionen sprechen, gelten die Anforderungen an „wichtige\" Funktionen im Wege eines Erst-Recht-Schlusses auch dort. Damit greifen die Ausgliederungsanforderungen der MaGo und der Begriff der kritischen oder wichtigen Funktion nach Artikel 3 Nummer 22 DORA ineinander.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-225-dora-28",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/225"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "typ": "geht-weiter",
+      "themen": [
+        "drittparteien-auslagerung",
+        "funktionstrennung"
+      ],
+      "begruendung": "Die MaGo verlangt eine Ausgliederungsbeauftragte oder einen Ausgliederungsbeauftragten mit festen Aufgaben. DORA kennt diese Rolle nicht – wer nur DORA umsetzt, erfüllt die MaGo an dieser Stelle nicht.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-251-dora-11",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/251"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/11"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "bcm-backup"
+      ],
+      "begruendung": "Randziffer 251 beschreibt das Notfallmanagement als Vorsorge für die Verfügbarkeit wesentlicher Daten und Funktionen. Artikel 11 DORA verlangt dafür eine IKT-Geschäftsfortführungspolitik mit Plänen, mindestens jährlichen Tests und Krisenkommunikation.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "faq-4-vag-32",
+      "von": {
+        "rw": "bafin-dora-faq",
+        "pfad": "frage/4"
+      },
+      "nach": {
+        "rw": "vag",
+        "pfad": "par/32"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die Antwort stellt klar: Das IKT-Drittparteienrisikomanagement nach DORA **ergänzt** die sektoralen Regelungen zu Auslagerungen; die Anforderungen an Ausgliederungen sind grundsätzlich weiterhin parallel zu beachten. § 32 VAG wird durch DORA also nicht verdrängt.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "faq-5-dora-3",
+      "von": {
+        "rw": "bafin-dora-faq",
+        "pfad": "frage/5"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/3"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die Aufsicht legt den Begriff aus: „kritisch oder wichtig\" knüpft an die Auswirkungen eines Ausfalls an, ähnelt dem Schutzziel der Verfügbarkeit, ist damit aber nicht identisch – eine Funktion kann auch wegen der Vertraulichkeit kritisch sein.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "faq-22-dora-18",
+      "von": {
+        "rw": "bafin-dora-faq",
+        "pfad": "frage/22"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/18"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "incident-meldewesen"
+      ],
+      "begruendung": "Die Antwort nennt die Schwelle, ab der von einer Kritikalität der betroffenen Dienste auszugehen ist, und verweist auf die Kriterien des technischen Regulierungsstandards zur Klassifizierung.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "faq-10-dora-26",
+      "von": {
+        "rw": "bafin-dora-faq",
+        "pfad": "frage/10"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/26"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "resilienztests"
+      ],
+      "begruendung": "Die BaFin führt keine Liste zugelassener TLPT-Testerinnen und -Tester; die Auswahl bleibt beim testenden Finanzunternehmen, unter Beachtung der Delegierten Verordnung (EU) 2025/1190.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "faq-33-its-2956",
+      "von": {
+        "rw": "bafin-dora-faq",
+        "pfad": "frage/33"
+      },
+      "nach": {
+        "rw": "dora-its-2956"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die Antwort beantwortet die in der Praxis häufigste Frage zum Informationsregister: Ohne Bezug zu einer kritischen oder wichtigen Funktion genügt der Dienstleister in direktem Vertragsverhältnis (Rang 1); bei gruppeninternen Dienstleistern kommt der erste externe Dienstleister hinzu.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
       "geprueft": false
     }
   ]

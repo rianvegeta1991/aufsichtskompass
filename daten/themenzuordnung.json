@@ -1,5 +1,5 @@
 {
-  "stand": "2026-10-01",
+  "stand": "2026-10-02",
   "hinweis": "Ordnet einzelne Fundstellen den Themen zu. Von Hand gepflegt und gegen die Überschriften der Quelle geprüft; 'kompass pruefen' schlägt an, wenn ein Pfad im Bestand nicht existiert. Regelwerke ohne Eintrag hier erscheinen auf den Themenseiten über ihre Themen im Katalog (Ebene 'ganzes Regelwerk').",
   "herkunft": "manuell",
   "geprueft": false,
@@ -1032,6 +1032,424 @@
       "themen": [
         "datenschutz",
         "iks"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/11",
+      "themen": [
+        "it-governance",
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/15",
+      "themen": [
+        "leitungsorgan",
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/34",
+      "themen": [
+        "funktionstrennung",
+        "iks"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/79",
+      "themen": [
+        "ki-governance",
+        "iks",
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/80",
+      "themen": [
+        "ki-governance",
+        "iks"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/168",
+      "themen": [
+        "ikt-risikomanagement",
+        "iks"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/193",
+      "themen": [
+        "iks"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/209",
+      "themen": [
+        "drittparteien-auslagerung",
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/215",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/225",
+      "themen": [
+        "drittparteien-auslagerung",
+        "funktionstrennung"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/251",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "mago-va",
+      "pfad": "rz/252",
+      "themen": [
+        "bcm-backup",
+        "resilienztests"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/1",
+      "themen": [
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/2",
+      "themen": [
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/3",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/4",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/5",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/6",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/7",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/8",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/9",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/10",
+      "themen": [
+        "resilienztests"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/11",
+      "themen": [
+        "resilienztests"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/12",
+      "themen": [
+        "resilienztests"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/13",
+      "themen": [
+        "resilienztests"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/14",
+      "themen": [
+        "resilienztests"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/15",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/16",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/17",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/18",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/19",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/20",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/21",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/22",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/23",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/24",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/25",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/26",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/27",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/28",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/29",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/30",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/31",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/32",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/33",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/34",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/35",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/36",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/37",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/38",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/39",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/40",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/41",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/42",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/43",
+      "themen": [
+        "informationsregister",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-faq",
+      "pfad": "frage/44",
+      "themen": [
+        "it-governance"
       ]
     }
   ]

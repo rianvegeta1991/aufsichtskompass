@@ -69,12 +69,42 @@ Fassungsordner sind **unveränderlich**. Eine neue Fassung kommt daneben, die al
 |---|---|---|
 | `cellar` | EU-Recht über `publications.europa.eu/resource/celex/<CELEX>` | umgesetzt |
 | `gii` | deutsche Gesetze über `gesetze-im-internet.de/<kennung>/xml.zip` | umgesetzt |
-| `bafin-pdf` | BaFin-Rundschreiben als PDF | offen, erst nach Klärung der Nutzungsbedingungen |
-| `rss` / `seite` | Feeds und Seitenüberwachung fürs Screening | offen (Phase 5) |
+| `bafin` | BaFin-Veröffentlichungen als HTML, Bauarten `rundschreiben` und `faq` | umgesetzt (Phase 2c) |
+| `bafin-pdf` | BaFin-Veröffentlichung nur als PDF (MaRisk, Aufsichtsmitteilung) | offen: PDF-Textextraktor fehlt |
+| `rss` / `seite` | Feeds und Seitenüberwachung fürs Screening | umgesetzt (Phase 5) |
 
-Beide umgesetzten Konnektoren holen nur ab und parsen; die Versionslogik liegt gemeinsam
+Alle Konnektoren holen nur ab und parsen; die Versionslogik liegt gemeinsam
 in `uebernehmen()` in `main.rs` – Hash-Vergleich, neue Fassung, Änderungsereignis,
-Indexbau. Ein dritter Konnektor braucht deshalb nur Abruf und Parser.
+Indexbau. Ein weiterer Konnektor braucht deshalb nur Abruf und Parser.
+
+### BaFin (`bafin`, Phase 2c)
+
+- **Volltext ist zulässig** – das war die eigentliche Hürde, nicht die Technik. Die
+  Nutzungsbedingungen der BaFin („Haftungsausschluss & Copyright", geprüft am
+  01.10.2026) erlauben Speichern, Weitergeben und Vervielfältigen **mit deutlicher
+  Quellenangabe**; amtliche Werke nach § 5 Absatz 2 UrhG dürfen nicht verändert werden.
+  Deshalb trägt jede Fassung `bafin::HINWEIS` mit „© Bundesanstalt für
+  Finanzdienstleistungsaufsicht / www.bafin.de". Einzelheiten in `SICHERHEIT.md`.
+- **Unverändert heißt wörtlich unverändert.** Die Seiten setzen `abbr` mitten in den Satz
+  („Versicherungsaufsichtsgesetz (<abbr>VAG</abbr>)"). Wer die Textstücke mit Leerzeichen
+  verbindet, erhält „( VAG )" – also eine Veränderung. `reintext()` fügt deshalb **ohne**
+  Trennzeichen zusammen. Nicht „aufräumen", das war ein Fehler und ist behoben.
+- **Bauart `rundschreiben`**: Fliesstext in `div.l-article__content`, Gliederung aus
+  `h2`/`h3`/`h4` („9.", „9.1", „9.1.1" → `nr/9.1.1`), **jede Fundstelle eine Randziffer**
+  (`rz/31`, Beschriftung „Rz. 31") – genau so wird zitiert. Absätze ohne Randziffer
+  („a) …") und `ul`-Listen gehören zur offenen Randziffer. MaGo: 256 Randziffern.
+- **Bauart `faq`**: Frage ist ein `p` mit der Klasse `c-richtext-accordion__opener`,
+  Antwort sind die Absätze danach bis zur nächsten Frage; `h2` sind die Themengruppen
+  (`gr/1`), Fragen werden durchgezählt (`frage/33`). **Nicht** nach den
+  schema.org-Auszeichnungen gehen, die man im Browser sieht – die setzt erst das Skript
+  der Seite, im Quelltext stehen sie nicht.
+- Die FAQ wird laufend fortgeschrieben und steht deshalb **zusätzlich** in der
+  Seitenüberwachung des Screenings: der tägliche Lauf meldet eine Änderung, der Abruf
+  bleibt redaktionell. Die Seite nennt kein Datum, die Fassungskennung ist deshalb das
+  Abrufdatum.
+- Eine neue BaFin-Veröffentlichung braucht: Katalogeintrag, Konnektor mit `url` und
+  `bauart`, den Host `www.bafin.de` steht schon in `erlaubte_hosts` – und die Prüfung,
+  ob am Dokument ein **abweichender** Nutzungshinweis steht.
 
 ### gesetze-im-internet.de (`gii`)
 
@@ -366,37 +396,46 @@ Auftrag „Pruefung".
 
 ## Stand und offene Punkte
 
-Fertig: Phase 1 (Fundament), Phase 2 (EU-Recht), Phase 2b (deutsche Gesetze),
-Phase 3 (eigene Zusammenfassungen, sieben Werke), Phase 4 (Themenseiten, Beziehungen,
-Matrizen), Phase 5 (Screening), Phase 7 (Lernbereich), Phase 8 (Härtung nach
-ASVS L2, siehe `SICHERHEIT.md`). Zusammen **27 Regelwerke mit
-3.978 adressierbaren Fundstellen**, davon
-**20 Regelwerke im Volltext mit rund 3.750 adressierbaren Fundstellen**: DORA (DE/EN),
-die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und BDSG vollständig sowie HGB
-und AO als IT-relevanter Auszug. Viewer mit Gliederungsbaum, Deep-Links, Glossar aus den
-Begriffsbestimmungen, Zitat-Export, Lesezeichen und Notizen, BM25-Suche über beide
-Rechtskreise. Seit v1.1 das mobile Format (siehe oben): geprüft auf 320, 375, 768 und
-1440 px – kein Querscrollen, keine Tap-Ziele unter 40 px, WCAG-AA-Kontraste in beiden
-Erscheinungsbildern.
+**Alle Phasen des Auftrags sind abgearbeitet**: Phase 1 (Fundament), 2 (EU-Recht),
+2b (deutsche Gesetze), **2c (BaFin)**, 3 (eigene Zusammenfassungen, sieben Werke),
+4 (Themenseiten, Beziehungen, Matrizen), 5 (Screening), 6 (Versionierung und
+Änderungserkennung – Diff-Ansicht steht noch aus), 7 (Lernbereich), 8 (Härtung nach
+ASVS L2, siehe `SICHERHEIT.md`).
 
-Dazu seit v1.3: 22 Themenseiten mit Zielbild, Fundstellentabelle, Prüfungsschwerpunkten
-und Nachweisen; 32 fachliche Beziehungen mit Begründung; rund 2.700 belegte Verweise;
-sechs Matrix-Ansichten mit CSV-Export; Beziehungen im Kontext-Panel des Viewers.
+Zusammen **29 Regelwerke mit 4.278 adressierbaren Fundstellen**, davon **22 im
+Volltext**: DORA (DE/EN), die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und
+BDSG vollständig, HGB und AO als IT-relevanter Auszug sowie von der BaFin die MaGo für
+SII-VU (256 Randziffern) und die FAQs zu DORA (44 Fragen). Die restlichen sieben Werke
+sind eigene Zusammenfassungen (226 Fundstellen). Viewer mit Gliederungsbaum, Deep-Links,
+Glossar aus den Begriffsbestimmungen, Zitat-Export, Lesezeichen und Notizen, BM25-Suche
+über alle Rechtskreise. Seit v1.1 das mobile Format (siehe oben): geprüft auf 320, 375,
+768 und 1440 px – kein Querscrollen, keine Tap-Ziele unter 40 px, WCAG-AA-Kontraste in
+beiden Erscheinungsbildern.
+
+Dazu 22 Themenseiten mit Zielbild, Fundstellentabelle, Prüfungsschwerpunkten und
+Nachweisen; **195 Themenzuordnungen** und **82 fachliche Beziehungen** mit Begründung,
+Konfidenz und Prüfstatus; rund 2.700 belegte Verweise aus dem Wortlaut; sechs
+Matrix-Ansichten mit CSV-Export; Beziehungen im Kontext-Panel des Viewers.
+
+Die wertvollsten Beziehungen sind seit v1.9 die zur MaGo, weil beide Seiten im Volltext
+liegen: Randziffer 11 ordnet das Verhältnis zu DORA selbst, Rz. 215 löst „kritisch" gegen
+„wichtig" über einen Erst-Recht-Schluss, Rz. 225 zeigt, wo die MaGo über DORA hinausgeht
+(Ausgliederungsbeauftragte), und FAQ Frage 4 sagt ausdrücklich, dass DORA die
+Ausgliederungsanforderungen des § 32 VAG ergänzt und nicht verdrängt.
 
 Offen, in dieser Reihenfolge sinnvoll:
 
-1. **Phase 2c** – BaFin-Veröffentlichungen (MaGo 09/2025 (VA), MaRisk, Aufsichtsmitteilung,
-   DORA-FAQ). Zwei Hürden, beide fachlich: die Nutzungsbedingungen für den Volltext sind je
-   Veröffentlichung zu prüfen und zu dokumentieren, und die BaFin hat ihre Seitenstruktur
-   umgebaut – die Direktlinks müssen neu ermittelt werden. Bis dahin bleiben diese Einträge
-   auf „Zusammenfassung" und `geprueft: false`.
-2. **Kennungen abgleichen** – die Kennungen und Titel der kostenpflichtigen Werke (ISO,
+1. **Kennungen abgleichen** – die Kennungen und Titel der kostenpflichtigen Werke (ISO,
    COBIT, ITIL) sind gegen die jeweilige Bezugsfassung zu prüfen; erst dann `geprueft: true`
    in `daten/zusammenfassungen/<id>.json` setzen und neu übernehmen. Ebenso die Fassung der
    GDV-Verhaltensregeln und der Direktlink zum C5-Katalog.
-3. **Phase 4 vertiefen** – die Beziehungen zu ISO 27001, COBIT, ITIL und C5 hängen seit
-   v1.6/v1.7 auf Control-, Objective- bzw. Bereichsebene (64 Beziehungen). Noch am ganzen
-   Regelwerk hängen die Beziehungen zu MaGo und MaRisk – die brauchen Phase 2c.
+2. **PDF-Veröffentlichungen der BaFin** – MaRisk (Rundschreiben 06/2026 (BA), 9. Novelle)
+   und die Aufsichtsmitteilung Umsetzungshinweise DORA erscheinen nur als PDF. Dafür fehlt
+   ein Textextraktor; die Links sind verifiziert, die Einträge bleiben auf
+   „Zusammenfassung". Wer das angeht: eigener Konnektortyp `bafin-pdf`, Bedingungen sind
+   dieselben wie bei HTML.
+3. **Diff-Ansicht (Rest aus Phase 6)** – die Hashes je Fundstelle und das Änderungslog
+   liegen vor; was fehlt, ist die Gegenüberstellung zweier Fassungen in der App.
    Ebenfalls offen: XLSX- und PDF-Export (zurzeit CSV und Druckansicht).
 4. **Reste aus Phase 8** – `cargo audit` als Schritt im Auftrag „Pruefung"
    (hier nicht installiert), Actions auf Commit-Stand festnageln statt `@v4`,

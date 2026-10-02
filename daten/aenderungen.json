@@ -188,6 +188,20 @@
       "fassung": "2026-10-01",
       "art": "Erstaufnahme",
       "quelle": "https://www.peoplecert.org/"
+    },
+    {
+      "zeitpunkt": "2026-10-01T20:53:04Z",
+      "regelwerk": "mago-va",
+      "fassung": "2025-07-14",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Rundschreiben/2025/rs_rundschreiben_09_25_va.html"
+    },
+    {
+      "zeitpunkt": "2026-10-02T05:35:10Z",
+      "regelwerk": "bafin-dora-faq",
+      "fassung": "2026-10-02",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.bafin.de/SharedDocs/Fragen-antworten/DE/faq-dora/faq-dora_node.html"
     }
   ]
 }

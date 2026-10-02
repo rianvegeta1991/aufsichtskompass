@@ -13,10 +13,12 @@ amtlich veröffentlichte Fassung.
 - **Regelwerks-Bibliothek** mit 52 Katalogeinträgen – Gesetze, Verordnungen, Rundschreiben,
   Leitlinien, Normen und Frameworks, jeweils mit Typ, Herausgeber, Verbindlichkeit, Status,
   Darstellungsmodus, Tiefe und Prüfstatus.
-- **Originaltext-Viewer** für 20 Regelwerke mit rund 3.750 adressierbaren Fundstellen:
-  DORA (deutsch und englisch), die zwölf Level-2-Rechtsakte (RTS/ITS), NIS2, DSGVO sowie
-  VAG, BSIG, BDSG vollständig und HGB und AO als IT-relevanter Auszug. Dazu sieben Werke
-  als eigene Zusammenfassung – zusammen **27 Regelwerke mit 3.978 Fundstellen**.
+- **Originaltext-Viewer** für 22 Regelwerke: DORA (deutsch und englisch), die zwölf
+  Level-2-Rechtsakte (RTS/ITS), NIS2, DSGVO, dazu VAG, BSIG, BDSG vollständig und HGB
+  und AO als IT-relevanter Auszug – und von der BaFin die **MaGo für SII-VU**
+  (Rundschreiben 09/2025 (VA), adressierbar je Randziffer: `rz/31`) sowie die
+  **FAQs zu DORA** (44 Fragen). Dazu sieben Werke als eigene Zusammenfassung –
+  zusammen **29 Regelwerke mit 4.278 Fundstellen**.
   Gliederungsbaum, Deep-Link auf jeden Absatz bzw. Paragrafen, Glossar aus den
   Begriffsbestimmungen, Zitat-Export mit Quellenangabe, Lesezeichen und Notizen.
 - **Volltextsuche** über alle Fundstellen (BM25, deutsche Stammbildung), clientseitig.
@@ -73,6 +75,7 @@ Ausschließlich kostenlose, amtliche Quellen ohne Anmeldung:
 | EU-Recht | CELLAR des Amts für Veröffentlichungen (`publications.europa.eu/resource/celex/…`) | Weiterverwendung mit Quellenangabe (Beschluss 2011/833/EU) |
 | Level-2-Rechtsakte | SPARQL-Dienst des Amts für Veröffentlichungen | wie oben |
 | Deutsche Gesetze | gesetze-im-internet.de, XML-Fassung je Gesetz (ZIP) | amtliche Werke, § 5 UrhG |
+| BaFin-Veröffentlichungen | bafin.de, HTML-Fassung je Veröffentlichung | Nutzungsbedingungen der BaFin: Wiedergabe unverändert und mit Quellenangabe („© Bundesanstalt für Finanzdienstleistungsaufsicht / www.bafin.de") |
 
 Wo kein Volltext zulässig ist, stehen eigene Zusammenfassungen – in eigenen Worten, mit
 Bezugsfassung, Herkunft, Prüfstatus und Verweis auf die Bezugsquelle. Enthalten sind
@@ -86,9 +89,13 @@ steht; die Kennungen der kostenpflichtigen Werke sind noch gegen die Norm abzugl
 
 ## Stand
 
-Die Phasen 1, 2, 2b, 3, 4, 5, 7 und 8 sind fertig – EU-Recht über CELLAR, deutsche Gesetze
-über gesetze-im-internet.de, die eigenen Zusammenfassungen, Themenseiten, Beziehungen,
-Matrizen, das tägliche Screening, der Lernbereich und die Härtung nach ASVS Level 2.
-Offen: BaFin-Veröffentlichungen (erst nach Klärung der Nutzungsbedingungen), der fachliche
-Abgleich der Kennungen aus den kostenpflichtigen Werken, ein regelmäßiger `cargo audit`
-sowie XLSX- und PDF-Export. Der Ausbaustand steht auch in der App auf der Startseite.
+**Alle Phasen des Auftrags sind abgearbeitet** – Phase 1 (Fundament), 2 (EU-Recht über
+CELLAR), 2b (deutsche Gesetze), 2c (BaFin), 3 (eigene Zusammenfassungen), 4 (Themenseiten,
+Beziehungen, Matrizen), 5 (tägliches Screening), 6 (Versionierung und Änderungserkennung,
+Diff-Ansicht offen), 7 (Lernbereich) und 8 (Härtung nach ASVS Level 2).
+
+Offen bleiben: der fachliche Abgleich der Kennungen aus den kostenpflichtigen Werken
+(ISO, COBIT, ITIL – dort steht überall „ungeprüft"), die BaFin-Werke, die nur als PDF
+erscheinen (MaRisk, Aufsichtsmitteilung DORA – dafür fehlt ein PDF-Textextraktor),
+ein regelmäßiger `cargo audit` sowie XLSX- und PDF-Export. Der Ausbaustand steht auch
+in der App auf der Startseite.

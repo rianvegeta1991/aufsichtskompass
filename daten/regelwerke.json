@@ -1,5 +1,5 @@
 {
-  "stand": "2026-09-27",
+  "stand": "2026-10-02",
   "hinweis": "Redaktioneller Katalog. Jeder Eintrag traegt 'geprueft': solange false, ist die Angabe noch nicht gegen die amtliche Quelle abgeglichen. Die zwoelf DORA-Level-2-Rechtsakte stammen aus einer SPARQL-Abfrage des CELLAR-Dienstes (Rechtsgrundlage CELEX 32022R2554) und sind mit amtlichem Titel uebernommen. VAIT und BAIT sind bewusst nicht enthalten.",
   "verbindlichkeit": {
     "bindend": "unmittelbar rechtsverbindlich",
@@ -362,13 +362,13 @@
       "herausgeber": "BaFin",
       "verbindlichkeit": "auslegung",
       "status": "in Kraft",
-      "gueltigAb": null,
+      "gueltigAb": "2025-07-14",
       "gueltigBis": null,
       "quelle": {
-        "url": "https://www.bafin.de/",
-        "suchbegriff": "MaGo Rundschreiben 09/2025 (VA)"
+        "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Rundschreiben/2025/rs_rundschreiben_09_25_va.html",
+        "suchbegriff": "MaGo für SII-VU Rundschreiben 09/2025 (VA)"
       },
-      "modus": "zusammenfassung",
+      "modus": "original",
       "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "aufsicht-de",
@@ -381,8 +381,8 @@
         "leitungsorgan",
         "funktionstrennung"
       ],
-      "geprueft": false,
-      "hinweis": "Direktlink und Rundschreiben-Nummer noch gegen die BaFin-Seite abzugleichen (Seitenstruktur der BaFin hat sich geändert). Darstellungsmodus vorläufig 'Zusammenfassung', bis die Nutzungsbedingungen für den Volltext geprüft und im Datensatz dokumentiert sind."
+      "geprueft": true,
+      "hinweis": "Rundschreiben 09/2025 (VA) vom 14.07.2025, Volltext über bafin.de. Zitiert wird nach Randziffern – die Deep-Links folgen dem (rz/31 für Rz. 31). Volltext ist nach den Nutzungsbedingungen der BaFin zulässig: unverändert und mit Quellenangabe."
     },
     {
       "id": "mago-kleine-vu",
@@ -407,7 +407,7 @@
         "iks"
       ],
       "geprueft": false,
-      "hinweis": "Aktueller Stand und Fortgeltung noch zu ermitteln."
+      "hinweis": "Stand 01.10.2026 in der Rundschreiben-Übersicht der BaFin nicht mehr unter „MaGo\" geführt; auffindbar ist nur noch ein Begleittext von 2020. Fortgeltung vor einer Verwendung klären. Kleine Unternehmen unterhalb von Solvabilität II fallen zudem nicht unter DORA."
     },
     {
       "id": "bafin-dora-mitteilung",
@@ -417,11 +417,11 @@
       "herausgeber": "BaFin",
       "verbindlichkeit": "auslegung",
       "status": "in Kraft",
-      "gueltigAb": null,
+      "gueltigAb": "2024-07-08",
       "gueltigBis": null,
       "quelle": {
-        "url": "https://www.bafin.de/",
-        "suchbegriff": "Aufsichtsmitteilung DORA IKT-Risikomanagement"
+        "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Anlage/Aufsichtsmitteilung/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA.html",
+        "suchbegriff": "Aufsichtsmitteilung Umsetzungshinweise DORA"
       },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
@@ -432,8 +432,8 @@
         "drittparteien-auslagerung",
         "it-governance"
       ],
-      "geprueft": false,
-      "hinweis": "Direktlink noch zu verifizieren."
+      "geprueft": true,
+      "hinweis": "Umsetzungshinweise vom 08.07.2024, geändert am 19.09.2024. Nur als PDF veröffentlicht – deshalb keine Volltextübernahme, sondern eigene Zusammenfassung und Link. Ein PDF-Textextraktor fehlt im Werkzeug (siehe Konnektortyp bafin-pdf)."
     },
     {
       "id": "bafin-dora-faq",
@@ -446,11 +446,11 @@
       "gueltigAb": null,
       "gueltigBis": null,
       "quelle": {
-        "url": "https://www.bafin.de/",
-        "suchbegriff": "DORA FAQ"
+        "url": "https://www.bafin.de/SharedDocs/Fragen-antworten/DE/faq-dora/faq-dora_node.html",
+        "suchbegriff": "FAQs zu DORA"
       },
-      "modus": "zusammenfassung",
-      "tiefe": "mittel",
+      "modus": "original",
+      "tiefe": "voll",
       "relevanz": "relevant",
       "gruppe": "aufsicht-de",
       "themen": [
@@ -459,22 +459,47 @@
         "informationsregister",
         "drittparteien-auslagerung"
       ],
-      "geprueft": false,
-      "hinweis": "Wird fortgeschrieben – Kandidat für die Seitenüberwachung im Screening (Phase 5)."
+      "geprueft": true,
+      "hinweis": "Volltext über bafin.de, Fundstelle je Frage (frage/3). Die Seite wird laufend fortgeschrieben und steht deshalb zusätzlich in der Seitenüberwachung des Screenings. Die Nummerierung der Fragen ist die Reihenfolge der Seite, keine Kennung der BaFin."
+    },
+    {
+      "id": "bafin-art16-hinweise",
+      "kurzname": "BaFin-Hinweise Artikel 16 DORA",
+      "langtitel": "Hinweise zu den Dokumentationsanforderungen an Finanzunternehmen gemäß Artikel 16 DORA (vereinfachter IKT-Risikomanagementrahmen)",
+      "typ": "Hinweise der Aufsicht",
+      "herausgeber": "BaFin",
+      "verbindlichkeit": "auslegung",
+      "status": "in Kraft",
+      "gueltigAb": "2025-08-21",
+      "gueltigBis": null,
+      "quelle": {
+        "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Anlage/dl_2025_08_21_Hinweise_Uebersicht_Artikel_16_DORA.html",
+        "suchbegriff": "Hinweise Dokumentationsanforderungen Artikel 16 DORA"
+      },
+      "modus": "zusammenfassung",
+      "tiefe": "grob",
+      "relevanz": "referenz",
+      "gruppe": "aufsicht-de",
+      "themen": [
+        "ikt-risikomanagement",
+        "it-governance"
+      ],
+      "geprueft": true,
+      "hinweis": "Nur als PDF veröffentlicht, deshalb kein Volltext. Betrifft den vereinfachten IKT-Risikomanagementrahmen nach Artikel 16 DORA – für Versicherungsunternehmen unter Solvabilität II in der Regel nicht anwendbar, als Maßstab für kleine Einheiten aber nützlich."
     },
     {
       "id": "marisk",
       "kurzname": "MaRisk",
-      "langtitel": "Mindestanforderungen an das Risikomanagement (MaRisk), BaFin-Rundschreiben für Kreditinstitute",
+      "langtitel": "Mindestanforderungen an das Risikomanagement (MaRisk), Rundschreiben 06/2026 (BA) – 9. MaRisk-Novelle",
       "typ": "BaFin-Rundschreiben",
       "herausgeber": "BaFin",
       "verbindlichkeit": "auslegung",
       "status": "in Kraft",
-      "gueltigAb": null,
+      "gueltigAb": "2026-06-30",
       "gueltigBis": null,
       "quelle": {
-        "url": "https://www.bafin.de/",
-        "suchbegriff": "MaRisk Rundschreiben"
+        "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Rundschreiben/dl_rs_0626_9_marisk.html",
+        "suchbegriff": "MaRisk Rundschreiben 06/2026 (BA)"
       },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
@@ -487,8 +512,8 @@
         "bcm-backup",
         "it-governance"
       ],
-      "geprueft": false,
-      "hinweis": "Vergleichsregelwerk für Kreditinstitute. Aktuelle Fassung und Rundschreiben-Nummer noch zu ermitteln."
+      "geprueft": true,
+      "hinweis": "Aktuelle Fassung: Rundschreiben 06/2026 (BA) vom 30.06.2026 (9. Novelle), nur als PDF. Vergleichsregelwerk für Kreditinstitute; für Versicherungsunternehmen nicht anwendbar."
     },
     {
       "id": "vag",

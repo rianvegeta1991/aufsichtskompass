@@ -10,6 +10,7 @@
 //!   kompass index                             Suchindizes neu bauen
 //!   kompass pruefen                           Datenbestand auf Konsistenz pruefen
 
+mod bafin;
 mod cellar;
 mod gii;
 mod modell;
@@ -121,6 +122,7 @@ fn abruf(daten: &Path, nur: Option<&str>, erzwingen: bool) -> Result<()> {
         match k.typ.as_str() {
             "cellar" => abruf_cellar(daten, &leine, k, erzwingen)?,
             "gii" => abruf_gii(daten, &leine, k, erzwingen)?,
+            "bafin" => abruf_bafin(daten, &leine, k, erzwingen)?,
             sonst => println!("[{}] Konnektortyp '{sonst}' noch nicht umgesetzt - uebersprungen", k.regelwerk),
         }
     }
@@ -200,6 +202,53 @@ fn abruf_cellar(daten: &Path, leine: &netz::Leine, k: &Konnektor, erzwingen: boo
             stand: haupt.stand,
             knoten,
             sprachtexte,
+        },
+        erzwingen,
+    )
+}
+
+/// Veroeffentlichungen der BaFin (Phase 2c). Der Volltext ist hier zulaessig -
+/// die Begruendung und der Quellenhinweis stehen in `bafin.rs`.
+fn abruf_bafin(daten: &Path, leine: &netz::Leine, k: &Konnektor, erzwingen: bool) -> Result<()> {
+    let rw = &k.regelwerk;
+    let url = k
+        .url
+        .as_deref()
+        .with_context(|| format!("[{rw}] Konnektor 'bafin' ohne url"))?;
+    let bauart = k.bauart.as_deref().unwrap_or("rundschreiben");
+    let (_, _, _, etag) = register_laden(daten, rw, erzwingen)?;
+
+    println!("[{rw}] bafin.de ({bauart}) - Abruf laeuft ...");
+    let Some(haupt) = bafin::hole(leine, url, etag.as_deref())? else {
+        println!("[{rw}] unveraendert (ETag der Quelle stimmt) - nichts zu tun.");
+        return Ok(());
+    };
+    let geparst = bafin::parse(&haupt.html, bauart)?;
+    println!(
+        "[{rw}] {} Fundstellen geparst, Stand der Seite: {}.",
+        geparst.texte.len(),
+        geparst.stand.as_deref().unwrap_or("unbekannt")
+    );
+
+    uebernehmen(
+        daten,
+        Uebernahme {
+            rw: rw.clone(),
+            quelle: Quelle {
+                name: geparst
+                    .titel
+                    .clone()
+                    .unwrap_or_else(|| format!("BaFin ({bauart})")),
+                url: url.to_string(),
+                celex: None,
+                hinweis: bafin::HINWEIS.to_string(),
+            },
+            etag: haupt.etag,
+            // Der Stand der Seite geht vor: die Kopfzeile `Last-Modified` aendert
+            // sich schon bei einer technischen Neuausspielung.
+            stand: geparst.stand.clone().or(haupt.stand),
+            knoten: geparst.knoten,
+            sprachtexte: vec![("de".to_string(), texte_aus(&geparst.texte))],
         },
         erzwingen,
     )

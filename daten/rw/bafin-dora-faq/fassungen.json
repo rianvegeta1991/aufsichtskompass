@@ -1,0 +1,17 @@
+{
+  "regelwerk": "bafin-dora-faq",
+  "fassungen": [
+    {
+      "id": "2026-10-02",
+      "stand": "Fri, 02 Oct 2026 05:35:10 GMT",
+      "abgerufen": "2026-10-02T05:35:10Z",
+      "quelle": {
+        "name": "Hinweis zur Verwendung von Cookies",
+        "url": "https://www.bafin.de/SharedDocs/Fragen-antworten/DE/faq-dora/faq-dora_node.html",
+        "hinweis": "© Bundesanstalt für Finanzdienstleistungsaufsicht / www.bafin.de – Wiedergabe unverändert und mit Quellenangabe, wie es die Nutzungsbedingungen der BaFin vorsehen. Rechtsverbindlich ist allein die von der BaFin veröffentlichte Fassung."
+      },
+      "hash": "dfe4116d22a46d03ab1bf99657401e8042214df91622cbd8f3731c1f1b28e35c",
+      "fundstellen": 44
+    }
+  ]
+}

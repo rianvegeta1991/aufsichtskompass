@@ -1,0 +1,2501 @@
+{
+  "rz_1": {
+    "h": "fd45ff4398d527ef08e524a2ea609e84",
+    "b": [
+      {
+        "art": "p",
+        "t": "Dieses Rundschreiben gibt Hinweise zur Auslegung der Vorschriften über die Geschäftsorganisation im Versicherungsaufsichtsgesetz (VAG) und in der Delegierten Verordnung (EU) 2015/35 (DVO). Es legt diese Vorschriften für die Bafin verbindlich aus und gewährleistet hierdurch eine konsistente Anwendung gegenüber allen Unternehmen und Gruppen. Innerhalb der geltenden regulatorischen Vorgaben sind die Unternehmen dafür verantwortlich, eine angemessene Ausgestaltung festzulegen. Dabei können sie die Anforderungen proportional und prinzipienorientiert umsetzen."
+      }
+    ]
+  },
+  "rz_10": {
+    "h": "9baa8c707295e816f7497e81a1c92020",
+    "b": [
+      {
+        "art": "p",
+        "t": "Dies gilt insbesondere für die Anforderungen an die Geschäftsorganisation gemäß"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Rundschreiben 05/2025 (VA) – Grundsatz der unternehmerischen Vorsicht (Prudent Person Principle - PPP) von Versicherungsunternehmen unter Solvabilität II (PPP-Rundschreiben),"
+          },
+          {
+            "m": "",
+            "t": "Rundschreiben 11/2018 (VA) – Zusammenarbeit mit Versicherungsvermittlerinnen und Versicherungsvermittlern sowie zum Risikomanagement im Vertrieb,"
+          },
+          {
+            "m": "",
+            "t": "Rundschreiben 6/2018 – Mindestanforderungen an das Beschwerdemanagement, geändert am 23.01.2020,"
+          },
+          {
+            "m": "",
+            "t": "Rundschreiben 3/2016 (VA) – Treuhänder zur Überwachung des Sicherungsvermögens,"
+          },
+          {
+            "m": "",
+            "t": "Rundschreiben 3/2013 (VA) – Mindestanforderungen an die Beschwerdebearbeitung durch Versicherungsunternehmen,"
+          },
+          {
+            "m": "",
+            "t": "Auslegungsentscheidung vom 20.12.2016 – Aspekte der Vergütung (Art. 275 DVO),"
+          },
+          {
+            "m": "",
+            "t": "Auslegungsentscheidung vom 30.08.2016 – Betrieb des Rückversicherungsgeschäfts im Inland durch Versicherer mit Sitz in Drittstaat,"
+          },
+          {
+            "m": "",
+            "t": "Auslegungsentscheidungen vom 23.12.2015 – ORSA,"
+          },
+          {
+            "m": "",
+            "t": "Auslegungsentscheidung vom 23.10.2013, geändert am 24.04.2014 - Hinweise zur Verwendung externer Ratings und zur Durchführung eigener Kreditrisikobewertungen,"
+          },
+          {
+            "m": "",
+            "t": "Merkblatt zum Umgang mit Nachhaltigkeitsrisiken vom 20.12.2019, geändert am 13.01.2020 sowie"
+          },
+          {
+            "m": "",
+            "t": "Aufsichtsmitteilung – Orientierungshilfe zu Auslagerungen an Cloud-Anbieter vom Februar 2024."
+          }
+        ]
+      }
+    ]
+  },
+  "rz_100": {
+    "h": "61dd7e7644686213eaf2b22ff91cd456",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Compliance-Funktion beurteilt mögliche Auswirkungen von Änderungen des Rechtsumfeldes. Dafür muss sie Entwicklungen des Rechtsumfeldes, einschließlich der Vorgaben zur Nachhaltigkeit, frühzeitig beobachten und analysieren."
+      }
+    ]
+  },
+  "rz_101": {
+    "h": "e0fa9462e65aa482c107ef63c7d0c0f5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Compliance-Funktion informiert die gesamte Geschäftsleitung im Rahmen der regelmäßigen Berichterstattung (siehe Rn. 105) über wesentliche Änderungen des Rechtsumfeldes. Über drohende oder bereits eingetretene schwerwiegende Verstöße sowie die zur Aufrechterhaltung bzw. Wiederherstellung der Konformität zu ergreifenden Maßnahmen ist die gesamte Geschäftsleitung zeitnah mittels eines anlassbezogenen Ad-hoc-Berichtes zu informieren."
+      }
+    ]
+  },
+  "rz_102": {
+    "h": "55caa6e746a2670286b83273cc3f5ead",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Compliance-Funktion identifiziert und beurteilt die Compliance-Risiken. Zu den Compliance-Risiken gehören alle Risiken, die aus der Nichteinhaltung der zu beachtenden Gesetze und Verordnungen, aufsichtsbehördlichen Anforderungen sowie externen Standards resultieren."
+      }
+    ]
+  },
+  "rz_103": {
+    "h": "dac296401c776a237e22bd9192729f8c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Compliance-Funktion identifiziert und bewertet die Compliance-Risiken unter Risikogesichtspunkten in regelmäßigen Abständen."
+      }
+    ]
+  },
+  "rz_104": {
+    "h": "82b72af27e329b92511ac8e6e243590d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Aktivitäten der Compliance-Funktion erfolgen auf Basis eines Compliance-Planes. Der Compliance-Plan berücksichtigt alle relevanten Geschäftsbereiche. Die Auswahl der Aktivitäten erfolgt risikoorientiert. Die Aktualität des Compliance-Planes ist regelmäßig zu überprüfen."
+      }
+    ]
+  },
+  "rz_105": {
+    "h": "370de2027b01183dab9acc8ace282da7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Compliance-Funktion erstellt regelmäßig, mindestens einmal jährlich, einen Bericht über aktuelle Compliance-Themen, den sie der gesamten Geschäftsleitung vorlegt. Zur Ad-hoc-Berichtspflicht der Compliance-Funktion siehe Rn. 91. Der Bericht erläutert zumindest die wesentlichen Compliance-Risiken und die diese Risiken mindernden Maßnahmen und gibt der gesamten Geschäftsleitung einen Überblick über die Eignung und Wirksamkeit der implementierten Verfahren zur Einhaltung der zu beachtenden Gesetze und Verordnungen, aufsichtsbehördlichen Anforderungen sowie externen Standards."
+      }
+    ]
+  },
+  "rz_106": {
+    "h": "da2817107b0373ee3201b08aaf53fdd5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen müssen eine VmF als Schlüsselfunktion einrichten. Neben der VmF ist nach dem VAG in der Lebensversicherung, der substitutiven Krankenversicherung, der Unfallversicherung mit Prämienrückgewähr sowie für Haftpflicht- und Unfallrenten weiterhin die Verantwortliche Aktuarin bzw. der Verantwortliche Aktuar vorgesehen (siehe Abschnitt 10.3.7)."
+      }
+    ]
+  },
+  "rz_107": {
+    "h": "7dc7cd07b88b288d57640c9c11391fed",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Aufgabenkatalog der VmF wird in § 31 Abs. 1 VAG i. V. m. Artikel 272 DVO definiert. Zu berücksichtigen sind, soweit für das Unternehmen einschlägig, auch die Übergangsvorschriften in § 351 und § 352 VAG."
+      }
+    ]
+  },
+  "rz_108": {
+    "h": "f7031a991fbbfcdab139a614d60ce355",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es ist in der Regel möglich, der VmF auch Aufgaben zuzuweisen, die über den vorgegebenen Aufgabenkatalog hinausgehen, wenn Interessenkonflikte analysiert und geeignete Maßnahmen zum Umgang mit ihnen ergriffen werden."
+      }
+    ]
+  },
+  "rz_109": {
+    "h": "3b3b205d57455478473a9ab1c6a39be0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Entscheidung, wer die Berechnung der versicherungstechnischen Rückstellungen im Sinne der §§ 75 ff. VAG durchführt, bleibt dem Unternehmen überlassen."
+      }
+    ]
+  },
+  "rz_11": {
+    "h": "1d1d32e5fcb458425b12b80150750133",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verordnung (EU) 2022/2554 über die digitale operationelle Resilienz im Finanzsektor (DORA) und die Verordnung (EU) 2024/1689 zur Festlegung harmonisierter Vorschriften für künstliche Intelligenz (KI-V) legen sektorspezifische regulatorische Anforderungen fest und schaffen einen harmonisierten Rahmen für den Umgang mit Risiken der Informations- und Kommunikationstechnologien (IKT) und Risiken aus KI. Die in diesem Rundschreiben enthaltenen Auslegungshinweise beziehen sich auf die allgemeinen Geschäftsorganisationsprozesse. Soweit es zur Erfüllung der spezifischen Anforderungen durch KI-VO und DORA auf die allgemeinen Aspekte der Geschäftsorganisation ankommt, bleiben die Auslegungshinweise aus diesem Rundschreiben maßgeblich. Der in diesem Rundschreiben enthaltene Abschnitt zu automatisierten Geschäftsabläufen verbindet insofern die allgemeinen nationalen Regelungen zur Geschäftsorganisation mit den spezifischen technischen Anforderungen aus DORA und der KI-VO."
+      }
+    ]
+  },
+  "rz_110": {
+    "h": "0ecce50ccac9b343e6f5e5328405a583",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Entscheidung, wer die Validierung im Sinne von Artikel 264 DVO durchführt, bleibt ebenfalls dem Unternehmen überlassen. Die Aufgaben der VmF im Sinne von § 31 Abs. 1 VAG i. V. m. Artikel 272 DVO bleiben hiervon unberührt."
+      }
+    ]
+  },
+  "rz_111": {
+    "h": "16d736236bc87bdc51cf4d1f8f099d70",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Berechnung der versicherungstechnischen Rückstellungen und die Validierung im Sinne von Artikel 264 DVO werden in der Weise getrennt, dass Interessenkonflikte vermieden werden und insbesondere die Unabhängigkeit der Validierung nicht beeinträchtigt wird. Im Einklang mit dem Proportionalitätsprinzip kann diese Anforderung für Unternehmen mit schwächer ausgeprägtem Risikoprofil bereits erfüllt sein, wenn die Validierung und die Berechnung prozessual getrennt werden. Es kann im Sinne des Proportionalitätsprinzips aber auch eine personelle Trennung von Berechnung und Validierung geboten sein."
+      }
+    ]
+  },
+  "rz_112": {
+    "h": "811961e6c0122280cae5bc06c5bbff7f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Gegenstand der Validierung im Sinne von Artikel 264 DVO sind die verwendeten Berechnungsmethoden, die getroffenen Annahmen und die verwendeten Daten sowie die vollständige Erfassung der zu bewertenden Verpflichtungen. Der Einfluss von Änderungen bei Methoden, Annahmen und Datengrundlagen von einem Berechnungsstichtag zum nächsten ist zu ermitteln."
+      }
+    ]
+  },
+  "rz_113": {
+    "h": "906088ffd4c5ef0a8190fedf25d5c3d1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF gewährleistet im Rahmen ihrer Zuständigkeit, dass eine geeignete Validierung gemäß Artikel 264 DVO durchgeführt wird. In diesem Kontext erfüllt die VmF die nachfolgend genannten Aufgaben."
+      }
+    ]
+  },
+  "rz_114": {
+    "h": "c7d6dc7caddf73dc4e98dcd60fc343a7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF beurteilt, ob die Zusammenhänge zwischen der Methodenwahl, den Annahmen sowie der Datenqualität und -verfügbarkeit beachtet werden. Dabei werden die Quelle und der Verwendungszweck der Daten berücksichtigt."
+      }
+    ]
+  },
+  "rz_115": {
+    "h": "3efc213f54f639f59ef566d2d1bf969f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Prüfung, welche Validierungsverfahren sich am besten eignen, berücksichtigt die VmF die Charakteristika der versicherungstechnischen Verbindlichkeiten."
+      }
+    ]
+  },
+  "rz_116": {
+    "h": "611f119c3ff93e3ccb32f14c34642e0a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF überprüft regelmäßig die Validierungsverfahren und gewährleistet, dass diese gegebenenfalls angepasst werden. Zu diesem Zweck bezieht sie die gewonnenen Erfahrungswerte aus vorangegangenen Validierungen sowie gegebenenfalls veränderte Marktbedingungen ein."
+      }
+    ]
+  },
+  "rz_117": {
+    "h": "14fcd5a63f3930c6fb546eb1d77498cf",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF gewährleistet, dass bei der Validierung sowohl quantitative als auch qualitative Aspekte berücksichtigt werden."
+      }
+    ]
+  },
+  "rz_118": {
+    "h": "d274769bca6fd4037bc66c712f1041dc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF gewährleistet, dass die künftige Überschussbeteiligung hinreichend in den versicherungstechnischen Rückstellungen nach Solvabilität II berücksichtigt wird. Dies umfasst auch die angemessene Berücksichtigung etwaiger Wechselwirkungen zwischen zukünftigem Neugeschäft und künftiger Überschussbeteiligung. Die VmF hat in den entsprechenden Sparten die Verantwortliche Aktuarin bzw. den Verantwortlichen Aktuar zu konsultieren, ob die hierzu notwendigen künftigen Managementregeln realistisch modelliert sind. Eine zusätzliche Validierung durch die Verantwortliche Aktuarin bzw. den Verantwortlichen Aktuar ist in diesem Zusammenhang nicht notwendig."
+      }
+    ]
+  },
+  "rz_119": {
+    "h": "b7a21974e4ab936258dea24fa55700ab",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Stellungnahme der auf Gruppenebene eingerichteten VmF zur künftigen Überschussbeteiligung sind die nationalen gesetzlichen Vorgaben zu beachten. Dazu hat sie die lokalen VmF und, wo vorgesehen, die Verantwortliche Aktuarin bzw. den Verantwortlichen Aktuar oder entsprechende Personen einzubeziehen."
+      }
+    ]
+  },
+  "rz_12": {
+    "h": "df948816b3c15ed64fa140da7f421ff1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Dieses Rundschreiben tritt am 14.10.2025 in Kraft. Zeitgleich wird das Rundschreiben 02/2017 (VA) aufgehoben."
+      }
+    ]
+  },
+  "rz_120": {
+    "h": "ce9acaa70df0d37d72b46d6d52a35c8b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Beurteilung der Datenqualität bezieht die VmF die Ergebnisse solcher Analysen ein, die im Rahmen externer oder interner Überprüfungen der Datenqualität vorgenommen wurden."
+      }
+    ]
+  },
+  "rz_121": {
+    "h": "32bc6c6eb2c749e341e8b4023dddbbc6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Beurteilung der Vollständigkeit der Daten prüft die VmF, ob die Quantität und die Detailtiefe der verfügbaren Daten für die Anwendung der verwendeten Berechnungsmethode und die Segmentierung der Versicherungsverpflichtungen ausreicht."
+      }
+    ]
+  },
+  "rz_122": {
+    "h": "ed82fce465c088be088b5d6a6daaf0b6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF ermittelt wesentliche Unzulänglichkeiten der Daten sowie deren Ursachen. Hierzu prüft sie auch interne Prozesse und konsultiert bei Bedarf zuständige Beschäftigte. Sie schlägt der Geschäftsleitung Lösungen zur Behebung der Unzulänglichkeiten vor."
+      }
+    ]
+  },
+  "rz_123": {
+    "h": "537d6b6625224b891b4f33d0fae7b520",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF dokumentiert die wesentlichen Unzulänglichkeiten und deren Ursachen sowie die erfolgten Lösungen. Zudem erläutert sie mögliche wesentliche Auswirkungen dieser Unzulänglichkeiten auf die Berechnung."
+      }
+    ]
+  },
+  "rz_124": {
+    "h": "4456b1bfc7f6e3294d72c7526ea9462c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF formuliert gegebenenfalls Empfehlungen zur Verbesserung von internen Verfahren im Zuge des Datenmanagements, um zu gewährleisten, dass das Unternehmen in der Lage ist, die entsprechenden Anforderungen von Solvabilität II zu erfüllen."
+      }
+    ]
+  },
+  "rz_125": {
+    "h": "9be5a550c71c626c63c1415a0d01fbde",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sie prüft, in welchen Fällen zusätzlich externe Daten bzw. Marktdaten benötigt werden. Des Weiteren beurteilt sie die Qualität dieser zusätzlichen Daten."
+      }
+    ]
+  },
+  "rz_126": {
+    "h": "06112173ef8afbd723896ae4e87b6d12",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF beurteilt, ob die Zuverlässigkeit der Schätzungen durch eine Anpassung der verfügbaren Daten verbessert werden kann."
+      }
+    ]
+  },
+  "rz_127": {
+    "h": "6bf167c7f5e05d6140a257287398d40e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die VmF unterstützt die Geschäftsleitung, indem sie die Wechselwirkungen zwischen der Zeichnungs- und Annahmepolitik, der Preiskalkulation, der Rückversicherungspolitik und den versicherungstechnischen Rückstellungen analysiert. Sie hat die Vereinbarkeit der Zeichnungs- und Rückversicherungspolitik mit dem Risikoprofil des Unternehmens zu beurteilen."
+      }
+    ]
+  },
+  "rz_128": {
+    "h": "5afc46bcd6912ae094ef8692be30f514",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die hierfür notwendige Analyse der Zeichnungs- und Annahmepolitik einschließlich der Bewertung der Hinlänglichkeit der zu verdienenden Prämien und Preiskalkulation findet in der Regel nicht auf der Ebene einzelner Produkte statt, sondern auf einem geeigneten Abstraktionsniveau. Bei der Analyse der Zeichnungs- und Annahmepolitik sind die zugrunde liegenden Risiken angemessen zu berücksichtigen. Dies betrifft insbesondere die relevanten versicherungstechnischen, makroökonomischen, Rechts- und Rechtsänderungs- und Nachhaltigkeitsrisiken."
+      }
+    ]
+  },
+  "rz_129": {
+    "h": "bdc353eaaa75427006b144247462cb09",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die hierfür notwendige Analyse der Rückversicherungspolitik schließt die Wirksamkeit der Rückversicherungsvereinbarungen unter Stressbedingungen ein. Zudem ist zu analysieren, ob eine Rückversicherung zu einer höheren Reduzierung der Solvabilitätskapitalanforderung führt als sie durch die tatsächlich transferierten Risiken gerechtfertigt ist, oder die Rückversicherung zu neuen Risiken führt, die nicht in der Solvabilitätskapitalanforderung berücksichtigt sind. Der Analyseumfang richtet sich nach der Bedeutung der Absicherungen. Materiell unbedeutende Absicherungen rechtfertigen unter Berücksichtigung des Risikoprofils eine weniger umfangreiche Analyse. Bei der Bestimmung der Bedeutung ist zu berücksichtigen, ob die Absicherungen individuell oder in der Gesamtbetrachtung zu einer materiell bedeutenden Abweichung des Risikoprofils von den Annahmen der Solvabilitätskapitalanforderung führen. Informationen und Erkenntnisse, die im Rahmen des Risikomanagements bei der Bewertung der Wirkung und Wirksamkeit des Risikotransfers (siehe Rn. 180) oder bei der Validierung eines genehmigten internen Modells gewonnen wurden, können berücksichtigt werden."
+      }
+    ]
+  },
+  "rz_13": {
+    "h": "e12d4b4280ae5f70da7844f0bb577653",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Umsetzung der Anforderungen an die Geschäftsorganisation spielt das Proportionalitätsprinzip eine erhebliche Rolle. Die Anforderungen sind auf eine Weise zu erfüllen, die der Art, dem Umfang und der Komplexität der mit der Tätigkeit des Unternehmens einhergehenden Risiken gerecht wird (§ 296 Abs. 1 VAG). Das Proportionalitätsprinzip knüpft also an das individuelle Risikoprofil des Unternehmens an. Geringe Größe kann ein Indikator für ein schwächer ausgeprägtes Risikoprofil sein – und umgekehrt. Soweit die Zahl der Beschäftigten bei der Bestimmung der Größe eine Rolle spielen kann, ist nicht auf die vorhandenen Beschäftigten abzustellen, sondern auf den tatsächlichen Beschäftigtenbedarf. Dies umfasst auch den Beschäftigtenbedarf, der im Rahmen der Ausgliederung beim Dienstleister besteht. Demnach sind auch externe Beschäftigte in die Betrachtung einzubeziehen."
+      }
+    ]
+  },
+  "rz_130": {
+    "h": "431f4340a562896d8756a87cc54e22ff",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Analysen erfolgen regelmäßig auch quantitativ."
+      }
+    ]
+  },
+  "rz_131": {
+    "h": "a2180aaea00306ef456ab14898b0e1dc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei Lebensversicherungsverträgen mit langfristigen Zinsgarantien geht die VmF in ihrer Stellungnahme aufgrund von Artikel 272 Nr. 6 Buchstabe (a) DVO insbesondere auch darauf ein, inwieweit die im Neugeschäft zu verdienenden Prämien im Hinblick auf die Höhe und Art der eingebetteten Zinsgarantien hinlänglich zur Bedeckung künftiger Ansprüche und Aufwendungen sind. Ein pauschaler Verweis darauf, dass der für die Preiskalkulation verwendete Garantiezins nicht höher als der jeweils geltende Höchstrechnungszins gemäß § 2 DeckRV ist, reicht hierbei nicht aus. Vielmehr ist bei den zugrunde liegenden Analysen das individuelle Risikoprofil zu berücksichtigen. Hierbei ist insbesondere zu betrachten, inwieweit das Unternehmen voraussichtlich in der Lage sein wird, die Verpflichtungen aus den Zinsgarantien des Neugeschäftes aus den für die Zukunft erwarteten Erträgen seiner Kapitalanlagen zu erfüllen."
+      }
+    ]
+  },
+  "rz_132": {
+    "h": "224f10ceed9cf145d31ea71b8bbacd73",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verantwortliche Aktuarin bzw. der Verantwortliche Aktuar nimmt eine Schutzfunktion für die Kunden wahr. Sie/er achtet auf Gleichbehandlung und die sachgerechte Verwendung von Überschüssen. Außerdem hat sie/er sicherzustellen, dass die Berechnung der handelsrechtlichen Deckungsrückstellung im Einklang mit den dafür einschlägigen Rechtsvorschriften steht und die Prämien so kalkuliert werden, dass eine ausreichend hohe Deckungsrückstellung gebildet werden kann. Dabei überprüft die Verantwortliche Aktuarin bzw. der Verantwortliche Aktuar, ob die dauernde Erfüllbarkeit der sich aus den Versicherungsverträgen ergebenden Verpflichtungen jederzeit gewährleistet ist. Wenn die Verantwortliche Aktuarin bzw. der Verantwortliche Aktuar gleichzeitig die verantwortliche Person für die VmF ist, prüfen die Unternehmen, ob diese Kombination zu Interessenkonflikten führen kann."
+      }
+    ]
+  },
+  "rz_133": {
+    "h": "d60e0553352388815793db14f2fd5eb7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Aufgaben der Verantwortlichen Aktuarin bzw. des Verantwortlichen Aktuars, im Hinblick auf die Einhaltung der gesetzlichen Vorschriften für handelsrechtliche Rückstellungen und die geeignete Prämienkalkulation, beeinträchtigen die Rolle der VmF in der Regel nicht so stark, dass eine organisatorische Trennung aufgrund dessen erforderlich erscheint."
+      }
+    ]
+  },
+  "rz_134": {
+    "h": "3b7bd1201ccf43d1324b7f8560528484",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei Lebensversicherungsverträgen mit Anspruch auf Überschussbeteiligung sind Interessenkonflikte zwischen Verantwortlichem Aktuar und VmF möglich. Die Überschussanteilsätze werden zwar von der Geschäftsleitung festgelegt, diese kann den Vorschlag des Verantwortlichen Aktuars nach § 141 Abs. 5 Nr. 4 und Abs. 6 Nr. 2 und 3 VAG aber nicht ohne weiteres unberücksichtigt lassen. Eine aus Sicht der Verantwortlichen Aktuarin bzw. des Verantwortlichen Aktuars angemessene Überschussbeteiligung kann aus Sicht der VmF zu hohe Risiken bergen, eine aus Sicht der VmF für das Risikoprofil des Unternehmens adäquate Überschussbeteiligung kann aus Sicht der Verantwortlichen Aktuarin bzw. des Verantwortlichen Aktuars für die Kunden unzureichend sein. Sind im Einzelfall Interessenkonflikte möglich, kann die für die VmF verantwortliche Person nur dann zugleich Verantwortliche Aktuarin/Verantwortlicher Aktuar sein, wenn das Unternehmen durch geeignete und wirksame Maßnahmen gewährleistet, dass die betreffende Person jede der beiden Aufgaben objektiv, fair und unabhängig ausübt."
+      }
+    ]
+  },
+  "rz_135": {
+    "h": "4c6f877e489e08cd0612cebe8e23c037",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für ihre Stellungnahme über die Hinlänglichkeit der zu verdienenden Prämien bei Lebensversicherungsverträgen mit langfristigen Zinsgarantien gemäß Rn. 131 kann die VmF auch auf vorhandene Analysen der Verantwortlichen Aktuarin bzw. des Verantwortlichen Aktuars zurückgreifen. Sie prüft in diesem Fall jedoch, ob darüber hinaus weitere Analysen nötig sind, etwa um die Wechselwirkungen zwischen den in der Preiskalkulation verwendeten Zinsannahmen und den technischen Rückstellungen für die Solvabilitätsübersicht sowie der Bedeckung der Solvabilitätskapitalanforderung zu beurteilen."
+      }
+    ]
+  },
+  "rz_136": {
+    "h": "67a373aff2cc77c41e04121e9dbe4e97",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Unfallversicherung mit Prämienrückgewähr gelten die Ausführungen zur Lebensversicherung unter Rn. 134 entsprechend. Das Ausmaß der erforderlichen Maßnahmen hängt vom Anteil dieser Verträge am gesamten Geschäftsumfang und den damit einhergehenden Risiken ab."
+      }
+    ]
+  },
+  "rz_137": {
+    "h": "191103743cb74b570d69cada61498d05",
+    "b": [
+      {
+        "art": "p",
+        "t": "Falls in der substitutiven Krankenversicherung im Einzelfall Interessenkonflikte möglich sind, wenn die für die VmF verantwortliche Person zugleich Verantwortliche Aktuarin/Verantwortlicher Aktuar ist, kann die Mitwirkung des unabhängigen Treuhänders in Bezug auf die diesem gesetzlich zugewiesenen Aufgaben in der Krankenversicherung nach Art der Lebensversicherung im Regelfall als hinreichende flankierende Maßnahme betrachtet werden, soweit der VmF keine Aufgaben zugewiesen sind, die über den vorgegebenen Aufgabenkatalog hinausgehen. Sind der VmF weitere Aufgaben zugewiesen, gelten die in Rn. 134 letzter Satz und Rn. 111 genannten Grundsätze."
+      }
+    ]
+  },
+  "rz_138": {
+    "h": "ad44693f1e0f66c96ca83ff330a10131",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ist die Verantwortliche Aktuarin bzw. der Verantwortliche Aktuar ausschließlich für die Bildung von Deckungsrückstellungen für Schaden-/Unfall-Renten zuständig, liegt in der Regel kein Interessenkonflikt vor, wenn die für die VmF verantwortliche Person zugleich Verantwortliche Aktuarin/Verantwortlicher Aktuar ist."
+      }
+    ]
+  },
+  "rz_139": {
+    "h": "3af0ec70db4ea0a281c58100def3847b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nach Artikel 272 Abs. 8 DVO legt die VmF der gesamten Geschäftsleitung regelmäßig, mindestens einmal jährlich, einen schriftlichen Bericht vor, der alle erzielten wesentlichen Ergebnisse enthält (VmF-Bericht)."
+      }
+    ]
+  },
+  "rz_14": {
+    "h": "93e9446c15bf31b109640e62d1df9bbb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Proportionalität wirkt sich darauf aus, wie Anforderungen erfüllt werden können. So kann ein schwächer ausgeprägtes Risikoprofil zu Umsetzungserleichterungen führen, während ein stärker ausgeprägtes Risikoprofil die Anforderungen an die Umsetzung wachsen lässt. Die Einschätzung, welche Gestaltung als proportional anzusehen ist, kann nur im jeweiligen Kontext beantwortet werden, und ist auch nicht statisch, sondern kann sich im Zeitablauf veränderten Umständen anpassen. Deshalb hat das Unternehmen bei veränderten Gegebenheiten zu prüfen, ob und wie die vorhandenen Strukturen und Prozesse weiter entwickelt werden können und gegebenenfalls müssen."
+      }
+    ]
+  },
+  "rz_140": {
+    "h": "ba27f2ac83f20b68bef0e38295454f37",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der VmF-Bericht benennt klar und deutlich etwaige Mängel und Empfehlungen zur Behebung solcher Mängel. Er enthält auch Angaben zu Veränderungen mindestens in den zugrundeliegenden Annahmen und verwendeten Methoden. Ein allgemeiner Hinweis, dass sich die Situation gegenüber dem Vorjahr nicht geändert hat, ist nicht ausreichend. Konkrete Verweise auf einzelne Aspekte sind im Rahmen der Darstellung jedoch möglich."
+      }
+    ]
+  },
+  "rz_141": {
+    "h": "81b0ca0401e6830b3a8dd01fbde6c0c3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der VmF-Bericht kann nicht durch einzelne Teilberichte ersetzt werden. Er muss aus sich heraus für die gesamte Geschäftsleitung verständlich sein."
+      }
+    ]
+  },
+  "rz_142": {
+    "h": "ffee3fdf8544fb11d3ad8dfda8df527c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es steht der VmF frei, zusätzlich zum VmF-Bericht über einzelne Themen gesondert zu berichten. Wesentliche Aspekte aus solchen Berichten sind in den folgenden VmF-Bericht aufzunehmen."
+      }
+    ]
+  },
+  "rz_143": {
+    "h": "3d934a2d5938e923588beefa41a28853",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es wird von der Verantwortlichen Aktuarin bzw. vom Verantwortlichen Aktuar und von der VmF jeweils ein eigener Bericht angefertigt, sofern ein Bericht vorgesehen ist. Dies gilt auch, wenn die Verantwortliche Aktuarin bzw. der Verantwortliche Aktuar gleichzeitig verantwortliche Person für die VmF ist. Sofern es Überschneidungen gibt, etwa in Bezug auf eine Analyse der Datenqualität, kann der VmF-Bericht auch Erkenntnisse aus dem Bericht der Verantwortlichen Aktuarin bzw. des Verantwortlichen Aktuars aufgreifen bzw. auf diese verweisen und eigenständig beurteilen. Die VmF stellt dabei sicher, dass diese Erkenntnisse auf die Solvabilität-II-Perspektive übertragbar sind."
+      }
+    ]
+  },
+  "rz_144": {
+    "h": "4db0ac0169105dcce42f0c15d2465780",
+    "b": [
+      {
+        "art": "p",
+        "t": "Alle Unternehmen müssen eine interne Revision einrichten. Ausnahmen hiervon sind nicht möglich."
+      }
+    ]
+  },
+  "rz_145": {
+    "h": "ff157f9e09dafb23e28fa39ba13e4008",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Prüfungsauftrag der internen Revision bezieht sich auf die gesamte Geschäftsorganisation einschließlich ausgegliederter Bereiche und Prozesse."
+      }
+    ]
+  },
+  "rz_146": {
+    "h": "c935f2577002d0404e2eaca896565aec",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Einhaltung des Prüfungsplans, also die Erfüllung der Prüffunktion, geht der Beratungsfunktion vor. Die interne Revision schränkt insofern die Beratungstätigkeit gegebenenfalls ein."
+      }
+    ]
+  },
+  "rz_147": {
+    "h": "931bdcbea6d63b4c653fb37b1c658fea",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die interne Revision unterliegt keinen Einflüssen, die ihre Unabhängigkeit und Unparteilichkeit bei der Erledigung ihrer Aufgaben beeinträchtigen könnten."
+      }
+    ]
+  },
+  "rz_148": {
+    "h": "01204bff109972a9e678532c074fe9d8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die interne Revision muss von allen Stellen im Unternehmen unabhängig sein. Dies gilt für die verantwortliche Person für die Funktion der internen Revision und für alle Personen, die für die interne Revision tätig sind."
+      }
+    ]
+  },
+  "rz_149": {
+    "h": "deb6ddfde0c7a15f74b1c3f2bd43d8cb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die interne Revision darf insbesondere bei der Prüfungsdurchführung, der Wertung der Prüfungsergebnisse und der Berichterstattung über diese Ergebnisse nicht, auch nicht mittelbar, beeinträchtigt sein. Die interne Revision berichtet unmittelbar und ohne vorherige ändernde Einflussnahme der gesamten Geschäftsleitung über ihre Ergebnisse, Erkenntnisse, Bedenken, Verbesserungsempfehlungen etc."
+      }
+    ]
+  },
+  "rz_15": {
+    "h": "634ed55912c2553bea4ef97fc77cbce7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Alle Mitglieder der Geschäftsleitung sind für eine ordnungsgemäße und wirksame Geschäftsorganisation verantwortlich. Die gesamte Geschäftsleitung ist damit auch dafür verantwortlich, dass das Unternehmen über ein angemessenes und wirksames Risikomanagement- und internes Kontrollsystem verfügt. Die Gesamtverantwortung der Geschäftsleitung besteht unabhängig davon, ob eine Ressortverteilung erfolgt. Beziehen sich Anforderungen dieses Rundschreibens ausdrücklich auf Leitungsaufgaben der gesamten Geschäftsleitung, kann diese ihre Verantwortung für diese Aufgaben nicht delegieren, auch nicht auf ein oder mehrere Mitglieder der Geschäftsleitung."
+      }
+    ]
+  },
+  "rz_150": {
+    "h": "1cdea233d3b011edbdc98c75b765440a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Weisungsrecht der gesamten Geschäftsleitung in Bezug auf die Prüfungsplanung der internen Revision steht der Unabhängigkeit der internen Revision nicht entgegen. Artikel 271 Abs. 3 Satz 2 DVO bleibt unberührt."
+      }
+    ]
+  },
+  "rz_151": {
+    "h": "1bd320d39accabb8b3ae963abbbf41f3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die interne Revision muss unabhängig von anderen operativen Funktionen oder Tätigkeiten sein (§ 30 Abs. 2 Satz 1 VAG). Dies gilt für alle Unternehmen gleichermaßen; Proportionalitätsaspekte spielen insoweit keine Rolle."
+      }
+    ]
+  },
+  "rz_152": {
+    "h": "a7206f7dd9cfd1e1e15e782b68456820",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine Kooperation der anderen Schlüsselfunktionen mit der internen Revision ist zulässig. Unangebrachte Einflüsse der anderen Schlüsselfunktionen sind unter anderem durch Festlegung klarer Zuständigkeiten auszuschließen."
+      }
+    ]
+  },
+  "rz_153": {
+    "h": "61b0022da4d9ea82bc7dbd0a51e957ec",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die für die Funktion der internen Revision intern verantwortliche Person kann zugleich intern verantwortliche Person für andere Schlüsselfunktionen sein, wenn die in Artikel 271 Abs. 2 DVO genannten Bedingungen kumulativ erfüllt sind. Je mehr Schlüsselfunktionen betroffen sind, desto genauer müssen die Unternehmen darlegen, dass diese Gestaltung ihrem Risikoprofil angemessen ist und dass die Unabhängigkeit der internen Revision nicht beeinträchtigt werden kann. Außerdem ist Artikel 258 Abs. 1 Buchstabe g DVO anwendbar (siehe Abschnitt 10.1.1)."
+      }
+    ]
+  },
+  "rz_154": {
+    "h": "81aafb3c5d93f5ca4462279471dfdfb5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen dieses Rundschreibens wird der Begriff unabhängige Risikocontrollingfunktion (URCF) einheitlich verwendet. Die URCF ist synonym zum Begriff Risikomanagementfunktion zu verstehen."
+      }
+    ]
+  },
+  "rz_155": {
+    "h": "b7ff08f400641fc321007225886ab763",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Aufgabenkatalog der URCF wird insbesondere in § 26 Abs. 8 VAG i. V. m. Artikel 269 DVO definiert. Unter anderem befördert die URCF maßgeblich die Umsetzung des Risikomanagementsystems. In diesem Zusammenhang stellt die URCF sicher, dass angemessene Prozesse, Verfahren und Methoden für das operative Risikomanagement implementiert sind."
+      }
+    ]
+  },
+  "rz_156": {
+    "h": "2ca18f8e42af6e883a31c9fc2eb74e12",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die URCF unterstützt die gesamte Geschäftsleitung, und andere Funktionen bei der effektiven Handhabung des Risikomanagementsystems. In diesem Zusammenhang hat die URCF insbesondere:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "regelmäßig zu bewerten, ob die Risikostrategie konsistent zur Geschäftsstrategie ist,"
+          },
+          {
+            "m": "b)",
+            "t": "regelmäßig zu bewerten, ob die schriftlichen Leitlinien für das Risikomanagementsystem geeignet sind,"
+          },
+          {
+            "m": "c)",
+            "t": "das Risikobewusstsein der vom Risikomanagementsystem betroffenen Beschäftigten zu befördern,"
+          },
+          {
+            "m": "d)",
+            "t": "regelmäßig die Methoden und Prozesse zur Risikoidentifikation, -bewertung, -steuerung, -überwachung und -berichterstattung zu bewerten und sie gegebenenfalls weiterzuentwickeln,"
+          },
+          {
+            "m": "e)",
+            "t": "Limite und gegebenenfalls andere risikobegrenzende Maßnahmen vorzuschlagen und"
+          },
+          {
+            "m": "f)",
+            "t": "geplante Strategien unter Risikoaspekten zu beurteilen."
+          }
+        ]
+      }
+    ]
+  },
+  "rz_157": {
+    "h": "58da16628dcdced59c211a0d8fe29b2b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die URCF überwacht das Risikomanagementsystem. In diesem Zusammenhang hat die URCF insbesondere:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Prozesse und Verfahren zur Überwachung des Risikomanagementsystems zu entwickeln und"
+          },
+          {
+            "m": "b)",
+            "t": "die Eignung des Risikomanagementsystems fortlaufend zu überwachen."
+          }
+        ]
+      }
+    ]
+  },
+  "rz_158": {
+    "h": "ef90e8f335d3e2ab1461bfe0749f1261",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die URCF überwacht das Gesamtrisikoprofil des Unternehmens. In diesem Zusammenhang hat die URCF insbesondere:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "die Risiken, einschließlich der Nachhaltigkeitsrisiken, mindestens auf aggregierter Ebene zu identifizieren, zu bewerten und zu analysieren,"
+          },
+          {
+            "m": "b)",
+            "t": "die Maßnahmen zur Risikobegrenzung zu überwachen,"
+          },
+          {
+            "m": "c)",
+            "t": "die Limite sowie die Risiken mindestens auf aggregierter Ebene zu überwachen und"
+          },
+          {
+            "m": "d)",
+            "t": "die Durchführung und Dokumentation der unternehmenseigenen Risiko- und Solvabilitätsbeurteilung zu koordinieren."
+          }
+        ]
+      }
+    ]
+  },
+  "rz_159": {
+    "h": "73dcccb75567ec7f964b9900914e999d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die URCF berichtet der gesamten Geschäftsleitung gemäß Rn. 91 schriftlich über alle wesentlichen Themen des Risikomanagements. Im Gegensatz zu den schriftlichen Berichten anderer Schlüsselfunktionen ergibt sich für die Berichterstattung der URCF nachfolgende Besonderheit: Eine doppelte Berichterstattung ist im Rahmen der Geschäftsorganisation nicht notwendig. Mit dem ORSA-Bericht wird die gesamte Geschäftsleitung regelmäßig unter anderem über wesentliche Risikoexponierungen und das Gesamtrisikoprofil informiert. Sind die im ORSA-Bericht wiedergegebenen Informationen aus Sicht der URCF geeignet und vollständig, müssen diese nicht nochmals berichtet werden. Über nicht im ORSA-Bericht enthaltene wesentliche Themen des Risikomanagements, wie die Eignung, wesentliche Mängel und Verbesserungspotentiale des Risikomanagementsystems, berichtet die URCF der gesamten Geschäftsleitung ebenfalls regelmäßig in schriftlicher Form. Wesentliche Informationen, die der gesamten Geschäftsleitung zuvor bereits in einem anderen Bericht aufbereitet wurden, sind nur dann erneut aufzunehmen, wenn und soweit sie für das Verständnis der Aussagen in diesem schriftlichen Bericht notwendig sind. Der schriftliche Bericht ist mindestens einmal jährlich, und bei wesentlichen Änderungen auch ad hoc, an die gesamte Geschäftsleitung zu geben. Die Ad-hoc-Berichterstattung kann sich auf die Inhalte beschränken, die von der wesentlichen Änderung betroffen und zu deren Verständnis notwendig sind."
+      }
+    ]
+  },
+  "rz_16": {
+    "h": "bc81755bdd98ce25f52fc374a8af31b1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Wesentlichkeitsgrundsatz besagt, dass nur wesentliche Risiken, denen das Unternehmen tatsächlich oder möglicherweise ausgesetzt ist, in die Betrachtung einzubeziehen sind. Welche Risiken als wesentlich einzustufen sind, ist innerhalb der gesetzlichen Anforderungen und der aufsichtsbehördlichen Vorgaben prinzipiell unternehmensindividuell zu bestimmen. Ausnahmsweise kann jedoch eine für alle Unternehmen geltende Festlegung sachgerechter sein als ein unternehmensindividueller Ansatz (siehe Rn. 35)."
+      }
+    ]
+  },
+  "rz_160": {
+    "h": "6eb2f5d315206c1983b4967386098522",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die URCF berät die Geschäftsleitung in Fragen des Risikomanagements und hilft der Geschäftsleitung fortlaufend, Mängel abzustellen und das Risikomanagementsystem weiter zu entwickeln."
+      }
+    ]
+  },
+  "rz_161": {
+    "h": "299f3036c69ba100017cc99b92a97b6f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung ist dafür verantwortlich, dass das Risikomanagementsystem dem Risikoprofil angemessen und wirksam ausgestaltet ist. Dies schließt angemessene Berichtsverfahren und Prozesse ein, die insbesondere gewährleisten, dass zumindest über alle wesentlichen Risiken informiert und die Wirksamkeit des Risikomanagementsystems aktiv überwacht, analysiert sowie gegebenenfalls verbessert wird."
+      }
+    ]
+  },
+  "rz_162": {
+    "h": "561d388ab72751dab7f8db4bac3dfe66",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verantwortung der gesamten Geschäftsleitung für das Risikomanagementsystem bezieht sich auf die Leitungsaufgaben. Die Leitungsaufgaben umfassen unter anderem die strategischen Entscheidungen und die Festlegungen zum organisatorischen Rahmen des Risikomanagements, somit insbesondere auch den Eingang und die Handhabe wesentlicher Risiken."
+      }
+    ]
+  },
+  "rz_163": {
+    "h": "0a33f1f3316ceb8ab31a85d31e6a60f3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zu den Leitungsaufgaben zählt ebenfalls die Entwicklung einer Risikostrategie. Diese ist regelmäßig, mindestens einmal jährlich, zu überprüfen und gegebenenfalls anzupassen. Die Risikostrategie, deren Überprüfung und etwaige Änderungen sind zu dokumentieren. Die Risikostrategie stellt die sich aus der Geschäftsstrategie ergebenden Risiken dar. Sie enthält zudem eine Aussage zum Risikoappetit, den das Unternehmen sowohl auf aggregierter Ebene als auch auf Ebene der wesentlichen Risiken besitzt, um die strategischen Ziele zu erreichen. Die Risikostrategie ist so auszugestalten, dass sich die operative Steuerung der Risiken daran anknüpfen lässt. Es ist möglich, einzelne Inhalte der Risikostrategie in anderen Strategien, wie beispielsweise der IT- oder der Nachhaltigkeitsstrategie, festzulegen. In diesen Fällen ist in der Risikostrategie auf die konkreten Stellen in den anderen Strategien zu verweisen. Die Anforderung an die Risikostrategie, beispielsweise die jährliche Überprüfung, bezieht sich dann auch auf die entsprechenden Stellen der anderen Strategien."
+      }
+    ]
+  },
+  "rz_164": {
+    "h": "9e00584426a84b8ab8b8d8a64ff2024f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung muss bei eigenen Entscheidungen die Informationen aus dem Risikomanagementsystem gebührend berücksichtigen. Dies erfordert auch eine hinreichende Einbindung der URCF als zentrale Stelle für das operative Risikomanagement. Die Einbindung der URCF befreit die gesamte Geschäftsleitung nicht von der eigenen Entscheidungsverantwortung."
+      }
+    ]
+  },
+  "rz_165": {
+    "h": "74eef7be7d154343c7f2545a8d33fa27",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die schriftlichen Leitlinien zum Risikomanagement müssen mindestens Vorgaben zu den in § 26 Abs. 5 Satz 1 VAG genannten Bereichen machen. Sie definieren und kategorisieren zumindest die wesentlichen Risiken, falls diese Festlegungen nicht in der Risikostrategie erfolgen. Auch benennen die schriftlichen Leitlinien zum Risikomanagement die genehmigten Risikotoleranzschwellen zumindest für die wesentlichen Risiken. Dabei sind die Auswirkungen der Nachhaltigkeitsrisiken angemessen zumindest in den Risikomanagementbereichen Risikoübernahme und Rückstellungsbildung (§ 26 Abs. 5 Satz 1 Nummer 1 VAG) und Anlagerisikomanagement (§ 26 Abs. 5 Satz 1 Nummer 3 VAG) und gegebenenfalls in weiteren Risikomanagementbereichen zu berücksichtigen."
+      }
+    ]
+  },
+  "rz_166": {
+    "h": "adb9ffc07bf7349f3c26b4b3274100ab",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die schriftlichen Leitlinien zum Risikomanagement benennen nicht nur die Aufgaben sowie die Stellung und Befugnisse der URCF, sondern auch der weiteren Schlüsselfunktionen, soweit sie Aufgaben innerhalb des Risikomanagementsystems wahrnehmen. Sofern diese Aufgaben und Befugnisse der weiteren Schlüsselfunktionen schon in anderen schriftlichen Leitlinien enthalten sind, können die schriftlichen Leitlinien zum Risikomanagement darauf verweisen."
+      }
+    ]
+  },
+  "rz_167": {
+    "h": "1598551c836f911ee3014d0c0a6a5212",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die schriftlichen Leitlinien zum Risikomanagement enthalten Vorgaben zu den unternehmensindividuellen Stresstests. In diesem Zusammenhang benennen die Unternehmen die einzubeziehenden Bereiche, die Stichtage bzw. Auslöser, die Prozesse, die Annahmen und die möglichen Methoden. Festzulegen ist auch, wie bei einer Überschreitung eines festgelegten Grenzwertes verfahren wird."
+      }
+    ]
+  },
+  "rz_168": {
+    "h": "2bb234f1c0b12add6f5188a439292f43",
+    "b": [
+      {
+        "art": "p",
+        "t": "Operationelle Risiken im Rahmen des Risikomanagements umfassen unter anderem IT-Risiken, unabhängig davon, ob sie aus der IT-Aufbauorganisation, den IT-Systemen oder den IT-Prozessen resultieren."
+      }
+    ]
+  },
+  "rz_169": {
+    "h": "e10a9b91fea38899d307c6800c7637df",
+    "b": [
+      {
+        "art": "p",
+        "t": "Operationelle Risiken im Rahmen des Risikomanagements schließen auch die Rechtsrisiken ein."
+      }
+    ]
+  },
+  "rz_17": {
+    "h": "a1bda5487e8e74edd296864106e90dc4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung bestimmt anhand geeigneter und nachvollziehbarer Kriterien dem Risikoprofil angemessene unternehmensindividuelle Wesentlichkeitsgrenzen. Die Angemessenheit der Wesentlichkeitsgrenzen ist fortlaufend sicherzustellen. Hierfür verschafft sich die gesamte Geschäftsleitung sowohl regelmäßig als auch anlassbezogen einen Überblick über alle Risiken, einschließlich der Nachhaltigkeitsrisiken, denen das Unternehmen tatsächlich oder möglicherweise ausgesetzt ist. Die Wesentlichkeitsgrenzen sowie die Kriterien zu ihrer Bestimmung sind schriftlich festzuhalten."
+      }
+    ]
+  },
+  "rz_170": {
+    "h": "0aa4217df76b3c785f4904a633ebaddb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Rechtsänderungsrisiken, zumindest diejenigen, die mit in der Vergangenheit abgeschlossenen Geschäften verbunden sind, müssen unter Risikogesichtspunkten adäquat berücksichtigt werden. Rechtsänderungsrisiken bezeichnen dabei Risiken, die sich aufgrund einer Änderung des Rechtsumfeldes einschließlich der aufsichtsbehördlichen Anforderungen ergeben."
+      }
+    ]
+  },
+  "rz_171": {
+    "h": "1e9850f953d6b75ea958331b4ed446a6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zu den operationellen Risiken im Rahmen des Risikomanagements zählen auch die Nachhaltigkeitsrisiken, die sich direkt auf den eigenen Geschäftsbetrieb auswirken können."
+      }
+    ]
+  },
+  "rz_172": {
+    "h": "b7dc7883a46b2a78c8078f7d67a0fd0c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine Analyse operationeller Risiken ist auch vor der Einführung oder wesentlichen Änderung von Produkten, Prozessen und Systemen durchzuführen. Die Ergebnisse dieser Analyse sind in die Entscheidungsfindung einzubeziehen."
+      }
+    ]
+  },
+  "rz_173": {
+    "h": "5f5478883cc787af9218e3a106379900",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zur Identifizierung und Überwachung möglicher operationeller Risiken implementieren die Unternehmen einen geeigneten Prozess, mit dem zumindest die internen Schadenereignisse erfasst und ausgewertet werden. Hierfür sind dem Risikoprofil angemessene Schwellenwerte festzulegen. Die notwendigen Prozessschritte sind ausreichend zu dokumentieren."
+      }
+    ]
+  },
+  "rz_174": {
+    "h": "556192ec06ed7012db23854e54328bfd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Identifizierung möglicher operationeller Risiken berücksichtigen die Unternehmen darüber hinaus auch bekannte externe Schadenereignisse."
+      }
+    ]
+  },
+  "rz_175": {
+    "h": "703f38d16b8347b701eeb2e580c1a9cf",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen prüfen, ob sie als Teil ihres Frühwarnsystems geeignete Risikokennziffern (Key Risk Indikatoren) oder Leistungskennziffern (Key Performance Indikatoren) einführen."
+      }
+    ]
+  },
+  "rz_176": {
+    "h": "c5ab60408e486f5c1b7acd5a87991cc2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wesentliche Schadenereignisse, die aus operationellen Risiken resultieren, sind neben der gesamten Geschäftsleitung auch unverzüglich der URCF zu berichten und hinsichtlich ihrer Ursachen zu analysieren. Welche Schadenereignisse hierunter fallen, ist unternehmensindividuell festzulegen. Die gesamte Geschäftsleitung entscheidet bei wesentlichen Schadenereignissen, ob und welche zusätzlichen Maßnahmen zu ergreifen sind. Die Umsetzung der Maßnahmen ist zu überwachen."
+      }
+    ]
+  },
+  "rz_177": {
+    "h": "97a550e8f625338f388fdbe0dae551d4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Risikomanagementleitlinien für Rückversicherung und andere Risikominderungstechniken benennen den angestrebten Grad und die Effektivität des Risikotransfers. Dieser muss sich an den festgelegten Risikotoleranzschwellen orientieren. Anzugeben ist ferner, welche Art der Rückversicherung oder anderer Risikominderungstechniken vom Unternehmen gewählt wird. Die gewählte Art muss für das eigene Risikoprofil am besten geeignet sein. Auch sind die Kriterien für die Auswahl der Rückversicherung oder anderer Risikominderungstechniken festzulegen."
+      }
+    ]
+  },
+  "rz_178": {
+    "h": "d9edef2e08ae5ea53eaaa4124bcf00cb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es sind Grundsätze für die Auswahl der Vertragspartner bei Rückversicherungsverträgen und anderen Risikominderungstechniken zu entwickeln. Diese umfassen auch Verfahren, um die Leistungsfähigkeit und Kreditwürdigkeit von Rückversicherern und anderen Risikominderungspartnern zu bewerten und zu überwachen. Sofern das Unternehmen bei der Beurteilung der Kreditwürdigkeit auf externe Ratings zurückgreift, überprüft es – soweit möglich – deren Eignung durch zusätzliche Bewertungen."
+      }
+    ]
+  },
+  "rz_179": {
+    "h": "f4cf7b54066d42080b8527e26df37ea9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Entscheidet sich das Unternehmen für Rückversicherung oder andere Risikominderungstechniken, berücksichtigt das Risikomanagement sämtliche damit verbundenen Risiken, insbesondere das mit der Risikominderungstechnik verbundene Kreditrisiko und bei Auswahl eines Rückversicherers aus einem Drittstaat die damit verbundenen Risiken. Dies schließt eine Dokumentation zumindest der wesentlichen Risiken, der daraus resultierenden Maßnahmen sowie der potentiellen Folgen ein."
+      }
+    ]
+  },
+  "rz_18": {
+    "h": "c4c7188cb0be38435ce164daf5f152e6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Alle Unternehmen haben separate Wesentlichkeitsgrenzen mindestens auf der Ebene der folgenden Risikokategorien festzulegen: versicherungstechnisches Risiko, Marktrisiko, Kreditrisiko, Liquiditätsrisiko und operationelles Risiko. Darüber hinaus können gemäß Rn. 17 weitere unternehmensindividuelle Wesentlichkeitsgrenzen festgelegt werden, unabhängig davon, ob sich die entsprechenden Risiken weiteren Risikokategorien zuordnen lassen (zum Beispiel politische, strategische oder Reputationsrisiken). Dementsprechend können im Einzelfall auch für Konzentrationsrisiken und Nachhaltigkeitsrisiken im Sinne des Art. 1 Nr. 55c DVO (siehe auch Bafin-Merkblatt zum Umgang mit Nachhaltigkeitsrisiken) separate Wesentlichkeitsgrenzen erforderlich sein."
+      }
+    ]
+  },
+  "rz_180": {
+    "h": "63f3d02f32a1c47e76b2be3e8fd87e30",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen ermittelt und bewertet sowohl den Umfang als auch die Wirkung und Wirksamkeit des Risikotransfers einschließlich möglicher Basisrisiken. Dies umfasst eine ganzheitliche Analyse der durch die Rückversicherung oder eine andere Risikominderungstechnik transferierten Risiken im Hinblick auf das eigene Risikoprofil sowie die Voraussetzungen für deren Berücksichtigung in der Standardformel. Insbesondere sind in diesem Zusammenhang auf die versicherungstechnischen, Gegenparteiausfall- und Konzentrationsrisiken einzugehen. Die für die Ermittlung und Bewertung notwendigen Verfahren und Kriterien sind festzulegen und müssen dem Risikoprofil angemessen sein. Informationen und Erkenntnisse, die die VmF im Rahmen ihrer Stellungnahme zur Zeichnungspolitik und Rückversicherung (siehe Rn. 129) gewonnen hat, können hierbei berücksichtigt werden."
+      }
+    ]
+  },
+  "rz_181": {
+    "h": "1aacdf2d4392a4218c74988287a8e8c5",
+    "b": [
+      {
+        "art": "p",
+        "t": "In Bezug auf Rückversicherung und andere Risikominderungstechniken berücksichtigt das Liquiditätsmanagement auch mögliche Liquiditätsengpässe infolge eines zeitlichen Auseinanderfallens der zu erbringenden Versicherungsleistung und dem Eingang der Zahlung der von Rückversicherern und anderen Risikominderungspartnern einforderbaren Beträge."
+      }
+    ]
+  },
+  "rz_182": {
+    "h": "73076bbd5e53c690b6555fe0ee807665",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ist der Risikotransfer an einen Rückversicherer bedeutend für das Unternehmen, setzt sich das Unternehmen bereits im Vorfeld mit den folgenden Szenarien auseinander: Das Unternehmen berücksichtigt, dass der Rückversicherer im Rahmen der vertraglichen Regelungen wesentliche oder sämtliche Rückversicherungsverträge beendet oder nicht verlängert. Ebenso ist in Betracht zu ziehen, dass der Rückversicherer künftig die Beziehung nur zu ungünstigeren Bedingungen oder Konditionen fortsetzen würde, die für das Unternehmen nicht akzeptabel wären. Zumindest wenn die Rückversicherungsbeziehung für die Solvabilität und die Risikotragfähigkeit des eigenen Unternehmens bedeutend ist, sind bereits bei Abschluss der Rückversicherungsverträge konkrete Maßnahmen für derartige Szenarien festzulegen. Dabei berücksichtigt das Unternehmen auch die risikobegrenzende Einbindung mehrerer Rückversicherer. Abhängig von der fortlaufenden Risikoeinschätzung des Unternehmens sind die erforderlichen Maßnahmen frühzeitig einzuleiten."
+      }
+    ]
+  },
+  "rz_183": {
+    "h": "6c0b520dd788dede4db8e5a8ebd98232",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unternehmensindividuelle Stresstests sind Bestandteil eines geeigneten Frühwarnsystems im Risikomanagementsystem. Sie untersuchen die Widerstandsfähigkeit der Unternehmen infolge widriger Ereignisse oder Szenarien. Unternehmensindividuelle Stresstests können sowohl Sensitivitätsanalysen als auch Szenarioanalysen oder Reverse-Stresstests sein."
+      }
+    ]
+  },
+  "rz_184": {
+    "h": "d5720a76b72bb6929b04d4555cef122c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen müssen im Rahmen des ORSA nach Maßgabe des § 27 Abs. 3 Satz 2 VAG unternehmensindividuelle Stresstests durchführen. Darüber hinaus sind auch in anderen Bereichen des Risikomanagements unternehmensindividuelle Stresstests nach Maßgabe des Artikels 259 Abs. 3 DVO durchzuführen, soweit dies sachgerecht ist. Die Hinweise zu unternehmensindividuellen Stresstests im Rahmen der Ausführungen zu den Risikomanagementleitlinien (siehe Abschnitt 11.2) bleiben unberührt. Die Art, der Umfang und die Häufigkeit der unternehmensindividuellen Stresstests müssen dem Risikoprofil angemessen sein. Sie decken mindestens die maßgeblichen Treiber für die wesentlichen Risiken ab. Von externer Seite vorgegebene standardisierte Stresstests, zum Beispiel EIOPA-Stresstests, sind in der Regel nicht als unternehmensindividuelle Stresstests geeignet."
+      }
+    ]
+  },
+  "rz_185": {
+    "h": "1ea2a79aebbcf6b8732271b854d559dc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bestehen wesentliche Nachhaltigkeitsrisiken, dazu gehören auch wesentliche Klimawandelrisiken, sind deren Auswirkungen sowohl kurz- als auch langfristig mit geeigneten unternehmensindividuellen Stresstests zu bewerten. Die Beurteilung erfolgt, soweit sinnvoll und möglich, auch quantitativ."
+      }
+    ]
+  },
+  "rz_186": {
+    "h": "6ca53ba4679d26453937e9aa5561cba1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die unternehmensindividuellen Stresstests berücksichtigen die wesentlichen Risikokonzentrationen und Diversifikationseffekte zwischen den Risiken."
+      }
+    ]
+  },
+  "rz_187": {
+    "h": "7298031d1688ce6f0a7099ded6b2a620",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die unternehmensindividuellen Stresstests bilden Ereignisse oder Szenarien mit unterschiedlichen Schweregraden ab. Geeignete historische und hypothetische Ereignisse oder Szenarien bilden die Grundlage für die unternehmensindividuellen Stresstests. Die Unternehmen unterstellen insbesondere auch außergewöhnliche, aber plausible Ereignisse oder Szenarien, die die Risikotragfähigkeit des Unternehmens gefährden können."
+      }
+    ]
+  },
+  "rz_188": {
+    "h": "729bcb342cb557cb920ebe5f5924c675",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Eignung der unternehmensindividuellen Stresstests einschließlich der zugrundeliegenden Annahmen ist regelmäßig zu überprüfen."
+      }
+    ]
+  },
+  "rz_189": {
+    "h": "e5b0b03d352f9216bd6cab8b61cd8982",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Durchführung jeder Stresstestanwendung ist ausreichend zu dokumentieren. Mindestens sind die Annahmen, die Beurteilungen der Ergebnisse und die ergriffenen Maßnahmen anzugeben."
+      }
+    ]
+  },
+  "rz_19": {
+    "h": "a72b339fc72ad7924fa5202c98c6d4e7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Kriterien zur Bestimmung der Wesentlichkeitsgrenzen dürfen sich nicht ausschließlich an den Auswirkungen im Rahmen der Rechnungslegung oder den Auswirkungen von Rechtsverstößen orientieren."
+      }
+    ]
+  },
+  "rz_190": {
+    "h": "32c0c514f84b318d9c1224e2d93b3e24",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Geschäftsleitung hat die Ergebnisse der unternehmensindividuellen Stresstests bei ihren Entscheidungen gebührend zu berücksichtigen."
+      }
+    ]
+  },
+  "rz_191": {
+    "h": "e803f2a6ad937e9527b98d99c9e4892d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung des für die Erfüllung der Anforderungen auf Gruppenebene zuständigen Unternehmens ist für die Wirksamkeit des gruppenweiten Risikomanagementsystems verantwortlich. In diesem Zusammenhang legt sie die strategischen Entscheidungen und Leitlinien für das Risikomanagement auf Gruppenebene fest und beschließt sowohl den Risikoappetit als auch die Risikotoleranzschwellen auf Gruppenebene. Sie sorgt unter Beachtung der Rn. 66 dafür, dass die Vorgaben gruppenweit konsistent umgesetzt werden."
+      }
+    ]
+  },
+  "rz_192": {
+    "h": "fbf52f8bebb64673efe71f81c4b64ab2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das für die Erfüllung der Anforderungen auf Gruppenebene zuständige Unternehmen berücksichtigt im Risikomanagement sämtliche Risiken für die gesamte Gruppe. Einzubeziehen sind auch das Risiko durch gruppeninterne Transaktionen, mögliche Risikokonzentrationen innerhalb der Gruppe sowie das Reputationsrisiko aufgrund von Ereignissen innerhalb der Gruppe. Zu berücksichtigen sind ferner die möglichen Interdependenzen zwischen den Risiken aller Gruppenunternehmen, einschließlich der Unternehmen, die in Drittstaaten ansässig sind oder nicht der Aufsicht unterliegenden."
+      }
+    ]
+  },
+  "rz_193": {
+    "h": "8895d59d1b2fe90b27e762cf62d701bd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das interne Kontrollsystem gewährleistet die Rechtmäßigkeit, Wirksamkeit, Wirtschaftlichkeit und Zweckmäßigkeit der Geschäftsorganisation. Es berücksichtigt die für das Unternehmen relevanten Risiken und selbstgesetzten Ziele und Vorgaben. Und es stellt die Verfügbarkeit und Verlässlichkeit der für den Geschäftsbetrieb notwendigen Informationen sicher."
+      }
+    ]
+  },
+  "rz_194": {
+    "h": "0045399e3b2d2b3f6e27a86e398549b2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen gestalten das interne Kontrollsystem in Abhängigkeit von ihrem Risikoprofil aus. Das interne Kontrollsystem ist ein eigenständiges Element der Geschäftsorganisation. Es muss adäquat in die Strukturen und Prozesse der Aufbau- und Ablauforganisation eingebunden sein, damit es seinen Zweck erfüllt."
+      }
+    ]
+  },
+  "rz_195": {
+    "h": "44922934ee83119076e5d25c9bd4f205",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das interne Kontrollsystem berücksichtigt gegebenenfalls auch ausgegliederte Bereiche und Prozesse."
+      }
+    ]
+  },
+  "rz_196": {
+    "h": "96088b6cefcceb44454b9d11dc08fd7c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen legen im internen Kontrollrahmen die Grundsätze, Verfahren und Maßnahmen zu den internen Kontrollen fest. Der interne Kontrollrahmen muss dem Risikoprofil angemessen sein. Der interne Kontrollrahmen bildet das Grundgerüst des internen Kontrollsystems. Er steckt mit schriftlichen Leitlinien und anderen internen Vorgaben den Rahmen für die Überwachung zumindest für die wesentlichen Geschäftsbereiche des Unternehmens ab."
+      }
+    ]
+  },
+  "rz_197": {
+    "h": "dbbd738f25df5ab4e23070a6387182eb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Art, Häufigkeit und Umfang der internen Kontrollen orientieren sich an den Risiken der jeweiligen Bereiche und Prozesse. Die Durchführung der internen Kontrollen ist zu dokumentieren."
+      }
+    ]
+  },
+  "rz_198": {
+    "h": "2a393381256bd7a5efc527beb5c24889",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen gewährleisten, dass die mit den internen Kontrollen beauftragten Personen über alle notwendigen Informationen verfügen. Die Eignung und Wirksamkeit der internen Kontrollen sind mit Hilfe geeigneter Verfahren fortlaufend zu überwachen."
+      }
+    ]
+  },
+  "rz_199": {
+    "h": "2fcb48c6559767b4faa613aabb5de0bb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung lässt sich regelmäßig, mindestens einmal jährlich, über die Ergebnisse der Überwachung berichten. In besonderen Situationen, vor allem bei erheblichen Mängeln der internen Kontrollen, sind außerdem Ad-hoc-Berichte erforderlich. Die gesamte Geschäftsleitung stellt sicher, dass die notwendigen Anpassungen zeitnah umgesetzt werden."
+      }
+    ]
+  },
+  "rz_2": {
+    "h": "5ecf3c5e9bfa802e6430f7759a851e1d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Rundschreiben befasst sich mit dem Aufsichtssystem Solvabilität II. In seinen Anwendungsbereich fallen alle Erst- und Rückversicherungsunternehmen mit Sitz im Inland oder in einem Drittstaat gemäß § 1 Abs. 1 Nr. 1 i. V. m. § 7 Nr. 33 oder § 7 Nr. 34 i. V. m. Nr. 6 VAG (im Folgenden „Unternehmen“), soweit sie nicht Sterbekassen gemäß § 218 Abs. 1 VAG, Pensionskassen gemäß § 232 Abs. 1 VAG oder kleine Versicherungsunternehmen gemäß § 211 VAG sind. Nicht anwendbar ist das Rundschreiben auf Rückversicherungsunternehmen, die die in § 165 Abs. 1 VAG genannten Voraussetzungen erfüllen, sowie auf Erst- und Rückversicherungs-unternehmen, die die in § 343 VAG genannten Voraussetzungen erfüllen."
+      }
+    ]
+  },
+  "rz_20": {
+    "h": "0a4c0e11abddc94d74cfab2881ddc0c3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Geschäftsleitung stellt sicher, dass die Wesentlichkeitsgrenzen einheitlich angewandt werden."
+      }
+    ]
+  },
+  "rz_200": {
+    "h": "61bece6d09d12fd2de86b1b720e51354",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Anwendungsbereich von § 32 VAG erfasst die Ausgliederung von Funktionen und Versicherungstätigkeiten. Die Legaldefinition in § 7 Nr. 2 VAG bezieht sich nur auf das Merkmal „Ausgliederung“ und setzt unter anderem voraus, dass der betreffende Prozess, die Dienstleistung oder die Tätigkeit ansonsten vom Unternehmen selbst erbracht werden würde. Diese Voraussetzung ist in der Regel erfüllt, wenn ein Unternehmen den betreffenden Prozess, die Dienstleistung oder die Tätigkeit aufgrund gesetzlicher Vorgaben oder als für den Geschäftsbetrieb notwendig erbringen muss. Sind die Voraussetzungen des § 7 Nr. 2 VAG erfüllt, ist kumulativ zu prüfen, ob eine Funktion oder Versicherungstätigkeit im Sinne des § 32 VAG vorliegt. Damit wird die spezifische Ausgliederungskontrolle sachgerecht begrenzt. Eine Funktion oder Versicherungstätigkeit kann auch vorliegen, wenn der entsprechende Sachverhalt auch bei anderen Unternehmen als Versicherungsunternehmen auftritt (z. B. Kapitalanlage)."
+      }
+    ]
+  },
+  "rz_201": {
+    "h": "a7015d37e7a97c9d0bef8e73f298bbf6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zu beachten ist, dass die allgemeine Missstandsaufsicht eingreifen kann, obwohl keine Ausgliederung im Sinne des § 7 Nr. 2 VAG vorliegt. Denn die allgemeine Missstandsaufsicht umfasst bei Erstversicherungsunternehmen gemäß § 294 Abs. 2 S. 2 VAG i. V. m. § 298 Abs. 1 VAG alle Sachverhalte, welche die Belange der Versicherten gefährden können. Hierzu zählen auch Dienstleistungsbeziehungen, die nicht den Ausgliederungsanforderungen unterliegen. Beispiel: Der Kantinenbetrieb durch einen externen Dienstleister unterfällt – weil die betreffende Tätigkeit ansonsten nicht unbedingt vom Unternehmen selbst erbracht werden würde – nicht dem Ausgliederungsbegriff und damit auch nicht der spezifischen Ausgliederungskontrolle durch die Aufsichtsbehörde. Kommt es jedoch wiederholt durch hygienische Mängel zu Ausfällen der Beschäftigten und einer Gefährdung der ordnungsgemäßen Betriebsabläufe, so kann darin ein Missstand liegen, der die Aufsichtsbehörde zum Einschreiten berechtigt."
+      }
+    ]
+  },
+  "rz_202": {
+    "h": "c6a9f17cb4e856eb54ffcc0ef508390e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kriterien für die Abgrenzung von Ausgliederungen und sonstigen Dienstleistungsbeziehungen sind neben dem Inhalt der betroffenen Tätigkeit vor allem ihr Umfang und ihre Dauer sowie die Häufigkeit der Inanspruchnahme des Dienstleisters. Die Begriffe lassen sich nicht generell quantifizieren, sondern stehen in Abhängigkeit dazu, wie substanziell die jeweilige Tätigkeit für das konkrete Unternehmen ist."
+      }
+    ]
+  },
+  "rz_203": {
+    "h": "c7a877668931a504651b056efd9755d5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Je substanzieller oder häufiger eine in Anspruch genommene Dienstleistung durch einen Dritten ist, desto wahrscheinlicher ist das Vorliegen einer Ausgliederung. Die Schwellen für die Annahme einer Dauerhaftigkeit oder Häufigkeit sind umso niedriger anzusetzen, je substanzieller der betroffene Bereich für das Unternehmen ist. Wird der Dienstleister bloß fallweise operativ oder konsultativ herangezogen, liegt in der Regel keine Ausgliederung vor. Eine wiederkehrende Betrauung desselben Dienstleisters oder eine häufige Inanspruchnahme desselben Dienstleisters mit artgleicher Tätigkeit bei Bestehen eines Rahmenvertrages mit diesem können hingegen Indizien für eine Ausgliederung sein. Umgekehrt sind, wenn auch selten, Sachverhaltskonstellationen denkbar, in denen eine Funktion oder Versicherungstätigkeit betroffen ist und auch die Kriterien der Dauer bzw. Häufigkeit der Inanspruchnahme eines Dienstleisters erfüllt sind, der entsprechende Bereich jedoch von ganz untergeordneter Bedeutung für das Unternehmen ist. Solche Umstände können die Einschätzung rechtfertigen, dass keine Ausgliederung vorliegt."
+      }
+    ]
+  },
+  "rz_204": {
+    "h": "47682d5831323b23502bb993e80ec5d7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die für eine Ausgliederung erforderliche Vereinbarung zwischen einem ausgliedernden Unternehmen und einem Dienstleister ist zum Zweck der Qualifikation als Ausgliederungsvereinbarung weder an eine bestimmte Form noch an einen bestimmten Vertragstypus oder eine bestimmte Vertragsbezeichnung gebunden."
+      }
+    ]
+  },
+  "rz_205": {
+    "h": "7a096cf23dee6179d8d082d726608de5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei jedem Unternehmen ist unter Beachtung der Maßgaben dieses Abschnitts eine Ausgliederung sämtlicher Schlüsselfunktionen und selbst definierten Schlüsselaufgaben möglich."
+      }
+    ]
+  },
+  "rz_206": {
+    "h": "be9f4ca0b5693aa6b199f297221de009",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Falle von Ausgliederungen einschließlich konzern-/gruppeninterner Ausgliederungen sowie Sub-Delegationen bleibt die Letztverantwortung der gesamten Geschäftsleitung immer bestehen. Originäre Leitungsaufgaben einschließlich der Verantwortung für die Einrichtung und die Weiterentwicklung des Risikomanagementsystems und des internen Kontrollsystems können nicht ausgegliedert werden. Dienstleister können in diesen Bereichen nur unterstützend und beratend eingebunden werden. Die Ausgliederung bestimmter Teilbereiche des Risikomanagementsystems oder des internen Kontrollsystems ist nur unter sorgfältiger Risikoabwägung möglich. Dies gilt auch im Rahmen von gruppeninternen Ausgliederungen bei Bestehen eines Beherrschungsvertrages."
+      }
+    ]
+  },
+  "rz_207": {
+    "h": "7417d3bce5f74616609f80b14c8617b0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auch im Falle einer Ausgliederung ist eine angemessene Trennung der Zuständigkeiten zu wahren (§ 23 Abs. 1 Satz 3 VAG). Dies gilt auf Seiten des Dienstleisters ebenso wie auf Seiten des Unternehmens in Bezug auf die organisatorische Ansiedelung der/des Ausgliederungsbeauftragten."
+      }
+    ]
+  },
+  "rz_208": {
+    "h": "1a27caf7457f5536267531b7c9a5f780",
+    "b": [
+      {
+        "art": "p",
+        "t": "Befindet sich der Dienstleister außerhalb des Europäischen Wirtschaftsraums, ist durch das Unternehmen vor allem auf den Kontrollrahmen ein besonderes Augenmerk zu legen. Das Unternehmen muss auch diesen Dienstleister effektiv kontrollieren können, um bei einem Verstoß gegen die Bestimmungen der Ausgliederungsvereinbarung durch diesen gegebenenfalls frühzeitig reagieren zu können. Das Unternehmen achtet darauf, dass die lokale Aufsichtsbehörde des Dienstleisters oder die nationalen Regelungen insbesondere den Zugang zu Informationen über die ausgegliederten Funktionen und Versicherungstätigkeiten und zu den Geschäftsräumen des Dienstleisters nicht beschränken. Bei Ausgliederungen außerhalb des Europäischen Wirtschaftsraums hat das Unternehmen auch auf Unterschiede in den nationalen Datenschutzbestimmungen zu achten."
+      }
+    ]
+  },
+  "rz_209": {
+    "h": "6f89a89edde2d1e0c64dcd0309c99eb2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die mit einer Ausgliederung verbundenen Risiken sind sowohl im Vorfeld der Ausgliederung als auch im Anschluss daran zu identifizieren, zu bewerten und angemessen zu überwachen, zu steuern und zu berichten. Zu berücksichtigen sind hierbei insbesondere auch IT- und Nachhaltigkeitsrisiken."
+      }
+    ]
+  },
+  "rz_21": {
+    "h": "0c1710b7eaeca0c24bd9ec5799f46c3b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine im Unternehmen gelebte Risikokultur bildet die Grundlage für ein dem Risikoprofil angemessenes und wirksames Risikomanagementsystem. Sie umfasst insbesondere:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "das Herstellen eines einheitlichen Verständnisses über die eigenen Risiken, einschließlich der Nachhaltigkeitsrisiken, sowie den Umgang mit diesen, welches für alle Personen auf allen Hierarchieebenen, mindestens soweit sie Umgang mit den Risiken haben bzw. haben könnten, sicherzustellen ist und sich in einer gemeinsamen Risikosprache äußert;"
+          },
+          {
+            "m": "",
+            "t": "das Festlegen der Verantwortlichkeiten beim Umgang mit Risiken zumindest für die Personen, die mit dem Aufbau sowie der Identifikation, Bewertung, Überwachung und Steuerung der wesentlichen Risiken betraut sind;"
+          },
+          {
+            "m": "",
+            "t": "das Prüfen, ob und welche Anreizstrukturen zum Umgang mit Risiken im Unternehmen geeignet sind und eingeführt werden;"
+          },
+          {
+            "m": "",
+            "t": "das Fördern eines offenen Dialoges aller betroffenen Personen im Unternehmen zum Umgang mit Risiken, so dass alle Personen die für sie relevanten Informationen rechtzeitig erhalten."
+          }
+        ]
+      }
+    ]
+  },
+  "rz_210": {
+    "h": "c60958dce3f8b2cde6f52bc7b462d2d0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen müssen zunächst eigenverantwortlich und risikoorientiert feststellen, ob die Herausgabe einer Aktivität von der Definition der Ausgliederung erfasst ist. Die weitere Bewertung, ob es sich um eine wichtige Funktion oder Versicherungstätigkeit handelt, die ausgegliedert werden soll, ist ebenfalls ein Teilbereich der Risikoanalyse, die vor jeder Ausgliederung erfolgen muss."
+      }
+    ]
+  },
+  "rz_211": {
+    "h": "b2e8df333cbd4834e0c816d299bb484c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Grundentscheidung für oder gegen Ausgliederung müssen neben strategischen Motiven, ökonomischen und operativen Argumenten sowie quantitativen und qualitativen Aspekten auch Risikogesichtspunkte eine angemessene Rolle spielen. Einschlägige Risikokategorien sind regelmäßig das strategische, das operationelle und das Reputationsrisiko. Bei der Inanspruchnahme eines Mehrmandantendienstleisters ist zudem besonderes Augenmerk auf Konzentrationsrisiken zu legen."
+      }
+    ]
+  },
+  "rz_212": {
+    "h": "2105a5fd282b2337f5608e066ac40fe2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Inhalt und Umfang der Risikoanalyse können die Unternehmen unter Proportionalitätsgesichtspunkten festlegen. Die Intensität der Risikoanalyse hängt von der Art, dem Umfang, der Komplexität und dem Risikogehalt der ausgegliederten Aktivitäten und Prozesse ab. Zu den für die Risikoanalyse relevanten Aspekten gehören insbesondere die wesentlichen Risiken der Ausgliederung einschließlich möglicher Risikokonzentrationen und Risiken aus Subdelegationen, die Eignung des Dienstleisters, Exit- oder Alternativstrategien, Notfallmanagement und Rechtsrisiken."
+      }
+    ]
+  },
+  "rz_213": {
+    "h": "9bf02d452829948ca86913cf763fc833",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei wesentlichen Änderungen des Risikoprofils in Bezug auf Ausgliederungssachverhalte muss erneut eine Risikoanalyse erfolgen und über die Fortführung oder Beendigung der Ausgliederung entschieden werden."
+      }
+    ]
+  },
+  "rz_214": {
+    "h": "f9bbdaf564037f7419e5c72a9d52ebd3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die maßgeblichen Organisationseinheiten müssen bei der Erstellung der Risikoanalyse einbezogen werden. Wie intensiv die Risikoanalyse und die Einbeziehung der maßgeblichen Organisationseinheiten zu erfolgen hat, ist unter Proportionalitätsaspekten zu entscheiden. Die Ergebnisse der Risikoanalyse sind zu dokumentieren."
+      }
+    ]
+  },
+  "rz_215": {
+    "h": "80863b478eb9d81ca9d8e9bbb92f3c76",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unter den Funktionen und Versicherungstätigkeiten sind wichtige und sonstige Aktivitäten zu unterscheiden. Soweit sich europäische Rechtstexte im Zusammenhang mit Ausgliederungen auf „kritische“ Funktionen oder Tätigkeiten beziehen, gelten die Anforderungen an „wichtige“ Funktionen oder Versicherungstätigkeiten im Wege eines Erst-Recht-Schlusses auch für „kritische“ Aktivitäten."
+      }
+    ]
+  },
+  "rz_216": {
+    "h": "41b11b8c7a97325d291cf25e55d1121f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Fall von Teilausgliederungen wichtiger Funktionen oder Versicherungstätigkeiten ist entscheidend, ob der für die Ausgliederung vorgesehene Teilbereich auch für sich gesehen wichtig ist."
+      }
+    ]
+  },
+  "rz_217": {
+    "h": "06bcbe028c7c11d7d6ee6224a64c3df1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Schlüsselfunktionen und selbst definierte Schlüsselaufgaben gelten immer als wichtig."
+      }
+    ]
+  },
+  "rz_218": {
+    "h": "dd367eda381b9b7bd0adad1828d58653",
+    "b": [
+      {
+        "art": "p",
+        "t": "Darüber hinaus sind in der Regel folgende Bereiche wichtige Funktionen oder Versicherungstätigkeiten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Vertrieb,"
+          },
+          {
+            "m": "",
+            "t": "Bestandsverwaltung,"
+          },
+          {
+            "m": "",
+            "t": "Leistungsbearbeitung,"
+          },
+          {
+            "m": "",
+            "t": "Berechnung der versicherungstechnischen Rückstellungen nach Solvabilität II und nach HGB,"
+          },
+          {
+            "m": "",
+            "t": "Rechnungswesen,"
+          },
+          {
+            "m": "",
+            "t": "Kapitalanlage und -verwaltung,"
+          },
+          {
+            "m": "",
+            "t": "elektronische Datenverarbeitung im Hinblick auf ihrerseits wichtige versicherungstypische Tätigkeiten."
+          },
+          {
+            "m": "",
+            "t": "Auch in den Bereichen von Rn. 217 und dieser Rn. 218 gilt im Fall von Teilausgliederungen das in Rn. 216 Gesagte."
+          }
+        ]
+      }
+    ]
+  },
+  "rz_219": {
+    "h": "52887d869dc61be440b949b0dce4316e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Übrigen müssen die Unternehmen eigenverantwortlich feststellen, ob die jeweilige Funktion oder Versicherungstätigkeit wichtig ist und dies im Rahmen der Risikoanalyse (siehe Abschnitt 13.3) dokumentieren. Ob eine Funktion oder Versicherungstätigkeit wichtig ist, kann nur einzelfallbezogen bewertet werden."
+      }
+    ]
+  },
+  "rz_22": {
+    "h": "f89a4eecfb2ee48f3dcb17a725ec6bfc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Risikokultur muss dem Risikoprofil angemessen sein. Sie schlägt sich nieder in den Normen des Unternehmens sowie den Einstellungen und Verhaltensweisen der Beschäftigten. Sie wirkt sich auf das Risikobewusstsein, den Risikoappetit, die Risikosteuerung sowie die Risikokontrollen des Unternehmens aus und spiegelt sich in dessen Dokumentationen und schriftlichen Leitlinien wider."
+      }
+    ]
+  },
+  "rz_220": {
+    "h": "bfc74e8de5899b5d8e6e13ae9d101e9f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Bewertung, ob eine Funktion oder Versicherungstätigkeit wichtig oder nicht wichtig ist, muss wiederholt und gegebenenfalls geändert werden, wenn sich die zugrunde liegenden Umstände wesentlich geändert haben."
+      }
+    ]
+  },
+  "rz_221": {
+    "h": "461977213f0833263ecde5af7f2c96d8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung muss alle Ausgliederungen wichtiger Funktionen oder Versicherungstätigkeiten vorab genehmigen. Die Sub-Delegation einer wichtigen Funktion oder Versicherungstätigkeit muss zumindest vom zuständigen Mitglied der Geschäftsleitung vorab genehmigt werden."
+      }
+    ]
+  },
+  "rz_222": {
+    "h": "29e2de585e49ce5e4bf0099860673f67",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Kriterien und der Prozess für die Einordnung einer Funktion oder Versicherungstätigkeit als wichtig sind in der schriftlichen Leitlinie für die Ausgliederung festzulegen und ihrerseits sich ändernden Umständen anzupassen."
+      }
+    ]
+  },
+  "rz_223": {
+    "h": "c68832ed234f9c3fb41f0651acd6d73d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Absicht, wichtige Funktionen oder Versicherungstätigkeiten auszugliedern, gilt gemäß § 47 Nr. 8 VAG eine unverzügliche Anzeigepflicht unter Vorlage des Vertragsentwurfs. Nur eine ausreichend konkretisierte Absicht, wichtige Funktionen oder Versicherungstätigkeiten auszugliedern, ist anzeigepflichtig."
+      }
+    ]
+  },
+  "rz_224": {
+    "h": "35269c110cca8f2ef8e94e822f77239c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für vor dem 01.01.2016 geschlossene Ausgliederungsverträge ist eine Übersicht aller bestehender Ausgliederungen von wichtigen Funktionen und Versicherungstätigkeiten vorzuhalten. Die Bafin behält sich vor, diese gegebenenfalls gesondert anzufordern. Die Ausgliederungsverträge sind möglichst zeitnah an die Anforderungen von Solvabilität II anzupassen, beispielsweise im Rahmen von Vertragsverlängerungen oder inhaltlichen Verhandlungen."
+      }
+    ]
+  },
+  "rz_225": {
+    "h": "85b6332dc3ce24784e73a9a38404eba7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die/der Ausgliederungsbeauftragte überwacht und beurteilt unbeschadet der Letztverantwortung der gesamten Geschäftsleitung, ob die ausgegliederten Aufgaben ordnungsgemäß ausgeführt werden. Die/der Ausgliederungsbeauftragte ist verantwortliche Person im Sinne des § 47 Nr. 1 VAG (siehe das Rundschreiben 11/2023 (VA) zur fachlichen Eignung und Zuverlässigkeit von Personen, die für Schlüsselfunktionen verantwortlich oder für Schlüsselfunktionen tätig sind, gemäß VAG)."
+      }
+    ]
+  },
+  "rz_226": {
+    "h": "77a3f9a8565a8a7b590ac033bc72f4b0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die/der Ausgliederungsbeauftragte beurteilt und hinterfragt die Leistung des Dienstleisters unabhängig und objektiv. Im Fall der Ausgliederung einer Schlüsselfunktion erfolgt die Berichterstattung (siehe Rn. 91) gegenüber der gesamten Geschäftsleitung des ausgliedernden Unternehmens wie folgt: In der Regel übermittelt der Dienstleister die Berichte an die/den Ausgliederungsbeauftragte/n, die/der sie in Ausübung ihrer/seiner überwachenden und beurteilenden Funktion ergänzen bzw. kommentieren kann und dann an die gesamte Geschäftsleitung zu deren notwendigen Information weiterleitet. Im Falle einer gruppeninternen Ausgliederung kann der Bericht unmittelbar an die Geschäftsleitung übermittelt werden, sofern der Dienstleister den Bericht gleichzeitig an die/den Ausgliederungsbeauftragten weiterleitet. Einem weiteren direkten Kontakt zwischen dem Dienstleister und der Geschäftsleitung des ausgliedernden Versicherungsunternehmens, beispielsweise zur Erörterung bestimmter Themen, steht diese Berichterstattung nicht entgegen. Allerdings ist eine die/den Ausgliederungsbeauftragte/n ausschließende Übermittlung der schriftlichen Berichte vom Dienstleister an die Geschäftsleitung unzulässig. Bei Personenidentität zwischen der/dem Ausgliederungsbeauftragten und einem Mitglied der Geschäftsleitung des ausgliedernden Unternehmens genügt eine direkte Berichterstattung des Dienstleisters an die gesamte Geschäftsleitung des ausgliedernden Unternehmens."
+      }
+    ]
+  },
+  "rz_227": {
+    "h": "b3547931c0fef6f6f78efddc84b6e656",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Geschäftsleitung muss die/den Ausgliederungsbeauftragte/n eigeninitiativ, angemessen und zeitnah über alle Tatsachen informieren, die für ihre/seine Aufgabenwahrnehmung erforderlich sein können."
+      }
+    ]
+  },
+  "rz_228": {
+    "h": "73ed02954d413a42a339cb3645aa4af2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die Ausgliederung von Schlüsselfunktionen und selbst definierten Schlüsselaufgaben muss es stets eine/n Ausgliederungsbeauftragte/n geben."
+      }
+    ]
+  },
+  "rz_229": {
+    "h": "55f7fbcae900860b043ebaceb245f180",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein Mitglied der Geschäftsleitung des ausgliedernden Unternehmens kann zugleich als Ausgliederungsbeauftragte/r für eine Schlüsselfunktion oder selbst definierte Schlüsselaufgabe fungieren, ohne dass diese Gestaltung durch Proportionalitätserwägungen gerechtfertigt sein müsste. Jedoch ist § 23 Abs. 1 Satz 3 VAG anwendbar, so dass eine dem Risikoprofil des Unternehmens angemessene Trennung der Zuständigkeiten bestehen muss, auch im Verhältnis der Aufgaben als Ausgliederungsbeauftragte/r und als Mitglied der Geschäftsleitung. Außerdem ist Artikel 258 Abs. 1 Buchstabe g DVO anwendbar, so dass das Unternehmen gewährleisten muss, dass die Zuweisung der weiteren Aufgabe als Ausgliederungsbeauftragte/r das betreffende Mitglied der Geschäftsleitung nicht daran hindert oder zu hindern droht, alle seine Aufgaben – gegebenenfalls auch bei anderen Unternehmen – verlässlich, redlich und objektiv auszuüben. Dies setzt unter anderem ausreichende zeitliche Kapazitäten voraus. Insoweit ist auch zu beachten, dass die der/dem Ausgliederungsbeauftragten obliegende Überwachungsintensität deutlich über die der Geschäftsleitung obliegenden Überwachungsintensität hinausgeht. Im Übrigen wird auf das Rundschreiben 11/2023 (VA) zur fachlichen Eignung und Zuverlässigkeit von Personen, die für Schlüsselfunktionen verantwortlich oder für Schlüsselfunktionen tätig sind, gemäß VAG verwiesen."
+      }
+    ]
+  },
+  "rz_23": {
+    "h": "3e1e4f943315398a97734db9a3cf1365",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung fördert die Risikokultur. Dabei kommt ihr eine Vorbildfunktion zu („Tone at the Top“). Sie sorgt dafür, dass die Risikokultur innerhalb des Unternehmens kommuniziert, beim Aufbau von Risiken beachtet und mit dem Risikomanagement und den internen Kontrollen verknüpft wird."
+      }
+    ]
+  },
+  "rz_230": {
+    "h": "21cf2a1b7decbd25245ac45924c29f97",
+    "b": [
+      {
+        "art": "p",
+        "t": "Dass ein Mitglied der Geschäftsleitung des ausgliedernden Unternehmens zugleich als Ausgliederungsbeauftragte/r fungiert, kommt auch in Betracht, wenn sie/er zusätzlich für das Gruppenunternehmen tätig ist, auf das die Schlüsselfunktion oder selbst definierte Schlüsselaufgabe ausgegliedert wurde (diese Fallgruppe ist von der in Rn. 231 behandelten zu unterscheiden). Jedoch müssen gegebenenfalls Maßnahmen zur Vermeidung entsprechender Interessenkonflikte ergriffen werden. Eine Personenidentität zwischen der/dem Ausgliederungsbeauftragten und der zuständigen Person bei dem Dienstleister ist in jedem Fall unzulässig."
+      }
+    ]
+  },
+  "rz_231": {
+    "h": "a8db9c576e347883dd3f55e8bcfc4573",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es kann ausnahmsweise zulässig sein, die Aufgabe als Ausgliederungsbeauftragte/r auf eine Person zu übertragen, die nicht bei dem ausgliedernden Unternehmen tätig ist, sondern beim Dienstleister oder bei einem anderen Unternehmen, wenn diese Person in Bezug auf ihre Aufgabe als Ausgliederungsbeauftragte/r allein den Weisungen der Geschäftsleitung des ausgliedernden Unternehmens unterliegt und bei dem Dienstleister oder dem anderen Unternehmen unterhalb der Geschäftsleitung tätig ist. Außerdem müssen gegebenenfalls Maßnahmen zur Vermeidung von Interessenkonflikten ergriffen werden. Eine Personenidentität zwischen der/dem Ausgliederungsbeauftragten und der zuständigen Person bei dem Dienstleister ist in jedem Fall unzulässig (zu den Anforderungen an die fachliche Eignung der zuständigen Person beim Dienstleister siehe das Rundschreiben 11/2023 (VA) zur fachlichen Eignung und Zuverlässigkeit von Personen, die für Schlüsselfunktionen verantwortlich oder für Schlüsselfunktionen tätig sind, gemäß VAG). Beispiel: Ist bei einem als Dienstleister tätigen Gruppenunternehmen zugleich ein zentralisiertes Ausgliederungsmanagement eingerichtet, das die Ausgliederungen überwacht und beurteilt (Ausgliederungscontrolling), kann die/der Ausgliederungsbeauftragte im Einzelfall bei dem Unternehmen tätig sein, auf das ausgegliedert wurde. Hierdurch wird es den Unternehmen ermöglicht, die/den Ausgliederungsbeauftragte/n bei gruppeninternen Ausgliederungen zentral beim Dienstleister bzw. beim zentralisierten Ausgliederungscontrolling zu verankern. Die übrigen Anforderungen dieser Rn. 231 und die Anforderungen der Rn. 232 bleiben unberührt."
+      }
+    ]
+  },
+  "rz_232": {
+    "h": "5d99a36362017050acdcf03501594a86",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ob eine Person, sei sie Mitglied der Geschäftsleitung oder unterhalb der Geschäftsleitung tätig, gleichzeitig Ausgliederungsbeauftragte/r für mehrere Schlüsselfunktionen oder selbst definierte Schlüsselaufgaben sein kann, hängt von den Umständen des Einzelfalles ab. Je mehr Schlüsselfunktionen/-aufgaben betroffen sind, desto genauer müssen die Unternehmen darlegen, dass die gewählte Gestaltung sachgerecht ist und wie sie die bei Zuweisung mehrerer Aufgaben an dieselbe Person in Artikel 258 Abs. 1 Buchstabe g DVO (siehe Rn. 229) festgelegten Bedingungen gewährleisten."
+      }
+    ]
+  },
+  "rz_233": {
+    "h": "7df4f5f14c3c3553948f4b4a18872114",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die vorgenannten Voraussetzungen gelten auch für die/den Ausgliederungsbeauftragten für die Funktion der internen Revision. Artikel 271 DVO ist insoweit nicht anwendbar, weil die/der Ausgliederungsbeauftragte die Funktion der internen Revision nicht im Sinne dieser Vorschrift wahrnimmt."
+      }
+    ]
+  },
+  "rz_234": {
+    "h": "507467ee6a0570e5d86a23590c29b506",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Vorgaben zur Ausgliederung gelten auch bei gruppeninternen Ausgliederungen. Die nachfolgenden Anforderungen an gruppeninterne Ausgliederungen gelten für konzerninterne Ausgliederungen entsprechend."
+      }
+    ]
+  },
+  "rz_235": {
+    "h": "70fc43cc7a00191cb3ea368aaae77be4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Gruppeninterne Ausgliederungen dürfen nicht generell mit weniger Sorgfalt und einer weniger intensiven Überwachung einhergehen. Auch kommt nicht in Betracht, gruppeninterne Ausgliederungen ohne weiteres als nicht wichtig einzustufen."
+      }
+    ]
+  },
+  "rz_236": {
+    "h": "b23fcb6dc659bff60e725b6562b8134d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Dennoch kann eine gruppeninterne Ausgliederung Erleichterungen rechtfertigen, deren Ausprägungen sich im jeweiligen Einzelfall ergeben. Nachstehend werden Beispiele genannt:"
+      }
+    ]
+  },
+  "rz_237": {
+    "h": "d3754c57c18a897f1dc5b21a67f1709c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die schriftliche Vereinbarung, in der die Rechte und Pflichten beider Parteien in Bezug auf die Ausgliederung zu regeln sind, kann etwa in der Form eines schriftlichen Service Level Agreements abgefasst werden, wenn seine Inhalte – anders als üblicherweise vor Vertragsabschluss mit einem externen Dienstleister – kein Gegenstand förmlicher Vertragsverhandlungen waren."
+      }
+    ]
+  },
+  "rz_238": {
+    "h": "fa56aa012da30dd30b91d542114b5259",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Überprüfung eines gruppeninternen Dienstleisters vor der Ausgliederung kann unter Umständen weniger detailliert erfolgen, als dies bei einem gruppenexternen Dienstleister angezeigt ist. Das Bestehen von Interessenkonflikten ist jedoch immer zu prüfen."
+      }
+    ]
+  },
+  "rz_239": {
+    "h": "672e6c94919e9473b3bebd0994bdfa0e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen müssen einen schematischen Rückgriff auf einen gruppeninternen Dienstleister vermeiden. Denn auch bei einem gruppeninternen Dienstleister besteht die Gefahr, dass dieser seine Dienstleistungen hoch standardisiert erbringt, ohne die Besonderheiten des einzelnen Unternehmens angemessen zu berücksichtigen."
+      }
+    ]
+  },
+  "rz_24": {
+    "h": "d3d9c614b279b9364a42fc6feb3de691",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es sind angemessene Evaluierungsprozesse vorzusehen, um Mängel der Risikokultur frühzeitig zu erkennen. Hierbei kann das Unternehmen auf Prozesse zurückgreifen, die schon aufgrund anderer Anforderungen einzurichten sind. Festgestellte Mängel sind durch geeignete Maßnahmen zu beheben."
+      }
+    ]
+  },
+  "rz_240": {
+    "h": "d0ed5e084fc2e5c1c4aa879a0490abb9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Werden Funktionen oder Versicherungstätigkeiten gruppenintern ausgegliedert, so ist genau zu dokumentieren, welche rechtliche Einheit auf welchen Dienstleister welche Funktion oder Versicherungstätigkeit ausgegliedert hat."
+      }
+    ]
+  },
+  "rz_241": {
+    "h": "01acde85038a43d519c3860eef9fdadd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Obwohl üblicherweise auf Dauer angelegt, unterfallen die typischen Vermittlungssachverhalte nicht den Ausgliederungsanforderungen. Ein typischer Vermittlungssachverhalt liegt regelmäßig vor, wenn keine Abschluss- oder Schadenregulierungsvollmacht besteht."
+      }
+    ]
+  },
+  "rz_242": {
+    "h": "d4150749754ec437958322c29f67b037",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Übertragung des Abschlusses von Versicherungsgeschäften oder der Schadenregulierung auf Versicherungsvermittlerinnen und Versicherungsvermittler stellen immer eine Ausgliederung wichtiger Funktionen oder Versicherungstätigkeiten dar. Die Unternehmen haben insoweit keine Einschätzungsfreiheit. Zu beachten ist, dass nach der Maßgabe der Rechtsprechung des BGH (Urteil vom 14.01.2016, I ZR 107/14) eine Schadenregulierung durch Versicherungsmaklerinnen und Versicherungsmakler unzulässig ist."
+      }
+    ]
+  },
+  "rz_243": {
+    "h": "40c21a63756f800cdd717fb1c24b129b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Falle von Teilausgliederungen gilt hinsichtlich der Frage, ob es sich um eine wichtige Ausgliederung handelt, das unter 13.4 Gesagte. Erteilt ein Unternehmen einer Vielzahl von Versicherungsvermittlerinnen und Versicherungsvermittlern Abschluss- oder Schadenregulierungsvollmachten, so kommt es auf die Gesamtbetrachtung an."
+      }
+    ]
+  },
+  "rz_244": {
+    "h": "7f59806dafd7f1cf06d5cf63706735a3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für den gesamten Bereich der Ausgliederung sind schriftliche Leitlinien zu erstellen. Diese haben die Auswirkungen von Ausgliederungen auf den Geschäftsbetrieb zu berücksichtigen und die bei Ausgliederungen unternehmensindividuell anzuwendenden Verfahrens- und Qualitätsstandards sowie die zu implementierenden Berichts- und Überwachungspflichten vom Beginn bis zum Ende der Ausgliederung festzulegen."
+      }
+    ]
+  },
+  "rz_245": {
+    "h": "6010e043a09de1848bb18cb5361483db",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die schriftlichen Leitlinien müssen konsistent in Bezug auf die Geschäftsstrategie des Unternehmens sein."
+      }
+    ]
+  },
+  "rz_246": {
+    "h": "1b25731966dbbc2426399a976b9d0dd7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die schriftlichen Leitlinien haben einen Überprüfungsprozess für den in Betracht gezogenen Dienstleister zu enthalten. Folgende Aspekte des Prozesses sind in den schriftlichen Leitlinien mindestens abzudecken:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "finanzielle Leistungsfähigkeit des Dienstleisters,"
+          },
+          {
+            "m": "",
+            "t": "technische Fähigkeit des Dienstleisters,"
+          },
+          {
+            "m": "",
+            "t": "Kapazität des Dienstleisters, die Ausgliederungs-Leistungen erbringen zu können,"
+          },
+          {
+            "m": "",
+            "t": "Kontrollrahmen und"
+          },
+          {
+            "m": "",
+            "t": "etwaige Interessenkonflikte."
+          }
+        ]
+      }
+    ]
+  },
+  "rz_247": {
+    "h": "cdf6df5d600d5b38b4c2c3a661517dea",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen bestimmen darüber hinaus in den schriftlichen Leitlinien eigenständig, ob weitere Aspekte im Rahmen des Überprüfungsprozesses zu berücksichtigen sind. Diese Aspekte sind bei Änderungen der unternehmensinternen oder externen Umstände anzupassen."
+      }
+    ]
+  },
+  "rz_248": {
+    "h": "7c3130a78f52249ff0bdd033d41f9fdd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Ausgliederungsleitlinien müssen darlegen, wie die Kontinuität und die ungeminderte Qualität der ausgegliederten Funktionen und Versicherungstätigkeiten auch im Fall der Beendigung der Vertragsbeziehung zu dem Dienstleister sichergestellt werden."
+      }
+    ]
+  },
+  "rz_249": {
+    "h": "9a4eddf1d808b4ae0f9eade837cd98ac",
+    "b": [
+      {
+        "art": "p",
+        "t": "In die schriftlichen Leitlinien ist die Verpflichtung aufzunehmen, für ausgegliederte wichtige Funktionen und Versicherungstätigkeiten Notfallpläne zu entwickeln, die sich mit bei dem Dienstleister auftretenden Störungen befassen. Zudem haben die Leitlinien den Prozess und die Verantwortlichkeiten zur Aufstellung dieser Notfallpläne zu beschreiben. Die Notfallpläne haben insbesondere zu berücksichtigen, wie die ausgegliederten wichtigen Funktionen und Versicherungstätigkeiten notfalls auf einen anderen Dienstleister übertragen oder in den Geschäftsbetrieb des Unternehmens wieder eingegliedert werden können."
+      }
+    ]
+  },
+  "rz_25": {
+    "h": "52cb16f0b1a10d2a467ab5d996d0ffca",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die aufsichtsrechtlichen Anforderungen an die Geschäftsorganisation für Unternehmen gelten gemäß § 275 Abs. 1 Satz 1 i. V. m. §§ 23 ff. VAG auf Gruppenebene entsprechend. Zusätzlich gibt es gruppenspezifische Anforderungen. So müssen die Risikomanagementsysteme, die internen Kontrollsysteme und das Berichtswesen aller in die Gruppenaufsicht einbezogenen Unternehmen auf Gruppenebene angemessen und wirksam gesteuert und überwacht werden."
+      }
+    ]
+  },
+  "rz_250": {
+    "h": "cc91f079f26cbc7e8149c55542f4f421",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Übrigen gelten für die schriftlichen Leitlinien zur Ausgliederung die im Abschnitt 9.4 genannten Grundsätze."
+      }
+    ]
+  },
+  "rz_251": {
+    "h": "1b1887e5bb756802429ca93716376ee5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Notfallmanagement erhöht die Widerstandsfähigkeit von Bereichen und Prozessen im Unternehmen, um in möglichen Krisensituationen die Verfügbarkeit wesentlicher Daten und Funktionen sowie die Fortführung der Geschäftstätigkeit durch im Vorfeld definierte Verfahren zu gewährleisten."
+      }
+    ]
+  },
+  "rz_252": {
+    "h": "dce02bc7eb35db8c0524acc40357b655",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verantwortlich für das operative Notfallmanagement ist die Geschäftsleitung. Die Notfallplanung muss von der gesamten Geschäftsleitung beschlossen werden."
+      }
+    ]
+  },
+  "rz_253": {
+    "h": "121fde4159d114bbfd311b2196485b8d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Notfallpläne sind für diejenigen Bereiche und Prozesse zu erstellen, bei denen der Eintritt einer unvorhergesehenen Störung die Fortführung der Geschäftstätigkeit gefährden kann. Dabei sind auch die tolerierbaren Ausfall- und Wiederherstellungszeiten zu berücksichtigen. Die ausgegliederten Bereiche und Prozesse sind im Notfallmanagement zu berücksichtigen. Eignung und Wirksamkeit der Notfallpläne sind fortlaufend sicherzustellen. Hierzu sind den Risiken des jeweiligen Bereiches oder Prozesses entsprechend regelmäßig Testläufe und Übungen durchzuführen."
+      }
+    ]
+  },
+  "rz_254": {
+    "h": "aa21f64b8e16eb22d1410fd6d81aa9b4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die den Notfallplänen zugrunde liegenden Notfallszenarien haben dem individuellen Risikoprofil hinreichend Rechnung zu tragen."
+      }
+    ]
+  },
+  "rz_255": {
+    "h": "3daa2ceb102b8f6970703e6e894d146f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sowohl die Notfallplanung als auch die Bewältigung eines Notfalles müssen adäquat in die Strukturen und Prozesse der Aufbau- und Ablauforganisation eingebunden sein. Aufgaben, Verantwortlichkeiten, Informationspflichten und Eskalationsprozesse sind klar und nachvollziehbar festzulegen und zu dokumentieren."
+      }
+    ]
+  },
+  "rz_256": {
+    "h": "b2bfd2016105a7a8d112893588b6610b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der betroffene Personenkreis muss die Notfallpläne kennen. Die Verfügbarkeit der Notfallpläne muss auch im Notfall sichergestellt sein."
+      }
+    ]
+  },
+  "rz_26": {
+    "h": "4c3b610d5dff4d53c520fd1fdb024d49",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung des für die Erfüllung der Anforderungen auf Gruppenebene zuständigen Unternehmens trägt die Verantwortung für die Einrichtung einer ordnungsgemäßen Geschäftsorganisation auf Gruppenebene einschließlich der Überwachung und Steuerung der in die Gruppenaufsicht einbezogenen Unternehmen der Versicherungsgruppe. Die Verantwortung für die konzernrechtliche Gesamtüberwachung und -steuerung der verbundenen Unternehmen innerhalb des Versicherungskonzerns ergibt sich aus dem allgemeinen Gesellschaftsrecht. Die versicherungsaufsichtsrechtliche und die Überwachungs- und Steuerungsverantwortung nach dem allgemeinen Gesellschaftsrecht erstreckt sich auf alle in- und ausländischen verbundenen Gesellschaften einschließlich der Nicht-Versicherungsunternehmen. So hat beispielsweise das für die Erfüllung der Anforderungen auf Gruppenebene zuständige Unternehmen im Rahmen des Gruppenrisikomanagements auch die Gruppenrisiken zu berücksichtigen, die von ausländischen und Nicht-Versicherungsunternehmen ausgehen, ohne dass diese selbst die Geschäftsorganisation eines Versicherungsunternehmens nach Solvabilität II vorhalten müssen."
+      }
+    ]
+  },
+  "rz_27": {
+    "h": "6a89732d6ab1c3f32f761d3bf183def3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das für die Erfüllung der Anforderungen auf Gruppenebene zuständige Unternehmen etabliert ein gruppenweites internes Kontrollsystem, das einen dem Risikoprofil der Gruppe angemessenen und wirksamen Informationsfluss auf der Ebene der Versicherungsgruppe gewährleistet. Dies erfordert mindestens für alle wesentlichen Entscheidungen der Gruppe ausreichende, verlässliche und rechtzeitig verfügbare Informationen. Der Informationsfluss muss innerhalb des für die Erfüllung der Anforderungen auf Gruppenebene zuständigen Unternehmens sowie zwischen diesem und den gruppenzugehörigen Unternehmen gewährleistet sein. Die Möglichkeiten des gruppeninternen Informationsaustausches nach § 276 Abs. 1 und 2 VAG sind dabei umfassend zu nutzen."
+      }
+    ]
+  },
+  "rz_28": {
+    "h": "9173a1757bf7f52e8e7a5fd45ed9af8d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das für die Erfüllung der Anforderungen auf Gruppenebene zuständige Unternehmen implementiert eine angemessene ganzheitliche Risikokultur auch auf Ebene der Gruppe. (siehe Kapitel 7)."
+      }
+    ]
+  },
+  "rz_29": {
+    "h": "71af3851200edae691be577cf4be347f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Um die Erfüllung der Anforderungen auf Gruppenebene sicherzustellen, hat das für die Erfüllung der Anforderungen auf Gruppenebene zuständige Unternehmen die vorhandenen gesellschaftsrechtlichen Einwirkungsmöglichkeiten zu nutzen. Soweit die Erfüllung der Governance-Anforderungen auf Gruppenebene in einem Spannungsfeld mit den gesellschafts- oder kapitalmarktrechtlichen Möglichkeiten steht, müssen sich das für die Erfüllung dieser Anforderungen zuständige Unternehmen und die gruppenzugehörigen Unternehmen dessen bewusst sein und angemessene Maßnahmen ergreifen, um die Erfüllung der Anforderungen sicherzustellen. Alle der Gruppenaufsicht unterworfenen Unternehmen haben bei der Erfüllung der Governance-Anforderungen auf Gruppenebene mitzuwirken (§ 246 Abs. 3 VAG)."
+      }
+    ]
+  },
+  "rz_3": {
+    "h": "e3ee4bc4bd1acfbefeb13462167415e1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Rundschreiben gilt auf Gruppenebene entsprechend, sofern die Regelungen zur Gruppenaufsicht nach §§ 245 ff. i. V. m. § 275 Abs. 1 Satz 1 VAG Anwendung finden."
+      }
+    ]
+  },
+  "rz_30": {
+    "h": "75b848304fc68bfae6385da5828dba84",
+    "b": [
+      {
+        "art": "p",
+        "t": "Innerhalb der geltenden regulatorischen Vorgaben sind die Unternehmen dafür verantwortlich, die Anforderungen an die Geschäftsorganisation auf Gruppenebene angemessen umzusetzen. Das für die Erfüllung der Anforderungen auf Gruppenebene zuständige Unternehmen befördert die konsistente Umsetzung innerhalb der Gruppe, beispielsweise durch einen gemeinsamen Gruppenausschuss zur Abstimmung innerhalb der Gruppe. Falls kleinere Rechtsträger einer Gruppe bei diesen gruppeninternen Abstimmungen nicht vertreten sind, müssen sie auf anderem Wege über für sie bedeutsame Maßnahmen informiert werden und gegebenenfalls ihre Zustimmung gesondert erteilen."
+      }
+    ]
+  },
+  "rz_31": {
+    "h": "5b582c39391c9521a8587394579f6645",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen entscheiden unter Berücksichtigung ihres Risikoprofils und im Rahmen der einzuhaltenden Anforderungen, welche konkrete Organisationsstruktur für sie angemessen ist."
+      }
+    ]
+  },
+  "rz_32": {
+    "h": "e49b1ad3691560d790849eb93b9734a3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine dem Risikoprofil des Unternehmens angemessene und transparente Aufbauorganisation erfordert eine klare Definition und Abgrenzung von Aufgaben und Verantwortlichkeiten. Es ist eindeutig zu regeln, wer im Unternehmen für die Aufgaben zuständig ist und für Entscheidungen verantwortlich zeichnet."
+      }
+    ]
+  },
+  "rz_33": {
+    "h": "3194a8a9962b8854e10bba3950224763",
+    "b": [
+      {
+        "art": "p",
+        "t": "Neben den Aufgaben und Verantwortlichkeiten sind auch Vertretungsregelungen und Berichtslinien klar festzulegen. Es ist sicherzustellen, dass alle Personen im Unternehmen die sie betreffenden Informationen unverzüglich erhalten und ihre Bedeutung erkennen können und eine Wahrnehmung der jeweiligen Aufgabe bzw. Verantwortlichkeit stets gewährleistet ist."
+      }
+    ]
+  },
+  "rz_34": {
+    "h": "21622cdca946397a35725481a59f7fb5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisationsstruktur eines Unternehmens muss eine dem Risikoprofil angemessene Trennung der Zuständigkeiten bis auf Ebene der Geschäftsleitung vorsehen. Die Gesamtverantwortung der Geschäftsleitung gemäß Rn. 15 bleibt hiervon unberührt."
+      }
+    ]
+  },
+  "rz_35": {
+    "h": "b4bc112c3f01489acdf76ccd5e604fec",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kern des Grundsatzes der Funktionstrennung ist, dass Bereiche, die für den Aufbau von wesentlichen Risikopositionen verantwortlich sind, nicht gleichzeitig mit deren Überwachung und Kontrolle betraut sein dürfen. Ein Aufbau von wesentlichen Risikopositionen findet zumindest in den Bereichen Risikozeichnung, Kapitalanlage und Vertrieb statt. Die konkrete Umsetzung dieses Grundsatzes kann je nach Situation des Unternehmens unter Berücksichtigung des Proportionalitätsprinzips erfolgen. Eine Abweichung von diesem Grundsatz ist jedoch nur im Einzelfall möglich. Voraussetzung dafür ist, dass möglichen Interessenkonflikten durch begleitende Maßnahmen begegnet wird. Welche begleitenden Maßnahmen zu ergreifen sind, hängt von der Ausprägung des jeweiligen Interessenkonfliktes ab. Beispiel: Ausnahmsweise kann bei schwächer ausgeprägtem Risikoprofil und bei Vorliegen angemessener und wirksamer begleitender Maßnahmen ein Mitglied der Geschäftsleitung sowohl für den Vertrieb als auch – allein oder mit den anderen Mitgliedern der Geschäftsleitung zusammen – für das Risikomanagement zuständig sein. Als begleitende Maßnahmen kommen etwa das Vier-Augen-Prinzip, separate Berichtslinien oder die Einrichtung begleitender Gremien in Betracht."
+      }
+    ]
+  },
+  "rz_36": {
+    "h": "2d203028e02c6518f4ddfacd9808a8f8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auch wenn kein Konflikt zwischen Risikoaufbau und Risikoüberwachung besteht, ist bei der gleichzeitigen Wahrnehmung mehrerer Funktionen durch eine Person der Grundsatz der Funktionstrennung zu beachten."
+      }
+    ]
+  },
+  "rz_37": {
+    "h": "845edbb133e96aa519c33bac21895512",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Ablauforganisation hat sicherzustellen, dass mit Risiken einhergehende Prozesse und deren Schnittstellen angemessen gesteuert und überwacht werden. Dies setzt zunächst voraus, dass alle Prozesse aus Risikosicht beurteilt werden."
+      }
+    ]
+  },
+  "rz_38": {
+    "h": "929b626dbd5e30d89a768ecdb7650885",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Kreis der mit Risiken einhergehenden Prozesse geht über die Bereiche, in denen wesentliche Risikopositionen aufgebaut werden (Rn. 35), hinaus. Mit Risiken einhergehende Prozesse gibt es bei allen Unternehmen in den Bereichen, in denen wesentliche Risikopositionen aufgebaut werden, also zumindest in den Bereichen Risikozeichnung, Kapitalanlage und Vertrieb (Rn. 35), sowie darüber hinaus zumindest in den Bereichen Reservierung (sowohl nach Solvabilität II als auch nach Handelsgesetzbuch – HGB), Aktiv-Passiv-Management („Asset-Liability-Management“ – ALM) und passives Rückversicherungsmanagement. Um eine angemessene Steuerung und Überwachung der identifizierten, mit Risiken einhergehenden Prozesse zu gewährleisten, sind vor allem die einzelnen Prozessschritte, einschließlich der erforderlichen Kontrollaktivitäten im Sinne des internen Kontrollsystems, und gegebenenfalls die Eskalationsschritte, die prozessspezifischen Zuständigkeiten und Verantwortlichkeiten sowie die Informationsflüsse klar festzulegen."
+      }
+    ]
+  },
+  "rz_39": {
+    "h": "5e4ca1af94073a2b38050859d1e76bd0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Hinblick auf die Kontrollaktivitäten ist es in der Regel nicht erforderlich, nach jedem einzelnen Prozessschritt umfangreiche Kontrollen durchzuführen. In jedem Fall sind jedoch besonders mit Risiken einhergehende Prozessschritte zu identifizieren und regelmäßig zu kontrollieren."
+      }
+    ]
+  },
+  "rz_4": {
+    "h": "8028d1ae86136f91b795e10481afc93e",
+    "b": [
+      {
+        "art": "p",
+        "t": "In den Anwendungsbereich dieses Rundschreibens fallen ebenfalls Versicherungs-Holdinggesellschaften und gemischte Finanzholding-Gesellschaften, die selbst Versicherungsgeschäft betreiben (§ 293 Abs. 1 Satz 2 VAG). Für solche Unternehmen, die selbst kein Versicherungsgeschäft betreiben, gelten – mit Ausnahme der §§ 27, 28 und 31 VAG – die Vorschriften des VAG über die Geschäftsorganisation entsprechend (§ 293 Abs. 1 Satz 1 VAG). Insoweit sind die Konkretisierungen in diesem Rundschreiben entsprechend heranzuziehen."
+      }
+    ]
+  },
+  "rz_40": {
+    "h": "64b477457ab84750f58c1b4864056d32",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für die ordnungsgemäße Erfüllung ihrer Aufgaben ist es wichtig, dass alle relevanten Beschäftigten die sie betreffenden Arbeitsabläufe kennen, das heißt, diesbezüglich informiert und inhaltlich mit diesen vertraut sind."
+      }
+    ]
+  },
+  "rz_41": {
+    "h": "4f33aad7a163da422709524e099c8ea5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Dokumentation der Aufbau- und Ablauforganisation ist stets auf aktuellem Stand vorzuhalten. Vorgängerversionen sind mindestens sechs Jahre aufzubewahren."
+      }
+    ]
+  },
+  "rz_42": {
+    "h": "14880b7d35fdf0ed7f281a94ff67ffa0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine dem Risikoprofil angemessene Aufbau- und Ablauforganisation auf Gruppenebene umfasst unter anderem eine effiziente und transparente Organisationsstruktur, eine klare Zuweisung und dem Risikoprofil angemessene Trennung von Verantwortlichkeiten sowie eine Einrichtung von Kontrollen und Kommunikationswegen innerhalb der Gruppe. Das gilt insbesondere für das für die Erfüllung der Anforderungen auf Gruppenebene zuständige Unternehmen. Dieses Unternehmen hat ferner dem Risikoprofil angemessene Prozesse zur Kontrolle und Überwachung einzurichten, die sich wirksam auf verbundenen Unternehmen erstrecken. Die Verantwortung für die Durchführung der prozessintegrierten Kontrollen sowie der Kontrollen und Überwachungsaktivitäten der Schlüsselfunktionen auf Gruppenebene sind klar festzulegen. Die Zuständigkeiten und die zugehörigen Prozesse für die Bewältigung der Gruppenaufgaben müssen nachvollziehbar dokumentiert sein."
+      }
+    ]
+  },
+  "rz_43": {
+    "h": "020898547d917403f5664ae987bad3d3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung des für die Erfüllung der Anforderungen an die Geschäftsorganisation auf Gruppenebene zuständigen Unternehmens muss über eine ausreichende Kenntnis der internen Organisation der Gruppe, der Geschäftsmodelle der verschiedenen Unternehmen, der Verbindungen und Beziehungen zwischen ihnen und der aus der Gruppenstruktur resultierenden Risiken verfügen."
+      }
+    ]
+  },
+  "rz_44": {
+    "h": "51cd288259e46b9b806ca9cd5aff8830",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei einer Änderung der Gruppenstruktur können Anpassungen der Aufbau- und Ablauforganisation sowohl auf Gruppenebene als auch auf Ebene der Einzelunternehmen erforderlich sein. So kann es beispielsweise notwendig sein, Zuständigkeiten und Berichtslinien neu festzulegen."
+      }
+    ]
+  },
+  "rz_45": {
+    "h": "956125cfdce91b6e6e672e5c4aee4fa4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verantwortung für Anpassungen der Aufbau- und Ablauforganisation auf Gruppenebene liegt bei der Geschäftsleitung des für die Erfüllung der Anforderungen auf Gruppenebene zuständigen Unternehmens."
+      }
+    ]
+  },
+  "rz_46": {
+    "h": "63269ba46968f53b002a952e3fb2274a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verantwortung für Anpassungen der Aufbau- und Ablauforganisation auf Ebene eines Einzelunternehmens liegt bei der Geschäftsleitung des betreffenden Unternehmens. Gegebenenfalls sind Vorgaben des für die Erfüllung der Anforderungen auf Gruppenebene zuständigen Unternehmens zu beachten und unternehmensindividuell umzusetzen."
+      }
+    ]
+  },
+  "rz_47": {
+    "h": "36478b1ec71d1958a17672e70233ec69",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Geschäftsorganisation umfasst Prozesse zur regelmäßigen und Ad-hoc-Übermittlung von Informationen und Berichten der Organisationseinheiten und Funktionen an die Geschäftsleitung. Auf dieser Basis sowie aufgrund entsprechender Beratung nimmt die Geschäftsleitung ihre Leitungsaufgaben wahr und trifft Entscheidungen. Ebenso wichtig wie Prozesse zur Übermittlung von Informationen und Berichten an die Geschäftsleitung sind Prozesse, die sicherstellen, dass die bearbeitenden Stellen über die getroffenen Entscheidungen so informiert werden, dass diese vollständig umgesetzt werden können."
+      }
+    ]
+  },
+  "rz_48": {
+    "h": "030925a6b791a91a31d4ff88734cc9f9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Aufsichtsrat nimmt die ihm zur Erfüllung seiner Aufgaben eingeräumten Informations-, Einsichts- und Prüfungsrechte aktiv wahr und berät die Geschäftsleitung unter anderem in strategischen Fragen. § 210 VAG bleibt unberührt."
+      }
+    ]
+  },
+  "rz_49": {
+    "h": "d487df746addb50b237d037721fa5b68",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verantwortung der gesamten Geschäftsleitung entbindet den Aufsichtsrat nicht von der Pflicht zu überwachen, ob die gesamte Geschäftsleitung eine ordnungsgemäße und wirksame Geschäftsorganisation mit Blick auf das interne Kontrollsystem, das Risikomanagementsystem und die interne Revision eingerichtet hat."
+      }
+    ]
+  },
+  "rz_5": {
+    "h": "03cef5e540b059354be11a4c569c353e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen dieses Rundschreibens wird einheitlich der Begriff Geschäftsorganisation verwendet. Der Begriff Geschäftsorganisation ist synonym zum Begriff Governance-System."
+      }
+    ]
+  },
+  "rz_50": {
+    "h": "9cbb8abf652a8a95ecb17f8adc5894b1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Geschäftsleitung des für die Erfüllung der Anforderungen an die Geschäftsorganisation auf Gruppenebene zuständigen Unternehmens steht in der erforderlichen Interaktion mit den Geschäftsleitungen der Unternehmen innerhalb der Gruppe."
+      }
+    ]
+  },
+  "rz_51": {
+    "h": "ddd605ed099dceb02e4aee0d66c1d685",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen haben dafür Sorge zu tragen, dass die tatsächliche Leitung des Unternehmens durch mindestens zwei Personen erfolgt. Dies impliziert, dass an jeder wesentlichen Entscheidung des Unternehmens mindestens zwei Personen, die das Unternehmen tatsächlich leiten, beteiligt sind, bevor die betreffende Entscheidung umgesetzt wird."
+      }
+    ]
+  },
+  "rz_52": {
+    "h": "a219477a7b9844697b8c2c2b45153590",
+    "b": [
+      {
+        "art": "p",
+        "t": "Den Unternehmen obliegt die erste Einschätzung, ob es neben den Mitgliedern der Geschäftsleitung andere Personen im Unternehmen gibt, die aufgrund ihrer Entscheidungsbefugnisse ebenfalls zu den tatsächlich leitenden Personen zu zählen sind. Dies kommt etwa bei der zweiten Führungsebene in Betracht."
+      }
+    ]
+  },
+  "rz_53": {
+    "h": "5da696286a399f0889c09898ea2f5e18",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen legt eigenverantwortlich fest, welche Entscheidungen mit Blick auf das Geschäftsmodell und das Risikoprofil als wesentlich einzustufen sind. Wesentlich ist eine Entscheidung zum Beispiel aufgrund ihrer ressortübergreifenden Bedeutung oder des Überschreitens eines Schwellenwertes, so dass sie erhebliche Auswirkungen auf das Geschäftsmodell oder die Struktur des Unternehmens hat und nicht mehr der gewöhnlichen Geschäftstätigkeit zugerechnet werden kann."
+      }
+    ]
+  },
+  "rz_54": {
+    "h": "8bb209af8d801842bf47b0fd59901a81",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Geschäftsleitung hat die von ihr getroffenen Entscheidungen sowie die Art und Weise, wie Informationen aus dem Risikomanagement berücksichtigt werden (siehe Abschnitt 11.1), zu dokumentieren. In derselben Weise sind die für das Unternehmen wesentlichen Entscheidungen etwaiger weiterer Personen zu dokumentieren, die das Unternehmen tatsächlich leiten."
+      }
+    ]
+  },
+  "rz_55": {
+    "h": "2dcd5f110be57ac95ad0d60c3fef8944",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein Mindestniveau der Ausgestaltung der Dokumentation kann nicht pauschal vorgegeben werden. Umfang und Detailtiefe der Dokumentation der Entscheidungen sind vom Zweck der Dokumentation und von den mit der jeweiligen Entscheidung verbundenen Risiken abhängig. Daher ist die Ausgestaltung der Dokumentation im Einzelfall aufgrund einer ganzheitlichen Betrachtung unter den Gesichtspunkten Selbstkontrolle und Nutzen festzulegen. Ein vollständiger Verzicht auf die Dokumentation kommt jedoch nicht in Betracht."
+      }
+    ]
+  },
+  "rz_56": {
+    "h": "711ea2baf174014963df7e7c03067b23",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Dokumentation ist ausreichend, wenn sie so vollständig und exakt und mit den wesentlichen Hintergrundinformationen (z. B. Formeln, Parameter, Entscheidungen unterhalb der Geschäftsleitung, deren wesentlichen Begründungen) angereichert ist, dass eine fachkundige Person die Entscheidung der Geschäftsleitung inhaltlich nachvollziehen und überprüfen kann."
+      }
+    ]
+  },
+  "rz_57": {
+    "h": "a07173181942e00e9b12af2483c0a788",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es ist nicht zwangsläufig erforderlich, insgesamt neue Unterlagen zu schaffen. Verweisungen auf vorhandene Unterlagen und deren Beifügung können genügen, solange und soweit diese nachvollziehbar sind und die Grundlagen der Entscheidung verständlich aufbereiten."
+      }
+    ]
+  },
+  "rz_58": {
+    "h": "ee071cc29f816f90d71e8e67befeb03e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung bewertet die Geschäftsorganisation regelmäßig (§ 23 Abs. 2 VAG), wobei der Turnus der Bewertung entsprechend dem Risikoprofil festzulegen ist, und sorgt für eine kurzfristige Umsetzung der erforderlichen Änderungen. Die Bewertung einzelner Bereiche der Geschäftsorganisation kann durch das hierfür zuständige Mitglied der Geschäftsleitung erfolgen. Die gesamte Geschäftsleitung muss jedoch im Rahmen der Gesamtverantwortung das Ergebnis dieser Bewertung kennen und die resultierende Umsetzung steuern. Daher muss jedes Mitglied der Geschäftsleitung zumindest die wesentlichen Risiken verstehen, denen das Unternehmen ausgesetzt ist."
+      }
+    ]
+  },
+  "rz_59": {
+    "h": "cc43a6c767709e7b593646f9b433af86",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Bewertung bezieht sich gesamthaft auf die Geschäftsorganisation. Die Bewertung baut auf bereits vorhandenen Erkenntnissen auf, die etwa bei der Überprüfung der Leitlinien, durch die Funktion der internen Revision bei der von ihr durchzuführenden Überprüfung der Geschäftsorganisation oder durch weitere Schlüsselfunktionen bei der Durchführung ihrer Aufgaben gewonnen wurden. Ein gesonderter Prozess ist nicht erforderlich. Werden Erkenntnisse der Funktion der internen Revision bei der Bewertung der Geschäftsorganisation herangezogen, ist zu beachten, dass die Prüfungsperspektive des § 23 Abs. 2 VAG anders ausgerichtet ist als die des § 30 Abs. 1 VAG. Die Geschäftsleitung bewertet insbesondere vorausschauend, ob die Geschäftsorganisation die Ziele der Geschäfts- und der Risikostrategie unterstützt. Die Funktion der internen Revision prüft dagegen, ob zum Prüfungszeitpunkt die Geschäftsorganisation der geprüften Bereiche wirksam und angemessen ist."
+      }
+    ]
+  },
+  "rz_6": {
+    "h": "3d97e1f561dfe18063860e0846ddb5bb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Begriff Geschäftsleitung bezieht sich auf den Vorstand eines Unternehmens. Soweit öffentlich-rechtliche Unternehmen oder Unternehmen in der Rechtsform der Europäischen Gesellschaft (SE) oder Versicherungs-Holdinggesellschaften und gemischte Finanzholding-Gesellschaften, die in den Anwendungsbereich dieses Rundschreibens fallen, kein Organ mit dieser Bezeichnung besitzen, tritt an die Stelle des Vorstandes das entsprechende Geschäftsführungsorgan. An die Stelle des Aufsichtsrates tritt unter derselben Voraussetzung das entsprechende Überwachungsorgan. Bei Niederlassungen von Unternehmen mit Sitz außerhalb des Europäischen Wirtschaftsraumes tritt an die Stelle des Vorstands die/der Hauptbevollmächtigte."
+      }
+    ]
+  },
+  "rz_60": {
+    "h": "4a97c409536089e441df7bb78c300e3e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Ergebnis der Bewertung der Geschäftsorganisation sowie die Umsetzung notwendiger Änderungen sind zu dokumentieren."
+      }
+    ]
+  },
+  "rz_61": {
+    "h": "59aa51dbcda77bbd43b60b610339b6fb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die gesamte Geschäftsleitung legt die Anlässe für außerordentliche Bewertungen der Geschäftsorganisation fest."
+      }
+    ]
+  },
+  "rz_62": {
+    "h": "6bfb06aeaeab7c790725957e65558a8c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Schriftliche Leitlinien sind ein Instrument der Geschäftsleitung, um sicherzustellen, dass die Organisationseinheiten entsprechend ihrer Aufgaben und Pflichten sowie effektiv und zielgerichtet vorgehen. Sie dienen dazu, wesentliche Elemente der Geschäftsorganisation wie beispielsweise Funktionstrennung, Berichtslinien und Proportionalität für die operative Umsetzung im Unternehmen transparent zu machen."
+      }
+    ]
+  },
+  "rz_63": {
+    "h": "6cde1effc29780cb5e088849a1acd9a3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen entscheiden selbst über die Form der schriftlichen Leitlinien gemäß § 23 Abs. 3 VAG. So ist neben der schriftlichen auch eine digitale Bereitstellung der Leitlinien zulässig. Unabhängig von der gewählten Form der Bereitstellung müssen die Leitlinien für die betroffenen Personen im Unternehmen zugänglich und transparent sein."
+      }
+    ]
+  },
+  "rz_64": {
+    "h": "69bc1e2a708687a00a2c7acee260fd31",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der formalen Ausgestaltung der schriftlichen Leitlinien sind die Unternehmen frei. Demnach können Organisationsregelungen für Schlüsselfunktionen in den Leitlinien der betreffenden Systeme der Geschäftsorganisation aufgenommen oder in separaten Leitlinien dargestellt werden. So ist es beispielsweise zulässig, in der schriftlichen Leitlinie für das Risikomanagementsystem die Regelungen zur Organisation der unabhängigen Risikocontrollingfunktion abzubilden. Möglich ist es aber auch, für alle Schlüsselfunktionen eine gemeinsame schriftliche Leitlinie zu erstellen."
+      }
+    ]
+  },
+  "rz_65": {
+    "h": "06a6df8edaedcdde6408323543e35577",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die praktische Umsetzung der schriftlichen Leitlinien erfolgt durch entsprechende Arbeitsabläufe. Es ist festzulegen, auf welcher Ebene die Verantwortung für diese Arbeitsabläufe liegt."
+      }
+    ]
+  },
+  "rz_66": {
+    "h": "67bfb33f3c1d93ead0398df54f36341d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Schriftliche Leitlinien auf Gruppenebene gelten nicht automatisch in den rechtlich selbstständigen Einzelunternehmen. Dies gilt auch, wenn Beherrschungsverträge bestehen. Schriftliche Leitlinien sind daher von den Einzelunternehmen gesondert zu erlassen. Leitlinien auf Gruppenebene können – gegebenenfalls nach unternehmensindividueller Anpassung – vom Einzelunternehmen übernommen werden. Enthalten bereits bestehende Dokumente des Einzelunternehmens die vorgegebenen Inhalte der Leitlinien auf Gruppenebene, können sie als Leitlinien herangezogen und verwendet werden."
+      }
+    ]
+  },
+  "rz_67": {
+    "h": "8993b7073070f31466999f8430bdd4e3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die schriftlichen Leitlinien müssen die grundlegenden ablauforganisatorischen Regelungen, die Zuständigkeiten, die Befugnisse und die Berichtsverfahren klar darstellen. Um Aufgabenüberschneidungen zu vermeiden, sind auch entsprechende Schnittstellen und Abgrenzungen in den jeweiligen schriftlichen Leitlinien anzugeben."
+      }
+    ]
+  },
+  "rz_68": {
+    "h": "e712a1f38826c24cb3110a843524009c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die schriftlichen Leitlinien der jeweiligen Organisationseinheiten legen fest, welche Informationen für die Schlüsselfunktionen relevant sind und dass solche Informationen an die Schlüsselfunktionen zu übermitteln sind. Ungeachtet dessen haben die Schlüsselfunktionen uneingeschränkten Zugang zu allen Informationen, die sie zur Erfüllung ihrer Aufgaben benötigen (siehe Rn. 86)."
+      }
+    ]
+  },
+  "rz_69": {
+    "h": "6e9133c763fdc237e6fe5de10a04cbb8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die schriftlichen Leitlinien müssen aufeinander und auf die Geschäfts- und die Risikostrategie abgestimmt sein."
+      }
+    ]
+  },
+  "rz_7": {
+    "h": "afeebdf60d394d0cf476127f3e104c8c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Bafin legt ihrer Auslegung der einschlägigen Vorschriften des VAG und der DVO die EIOPA-Leitlinien zum Governance-System (EIOPA-BoS-14/253 DE) zugrunde, soweit sie nicht für einzelne Leitlinien erklärt hat, sie nicht vollständig anzuwenden."
+      }
+    ]
+  },
+  "rz_70": {
+    "h": "10502a8351e06f300ca0e63830ab75dc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Mindestanforderungen dieses Kapitels 9.4.3 gelten zumindest für die schriftlichen Leitlinien im Sinne des § 23 Abs. 3 Satz 2 VAG zur Geschäftsorganisation. Die Mindestanforderungen gelten nicht für die die Leitlinien umsetzenden Arbeitsabläufe."
+      }
+    ]
+  },
+  "rz_71": {
+    "h": "d8b1cd64d0fa377fd15942dc163777a4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zur Unterstützung der von ihr festzulegenden Geschäfts- und Risikostrategie hat die gesamte Geschäftsleitung den schriftlichen Leitlinien zumindest bei der Erstverabschiedung sowie bei wesentlichen Änderungen zuzustimmen."
+      }
+    ]
+  },
+  "rz_72": {
+    "h": "cd0cf43eb8c8618b9733739f838b3cbb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die in § 23 Abs. 3 Satz 2 VAG aufgeführten schriftlichen Leitlinien müssen mit dem Risikoprofil angemessenen Methoden regelmäßig, mindestens einmal jährlich, überprüft werden. Die Anlässe für Ad-hoc-Überprüfungen der einzelnen Leitlinien legt die gesamte Geschäftsleitung fest."
+      }
+    ]
+  },
+  "rz_73": {
+    "h": "0cbfc71ffa1beddb99e6bd1134ebf4fe",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die für die Überprüfung der schriftlichen Leitlinien zuständigen Personen oder Organisationseinheiten sind zu benennen. Bei der Überprüfung ist zu berücksichtigen, dass Änderungen einer schriftlichen Leitlinie direkte Auswirkungen auf die anderen schriftlichen Leitlinien haben können."
+      }
+    ]
+  },
+  "rz_74": {
+    "h": "8f5101f9b93b52598856336472c370d2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Überprüfungen der schriftlichen Leitlinien müssen dokumentiert werden. Die Ergebnisse der Überprüfung und der sich daraus gegebenenfalls ergebende Änderungsbedarf werden an die Geschäftsleitung berichtet."
+      }
+    ]
+  },
+  "rz_75": {
+    "h": "ab8a883cb3d4d64a723e08f7b41e110e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Falle eines festgestellten wesentlichen Änderungsbedarfs einer in § 23 Abs. 3 Satz 2 VAG aufgeführten schriftlichen Leitlinie wird der gesamten Geschäftsleitung berichtet, die ihre entsprechende Entscheidung kurz, aber nachvollziehbar begründet. Die Entscheidung einschließlich der Begründung ist zu dokumentieren. Bei nicht wesentlichen Änderungen reicht eine Kenntnisnahme durch das zuständige Mitglied der Geschäftsleitung aus, die zu dokumentieren ist."
+      }
+    ]
+  },
+  "rz_76": {
+    "h": "cfa7f0c5a7cb800a33bc5f3ece541a5f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Leitlinien, die nicht in § 23 Abs. 3 Satz 2 VAG ausdrücklich aufgeführt sind, können die Versicherungsunternehmen in einer ihrem Risikoprofil angemessenen Weise eigenverantwortlich festlegen, in welchem Turnus die Leitlinien überprüft werden und ob und in welcher Form die Geschäftsleitung bei Erstverabschiedung sowie wesentlichen Änderungen zu beteiligen ist."
+      }
+    ]
+  },
+  "rz_77": {
+    "h": "22df1b2f48fa6d8b64ff280f95b7a151",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Beschäftigten müssen über die sie betreffenden aktuellen schriftlichen Leitlinien informiert werden."
+      }
+    ]
+  },
+  "rz_78": {
+    "h": "ab362a82d530ff786ff62e064e727981",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Unternehmen führen interne Kontrollen ein, die sicherstellen, dass entsprechend den schriftlichen Leitlinien gehandelt wird bzw. Verstöße zeitnah bekannt werden."
+      }
+    ]
+  },
+  "rz_79": {
+    "h": "2803004056ac2f15b1f501459dbe1843",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Rahmen der Aufbau- und Ablauforganisation ist sicherzustellen, dass mit Risiken einhergehende automatisierte Geschäftsabläufe, zu denen auch die automatisierte Risikozeichnung, die automatisierten Einzelfallentscheidungen bei der Bearbeitung von Schadens- und Leistungsfällen sowie die automatisierte Bestandsverwaltung gehören, angemessen gesteuert und überwacht und die Anforderungen an die Geschäftsorganisation erfüllt werden. Dies setzt neben der Beurteilung der automatisierten Geschäftsabläufe aus Risikosicht insbesondere voraus, dass alle automatisierten Geschäftsabläufe identifizierbar und nachvollziehbar dokumentiert sind, Möglichkeiten für verantwortliche Personen bestehen, bei Bedarf einzugreifen, und sichergestellt wird, dass die gesamte Geschäftsleitung in Grundzügen über die Einrichtung, die Ausgestaltung und die Funktionsfähigkeit der automatisierten Geschäftsabläufe informiert ist."
+      }
+    ]
+  },
+  "rz_8": {
+    "h": "4e19a9a9a27de4c76b5cc228eb5a89ce",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bezüglich der Anforderungen an die fachliche Eignung und Zuverlässigkeit von Personen, die ein Unternehmen tatsächlich leiten oder andere Schlüsselaufgaben wahrnehmen, sowie entsprechender Anzeigepflichten wird auf das Rundschreiben 9/2023 (VA) zur fachlichen Eignung und Zuverlässigkeit von Mitgliedern der Geschäftsleitung gemäß VAG, das Rundschreiben 10/2023 (VA) zur fachlichen Eignung und Zuverlässigkeit von Mitgliedern von Verwaltungs- und Aufsichtsorganen gemäß VAG und das Rundschreiben 11/2023 (VA) zur fachlichen Eignung und Zuverlässigkeit von Personen, die für Schlüsselfunktionen verantwortlich oder für Schlüsselfunktionen tätig sind, gemäß VAG verwiesen."
+      }
+    ]
+  },
+  "rz_80": {
+    "h": "248aede7071fe74455357994d30ec0da",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die automatisierten Geschäftsabläufe müssen dem Risikoprofil angemessen auf operativer Ebene qualitätsgesichert werden. Dazu sind Prozesse sowohl vor Inbetriebnahme, als auch im laufenden Betrieb vorzusehen."
+      }
+    ]
+  },
+  "rz_81": {
+    "h": "b04a62b0fa53c019b69dc5b32bb9c639",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die mit den automatisierten Geschäftsabläufen verbundenen Entwicklungs-, Steuerungs- und Überwachungsprozesse müssen regelmäßig und in einer dem Risikoprofil angemessenen Weise unabhängig bewertet werden."
+      }
+    ]
+  },
+  "rz_82": {
+    "h": "1c62a0a759d8195eb3e10ab391351563",
+    "b": [
+      {
+        "art": "p",
+        "t": "Schlüsselfunktionen sind die Funktion der internen Revision, die Compliance-Funktion, die unabhängige Risikocontrollingfunktion (URCF) und die versicherungsmathematische Funktion (VmF). Der Begriff „Schlüsselfunktion“ ist vom weiteren Begriff „Schlüsselaufgabe“ zu unterscheiden. Die Unternehmen können nach eigenem Ermessen neben den Schlüsselfunktionen weitere Schlüsselaufgaben bestimmen (siehe Rundschreiben 11/2023 (VA) zur fachlichen Eignung und Zuverlässigkeit von Personen, die für Schlüsselfunktionen verantwortlich oder für Schlüsselfunktionen tätig sind, gemäß VAG). Dazu prüfen die Unternehmen, ob und welche Bereiche so wichtig sind, um als Schlüsselaufgaben wahrgenommen zu werden. Das können beispielsweise die Bereiche IT-Sicherheit, Kapitalanlagen oder Recht sein."
+      }
+    ]
+  },
+  "rz_83": {
+    "h": "1a91d73eb409bae7eff0cf61c3d5a6a3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen ist frei in der Entscheidung, wie es die Schlüsselfunktionen einrichtet, jedoch müssen der Zweck der jeweiligen Schlüsselfunktion und das Proportionalitätsprinzip berücksichtigt werden. In Betracht kommen zentrale, stabsstellenartige, dezentrale, integrierte oder hybride Gestaltungen (zur Ausgliederung siehe Abschnitte 13.4 und 13.5). Die gewählten Gestaltungen dürfen die effektive, objektive, faire und unabhängige Aufgabenwahrnehmung der Schlüsselfunktionen nicht beeinträchtigen. Das gilt in besonderem Maß für die Funktion der internen Revision."
+      }
+    ]
+  },
+  "rz_84": {
+    "h": "14181376eca3b1bf665704f6ae224d75",
+    "b": [
+      {
+        "art": "p",
+        "t": "Den Schlüsselfunktionen ist im Unternehmen eine hervorgehobene Stellung einzuräumen. Sie stehen gleichrangig und gleichberechtigt nebeneinander. Die für eine Schlüsselfunktion intern verantwortliche Person (siehe Abschnitt 10.1.1) unterliegt, sofern es sich nicht um ein Mitglied der Geschäftsleitung handelt, bezüglich der Wahrnehmung der Schlüsselfunktion nur den Weisungen der Geschäftsleitung. Dies gilt auch dann, wenn die Schlüsselfunktion organisatorisch nicht unmittelbar der Geschäftsleitungsebene nachgeordnet ist. Die gesamte Geschäftsleitung bildet die Eskalationsinstanz im Falle von Kontroversen zwischen den Schlüsselfunktionen, für die entweder dasselbe Mitglied der Geschäftsleitung verantwortlich ist oder die nicht zwischen den jeweils verantwortlichen Mitgliedern der Geschäftsleitung gelöst werden können."
+      }
+    ]
+  },
+  "rz_85": {
+    "h": "01e523daaf270938cbffd9ebd584e143",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Schlüsselfunktionen müssen ihre Aufgaben jederzeit effektiv, objektiv, fair und unabhängig erfüllen. Wie die Schlüsselfunktionen im Übrigen ihre Aufgaben erfüllen, ist unternehmensindividuell gestaltbar. Besonders bei integrierten Ansätzen zur Organisation einer Schlüsselfunktion kommt es aber auf eine eindeutige und transparente Aufgabendefinition und Aufgabenzuweisung an. Diese muss in schriftlichen Leitlinien festgehalten werden."
+      }
+    ]
+  },
+  "rz_86": {
+    "h": "19994191c7cdce7dc781e1462b0f7143",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Schlüsselfunktionen müssen mit ausreichenden sachlichen und personellen Ressourcen und erforderlichen Befugnissen ausgestattet sein, um ihre Aufgaben effektiv wahrnehmen zu können. Die Befugnisse der Schlüsselfunktionen sind in schriftlichen Leitlinien zu verankern. Die Rechte und Pflichten der Schlüsselfunktionen bestimmen sich anhand ihrer konkreten Aufgaben. Hierzu gehören zumindest der uneingeschränkte Zugang zu allen für die Aufgabenerfüllung notwendigen Informationen und zu Beschäftigten, der uneingeschränkte Zugriff auf relevante Daten und Systeme sowie das Einräumen einer direkten Berichtslinie zur Geschäftsleitung."
+      }
+    ]
+  },
+  "rz_87": {
+    "h": "ec0f6c452665b5bd40127b758808afb4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auch in Gruppen haben verbundene Unternehmen alle Schlüsselfunktionen auf der Ebene des Einzelunternehmens einzurichten. Das für die Erfüllung der Anforderungen an die Geschäftsorganisation auf Gruppenebene zuständige Unternehmen hat für die zusätzliche Einrichtung der Schlüsselfunktionen auf Gruppenebene Sorge zu tragen."
+      }
+    ]
+  },
+  "rz_88": {
+    "h": "3733cabe3dab61a898f57493acad18d2",
+    "b": [
+      {
+        "art": "p",
+        "t": "In allen – auch dezentralen – Gestaltungsformen muss es ungeachtet der Verantwortung der gesamten Geschäftsleitung eine natürliche Person geben, die die Verantwortung dafür trägt, dass die jeweilige Schlüsselfunktion ihre Aufgaben ordnungsgemäß erfüllt. Bei einer unternehmensinternen Einrichtung einer Schlüsselfunktion handelt es sich um die für diese Funktion „intern verantwortliche Person“ (zur Ausgliederung siehe Abschnitte 13.4 und 13.5). Es ist nicht zulässig, diese Verantwortung ganz oder teilweise mehreren natürlichen Personen zuzuordnen. Personen, die für eine Schlüsselfunktion tätig sind, kann es hingegen viele geben."
+      }
+    ]
+  },
+  "rz_89": {
+    "h": "f1cc1b1cdec129b504a9725e622c2fc6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein Mitglied der Geschäftsleitung kann nur im Einzelfall zugleich intern verantwortliche Person für eine Schlüsselfunktion sein (zur Ausgliederung siehe Abschnitte 4 und 13.5), insbesondere wenn diese Gestaltung dem Risikoprofil des Unternehmens angemessen ist. § 23 Abs. 1 Satz 3 VAG ist anwendbar, so dass eine dem Risikoprofil des Unternehmens angemessene Trennung der Zuständigkeiten bestehen muss, auch im Verhältnis der Aufgaben als intern verantwortliche Person und als Mitglied der Geschäftsleitung. Außerdem ist Artikel 258 Abs. 1 Buchstabe g DVO anwendbar, so dass die Unternehmen gewährleisten müssen, dass die Zuweisung der weiteren Aufgabe als intern verantwortliche Person das betreffende Mitglied der Geschäftsleitung nicht daran hindert oder zu hindern droht, alle seine Aufgaben – gegebenenfalls auch bei anderen Unternehmen – verlässlich, redlich und objektiv auszuüben. Dies setzt unter anderem ausreichende zeitliche Kapazitäten voraus. Im Übrigen wird auf das Rundschreiben 11/2023 (VA) zur fachlichen Eignung und Zuverlässigkeit von Personen, die für Schlüsselfunktionen verantwortlich oder für Schlüsselfunktionen tätig sind, gemäß VAG verwiesen."
+      }
+    ]
+  },
+  "rz_9": {
+    "h": "40f669e66dbba000a2e174b099f90dc0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Spezielle Anforderungen, die die Bafin im Rahmen anderer Veröffentlichungen an die Geschäftsorganisation von Unternehmen stellt, bleiben von den Anforderungen dieses Rundschreibens unberührt. Der gegebenenfalls abweichende Anwendungsbereich einer anderen Veröffentlichung bleibt vom Anwendungsbereich dieses Rundschreibens unberührt."
+      }
+    ]
+  },
+  "rz_90": {
+    "h": "8b9361b9fcf0303768fa9d5a66f2d75f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine Person, die als Mitglied der Geschäftsleitung oder unterhalb der Geschäftsleitung tätig ist, kann nur nach Maßgabe des Proportionalitätsprinzips gleichzeitig intern verantwortliche Person für mehrere unterschiedliche Schlüsselfunktionen sein. Je mehr unterschiedliche Schlüsselfunktionen betroffen sind, desto genauer müssen die Unternehmen darlegen, dass diese Gestaltung ihrem Risikoprofil angemessen ist. Eine weitere Grenze für die Zuweisung mehrerer Aufgaben an dieselbe Person ergibt sich aus Artikel 258 Abs. 1 Buchstabe g DVO (siehe Rn. 89). Bezüglich der Funktion der internen Revision gelten besondere Bedingungen (siehe Abschnitt 4)."
+      }
+    ]
+  },
+  "rz_91": {
+    "h": "6ae9f481100b214ffaa1975e59e0bc5d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die jeweilige intern verantwortliche Person für eine Schlüsselfunktion (siehe Abschnitt 1.1) muss unmittelbar an die gesamte Geschäftsleitung berichten. Dazu erstellt sie mindestens einmal jährlich einen regelmäßigen schriftlichen Bericht. Die Berichte müssen aus sich heraus verständlich und an die gesamte Geschäftsleitung gerichtet sein. Bei akuten, schwerwiegenden Vorfällen und Feststellungen ist zudem ein Ad-hoc-Bericht zu erstellen. Der Ad-hoc-Bericht ist in der Regel der gesamten Geschäftsleitung vorzulegen. Die Berichtserstattungspflicht besteht auch dann, wenn die Schlüsselfunktion organisatorisch nicht unmittelbar der Geschäftsleitungsebene nachgeordnet ist."
+      }
+    ]
+  },
+  "rz_92": {
+    "h": "ce1ecc81fdb70a19ae102e70180a654e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Spiegelbildlich hierzu muss die Geschäftsleitung die intern verantwortliche Person für die jeweilige Schlüsselfunktion eigeninitiativ und zeitnah über alle Tatsachen informieren, die für ihre Aufgabenerfüllung erforderlich sein können. Für andere Unternehmenseinheiten gilt diese Informationspflicht gegenüber der intern verantwortlichen Person für die jeweilige Schlüsselfunktion entsprechend."
+      }
+    ]
+  },
+  "rz_93": {
+    "h": "86cd0b7fdb16946d612d16a650b66a2d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Analoge Informationsflüsse sind auch zwischen den vom Unternehmen eingerichteten Schlüsselaufgaben und der Geschäftsleitung einzuführen."
+      }
+    ]
+  },
+  "rz_94": {
+    "h": "0df823d040946fd314fb864ee980bd46",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Compliance-Funktion überwacht nach Maßgabe der folgenden Absätze die Einhaltung der zu beachtenden Gesetze und Verordnungen, aufsichtsbehördlichen Anforderungen sowie externen Standards."
+      }
+    ]
+  },
+  "rz_95": {
+    "h": "749eed1a52781d7ee28fdffe1223f4b0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Hinsichtlich externer Standards im Sinne der Rn. 94 gilt, dass nur solche externen Standards zu beachten sind, die für das Unternehmen von großer Bedeutung sind oder mit wesentlichen Risiken einhergehen und von national oder international anerkannten Akteuren stammen. Auf welche externen Standards diese Kriterien zutreffen, ist unter Anwendung des Proportionalitätsprinzips unternehmensindividuell festzulegen. Die identifizierten externen Standards sind in den schriftlichen Leitlinien und im Compliance-Plan konsistent zu berücksichtigen."
+      }
+    ]
+  },
+  "rz_96": {
+    "h": "9c4a1a4903b127db09ecd11be77438bd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Compliance-Funktion überwacht insbesondere, ob die Einhaltung der zu beachtenden Gesetze und Verordnungen, aufsichtsbehördlichen Anforderungen sowie externen Standards durch geeignete und wirksame interne Verfahren sichergestellt wird. Dabei ist nicht erforderlich, dass die Compliance-Funktion selbst solche Verfahren implementiert. Vielmehr hat die Compliance-Funktion gegebenenfalls zu überwachen, ob die betroffenen Bereiche geeignete und wirksame Verfahren eigenverantwortlich einrichten. Für die Überwachung müssen der Compliance-Funktion die internen Vorgaben bekannt sein, welche die Einhaltung der zu beachtenden Gesetze und Verordnungen, aufsichtsbehördlichen Anforderungen sowie externen Standards sicherstellen. Eine Prüfung, ob diese internen Vorgaben ihrerseits eingehalten werden, ist zu gewährleisten. Dabei ist nicht erforderlich, dass die Compliance-Funktion selbst diese Aufgabe wahrnimmt. Die Compliance-Funktion muss gegebenenfalls mindestens Art, Umfang und Ergebnisse der von anderen Stellen durchgeführten Prüfung kennen und unter Compliance-Gesichtspunkten bewerten."
+      }
+    ]
+  },
+  "rz_97": {
+    "h": "7d7e8fce836bdd51bffb4a8ef1872aea",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Überwachung umfasst mindestens die Rechtsbereiche, die für das Unternehmen mit wesentlichen Risiken verbunden sind. Unabhängig davon sind zumindest die für den Betrieb des Versicherungsgeschäftes geltenden Gesetze, Verordnungen und aufsichtsbehördlichen Anforderungen sowie die vom Unternehmen festgelegten externen Standards von der Compliance-Funktion zu überwachen (siehe Rn. 96)."
+      }
+    ]
+  },
+  "rz_98": {
+    "h": "d8a43da40c4db08c658343c7edcb9686",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verantwortlichkeit und der Aufgabenkatalog einer/eines gesetzlich vorgeschriebenen Unternehmensbeauftragten bleiben unberührt. Gesetzlich vorgeschriebene Unternehmensbeauftragte führen jedoch nicht dazu, dass die betreffenden Rechtsbereiche vollständig aus der Verantwortung der Compliance-Funktion herausfallen. Die Compliance-Funktion muss bei Rechtsbereichen, die mit wesentlichen Risiken verbunden sind, dann mindestens überwachen, ob die Unternehmensbeauftragten ihre gesetzlich vorgeschriebenen Aufgaben wahrnehmen."
+      }
+    ]
+  },
+  "rz_99": {
+    "h": "44e5d46f70bee8bbbf4ceddc12a7b2ef",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Compliance-Funktion berät die Geschäftsleitung in Bezug auf die Einhaltung der für den Betrieb des Versicherungsgeschäftes geltenden Gesetze, Verordnungen, aufsichtsbehördlichen Anforderungen und die vom Unternehmen festgelegten externen Standards. Die Compliance-Funktion kann die Geschäftsleitung unter anderem dabei unterstützen, den Beschäftigten die Compliance-Themen bewusst zu machen und darauf hinzuwirken, dass diese in der täglichen Arbeit beachtet werden."
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 # Sicherheit
 
-Stand: 01.10.2026 (v1.8). Maßstab ist **OWASP ASVS 5.0, Level 2**, wie im Auftrag
+Stand: 02.10.2026 (v1.9). Maßstab ist **OWASP ASVS 5.0, Level 2**, wie im Auftrag
 vorgegeben. Diese Datei hält fest, was geprüft wurde, was erfüllt ist, was nicht
 zutrifft und was offen bleibt. Sie ist Teil der Betriebsdokumentation – wer etwas
 ändert, zieht sie nach.
@@ -38,6 +38,35 @@ Bauweise. Was bleibt, ist in zwei Punkten echt: **die Inhalte fremder Quellen**
 | V12 Dateien, Ressourcen | **erfüllt** | Die App lädt keine Dateien hoch und nimmt keine an. Das Werkzeug packt ZIP-Archive von gesetze-im-internet.de aus und nimmt daraus **genau eine** XML-Datei nach Namensendung – keine Pfade aus dem Archiv werden zum Schreiben verwendet. |
 | V13 API | **nicht zutreffend** | Keine eigene Schnittstelle. |
 | V14 Konfiguration | **erfüllt** | Sicherheitsvorgaben als `meta`-Angaben in `index.html`, weil GitHub Pages keine eigenen Kopfzeilen setzt: `Content-Security-Policy` mit `default-src 'none'`, `script-src 'self'`, `frame-ancestors 'none'`, `base-uri 'none'`, `form-action 'none'`, dazu `referrer: strict-origin-when-cross-origin`. `'unsafe-inline'` steht **nur** bei `style-src` (Stilblock im Kopf und `style`-Attribute im Code), nicht bei `script-src`. Alle zwölf Ansichten wurden mit einem Lauscher auf `securitypolicyviolation` durchgeklickt: keine Verstöße, keine Fehler. |
+
+## Nutzungsrechte je Quelle
+
+Weil die Anwendung Rechtstexte wiedergibt, gehört die Rechtefrage zur Prüfung. Sie
+ist in `daten/quellen.json` unter `nutzungsbedingungen` dokumentiert und wird je
+Konnektor zugeordnet; `kompass pruefen` schlägt an, wenn ein Konnektor ohne
+dokumentierte Bedingung dasteht.
+
+| Quelle | Grundlage | Folge für die Anwendung |
+|---|---|---|
+| EU-Recht (CELLAR) | Beschluss 2011/833/EU – Weiterverwendung mit Quellenangabe | Volltext, Quellenangabe und Hinweis auf die amtliche Fassung |
+| Deutsche Gesetze (gesetze-im-internet.de) | amtliche Werke, § 5 UrhG | Volltext, Quellenangabe |
+| **BaFin** (bafin.de) | Nutzungsbedingungen „Haftungsausschluss & Copyright", geprüft am 01.10.2026: Inhalte dürfen gespeichert, weitergegeben und vervielfältigt werden, **nur mit deutlicher Quellenangabe**; amtliche Werke nach § 5 Absatz 2 UrhG dürfen **nicht verändert** werden | Volltext der HTML-Veröffentlichungen, mit „© Bundesanstalt für Finanzdienstleistungsaufsicht / www.bafin.de" an jeder Fassung und unverändertem Wortlaut |
+| Normen und Frameworks (ISO, COBIT, ITIL, C5, CSA, NIST, GDV) | kostenpflichtig bzw. eigene Bedingungen | **kein** Volltext, nur eigene Zusammenfassungen mit Pflichthinweis |
+
+Zwei Vorbehalte sind in den BaFin-Bedingungen ausdrücklich genannt und deshalb
+Teil des Verfahrens: Ein einzelnes Dokument kann abweichende Bedingungen tragen,
+und für Inhalte Dritter in einem Dokument gilt deren Urheberrecht. Vor der
+Aufnahme einer BaFin-Veröffentlichung wird daher geprüft, ob am Dokument ein
+abweichender Hinweis steht. Für die beiden aufgenommenen Werke (MaGo für SII-VU,
+FAQs zu DORA) ist das am 01.10.2026 geprüft worden: kein abweichender Hinweis.
+
+**Unverändert heißt wörtlich unverändert.** Der Parser gliedert nur – er
+formuliert nichts um. Eine Stelle war dabei heikel: Die Seiten der BaFin setzen
+`abbr`-Auszeichnungen mitten in den Satz („Versicherungsaufsichtsgesetz
+(<abbr>VAG</abbr>)"). Werden die Textstücke mit einem Leerzeichen verbunden,
+entsteht „( VAG )" – eine Veränderung des Wortlauts. Deshalb werden die
+Textstücke ohne Trennzeichen zusammengeführt; der erste Abruf wurde mit
+`--erzwingen` korrigiert, nachdem das auffiel.
 
 ## Die Leine: Schutz vor SSRF
 
@@ -93,7 +122,7 @@ Standard-Token (`contents: write`, `actions: write`), kein eigenes Geheimnis.
 
 ## Testabdeckung
 
-Gemessen mit `cargo llvm-cov` (Stand 01.10.2026, 56 Tests):
+Gemessen mit `cargo llvm-cov` (Stand 02.10.2026, 62 Tests):
 
 | Teil | Zeilen abgedeckt |
 |---|---|
@@ -102,11 +131,12 @@ Gemessen mit `cargo llvm-cov` (Stand 01.10.2026, 56 Tests):
 | `zusammenfassung.rs` (eigene Zusammenfassungen) | 96 % |
 | `screening.rs` (Feeds, Relevanz, Dedup, Datum) | 90 % |
 | `netz.rs` (Leine) | 89 % |
+| `bafin.rs` (BaFin-Parser) | 88 % |
 | `modell.rs` (Datenmodell) | 84 % |
 | `cellar.rs` (EU-Recht-Parser) | 84 % |
 | `gii.rs` (Parser deutsche Gesetze) | 81 % |
 | **Kernlogik zusammen** | **89,3 %** |
-| `main.rs` (Ablaufsteuerung, Versionierung) | 55 % |
+| `main.rs` (Ablaufsteuerung, Versionierung) | 54 % |
 | ganzes Werkzeug | 77 % |
 
 Das Kriterium des Auftrags („Kernlogik ≥ 80 %“) ist damit erfüllt. Was in

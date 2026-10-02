@@ -1,0 +1,558 @@
+{
+  "frage_1": {
+    "h": "ee12edb9d3cea1c7e85cda3adb00b878",
+    "b": [
+      {
+        "art": "p",
+        "t": "Artikel 2 Absatz 1 DORA regelt, wer die Vorgaben von DORA erfüllen muss. Ausnahmen sind in Artikel 2 Absatz 3 in Verbindung mit Artikel 3 genannt. DORA findet seit dem 17. Januar 2025 Anwendung."
+      },
+      {
+        "art": "p",
+        "t": "Das deutsche Begleitgesetz Finanzmarktdigitalisierungsgesetz hat den Anwendungsbereich von DORA erweitert um Versicherungsholdings (siehe § 293 Absatz 5 VAG) und Institute nach § 1 Absatz 1b Kreditwesengesetz (KWG), die nicht ohnehin DORA gemäß Artikel 2 DORA anwenden müssen (siehe § 1a Absatz 2a KWG) (siehe folgende FAQ)."
+      }
+    ]
+  },
+  "frage_10": {
+    "h": "f883c420b5f27f06927890ff39c455de",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nein, die Bafin führt keine Liste von Personen, die als Testerinnen und Tester für TLPT nach Artikel 27 Absatz 1 DORA herangezogen werden können. Als testendes Finanzunternehmen müssen Sie selbst geeignete Tester auswählen – ebenso wie wie Threat-Intelligence-Dienstleister. Berücksichtigen Sie dabei bitte auch die erweiterten Anforderungen in der Delegierten Verordnung (EU) 2025/1190 (RTS zu TLPT). Eine Akkreditierungsstelle zur Zertifizierung von Testern nach Artikel 27 Absatz 1 Buchstabe c DORA existiert in Deutschland nicht."
+      }
+    ]
+  },
+  "frage_11": {
+    "h": "172dca1e7e278a3c752d5d1695ca8efe",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Testumfangspezifikation berücksichtigen Sie bitte insbesondere die folgenden Aspekte:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Artikel 26 Absatz 2 DORA"
+          },
+          {
+            "m": "",
+            "t": "Artikel 9 Absatz 6 RTS zu TLPT in Verbindung mit Anhang II"
+          },
+          {
+            "m": "",
+            "t": "Bei der Auswahl der kritischen oder wichtigen Funktionen: Artikel 9 Absatz 7 RTS zu TLPT sowie die ergänzenden ESA Q&As zu kritischen oder wichtigen Funktionen"
+          },
+          {
+            "m": "",
+            "t": "Hinweise und Best Practices aus dem TIBER-EU-Rahmenwerk gemäß dem Erwägungsgrund 1 des RTS zu TLPT"
+          }
+        ]
+      }
+    ]
+  },
+  "frage_12": {
+    "h": "d2ef8b57446e92e9073e5e2e8e349847",
+    "b": [
+      {
+        "art": "p",
+        "t": "Gebündelte Tests (Pooled Tests) sind in Artikel 26 Absatz 4 DORA definiert. Der RTS zu TLPT spezifiziert die Testmethodik."
+      },
+      {
+        "art": "p",
+        "t": "Lagert ein Finanzunternehmen, das zu einem TLPT verpflichtet ist, kritische oder wichtige Funktionen oder IKT-Systeme, -Prozesse und -Technologien, die diesen Funktionen zugrunde liegen, an IKT-Drittdienstleister aus, muss das Finanzunternehmen prüfen, ob es diese Dienstleister in den TLPT einbinden muss."
+      },
+      {
+        "art": "p",
+        "t": "Wenn die Anforderungen für einen Pooled Test erfüllt sind, können sich mehrere verpflichtete Finanzunternehmen unter der Leitung eines Finanzunternehmens zusammenschließen und mit dem IKT-Drittdienstleister gemeinsam einen Pooled Test durchführen. Sie können die Testpflicht für Ihr Finanzunternehmen aber nicht vollständig auf den IKT-Drittdienstleister übertragen."
+      }
+    ]
+  },
+  "frage_13": {
+    "h": "e9cf7c3362d61c6b472feb90ba821bd7",
+    "b": [
+      {
+        "art": "p",
+        "t": "TLPT können auch als Joint TLPT im Sinne von Artikel 1 Nummer 18 RTS zu TLPT durchgeführt werden. Dies kann insbesondere im Kontext von Gruppenstrukturen sinnvoller als ein jeweils separater TLPT sein."
+      },
+      {
+        "art": "p",
+        "t": "Der Joint TLPT muss folgende Bedingungen erfüllen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Zulässigkeit (Artikel 26 Absatz 8 Unterabsatz 3 DORA i.V.m. Artikel 2 RTS zu TLPT)"
+          },
+          {
+            "m": "",
+            "t": "Vorzugswürdigkeit (Artikel 16 Absatz 2 Satz 2 RTS zu TLPT)"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Die zuständigen TLPT-Behörden – also Bafin und Deutsche Bundesbank – prüfen und entscheiden, ob ein Joint TLPT durchgeführt wird."
+      }
+    ]
+  },
+  "frage_14": {
+    "h": "1ad6b432af8f2fe30829dfbed3dfaf57",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nein, eine solche Bescheinigung erhalten nur Finanzunternehmen, die von der zuständigen Aufsichtsbehörde gemäß Artikel 26 Absatz 8 Unterabsatz 3 DORA ermittelt worden sind."
+      }
+    ]
+  },
+  "frage_15": {
+    "h": "212b78674bb688603848c4a537986732",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es gibt keine besonderen Anforderungen für Finanzunternehmen, wenn einer ihrer IKT-Drittdienstleister als kritisch eingestuft wird."
+      },
+      {
+        "art": "p",
+        "t": "Wenn jedoch die IKT-Dienstleistungen des Vertragspartners kritische oder wichtige Funktionen in Ihrem Unternehmen unterstützen, müssen Sie zusätzliche Anforderungen an den Vertrag mit dem Dienstleister beachten (vgl. Art. 30 Abs. 3 DORA). Außerdem müssen Sie die Risiken managen, die sich aus dieser Vertragsbeziehung ergeben."
+      }
+    ]
+  },
+  "frage_16": {
+    "h": "7259c35625af00817f385aa99502ad93",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Kritikalität des IKT-Drittdienstleisters bewertet allein die Aufsicht."
+      }
+    ]
+  },
+  "frage_17": {
+    "h": "e9da3567c0a364cefd151cf9ac058434",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Regelungen der DORA-Verordnung gelten nur für Finanzunternehmen. Die Regelungen betreffen die IKT-Drittdienstleister indirekt, da die Finanzunternehmen bei der Vertragsgestaltung bestimmte Anforderungen berücksichtigen müssen."
+      }
+    ]
+  },
+  "frage_18": {
+    "h": "fcc8c95093461ff6f97ea4fe0d0e35aa",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Aufsicht bewertet zum Beispiel, ob der Dienstleister die Sicherheit, Verfügbarkeit, Kontinuität, Skalierbarkeit und Qualität der Dienste gewährleistet, die er bereitstellt. Weitere Aspekte finden sich in Artikel 33 Absatz 3 DORA."
+      }
+    ]
+  },
+  "frage_19": {
+    "h": "dab5ac55fa7a8779b26d241c3a2e5b3c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nein. Wenn die Aufsicht einen Dienstleister prüft, entbindet Sie dies nicht davon, selbst Ihren Dienstleister zu prüfen, sofern das nach den regulatorischen Anforderungen notwendig sind. Sie können sich dabei aber auf Mitteilungen der Aufsicht stützen, in denen sie über (ggf. nicht umgesetzte) Empfehlungen oder Zwangsgelder informiert (siehe nächste Frage)."
+      }
+    ]
+  },
+  "frage_2": {
+    "h": "cc3d97e3fe2508e9d34c7a4a0244288d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für alle Institute nach § 1 Absatz 1b KWG, die nicht ohnehin DORA gemäß Artikel 2 DORA anwenden müssen (zum Beispiel Bürgschaftsbanken oder Wohnungsunternehmen mit Spareinrichtung), gilt gemäß §§ 1a Absatz 2a, 65a KWG: Sie müssen Vorgaben von DORA, ihr nachgeordneten Rechtsakten und Bestimmungen des KWG, die auf Vorgaben von DORA verweisen, anwenden. Abweichend davon gilt:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "KWG-Institute, die keine CRR-Institute sind, müssen statt des regulären IKT-Risikomanagementrahmens der Artikel 5-15 DORA nur die Vorgaben des vereinfachten IKT-Risikomanagementrahmens nach Artikel 16 DORA umsetzen."
+          },
+          {
+            "m": "",
+            "t": "Sie müssen keine bedrohungsgeleiteten Penetrationstests nach den Artikeln 26 und 27 DORA durchführen."
+          },
+          {
+            "m": "",
+            "t": "Kleinstunternehmen im Sinne von Artikel 3 Nummer 60 der Verordnung (EU) 2022/2554 müssen die Vorgaben an das IKT-Drittparteienrisikomanagement nach den Artikeln 28 bis 30 DORA nicht umsetzen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Diese Pflichten gelten ab dem 1. Januar 2027. Die Anforderungen an das Meldewesen müssen schon seit dem 17. Januar 2025 umgesetzt werden."
+      },
+      {
+        "art": "p",
+        "t": "Für CRD-Drittstaatenzweigstellen beachten Sie außerdem §§ 53cg, 64c KWG."
+      }
+    ]
+  },
+  "frage_20": {
+    "h": "d7083ea0be0e5c98be1d5af945dbda1d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Berichte sind vertraulich. Eine Ausnahme gilt für die Empfehlungen gegenüber dem kritischen IKT-Drittdienstleister: Diese stellt die Aufsicht den Finanzunternehmen gemäß Artikel 42 Abs. 3 DORA zur Verfügung, die mit diesem Dienstleister zusammenarbeiten. Die Finanzunternehmen können die Berichte für ihr Risikomanagement nutzen."
+      },
+      {
+        "art": "p",
+        "t": "Die Aufsicht informiert die Finanzunternehmen auch, wenn ein kritischer IKT-Drittdienstleister den Empfehlungen nicht nachkommt oder wenn sie ein Zwangsgeld gegen ihn erlässt (Artikel 42 Absatz 2 DORA). Es ist jedoch noch nicht bekannt, wo und in welcher Form die Aufsicht dies kommuniziert."
+      }
+    ]
+  },
+  "frage_21": {
+    "h": "b2df1f6a470729cf73c8fd2da6e9effd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nur IKT-Drittdienstleister, die als kritische IKT-Drittdienstleister eingestuft und daher überwacht werden, müssen gemäß Artikel 31 Absatz 12 DORA einen Sitz in der EU haben. Sie müssen innerhalb von zwölf Monaten nach der Einstufung ein Tochterunternehmen in der EU gründen. Anhaltspunkte dazu gibt Erwägungsgrund 81 zu DORA, wonach diese Dienstleister „eine angemessene geschäftliche Präsenz“ in der EU aufrechterhalten sollen."
+      },
+      {
+        "art": "p",
+        "t": "Gründet der kritische IKT-Drittdienstleister im entsprechenden Zeitraum keinen Sitz in der EU, müssen Sie die Verträge kündigen, die Sie noch vor der Einstufung mit ihm abgeschlossen haben."
+      }
+    ]
+  },
+  "frage_22": {
+    "h": "89923e90115845d32a4418326742bc2a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Von einer Kritikalität der von einem Vorfall betroffenen Dienste sollten Sie ausgehen, wenn zwei dieser drei Kriterien erfüllt sind:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Es wurden kritische oder wichtige Funktionen des Finanzunternehmens beeinträchtigt"
+          },
+          {
+            "m": "",
+            "t": "Es wurden erlaubnispflichtige Dienstleistungen des Finanzunternehmens beeinträchtigt"
+          },
+          {
+            "m": "",
+            "t": "Ein erfolgreicher böswilliger und unbefugter Zugriff auf das Netzwerk hat stattgefunden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Nähere Informationen hierzu finden Sie in Artikel 6 des TRS zur Festlegung der Kriterien für die Klassifizierung von IKT-bezogenen Vorfällen und Cyberbedrohungen."
+      }
+    ]
+  },
+  "frage_23": {
+    "h": "233efbc0922c332429898dc45527ef90",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bitte melden Sie einen kritischen IKT-Vorfall grundsätzlich spätestens vier Stunden, nachdem er als schwerwiegend klassifiziert wurde. Melden Sie ihn innerhalb von spätestens 24 Stunden, nachdem er entdeckt wurde (TRS zur Behandlung, Klassifizierung und Berichterstattung IKT-bezogener Vorfälle)."
+      },
+      {
+        "art": "p",
+        "t": "Ausnahmen finden sich in Artikel 5 Delegierte Verordnung (EU) 2025/301.3."
+      }
+    ]
+  },
+  "frage_24": {
+    "h": "638690d4c39dea8c9ab13db5eec87ff0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Hier finden Sie sowohl technische als auch inhaltliche Ausfüllhinweise zu den jeweiligen Datenfeldern. Die Dokumente werden fortlaufend aktualisiert."
+      }
+    ]
+  },
+  "frage_25": {
+    "h": "c9b870f1cb0adce27322e3705cc5b02b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ja. Weitere Informationen finden Sie hier."
+      }
+    ]
+  },
+  "frage_26": {
+    "h": "c64388ab4ae1fedd1bf33785e465dde8",
+    "b": [
+      {
+        "art": "p",
+        "t": "IKT-Drittdienstleister sind nicht meldepflichtig. Sollte ein Vorfall bei einem Dienstleister jedoch ein relevantes Ereignis bei einem Finanzunternehmen auslösen, gilt die Meldepflicht des Finanzunternehmens."
+      }
+    ]
+  },
+  "frage_27": {
+    "h": "3f6fe3a0f0c93b1c3bd2c1998e5184bb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ja, dies ist rechtlich nicht ausgeschlossen."
+      }
+    ]
+  },
+  "frage_28": {
+    "h": "5af5c64c87edc6c7820f9cf91ad29204",
+    "b": [
+      {
+        "art": "p",
+        "t": "Staatliche Behörden, die IKT-bezogene Dienste im Zusammenhang mit Funktionen des Staates bereitstellen, sind keine IKT-Drittdienstleister im Sinne der DORA, siehe Erwägungsgrund 63. Daher fällt das MVP-Portal der Bafin nicht unter die Anforderungen zum IKT-Drittparteienrisikomanagement. Dies gilt auch für die Deutsche Bundesbank."
+      }
+    ]
+  },
+  "frage_29": {
+    "h": "aaa069b9bcc78f8a17070dd46a59adf0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die erforderlichen LEI-Nummern und/oder EUIDs erhalten Sie von den IKT-Drittdienstleistern selbst."
+      },
+      {
+        "art": "p",
+        "t": "Geben Sie beide IDs an, wenn Ihr Drittdienstleister über beide verfügt. Wenn Ihr Dienstleister eine natürliche Person ist, können Sie diese mittels der Handelsregisternummer, der Umsatzsteuer-Identifikationsnummer, der Reisepassnummer oder der Personalausweisnummer identifizieren."
+      }
+    ]
+  },
+  "frage_3": {
+    "h": "a28561a707026bcac52b7983c60a4612",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das hängt davon ab, welche Art von Dienstleistung das regulierte Finanzunternehmen erbringt. Ist diese Dienstleistung selbst eine regulierte Finanzdienstleistung oder eine untrennbar damit verbundene Nebenleistung, dann wird diese nicht als IKT-Dienstleistung i.S.v. Artikel 3 Nr. 21 DORA behandelt. Diese Ausnahme gilt allerdings nur für die Anforderungen, die DORA ans IKT-Drittparteienrisikomanagement stellt. Sonstige Vorgaben von DORA sowie sektorale Auslagerungsanforderungen gelten weiterhin."
+      },
+      {
+        "art": "p",
+        "t": "Diese Differenzierung hat die Kommission im Rahmen des europäischen Q&A-Prozesses mitgeteilt."
+      }
+    ]
+  },
+  "frage_30": {
+    "h": "6731cebd48b6138da8daf705be5717bf",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nein, da mit einer fiktiven Dummy-LEI (z.B. 01234567890123456789) das Ziel dieser Abfrage in den Informationsregistern, nämlich die eindeutige Identifikation der IKT-Drittdienstleister, leerlaufen würde."
+      },
+      {
+        "art": "p",
+        "t": "Neben der LEI dürfen IKT-Drittdienstleister auch per EUID identifiziert werden, sofern sie einen Sitz in der EU haben. Laut Artikel 3 Absatz 5 der Durchführungsverordnung (EU) 2024/2956 zum Informationsregister müssen alle IKT-Drittdienstleister mit mindestens einer dieser beiden IDs identifiziert werden."
+      }
+    ]
+  },
+  "frage_31": {
+    "h": "638690d4c39dea8c9ab13db5eec87ff0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Hier finden Sie sowohl technische als auch inhaltliche Ausfüllhinweise zu den jeweiligen Datenfeldern. Die Dokumente werden fortlaufend aktualisiert."
+      }
+    ]
+  },
+  "frage_32": {
+    "h": "cc16437392b551109c7b2ac8c0607ec9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beachten Sie bei der Befüllung des Informationsregisters die von den ESAs veröffentlichten Validierungsregeln für die einzelnen Datenfelder. Bei fehlerhaften Registern oder nicht ausgefüllten Datenfeldern müssen Sie damit rechnen, dass Sie korrigierte Register einreichen müssen."
+      }
+    ]
+  },
+  "frage_33": {
+    "h": "0c8f7b44894169fc4e30363ddf0dab4b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sofern die IKT-Dienstleistung nicht der Unterstützung einer kritischen oder wichtigen Funktion des Finanzunternehmens dient, übermitteln Sie der Bafin nur die Information zum IKT-Drittdienstleister, der in einem direkten Vertragsverhältnis zum Finanzunternehmen steht (Rang 1)."
+      },
+      {
+        "art": "p",
+        "t": "Eine Ausnahme gibt es für gruppeninterne IKT-Drittdienstleister, bei denen Sie den ersten externen IKT-Drittdienstleister ebenfalls aufführen müssen. Für IKT-Dienstleistungen, die kritische oder wichtige Funktionen des Finanzunternehmens unterstützen, soll das Register auch Informationen zu sämtlichen Unterauftragnehmern enthalten, die die Erbringung der IKT-Dienstleistung wirksam unterstützen."
+      }
+    ]
+  },
+  "frage_34": {
+    "h": "0b498961fcf284fe2a9a02613bf6c4e0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verfolgen Sie den Status der Meldungen im MVP-Portal. Erläuterungen zum konkreten Ablauf finden Sie hier. Wenn die ESAs die Einreichung akzeptiert haben, wird dies im Protokoll im MVP-Portal angezeigt. Erst dann gilt die Meldepflicht als erfüllt. Durch den Weiterleitungsprozess an die ESAs kann es bis zu 48 Stunden dauern, bis dies im Meldungsprotokoll der MVP erscheint."
+      },
+      {
+        "art": "p",
+        "t": "Sollte Ihr Informationsregister im Status „in Verarbeitung (extern)“ verharren und Sie innerhalb von 48 Stunden keine Rückmeldung im MVP-Portal erhalten haben, reichen Sie das Register bitte erneut ein. Passen Sie vor dem erneuten Upload im MVP-Portal den Dateinamen an, indem Sie den Zeitstempel am Ende des Dateinamens aktualisieren."
+      },
+      {
+        "art": "p",
+        "t": "Sofern die ESAs die Einreichung zurückweisen, finden Sie die beanstandeten Fehler im MVP-Portal. In diesem Fall laden Sie das korrigierte Informationsregister schnellstmöglich, in jedem Fall jedoch vor Ablauf der Einreichungsfrist Ende März, erneut im MVP-Portal hoch. Legen Sie hierfür eine separate, neue Meldung an."
+      }
+    ]
+  },
+  "frage_35": {
+    "h": "f8dc5472f0c96f8e086daeebe67794ba",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nein. Das Datenqualitätsfeedback der ESAs wird aktuell nur einmal ausgespielt. Ein korrigiertes Informationsregister durchläuft aber die üblichen Validierungen der Bafin und der EBA. Sollten dabei Fehler auffallen, werden Sie über das MVP-Portal benachrichtigt."
+      }
+    ]
+  },
+  "frage_36": {
+    "h": "0d5fc9f572c2bc50d4d32f2ed6683cb8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Datenqualitätsfeedback der ESAs ist im Jahr 2026 erstmalig ausgespielt worden. Dabei ist aufgefallen, dass Finanzunternehmen nach Korrektur der im Protokoll genannten Fehler häufig Fehlermeldungen vom Typ 705 angezeigt wurden, nachdem ihr Register erneut validiert worden war. Der Grund hierfür: Die Finanzunternehmen hatten LEI-Nummern angepasst."
+      },
+      {
+        "art": "p",
+        "t": "Wenn Sie LEIs im Informationsregister anpassen, achten Sie bitte darauf, die im Datenmodell aufgeführten Abhängigkeiten einzuhalten. Achten Sie insbesondere darauf, die LEIs von IKT-Drittdienstleistern und ihren Unterauftragnehmern in Tabelle 05.02 aufzunehmen."
+      }
+    ]
+  },
+  "frage_37": {
+    "h": "d44956cf78348ee7d15ba5d671ab96cd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für das Datenqualitätsfeedback vergleichen die ESAs die Angaben tausender Finanzunternehmen zu identischen Sachverhalten miteinander. Eine inhaltliche Validierung der Daten erfolgt hierbei nicht. Vielmehr werden Auffälligkeiten ermittelt. Dazu gehen die ESAs davon aus, dass die mehrheitlich gemeldeten Angaben den korrekten Sachverhalt widerspiegeln. Dies muss aber nicht zwangsläufig richtig sein."
+      },
+      {
+        "art": "p",
+        "t": "Sollten Sie nach der Prüfung der Auffälligkeit zu dem Ergebnis kommen, dass Sie die Daten richtig erfasst haben, behalten Sie Ihre korrekten Einträge im Informationsregister bei. Dokumentieren Sie jedoch intern die Abweichung, damit diese ggf. nachvollzogen werden kann – etwa mit einem Screenshot des jeweiligen GLEIF-Eintrags."
+      }
+    ]
+  },
+  "frage_38": {
+    "h": "6d5bd31117f8f4c897a8dee669e55027",
+    "b": [
+      {
+        "art": "p",
+        "t": "Im Jahr 2026 haben die ESAs Datenqualitätsfeedbacks für ca. 90 Prozent der bei der Bafin eingereichten Informationsregister über das MVP-Portal ausgespielt. 10 Prozent der eingereichten Informationsregister enthielten aus Sicht der ESAs keine Auffälligkeiten. Wenn Sie kein Datenqualitätsfeedback erhalten, müssen Sie nichts weiter unternehmen."
+      }
+    ]
+  },
+  "frage_39": {
+    "h": "2e7356118061f4d42035b0022f52ec4e",
+    "b": [
+      {
+        "art": "p",
+        "t": "In diesem Fall reichen Sie das Informationsregister bitte erneut ein."
+      }
+    ]
+  },
+  "frage_4": {
+    "h": "d7e8c76dc4a2131f8ca8d287292f7e19",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das IKT-Drittparteienrisikomanagement nach DORA ergänzt die bestehenden sektoralen Regelungen zu Auslagerungen oder Ausgliederungen. Die sektorspezifischen Anforderungen an Auslagerungen/Ausgliederungen bzw. Weiterverlagerungen sind somit grundsätzlich weiterhin parallel zu beachten.Beachten Sie die neue Regelung, beispielsweise in den MaRisk."
+      }
+    ]
+  },
+  "frage_40": {
+    "h": "eff7cb74b7370b1511f5b4c2ca2a2e16",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nein, dies ist für den aktuellen Einreichungszyklus nicht mehr möglich. Damit gilt das Informationsregister als nicht bzw. nicht korrekt eingereicht."
+      },
+      {
+        "art": "p",
+        "t": "Selbst, wenn das DORA-Fachverfahren im MVP-Portal weiterhin verfügbar ist, erhalten Sie eine automatische Fehlermeldung der ESAs im MVP-Portal, da die ESAs ihren Einreichungskanal geschlossen haben."
+      }
+    ]
+  },
+  "frage_41": {
+    "h": "b6530e903e7d682afb56488f7a4a5cef",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nein, das MVP-Portal ist der einzige zugelassene Einreichungskanal. Bitte reichen Sie auch nach Fristablauf keine Informationsregister per E-Mail ein, da die Bafin diese Register nicht annehmen und verarbeiten kann. Diese werden daher auch nicht an die zuständigen Aufseherinnen und Aufseher weitergeleitet. Die Einreichung ist erst zum nächsten regulären Einreichungszyklus im folgenden Jahr möglich."
+      }
+    ]
+  },
+  "frage_42": {
+    "h": "4aa8e586569ba3a17a9425c0585f9c74",
+    "b": [
+      {
+        "art": "p",
+        "t": "Finanzunternehmen sind verpflichtet, Änderungen bei vertraglichen Vereinbarungen über genutzte IKT-Dienstleistungen umgehend in ihr Informationsregister einzutragen."
+      },
+      {
+        "art": "p",
+        "t": "Bitte reichen Sie das aktuelle Informationsregister nur dann ein, wenn die Aufsicht Sie dazu auffordert. Werden Sie nicht dazu aufgefordert, übermitteln Sie die Information regulär im nächsten jährlichen Einreichungsturnus."
+      }
+    ]
+  },
+  "frage_43": {
+    "h": "06c13e311aa542ec933fe979d48715c8",
+    "b": [
+      {
+        "art": "p",
+        "t": "In einem solchen Einzelfall füllen Sie bitte das Excel-Formular aus und senden es per Mail an DORA-Informationsregister@bafin.de zu senden. Bitte beachten Sie die Hinweise zur gesicherten E-Mail-Kommunikation."
+      }
+    ]
+  },
+  "frage_44": {
+    "h": "d8585e61e109b2467afa377cc9590129",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die europäischen Aufsichtsbehörden EBA, EIOPA und ESMA beantworten im Rahmen des Single Rulebooks Auslegungsfragen zu DORA. Dazu gehören auch Fragen zu den delegierten Verordnungen, technischen Regulierungsstandards (RTS) und technischen Durchführungsstandards (ITS) sowie zu Leitlinien im Rahmen des Q&A-Prozesses."
+      },
+      {
+        "art": "p",
+        "t": "Veröffentlichte Antworten finden Sie entweder auf den einzelnen Seiten der ESAs (EBA, EIOPA, ESMA) oder in einer Übersicht über alle Q&As zu DORA."
+      }
+    ]
+  },
+  "frage_5": {
+    "h": "6f91c0fb09673ae3978e9711e4a6d045",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Definition von kritischen oder wichtigen Funktionen bezieht sich auf die Auswirkungen eines Ausfalls und teilweise auf die Auswirkungen einer unterbrochenen, fehlerhaften oder unterbliebenen Leistung beim Finanzunternehmen. Dies ähnelt dem Schutzziel der Verfügbarkeit, ist aber damit nicht identisch. Eine Funktion kann zum Beispiel auch unter dem Aspekt der Vertraulichkeit kritisch oder wichtig sein."
+      }
+    ]
+  },
+  "frage_6": {
+    "h": "1e7602fa311d63d6256784caf01e5b38",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es kann auch bei standardisierten Prüfungen sinnvoll sein, von einem IKT-Drittdienstleister die Erweiterung des Prüfungsumfangs zu verlangen – beispielsweise, damit alle vom Finanzunternehmen genutzten Dienstleistungen oder Orte der Leistungserbringung abgedeckt werden. Denkbar ist es auch, zusätzliche Aspekte zu prüfen."
+      }
+    ]
+  },
+  "frage_7": {
+    "h": "f188cf19ec40af4dffc1273603af792c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Prüfungsberichte der Internen Revision des IKT-Drittdienstleisters können Sie nutzen, soweit dies angemessen ist und Sie gewisse Kriterien beachten (siehe Artikel 8 Absatz 3 RTS Leitlinie IKT-Dienstleistungen)."
+      }
+    ]
+  },
+  "frage_8": {
+    "h": "8e35e166795a96000922d19e9a95d255",
+    "b": [
+      {
+        "art": "p",
+        "t": "In der Regel ja. Die Bedingungen dazu finden sich in Artikel 8 Absatz 2 und 3 RTS Leitlinie IKT-Dienstleistungen)."
+      }
+    ]
+  },
+  "frage_9": {
+    "h": "776c1c23ea8d74277a100512b241d410",
+    "b": [
+      {
+        "art": "p",
+        "t": "Artikel 30 Absatz 2 lit. i) i.V.m Artikel 13 Absatz 6 legt fest: Sie müssen vertraglich vereinbaren, unter welchen Bedingungen IKT-Drittdienstleister an den von Ihrem Finanzunternehmen angebotenen Schulungen teilnehmen. Das sind Programme, die für IKT-Sicherheit sensibilisieren oder zur digitalen operationalen Resilienz schulen. Welche Bedingungen Sie vereinbaren und ob Sie eine Schulung durchführen müssen, können Sie risikoorientiert und proportional entscheiden."
+      }
+    ]
+  }
+}

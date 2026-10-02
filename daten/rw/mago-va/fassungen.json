@@ -1,0 +1,17 @@
+{
+  "regelwerk": "mago-va",
+  "fassungen": [
+    {
+      "id": "2025-07-14",
+      "stand": "2025-07-14T00:00:00Z",
+      "abgerufen": "2026-10-02T05:35:09Z",
+      "quelle": {
+        "name": "Hinweis zur Verwendung von Cookies",
+        "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Rundschreiben/2025/rs_rundschreiben_09_25_va.html",
+        "hinweis": "© Bundesanstalt für Finanzdienstleistungsaufsicht / www.bafin.de – Wiedergabe unverändert und mit Quellenangabe, wie es die Nutzungsbedingungen der BaFin vorsehen. Rechtsverbindlich ist allein die von der BaFin veröffentlichte Fassung."
+      },
+      "hash": "d414510a87593b432faa79d4cae5f8385ab8ef28ab023bf90498241634f4efa2",
+      "fundstellen": 256
+    }
+  ]
+}

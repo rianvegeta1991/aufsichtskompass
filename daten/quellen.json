@@ -4,9 +4,10 @@
   "typen": {
     "cellar": "EUR-Lex ueber CELLAR (publications.europa.eu/resource/celex/<CELEX>), Content-Negotiation auf XHTML. Umgesetzt.",
     "gii": "gesetze-im-internet.de, XML-Fassung je Gesetz (ZIP). Umgesetzt; optional auf einzelne Paragrafen beschraenkbar.",
-    "bafin-pdf": "BaFin-Rundschreiben als PDF. Noch nicht umgesetzt.",
+    "bafin-pdf": "BaFin-Veroeffentlichung nur als PDF (z. B. MaRisk, Aufsichtsmitteilung DORA). Nicht umgesetzt: ein PDF-Textextraktor fehlt. Diese Werke bleiben auf \"Zusammenfassung\" mit Link auf die Quelle.",
     "rss": "RSS-/Atom-Feed. Umgesetzt; Abruf mit ETag und Last-Modified, Fehler je Quelle brechen den Lauf nicht ab.",
-    "seite": "Seitenueberwachung fuer Quellen ohne Feed: Bereich per CSS-Selektor herausloesen, Hash vergleichen. Umgesetzt."
+    "seite": "Seitenueberwachung fuer Quellen ohne Feed: Bereich per CSS-Selektor herausloesen, Hash vergleichen. Umgesetzt.",
+    "bafin": "Veroeffentlichungen der BaFin als HTML (bafin.de). Zwei Bauarten: \"rundschreiben\" (Gliederung aus h2/h3/h4, Fundstelle je Randziffer, Deep-Link rz/<nr>) und \"faq\" (Fragen und Antworten ueber die schema.org-Auszeichnung der Seite, Deep-Link frage/<nr>). Umgesetzt. PDF-Veroeffentlichungen sind damit NICHT abrufbar - dafuer bleibt es bei Zusammenfassung und Link."
   },
   "erlaubte_hosts_hinweis": "Leine fuer alle Abrufe des Werkzeugs (Phase 8, Schutz vor SSRF): Es wird nur abgerufen, was hier steht - per https, ohne Adressliterale, und auch nach einer Umleitung wird erneut geprueft. Eine neue Quelle braucht deshalb zusaetzlich zum Eintrag unter konnektoren/feeds/seiten einen Host hier. Echte Unterdomaenen sind mit abgedeckt. `kompass pruefen` haelt jede konfigurierte Adresse gegen diese Liste.",
   "erlaubte_hosts": [
@@ -27,7 +28,7 @@
   "nutzungsbedingungen": {
     "eu": "Weiterverwendung von EU-Rechtstexten mit Quellenangabe zulaessig (Beschluss 2011/833/EU). Rechtsverbindlich ist nur die im Amtsblatt veroeffentlichte Fassung.",
     "gii": "Amtliche Werke, § 5 UrhG - gemeinfrei. Quellenangabe trotzdem verpflichtend.",
-    "bafin": "Nutzungsbedingungen der BaFin je Veroeffentlichung zu pruefen; bis dahin nur eigene Zusammenfassungen und Link.",
+    "bafin": "Nutzungsbedingungen der BaFin (\"Haftungsausschluss & Copyright\", abgerufen am 01.10.2026): Die abrufbaren Inhalte und Dokumente duerfen grundsaetzlich gespeichert, weitergegeben und vervielfaeltigt werden, nur unter deutlicher Angabe der Quelle; amtliche Werke im Sinne des § 5 Absatz 2 UrhG duerfen nicht veraendert oder verfaelscht werden. Deshalb traegt jede Fassung den Hinweis \"© Bundesanstalt fuer Finanzdienstleistungsaufsicht / www.bafin.de\" und den Wortlaut unveraendert. Vorbehalt: abweichende Bedingungen am einzelnen Dokument gehen vor, und fuer Inhalte Dritter in einem Dokument gilt deren Urheberrecht - deshalb wird je Veroeffentlichung geprueft, ob ein abweichender Hinweis vorhanden ist.",
     "feed": "Oeffentlich angebotener Feed der jeweiligen Stelle. Uebernommen werden nur Titel, Adresse, Datum und ein kurzer Auszug; der Volltext bleibt bei der Quelle. Kostenlos, ohne Anmeldung."
   },
   "konnektoren": [
@@ -299,12 +300,11 @@
     },
     {
       "regelwerk": "mago-va",
-      "typ": "bafin-pdf",
-      "sprachen": [
-        "deu"
-      ],
+      "typ": "bafin",
+      "bauart": "rundschreiben",
+      "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Rundschreiben/2025/rs_rundschreiben_09_25_va.html",
       "nutzung": "bafin",
-      "aktiv": false
+      "aktiv": true
     },
     {
       "regelwerk": "marisk",
@@ -314,6 +314,14 @@
       ],
       "nutzung": "bafin",
       "aktiv": false
+    },
+    {
+      "regelwerk": "bafin-dora-faq",
+      "typ": "bafin",
+      "bauart": "faq",
+      "url": "https://www.bafin.de/SharedDocs/Fragen-antworten/DE/faq-dora/faq-dora_node.html",
+      "nutzung": "bafin",
+      "aktiv": true
     }
   ],
   "folgeakte": {
@@ -457,6 +465,14 @@
       "url": "https://www.enisa.europa.eu/publications",
       "selektor": "main",
       "nutzung": "feed",
+      "aktiv": true
+    },
+    {
+      "id": "bafin-dora-faq",
+      "name": "BaFin: FAQs zu DORA",
+      "url": "https://www.bafin.de/SharedDocs/Fragen-antworten/DE/faq-dora/faq-dora_node.html",
+      "selektor": "div.l-article__content",
+      "herausgeber": "BaFin",
       "aktiv": true
     }
   ],

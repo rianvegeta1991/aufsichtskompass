@@ -1,0 +1,2831 @@
+{
+  "regelwerk": "mago-va",
+  "fassung": "2025-07-14",
+  "abgerufen": "2026-10-02T05:35:09Z",
+  "quelle": {
+    "name": "Hinweis zur Verwendung von Cookies",
+    "url": "https://www.bafin.de/SharedDocs/Veroeffentlichungen/DE/Rundschreiben/2025/rs_rundschreiben_09_25_va.html",
+    "hinweis": "© Bundesanstalt für Finanzdienstleistungsaufsicht / www.bafin.de – Wiedergabe unverändert und mit Quellenangabe, wie es die Nutzungsbedingungen der BaFin vorsehen. Rechtsverbindlich ist allein die von der BaFin veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "nr_1",
+      "art": "kapitel",
+      "nummer": "1",
+      "bez": "1",
+      "titel": {
+        "de": "Ziel des Rundschreibens"
+      },
+      "pfad": "nr/1",
+      "kinder": [
+        {
+          "id": "rz_1",
+          "art": "absatz",
+          "nummer": "1",
+          "bez": "Rz. 1",
+          "pfad": "rz/1",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "nr_2",
+      "art": "kapitel",
+      "nummer": "2",
+      "bez": "2",
+      "titel": {
+        "de": "Anwendungsbereich und Begriffsdefinitionen"
+      },
+      "pfad": "nr/2",
+      "kinder": [
+        {
+          "id": "rz_2",
+          "art": "absatz",
+          "nummer": "2",
+          "bez": "Rz. 2",
+          "pfad": "rz/2",
+          "text": true
+        },
+        {
+          "id": "rz_3",
+          "art": "absatz",
+          "nummer": "3",
+          "bez": "Rz. 3",
+          "pfad": "rz/3",
+          "text": true
+        },
+        {
+          "id": "rz_4",
+          "art": "absatz",
+          "nummer": "4",
+          "bez": "Rz. 4",
+          "pfad": "rz/4",
+          "text": true
+        },
+        {
+          "id": "rz_5",
+          "art": "absatz",
+          "nummer": "5",
+          "bez": "Rz. 5",
+          "pfad": "rz/5",
+          "text": true
+        },
+        {
+          "id": "rz_6",
+          "art": "absatz",
+          "nummer": "6",
+          "bez": "Rz. 6",
+          "pfad": "rz/6",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "nr_3",
+      "art": "kapitel",
+      "nummer": "3",
+      "bez": "3",
+      "titel": {
+        "de": "Verhältnis des Rundschreibens zu EIOPA-Leitlinien und anderen Veröffentlichungen/Inkrafttreten"
+      },
+      "pfad": "nr/3",
+      "kinder": [
+        {
+          "id": "rz_7",
+          "art": "absatz",
+          "nummer": "7",
+          "bez": "Rz. 7",
+          "pfad": "rz/7",
+          "text": true
+        },
+        {
+          "id": "rz_8",
+          "art": "absatz",
+          "nummer": "8",
+          "bez": "Rz. 8",
+          "pfad": "rz/8",
+          "text": true
+        },
+        {
+          "id": "rz_9",
+          "art": "absatz",
+          "nummer": "9",
+          "bez": "Rz. 9",
+          "pfad": "rz/9",
+          "text": true
+        },
+        {
+          "id": "rz_10",
+          "art": "absatz",
+          "nummer": "10",
+          "bez": "Rz. 10",
+          "pfad": "rz/10",
+          "text": true
+        },
+        {
+          "id": "rz_11",
+          "art": "absatz",
+          "nummer": "11",
+          "bez": "Rz. 11",
+          "pfad": "rz/11",
+          "text": true
+        },
+        {
+          "id": "rz_12",
+          "art": "absatz",
+          "nummer": "12",
+          "bez": "Rz. 12",
+          "pfad": "rz/12",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "nr_4",
+      "art": "kapitel",
+      "nummer": "4",
+      "bez": "4",
+      "titel": {
+        "de": "Proportionalitätsprinzip"
+      },
+      "pfad": "nr/4",
+      "kinder": [
+        {
+          "id": "rz_13",
+          "art": "absatz",
+          "nummer": "13",
+          "bez": "Rz. 13",
+          "pfad": "rz/13",
+          "text": true
+        },
+        {
+          "id": "rz_14",
+          "art": "absatz",
+          "nummer": "14",
+          "bez": "Rz. 14",
+          "pfad": "rz/14",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "nr_5",
+      "art": "kapitel",
+      "nummer": "5",
+      "bez": "5",
+      "titel": {
+        "de": "Gesamtverantwortung der Geschäftsleitung"
+      },
+      "pfad": "nr/5",
+      "kinder": [
+        {
+          "id": "rz_15",
+          "art": "absatz",
+          "nummer": "15",
+          "bez": "Rz. 15",
+          "pfad": "rz/15",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "nr_6",
+      "art": "kapitel",
+      "nummer": "6",
+      "bez": "6",
+      "titel": {
+        "de": "Wesentliche Risiken"
+      },
+      "pfad": "nr/6",
+      "kinder": [
+        {
+          "id": "rz_16",
+          "art": "absatz",
+          "nummer": "16",
+          "bez": "Rz. 16",
+          "pfad": "rz/16",
+          "text": true
+        },
+        {
+          "id": "rz_17",
+          "art": "absatz",
+          "nummer": "17",
+          "bez": "Rz. 17",
+          "pfad": "rz/17",
+          "text": true
+        },
+        {
+          "id": "rz_18",
+          "art": "absatz",
+          "nummer": "18",
+          "bez": "Rz. 18",
+          "pfad": "rz/18",
+          "text": true
+        },
+        {
+          "id": "rz_19",
+          "art": "absatz",
+          "nummer": "19",
+          "bez": "Rz. 19",
+          "pfad": "rz/19",
+          "text": true
+        },
+        {
+          "id": "rz_20",
+          "art": "absatz",
+          "nummer": "20",
+          "bez": "Rz. 20",
+          "pfad": "rz/20",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "nr_7",
+      "art": "kapitel",
+      "nummer": "7",
+      "bez": "7",
+      "titel": {
+        "de": "Risikokultur"
+      },
+      "pfad": "nr/7",
+      "kinder": [
+        {
+          "id": "rz_21",
+          "art": "absatz",
+          "nummer": "21",
+          "bez": "Rz. 21",
+          "pfad": "rz/21",
+          "text": true
+        },
+        {
+          "id": "rz_22",
+          "art": "absatz",
+          "nummer": "22",
+          "bez": "Rz. 22",
+          "pfad": "rz/22",
+          "text": true
+        },
+        {
+          "id": "rz_23",
+          "art": "absatz",
+          "nummer": "23",
+          "bez": "Rz. 23",
+          "pfad": "rz/23",
+          "text": true
+        },
+        {
+          "id": "rz_24",
+          "art": "absatz",
+          "nummer": "24",
+          "bez": "Rz. 24",
+          "pfad": "rz/24",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "nr_8",
+      "art": "kapitel",
+      "nummer": "8",
+      "bez": "8",
+      "titel": {
+        "de": "Anforderungen an die Geschäftsorganisation auf Gruppenebene"
+      },
+      "pfad": "nr/8",
+      "kinder": [
+        {
+          "id": "rz_25",
+          "art": "absatz",
+          "nummer": "25",
+          "bez": "Rz. 25",
+          "pfad": "rz/25",
+          "text": true
+        },
+        {
+          "id": "rz_26",
+          "art": "absatz",
+          "nummer": "26",
+          "bez": "Rz. 26",
+          "pfad": "rz/26",
+          "text": true
+        },
+        {
+          "id": "rz_27",
+          "art": "absatz",
+          "nummer": "27",
+          "bez": "Rz. 27",
+          "pfad": "rz/27",
+          "text": true
+        },
+        {
+          "id": "rz_28",
+          "art": "absatz",
+          "nummer": "28",
+          "bez": "Rz. 28",
+          "pfad": "rz/28",
+          "text": true
+        },
+        {
+          "id": "rz_29",
+          "art": "absatz",
+          "nummer": "29",
+          "bez": "Rz. 29",
+          "pfad": "rz/29",
+          "text": true
+        },
+        {
+          "id": "rz_30",
+          "art": "absatz",
+          "nummer": "30",
+          "bez": "Rz. 30",
+          "pfad": "rz/30",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "nr_9",
+      "art": "kapitel",
+      "nummer": "9",
+      "bez": "9",
+      "titel": {
+        "de": "Allgemeine Anforderungen an die Geschäftsorganisation"
+      },
+      "pfad": "nr/9",
+      "kinder": [
+        {
+          "id": "nr_9_1",
+          "art": "abschnitt",
+          "nummer": "9.1",
+          "bez": "9.1",
+          "titel": {
+            "de": "Aufbau- und Ablauforganisation"
+          },
+          "pfad": "nr/9.1",
+          "kinder": [
+            {
+              "id": "nr_9_1_1",
+              "art": "abschnitt",
+              "nummer": "9.1.1",
+              "bez": "9.1.1",
+              "titel": {
+                "de": "Allgemeines"
+              },
+              "pfad": "nr/9.1.1",
+              "kinder": [
+                {
+                  "id": "rz_31",
+                  "art": "absatz",
+                  "nummer": "31",
+                  "bez": "Rz. 31",
+                  "pfad": "rz/31",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_1_2",
+              "art": "abschnitt",
+              "nummer": "9.1.2",
+              "bez": "9.1.2",
+              "titel": {
+                "de": "Festlegung von Aufgaben, Verantwortlichkeiten und Berichtslinien"
+              },
+              "pfad": "nr/9.1.2",
+              "kinder": [
+                {
+                  "id": "rz_32",
+                  "art": "absatz",
+                  "nummer": "32",
+                  "bez": "Rz. 32",
+                  "pfad": "rz/32",
+                  "text": true
+                },
+                {
+                  "id": "rz_33",
+                  "art": "absatz",
+                  "nummer": "33",
+                  "bez": "Rz. 33",
+                  "pfad": "rz/33",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_1_3",
+              "art": "abschnitt",
+              "nummer": "9.1.3",
+              "bez": "9.1.3",
+              "titel": {
+                "de": "Angemessene Trennung der Zuständigkeiten"
+              },
+              "pfad": "nr/9.1.3",
+              "kinder": [
+                {
+                  "id": "rz_34",
+                  "art": "absatz",
+                  "nummer": "34",
+                  "bez": "Rz. 34",
+                  "pfad": "rz/34",
+                  "text": true
+                },
+                {
+                  "id": "rz_35",
+                  "art": "absatz",
+                  "nummer": "35",
+                  "bez": "Rz. 35",
+                  "pfad": "rz/35",
+                  "text": true
+                },
+                {
+                  "id": "rz_36",
+                  "art": "absatz",
+                  "nummer": "36",
+                  "bez": "Rz. 36",
+                  "pfad": "rz/36",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_1_4",
+              "art": "abschnitt",
+              "nummer": "9.1.4",
+              "bez": "9.1.4",
+              "titel": {
+                "de": "Festlegung ablauforganisatorischer Regelungen"
+              },
+              "pfad": "nr/9.1.4",
+              "kinder": [
+                {
+                  "id": "rz_37",
+                  "art": "absatz",
+                  "nummer": "37",
+                  "bez": "Rz. 37",
+                  "pfad": "rz/37",
+                  "text": true
+                },
+                {
+                  "id": "rz_38",
+                  "art": "absatz",
+                  "nummer": "38",
+                  "bez": "Rz. 38",
+                  "pfad": "rz/38",
+                  "text": true
+                },
+                {
+                  "id": "rz_39",
+                  "art": "absatz",
+                  "nummer": "39",
+                  "bez": "Rz. 39",
+                  "pfad": "rz/39",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_1_5",
+              "art": "abschnitt",
+              "nummer": "9.1.5",
+              "bez": "9.1.5",
+              "titel": {
+                "de": "Umsetzung ablauforganisatorischer Regelungen"
+              },
+              "pfad": "nr/9.1.5",
+              "kinder": [
+                {
+                  "id": "rz_40",
+                  "art": "absatz",
+                  "nummer": "40",
+                  "bez": "Rz. 40",
+                  "pfad": "rz/40",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_1_6",
+              "art": "abschnitt",
+              "nummer": "9.1.6",
+              "bez": "9.1.6",
+              "titel": {
+                "de": "Dokumentation der Aufbau- und Ablauforganisation"
+              },
+              "pfad": "nr/9.1.6",
+              "kinder": [
+                {
+                  "id": "rz_41",
+                  "art": "absatz",
+                  "nummer": "41",
+                  "bez": "Rz. 41",
+                  "pfad": "rz/41",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_1_7",
+              "art": "abschnitt",
+              "nummer": "9.1.7",
+              "bez": "9.1.7",
+              "titel": {
+                "de": "Spezielle Gruppenaspekte"
+              },
+              "pfad": "nr/9.1.7",
+              "kinder": [
+                {
+                  "id": "rz_42",
+                  "art": "absatz",
+                  "nummer": "42",
+                  "bez": "Rz. 42",
+                  "pfad": "rz/42",
+                  "text": true
+                },
+                {
+                  "id": "rz_43",
+                  "art": "absatz",
+                  "nummer": "43",
+                  "bez": "Rz. 43",
+                  "pfad": "rz/43",
+                  "text": true
+                },
+                {
+                  "id": "rz_44",
+                  "art": "absatz",
+                  "nummer": "44",
+                  "bez": "Rz. 44",
+                  "pfad": "rz/44",
+                  "text": true
+                },
+                {
+                  "id": "rz_45",
+                  "art": "absatz",
+                  "nummer": "45",
+                  "bez": "Rz. 45",
+                  "pfad": "rz/45",
+                  "text": true
+                },
+                {
+                  "id": "rz_46",
+                  "art": "absatz",
+                  "nummer": "46",
+                  "bez": "Rz. 46",
+                  "pfad": "rz/46",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nr_9_2",
+          "art": "abschnitt",
+          "nummer": "9.2",
+          "bez": "9.2",
+          "titel": {
+            "de": "Geschäftsleitung und Aufsichtsrat"
+          },
+          "pfad": "nr/9.2",
+          "kinder": [
+            {
+              "id": "rz_47",
+              "art": "absatz",
+              "nummer": "47",
+              "bez": "Rz. 47",
+              "pfad": "rz/47",
+              "text": true
+            },
+            {
+              "id": "rz_48",
+              "art": "absatz",
+              "nummer": "48",
+              "bez": "Rz. 48",
+              "pfad": "rz/48",
+              "text": true
+            },
+            {
+              "id": "rz_49",
+              "art": "absatz",
+              "nummer": "49",
+              "bez": "Rz. 49",
+              "pfad": "rz/49",
+              "text": true
+            },
+            {
+              "id": "nr_9_2_1",
+              "art": "abschnitt",
+              "nummer": "9.2.1",
+              "bez": "9.2.1",
+              "titel": {
+                "de": "Gruppenebene"
+              },
+              "pfad": "nr/9.2.1",
+              "kinder": [
+                {
+                  "id": "rz_50",
+                  "art": "absatz",
+                  "nummer": "50",
+                  "bez": "Rz. 50",
+                  "pfad": "rz/50",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_2_2",
+              "art": "abschnitt",
+              "nummer": "9.2.2",
+              "bez": "9.2.2",
+              "titel": {
+                "de": "Vier-Augen-Prinzip"
+              },
+              "pfad": "nr/9.2.2",
+              "kinder": [
+                {
+                  "id": "rz_51",
+                  "art": "absatz",
+                  "nummer": "51",
+                  "bez": "Rz. 51",
+                  "pfad": "rz/51",
+                  "text": true
+                },
+                {
+                  "id": "rz_52",
+                  "art": "absatz",
+                  "nummer": "52",
+                  "bez": "Rz. 52",
+                  "pfad": "rz/52",
+                  "text": true
+                },
+                {
+                  "id": "rz_53",
+                  "art": "absatz",
+                  "nummer": "53",
+                  "bez": "Rz. 53",
+                  "pfad": "rz/53",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_2_3",
+              "art": "abschnitt",
+              "nummer": "9.2.3",
+              "bez": "9.2.3",
+              "titel": {
+                "de": "Dokumentation"
+              },
+              "pfad": "nr/9.2.3",
+              "kinder": [
+                {
+                  "id": "rz_54",
+                  "art": "absatz",
+                  "nummer": "54",
+                  "bez": "Rz. 54",
+                  "pfad": "rz/54",
+                  "text": true
+                },
+                {
+                  "id": "rz_55",
+                  "art": "absatz",
+                  "nummer": "55",
+                  "bez": "Rz. 55",
+                  "pfad": "rz/55",
+                  "text": true
+                },
+                {
+                  "id": "rz_56",
+                  "art": "absatz",
+                  "nummer": "56",
+                  "bez": "Rz. 56",
+                  "pfad": "rz/56",
+                  "text": true
+                },
+                {
+                  "id": "rz_57",
+                  "art": "absatz",
+                  "nummer": "57",
+                  "bez": "Rz. 57",
+                  "pfad": "rz/57",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nr_9_3",
+          "art": "abschnitt",
+          "nummer": "9.3",
+          "bez": "9.3",
+          "titel": {
+            "de": "Interne Überprüfung der Geschäftsorganisation"
+          },
+          "pfad": "nr/9.3",
+          "kinder": [
+            {
+              "id": "rz_58",
+              "art": "absatz",
+              "nummer": "58",
+              "bez": "Rz. 58",
+              "pfad": "rz/58",
+              "text": true
+            },
+            {
+              "id": "rz_59",
+              "art": "absatz",
+              "nummer": "59",
+              "bez": "Rz. 59",
+              "pfad": "rz/59",
+              "text": true
+            },
+            {
+              "id": "rz_60",
+              "art": "absatz",
+              "nummer": "60",
+              "bez": "Rz. 60",
+              "pfad": "rz/60",
+              "text": true
+            },
+            {
+              "id": "rz_61",
+              "art": "absatz",
+              "nummer": "61",
+              "bez": "Rz. 61",
+              "pfad": "rz/61",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_9_4",
+          "art": "abschnitt",
+          "nummer": "9.4",
+          "bez": "9.4",
+          "titel": {
+            "de": "Schriftliche Leitlinien"
+          },
+          "pfad": "nr/9.4",
+          "kinder": [
+            {
+              "id": "rz_62",
+              "art": "absatz",
+              "nummer": "62",
+              "bez": "Rz. 62",
+              "pfad": "rz/62",
+              "text": true
+            },
+            {
+              "id": "rz_63",
+              "art": "absatz",
+              "nummer": "63",
+              "bez": "Rz. 63",
+              "pfad": "rz/63",
+              "text": true
+            },
+            {
+              "id": "nr_9_4_1",
+              "art": "abschnitt",
+              "nummer": "9.4.1",
+              "bez": "9.4.1",
+              "titel": {
+                "de": "Allgemeines"
+              },
+              "pfad": "nr/9.4.1",
+              "kinder": [
+                {
+                  "id": "rz_64",
+                  "art": "absatz",
+                  "nummer": "64",
+                  "bez": "Rz. 64",
+                  "pfad": "rz/64",
+                  "text": true
+                },
+                {
+                  "id": "rz_65",
+                  "art": "absatz",
+                  "nummer": "65",
+                  "bez": "Rz. 65",
+                  "pfad": "rz/65",
+                  "text": true
+                },
+                {
+                  "id": "rz_66",
+                  "art": "absatz",
+                  "nummer": "66",
+                  "bez": "Rz. 66",
+                  "pfad": "rz/66",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_4_2",
+              "art": "abschnitt",
+              "nummer": "9.4.2",
+              "bez": "9.4.2",
+              "titel": {
+                "de": "Inhalte der schriftlichen Leitlinien"
+              },
+              "pfad": "nr/9.4.2",
+              "kinder": [
+                {
+                  "id": "rz_67",
+                  "art": "absatz",
+                  "nummer": "67",
+                  "bez": "Rz. 67",
+                  "pfad": "rz/67",
+                  "text": true
+                },
+                {
+                  "id": "rz_68",
+                  "art": "absatz",
+                  "nummer": "68",
+                  "bez": "Rz. 68",
+                  "pfad": "rz/68",
+                  "text": true
+                },
+                {
+                  "id": "rz_69",
+                  "art": "absatz",
+                  "nummer": "69",
+                  "bez": "Rz. 69",
+                  "pfad": "rz/69",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_4_3",
+              "art": "abschnitt",
+              "nummer": "9.4.3",
+              "bez": "9.4.3",
+              "titel": {
+                "de": "Verabschiedung und Überprüfung"
+              },
+              "pfad": "nr/9.4.3",
+              "kinder": [
+                {
+                  "id": "rz_70",
+                  "art": "absatz",
+                  "nummer": "70",
+                  "bez": "Rz. 70",
+                  "pfad": "rz/70",
+                  "text": true
+                },
+                {
+                  "id": "rz_71",
+                  "art": "absatz",
+                  "nummer": "71",
+                  "bez": "Rz. 71",
+                  "pfad": "rz/71",
+                  "text": true
+                },
+                {
+                  "id": "rz_72",
+                  "art": "absatz",
+                  "nummer": "72",
+                  "bez": "Rz. 72",
+                  "pfad": "rz/72",
+                  "text": true
+                },
+                {
+                  "id": "rz_73",
+                  "art": "absatz",
+                  "nummer": "73",
+                  "bez": "Rz. 73",
+                  "pfad": "rz/73",
+                  "text": true
+                },
+                {
+                  "id": "rz_74",
+                  "art": "absatz",
+                  "nummer": "74",
+                  "bez": "Rz. 74",
+                  "pfad": "rz/74",
+                  "text": true
+                },
+                {
+                  "id": "rz_75",
+                  "art": "absatz",
+                  "nummer": "75",
+                  "bez": "Rz. 75",
+                  "pfad": "rz/75",
+                  "text": true
+                },
+                {
+                  "id": "rz_76",
+                  "art": "absatz",
+                  "nummer": "76",
+                  "bez": "Rz. 76",
+                  "pfad": "rz/76",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_9_4_4",
+              "art": "abschnitt",
+              "nummer": "9.4.4",
+              "bez": "9.4.4",
+              "titel": {
+                "de": "Kenntnis und Einhaltung schriftlicher Leitlinien"
+              },
+              "pfad": "nr/9.4.4",
+              "kinder": [
+                {
+                  "id": "rz_77",
+                  "art": "absatz",
+                  "nummer": "77",
+                  "bez": "Rz. 77",
+                  "pfad": "rz/77",
+                  "text": true
+                },
+                {
+                  "id": "rz_78",
+                  "art": "absatz",
+                  "nummer": "78",
+                  "bez": "Rz. 78",
+                  "pfad": "rz/78",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nr_9_5",
+          "art": "abschnitt",
+          "nummer": "9.5",
+          "bez": "9.5",
+          "titel": {
+            "de": "Automatisierte Geschäftsabläufe"
+          },
+          "pfad": "nr/9.5",
+          "kinder": [
+            {
+              "id": "rz_79",
+              "art": "absatz",
+              "nummer": "79",
+              "bez": "Rz. 79",
+              "pfad": "rz/79",
+              "text": true
+            },
+            {
+              "id": "rz_80",
+              "art": "absatz",
+              "nummer": "80",
+              "bez": "Rz. 80",
+              "pfad": "rz/80",
+              "text": true
+            },
+            {
+              "id": "rz_81",
+              "art": "absatz",
+              "nummer": "81",
+              "bez": "Rz. 81",
+              "pfad": "rz/81",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nr_10",
+      "art": "kapitel",
+      "nummer": "10",
+      "bez": "10",
+      "titel": {
+        "de": "Schlüsselfunktionen"
+      },
+      "pfad": "nr/10",
+      "kinder": [
+        {
+          "id": "nr_10_1",
+          "art": "abschnitt",
+          "nummer": "10.1",
+          "bez": "10.1",
+          "titel": {
+            "de": "Allgemeine Anforderungen und Stellung im Unternehmen"
+          },
+          "pfad": "nr/10.1",
+          "kinder": [
+            {
+              "id": "rz_82",
+              "art": "absatz",
+              "nummer": "82",
+              "bez": "Rz. 82",
+              "pfad": "rz/82",
+              "text": true
+            },
+            {
+              "id": "rz_83",
+              "art": "absatz",
+              "nummer": "83",
+              "bez": "Rz. 83",
+              "pfad": "rz/83",
+              "text": true
+            },
+            {
+              "id": "rz_84",
+              "art": "absatz",
+              "nummer": "84",
+              "bez": "Rz. 84",
+              "pfad": "rz/84",
+              "text": true
+            },
+            {
+              "id": "rz_85",
+              "art": "absatz",
+              "nummer": "85",
+              "bez": "Rz. 85",
+              "pfad": "rz/85",
+              "text": true
+            },
+            {
+              "id": "rz_86",
+              "art": "absatz",
+              "nummer": "86",
+              "bez": "Rz. 86",
+              "pfad": "rz/86",
+              "text": true
+            },
+            {
+              "id": "rz_87",
+              "art": "absatz",
+              "nummer": "87",
+              "bez": "Rz. 87",
+              "pfad": "rz/87",
+              "text": true
+            },
+            {
+              "id": "nr_10_1_1",
+              "art": "abschnitt",
+              "nummer": "10.1.1",
+              "bez": "10.1.1",
+              "titel": {
+                "de": "Intern verantwortliche Person für Schlüsselfunktionen"
+              },
+              "pfad": "nr/10.1.1",
+              "kinder": [
+                {
+                  "id": "rz_88",
+                  "art": "absatz",
+                  "nummer": "88",
+                  "bez": "Rz. 88",
+                  "pfad": "rz/88",
+                  "text": true
+                },
+                {
+                  "id": "rz_89",
+                  "art": "absatz",
+                  "nummer": "89",
+                  "bez": "Rz. 89",
+                  "pfad": "rz/89",
+                  "text": true
+                },
+                {
+                  "id": "rz_90",
+                  "art": "absatz",
+                  "nummer": "90",
+                  "bez": "Rz. 90",
+                  "pfad": "rz/90",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_10_1_2",
+              "art": "abschnitt",
+              "nummer": "10.1.2",
+              "bez": "10.1.2",
+              "titel": {
+                "de": "Informationsfluss"
+              },
+              "pfad": "nr/10.1.2",
+              "kinder": [
+                {
+                  "id": "rz_91",
+                  "art": "absatz",
+                  "nummer": "91",
+                  "bez": "Rz. 91",
+                  "pfad": "rz/91",
+                  "text": true
+                },
+                {
+                  "id": "rz_92",
+                  "art": "absatz",
+                  "nummer": "92",
+                  "bez": "Rz. 92",
+                  "pfad": "rz/92",
+                  "text": true
+                },
+                {
+                  "id": "rz_93",
+                  "art": "absatz",
+                  "nummer": "93",
+                  "bez": "Rz. 93",
+                  "pfad": "rz/93",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nr_10_2",
+          "art": "abschnitt",
+          "nummer": "10.2",
+          "bez": "10.2",
+          "titel": {
+            "de": "Compliance-Funktion"
+          },
+          "pfad": "nr/10.2",
+          "kinder": [
+            {
+              "id": "rz_94",
+              "art": "absatz",
+              "nummer": "94",
+              "bez": "Rz. 94",
+              "pfad": "rz/94",
+              "text": true
+            },
+            {
+              "id": "rz_95",
+              "art": "absatz",
+              "nummer": "95",
+              "bez": "Rz. 95",
+              "pfad": "rz/95",
+              "text": true
+            },
+            {
+              "id": "rz_96",
+              "art": "absatz",
+              "nummer": "96",
+              "bez": "Rz. 96",
+              "pfad": "rz/96",
+              "text": true
+            },
+            {
+              "id": "rz_97",
+              "art": "absatz",
+              "nummer": "97",
+              "bez": "Rz. 97",
+              "pfad": "rz/97",
+              "text": true
+            },
+            {
+              "id": "rz_98",
+              "art": "absatz",
+              "nummer": "98",
+              "bez": "Rz. 98",
+              "pfad": "rz/98",
+              "text": true
+            },
+            {
+              "id": "rz_99",
+              "art": "absatz",
+              "nummer": "99",
+              "bez": "Rz. 99",
+              "pfad": "rz/99",
+              "text": true
+            },
+            {
+              "id": "rz_100",
+              "art": "absatz",
+              "nummer": "100",
+              "bez": "Rz. 100",
+              "pfad": "rz/100",
+              "text": true
+            },
+            {
+              "id": "rz_101",
+              "art": "absatz",
+              "nummer": "101",
+              "bez": "Rz. 101",
+              "pfad": "rz/101",
+              "text": true
+            },
+            {
+              "id": "rz_102",
+              "art": "absatz",
+              "nummer": "102",
+              "bez": "Rz. 102",
+              "pfad": "rz/102",
+              "text": true
+            },
+            {
+              "id": "rz_103",
+              "art": "absatz",
+              "nummer": "103",
+              "bez": "Rz. 103",
+              "pfad": "rz/103",
+              "text": true
+            },
+            {
+              "id": "rz_104",
+              "art": "absatz",
+              "nummer": "104",
+              "bez": "Rz. 104",
+              "pfad": "rz/104",
+              "text": true
+            },
+            {
+              "id": "rz_105",
+              "art": "absatz",
+              "nummer": "105",
+              "bez": "Rz. 105",
+              "pfad": "rz/105",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_10_3",
+          "art": "abschnitt",
+          "nummer": "10.3",
+          "bez": "10.3",
+          "titel": {
+            "de": "Versicherungsmathematische Funktion"
+          },
+          "pfad": "nr/10.3",
+          "kinder": [
+            {
+              "id": "nr_10_3_1",
+              "art": "abschnitt",
+              "nummer": "10.3.1",
+              "bez": "10.3.1",
+              "titel": {
+                "de": "Allgemeine Anforderungen an die versicherungsmathematische Funktion"
+              },
+              "pfad": "nr/10.3.1",
+              "kinder": [
+                {
+                  "id": "rz_106",
+                  "art": "absatz",
+                  "nummer": "106",
+                  "bez": "Rz. 106",
+                  "pfad": "rz/106",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_10_3_2",
+              "art": "abschnitt",
+              "nummer": "10.3.2",
+              "bez": "10.3.2",
+              "titel": {
+                "de": "Aufgaben der versicherungsmathematischen Funktion"
+              },
+              "pfad": "nr/10.3.2",
+              "kinder": [
+                {
+                  "id": "rz_107",
+                  "art": "absatz",
+                  "nummer": "107",
+                  "bez": "Rz. 107",
+                  "pfad": "rz/107",
+                  "text": true
+                },
+                {
+                  "id": "rz_108",
+                  "art": "absatz",
+                  "nummer": "108",
+                  "bez": "Rz. 108",
+                  "pfad": "rz/108",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_10_3_3",
+              "art": "abschnitt",
+              "nummer": "10.3.3",
+              "bez": "10.3.3",
+              "titel": {
+                "de": "Koordinierung der Berechnung und Validierung der versicherungstechnischen Rückstellungen"
+              },
+              "pfad": "nr/10.3.3",
+              "kinder": [
+                {
+                  "id": "rz_109",
+                  "art": "absatz",
+                  "nummer": "109",
+                  "bez": "Rz. 109",
+                  "pfad": "rz/109",
+                  "text": true
+                },
+                {
+                  "id": "rz_110",
+                  "art": "absatz",
+                  "nummer": "110",
+                  "bez": "Rz. 110",
+                  "pfad": "rz/110",
+                  "text": true
+                },
+                {
+                  "id": "rz_111",
+                  "art": "absatz",
+                  "nummer": "111",
+                  "bez": "Rz. 111",
+                  "pfad": "rz/111",
+                  "text": true
+                },
+                {
+                  "id": "rz_112",
+                  "art": "absatz",
+                  "nummer": "112",
+                  "bez": "Rz. 112",
+                  "pfad": "rz/112",
+                  "text": true
+                },
+                {
+                  "id": "rz_113",
+                  "art": "absatz",
+                  "nummer": "113",
+                  "bez": "Rz. 113",
+                  "pfad": "rz/113",
+                  "text": true
+                },
+                {
+                  "id": "rz_114",
+                  "art": "absatz",
+                  "nummer": "114",
+                  "bez": "Rz. 114",
+                  "pfad": "rz/114",
+                  "text": true
+                },
+                {
+                  "id": "rz_115",
+                  "art": "absatz",
+                  "nummer": "115",
+                  "bez": "Rz. 115",
+                  "pfad": "rz/115",
+                  "text": true
+                },
+                {
+                  "id": "rz_116",
+                  "art": "absatz",
+                  "nummer": "116",
+                  "bez": "Rz. 116",
+                  "pfad": "rz/116",
+                  "text": true
+                },
+                {
+                  "id": "rz_117",
+                  "art": "absatz",
+                  "nummer": "117",
+                  "bez": "Rz. 117",
+                  "pfad": "rz/117",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_10_3_4",
+              "art": "abschnitt",
+              "nummer": "10.3.4",
+              "bez": "10.3.4",
+              "titel": {
+                "de": "Aufgaben in Bezug auf die künftige Überschussbeteiligung"
+              },
+              "pfad": "nr/10.3.4",
+              "kinder": [
+                {
+                  "id": "rz_118",
+                  "art": "absatz",
+                  "nummer": "118",
+                  "bez": "Rz. 118",
+                  "pfad": "rz/118",
+                  "text": true
+                },
+                {
+                  "id": "rz_119",
+                  "art": "absatz",
+                  "nummer": "119",
+                  "bez": "Rz. 119",
+                  "pfad": "rz/119",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_10_3_5",
+              "art": "abschnitt",
+              "nummer": "10.3.5",
+              "bez": "10.3.5",
+              "titel": {
+                "de": "Beurteilung der Datenqualität bei der Bewertung der versicherungstechnischen Rückstellungen"
+              },
+              "pfad": "nr/10.3.5",
+              "kinder": [
+                {
+                  "id": "rz_120",
+                  "art": "absatz",
+                  "nummer": "120",
+                  "bez": "Rz. 120",
+                  "pfad": "rz/120",
+                  "text": true
+                },
+                {
+                  "id": "rz_121",
+                  "art": "absatz",
+                  "nummer": "121",
+                  "bez": "Rz. 121",
+                  "pfad": "rz/121",
+                  "text": true
+                },
+                {
+                  "id": "rz_122",
+                  "art": "absatz",
+                  "nummer": "122",
+                  "bez": "Rz. 122",
+                  "pfad": "rz/122",
+                  "text": true
+                },
+                {
+                  "id": "rz_123",
+                  "art": "absatz",
+                  "nummer": "123",
+                  "bez": "Rz. 123",
+                  "pfad": "rz/123",
+                  "text": true
+                },
+                {
+                  "id": "rz_124",
+                  "art": "absatz",
+                  "nummer": "124",
+                  "bez": "Rz. 124",
+                  "pfad": "rz/124",
+                  "text": true
+                },
+                {
+                  "id": "rz_125",
+                  "art": "absatz",
+                  "nummer": "125",
+                  "bez": "Rz. 125",
+                  "pfad": "rz/125",
+                  "text": true
+                },
+                {
+                  "id": "rz_126",
+                  "art": "absatz",
+                  "nummer": "126",
+                  "bez": "Rz. 126",
+                  "pfad": "rz/126",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_10_3_6",
+              "art": "abschnitt",
+              "nummer": "10.3.6",
+              "bez": "10.3.6",
+              "titel": {
+                "de": "Stellungnahme zur Zeichnungspolitik und Rückversicherung"
+              },
+              "pfad": "nr/10.3.6",
+              "kinder": [
+                {
+                  "id": "rz_127",
+                  "art": "absatz",
+                  "nummer": "127",
+                  "bez": "Rz. 127",
+                  "pfad": "rz/127",
+                  "text": true
+                },
+                {
+                  "id": "rz_128",
+                  "art": "absatz",
+                  "nummer": "128",
+                  "bez": "Rz. 128",
+                  "pfad": "rz/128",
+                  "text": true
+                },
+                {
+                  "id": "rz_129",
+                  "art": "absatz",
+                  "nummer": "129",
+                  "bez": "Rz. 129",
+                  "pfad": "rz/129",
+                  "text": true
+                },
+                {
+                  "id": "rz_130",
+                  "art": "absatz",
+                  "nummer": "130",
+                  "bez": "Rz. 130",
+                  "pfad": "rz/130",
+                  "text": true
+                },
+                {
+                  "id": "rz_131",
+                  "art": "absatz",
+                  "nummer": "131",
+                  "bez": "Rz. 131",
+                  "pfad": "rz/131",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_10_3_7",
+              "art": "abschnitt",
+              "nummer": "10.3.7",
+              "bez": "10.3.7",
+              "titel": {
+                "de": "Verhältnis zwischen der für die versicherungsmathematische Funktion verantwortlichen Person und der Verantwortlichen Aktuarin bzw. dem Verantwortlichen Aktuar"
+              },
+              "pfad": "nr/10.3.7",
+              "kinder": [
+                {
+                  "id": "rz_132",
+                  "art": "absatz",
+                  "nummer": "132",
+                  "bez": "Rz. 132",
+                  "pfad": "rz/132",
+                  "text": true
+                },
+                {
+                  "id": "rz_133",
+                  "art": "absatz",
+                  "nummer": "133",
+                  "bez": "Rz. 133",
+                  "pfad": "rz/133",
+                  "text": true
+                },
+                {
+                  "id": "rz_134",
+                  "art": "absatz",
+                  "nummer": "134",
+                  "bez": "Rz. 134",
+                  "pfad": "rz/134",
+                  "text": true
+                },
+                {
+                  "id": "rz_135",
+                  "art": "absatz",
+                  "nummer": "135",
+                  "bez": "Rz. 135",
+                  "pfad": "rz/135",
+                  "text": true
+                },
+                {
+                  "id": "rz_136",
+                  "art": "absatz",
+                  "nummer": "136",
+                  "bez": "Rz. 136",
+                  "pfad": "rz/136",
+                  "text": true
+                },
+                {
+                  "id": "rz_137",
+                  "art": "absatz",
+                  "nummer": "137",
+                  "bez": "Rz. 137",
+                  "pfad": "rz/137",
+                  "text": true
+                },
+                {
+                  "id": "rz_138",
+                  "art": "absatz",
+                  "nummer": "138",
+                  "bez": "Rz. 138",
+                  "pfad": "rz/138",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_10_3_8",
+              "art": "abschnitt",
+              "nummer": "10.3.8",
+              "bez": "10.3.8",
+              "titel": {
+                "de": "Informationspflichten der versicherungsmathematischen Funktion"
+              },
+              "pfad": "nr/10.3.8",
+              "kinder": [
+                {
+                  "id": "rz_139",
+                  "art": "absatz",
+                  "nummer": "139",
+                  "bez": "Rz. 139",
+                  "pfad": "rz/139",
+                  "text": true
+                },
+                {
+                  "id": "rz_140",
+                  "art": "absatz",
+                  "nummer": "140",
+                  "bez": "Rz. 140",
+                  "pfad": "rz/140",
+                  "text": true
+                },
+                {
+                  "id": "rz_141",
+                  "art": "absatz",
+                  "nummer": "141",
+                  "bez": "Rz. 141",
+                  "pfad": "rz/141",
+                  "text": true
+                },
+                {
+                  "id": "rz_142",
+                  "art": "absatz",
+                  "nummer": "142",
+                  "bez": "Rz. 142",
+                  "pfad": "rz/142",
+                  "text": true
+                },
+                {
+                  "id": "rz_143",
+                  "art": "absatz",
+                  "nummer": "143",
+                  "bez": "Rz. 143",
+                  "pfad": "rz/143",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nr_10_4",
+          "art": "abschnitt",
+          "nummer": "10.4",
+          "bez": "10.4",
+          "titel": {
+            "de": "Funktion der internen Revision"
+          },
+          "pfad": "nr/10.4",
+          "kinder": [
+            {
+              "id": "rz_144",
+              "art": "absatz",
+              "nummer": "144",
+              "bez": "Rz. 144",
+              "pfad": "rz/144",
+              "text": true
+            },
+            {
+              "id": "rz_145",
+              "art": "absatz",
+              "nummer": "145",
+              "bez": "Rz. 145",
+              "pfad": "rz/145",
+              "text": true
+            },
+            {
+              "id": "rz_146",
+              "art": "absatz",
+              "nummer": "146",
+              "bez": "Rz. 146",
+              "pfad": "rz/146",
+              "text": true
+            },
+            {
+              "id": "rz_147",
+              "art": "absatz",
+              "nummer": "147",
+              "bez": "Rz. 147",
+              "pfad": "rz/147",
+              "text": true
+            },
+            {
+              "id": "rz_148",
+              "art": "absatz",
+              "nummer": "148",
+              "bez": "Rz. 148",
+              "pfad": "rz/148",
+              "text": true
+            },
+            {
+              "id": "rz_149",
+              "art": "absatz",
+              "nummer": "149",
+              "bez": "Rz. 149",
+              "pfad": "rz/149",
+              "text": true
+            },
+            {
+              "id": "rz_150",
+              "art": "absatz",
+              "nummer": "150",
+              "bez": "Rz. 150",
+              "pfad": "rz/150",
+              "text": true
+            },
+            {
+              "id": "rz_151",
+              "art": "absatz",
+              "nummer": "151",
+              "bez": "Rz. 151",
+              "pfad": "rz/151",
+              "text": true
+            },
+            {
+              "id": "rz_152",
+              "art": "absatz",
+              "nummer": "152",
+              "bez": "Rz. 152",
+              "pfad": "rz/152",
+              "text": true
+            },
+            {
+              "id": "rz_153",
+              "art": "absatz",
+              "nummer": "153",
+              "bez": "Rz. 153",
+              "pfad": "rz/153",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_10_5",
+          "art": "abschnitt",
+          "nummer": "10.5",
+          "bez": "10.5",
+          "titel": {
+            "de": "Unabhängige Risikocontrollingfunktion"
+          },
+          "pfad": "nr/10.5",
+          "kinder": [
+            {
+              "id": "rz_154",
+              "art": "absatz",
+              "nummer": "154",
+              "bez": "Rz. 154",
+              "pfad": "rz/154",
+              "text": true
+            },
+            {
+              "id": "rz_155",
+              "art": "absatz",
+              "nummer": "155",
+              "bez": "Rz. 155",
+              "pfad": "rz/155",
+              "text": true
+            },
+            {
+              "id": "rz_156",
+              "art": "absatz",
+              "nummer": "156",
+              "bez": "Rz. 156",
+              "pfad": "rz/156",
+              "text": true
+            },
+            {
+              "id": "rz_157",
+              "art": "absatz",
+              "nummer": "157",
+              "bez": "Rz. 157",
+              "pfad": "rz/157",
+              "text": true
+            },
+            {
+              "id": "rz_158",
+              "art": "absatz",
+              "nummer": "158",
+              "bez": "Rz. 158",
+              "pfad": "rz/158",
+              "text": true
+            },
+            {
+              "id": "rz_159",
+              "art": "absatz",
+              "nummer": "159",
+              "bez": "Rz. 159",
+              "pfad": "rz/159",
+              "text": true
+            },
+            {
+              "id": "rz_160",
+              "art": "absatz",
+              "nummer": "160",
+              "bez": "Rz. 160",
+              "pfad": "rz/160",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nr_11",
+      "art": "kapitel",
+      "nummer": "11",
+      "bez": "11",
+      "titel": {
+        "de": "Risikomanagementsystem"
+      },
+      "pfad": "nr/11",
+      "kinder": [
+        {
+          "id": "nr_11_1",
+          "art": "abschnitt",
+          "nummer": "11.1",
+          "bez": "11.1",
+          "titel": {
+            "de": "Rolle der Geschäftsleitung im Risikomanagementsystem"
+          },
+          "pfad": "nr/11.1",
+          "kinder": [
+            {
+              "id": "rz_161",
+              "art": "absatz",
+              "nummer": "161",
+              "bez": "Rz. 161",
+              "pfad": "rz/161",
+              "text": true
+            },
+            {
+              "id": "rz_162",
+              "art": "absatz",
+              "nummer": "162",
+              "bez": "Rz. 162",
+              "pfad": "rz/162",
+              "text": true
+            },
+            {
+              "id": "rz_163",
+              "art": "absatz",
+              "nummer": "163",
+              "bez": "Rz. 163",
+              "pfad": "rz/163",
+              "text": true
+            },
+            {
+              "id": "rz_164",
+              "art": "absatz",
+              "nummer": "164",
+              "bez": "Rz. 164",
+              "pfad": "rz/164",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_11_2",
+          "art": "abschnitt",
+          "nummer": "11.2",
+          "bez": "11.2",
+          "titel": {
+            "de": "Risikomanagementleitlinien"
+          },
+          "pfad": "nr/11.2",
+          "kinder": [
+            {
+              "id": "rz_165",
+              "art": "absatz",
+              "nummer": "165",
+              "bez": "Rz. 165",
+              "pfad": "rz/165",
+              "text": true
+            },
+            {
+              "id": "rz_166",
+              "art": "absatz",
+              "nummer": "166",
+              "bez": "Rz. 166",
+              "pfad": "rz/166",
+              "text": true
+            },
+            {
+              "id": "rz_167",
+              "art": "absatz",
+              "nummer": "167",
+              "bez": "Rz. 167",
+              "pfad": "rz/167",
+              "text": true
+            },
+            {
+              "id": "nr_11_2_1",
+              "art": "abschnitt",
+              "nummer": "11.2.1",
+              "bez": "11.2.1",
+              "titel": {
+                "de": "Risikomanagementleitlinien für das operationelle Risiko"
+              },
+              "pfad": "nr/11.2.1",
+              "kinder": [
+                {
+                  "id": "rz_168",
+                  "art": "absatz",
+                  "nummer": "168",
+                  "bez": "Rz. 168",
+                  "pfad": "rz/168",
+                  "text": true
+                },
+                {
+                  "id": "rz_169",
+                  "art": "absatz",
+                  "nummer": "169",
+                  "bez": "Rz. 169",
+                  "pfad": "rz/169",
+                  "text": true
+                },
+                {
+                  "id": "rz_170",
+                  "art": "absatz",
+                  "nummer": "170",
+                  "bez": "Rz. 170",
+                  "pfad": "rz/170",
+                  "text": true
+                },
+                {
+                  "id": "rz_171",
+                  "art": "absatz",
+                  "nummer": "171",
+                  "bez": "Rz. 171",
+                  "pfad": "rz/171",
+                  "text": true
+                },
+                {
+                  "id": "rz_172",
+                  "art": "absatz",
+                  "nummer": "172",
+                  "bez": "Rz. 172",
+                  "pfad": "rz/172",
+                  "text": true
+                },
+                {
+                  "id": "rz_173",
+                  "art": "absatz",
+                  "nummer": "173",
+                  "bez": "Rz. 173",
+                  "pfad": "rz/173",
+                  "text": true
+                },
+                {
+                  "id": "rz_174",
+                  "art": "absatz",
+                  "nummer": "174",
+                  "bez": "Rz. 174",
+                  "pfad": "rz/174",
+                  "text": true
+                },
+                {
+                  "id": "rz_175",
+                  "art": "absatz",
+                  "nummer": "175",
+                  "bez": "Rz. 175",
+                  "pfad": "rz/175",
+                  "text": true
+                },
+                {
+                  "id": "rz_176",
+                  "art": "absatz",
+                  "nummer": "176",
+                  "bez": "Rz. 176",
+                  "pfad": "rz/176",
+                  "text": true
+                }
+              ]
+            },
+            {
+              "id": "nr_11_2_2",
+              "art": "abschnitt",
+              "nummer": "11.2.2",
+              "bez": "11.2.2",
+              "titel": {
+                "de": "Risikomanagementleitlinien für Rückversicherung und andere Risikominderungstechniken"
+              },
+              "pfad": "nr/11.2.2",
+              "kinder": [
+                {
+                  "id": "rz_177",
+                  "art": "absatz",
+                  "nummer": "177",
+                  "bez": "Rz. 177",
+                  "pfad": "rz/177",
+                  "text": true
+                },
+                {
+                  "id": "rz_178",
+                  "art": "absatz",
+                  "nummer": "178",
+                  "bez": "Rz. 178",
+                  "pfad": "rz/178",
+                  "text": true
+                },
+                {
+                  "id": "rz_179",
+                  "art": "absatz",
+                  "nummer": "179",
+                  "bez": "Rz. 179",
+                  "pfad": "rz/179",
+                  "text": true
+                },
+                {
+                  "id": "rz_180",
+                  "art": "absatz",
+                  "nummer": "180",
+                  "bez": "Rz. 180",
+                  "pfad": "rz/180",
+                  "text": true
+                },
+                {
+                  "id": "rz_181",
+                  "art": "absatz",
+                  "nummer": "181",
+                  "bez": "Rz. 181",
+                  "pfad": "rz/181",
+                  "text": true
+                },
+                {
+                  "id": "rz_182",
+                  "art": "absatz",
+                  "nummer": "182",
+                  "bez": "Rz. 182",
+                  "pfad": "rz/182",
+                  "text": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "nr_11_3",
+          "art": "abschnitt",
+          "nummer": "11.3",
+          "bez": "11.3",
+          "titel": {
+            "de": "Unternehmensindividuelle Stresstests"
+          },
+          "pfad": "nr/11.3",
+          "kinder": [
+            {
+              "id": "rz_183",
+              "art": "absatz",
+              "nummer": "183",
+              "bez": "Rz. 183",
+              "pfad": "rz/183",
+              "text": true
+            },
+            {
+              "id": "rz_184",
+              "art": "absatz",
+              "nummer": "184",
+              "bez": "Rz. 184",
+              "pfad": "rz/184",
+              "text": true
+            },
+            {
+              "id": "rz_185",
+              "art": "absatz",
+              "nummer": "185",
+              "bez": "Rz. 185",
+              "pfad": "rz/185",
+              "text": true
+            },
+            {
+              "id": "rz_186",
+              "art": "absatz",
+              "nummer": "186",
+              "bez": "Rz. 186",
+              "pfad": "rz/186",
+              "text": true
+            },
+            {
+              "id": "rz_187",
+              "art": "absatz",
+              "nummer": "187",
+              "bez": "Rz. 187",
+              "pfad": "rz/187",
+              "text": true
+            },
+            {
+              "id": "rz_188",
+              "art": "absatz",
+              "nummer": "188",
+              "bez": "Rz. 188",
+              "pfad": "rz/188",
+              "text": true
+            },
+            {
+              "id": "rz_189",
+              "art": "absatz",
+              "nummer": "189",
+              "bez": "Rz. 189",
+              "pfad": "rz/189",
+              "text": true
+            },
+            {
+              "id": "rz_190",
+              "art": "absatz",
+              "nummer": "190",
+              "bez": "Rz. 190",
+              "pfad": "rz/190",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_11_4",
+          "art": "abschnitt",
+          "nummer": "11.4",
+          "bez": "11.4",
+          "titel": {
+            "de": "Zusätzliche Anforderungen auf Gruppenebene"
+          },
+          "pfad": "nr/11.4",
+          "kinder": [
+            {
+              "id": "rz_191",
+              "art": "absatz",
+              "nummer": "191",
+              "bez": "Rz. 191",
+              "pfad": "rz/191",
+              "text": true
+            },
+            {
+              "id": "rz_192",
+              "art": "absatz",
+              "nummer": "192",
+              "bez": "Rz. 192",
+              "pfad": "rz/192",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nr_12",
+      "art": "kapitel",
+      "nummer": "12",
+      "bez": "12",
+      "titel": {
+        "de": "Internes Kontrollsystem"
+      },
+      "pfad": "nr/12",
+      "kinder": [
+        {
+          "id": "nr_12_1",
+          "art": "abschnitt",
+          "nummer": "12.1",
+          "bez": "12.1",
+          "titel": {
+            "de": "Allgemeines"
+          },
+          "pfad": "nr/12.1",
+          "kinder": [
+            {
+              "id": "rz_193",
+              "art": "absatz",
+              "nummer": "193",
+              "bez": "Rz. 193",
+              "pfad": "rz/193",
+              "text": true
+            },
+            {
+              "id": "rz_194",
+              "art": "absatz",
+              "nummer": "194",
+              "bez": "Rz. 194",
+              "pfad": "rz/194",
+              "text": true
+            },
+            {
+              "id": "rz_195",
+              "art": "absatz",
+              "nummer": "195",
+              "bez": "Rz. 195",
+              "pfad": "rz/195",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_12_2",
+          "art": "abschnitt",
+          "nummer": "12.2",
+          "bez": "12.2",
+          "titel": {
+            "de": "Interner Kontrollrahmen und Melderegelungen"
+          },
+          "pfad": "nr/12.2",
+          "kinder": [
+            {
+              "id": "rz_196",
+              "art": "absatz",
+              "nummer": "196",
+              "bez": "Rz. 196",
+              "pfad": "rz/196",
+              "text": true
+            },
+            {
+              "id": "rz_197",
+              "art": "absatz",
+              "nummer": "197",
+              "bez": "Rz. 197",
+              "pfad": "rz/197",
+              "text": true
+            },
+            {
+              "id": "rz_198",
+              "art": "absatz",
+              "nummer": "198",
+              "bez": "Rz. 198",
+              "pfad": "rz/198",
+              "text": true
+            },
+            {
+              "id": "rz_199",
+              "art": "absatz",
+              "nummer": "199",
+              "bez": "Rz. 199",
+              "pfad": "rz/199",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nr_13",
+      "art": "kapitel",
+      "nummer": "13",
+      "bez": "13",
+      "titel": {
+        "de": "Ausgliederung"
+      },
+      "pfad": "nr/13",
+      "kinder": [
+        {
+          "id": "nr_13_1",
+          "art": "abschnitt",
+          "nummer": "13.1",
+          "bez": "13.1",
+          "titel": {
+            "de": "Begriff der Ausgliederung"
+          },
+          "pfad": "nr/13.1",
+          "kinder": [
+            {
+              "id": "rz_200",
+              "art": "absatz",
+              "nummer": "200",
+              "bez": "Rz. 200",
+              "pfad": "rz/200",
+              "text": true
+            },
+            {
+              "id": "rz_201",
+              "art": "absatz",
+              "nummer": "201",
+              "bez": "Rz. 201",
+              "pfad": "rz/201",
+              "text": true
+            },
+            {
+              "id": "rz_202",
+              "art": "absatz",
+              "nummer": "202",
+              "bez": "Rz. 202",
+              "pfad": "rz/202",
+              "text": true
+            },
+            {
+              "id": "rz_203",
+              "art": "absatz",
+              "nummer": "203",
+              "bez": "Rz. 203",
+              "pfad": "rz/203",
+              "text": true
+            },
+            {
+              "id": "rz_204",
+              "art": "absatz",
+              "nummer": "204",
+              "bez": "Rz. 204",
+              "pfad": "rz/204",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_13_2",
+          "art": "abschnitt",
+          "nummer": "13.2",
+          "bez": "13.2",
+          "titel": {
+            "de": "Zulässiger Umfang"
+          },
+          "pfad": "nr/13.2",
+          "kinder": [
+            {
+              "id": "rz_205",
+              "art": "absatz",
+              "nummer": "205",
+              "bez": "Rz. 205",
+              "pfad": "rz/205",
+              "text": true
+            },
+            {
+              "id": "rz_206",
+              "art": "absatz",
+              "nummer": "206",
+              "bez": "Rz. 206",
+              "pfad": "rz/206",
+              "text": true
+            },
+            {
+              "id": "rz_207",
+              "art": "absatz",
+              "nummer": "207",
+              "bez": "Rz. 207",
+              "pfad": "rz/207",
+              "text": true
+            },
+            {
+              "id": "rz_208",
+              "art": "absatz",
+              "nummer": "208",
+              "bez": "Rz. 208",
+              "pfad": "rz/208",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_13_3",
+          "art": "abschnitt",
+          "nummer": "13.3",
+          "bez": "13.3",
+          "titel": {
+            "de": "Risikoanalyse im Kontext von Ausgliederungen"
+          },
+          "pfad": "nr/13.3",
+          "kinder": [
+            {
+              "id": "rz_209",
+              "art": "absatz",
+              "nummer": "209",
+              "bez": "Rz. 209",
+              "pfad": "rz/209",
+              "text": true
+            },
+            {
+              "id": "rz_210",
+              "art": "absatz",
+              "nummer": "210",
+              "bez": "Rz. 210",
+              "pfad": "rz/210",
+              "text": true
+            },
+            {
+              "id": "rz_211",
+              "art": "absatz",
+              "nummer": "211",
+              "bez": "Rz. 211",
+              "pfad": "rz/211",
+              "text": true
+            },
+            {
+              "id": "rz_212",
+              "art": "absatz",
+              "nummer": "212",
+              "bez": "Rz. 212",
+              "pfad": "rz/212",
+              "text": true
+            },
+            {
+              "id": "rz_213",
+              "art": "absatz",
+              "nummer": "213",
+              "bez": "Rz. 213",
+              "pfad": "rz/213",
+              "text": true
+            },
+            {
+              "id": "rz_214",
+              "art": "absatz",
+              "nummer": "214",
+              "bez": "Rz. 214",
+              "pfad": "rz/214",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_13_4",
+          "art": "abschnitt",
+          "nummer": "13.4",
+          "bez": "13.4",
+          "titel": {
+            "de": "Ausgliederung wichtiger Funktionen und Versicherungstätigkeiten"
+          },
+          "pfad": "nr/13.4",
+          "kinder": [
+            {
+              "id": "rz_215",
+              "art": "absatz",
+              "nummer": "215",
+              "bez": "Rz. 215",
+              "pfad": "rz/215",
+              "text": true
+            },
+            {
+              "id": "rz_216",
+              "art": "absatz",
+              "nummer": "216",
+              "bez": "Rz. 216",
+              "pfad": "rz/216",
+              "text": true
+            },
+            {
+              "id": "rz_217",
+              "art": "absatz",
+              "nummer": "217",
+              "bez": "Rz. 217",
+              "pfad": "rz/217",
+              "text": true
+            },
+            {
+              "id": "rz_218",
+              "art": "absatz",
+              "nummer": "218",
+              "bez": "Rz. 218",
+              "pfad": "rz/218",
+              "text": true
+            },
+            {
+              "id": "rz_219",
+              "art": "absatz",
+              "nummer": "219",
+              "bez": "Rz. 219",
+              "pfad": "rz/219",
+              "text": true
+            },
+            {
+              "id": "rz_220",
+              "art": "absatz",
+              "nummer": "220",
+              "bez": "Rz. 220",
+              "pfad": "rz/220",
+              "text": true
+            },
+            {
+              "id": "rz_221",
+              "art": "absatz",
+              "nummer": "221",
+              "bez": "Rz. 221",
+              "pfad": "rz/221",
+              "text": true
+            },
+            {
+              "id": "rz_222",
+              "art": "absatz",
+              "nummer": "222",
+              "bez": "Rz. 222",
+              "pfad": "rz/222",
+              "text": true
+            },
+            {
+              "id": "rz_223",
+              "art": "absatz",
+              "nummer": "223",
+              "bez": "Rz. 223",
+              "pfad": "rz/223",
+              "text": true
+            },
+            {
+              "id": "rz_224",
+              "art": "absatz",
+              "nummer": "224",
+              "bez": "Rz. 224",
+              "pfad": "rz/224",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_13_5",
+          "art": "abschnitt",
+          "nummer": "13.5",
+          "bez": "13.5",
+          "titel": {
+            "de": "Die/der Ausgliederungsbeauftragte"
+          },
+          "pfad": "nr/13.5",
+          "kinder": [
+            {
+              "id": "rz_225",
+              "art": "absatz",
+              "nummer": "225",
+              "bez": "Rz. 225",
+              "pfad": "rz/225",
+              "text": true
+            },
+            {
+              "id": "rz_226",
+              "art": "absatz",
+              "nummer": "226",
+              "bez": "Rz. 226",
+              "pfad": "rz/226",
+              "text": true
+            },
+            {
+              "id": "rz_227",
+              "art": "absatz",
+              "nummer": "227",
+              "bez": "Rz. 227",
+              "pfad": "rz/227",
+              "text": true
+            },
+            {
+              "id": "rz_228",
+              "art": "absatz",
+              "nummer": "228",
+              "bez": "Rz. 228",
+              "pfad": "rz/228",
+              "text": true
+            },
+            {
+              "id": "rz_229",
+              "art": "absatz",
+              "nummer": "229",
+              "bez": "Rz. 229",
+              "pfad": "rz/229",
+              "text": true
+            },
+            {
+              "id": "rz_230",
+              "art": "absatz",
+              "nummer": "230",
+              "bez": "Rz. 230",
+              "pfad": "rz/230",
+              "text": true
+            },
+            {
+              "id": "rz_231",
+              "art": "absatz",
+              "nummer": "231",
+              "bez": "Rz. 231",
+              "pfad": "rz/231",
+              "text": true
+            },
+            {
+              "id": "rz_232",
+              "art": "absatz",
+              "nummer": "232",
+              "bez": "Rz. 232",
+              "pfad": "rz/232",
+              "text": true
+            },
+            {
+              "id": "rz_233",
+              "art": "absatz",
+              "nummer": "233",
+              "bez": "Rz. 233",
+              "pfad": "rz/233",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_13_6",
+          "art": "abschnitt",
+          "nummer": "13.6",
+          "bez": "13.6",
+          "titel": {
+            "de": "Konzern-/Gruppeninterne Ausgliederung"
+          },
+          "pfad": "nr/13.6",
+          "kinder": [
+            {
+              "id": "rz_234",
+              "art": "absatz",
+              "nummer": "234",
+              "bez": "Rz. 234",
+              "pfad": "rz/234",
+              "text": true
+            },
+            {
+              "id": "rz_235",
+              "art": "absatz",
+              "nummer": "235",
+              "bez": "Rz. 235",
+              "pfad": "rz/235",
+              "text": true
+            },
+            {
+              "id": "rz_236",
+              "art": "absatz",
+              "nummer": "236",
+              "bez": "Rz. 236",
+              "pfad": "rz/236",
+              "text": true
+            },
+            {
+              "id": "rz_237",
+              "art": "absatz",
+              "nummer": "237",
+              "bez": "Rz. 237",
+              "pfad": "rz/237",
+              "text": true
+            },
+            {
+              "id": "rz_238",
+              "art": "absatz",
+              "nummer": "238",
+              "bez": "Rz. 238",
+              "pfad": "rz/238",
+              "text": true
+            },
+            {
+              "id": "rz_239",
+              "art": "absatz",
+              "nummer": "239",
+              "bez": "Rz. 239",
+              "pfad": "rz/239",
+              "text": true
+            },
+            {
+              "id": "rz_240",
+              "art": "absatz",
+              "nummer": "240",
+              "bez": "Rz. 240",
+              "pfad": "rz/240",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_13_7",
+          "art": "abschnitt",
+          "nummer": "13.7",
+          "bez": "13.7",
+          "titel": {
+            "de": "Ausgliederung auf Versicherungsvermittlerinnen und Versicherungsvermittler"
+          },
+          "pfad": "nr/13.7",
+          "kinder": [
+            {
+              "id": "rz_241",
+              "art": "absatz",
+              "nummer": "241",
+              "bez": "Rz. 241",
+              "pfad": "rz/241",
+              "text": true
+            },
+            {
+              "id": "rz_242",
+              "art": "absatz",
+              "nummer": "242",
+              "bez": "Rz. 242",
+              "pfad": "rz/242",
+              "text": true
+            },
+            {
+              "id": "rz_243",
+              "art": "absatz",
+              "nummer": "243",
+              "bez": "Rz. 243",
+              "pfad": "rz/243",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "nr_13_8",
+          "art": "abschnitt",
+          "nummer": "13.8",
+          "bez": "13.8",
+          "titel": {
+            "de": "Ausgliederungsleitlinien"
+          },
+          "pfad": "nr/13.8",
+          "kinder": [
+            {
+              "id": "rz_244",
+              "art": "absatz",
+              "nummer": "244",
+              "bez": "Rz. 244",
+              "pfad": "rz/244",
+              "text": true
+            },
+            {
+              "id": "rz_245",
+              "art": "absatz",
+              "nummer": "245",
+              "bez": "Rz. 245",
+              "pfad": "rz/245",
+              "text": true
+            },
+            {
+              "id": "rz_246",
+              "art": "absatz",
+              "nummer": "246",
+              "bez": "Rz. 246",
+              "pfad": "rz/246",
+              "text": true
+            },
+            {
+              "id": "rz_247",
+              "art": "absatz",
+              "nummer": "247",
+              "bez": "Rz. 247",
+              "pfad": "rz/247",
+              "text": true
+            },
+            {
+              "id": "rz_248",
+              "art": "absatz",
+              "nummer": "248",
+              "bez": "Rz. 248",
+              "pfad": "rz/248",
+              "text": true
+            },
+            {
+              "id": "rz_249",
+              "art": "absatz",
+              "nummer": "249",
+              "bez": "Rz. 249",
+              "pfad": "rz/249",
+              "text": true
+            },
+            {
+              "id": "rz_250",
+              "art": "absatz",
+              "nummer": "250",
+              "bez": "Rz. 250",
+              "pfad": "rz/250",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nr_14",
+      "art": "kapitel",
+      "nummer": "14",
+      "bez": "14",
+      "titel": {
+        "de": "Notfallmanagement"
+      },
+      "pfad": "nr/14",
+      "kinder": [
+        {
+          "id": "rz_251",
+          "art": "absatz",
+          "nummer": "251",
+          "bez": "Rz. 251",
+          "pfad": "rz/251",
+          "text": true
+        },
+        {
+          "id": "rz_252",
+          "art": "absatz",
+          "nummer": "252",
+          "bez": "Rz. 252",
+          "pfad": "rz/252",
+          "text": true
+        },
+        {
+          "id": "rz_253",
+          "art": "absatz",
+          "nummer": "253",
+          "bez": "Rz. 253",
+          "pfad": "rz/253",
+          "text": true
+        },
+        {
+          "id": "rz_254",
+          "art": "absatz",
+          "nummer": "254",
+          "bez": "Rz. 254",
+          "pfad": "rz/254",
+          "text": true
+        },
+        {
+          "id": "rz_255",
+          "art": "absatz",
+          "nummer": "255",
+          "bez": "Rz. 255",
+          "pfad": "rz/255",
+          "text": true
+        },
+        {
+          "id": "rz_256",
+          "art": "absatz",
+          "nummer": "256",
+          "bez": "Rz. 256",
+          "pfad": "rz/256",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

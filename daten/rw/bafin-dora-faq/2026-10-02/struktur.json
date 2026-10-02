@@ -1,0 +1,576 @@
+{
+  "regelwerk": "bafin-dora-faq",
+  "fassung": "2026-10-02",
+  "abgerufen": "2026-10-02T05:35:10Z",
+  "quelle": {
+    "name": "Hinweis zur Verwendung von Cookies",
+    "url": "https://www.bafin.de/SharedDocs/Fragen-antworten/DE/faq-dora/faq-dora_node.html",
+    "hinweis": "© Bundesanstalt für Finanzdienstleistungsaufsicht / www.bafin.de – Wiedergabe unverändert und mit Quellenangabe, wie es die Nutzungsbedingungen der BaFin vorsehen. Rechtsverbindlich ist allein die von der BaFin veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "gr_1",
+      "art": "abschnitt",
+      "nummer": "1",
+      "titel": {
+        "de": "Anwendungsbereich"
+      },
+      "pfad": "gr/1",
+      "kinder": [
+        {
+          "id": "frage_1",
+          "art": "control",
+          "nummer": "1",
+          "bez": "Frage 1",
+          "titel": {
+            "de": "Für welche Unternehmen gilt DORA?"
+          },
+          "pfad": "frage/1",
+          "text": true
+        },
+        {
+          "id": "frage_2",
+          "art": "control",
+          "nummer": "2",
+          "bez": "Frage 2",
+          "titel": {
+            "de": "Müssen auch KWG-Institute, die keine CRR-Kreditinstitute sind, die Anforderungen aus DORA erfüllen?"
+          },
+          "pfad": "frage/2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "gr_2",
+      "art": "abschnitt",
+      "nummer": "2",
+      "titel": {
+        "de": "Management des IKT-Drittparteienrisikos"
+      },
+      "pfad": "gr/2",
+      "kinder": [
+        {
+          "id": "frage_3",
+          "art": "control",
+          "nummer": "3",
+          "bez": "Frage 3",
+          "titel": {
+            "de": "Kann ein anderes beaufsichtigtes Finanzunternehmen IKT-Drittdienstleister für mein Finanzunternehmen sein?"
+          },
+          "pfad": "frage/3",
+          "text": true
+        },
+        {
+          "id": "frage_4",
+          "art": "control",
+          "nummer": "4",
+          "bez": "Frage 4",
+          "titel": {
+            "de": "In welchem Verhältnis stehen die Anforderungen an das IKT-Drittparteienrisikomanagement nach DORA und die nationalen Anforderungen an Auslagerungen bzw. Ausgliederungen? Gilt DORA auch bei Auslagerungen/Ausgliederungen bzw. Weiterverlagerungen?"
+          },
+          "pfad": "frage/4",
+          "text": true
+        },
+        {
+          "id": "frage_5",
+          "art": "control",
+          "nummer": "5",
+          "bez": "Frage 5",
+          "titel": {
+            "de": "Beziehen sich „kritische oder wichtige Funktionen“ i.S.d. Artikel 3 Nr. 22 DORA nur auf das Schutzziel „Verfügbarkeit“? Kann ich die anderen Schutzziele ignorieren?"
+          },
+          "pfad": "frage/5",
+          "text": true
+        },
+        {
+          "id": "frage_6",
+          "art": "control",
+          "nummer": "6",
+          "bez": "Frage 6",
+          "titel": {
+            "de": "Ist es sinnvoll, eine Erweiterung des Umfangs von standardisierten Zertifikaten zu verlangen?"
+          },
+          "pfad": "frage/6",
+          "text": true
+        },
+        {
+          "id": "frage_7",
+          "art": "control",
+          "nummer": "7",
+          "bez": "Frage 7",
+          "titel": {
+            "de": "Gibt es bei den Prüfungspflichten weiterhin die Möglichkeiten des direkten Austauschs zwischen den Internen Revisionen von IKT-Dienstleistern und Finanzunternehmen?"
+          },
+          "pfad": "frage/7",
+          "text": true
+        },
+        {
+          "id": "frage_8",
+          "art": "control",
+          "nummer": "8",
+          "bez": "Frage 8",
+          "titel": {
+            "de": "Kann ich externe Prüfberichte zur Beurteilung von IKT-Dienstleistern heranziehen?"
+          },
+          "pfad": "frage/8",
+          "text": true
+        },
+        {
+          "id": "frage_9",
+          "art": "control",
+          "nummer": "9",
+          "bez": "Frage 9",
+          "titel": {
+            "de": "Muss mein Finanzunternehmen IKT-Sicherheitsschulungen für IKT-Drittdienstleister durchführen?"
+          },
+          "pfad": "frage/9",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "gr_3",
+      "art": "abschnitt",
+      "nummer": "3",
+      "titel": {
+        "de": "Threat-Led Penetration Testing (TLPT)"
+      },
+      "pfad": "gr/3",
+      "kinder": [
+        {
+          "id": "frage_10",
+          "art": "control",
+          "nummer": "10",
+          "bez": "Frage 10",
+          "titel": {
+            "de": "Gibt es eine Übersicht aller in Deutschland zugelassenen Testerinnen und Tester für TLPT nach Artikel 27 Absatz 1 DORA?"
+          },
+          "pfad": "frage/10",
+          "text": true
+        },
+        {
+          "id": "frage_11",
+          "art": "control",
+          "nummer": "11",
+          "bez": "Frage 11",
+          "titel": {
+            "de": "Was muss ich bei der Testumfangspezifikation berücksichtigen?"
+          },
+          "pfad": "frage/11",
+          "text": true
+        },
+        {
+          "id": "frage_12",
+          "art": "control",
+          "nummer": "12",
+          "bez": "Frage 12",
+          "titel": {
+            "de": "Was sind „Pooled Tests“ im Zusammenhang mit TLPT?"
+          },
+          "pfad": "frage/12",
+          "text": true
+        },
+        {
+          "id": "frage_13",
+          "art": "control",
+          "nummer": "13",
+          "bez": "Frage 13",
+          "titel": {
+            "de": "Was sind Joint TLPT?"
+          },
+          "pfad": "frage/13",
+          "text": true
+        },
+        {
+          "id": "frage_14",
+          "art": "control",
+          "nummer": "14",
+          "bez": "Frage 14",
+          "titel": {
+            "de": "Können IKT-Drittdienstleister auch eine Bescheinigung nach Artikel 26 Absatz 7 DORA über die ordnungsgemäße Durchführung eines TLPT erhalten?"
+          },
+          "pfad": "frage/14",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "gr_4",
+      "art": "abschnitt",
+      "nummer": "4",
+      "titel": {
+        "de": "Überwachungsrahmenwerk für kritische IKT-Drittdienstleister"
+      },
+      "pfad": "gr/4",
+      "kinder": [
+        {
+          "id": "frage_15",
+          "art": "control",
+          "nummer": "15",
+          "bez": "Frage 15",
+          "titel": {
+            "de": "Muss ich etwas beachten, wenn mein Finanzunternehmen einen Vertrag mit einem kritischen IKT-Drittdienstleister unterhält?"
+          },
+          "pfad": "frage/15",
+          "text": true
+        },
+        {
+          "id": "frage_16",
+          "art": "control",
+          "nummer": "16",
+          "bez": "Frage 16",
+          "titel": {
+            "de": "Wer schätzt ein, ob ein IKT-Dienstleister kritisch ist?"
+          },
+          "pfad": "frage/16",
+          "text": true
+        },
+        {
+          "id": "frage_17",
+          "art": "control",
+          "nummer": "17",
+          "bez": "Frage 17",
+          "titel": {
+            "de": "Müssen IKT-Drittdienstleister die DORA-Anforderungen auch umsetzen?"
+          },
+          "pfad": "frage/17",
+          "text": true
+        },
+        {
+          "id": "frage_18",
+          "art": "control",
+          "nummer": "18",
+          "bez": "Frage 18",
+          "titel": {
+            "de": "Worauf achtet die Aufsicht bei einem kritischen IKT-Drittdienstleister, den sie überwacht?"
+          },
+          "pfad": "frage/18",
+          "text": true
+        },
+        {
+          "id": "frage_19",
+          "art": "control",
+          "nummer": "19",
+          "bez": "Frage 19",
+          "titel": {
+            "de": "Ich arbeite mit einem IKT-Drittdienstleister zusammen, der von der Aufsicht überwacht wird. Muss ich diesen Dienstleister nun weniger intensiv prüfen?"
+          },
+          "pfad": "frage/19",
+          "text": true
+        },
+        {
+          "id": "frage_20",
+          "art": "control",
+          "nummer": "20",
+          "bez": "Frage 20",
+          "titel": {
+            "de": "Stellt die Aufsicht den Finanzunternehmen die Berichte über die Überwachung des kritischen IKT-Drittdienstleisters zur Verfügung? Wie erfahre ich davon?"
+          },
+          "pfad": "frage/20",
+          "text": true
+        },
+        {
+          "id": "frage_21",
+          "art": "control",
+          "nummer": "21",
+          "bez": "Frage 21",
+          "titel": {
+            "de": "Darf mein Unternehmen nur IKT-Drittdienstleister nutzen, die einen Sitz in der EU haben?"
+          },
+          "pfad": "frage/21",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "gr_5",
+      "art": "abschnitt",
+      "nummer": "5",
+      "titel": {
+        "de": "Meldewesen"
+      },
+      "pfad": "gr/5",
+      "kinder": [
+        {
+          "id": "frage_22",
+          "art": "control",
+          "nummer": "22",
+          "bez": "Frage 22",
+          "titel": {
+            "de": "Wie wird die Kritikalität der betroffenen Dienste bestimmt?"
+          },
+          "pfad": "frage/22",
+          "text": true
+        },
+        {
+          "id": "frage_23",
+          "art": "control",
+          "nummer": "23",
+          "bez": "Frage 23",
+          "titel": {
+            "de": "Gibt es Erleichterungen für eine Meldepflicht außerhalb von Geschäftszeiten oder an Wochenenden/ Feiertagen?"
+          },
+          "pfad": "frage/23",
+          "text": true
+        },
+        {
+          "id": "frage_24",
+          "art": "control",
+          "nummer": "24",
+          "bez": "Frage 24",
+          "titel": {
+            "de": "Wo finde ich Hinweise zum erforderlichen Inhalt der einzelnen Datenfelder der Meldungsformulare?"
+          },
+          "pfad": "frage/24",
+          "text": true
+        },
+        {
+          "id": "frage_25",
+          "art": "control",
+          "nummer": "25",
+          "bez": "Frage 25",
+          "titel": {
+            "de": "Darf die Meldepflicht von einem Dienstleister erfüllt werden?"
+          },
+          "pfad": "frage/25",
+          "text": true
+        },
+        {
+          "id": "frage_26",
+          "art": "control",
+          "nummer": "26",
+          "bez": "Frage 26",
+          "titel": {
+            "de": "Sind auch IKT-Drittdienstleister verpflichtet, schwerwiegende IKT-bezogene Vorfälle nach DORA zu melden?"
+          },
+          "pfad": "frage/26",
+          "text": true
+        },
+        {
+          "id": "frage_27",
+          "art": "control",
+          "nummer": "27",
+          "bez": "Frage 27",
+          "titel": {
+            "de": "Ist es möglich, Meldungen durch außereuropäische Dienstleister einzureichen?"
+          },
+          "pfad": "frage/27",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "gr_6",
+      "art": "abschnitt",
+      "nummer": "6",
+      "titel": {
+        "de": "Informationsregister"
+      },
+      "pfad": "gr/6",
+      "kinder": [
+        {
+          "id": "frage_28",
+          "art": "control",
+          "nummer": "28",
+          "bez": "Frage 28",
+          "titel": {
+            "de": "Handelt es sich bei der Nutzung des MVP-Portals um eine IKT-Dienstleistung nach DORA?"
+          },
+          "pfad": "frage/28",
+          "text": true
+        },
+        {
+          "id": "frage_29",
+          "art": "control",
+          "nummer": "29",
+          "bez": "Frage 29",
+          "titel": {
+            "de": "Wo erhalte ich die LEI-Nummern bzw. EUIDs für die IKT-Drittdienstleister?"
+          },
+          "pfad": "frage/29",
+          "text": true
+        },
+        {
+          "id": "frage_30",
+          "art": "control",
+          "nummer": "30",
+          "bez": "Frage 30",
+          "titel": {
+            "de": "Wird es eine Dummy-LEI für \"kleinere\" IKT-Drittdienstleister geben, die darüber bisher nicht verfügen?"
+          },
+          "pfad": "frage/30",
+          "text": true
+        },
+        {
+          "id": "frage_31",
+          "art": "control",
+          "nummer": "31",
+          "bez": "Frage 31",
+          "titel": {
+            "de": "Wo finde ich Hinweise zum erforderlichen Inhalt der einzelnen Datenfelder der Meldungsformulare?"
+          },
+          "pfad": "frage/31",
+          "text": true
+        },
+        {
+          "id": "frage_32",
+          "art": "control",
+          "nummer": "32",
+          "bez": "Frage 32",
+          "titel": {
+            "de": "Welche Validierungsregeln muss ich beachten, wenn ich das Informationsregister befülle?"
+          },
+          "pfad": "frage/32",
+          "text": true
+        },
+        {
+          "id": "frage_33",
+          "art": "control",
+          "nummer": "33",
+          "bez": "Frage 33",
+          "titel": {
+            "de": "Bis zu welchem Rang muss ich die IKT-Drittdienstleister in dem Informationsregister aufführen?"
+          },
+          "pfad": "frage/33",
+          "text": true
+        },
+        {
+          "id": "frage_34",
+          "art": "control",
+          "nummer": "34",
+          "bez": "Frage 34",
+          "titel": {
+            "de": "Woran erkenne ich, ob die ESAs meine Meldung annehmen?"
+          },
+          "pfad": "frage/34",
+          "text": true
+        },
+        {
+          "id": "frage_35",
+          "art": "control",
+          "nummer": "35",
+          "bez": "Frage 35",
+          "titel": {
+            "de": "Die ESAs versenden über das MVP-Portal Anfang April das Datenqualitätsfeedback. Erhalte ich ein erneutes Feedback zur Datenqualität, nachdem ich das korrigierte Informationsregister erneut eingereicht habe?"
+          },
+          "pfad": "frage/35",
+          "text": true
+        },
+        {
+          "id": "frage_36",
+          "art": "control",
+          "nummer": "36",
+          "bez": "Frage 36",
+          "titel": {
+            "de": "Warum habe ich die Fehlermeldung Typ 705 erhalten, nachdem ich mein korrigiertes Informationsregister erneut hochgeladen habe?"
+          },
+          "pfad": "frage/36",
+          "text": true
+        },
+        {
+          "id": "frage_37",
+          "art": "control",
+          "nummer": "37",
+          "bez": "Frage 37",
+          "titel": {
+            "de": "Ich habe im April ein Datenqualitätsfeedback der ESAs erhalten. Einige Beanstandungen sind jedoch nicht berechtigt, da die Daten nachweislich korrekt sind. Was soll ich tun?"
+          },
+          "pfad": "frage/37",
+          "text": true
+        },
+        {
+          "id": "frage_38",
+          "art": "control",
+          "nummer": "38",
+          "bez": "Frage 38",
+          "titel": {
+            "de": "Ich habe im April kein Datenqualitätsfeedback erhalten. Was muss ich nun tun?"
+          },
+          "pfad": "frage/38",
+          "text": true
+        },
+        {
+          "id": "frage_39",
+          "art": "control",
+          "nummer": "39",
+          "bez": "Frage 39",
+          "titel": {
+            "de": "Was soll ich tun, wenn ich innerhalb von 48 Stunden keine Rückmeldung zu meinem Informationsregister im MVP-Portal erhalten habe?"
+          },
+          "pfad": "frage/39",
+          "text": true
+        },
+        {
+          "id": "frage_40",
+          "art": "control",
+          "nummer": "40",
+          "bez": "Frage 40",
+          "titel": {
+            "de": "Ich habe die Einreichungsfrist verpasst. Kann ich dennoch das Informationsregister einreichen?"
+          },
+          "pfad": "frage/40",
+          "text": true
+        },
+        {
+          "id": "frage_41",
+          "art": "control",
+          "nummer": "41",
+          "bez": "Frage 41",
+          "titel": {
+            "de": "Kann ich das Informationsregister per E-Mail einreichen, wenn ich die Einreichungsfrist über das MVP-Portal verpasst habe?"
+          },
+          "pfad": "frage/41",
+          "text": true
+        },
+        {
+          "id": "frage_42",
+          "art": "control",
+          "nummer": "42",
+          "bez": "Frage 42",
+          "titel": {
+            "de": "Wie soll ich die Aufsicht über Änderungen im Informationsregister informieren?"
+          },
+          "pfad": "frage/42",
+          "text": true
+        },
+        {
+          "id": "frage_43",
+          "art": "control",
+          "nummer": "43",
+          "bez": "Frage 43",
+          "titel": {
+            "de": "Ich muss der Bafin die geplante Vertragsänderung bei einer IKT-Dienstleistung anzeigen bzw. die Bafin informieren, dass diese Dienstleistung nun kritische oder wichtige Funktionen unterstützt. Für die Dienstleistung ist aber keine Auslagerungsanzeige erforderlich. Wie gehe ich vor?"
+          },
+          "pfad": "frage/43",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "gr_7",
+      "art": "abschnitt",
+      "nummer": "7",
+      "titel": {
+        "de": "Sonstiges"
+      },
+      "pfad": "gr/7",
+      "kinder": [
+        {
+          "id": "frage_44",
+          "art": "control",
+          "nummer": "44",
+          "bez": "Frage 44",
+          "titel": {
+            "de": "Gibt es Auslegungsentscheidungen zu DORA auch von europäischer Ebene?"
+          },
+          "pfad": "frage/44",
+          "text": true
+        }
+      ]
+    }
+  ]
+}
