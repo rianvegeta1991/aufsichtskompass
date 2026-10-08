@@ -1,0 +1,17 @@
+{
+  "regelwerk": "tiber-de",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:14Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts (Umsetzungsdokument vollständig gelesen, das TIBER-EU-Rahmenwerk selbst nicht), ungeprüft) – Bezugsfassung: Deutsche Bundesbank, „Implementierung von TIBER-DE“, Version 4.0, Juli 2025 (8 Seiten); darauf aufbauend das TIBER-EU-Rahmenwerk der EZB in der überarbeiteten Fassung vom Januar 2025",
+        "url": "https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/tiber-de",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein Deutsche Bundesbank, TIBER-DE (Deutsche Bundesbank, „Implementierung von TIBER-DE“, Version 4.0, Juli 2025 (8 Seiten); darauf aufbauend das TIBER-EU-Rahmenwerk der EZB in der überarbeiteten Fassung vom Januar 2025)."
+      },
+      "hash": "6d7571657b9d5d5518916c084007440bcb07bcbe7b4af436e9e66fd94a92bf77",
+      "fundstellen": 6
+    }
+  ]
+}

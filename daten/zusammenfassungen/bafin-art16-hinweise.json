@@ -1,0 +1,32 @@
+{
+  "regelwerk": "bafin-art16-hinweise",
+  "bezugsfassung": "BaFin, Hinweise zu den Dokumentationsanforderungen an Finanzunternehmen gemäß Artikel 16 DORA – Fragen und Antworten zur Übersicht (2 Seiten), Stand 21.08.2025",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt nach Durchsicht des Originaltexts",
+  "geprueft": false,
+  "hinweis": "Das Dokument besteht aus einer zweiseitigen Erläuterung und einer tabellarischen Übersicht der geforderten Mindestdokumente, nur als PDF veröffentlicht. Die Übersichtstabelle selbst wird hier nicht nachgebildet – sie ist eine große Matrix, die nur im Original sinnvoll lesbar ist. Der vereinfachte IKT-Risikomanagementrahmen nach Artikel 16 DORA gilt für kleine und nicht verflochtene Finanzunternehmen und Kleinstunternehmen; für Versicherungsunternehmen unter Solvabilität II ist in der Regel der reguläre Rahmen nach Artikel 5 bis 15 einschlägig.",
+  "quelle": {
+    "name": "BaFin, Hinweise zu den Dokumentationsanforderungen nach Artikel 16 DORA",
+    "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Anlage/dl_2025_08_21_Hinweise_Uebersicht_Artikel_16_DORA.html"
+  },
+  "gruppen": [
+    { "kennung": "FAQ", "titel": "Fragen und Antworten zur Übersicht" }
+  ],
+  "eintraege": [
+    { "kennung": "1", "titel": "Wozu dient die Übersicht und an wen richtet sie sich?", "gruppe": "FAQ", "pfad": "a16/1",
+      "zweck": "Die strukturierte Übersicht hilft Finanzunternehmen, die Dokumentationsanforderungen des vereinfachten IKT-Risikomanagementrahmens umzusetzen. Sie nennt die in DORA und den technischen Regulierungs- und Durchführungsstandards namentlich verlangten Mindestdokumente und soll die Orientierung in den verschiedenen Rechtstexten beschleunigen. Adressaten sind vor allem die von der BaFin beaufsichtigten Unternehmen im Anwendungsbereich des vereinfachten Rahmens.",
+      "anforderungen": ["Die Übersicht ist eine nicht verpflichtende Hilfestellung", "Sie ist keine verbindliche Auslegung der BaFin und keine Auslegung im Rahmen der Q&A-Prozesse der europäischen Aufsichtsbehörden"],
+      "nachweise": ["Eigenes Dokumentenverzeichnis, das die Mindestdokumente den Rechtsgrundlagen zuordnet"],
+      "bezuege": ["Artikel 16 DORA; Delegierte Verordnung (EU) 2024/1774 (RTS zum IKT-Risikomanagementrahmen)."] },
+    { "kennung": "2", "titel": "Aufbau der Übersicht und verwendete Abkürzungen", "gruppe": "FAQ", "pfad": "a16/2",
+      "zweck": "Die Mindestdokumente sind in der Struktur der Rechtstexte angeordnet: Die Spalten spiegeln Kapitel, Abschnitte und Artikel von DORA und den Standards wider, die Zeilen bilden die Dokumente hierarchisch ab. Anforderungen aus den technischen Standards sind den Spalten themenbezogen zugeordnet. Wo ein Dokument im Rechtstext nicht ausdrücklich benannt ist, etwa bei Artikel 31 und 34 des RTS zum IKT-Risikomanagementrahmen, wurde ein zusammenfassender Oberbegriff gewählt.",
+      "anforderungen": ["RTS RMF: RTS zum IKT-Risikomanagementrahmen", "RTS CCI: Kriterien zur Klassifizierung von Vorfällen", "RTS CTIR: Inhalt und Fristen von Vorfallmeldungen", "ITS TIR: Vorlagen für Vorfallmeldungen", "ITS RoI: Informationsregister"],
+      "nachweise": ["Zuordnungsmatrix Dokument – Rechtsgrundlage"],
+      "bezuege": ["Delegierte Verordnungen (EU) 2024/1774, 2024/1772 und 2025/301 sowie Durchführungsverordnungen (EU) 2024/2956 und 2025/302, soweit im Bestand."] },
+    { "kennung": "3", "titel": "Was die Übersicht nicht leistet", "gruppe": "FAQ", "pfad": "a16/3",
+      "zweck": "Weder die Form noch den Inhalt der aufgeführten Dokumente behandelt die Übersicht. Spezielle Verfahren, Protokolle oder Werkzeuge sind nicht beschrieben. Die Dokumente sollen nachvollziehbar und unter Beachtung der Verhältnismäßigkeit erstellt werden; manche Dokumentationspflichten lassen sich auch über Eingaben in Systemen und Werkzeugen abdecken.",
+      "anforderungen": ["Verhältnismäßigkeit nach Artikel 4 DORA berücksichtigen", "Dokumentation darf teilweise durch Eingaben in Systeme erfolgen (Artikel 34 und 35 des RTS zum IKT-Risikomanagementrahmen)"],
+      "nachweise": ["Dokumentationskonzept mit Begründung der gewählten Tiefe"],
+      "bezuege": ["Artikel 4 und 16 DORA; Artikel 34 und 35 RTS zum IKT-Risikomanagementrahmen."] }
+  ]
+}

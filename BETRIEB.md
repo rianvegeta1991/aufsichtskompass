@@ -9,7 +9,7 @@ Stand: 01.10.2026 (v1.8). Sicherheitsfragen stehen in `SICHERHEIT.md`.
 |---|---|---|
 | täglich 06:30 Europe/Berlin | Screening: 14 Feeds, 2 überwachte Seiten, neue Level-2-Rechtsakte über den SPARQL-Dienst; committet die Daten und stößt die Veröffentlichung an | `.github/workflows/screening.yml` |
 | bei jedem Push auf `main` | Veröffentlichung der Seite (ca. 20 Sekunden) | `.github/workflows/pages.yml` |
-| bei jedem Push und jedem Pull Request | Lints, 56 Tests, `kompass pruefen` über den ganzen Datenbestand | `.github/workflows/pruefung.yml` |
+| bei jedem Push und jedem Pull Request | Lints, 75 Tests, `kompass pruefen` über den ganzen Datenbestand | `.github/workflows/pruefung.yml` |
 
 Der Cron von GitHub läuft in UTC; der Auftrag feuert deshalb zweimal (04:30 und
 05:30 UTC) und das Werkzeug entscheidet mit `--nur-um 06:30` selbst, welcher Lauf

@@ -1,0 +1,17 @@
+{
+  "regelwerk": "coso-ic",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:00Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: COSO, Internal Control – Integrated Framework (2013): fünf Komponenten, siebzehn Prinzipien",
+        "url": "https://www.coso.org/",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein COSO Internal Control – Integrated Framework (COSO, Internal Control – Integrated Framework (2013): fünf Komponenten, siebzehn Prinzipien)."
+      },
+      "hash": "b6bc657c0f8474c5e4270096d8f3ac8af2ba4e78d6e5e7c07f3cbcca02418374",
+      "fundstellen": 22
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "regelwerk": "isae3402",
+  "bezugsfassung": "ISAE 3402 – Assurance Reports on Controls at a Service Organization (IAASB)",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen",
+  "geprueft": false,
+  "hinweis": "ISAE 3402 ist ein internationaler Standard des International Auditing and Assurance Standards Board (IAASB); er ist urheberrechtlich geschützt und wird nur grob in eigenen Worten zusammengefasst. Die Beschreibung stammt aus dem Gedächtnis; die Ausgabe ist gegen die aktuelle Fassung abzugleichen. Das US-amerikanische Gegenstück ist SOC 1 nach AICPA (SSAE 18); die Berichte sind vergleichbar, aber nicht identisch.",
+  "quelle": {
+    "name": "IAASB, ISAE 3402",
+    "url": "https://www.iaasb.org/"
+  },
+  "gruppen": [
+    {
+      "kennung": "S",
+      "titel": "Standard"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "Z",
+      "titel": "Zweck und Anwendungsfall",
+      "gruppe": "S",
+      "pfad": "i/zweck",
+      "zweck": "Ein Dienstleistungsunternehmen (Service Organization) lässt die Kontrollen, die für das interne Kontrollsystem seiner Kunden bedeutsam sind, von einem Prüfer beurteilen. Der Bericht ersetzt viele Einzelprüfungen durch die Kunden.",
+      "anforderungen": [
+        "Das Dienstleistungsunternehmen beschreibt sein System und erklärt, dass die Beschreibung zutrifft und die Kontrollen angemessen aufgebaut sind (und wirken)",
+        "Ein unabhängiger Prüfer erteilt darüber ein Urteil mit hinreichender Sicherheit"
+      ],
+      "nachweise": [
+        "Bericht des Prüfers mit Systembeschreibung und Erklärung der Leitung"
+      ],
+      "bezuege": [
+        "Auslagerungen: Berichte sind gängige Nachweise nach Artikel 28 DORA, ersetzen aber nicht die eigene Überwachung."
+      ]
+    },
+    {
+      "kennung": "T",
+      "titel": "Typ 1 und Typ 2",
+      "gruppe": "S",
+      "pfad": "i/typen",
+      "zweck": "Typ 1 beurteilt Beschreibung und Angemessenheit des Aufbaus der Kontrollen zu einem bestimmten Stichtag. Typ 2 beurteilt zusätzlich die Wirksamkeit der Kontrollen über einen Zeitraum, der üblicherweise sechs Monate oder länger beträgt (die Norm selbst schreibt nach meiner Kenntnis keine feste Mindestdauer vor).",
+      "anforderungen": [
+        "Typ 1: Stichtag, Aufbau",
+        "Typ 2: Zeitraum, Aufbau und Wirksamkeit mit Testergebnissen"
+      ],
+      "nachweise": [
+        "Berichtstyp und Zeitraum prüfen"
+      ],
+      "bezuege": [
+        "Für kritische oder wichtige Funktionen reicht ein Typ-1-Bericht kaum aus; ein Typ-2-Bericht trägt mehr."
+      ]
+    },
+    {
+      "kennung": "K",
+      "titel": "Ergänzende Kontrollen der Kunden und Unterdienstleister",
+      "gruppe": "S",
+      "pfad": "i/kunden",
+      "zweck": "Der Bericht benennt Kontrollen, die der Kunde selbst umsetzen muss, damit die Ziele erreicht werden (complementary user entity controls), und behandelt Unterdienstleister entweder im Bericht (inklusive Methode) oder ausgeschlossen (Carve-out-Methode).",
+      "anforderungen": [
+        "Ergänzende Kundenkontrollen identifizieren und umsetzen",
+        "Bei Carve-out Berichte der Unterdienstleister gesondert beschaffen"
+      ],
+      "nachweise": [
+        "Liste der ergänzenden Kundenkontrollen"
+      ],
+      "bezuege": [
+        "Unterauftragsketten nach Artikel 30 DORA und Delegierter Verordnung (EU) 2025/532."
+      ]
+    },
+    {
+      "kennung": "N",
+      "titel": "Nutzung der Berichte durch Auslagerer und Aufsicht",
+      "gruppe": "S",
+      "pfad": "i/nutzung",
+      "zweck": "Das auslagernde Unternehmen und dessen Prüfer werten den Bericht aus: Eignung der Kontrollziele, Abdeckung der relevanten Systeme, Ausnahmen, Zeitraum und Lücken.",
+      "anforderungen": [
+        "Abdeckung gegen die eigenen Anforderungen prüfen",
+        "Ausnahmen und Feststellungen nachverfolgen"
+      ],
+      "nachweise": [
+        "Auswertung des Berichts"
+      ],
+      "bezuege": [
+        "Die Aufsicht kann zusätzliche Prüf- und Zugangsrechte verlangen (Artikel 30 Absatz 3 DORA); ein Bericht ersetzt diese nicht."
+      ]
+    }
+  ]
+}

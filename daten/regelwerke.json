@@ -1,5 +1,5 @@
 {
-  "stand": "2026-10-02",
+  "stand": "2026-10-08",
   "hinweis": "Redaktioneller Katalog. Jeder Eintrag traegt 'geprueft': solange false, ist die Angabe noch nicht gegen die amtliche Quelle abgeglichen. Die zwoelf DORA-Level-2-Rechtsakte stammen aus einer SPARQL-Abfrage des CELLAR-Dienstes (Rechtsgrundlage CELEX 32022R2554) und sind mit amtlichem Titel uebernommen. VAIT und BAIT sind bewusst nicht enthalten.",
   "verbindlichkeit": {
     "bindend": "unmittelbar rechtsverbindlich",
@@ -433,7 +433,7 @@
         "it-governance"
       ],
       "geprueft": true,
-      "hinweis": "Umsetzungshinweise vom 08.07.2024, geändert am 19.09.2024. Nur als PDF veröffentlicht – deshalb keine Volltextübernahme, sondern eigene Zusammenfassung und Link. Ein PDF-Textextraktor fehlt im Werkzeug (siehe Konnektortyp bafin-pdf)."
+      "hinweis": "Nur als PDF (41 Seiten, Stand Juni 2024, Anhang aktualisiert 19.09.2024). Zusammenfassung nach vollständiger Durchsicht des Originals, gegliedert wie dieses. Vergleicht DORA mit BAIT und VAIT; keine verbindliche Auslegung."
     },
     {
       "id": "bafin-dora-faq",
@@ -485,7 +485,7 @@
         "it-governance"
       ],
       "geprueft": true,
-      "hinweis": "Nur als PDF veröffentlicht, deshalb kein Volltext. Betrifft den vereinfachten IKT-Risikomanagementrahmen nach Artikel 16 DORA – für Versicherungsunternehmen unter Solvabilität II in der Regel nicht anwendbar, als Maßstab für kleine Einheiten aber nützlich."
+      "hinweis": "Nur als PDF (2 Seiten Erläuterung und eine Übersichtstabelle, Stand 21.08.2025). Zusammenfassung der Erläuterung nach Durchsicht des Originals; die Tabelle ist nicht nachgebildet. Für Versicherer unter Solvabilität II in der Regel nicht anwendbar."
     },
     {
       "id": "marisk",
@@ -513,7 +513,7 @@
         "it-governance"
       ],
       "geprueft": true,
-      "hinweis": "Aktuelle Fassung: Rundschreiben 06/2026 (BA) vom 30.06.2026 (9. Novelle), nur als PDF. Vergleichsregelwerk für Kreditinstitute; für Versicherungsunternehmen nicht anwendbar."
+      "hinweis": "Rundschreiben 06/2026 (BA) vom 30.06.2026, nur als PDF. Zusammenfassung nach Durchsicht: Gliederung vollständig, DORA-bezogene Abschnitte im Wortlaut. Referenzregelwerk für Kreditinstitute; AT 9 nimmt DORA-IKT-Dienstleistungen ausdrücklich aus."
     },
     {
       "id": "vag",
@@ -787,11 +787,11 @@
       "typ": "EU-Leitlinie",
       "herausgeber": "EIOPA",
       "verbindlichkeit": "leitlinie",
-      "status": "zu prüfen",
+      "status": "in Kraft",
       "gueltigAb": null,
       "gueltigBis": null,
       "quelle": {
-        "url": "https://www.eiopa.europa.eu/publications_en",
+        "url": "https://www.eiopa.europa.eu/publications/guidelines-system-governance_en",
         "suchbegriff": "Guidelines on system of governance"
       },
       "modus": "zusammenfassung",
@@ -804,8 +804,8 @@
         "leitungsorgan",
         "funktionstrennung"
       ],
-      "geprueft": false,
-      "hinweis": "Fortgeltung und Fassung nach DORA noch zu prüfen und zu kennzeichnen."
+      "geprueft": true,
+      "hinweis": "Kein Ende der Anwendung genannt; DORA ergänzt die Leitlinien für IKT-Themen. Zusammenfassung nach dem deutschen Originaltext (EIOPA-BoS-14/253), gegliedert nach den zwölf Abschnitten mit hervorgehobenen IKT-Leitlinien."
     },
     {
       "id": "eiopa-cloud",
@@ -814,11 +814,11 @@
       "typ": "EU-Leitlinie",
       "herausgeber": "EIOPA",
       "verbindlichkeit": "leitlinie",
-      "status": "zu prüfen",
+      "status": "außer Anwendung seit 17.01.2025",
       "gueltigAb": null,
       "gueltigBis": null,
       "quelle": {
-        "url": "https://www.eiopa.europa.eu/publications_en",
+        "url": "https://www.eiopa.europa.eu/publications/guidelines-outsourcing-cloud-service-providers_en",
         "suchbegriff": "Guidelines on outsourcing to cloud service providers"
       },
       "modus": "zusammenfassung",
@@ -829,8 +829,8 @@
         "drittparteien-auslagerung",
         "it-governance"
       ],
-      "geprueft": false,
-      "hinweis": "Nach Inkrafttreten von DORA ist der Anwendungsbereich zu prüfen; Status im Datensatz kennzeichnen."
+      "geprueft": true,
+      "hinweis": "Die EIOPA nennt als Ende der Anwendung den 17.01.2025 (DORA). Zusammenfassung der 16 Leitlinien nach dem deutschen Originaltext (EIOPA-BoS-20-002), als Referenz und für den Abgleich mit DORA."
     },
     {
       "id": "tiber-de",
@@ -844,7 +844,7 @@
       "gueltigBis": null,
       "quelle": {
         "url": "https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/tiber-de",
-        "suchbegriff": "TIBER-DE"
+        "suchbegriff": "TIBER-DE Implementierung"
       },
       "modus": "zusammenfassung",
       "tiefe": "mittel",
@@ -854,7 +854,7 @@
         "resilienztests"
       ],
       "geprueft": true,
-      "hinweis": "Verhältnis zu TLPT nach DORA über Mappings abbilden."
+      "hinweis": "Umsetzungsdokument Version 4.0 (Juli 2025) im Wortlaut gelesen und zusammengefasst; die Testschritte stehen im TIBER-EU-Rahmenwerk der EZB. Verhältnis zu TLPT nach DORA siehe Beziehungen."
     },
     {
       "id": "hgb",
@@ -917,8 +917,8 @@
       "gueltigAb": null,
       "gueltigBis": null,
       "quelle": {
-        "url": "https://www.bundesfinanzministerium.de/",
-        "suchbegriff": "GoBD"
+        "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Weitere_Steuerthemen/Abgabenordnung/2025-07-14-GoBD-2-aenderung.html",
+        "suchbegriff": "GoBD 2. Änderung 14.07.2025"
       },
       "modus": "zusammenfassung",
       "tiefe": "grob",
@@ -931,7 +931,7 @@
         "asset-konfiguration"
       ],
       "geprueft": false,
-      "hinweis": "Direktlink und Fassung noch zu verifizieren."
+      "hinweis": "Fassungsstand geprüft: BMF-Schreiben vom 28.11.2019, 1. Änderung 11.03.2024, 2. Änderung 14.07.2025. Der Text selbst wurde NICHT gelesen – die Zusammenfassung beruht auf dem Gedächtnis und ist gegen die aktuelle Fassung abzugleichen."
     },
     {
       "id": "nist-800-53",
@@ -958,8 +958,8 @@
         "logging-monitoring",
         "kryptografie"
       ],
-      "geprueft": false,
-      "hinweis": "NIST-Publikationen sind gemeinfrei; Volltext daher zulässig. Nur als Referenzkatalog für Mappings."
+      "geprueft": true,
+      "hinweis": "NIST-Publikationen sind gemeinfrei; Volltext daher zulässig. Englischer Originaltext aus der OSCAL-Fassung 5.2.0 (Stand 11.05.2026): 1.196 Controls und Erweiterungen in 20 Familien, Platzhalter als [Zuweisung …]/[Auswahl …] ausgeschrieben, ohne die Bewertungsverfahren aus SP 800-53A. Nur als Referenzkatalog für Mappings."
     },
     {
       "id": "cobit2019",
@@ -1075,7 +1075,7 @@
         "logging-monitoring"
       ],
       "geprueft": false,
-      "hinweis": "Kostenpflichtige Norm, kein Volltext."
+      "hinweis": "Kein zulässiger Volltext. Die 93 Controls der Ausgabe 2022 als eigene Zusammenfassung, nach Zweck, Umsetzungshinweisen und Nachweisen; entsprechen eins zu eins Annex A der ISO/IEC 27001:2022. Aus dem Gedächtnis, gegen die Norm abzugleichen."
     },
     {
       "id": "iso27005",
@@ -1092,7 +1092,7 @@
         "suchbegriff": "ISO/IEC 27005"
       },
       "modus": "zusammenfassung",
-      "tiefe": "mittel",
+      "tiefe": "grob",
       "relevanz": "relevant",
       "gruppe": "framework",
       "themen": [
@@ -1100,7 +1100,7 @@
         "infosec"
       ],
       "geprueft": false,
-      "hinweis": "Kostenpflichtige Norm, kein Volltext."
+      "hinweis": "Kein zulässiger Volltext. Der Risikomanagementprozess in acht Schritten als eigene Zusammenfassung, nach Prozess und nicht nach Klauselnummern gegliedert. Aus dem Gedächtnis."
     },
     {
       "id": "iso27017",
@@ -1125,7 +1125,7 @@
         "infosec"
       ],
       "geprueft": false,
-      "hinweis": "Kostenpflichtige Norm, kein Volltext."
+      "hinweis": "Kein zulässiger Volltext. Die sieben cloudspezifischen Controls (CLD) und die ergänzenden Leitlinien als eigene Zusammenfassung, Ausgabe 2015. Aus dem Gedächtnis."
     },
     {
       "id": "iso27018",
@@ -1142,7 +1142,7 @@
         "suchbegriff": "ISO/IEC 27018"
       },
       "modus": "zusammenfassung",
-      "tiefe": "mittel",
+      "tiefe": "grob",
       "relevanz": "referenz",
       "gruppe": "framework",
       "themen": [
@@ -1150,7 +1150,7 @@
         "drittparteien-auslagerung"
       ],
       "geprueft": false,
-      "hinweis": "Kostenpflichtige Norm, kein Volltext. Nummer 27018 gegen die ISO-Seite abgleichen (27018 vs. 27701)."
+      "hinweis": "Kein zulässiger Volltext. Die zusätzlichen Maßnahmen zum Schutz personenbezogener Daten in öffentlichen Clouds, nach Themen gegliedert und nicht nach den Nummern der Norm. Aus dem Gedächtnis."
     },
     {
       "id": "iso22301",
@@ -1175,7 +1175,7 @@
         "resilienztests"
       ],
       "geprueft": false,
-      "hinweis": "Kostenpflichtige Norm, kein Volltext."
+      "hinweis": "Kein zulässiger Volltext. Die Klauseln 4 bis 10 mit den Unterklauseln des Betriebs (Business-Impact-Analyse, Strategien, Pläne, Übungen) als eigene Zusammenfassung. Aus dem Gedächtnis."
     },
     {
       "id": "csa-ccm",
@@ -1229,7 +1229,7 @@
         "funktionstrennung"
       ],
       "geprueft": false,
-      "hinweis": "Kein zulässiger Volltext. IKS-Referenz für Mappings."
+      "hinweis": "Kein zulässiger Volltext. Die fünf Komponenten und siebzehn Prinzipien als eigene Zusammenfassung, ohne die „Points of Focus“ des Originals. Aus dem Gedächtnis."
     },
     {
       "id": "bsi-c5",
@@ -1330,7 +1330,7 @@
         "change-management"
       ],
       "geprueft": false,
-      "hinweis": "Nur Zweck und Anwendungsfall."
+      "hinweis": "Grobe Zusammenfassung von Zweck und Anwendungsfall; Fassung und Status beim IDW zu prüfen. Aus dem Gedächtnis."
     },
     {
       "id": "idw-ps860",
@@ -1355,7 +1355,7 @@
         "it-governance"
       ],
       "geprueft": false,
-      "hinweis": "Nur Zweck und Anwendungsfall."
+      "hinweis": "Grobe Zusammenfassung von Zweck und Anwendungsfall; Fassung und Status beim IDW zu prüfen. Aus dem Gedächtnis."
     },
     {
       "id": "idw-ps951",
@@ -1380,7 +1380,7 @@
         "iks"
       ],
       "geprueft": false,
-      "hinweis": "Nur Zweck und Anwendungsfall."
+      "hinweis": "Grobe Zusammenfassung von Zweck und Anwendungsfall; inhaltlich mit ISAE 3402 abgestimmt; Fassung und Status beim IDW zu prüfen. Aus dem Gedächtnis."
     },
     {
       "id": "isae3402",
@@ -1405,7 +1405,7 @@
         "iks"
       ],
       "geprueft": false,
-      "hinweis": "Nur Zweck und Anwendungsfall."
+      "hinweis": "Grobe Zusammenfassung von Zweck, Berichtstypen und Nutzung; Fassung gegen den aktuellen Standard abzugleichen. Aus dem Gedächtnis."
     }
   ]
 }

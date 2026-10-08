@@ -1,0 +1,1649 @@
+{
+  "regelwerk": "iso27002",
+  "bezugsfassung": "ISO/IEC 27002:2022 – Informationssicherheit, Cybersicherheit und Datenschutz – Informationssicherheitsmaßnahmen (93 Controls)",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt aus dem Gedächtnis, nicht gegen die Norm abgeglichen",
+  "geprueft": false,
+  "hinweis": "Kein zulässiger Volltext: ISO/IEC 27002 ist urheberrechtlich geschützt und kostenpflichtig. Hier stehen ausschließlich eigene, knappe Beschreibungen in eigenen Worten, nach Zweck, Umsetzungshinweisen und Nachweisen – keine übernommenen Formulierungen und nicht der Wortlaut der Umsetzungshinweise. Die Nummern und Titel der 93 Controls sind die der Ausgabe 2022 und entsprechen dem Annex A der ISO/IEC 27001:2022; sie stammen aus dem Gedächtnis und sind gegen die Norm abzugleichen. Die Inhalte beschreiben, was ein Control erreichen soll und worauf bei der Umsetzung zu achten ist; sie ersetzen die Norm nicht.",
+  "quelle": {
+    "name": "ISO/IEC 27002:2022",
+    "url": "https://www.iso.org/standard/75652.html"
+  },
+  "gruppen": [
+    {
+      "kennung": "E",
+      "titel": "Einleitung und Struktur"
+    },
+    {
+      "kennung": "5",
+      "titel": "Organisatorische Controls (5.1 bis 5.37)"
+    },
+    {
+      "kennung": "6",
+      "titel": "Personenbezogene Controls (6.1 bis 6.8)"
+    },
+    {
+      "kennung": "7",
+      "titel": "Physische Controls (7.1 bis 7.14)"
+    },
+    {
+      "kennung": "8",
+      "titel": "Technologische Controls (8.1 bis 8.34)"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "E",
+      "titel": "Aufbau der Norm: vier Themen und Attribute",
+      "gruppe": "E",
+      "pfad": "k/aufbau",
+      "zweck": "ISO/IEC 27002:2022 ist der Leitfaden zu den Informationssicherheitsmaßnahmen. Er fasst 93 Controls in vier Themen zusammen und verbindet jedes mit Zweck, Beschreibung und Umsetzungshinweisen. Er ist kein Zertifizierungsstandard: Zertifiziert wird nach ISO/IEC 27001, deren Annex A dieselben 93 Controls nennt.",
+      "anforderungen": [
+        "Vier Themen: organisatorisch (37), personenbezogen (8), physisch (14), technologisch (34)",
+        "Je Control Attribute zur Einordnung: Controltyp (präventiv, detektiv, korrektiv), Schutzziele (Vertraulichkeit, Integrität, Verfügbarkeit), Cybersicherheitskonzepte, operative Fähigkeiten und Sicherheitsdomänen",
+        "Gegenüber der Ausgabe von 2013 wurden 11 Controls neu aufgenommen, viele zusammengelegt und die bisherigen 14 Abschnitte auf vier Themen verdichtet"
+      ],
+      "nachweise": [
+        "Zuordnung der eigenen Maßnahmen zu den Controls (Anwendbarkeitserklärung)"
+      ],
+      "bezuege": [
+        "Annex A der ISO/IEC 27001:2022 ist im Bestand; die Controls entsprechen einander eins zu eins."
+      ]
+    },
+    {
+      "kennung": "5.1",
+      "titel": "Informationssicherheitsrichtlinien",
+      "gruppe": "5",
+      "pfad": "k/5.1",
+      "zweck": "Die Leitung gibt die Richtung vor und unterstützt die Informationssicherheit entsprechend den Geschäfts-, Rechts- und Vertragsanforderungen.",
+      "anforderungen": [
+        "Eine übergeordnete Leitlinie, von der Leitung genehmigt, dazu themenspezifische Richtlinien (etwa Zugangssteuerung, Kryptografie, Lieferanten, Vorfälle)",
+        "Richtlinien in geplanten Abständen und bei wesentlichen Änderungen überprüfen",
+        "Allen relevanten Beschäftigten und Externen bekannt machen und deren Kenntnisnahme sicherstellen"
+      ],
+      "nachweise": [
+        "Richtlinienverzeichnis mit Freigabe und Überprüfungsdatum",
+        "Nachweis der Bekanntgabe"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.1 der ISO/IEC 27001:2022. Vergleichbar mit der IKT-Sicherheitsrichtlinie nach Artikel 9 DORA und Artikel 2 der Delegierten Verordnung (EU) 2024/1774."
+      ]
+    },
+    {
+      "kennung": "5.2",
+      "titel": "Rollen und Verantwortlichkeiten der Informationssicherheit",
+      "gruppe": "5",
+      "pfad": "k/5.2",
+      "zweck": "Es gibt eine definierte, anerkannte Struktur für Umsetzung, Betrieb und Steuerung der Informationssicherheit.",
+      "anforderungen": [
+        "Rollen und Verantwortlichkeiten nach dem Bedarf der Organisation zuweisen, auch für Eigentümer von Werten und Risiken",
+        "Eine Delegation ändert nichts an der Verantwortung; Vertretungen regeln",
+        "Bereiche, für die jemand verantwortlich ist, schriftlich festhalten"
+      ],
+      "nachweise": [
+        "Rollenbeschreibungen",
+        "Zuständigkeitsmatrix"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.2 der ISO/IEC 27001:2022. Entspricht der Zuweisung von Aufgaben im IKT-Risikomanagement nach Artikel 5 und 6 DORA."
+      ]
+    },
+    {
+      "kennung": "5.3",
+      "titel": "Aufgabentrennung",
+      "gruppe": "5",
+      "pfad": "k/5.3",
+      "zweck": "Das Risiko von Betrug und Fehlern wird verringert, indem widerstreitende Aufgaben und Verantwortungsbereiche getrennt werden.",
+      "anforderungen": [
+        "Konfligierende Aufgaben identifizieren und trennen, etwa Beantragen, Genehmigen und Umsetzen",
+        "Ist eine Trennung nicht möglich, ersatzweise Überwachung, Protokollierung und Aufsicht",
+        "Die Aufgabentrennung bei der Vergabe von Zugangsrechten berücksichtigen"
+      ],
+      "nachweise": [
+        "Rollenkonzept mit Konfliktmatrix",
+        "Ausnahmeregister mit kompensierenden Kontrollen"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.3 der ISO/IEC 27001:2022. Funktionstrennung verlangt auch Artikel 6 Absatz 4 DORA für die IKT-Risikokontrollfunktion."
+      ]
+    },
+    {
+      "kennung": "5.4",
+      "titel": "Verantwortung der Leitung",
+      "gruppe": "5",
+      "pfad": "k/5.4",
+      "zweck": "Die Leitung stellt sicher, dass alle Beschäftigten ihre Verantwortung für Informationssicherheit verstehen und wahrnehmen.",
+      "anforderungen": [
+        "Beschäftigte und Externe auffordern, die Informationssicherheit nach den Richtlinien umzusetzen",
+        "Angemessene Ressourcen, Schulung und Meldewege bereitstellen",
+        "Verhalten einfordern, auch durch ein Disziplinarverfahren"
+      ],
+      "nachweise": [
+        "Leitungsbeschlüsse und Berichte",
+        "Schulungsnachweise der Leitung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.4 der ISO/IEC 27001:2022. Letztverantwortung des Leitungsorgans nach Artikel 5 DORA."
+      ]
+    },
+    {
+      "kennung": "5.5",
+      "titel": "Kontakt mit Behörden",
+      "gruppe": "5",
+      "pfad": "k/5.5",
+      "zweck": "Der Informationsfluss zwischen der Organisation und den zuständigen Behörden ist sichergestellt.",
+      "anforderungen": [
+        "Festlegen, wer wann mit welcher Behörde Kontakt aufnimmt, etwa mit Aufsicht, Strafverfolgung oder Datenschutzbehörde",
+        "Meldewege und Fristen kennen",
+        "Kontaktliste aktuell halten"
+      ],
+      "nachweise": [
+        "Kontakt- und Meldeverzeichnis"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.5 der ISO/IEC 27001:2022. Meldewege zur Aufsicht nach Artikel 19 DORA und Artikel 33 DSGVO."
+      ]
+    },
+    {
+      "kennung": "5.6",
+      "titel": "Kontakt mit speziellen Interessengruppen",
+      "gruppe": "5",
+      "pfad": "k/5.6",
+      "zweck": "Der Informationsfluss mit Fachgruppen und Foren ist sichergestellt, das Wissen bleibt aktuell.",
+      "anforderungen": [
+        "Mitgliedschaft in relevanten Fach- und Sicherheitsgruppen",
+        "Frühwarnungen, Hinweise zu Schwachstellen und bewährte Verfahren nutzen"
+      ],
+      "nachweise": [
+        "Mitgliedschaftsliste",
+        "Auswertung erhaltener Hinweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.6 der ISO/IEC 27001:2022. Freiwilliger Informationsaustausch zu Cyberbedrohungen nach Artikel 45 DORA."
+      ]
+    },
+    {
+      "kennung": "5.7",
+      "titel": "Bedrohungsinformationen",
+      "gruppe": "5",
+      "pfad": "k/5.7",
+      "zweck": "Die Bedrohungslage ist bekannt, sodass geeignete Gegenmaßnahmen getroffen werden können.",
+      "anforderungen": [
+        "Informationen zu Bedrohungen aus internen und externen Quellen sammeln und analysieren, auf strategischer, taktischer und operativer Ebene",
+        "Ergebnisse in das Risikomanagement und die technischen Kontrollen einspeisen und teilen"
+      ],
+      "nachweise": [
+        "Bedrohungsberichte",
+        "Nachweis der Verwertung in Maßnahmen"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.7 der ISO/IEC 27001:2022. Frühwarnindikatoren nach Artikel 17 Absatz 3 DORA; Quellen siehe Screening."
+      ]
+    },
+    {
+      "kennung": "5.8",
+      "titel": "Informationssicherheit im Projektmanagement",
+      "gruppe": "5",
+      "pfad": "k/5.8",
+      "zweck": "Informationssicherheitsrisiken in Projekten werden früh behandelt.",
+      "anforderungen": [
+        "In jedes Projekt, unabhängig von der Art, die Informationssicherheit aufnehmen",
+        "Risiken identifizieren und bewerten, Anforderungen festlegen, Sicherheit in allen Projektphasen prüfen"
+      ],
+      "nachweise": [
+        "Sicherheitsanforderungen im Projektauftrag",
+        "Risikobewertung je Projekt"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.8 der ISO/IEC 27001:2022. Artikel 15 des RTS zum IKT-Risikomanagementrahmen (IKT-Projektmanagement)."
+      ]
+    },
+    {
+      "kennung": "5.9",
+      "titel": "Verzeichnis der Informationen und zugehörigen Werte",
+      "gruppe": "5",
+      "pfad": "k/5.9",
+      "zweck": "Informationen und Werte sind identifiziert und ihre Verantwortlichen bekannt.",
+      "anforderungen": [
+        "Ein Inventar der Informationen und Werte mit einem Eigentümer je Eintrag führen",
+        "Aktuell, konsistent und mit der Klassifizierung abgestimmt halten",
+        "Auch Werte außerhalb der eigenen Räume und von Dritten erfassen"
+      ],
+      "nachweise": [
+        "Wertinventar mit Eigentümern und Klassifizierung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.9 der ISO/IEC 27001:2022. Inventar der IKT-Assets nach Artikel 8 DORA; Register nach Artikel 28 Absatz 3."
+      ]
+    },
+    {
+      "kennung": "5.10",
+      "titel": "Zulässiger Gebrauch von Informationen und Werten",
+      "gruppe": "5",
+      "pfad": "k/5.10",
+      "zweck": "Informationen und Werte werden angemessen gebraucht, geschützt und behandelt.",
+      "anforderungen": [
+        "Regeln für den zulässigen Gebrauch dokumentieren und kommunizieren",
+        "Genehmigte Geräte, Dienste und Verfahren festlegen, Verbote benennen"
+      ],
+      "nachweise": [
+        "Richtlinie zum zulässigen Gebrauch",
+        "Kenntnisnahmenachweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.10 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "5.11",
+      "titel": "Rückgabe von Werten",
+      "gruppe": "5",
+      "pfad": "k/5.11",
+      "zweck": "Werte der Organisation werden bei Änderung oder Beendigung der Beschäftigung oder Vereinbarung geschützt.",
+      "anforderungen": [
+        "Alle Werte, Zugangsmittel und Daten bei Austritt oder Wechsel zurückgeben lassen",
+        "Bei privaten Geräten die geschäftlichen Daten sicher entfernen",
+        "Wissen vor dem Austritt übergeben"
+      ],
+      "nachweise": [
+        "Checkliste für Austritt und Wechsel"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.11 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "5.12",
+      "titel": "Klassifizierung von Informationen",
+      "gruppe": "5",
+      "pfad": "k/5.12",
+      "zweck": "Der Schutzbedarf von Informationen wird nach Vertraulichkeit, Integrität, Verfügbarkeit und Anforderungen Dritter bestimmt.",
+      "anforderungen": [
+        "Ein Klassifizierungsschema festlegen, vom Eigentümer anwenden lassen, konsistent halten",
+        "Das Schema regelmäßig überprüfen und an Änderungen anpassen"
+      ],
+      "nachweise": [
+        "Klassifizierungsrichtlinie",
+        "Klassifizierte Informationsbestände"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.12 der ISO/IEC 27001:2022. Klassifizierung der Informationsassets nach Artikel 8 DORA."
+      ]
+    },
+    {
+      "kennung": "5.13",
+      "titel": "Kennzeichnung von Informationen",
+      "gruppe": "5",
+      "pfad": "k/5.13",
+      "zweck": "Informationen werden nach dem Klassifizierungsschema erkennbar gekennzeichnet.",
+      "anforderungen": [
+        "Verfahren zur Kennzeichnung entwickeln, für Papier, Dateien und Metadaten",
+        "Behandlungshinweise an die Kennzeichnung knüpfen"
+      ],
+      "nachweise": [
+        "Kennzeichnungsrichtlinie"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.13 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "5.14",
+      "titel": "Informationsübertragung",
+      "gruppe": "5",
+      "pfad": "k/5.14",
+      "zweck": "Die Sicherheit von Informationen bei der Übertragung innerhalb und außerhalb der Organisation bleibt erhalten.",
+      "anforderungen": [
+        "Regeln, Verfahren und Vereinbarungen für alle Übertragungsarten festlegen: elektronisch, auf Datenträgern, mündlich",
+        "Absicherung, Nachweisbarkeit und Haftung regeln"
+      ],
+      "nachweise": [
+        "Übertragungsrichtlinie",
+        "Vereinbarungen zur Informationsübertragung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.14 der ISO/IEC 27001:2022. Schutz von Daten während der Übertragung nach Artikel 14 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "5.15",
+      "titel": "Zugangssteuerung",
+      "gruppe": "5",
+      "pfad": "k/5.15",
+      "zweck": "Der Zugang zu Informationen und Werten ist nach Geschäfts- und Sicherheitsanforderungen gesteuert.",
+      "anforderungen": [
+        "Regeln zur physischen und logischen Zugangssteuerung festlegen, nach Need-to-know und Need-to-use",
+        "Grundsatz: Was nicht ausdrücklich erlaubt ist, ist verboten"
+      ],
+      "nachweise": [
+        "Zugangssteuerungsrichtlinie",
+        "Berechtigungskonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.15 der ISO/IEC 27001:2022. Artikel 21 des RTS zum IKT-Risikomanagementrahmen (Zugriffsmanagement)."
+      ]
+    },
+    {
+      "kennung": "5.16",
+      "titel": "Identitätsverwaltung",
+      "gruppe": "5",
+      "pfad": "k/5.16",
+      "zweck": "Die vollständige Lebensdauer von Identitäten wird gesteuert.",
+      "anforderungen": [
+        "Jede Person erhält eine eindeutige Identität, geteilte Identitäten nur in begründeten Ausnahmen",
+        "Registrierung, Änderung und Deregistrierung nachvollziehbar abwickeln"
+      ],
+      "nachweise": [
+        "Identitätsverzeichnis",
+        "Lebenszyklusprotokolle"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.16 der ISO/IEC 27001:2022. Artikel 20 des RTS zum IKT-Risikomanagementrahmen (Identitätsmanagement)."
+      ]
+    },
+    {
+      "kennung": "5.17",
+      "titel": "Authentisierungsinformation",
+      "gruppe": "5",
+      "pfad": "k/5.17",
+      "zweck": "Die korrekte Authentisierung und die Handhabung von Authentisierungsinformationen sind sichergestellt.",
+      "anforderungen": [
+        "Vergabe und Verwaltung kontrollieren, sichere Erstübergabe und Änderung",
+        "Pflichten der Nutzer festlegen und unsichere Speicherung vermeiden"
+      ],
+      "nachweise": [
+        "Passwort- und Authentisierungsrichtlinie"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.17 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "5.18",
+      "titel": "Zugangsrechte",
+      "gruppe": "5",
+      "pfad": "k/5.18",
+      "zweck": "Zugang zu Informationen und Werten ist gemäß Geschäftsanforderungen vergeben, geändert und entzogen.",
+      "anforderungen": [
+        "Vergabe nach Genehmigung durch den Eigentümer",
+        "Regelmäßig überprüfen und bei Austritt oder Wechsel zeitnah anpassen oder entziehen"
+      ],
+      "nachweise": [
+        "Rezertifizierungsprotokolle",
+        "Genehmigungsnachweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.18 der ISO/IEC 27001:2022. Rezertifizierung mindestens halbjährlich bei kritischen oder wichtigen Funktionen (Artikel 21 des RTS zum IKT-Risikomanagementrahmen)."
+      ]
+    },
+    {
+      "kennung": "5.19",
+      "titel": "Informationssicherheit in Lieferantenbeziehungen",
+      "gruppe": "5",
+      "pfad": "k/5.19",
+      "zweck": "Die mit Lieferanten verbundenen Risiken für die Informationssicherheit werden gesteuert.",
+      "anforderungen": [
+        "Prozesse zur Steuerung der Risiken aus Produkten und Dienstleistungen von Lieferanten festlegen",
+        "Lieferantentypen unterscheiden, Sicherheitsanforderungen festlegen, Leistung überwachen, Vorfälle und Ausstieg regeln"
+      ],
+      "nachweise": [
+        "Lieferantenrichtlinie",
+        "Lieferantenregister mit Einstufung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.19 der ISO/IEC 27001:2022. Artikel 28 DORA; Delegierte Verordnung (EU) 2024/1773."
+      ]
+    },
+    {
+      "kennung": "5.20",
+      "titel": "Sicherheit in Lieferantenvereinbarungen",
+      "gruppe": "5",
+      "pfad": "k/5.20",
+      "zweck": "Mit jedem Lieferanten sind die relevanten Sicherheitsanforderungen vereinbart.",
+      "anforderungen": [
+        "Anforderungen an Informationen, Zugriff, Prüfrechte, Vorfallmeldung, Rückgabe und Löschung vertraglich festhalten",
+        "Auch Unterlieferanten einbeziehen"
+      ],
+      "nachweise": [
+        "Vertragsprüfung gegen Sicherheitsanforderungen"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.20 der ISO/IEC 27001:2022. Pflichtinhalte nach Artikel 30 DORA."
+      ]
+    },
+    {
+      "kennung": "5.21",
+      "titel": "Sicherheit in der IKT-Lieferkette",
+      "gruppe": "5",
+      "pfad": "k/5.21",
+      "zweck": "Die mit der IKT-Lieferkette verbundenen Risiken sind gesteuert.",
+      "anforderungen": [
+        "Anforderungen an die Weitergabe von Sicherheitsanforderungen entlang der Lieferkette festlegen",
+        "Herkunft von Komponenten und Zusagen der Lieferanten überprüfen"
+      ],
+      "nachweise": [
+        "Lieferkettenanalyse",
+        "Anforderungskatalog an Lieferanten"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.21 der ISO/IEC 27001:2022. Unterauftragsvergabe nach Artikel 30 DORA und Delegierte Verordnung (EU) 2025/532."
+      ]
+    },
+    {
+      "kennung": "5.22",
+      "titel": "Überwachung, Überprüfung und Änderungsmanagement von Lieferantenleistungen",
+      "gruppe": "5",
+      "pfad": "k/5.22",
+      "zweck": "Der vereinbarte Stand der Informationssicherheit und der Leistungserbringung bleibt erhalten.",
+      "anforderungen": [
+        "Leistung regelmäßig überwachen und überprüfen, Berichte und Prüfungen auswerten",
+        "Änderungen bei Lieferanten bewerten und Vorfälle bearbeiten"
+      ],
+      "nachweise": [
+        "Überwachungsberichte",
+        "Auditberichte"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.22 der ISO/IEC 27001:2022. Fortlaufende Überwachung nach Artikel 28 DORA."
+      ]
+    },
+    {
+      "kennung": "5.23",
+      "titel": "Informationssicherheit bei der Nutzung von Cloud-Diensten",
+      "gruppe": "5",
+      "pfad": "k/5.23",
+      "zweck": "Sicherheit bei Erwerb, Nutzung, Verwaltung und Beendigung von Cloud-Diensten ist festgelegt.",
+      "anforderungen": [
+        "Prozesse für Erwerb, Nutzung, Verwaltung und Ausstieg aus Cloud-Diensten festlegen",
+        "Geteilte Verantwortung von Kunde und Anbieter eindeutig regeln",
+        "Ausstiegsregelung mit Datenrückgabe vorsehen"
+      ],
+      "nachweise": [
+        "Cloud-Richtlinie",
+        "Verantwortungsmatrix"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.23 der ISO/IEC 27001:2022. Siehe ISO/IEC 27017 und BSI C5; Ausstiegsstrategie nach Artikel 28 Absatz 8 DORA."
+      ]
+    },
+    {
+      "kennung": "5.24",
+      "titel": "Planung und Vorbereitung des Informationssicherheitsvorfallmanagements",
+      "gruppe": "5",
+      "pfad": "k/5.24",
+      "zweck": "Die Reaktion auf Vorfälle ist durch Prozesse, Rollen und Verantwortlichkeiten vorbereitet.",
+      "anforderungen": [
+        "Prozesse, Rollen, Meldewege und Kommunikationswege festlegen",
+        "Fachkundiges Personal und Werkzeuge bereitstellen"
+      ],
+      "nachweise": [
+        "Vorfallmanagement-Konzept",
+        "Alarmierungsplan"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.24 der ISO/IEC 27001:2022. Artikel 17 DORA verlangt genau diesen Prozess."
+      ]
+    },
+    {
+      "kennung": "5.25",
+      "titel": "Beurteilung von und Entscheidung über Informationssicherheitsereignisse",
+      "gruppe": "5",
+      "pfad": "k/5.25",
+      "zweck": "Ereignisse werden effizient eingestuft und gegebenenfalls zu Vorfällen erklärt.",
+      "anforderungen": [
+        "Ein Schema zur Klassifizierung und Priorisierung nutzen",
+        "Entscheidung dokumentieren"
+      ],
+      "nachweise": [
+        "Klassifizierungsschema",
+        "Entscheidungsprotokolle"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.25 der ISO/IEC 27001:2022. Klassifizierung nach Artikel 18 DORA und Delegierter Verordnung (EU) 2024/1772."
+      ]
+    },
+    {
+      "kennung": "5.26",
+      "titel": "Reaktion auf Informationssicherheitsvorfälle",
+      "gruppe": "5",
+      "pfad": "k/5.26",
+      "zweck": "Vorfälle werden nach dokumentierten Verfahren bearbeitet.",
+      "anforderungen": [
+        "Eindämmen, beseitigen und wiederherstellen, intern und extern kommunizieren",
+        "Eskalation nach Schwere"
+      ],
+      "nachweise": [
+        "Vorfallakten"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.26 der ISO/IEC 27001:2022. Meldung nach Artikel 19 DORA."
+      ]
+    },
+    {
+      "kennung": "5.27",
+      "titel": "Lernen aus Informationssicherheitsvorfällen",
+      "gruppe": "5",
+      "pfad": "k/5.27",
+      "zweck": "Die Wahrscheinlichkeit und Folgen künftiger Vorfälle sinken.",
+      "anforderungen": [
+        "Erkenntnisse zur Verbesserung der Kontrollen und der Schulung verwenden",
+        "Wiederholte Vorfälle erkennen"
+      ],
+      "nachweise": [
+        "Nachbetrachtungen",
+        "Vorfallstatistik"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.27 der ISO/IEC 27001:2022. Ursachenanalyse nach Artikel 13 Absatz 2 DORA."
+      ]
+    },
+    {
+      "kennung": "5.28",
+      "titel": "Sammlung von Beweismaterial",
+      "gruppe": "5",
+      "pfad": "k/5.28",
+      "zweck": "Beweismaterial wird für Disziplinar- und Rechtsverfahren einheitlich und rechtssicher gesichert.",
+      "anforderungen": [
+        "Verfahren zur Identifizierung, Sammlung, Beschaffung und Aufbewahrung festlegen",
+        "Beweiskette und Zeitstempel dokumentieren"
+      ],
+      "nachweise": [
+        "Beweissicherungsverfahren"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.28 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "5.29",
+      "titel": "Informationssicherheit bei Störungen",
+      "gruppe": "5",
+      "pfad": "k/5.29",
+      "zweck": "Informationssicherheit bleibt bei Störungen auf angemessenem Niveau.",
+      "anforderungen": [
+        "Planen, wie Sicherheitskontrollen auch im Notbetrieb wirken",
+        "Ausnahmen und Abweichungen dokumentieren"
+      ],
+      "nachweise": [
+        "Notfallkonzept mit Sicherheitsvorgaben"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.29 der ISO/IEC 27001:2022. Artikel 11 DORA (Geschäftsfortführung)."
+      ]
+    },
+    {
+      "kennung": "5.30",
+      "titel": "IKT-Bereitschaft für die Geschäftsfortführung",
+      "gruppe": "5",
+      "pfad": "k/5.30",
+      "zweck": "Die Verfügbarkeit von Informationen und Werten im Fall von Störungen ist sichergestellt.",
+      "anforderungen": [
+        "IKT-Bereitschaft nach den Zielen der Geschäftsfortführung und der Auswirkungsanalyse planen, umsetzen, pflegen und testen",
+        "Wiederherstellungsziele, Redundanz und Tests festlegen"
+      ],
+      "nachweise": [
+        "Business-Impact-Analyse",
+        "Wiederherstellungstests"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.30 der ISO/IEC 27001:2022. Artikel 11 und 12 DORA; ISO 22301."
+      ]
+    },
+    {
+      "kennung": "5.31",
+      "titel": "Rechtliche, gesetzliche, regulatorische und vertragliche Anforderungen",
+      "gruppe": "5",
+      "pfad": "k/5.31",
+      "zweck": "Rechtliche und vertragliche Pflichten zur Informationssicherheit werden eingehalten.",
+      "anforderungen": [
+        "Anforderungen identifizieren, dokumentieren und aktuell halten",
+        "Zuständigkeit für Beobachtung und Umsetzung festlegen"
+      ],
+      "nachweise": [
+        "Anforderungsverzeichnis"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.31 der ISO/IEC 27001:2022. Genau diese Aufgabe unterstützt der Aufsichtskompass."
+      ]
+    },
+    {
+      "kennung": "5.32",
+      "titel": "Geistiges Eigentum",
+      "gruppe": "5",
+      "pfad": "k/5.32",
+      "zweck": "Rechte am geistigen Eigentum werden geschützt.",
+      "anforderungen": [
+        "Verfahren für Lizenzen, Urheberrecht und Nachweise festlegen",
+        "Nicht lizenzierte Software untersagen"
+      ],
+      "nachweise": [
+        "Lizenzverwaltung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.32 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "5.33",
+      "titel": "Schutz von Aufzeichnungen",
+      "gruppe": "5",
+      "pfad": "k/5.33",
+      "zweck": "Aufzeichnungen sind vor Verlust, Zerstörung, Fälschung und unberechtigtem Zugriff geschützt.",
+      "anforderungen": [
+        "Aufbewahrungsfristen, Speicherformate und Löschung festlegen",
+        "Aufzeichnungen nach Art und Frist schützen"
+      ],
+      "nachweise": [
+        "Aufbewahrungsrichtlinie"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.33 der ISO/IEC 27001:2022. Aufbewahrungspflichten nach § 257 HGB, § 147 AO und GoBD."
+      ]
+    },
+    {
+      "kennung": "5.34",
+      "titel": "Privatsphäre und Schutz personenbezogener Daten",
+      "gruppe": "5",
+      "pfad": "k/5.34",
+      "zweck": "Anforderungen zu Privatsphäre und personenbezogenen Daten werden erfüllt.",
+      "anforderungen": [
+        "Anforderungen identifizieren, Verantwortlichkeiten und Richtlinie festlegen",
+        "Rechte Betroffener berücksichtigen"
+      ],
+      "nachweise": [
+        "Datenschutzkonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.34 der ISO/IEC 27001:2022. Artikel 5, 25 und 32 DSGVO; ISO/IEC 27018 für Cloud."
+      ]
+    },
+    {
+      "kennung": "5.35",
+      "titel": "Unabhängige Überprüfung der Informationssicherheit",
+      "gruppe": "5",
+      "pfad": "k/5.35",
+      "zweck": "Der Ansatz der Organisation zur Informationssicherheit bleibt geeignet, angemessen und wirksam.",
+      "anforderungen": [
+        "In geplanten Abständen und bei wesentlichen Änderungen unabhängig überprüfen lassen",
+        "Ergebnisse an die Leitung berichten"
+      ],
+      "nachweise": [
+        "Revisions- oder Auditberichte"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.35 der ISO/IEC 27001:2022. Interne Revision nach § 30 VAG."
+      ]
+    },
+    {
+      "kennung": "5.36",
+      "titel": "Einhaltung von Richtlinien, Vorschriften und Standards",
+      "gruppe": "5",
+      "pfad": "k/5.36",
+      "zweck": "Die Informationssicherheit wird nach den eigenen Richtlinien und Standards umgesetzt.",
+      "anforderungen": [
+        "Regelmäßig prüfen, ob Beschäftigte, Prozesse und Systeme die Vorgaben einhalten",
+        "Abweichungen beheben und berichten"
+      ],
+      "nachweise": [
+        "Compliance-Prüfplan und Ergebnisse"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.36 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "5.37",
+      "titel": "Dokumentierte Betriebsabläufe",
+      "gruppe": "5",
+      "pfad": "k/5.37",
+      "zweck": "Der korrekte und sichere Betrieb von Informationsverarbeitungseinrichtungen ist sichergestellt.",
+      "anforderungen": [
+        "Betriebsverfahren dokumentieren und zugänglich machen: Installation, Sicherung, Zeitpläne, Fehlerbehandlung, Neustart",
+        "Aktuell halten"
+      ],
+      "nachweise": [
+        "Betriebshandbücher"
+      ],
+      "bezuege": [
+        "Entspricht Control A.5.37 der ISO/IEC 27001:2022. Betriebsdokumentation der Verfahren nach GoBD."
+      ]
+    },
+    {
+      "kennung": "6.1",
+      "titel": "Sicherheitsüberprüfung",
+      "gruppe": "6",
+      "pfad": "k/6.1",
+      "zweck": "Kandidaten und Beschäftigte sind für ihre Rolle geeignet und bleiben es.",
+      "anforderungen": [
+        "Hintergrundüberprüfung vor der Einstellung und fortlaufend, nach Gesetz und Funktion abgestuft",
+        "Verhältnismäßigkeit und Datenschutz wahren"
+      ],
+      "nachweise": [
+        "Überprüfungsverfahren und Nachweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.6.1 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "6.2",
+      "titel": "Arbeitsvertragliche Regelungen",
+      "gruppe": "6",
+      "pfad": "k/6.2",
+      "zweck": "Beschäftigte kennen ihre Pflichten zur Informationssicherheit.",
+      "anforderungen": [
+        "Verantwortlichkeiten, Vertraulichkeit und Datenschutz vertraglich festhalten",
+        "Verhalten bei Verstößen benennen"
+      ],
+      "nachweise": [
+        "Arbeitsvertragsklauseln"
+      ],
+      "bezuege": [
+        "Entspricht Control A.6.2 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "6.3",
+      "titel": "Sensibilisierung, Ausbildung und Schulung zur Informationssicherheit",
+      "gruppe": "6",
+      "pfad": "k/6.3",
+      "zweck": "Beschäftigte und Externe haben das nötige Bewusstsein und die Fähigkeiten.",
+      "anforderungen": [
+        "Ein Sensibilisierungsprogramm, regelmäßig und rollenbezogen, mit Wirksamkeitsprüfung",
+        "Auch Externe und die Leitung einbeziehen"
+      ],
+      "nachweise": [
+        "Schulungsplan",
+        "Teilnahmenachweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.6.3 der ISO/IEC 27001:2022. Artikel 13 Absatz 6 DORA verlangt Programme zur Sensibilisierung und Schulung."
+      ]
+    },
+    {
+      "kennung": "6.4",
+      "titel": "Disziplinarverfahren",
+      "gruppe": "6",
+      "pfad": "k/6.4",
+      "zweck": "Verstöße gegen die Informationssicherheit haben angemessene, bekannte Folgen.",
+      "anforderungen": [
+        "Ein förmliches, abgestuftes Verfahren festlegen und kommunizieren"
+      ],
+      "nachweise": [
+        "Disziplinarverfahren"
+      ],
+      "bezuege": [
+        "Entspricht Control A.6.4 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "6.5",
+      "titel": "Verantwortlichkeiten nach Beendigung oder Änderung der Beschäftigung",
+      "gruppe": "6",
+      "pfad": "k/6.5",
+      "zweck": "Interessen der Organisation bleiben beim Ausscheiden oder Wechsel geschützt.",
+      "anforderungen": [
+        "Fortbestehende Pflichten wie Vertraulichkeit festlegen und mitteilen",
+        "Verantwortlichkeiten übergeben"
+      ],
+      "nachweise": [
+        "Austrittsverfahren"
+      ],
+      "bezuege": [
+        "Entspricht Control A.6.5 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "6.6",
+      "titel": "Vertraulichkeits- oder Geheimhaltungsvereinbarungen",
+      "gruppe": "6",
+      "pfad": "k/6.6",
+      "zweck": "Vertrauliche Informationen sind durch Vereinbarungen geschützt.",
+      "anforderungen": [
+        "Vereinbarungen mit Beschäftigten und Externen schließen und regelmäßig überprüfen",
+        "Inhalte: geschützte Informationen, Dauer, Pflichten, Rechte"
+      ],
+      "nachweise": [
+        "Vertraulichkeitsvereinbarungen"
+      ],
+      "bezuege": [
+        "Entspricht Control A.6.6 der ISO/IEC 27001:2022. Artikel 14 Absatz 1 Buchstabe c des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "6.7",
+      "titel": "Arbeiten aus der Ferne",
+      "gruppe": "6",
+      "pfad": "k/6.7",
+      "zweck": "Informationen sind geschützt, wenn Beschäftigte außerhalb der Räume arbeiten.",
+      "anforderungen": [
+        "Richtlinie und Schutzmaßnahmen für Geräte, Verbindungen und Umgebung festlegen",
+        "Zugang und Zugriffskontrolle anpassen"
+      ],
+      "nachweise": [
+        "Richtlinie zum mobilen Arbeiten"
+      ],
+      "bezuege": [
+        "Entspricht Control A.6.7 der ISO/IEC 27001:2022. Regeln für mobiles Arbeiten nach Artikel 11 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "6.8",
+      "titel": "Meldung von Informationssicherheitsereignissen",
+      "gruppe": "6",
+      "pfad": "k/6.8",
+      "zweck": "Ereignisse werden zeitnah und konsistent gemeldet.",
+      "anforderungen": [
+        "Einen einfachen, bekannten Meldeweg bereitstellen",
+        "Alle Beschäftigten und Externen zur Meldung verpflichten"
+      ],
+      "nachweise": [
+        "Meldeweg und Meldestatistik"
+      ],
+      "bezuege": [
+        "Entspricht Control A.6.8 der ISO/IEC 27001:2022. Artikel 17 DORA."
+      ]
+    },
+    {
+      "kennung": "7.1",
+      "titel": "Physische Sicherheitsbereiche",
+      "gruppe": "7",
+      "pfad": "k/7.1",
+      "zweck": "Unbefugter physischer Zugang, Schäden und Störungen werden verhindert.",
+      "anforderungen": [
+        "Sicherheitszonen mit definierter Schutzwirkung nach der Bedeutung der Werte abgrenzen",
+        "Wände, Türen und Barrieren dem Risiko entsprechend auslegen"
+      ],
+      "nachweise": [
+        "Zonenkonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.1 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.2",
+      "titel": "Physischer Zutritt",
+      "gruppe": "7",
+      "pfad": "k/7.2",
+      "zweck": "Nur befugter Zutritt zu den Räumen.",
+      "anforderungen": [
+        "Zutrittskontrolle mit Berechtigungen, Besucherregelung und Protokollierung",
+        "Anlieferzonen trennen"
+      ],
+      "nachweise": [
+        "Zutrittsprotokolle",
+        "Besucherverwaltung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.2 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.3",
+      "titel": "Sicherung von Büros, Räumen und Einrichtungen",
+      "gruppe": "7",
+      "pfad": "k/7.3",
+      "zweck": "Physische Sicherheit für Büros, Räume und Einrichtungen ist umgesetzt.",
+      "anforderungen": [
+        "Kritische Einrichtungen vor Einblick und Zugang schützen",
+        "Kennzeichnung sensibler Bereiche vermeiden"
+      ],
+      "nachweise": [
+        "Begehungsnachweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.3 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.4",
+      "titel": "Physische Sicherheitsüberwachung",
+      "gruppe": "7",
+      "pfad": "k/7.4",
+      "zweck": "Unbefugter Zutritt wird erkannt und abgeschreckt.",
+      "anforderungen": [
+        "Überwachung durch Wachpersonal, Videoüberwachung und Einbruchmeldesysteme",
+        "Wirksamkeit regelmäßig prüfen; Datenschutz beachten"
+      ],
+      "nachweise": [
+        "Überwachungskonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.4 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.5",
+      "titel": "Schutz vor physischen und umweltbedingten Bedrohungen",
+      "gruppe": "7",
+      "pfad": "k/7.5",
+      "zweck": "Schäden durch Naturereignisse und andere Bedrohungen werden verhindert oder verringert.",
+      "anforderungen": [
+        "Risikobewertung für Feuer, Wasser, Sturm und andere Ereignisse",
+        "Schutzmaßnahmen entsprechend umsetzen"
+      ],
+      "nachweise": [
+        "Gefährdungsanalyse"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.5 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.6",
+      "titel": "Arbeiten in Sicherheitsbereichen",
+      "gruppe": "7",
+      "pfad": "k/7.6",
+      "zweck": "Informationen sind bei der Arbeit in Sicherheitsbereichen geschützt.",
+      "anforderungen": [
+        "Regeln für Aufenthalt und Arbeit festlegen, Begleitung von Dritten",
+        "Foto- und Aufzeichnungsgeräte beschränken"
+      ],
+      "nachweise": [
+        "Verhaltensregeln für Sicherheitsbereiche"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.6 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.7",
+      "titel": "Aufgeräumter Arbeitsplatz und Bildschirmsperre",
+      "gruppe": "7",
+      "pfad": "k/7.7",
+      "zweck": "Unbefugter Zugriff auf Informationen am Arbeitsplatz wird verhindert.",
+      "anforderungen": [
+        "Regeln zum Wegschließen von Unterlagen und zur Bildschirmsperre festlegen und durchsetzen"
+      ],
+      "nachweise": [
+        "Richtlinie und stichprobenartige Prüfung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.7 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.8",
+      "titel": "Platzierung und Schutz von Geräten",
+      "gruppe": "7",
+      "pfad": "k/7.8",
+      "zweck": "Risiken durch Umweltgefahren und unbefugten Zugriff auf Geräte sind verringert.",
+      "anforderungen": [
+        "Geräte so aufstellen, dass Einsicht und Zugang erschwert sind",
+        "Schutz vor Umwelteinflüssen und Stromausfall"
+      ],
+      "nachweise": [
+        "Aufstellungskonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.8 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.9",
+      "titel": "Sicherheit von Werten außerhalb der Räumlichkeiten",
+      "gruppe": "7",
+      "pfad": "k/7.9",
+      "zweck": "Verlust, Beschädigung und Diebstahl außerhalb der Räume werden verhindert.",
+      "anforderungen": [
+        "Regeln für Mitnahme und Nutzung von Geräten außerhalb festlegen",
+        "Schutz gegen Diebstahl und Einsicht"
+      ],
+      "nachweise": [
+        "Richtlinie für Geräte außer Haus"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.9 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.10",
+      "titel": "Speichermedien",
+      "gruppe": "7",
+      "pfad": "k/7.10",
+      "zweck": "Nur genehmigte Offenlegung, Änderung, Entfernung oder Vernichtung von Informationen auf Speichermedien.",
+      "anforderungen": [
+        "Lebenszyklus von Speichermedien steuern: Nutzung, Transport, Löschung, Entsorgung",
+        "Verschlüsselung für transportierte Medien"
+      ],
+      "nachweise": [
+        "Medienverzeichnis",
+        "Entsorgungsnachweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.10 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.11",
+      "titel": "Versorgungseinrichtungen",
+      "gruppe": "7",
+      "pfad": "k/7.11",
+      "zweck": "Ausfälle von Strom, Kühlung und Telekommunikation beeinträchtigen den Betrieb nicht.",
+      "anforderungen": [
+        "Versorgungseinrichtungen redundant auslegen und regelmäßig prüfen",
+        "Notstrom vorsehen"
+      ],
+      "nachweise": [
+        "Wartungs- und Testnachweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.11 der ISO/IEC 27001:2022. Redundante Kapazitäten nach Artikel 12 Absatz 4 DORA."
+      ]
+    },
+    {
+      "kennung": "7.12",
+      "titel": "Sicherheit der Verkabelung",
+      "gruppe": "7",
+      "pfad": "k/7.12",
+      "zweck": "Strom- und Netzwerkverkabelung sind vor Abhören, Störung und Beschädigung geschützt.",
+      "anforderungen": [
+        "Kabelwege schützen, Netz- und Stromkabel trennen",
+        "Zugang zu Verteilern beschränken"
+      ],
+      "nachweise": [
+        "Verkabelungsplan"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.12 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.13",
+      "titel": "Instandhaltung von Geräten",
+      "gruppe": "7",
+      "pfad": "k/7.13",
+      "zweck": "Verfügbarkeit, Integrität und Vertraulichkeit werden durch Wartung erhalten.",
+      "anforderungen": [
+        "Wartung nach Herstellerangaben, durch befugtes Personal, mit Aufzeichnung",
+        "Daten vor Wartung außer Haus schützen"
+      ],
+      "nachweise": [
+        "Wartungsprotokolle"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.13 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "7.14",
+      "titel": "Sichere Entsorgung oder Wiederverwendung von Geräten",
+      "gruppe": "7",
+      "pfad": "k/7.14",
+      "zweck": "Informationen gelangen nicht durch Entsorgung oder Wiederverwendung in falsche Hände.",
+      "anforderungen": [
+        "Datenträger vor Entsorgung oder Wiederverwendung verifizieren und sicher löschen oder zerstören"
+      ],
+      "nachweise": [
+        "Löschnachweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.7.14 der ISO/IEC 27001:2022. Verfahren zum sicheren Löschen nach Artikel 11 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.1",
+      "titel": "Endgeräte der Benutzer",
+      "gruppe": "8",
+      "pfad": "k/8.1",
+      "zweck": "Informationen auf Endgeräten sind geschützt.",
+      "anforderungen": [
+        "Richtlinie zum Schutz von Endgeräten, Registrierung, Verschlüsselung, Sperre, Fernlöschung",
+        "Eigengeräte nur unter Auflagen"
+      ],
+      "nachweise": [
+        "Endgerätestandard"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.1 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.2",
+      "titel": "Privilegierte Zugriffsrechte",
+      "gruppe": "8",
+      "pfad": "k/8.2",
+      "zweck": "Nur autorisierte Benutzer erhalten privilegierte Rechte.",
+      "anforderungen": [
+        "Vergabe nach Genehmigung, zeitlich und sachlich begrenzt, getrennt vom normalen Konto",
+        "Nutzung protokollieren und regelmäßig überprüfen"
+      ],
+      "nachweise": [
+        "Verzeichnis privilegierter Konten"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.2 der ISO/IEC 27001:2022. Zugriffsmanagement nach Artikel 21 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.3",
+      "titel": "Einschränkung des Informationszugriffs",
+      "gruppe": "8",
+      "pfad": "k/8.3",
+      "zweck": "Unbefugter Zugriff wird verhindert.",
+      "anforderungen": [
+        "Zugriff nach der Zugangssteuerungsrichtlinie technisch durchsetzen",
+        "Zugriff auf sensible Anwendungen und Daten beschränken"
+      ],
+      "nachweise": [
+        "Berechtigungsauswertung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.3 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.4",
+      "titel": "Zugriff auf Quellcode",
+      "gruppe": "8",
+      "pfad": "k/8.4",
+      "zweck": "Quellcode und Entwicklungswerkzeuge sind vor Änderung und Missbrauch geschützt.",
+      "anforderungen": [
+        "Lese- und Schreibzugriff beschränken, Versionsverwaltung mit Protokoll",
+        "Änderungen nachvollziehbar freigeben"
+      ],
+      "nachweise": [
+        "Berechtigungen im Repository"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.4 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.5",
+      "titel": "Sichere Authentisierung",
+      "gruppe": "8",
+      "pfad": "k/8.5",
+      "zweck": "Benutzer und Entitäten werden sicher authentisiert.",
+      "anforderungen": [
+        "Verfahren nach Schutzbedarf, bei hohem Bedarf mehrere Faktoren",
+        "Fehlversuche begrenzen, Anmeldedaten schützen"
+      ],
+      "nachweise": [
+        "Authentisierungskonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.5 der ISO/IEC 27001:2022. Starke Authentisierung nach Artikel 9 Absatz 4 Buchstabe d DORA."
+      ]
+    },
+    {
+      "kennung": "8.6",
+      "titel": "Kapazitätssteuerung",
+      "gruppe": "8",
+      "pfad": "k/8.6",
+      "zweck": "Der Bedarf an Ressourcen ist gedeckt.",
+      "anforderungen": [
+        "Bedarf überwachen und Kapazitäten vorausschauend anpassen",
+        "Engpässe vermeiden"
+      ],
+      "nachweise": [
+        "Kapazitätsplanung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.6 der ISO/IEC 27001:2022. Kapazitätsmanagement nach Artikel 9 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.7",
+      "titel": "Schutz vor Schadsoftware",
+      "gruppe": "8",
+      "pfad": "k/8.7",
+      "zweck": "Informationen und Werte sind gegen Schadsoftware geschützt.",
+      "anforderungen": [
+        "Erkennung und Abwehr einsetzen, Benutzer sensibilisieren",
+        "Regelmäßig aktualisieren"
+      ],
+      "nachweise": [
+        "Schutzkonzept",
+        "Meldungen und Auswertungen"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.7 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.8",
+      "titel": "Umgang mit technischen Schwachstellen",
+      "gruppe": "8",
+      "pfad": "k/8.8",
+      "zweck": "Ausnutzung technischer Schwachstellen wird verhindert.",
+      "anforderungen": [
+        "Schwachstellen erkennen, bewerten und abstellen, priorisiert nach Risiko",
+        "Patch-Management mit Fristen und Eskalation"
+      ],
+      "nachweise": [
+        "Scan- und Patchberichte"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.8 der ISO/IEC 27001:2022. Artikel 10 des RTS zum IKT-Risikomanagementrahmen (Schwachstellenmanagement)."
+      ]
+    },
+    {
+      "kennung": "8.9",
+      "titel": "Konfigurationsmanagement",
+      "gruppe": "8",
+      "pfad": "k/8.9",
+      "zweck": "Hardware, Software, Dienste und Netze sind sicher konfiguriert.",
+      "anforderungen": [
+        "Standardkonfigurationen festlegen, dokumentieren, überwachen und überprüfen",
+        "Abweichungen erkennen"
+      ],
+      "nachweise": [
+        "Konfigurationsstandards"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.9 der ISO/IEC 27001:2022. Artikel 8 DORA (Konfiguration der Assets)."
+      ]
+    },
+    {
+      "kennung": "8.10",
+      "titel": "Löschung von Informationen",
+      "gruppe": "8",
+      "pfad": "k/8.10",
+      "zweck": "Unnötige Offenlegung wird verhindert, Datenschutzvorgaben werden erfüllt.",
+      "anforderungen": [
+        "Informationen löschen, wenn sie nicht mehr benötigt werden",
+        "Löschung nachweisbar und wirksam"
+      ],
+      "nachweise": [
+        "Löschkonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.10 der ISO/IEC 27001:2022. Speicherbegrenzung nach Artikel 5 DSGVO."
+      ]
+    },
+    {
+      "kennung": "8.11",
+      "titel": "Datenmaskierung",
+      "gruppe": "8",
+      "pfad": "k/8.11",
+      "zweck": "Die Offenlegung sensibler Daten wird eingeschränkt.",
+      "anforderungen": [
+        "Maskierung, Pseudonymisierung oder Anonymisierung nach Bedarf, auch für Testdaten"
+      ],
+      "nachweise": [
+        "Maskierungsverfahren"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.11 der ISO/IEC 27001:2022. Pseudonymisierung nach Artikel 32 DSGVO."
+      ]
+    },
+    {
+      "kennung": "8.12",
+      "titel": "Verhinderung von Datenabfluss",
+      "gruppe": "8",
+      "pfad": "k/8.12",
+      "zweck": "Unbefugte Offenlegung und Extraktion von Informationen werden verhindert.",
+      "anforderungen": [
+        "Datenabflusskanäle identifizieren und überwachen, Maßnahmen gegen Abfluss einsetzen"
+      ],
+      "nachweise": [
+        "Überwachung und Regeln gegen Datenabfluss"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.12 der ISO/IEC 27001:2022. Schutz vor Datenverlust nach Artikel 11 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.13",
+      "titel": "Sicherung von Informationen",
+      "gruppe": "8",
+      "pfad": "k/8.13",
+      "zweck": "Daten sind gegen Verlust wiederherstellbar.",
+      "anforderungen": [
+        "Sicherungsrichtlinie, regelmäßige Sicherung, Aufbewahrung getrennt vom Quellsystem",
+        "Wiederherstellung testen"
+      ],
+      "nachweise": [
+        "Sicherungs- und Wiederherstellungsnachweise"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.13 der ISO/IEC 27001:2022. Artikel 12 DORA verlangt Trennung und Datenprüfungen nach der Wiederherstellung."
+      ]
+    },
+    {
+      "kennung": "8.14",
+      "titel": "Redundanz von informationsverarbeitenden Einrichtungen",
+      "gruppe": "8",
+      "pfad": "k/8.14",
+      "zweck": "Die Verfügbarkeit ist durch Redundanz gesichert.",
+      "anforderungen": [
+        "Redundanz nach den Verfügbarkeitsanforderungen auslegen und testen"
+      ],
+      "nachweise": [
+        "Redundanzkonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.14 der ISO/IEC 27001:2022. Artikel 12 Absatz 4 DORA."
+      ]
+    },
+    {
+      "kennung": "8.15",
+      "titel": "Protokollierung",
+      "gruppe": "8",
+      "pfad": "k/8.15",
+      "zweck": "Ereignisse werden aufgezeichnet und sind auswertbar.",
+      "anforderungen": [
+        "Protokolle erzeugen, schützen und auswerten",
+        "Aufbewahrung begründen, Schutz vor Manipulation und Löschung"
+      ],
+      "nachweise": [
+        "Protokollierungskonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.15 der ISO/IEC 27001:2022. Artikel 12 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.16",
+      "titel": "Überwachungsaktivitäten",
+      "gruppe": "8",
+      "pfad": "k/8.16",
+      "zweck": "Anomales Verhalten wird erkannt und bewertet.",
+      "anforderungen": [
+        "Netze, Systeme und Anwendungen auf Anomalien überwachen, Alarmschwellen festlegen",
+        "Reaktion definieren"
+      ],
+      "nachweise": [
+        "Überwachungskonzept",
+        "Alarmauswertungen"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.16 der ISO/IEC 27001:2022. Artikel 10 DORA verlangt Erkennungsmechanismen mit Alarmschwellen."
+      ]
+    },
+    {
+      "kennung": "8.17",
+      "titel": "Uhrensynchronisation",
+      "gruppe": "8",
+      "pfad": "k/8.17",
+      "zweck": "Zeitstempel sind über Systeme hinweg vergleichbar.",
+      "anforderungen": [
+        "Alle Systeme mit einer verlässlichen Referenzzeit synchronisieren"
+      ],
+      "nachweise": [
+        "Zeitdienstkonfiguration"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.17 der ISO/IEC 27001:2022. Artikel 12 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.18",
+      "titel": "Gebrauch privilegierter Hilfsprogramme",
+      "gruppe": "8",
+      "pfad": "k/8.18",
+      "zweck": "Hilfsprogramme, die Kontrollen umgehen können, werden eingeschränkt.",
+      "anforderungen": [
+        "Gebrauch beschränken, genehmigen und überwachen"
+      ],
+      "nachweise": [
+        "Liste zugelassener Hilfsprogramme"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.18 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.19",
+      "titel": "Installation von Software auf Produktivsystemen",
+      "gruppe": "8",
+      "pfad": "k/8.19",
+      "zweck": "Produktivbetrieb bleibt integer.",
+      "anforderungen": [
+        "Nur genehmigte Software und Versionen, Installation durch befugte Personen, Rückfalloption"
+      ],
+      "nachweise": [
+        "Freigabe- und Installationsprotokolle"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.19 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.20",
+      "titel": "Netzwerksicherheit",
+      "gruppe": "8",
+      "pfad": "k/8.20",
+      "zweck": "Informationen in Netzen und die unterstützenden Einrichtungen sind geschützt.",
+      "anforderungen": [
+        "Netze und Netzgeräte verwalten und steuern, Sicherheitsmechanismen festlegen"
+      ],
+      "nachweise": [
+        "Netzsicherheitskonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.20 der ISO/IEC 27001:2022. Artikel 13 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.21",
+      "titel": "Sicherheit von Netzwerkdiensten",
+      "gruppe": "8",
+      "pfad": "k/8.21",
+      "zweck": "Sicherheit bei der Nutzung von Netzdiensten ist festgelegt.",
+      "anforderungen": [
+        "Sicherheitsmerkmale, Dienstgüte und Anforderungen von Netzdiensten identifizieren und vereinbaren"
+      ],
+      "nachweise": [
+        "Vereinbarungen zu Netzdiensten"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.21 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.22",
+      "titel": "Trennung von Netzwerken",
+      "gruppe": "8",
+      "pfad": "k/8.22",
+      "zweck": "Ausbreitung von Angriffen wird begrenzt.",
+      "anforderungen": [
+        "Netze nach Schutzbedarf in Domänen trennen, Übergänge kontrollieren"
+      ],
+      "nachweise": [
+        "Netzsegmentierungskonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.22 der ISO/IEC 27001:2022. Segmentierung nach Artikel 13 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.23",
+      "titel": "Web-Filterung",
+      "gruppe": "8",
+      "pfad": "k/8.23",
+      "zweck": "Zugriff auf schädliche Webseiten wird verhindert.",
+      "anforderungen": [
+        "Zugriff auf Webseiten nach Regeln begrenzen, Schadseiten sperren"
+      ],
+      "nachweise": [
+        "Filterregeln"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.23 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.24",
+      "titel": "Einsatz von Kryptografie",
+      "gruppe": "8",
+      "pfad": "k/8.24",
+      "zweck": "Kryptografie wird wirksam und angemessen eingesetzt.",
+      "anforderungen": [
+        "Richtlinie zu Einsatz und Schlüsselverwaltung über den gesamten Lebenszyklus",
+        "Anforderungen nach Schutzbedarf und Recht"
+      ],
+      "nachweise": [
+        "Kryptokonzept",
+        "Schlüsselverwaltung"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.24 der ISO/IEC 27001:2022. Artikel 9 Absatz 2 DORA und Artikel 6 und 7 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.25",
+      "titel": "Sicherer Entwicklungslebenszyklus",
+      "gruppe": "8",
+      "pfad": "k/8.25",
+      "zweck": "Informationssicherheit ist über den Entwicklungslebenszyklus eingebaut.",
+      "anforderungen": [
+        "Regeln für sichere Entwicklung von Software und Systemen festlegen und anwenden"
+      ],
+      "nachweise": [
+        "Entwicklungsrichtlinie"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.25 der ISO/IEC 27001:2022. Artikel 16 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.26",
+      "titel": "Sicherheitsanforderungen an Anwendungen",
+      "gruppe": "8",
+      "pfad": "k/8.26",
+      "zweck": "Sicherheitsanforderungen werden bei Entwicklung und Beschaffung festgelegt.",
+      "anforderungen": [
+        "Anforderungen identifizieren, spezifizieren und genehmigen, auch für Datenübertragung und Transaktionen"
+      ],
+      "nachweise": [
+        "Anforderungskatalog"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.26 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.27",
+      "titel": "Grundsätze für sichere Systemarchitektur und Entwicklung",
+      "gruppe": "8",
+      "pfad": "k/8.27",
+      "zweck": "Systeme werden nach Sicherheitsgrundsätzen gebaut.",
+      "anforderungen": [
+        "Grundsätze wie Schutz in der Tiefe und geringste Rechte festlegen und anwenden"
+      ],
+      "nachweise": [
+        "Architekturprinzipien"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.27 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.28",
+      "titel": "Sichere Programmierung",
+      "gruppe": "8",
+      "pfad": "k/8.28",
+      "zweck": "Software wird mit weniger Schwachstellen geschrieben.",
+      "anforderungen": [
+        "Grundsätze sicherer Programmierung, Prüfungen und Umgang mit Fremdcode und quelloffenen Bibliotheken"
+      ],
+      "nachweise": [
+        "Programmierrichtlinie",
+        "Codeprüfungen"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.28 der ISO/IEC 27001:2022. Quellcodeprüfung nach Artikel 16 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.29",
+      "titel": "Sicherheitsprüfungen in Entwicklung und Abnahme",
+      "gruppe": "8",
+      "pfad": "k/8.29",
+      "zweck": "Sicherheitsanforderungen sind vor der Inbetriebnahme geprüft.",
+      "anforderungen": [
+        "Prüf- und Abnahmeverfahren mit Sicherheitstests, auch für ausgelagerte Entwicklung"
+      ],
+      "nachweise": [
+        "Testberichte"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.29 der ISO/IEC 27001:2022. Tests nach Artikel 16 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "8.30",
+      "titel": "Ausgelagerte Entwicklung",
+      "gruppe": "8",
+      "pfad": "k/8.30",
+      "zweck": "Sicherheit bei ausgelagerter Entwicklung ist gewährleistet.",
+      "anforderungen": [
+        "Anforderungen vertraglich festlegen, Entwicklung überwachen und prüfen"
+      ],
+      "nachweise": [
+        "Verträge und Prüfberichte"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.30 der ISO/IEC 27001:2022."
+      ]
+    },
+    {
+      "kennung": "8.31",
+      "titel": "Trennung von Entwicklungs-, Test- und Produktionsumgebungen",
+      "gruppe": "8",
+      "pfad": "k/8.31",
+      "zweck": "Produktionsrisiken durch Entwicklung und Test sind verringert.",
+      "anforderungen": [
+        "Umgebungen trennen, Daten und Zugriffe entsprechend beschränken"
+      ],
+      "nachweise": [
+        "Umgebungskonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.31 der ISO/IEC 27001:2022. Artikel 8 Absatz 7 DORA verlangt getrennte Umgebungen."
+      ]
+    },
+    {
+      "kennung": "8.32",
+      "titel": "Änderungsmanagement",
+      "gruppe": "8",
+      "pfad": "k/8.32",
+      "zweck": "Änderungen werden kontrolliert und nachvollziehbar durchgeführt.",
+      "anforderungen": [
+        "Änderungsverfahren für Einrichtungen und Systeme mit Test, Genehmigung, Rückfall",
+        "Notfalländerungen nachträglich dokumentieren"
+      ],
+      "nachweise": [
+        "Änderungsverzeichnis"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.32 der ISO/IEC 27001:2022. Artikel 17 des RTS zum IKT-Risikomanagementrahmen; keine Wesentlichkeitsgrenze."
+      ]
+    },
+    {
+      "kennung": "8.33",
+      "titel": "Testdaten",
+      "gruppe": "8",
+      "pfad": "k/8.33",
+      "zweck": "Relevante Tests sind möglich, Testdaten sind geschützt.",
+      "anforderungen": [
+        "Testdaten sorgfältig auswählen, schützen und verwalten, möglichst nicht Echtdaten"
+      ],
+      "nachweise": [
+        "Testdatenkonzept"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.33 der ISO/IEC 27001:2022. Datenschutz nach DSGVO und Artikel 8 Absatz 7 DORA."
+      ]
+    },
+    {
+      "kennung": "8.34",
+      "titel": "Schutz von Informationssystemen während Audit-Tests",
+      "gruppe": "8",
+      "pfad": "k/8.34",
+      "zweck": "Audits stören den Betrieb nicht.",
+      "anforderungen": [
+        "Prüfungen im Voraus planen, vereinbaren und begrenzen"
+      ],
+      "nachweise": [
+        "Prüfplan"
+      ],
+      "bezuege": [
+        "Entspricht Control A.8.34 der ISO/IEC 27001:2022."
+      ]
+    }
+  ]
+}

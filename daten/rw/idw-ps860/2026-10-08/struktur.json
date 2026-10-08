@@ -1,0 +1,60 @@
+{
+  "regelwerk": "idw-ps860",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:05Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: IDW PS 860 – IT-Prüfung außerhalb der Abschlussprüfung",
+    "url": "https://www.idw.de/",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein IDW PS 860 (IDW PS 860 – IT-Prüfung außerhalb der Abschlussprüfung)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_p",
+      "art": "abschnitt",
+      "nummer": "P",
+      "bez": "P",
+      "titel": {
+        "de": "Prüfungsstandard"
+      },
+      "pfad": "gr/p",
+      "kinder": [
+        {
+          "id": "z_z",
+          "art": "control",
+          "nummer": "Z",
+          "bez": "Z",
+          "titel": {
+            "de": "Zweck und Anwendungsfall"
+          },
+          "pfad": "a/zweck",
+          "text": true
+        },
+        {
+          "id": "z_a",
+          "art": "control",
+          "nummer": "A",
+          "bez": "A",
+          "titel": {
+            "de": "Arten der Prüfung"
+          },
+          "pfad": "a/arten",
+          "text": true
+        },
+        {
+          "id": "z_b",
+          "art": "control",
+          "nummer": "B",
+          "bez": "B",
+          "titel": {
+            "de": "Berichterstattung und Verwendung der Ergebnisse"
+          },
+          "pfad": "a/bericht",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

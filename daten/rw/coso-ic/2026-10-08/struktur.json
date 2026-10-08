@@ -1,0 +1,269 @@
+{
+  "regelwerk": "coso-ic",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:00Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: COSO, Internal Control – Integrated Framework (2013): fünf Komponenten, siebzehn Prinzipien",
+    "url": "https://www.coso.org/",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein COSO Internal Control – Integrated Framework (COSO, Internal Control – Integrated Framework (2013): fünf Komponenten, siebzehn Prinzipien)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_kp",
+      "art": "abschnitt",
+      "nummer": "KP",
+      "bez": "KP",
+      "titel": {
+        "de": "Fünf Komponenten und siebzehn Prinzipien"
+      },
+      "pfad": "gr/kp",
+      "kinder": [
+        {
+          "id": "z_k1",
+          "art": "control",
+          "nummer": "K1",
+          "bez": "K1",
+          "titel": {
+            "de": "Kontrollumfeld"
+          },
+          "pfad": "i/k1",
+          "text": true
+        },
+        {
+          "id": "z_p1",
+          "art": "control",
+          "nummer": "P1",
+          "bez": "P1",
+          "titel": {
+            "de": "Prinzip 1: Bekenntnis zu Integrität und ethischen Werten"
+          },
+          "pfad": "i/p1",
+          "text": true
+        },
+        {
+          "id": "z_p2",
+          "art": "control",
+          "nummer": "P2",
+          "bez": "P2",
+          "titel": {
+            "de": "Prinzip 2: Unabhängige Aufsicht durch das Aufsichtsorgan"
+          },
+          "pfad": "i/p2",
+          "text": true
+        },
+        {
+          "id": "z_p3",
+          "art": "control",
+          "nummer": "P3",
+          "bez": "P3",
+          "titel": {
+            "de": "Prinzip 3: Strukturen, Berichtslinien, Zuständigkeiten"
+          },
+          "pfad": "i/p3",
+          "text": true
+        },
+        {
+          "id": "z_p4",
+          "art": "control",
+          "nummer": "P4",
+          "bez": "P4",
+          "titel": {
+            "de": "Prinzip 4: Bekenntnis zu Kompetenz"
+          },
+          "pfad": "i/p4",
+          "text": true
+        },
+        {
+          "id": "z_p5",
+          "art": "control",
+          "nummer": "P5",
+          "bez": "P5",
+          "titel": {
+            "de": "Prinzip 5: Rechenschaftspflicht"
+          },
+          "pfad": "i/p5",
+          "text": true
+        },
+        {
+          "id": "z_k2",
+          "art": "control",
+          "nummer": "K2",
+          "bez": "K2",
+          "titel": {
+            "de": "Risikobeurteilung"
+          },
+          "pfad": "i/k2",
+          "text": true
+        },
+        {
+          "id": "z_p6",
+          "art": "control",
+          "nummer": "P6",
+          "bez": "P6",
+          "titel": {
+            "de": "Prinzip 6: Geeignete Ziele festlegen"
+          },
+          "pfad": "i/p6",
+          "text": true
+        },
+        {
+          "id": "z_p7",
+          "art": "control",
+          "nummer": "P7",
+          "bez": "P7",
+          "titel": {
+            "de": "Prinzip 7: Risiken identifizieren und analysieren"
+          },
+          "pfad": "i/p7",
+          "text": true
+        },
+        {
+          "id": "z_p8",
+          "art": "control",
+          "nummer": "P8",
+          "bez": "P8",
+          "titel": {
+            "de": "Prinzip 8: Betrugsrisiken berücksichtigen"
+          },
+          "pfad": "i/p8",
+          "text": true
+        },
+        {
+          "id": "z_p9",
+          "art": "control",
+          "nummer": "P9",
+          "bez": "P9",
+          "titel": {
+            "de": "Prinzip 9: Wesentliche Änderungen identifizieren und analysieren"
+          },
+          "pfad": "i/p9",
+          "text": true
+        },
+        {
+          "id": "z_k3",
+          "art": "control",
+          "nummer": "K3",
+          "bez": "K3",
+          "titel": {
+            "de": "Kontrollaktivitäten"
+          },
+          "pfad": "i/k3",
+          "text": true
+        },
+        {
+          "id": "z_p10",
+          "art": "control",
+          "nummer": "P10",
+          "bez": "P10",
+          "titel": {
+            "de": "Prinzip 10: Kontrollaktivitäten auswählen und entwickeln"
+          },
+          "pfad": "i/p10",
+          "text": true
+        },
+        {
+          "id": "z_p11",
+          "art": "control",
+          "nummer": "P11",
+          "bez": "P11",
+          "titel": {
+            "de": "Prinzip 11: Allgemeine Kontrollen über Technologie"
+          },
+          "pfad": "i/p11",
+          "text": true
+        },
+        {
+          "id": "z_p12",
+          "art": "control",
+          "nummer": "P12",
+          "bez": "P12",
+          "titel": {
+            "de": "Prinzip 12: Umsetzung durch Richtlinien und Verfahren"
+          },
+          "pfad": "i/p12",
+          "text": true
+        },
+        {
+          "id": "z_k4",
+          "art": "control",
+          "nummer": "K4",
+          "bez": "K4",
+          "titel": {
+            "de": "Information und Kommunikation"
+          },
+          "pfad": "i/k4",
+          "text": true
+        },
+        {
+          "id": "z_p13",
+          "art": "control",
+          "nummer": "P13",
+          "bez": "P13",
+          "titel": {
+            "de": "Prinzip 13: Relevante, hochwertige Informationen nutzen"
+          },
+          "pfad": "i/p13",
+          "text": true
+        },
+        {
+          "id": "z_p14",
+          "art": "control",
+          "nummer": "P14",
+          "bez": "P14",
+          "titel": {
+            "de": "Prinzip 14: Interne Kommunikation"
+          },
+          "pfad": "i/p14",
+          "text": true
+        },
+        {
+          "id": "z_p15",
+          "art": "control",
+          "nummer": "P15",
+          "bez": "P15",
+          "titel": {
+            "de": "Prinzip 15: Externe Kommunikation"
+          },
+          "pfad": "i/p15",
+          "text": true
+        },
+        {
+          "id": "z_k5",
+          "art": "control",
+          "nummer": "K5",
+          "bez": "K5",
+          "titel": {
+            "de": "Überwachungsaktivitäten"
+          },
+          "pfad": "i/k5",
+          "text": true
+        },
+        {
+          "id": "z_p16",
+          "art": "control",
+          "nummer": "P16",
+          "bez": "P16",
+          "titel": {
+            "de": "Prinzip 16: Laufende und gesonderte Beurteilungen"
+          },
+          "pfad": "i/p16",
+          "text": true
+        },
+        {
+          "id": "z_p17",
+          "art": "control",
+          "nummer": "P17",
+          "bez": "P17",
+          "titel": {
+            "de": "Prinzip 17: Mängel bewerten und mitteilen"
+          },
+          "pfad": "i/p17",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

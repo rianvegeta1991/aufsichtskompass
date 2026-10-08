@@ -1,0 +1,17 @@
+{
+  "regelwerk": "idw-ps951",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:06Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: IDW PS 951 – Die Prüfung des internen Kontrollsystems bei Dienstleistungsunternehmen",
+        "url": "https://www.idw.de/",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein IDW PS 951 (IDW PS 951 – Die Prüfung des internen Kontrollsystems bei Dienstleistungsunternehmen)."
+      },
+      "hash": "cf20c0b10e2c08cb27dd77fc6d54f1df8e29105d4bd718a7a41906d92d11c866",
+      "fundstellen": 3
+    }
+  ]
+}

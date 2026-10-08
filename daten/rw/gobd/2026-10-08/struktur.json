@@ -1,0 +1,137 @@
+{
+  "regelwerk": "gobd",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:04Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, Änderungsstand gegen die BMF-Seite geprüft, ungeprüft) – Bezugsfassung: BMF-Schreiben „Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff (GoBD)“ vom 28.11.2019, zuletzt geändert durch BMF-Schreiben vom 14.07.2025 (2. Änderung aufgrund verschiedener gesetzlicher Änderungen); 1. Änderung am 11.03.2024",
+    "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Weitere_Steuerthemen/Abgabenordnung/2025-07-14-GoBD-2-aenderung.html",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein Bundesministerium der Finanzen, GoBD (BMF-Schreiben „Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff (GoBD)“ vom 28.11.2019, zuletzt geändert durch BMF-Schreiben vom 14.07.2025 (2. Änderung aufgrund verschiedener gesetzlicher Änderungen); 1. Änderung am 11.03.2024)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_g",
+      "art": "abschnitt",
+      "nummer": "G",
+      "bez": "G",
+      "titel": {
+        "de": "Gegenstände der GoBD"
+      },
+      "pfad": "gr/g",
+      "kinder": [
+        {
+          "id": "z_g1",
+          "art": "control",
+          "nummer": "G1",
+          "bez": "G1",
+          "titel": {
+            "de": "Zweck, Rechtsgrundlage und Anwendungsbereich"
+          },
+          "pfad": "go/g1",
+          "text": true
+        },
+        {
+          "id": "z_g2",
+          "art": "control",
+          "nummer": "G2",
+          "bez": "G2",
+          "titel": {
+            "de": "Verantwortlichkeit des Steuerpflichtigen"
+          },
+          "pfad": "go/g2",
+          "text": true
+        },
+        {
+          "id": "z_g3",
+          "art": "control",
+          "nummer": "G3",
+          "bez": "G3",
+          "titel": {
+            "de": "Grundsätze der Nachvollziehbarkeit und Nachprüfbarkeit"
+          },
+          "pfad": "go/g3",
+          "text": true
+        },
+        {
+          "id": "z_g4",
+          "art": "control",
+          "nummer": "G4",
+          "bez": "G4",
+          "titel": {
+            "de": "Grundsätze der Wahrheit, Klarheit und fortlaufenden Aufzeichnung"
+          },
+          "pfad": "go/g4",
+          "text": true
+        },
+        {
+          "id": "z_g5",
+          "art": "control",
+          "nummer": "G5",
+          "bez": "G5",
+          "titel": {
+            "de": "Belegwesen und Erfassung der Geschäftsvorfälle"
+          },
+          "pfad": "go/g5",
+          "text": true
+        },
+        {
+          "id": "z_g6",
+          "art": "control",
+          "nummer": "G6",
+          "bez": "G6",
+          "titel": {
+            "de": "Internes Kontrollsystem (IKS)"
+          },
+          "pfad": "go/g6",
+          "text": true
+        },
+        {
+          "id": "z_g7",
+          "art": "control",
+          "nummer": "G7",
+          "bez": "G7",
+          "titel": {
+            "de": "Datensicherheit"
+          },
+          "pfad": "go/g7",
+          "text": true
+        },
+        {
+          "id": "z_g8",
+          "art": "control",
+          "nummer": "G8",
+          "bez": "G8",
+          "titel": {
+            "de": "Verfahrensdokumentation"
+          },
+          "pfad": "go/g8",
+          "text": true
+        },
+        {
+          "id": "z_g9",
+          "art": "control",
+          "nummer": "G9",
+          "bez": "G9",
+          "titel": {
+            "de": "Aufbewahrung, Archivierung, Migration"
+          },
+          "pfad": "go/g9",
+          "text": true
+        },
+        {
+          "id": "z_g10",
+          "art": "control",
+          "nummer": "G10",
+          "bez": "G10",
+          "titel": {
+            "de": "Datenzugriff der Finanzverwaltung (Z1, Z2, Z3)"
+          },
+          "pfad": "go/g10",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

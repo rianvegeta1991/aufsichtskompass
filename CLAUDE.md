@@ -49,7 +49,7 @@ Text und Fundstellen, ob eine neue Fassung übernommen wird.
 
 | Datei | Inhalt |
 |---|---|
-| `regelwerke.json` | Redaktioneller Katalog: 52 Einträge mit Typ, Herausgeber, Verbindlichkeit, Status, Darstellungsmodus, Tiefe, Relevanz, Themen, `geprueft`-Flag |
+| `regelwerke.json` | Redaktioneller Katalog: 53 Einträge mit Typ, Herausgeber, Verbindlichkeit, Status, Darstellungsmodus, Tiefe, Relevanz, Themen, `geprueft`-Flag |
 | `quellen.json` | Konnektoren je Regelwerk samt **dokumentierter Nutzungsbedingung** und Kosten |
 | `themen.json` | 22 Themen (IKS, IKT-Risikomanagement, Change Management …) |
 | `fussnoten.json` | KAMaRisk-Hinweise **und** die Liste der bewusst nicht aufgenommenen Regelwerke (VAIT, BAIT) |
@@ -70,6 +70,7 @@ Fassungsordner sind **unveränderlich**. Eine neue Fassung kommt daneben, die al
 | `cellar` | EU-Recht über `publications.europa.eu/resource/celex/<CELEX>` | umgesetzt |
 | `gii` | deutsche Gesetze über `gesetze-im-internet.de/<kennung>/xml.zip` | umgesetzt |
 | `bafin` | BaFin-Veröffentlichungen als HTML, Bauarten `rundschreiben` und `faq` | umgesetzt (Phase 2c) |
+| `oscal` | OSCAL-Katalog als JSON (NIST SP 800-53 Rev. 5 über `raw.githubusercontent.com`) | umgesetzt (v1.12) |
 | `bafin-pdf` | BaFin-Veröffentlichung nur als PDF (MaRisk, Aufsichtsmitteilung) | offen: PDF-Textextraktor fehlt |
 | `rss` / `seite` | Feeds und Seitenüberwachung fürs Screening | umgesetzt (Phase 5) |
 
@@ -105,6 +106,21 @@ Indexbau. Ein weiterer Konnektor braucht deshalb nur Abruf und Parser.
 - Eine neue BaFin-Veröffentlichung braucht: Katalogeintrag, Konnektor mit `url` und
   `bauart`, den Host `www.bafin.de` steht schon in `erlaubte_hosts` – und die Prüfung,
   ob am Dokument ein **abweichender** Nutzungshinweis steht.
+
+### NIST SP 800-53 (`oscal`, v1.12)
+
+- Quelle ist der OSCAL-Katalog, den NIST selbst im Repository `usnistgov/oscal-content`
+  pflegt (Host `raw.githubusercontent.com` steht in `erlaubte_hosts`). Gemeinfrei in den USA;
+  ein Urheberrecht außerhalb der USA ist nicht ausgeschlossen (steht in `quellen.json`).
+- Gliederung Familie (`fam/ac`) > Control (`c/ac-2`) > Erweiterung (`c/ac-2.1`); jede
+  Fundstelle ist ein Control. Beschriftung `AC-2(1)` aus der Eigenschaft `label` **ohne**
+  `class` (die mit `class` ist die Form mit führender Null).
+- Die Platzhalter `{{ insert: param, … }}` werden als `[Zuweisung: …]` bzw. `[Auswahl: …]`
+  ausgeschrieben, sonst sind die Sätze unlesbar. Die Bewertungsteile aus SP 800-53A bleiben
+  draußen. Der Text bleibt **englisch**; die Suche nimmt deshalb für Regelwerke ohne Index in
+  der gewählten Sprache den ersten vorhandenen (`laden()` in `js/suche.js`) – ohne das wäre
+  NIST nie gefunden worden.
+- Zurückgezogene Controls nennen ihr Ziel („Withdrawn – incorporated into …“).
 
 ### gesetze-im-internet.de (`gii`)
 
@@ -244,7 +260,7 @@ Fassung; der Viewer zeigt daraufhin den Pflichthinweis
 „Eigene Zusammenfassung – ersetzt nicht das Original" samt Bezugsfassung, Herkunft
 und Prüfstatus (`zusammenfassungshinweis()` in `js/viewer.js`).
 
-Enthalten sind **sieben Werke** (Stand v1.7, zusammen 226 Fundstellen):
+Enthalten sind **24 Werke** mit zusammen 490 Fundstellen. Die ersten sieben (Stand v1.7):
 
 | Werk | Umfang | Pfade |
 |---|---|---|
@@ -255,6 +271,15 @@ Enthalten sind **sieben Werke** (Stand v1.7, zusammen 226 Fundstellen):
 | GDV-Verhaltensregeln | 12 Regelungsfelder | `k/05` |
 | CSA CCM v4 | 17 Domänen | `d/sta` |
 | NIST CSF 2.0 | 6 Funktionen | `f/gv` |
+
+Seit v1.12 kamen dazu: ISO/IEC 27002 (93 Controls), 27005, 27017, 27018, 22301, COSO IC,
+IDW PS 330/860/951, ISAE 3402, GoBD, MaRisk (06/2026), die beiden BaFin-Mitteilungen
+(DORA-Umsetzungshinweise, Art.-16-Hinweise), EIOPA-Leitlinien zu Governance und Cloud sowie
+TIBER-DE. **Unterschiedliche Verlässlichkeit, steht in `herkunft`/`geprueft` und im
+Katalog-Hinweis:** MaRisk, die BaFin-Mitteilungen, die EIOPA-Leitlinien und TIBER-DE sind nach
+dem Wortlaut der Quelle (PDF bzw. Seite) zusammengefasst; ISO, COSO, IDW, ISAE und GoBD stammen
+**aus dem Gedächtnis** und sind gegen das Original abzugleichen. Nicht vorhanden ist die MaGo für
+kleine Versicherungsunternehmen (kein Dokument auffindbar, Katalog: „zu prüfen").
 
 **Wichtig zur Sorgfalt:** Der Normtext darf nicht wiedergegeben werden – die Texte sind
 durchweg selbst formuliert. Kennungen und Titel stammen aus dem Gedächtnis und sind
@@ -385,13 +410,13 @@ auslesen. Die Kontrastprüfung läuft über die gerenderten Elemente – Verhäl
 `getComputedStyle(color)` und der ersten deckenden Hintergrundfarbe gegen 4.5:1 (bzw. 3:1 für große
 Schrift), in **beiden** Erscheinungsbildern.
 
-Für das Werkzeug: `cargo test` (56 Tests: Einheitstests je Modul plus neun
+Für das Werkzeug: `cargo test` (75 Tests: Einheitstests je Modul plus zehn
 Ablauftests in `werkzeug/tests/ablauf.rs`, die das fertige Programm gegen einen
 Datenordner im Temp-Verzeichnis laufen lassen), `cargo clippy --all-targets -- -D warnings`
 und `kompass pruefen` (Katalogfelder, Konnektorbezüge, Zuordnungen, Beziehungen,
 jede konfigurierte Adresse gegen die Leine, und ob jeder als „Text" markierte
 Knoten auch wirklich Text hat). Abdeckung messen: `cargo llvm-cov --summary-only`
-(Kernlogik 89 %, Zahlen in `SICHERHEIT.md`). Dasselbe läuft bei jedem Push als
+(Kernlogik 90 %, Zahlen in `SICHERHEIT.md`). Dasselbe läuft bei jedem Push als
 Auftrag „Pruefung".
 
 ## Stand und offene Punkte
@@ -402,18 +427,22 @@ Auftrag „Pruefung".
 Änderungserkennung – Diff-Ansicht steht noch aus), 7 (Lernbereich), 8 (Härtung nach
 ASVS L2, siehe `SICHERHEIT.md`).
 
-Zusammen **29 Regelwerke mit 4.278 adressierbaren Fundstellen**, davon **22 im
-Volltext**: DORA (DE/EN), die zwölf Level-2-Rechtsakte, NIS2, DSGVO, dazu VAG, BSIG und
-BDSG vollständig, HGB und AO als IT-relevanter Auszug sowie von der BaFin die MaGo für
-SII-VU (256 Randziffern) und die FAQs zu DORA (44 Fragen). Die restlichen sieben Werke
-sind eigene Zusammenfassungen (226 Fundstellen). Viewer mit Gliederungsbaum, Deep-Links,
+Zusammen **52 von 53 Katalogeinträgen mit Text und 9.460 adressierbaren Fundstellen**,
+davon **28 im Volltext** (8.970 Fundstellen): DORA (DE/EN), die zwölf Level-2-Rechtsakte,
+NIS2, DSGVO, Solvency II (Richtlinie und DVO, Ursprungsfassung), AI Act, CRA, Data Act,
+VAG, BSIG und BDSG vollständig, HGB und AO als IT-relevanter Auszug, von der BaFin die
+MaGo für SII-VU (256 Randziffern) und die FAQs zu DORA (44 Fragen) sowie NIST SP 800-53
+(1.196 Controls). Die übrigen 24 Werke sind eigene Zusammenfassungen (490 Fundstellen).
+Offen ist nur die MaGo für kleine VU. **Bis v1.11 (Anfang Oktober 2026) wurde „alle Phasen fertig"
+zu früh gemeldet:** 24 Katalogeinträge hatten damals gar keinen Text – das ist jetzt behoben,
+aber ein Hinweis darauf, Zahlen im Bestand (`bestand.json`) statt aus dem Kopf zu nennen. Viewer mit Gliederungsbaum, Deep-Links,
 Glossar aus den Begriffsbestimmungen, Zitat-Export, Lesezeichen und Notizen, BM25-Suche
 über alle Rechtskreise. Seit v1.1 das mobile Format (siehe oben): geprüft auf 320, 375,
 768 und 1440 px – kein Querscrollen, keine Tap-Ziele unter 40 px, WCAG-AA-Kontraste in
 beiden Erscheinungsbildern.
 
 Dazu 22 Themenseiten mit Zielbild, Fundstellentabelle, Prüfungsschwerpunkten und
-Nachweisen; **195 Themenzuordnungen** und **82 fachliche Beziehungen** mit Begründung,
+Nachweisen; **341 Themenzuordnungen** und **111 fachliche Beziehungen** mit Begründung,
 Konfidenz und Prüfstatus; rund 2.700 belegte Verweise aus dem Wortlaut; sechs
 Matrix-Ansichten mit CSV-Export; Beziehungen im Kontext-Panel des Viewers.
 
@@ -425,8 +454,14 @@ Ausgliederungsanforderungen des § 32 VAG ergänzt und nicht verdrängt.
 
 Offen, in dieser Reihenfolge sinnvoll:
 
+0. **Konsolidierte Fassungen** – Solvency II (Richtlinie, DVO) liegen in der Ursprungsfassung
+   vor. Die konsolidierten Texte der CELLAR haben anderes Markup (`div.norm`,
+   `p.title-article-norm`, `p.modref`) und werden vom Parser noch nicht erkannt; ein Versuch
+   lieferte 340 statt 893 Fundstellen und wurde zurückgenommen (Konnektor trägt dafür einen
+   `hinweis`).
 1. **Kennungen abgleichen** – die Kennungen und Titel der kostenpflichtigen Werke (ISO,
-   COBIT, ITIL) sind gegen die jeweilige Bezugsfassung zu prüfen; erst dann `geprueft: true`
+   COBIT, ITIL) sowie der aus dem Gedächtnis geschriebenen Zusammenfassungen (COSO, IDW,
+   ISAE, GoBD) sind gegen die jeweilige Bezugsfassung zu prüfen; erst dann `geprueft: true`
    in `daten/zusammenfassungen/<id>.json` setzen und neu übernehmen. Ebenso die Fassung der
    GDV-Verhaltensregeln und der Direktlink zum C5-Katalog.
 2. **PDF-Veröffentlichungen der BaFin** – MaRisk (Rundschreiben 06/2026 (BA), 9. Novelle)
@@ -442,8 +477,8 @@ Offen, in dieser Reihenfolge sinnvoll:
    und echte HTTP-Kopfzeilen statt `meta` (geht erst ohne GitHub Pages).
    Die Liste steht am Ende von `SICHERHEIT.md`.
 
-Hinweis zum Umfang: Die Suchindizes sind zusammen rund 2,6 MB (0,6 MB gzip) und werden bei
-der ersten Suche vollständig geladen. `verweise.json` ist rund 800 KB groß und wird deshalb
+Hinweis zum Umfang: Die Suchindizes sind zusammen rund 7 MB (1,8 MB gzip) und werden bei
+der ersten Suche vollständig geladen. `verweise.json` ist rund 2 MB groß (0,2 MB gzip) und wird deshalb
 **erst auf Anforderung** geholt – in der Matrix über einen Knopf, im Viewer über „Belegte
 Verweise laden". Wächst der Bestand deutlich weiter, sollten beide nach Relevanz gestaffelt
 nachgeladen werden.

@@ -1,0 +1,536 @@
+{
+  "z_1": {
+    "h": "472eebbd73490f7385a295b727b4fd1c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Leitlinien konkretisieren die Governance-Anforderungen der Artikel 40 bis 49, 93, 132 und 246 der Richtlinie 2009/138/EG und der Artikel 258 bis 275 der Delegierten Verordnung (EU) 2015/35. Sie sollen ein solides und vorsichtiges Management gewährleisten, ohne die Wahl der Organisationsstruktur über Gebühr einzuschränken, sofern die Aufgabenbereiche hinreichend getrennt sind."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Mindestens vier Funktionen: Risikomanagement, Compliance, versicherungsmathematische Funktion und interne Revision – sie gelten als Schlüsselfunktionen und damit als wichtige oder kritische Funktionen"
+          },
+          {
+            "m": "2.",
+            "t": "Weitere Schlüsselfunktionen bestimmt das Unternehmen selbst; die Aufsicht kann das hinterfragen"
+          },
+          {
+            "m": "3.",
+            "t": "Fachliche Qualifikation und Zuverlässigkeit gelten für alle, die das Unternehmen tatsächlich leiten oder Schlüsselfunktionen innehaben"
+          },
+          {
+            "m": "4.",
+            "t": "Kein einheitliches Risikomanagementsystem passt für alle Unternehmen, es muss angepasst sein"
+          },
+          {
+            "m": "5.",
+            "t": "Beim Outsourcing bleibt das Unternehmen voll verantwortlich; gruppeninternes Outsourcing erfordert nicht automatisch weniger Sorgfalt"
+          },
+          {
+            "m": "6.",
+            "t": "Anwendung auf Einzelunternehmen und sinngemäß auf Gruppenebene"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Funktionsübersicht mit Schlüsselfunktionen und zuständigen Personen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: In Deutschland §§ 23 bis 32 VAG und die MaGo; Artikel 41 bis 49 der Richtlinie im Bestand."
+      }
+    ]
+  },
+  "z_l17_l26": {
+    "h": "a6299c8e955ceec410fcd70f8b106af3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Verwaltungs-, Management- oder Aufsichtsorgan ist letztlich für die Wirksamkeit des Risikomanagementsystems verantwortlich: Es legt Risikoappetit und allgemeine Risikotoleranzschwellen fest und beschließt die wichtigsten Strategien und Leitlinien. Die Leitlinien fordern Risikomanagementleitlinien für die einzelnen Risikobereiche."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Leitlinie 17: Rolle des Organs – Risikoappetit, Toleranzschwellen, Strategien; auf Gruppenebene auch Erkennung, Messung, Steuerung und Berichterstattung der Gruppenrisiken"
+          },
+          {
+            "m": "2.",
+            "t": "Leitlinie 18 und 19: Risikomanagementleitlinien und Aufgaben der Risikomanagementfunktion"
+          },
+          {
+            "m": "3.",
+            "t": "Eigene Leitlinien für Risikobereiche, darunter Aktiv-Passiv-Management, Strategie- und Reputationsrisiken, Rückversicherung und andere Risikominderungstechniken und Liquiditätsrisiko"
+          },
+          {
+            "m": "4.",
+            "t": "Die Unternehmenseigene Risiko- und Solvabilitätsbeurteilung (ORSA) ist Teil des Risikomanagements, wird aber gesondert behandelt"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikostrategie mit Risikoappetit, Risikomanagementleitlinien je Risikobereich."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 44 und 45 der Richtlinie, Artikel 259 bis 262 der Delegierten Verordnung; für IKT-Risiken Artikel 6 DORA."
+      }
+    ]
+  },
+  "z_l1_l6": {
+    "h": "76e93779d97c988a0ebac965a4abfbeb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Verwaltungs-, Management- oder Aufsichtsorgan steht in angemessener Interaktion mit Ausschüssen, Führungskräften und Schlüsselfunktionen und fordert proaktiv Informationen ein. Die Aufbau- und Ablauforganisation muss die strategischen Ziele tragen und sich in angemessener Zeit an Veränderungen anpassen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Leitlinie 3: An jeder wesentlichen Entscheidung sind mindestens zwei Personen beteiligt, die das Unternehmen tatsächlich leiten – das Vier-Augen-Prinzip"
+          },
+          {
+            "m": "2.",
+            "t": "Leitlinie 4: Entscheidungen des Organs und die Art, wie Informationen aus dem Risikomanagement einfließen, angemessen dokumentieren"
+          },
+          {
+            "m": "3.",
+            "t": "Leitlinie 5: Aufgaben und Zuständigkeiten zuweisen, abgrenzen und koordinieren; Überschneidungen vermeiden"
+          },
+          {
+            "m": "4.",
+            "t": "Leitlinie 6: Umfang und Häufigkeit der internen Überprüfung des Governance-Systems vom Organ festlegen; Ergebnisse dokumentieren und berichten, mit Rückkopplung zu Folgemaßnahmen"
+          },
+          {
+            "m": "5.",
+            "t": "Auf Gruppenebene angemessene Kenntnis der internen Organisation und der Risiken aus der Gruppenstruktur"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Entscheidungsprotokolle, Aufgaben- und Zuständigkeitsbeschreibungen, Bericht über die interne Überprüfung des Governance-Systems."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 41 und 46 der Richtlinie, Artikel 258 der Delegierten Verordnung; Randziffern zu Aufbau- und Ablauforganisation in der MaGo (Kapitel 9)."
+      }
+    ]
+  },
+  "z_l21": {
+    "h": "e7a050f1bbac3e82e561fb3c06f9ba9b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Risikomanagementleitlinie zum operationellen Risiko ist die Stelle, an der die Governance-Leitlinien IT-Risiken aufnehmen: Sie nennt das IT-System zur Unterstützung des Managements operationeller Risiken ausdrücklich und verlangt Szenarien für das Versagen eines Systems."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ermittlung der operationellen Risiken, denen das Unternehmen ausgesetzt ist, und Einschätzung der Minderungsmöglichkeiten"
+          },
+          {
+            "m": "2.",
+            "t": "Tätigkeiten und interne Prozesse zum Management operationeller Risiken, einschließlich des IT-Systems zu deren Unterstützung"
+          },
+          {
+            "m": "3.",
+            "t": "Risikotoleranzschwellen für die Hauptbereiche operationeller Risiken"
+          },
+          {
+            "m": "4.",
+            "t": "Prozess zur Ermittlung, Analyse und Meldung operationeller Risikoereignisse; Erhebung und Überwachung der Ereignisse"
+          },
+          {
+            "m": "5.",
+            "t": "Szenarien zumindest zum Versagen eines wesentlichen Prozesses, Mitarbeiters oder Systems und zum Eintreten externer Ereignisse"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Leitlinie operationelles Risiko, Ereignisdatenbank, Szenarioanalysen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 260 Buchstabe f der Delegierten Verordnung (EU) 2015/35; IKT-Risiken im engeren Sinn regelt Kapitel II DORA."
+      }
+    ]
+  },
+  "z_l27_l35": {
+    "h": "2e7bd1293511177ac7e316d04582f89b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Abschnitt V konkretisiert die Anlagepolitik nach dem Grundsatz der unternehmerischen Vorsicht (Artikel 132): Management des Anlagerisikos, Bewertung nicht alltäglicher Anlagen, Sicherheit, Qualität, Liquidität und Rentabilität, Interessenkonflikte, fonds- und indexgebundene Verträge, nicht gehandelte Vermögenswerte, Derivate und verbriefte Instrumente. Abschnitt VI behandelt das Kapitalmanagement."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Aktiv-Passiv-Management, Derivate, Liquiditäts- und Konzentrationsrisikomanagement sind bereits in Solvabilität II und der Delegierten Verordnung geregelt und werden hier nicht erneut entwickelt"
+          },
+          {
+            "m": "2.",
+            "t": "Die Leitlinien konzentrieren sich auf die verbleibenden Aspekte der unternehmerischen Vorsicht"
+          },
+          {
+            "m": "3.",
+            "t": "Leitlinien für das Kapitalmanagement"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Anlagerichtlinie, Kapitalmanagementplan."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 132 der Richtlinie; für IT-Themen ohne unmittelbare Bedeutung."
+      }
+    ]
+  },
+  "z_l38_l39": {
+    "h": "d916bf489005b06c6ab8f0c6ddbfa398",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen fördert die Bedeutung angemessener interner Kontrollen, indem alle Mitarbeiter ihre Rolle im internen Kontrollsystem kennen. Kontrolltätigkeiten müssen den Risiken der kontrollierten Tätigkeiten angemessen sein."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Überwachungs- und Berichterstattungsmechanismen müssen das Organ mit den für Entscheidungen relevanten Informationen versorgen"
+          },
+          {
+            "m": "2.",
+            "t": "Auf Gruppenebene einheitliche Umsetzung der internen Kontrollsysteme"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kontrollrahmen mit Risikozuordnung, Berichte des internen Kontrollsystems an das Organ."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 46 der Richtlinie, Artikel 266 bis 268 der Delegierten Verordnung; § 29 VAG."
+      }
+    ]
+  },
+  "z_l40_l44": {
+    "h": "cff192ce14f7155aacba2d047e2eee0f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die interne Revision ist unabhängig: Sie übt keine operativen Funktionen aus, ist vor ungebührlicher Einflussnahme anderer Funktionen und des Organs geschützt und unterliegt bei Prüfung, Wertung und Berichterstattung keinen Einflüssen, die ihre Unabhängigkeit beeinträchtigen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Maßnahmen gegen Interessenkonflikte; intern beschäftigte Prüfer prüfen keine Tätigkeiten, die sie im geprüften Zeitraum selbst ausgeübt haben"
+          },
+          {
+            "m": "2.",
+            "t": "Leitlinien für die interne Revision, Revisionsplan und Dokumentation (Leitlinien 42 bis 44)"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Revisionsleitlinie und -plan, Prüfberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 47 der Richtlinie, Artikel 271 der Delegierten Verordnung; § 30 VAG."
+      }
+    ]
+  },
+  "z_l46_l59": {
+    "h": "bb206a04f571a13aebe07837e3171bb5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Abschnitt IX legt fest, welche Aufgaben die versicherungsmathematische Funktion erfüllt (weniger, wie): Koordinierung der Berechnung der versicherungstechnischen Rückstellungen, Datenqualität, Stellungnahmen zur Zeichnungspolitik und Rückversicherung. Abschnitt X regelt Bewertung und Datenqualität für Vermögenswerte und Verbindlichkeiten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Bei zusätzlichen Aufgaben der versicherungsmathematischen Funktion Interessenkonflikte vermeiden"
+          },
+          {
+            "m": "2.",
+            "t": "Leitlinien und Verfahren zur Bewertung mit Methodik, Dokumentation, Datenqualität, unabhängiger Prüfung und Berichterstattung an das Organ (Leitlinie 52)"
+          },
+          {
+            "m": "3.",
+            "t": "Unabhängige externe Bewertung kann die Aufsicht verlangen; Unabhängigkeit des Experten und Informationen an die Aufsicht (Leitlinien 57 bis 59)"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Bewertungsleitlinie, Berichte der versicherungsmathematischen Funktion."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 48 der Richtlinie, Artikel 264, 265 und 272 der Delegierten Verordnung; Datenqualität berührt auch Artikel 8 DORA nur mittelbar."
+      }
+    ]
+  },
+  "z_l60_l64": {
+    "h": "75c803ddb32e5e7e3036a8e97a2f7a62",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen bestimmt und dokumentiert, ob eine ausgelagerte Funktion oder Tätigkeit kritisch oder wichtig ist: Maßstab ist, ob es ohne sie seine Leistungen für die Versicherungsnehmer nicht erbringen könnte. Die Leitlinien zum Outsourcing bilden die allgemeine Grundlage, auf der EIOPA später Leitlinien zur Auslagerung an Cloud-Anbieter aufsetzte (seit 17.01.2025 nicht mehr angewendet)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Leitlinie 60: Einordnung als kritisch oder wichtig dokumentieren"
+          },
+          {
+            "m": "2.",
+            "t": "Leitlinie 61: Versicherungsvermittler mit Abschluss- oder Regulierungsvollmacht unterliegen den Outsourcing-Anforderungen"
+          },
+          {
+            "m": "3.",
+            "t": "Leitlinie 62: Bei gruppeninternem Outsourcing dokumentieren, welche Funktionen welche juristische Einheit betreffen, und sicherstellen, dass die Aufgabenerfüllung nicht beeinträchtigt wird"
+          },
+          {
+            "m": "4.",
+            "t": "Leitlinie 63: Outsourcing-Leitlinie mit Verfahren zur Einordnung, Auswahl und Beurteilung des Dienstleisters, Vertragsinhalten nach der Delegierten Verordnung sowie Notfallplänen und Ausstiegsstrategien für kritische oder wichtige Funktionen"
+          },
+          {
+            "m": "5.",
+            "t": "Leitlinie 64: Schriftliche Mitteilung an die Aufsicht mit Umfang, Gründen und Name des Dienstleisters, bei Schlüsselfunktionen auch der zuständigen Person"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Outsourcing-Leitlinie, Register der Auslagerungen mit Einordnung, Mitteilungen an die Aufsicht."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 49 der Richtlinie, Artikel 274 der Delegierten Verordnung; § 32 VAG und Kapitel 13 MaGo. Für IKT-Dienstleistungen gilt zusätzlich DORA (Artikel 28 bis 30) – nach den FAQs der BaFin parallel und ergänzend."
+      }
+    ]
+  },
+  "z_l65_l66": {
+    "h": "f5c2e78f7c43f9a3ef4121363804a8ac",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das beteiligte Unternehmen oder die Holdinggesellschaft legt angemessene interne Governance-Anforderungen für die gesamte Gruppe fest, ohne die Zuständigkeiten der Organe der einzelnen Gruppenunternehmen zu beeinträchtigen, und baut ein Governance-System auf Gruppenebene auf."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Eindeutige Zuweisung von Zuständigkeiten in allen Gruppenunternehmen"
+          },
+          {
+            "m": "2.",
+            "t": "Instrumente, Verfahren und Verantwortlichkeitswege, mit denen das Funktionieren von Risikomanagement- und internem Kontrollsystem auf Ebene der einzelnen Unternehmen überwacht und gesteuert wird"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Gruppen-Governance-Konzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 246 der Richtlinie und die Gruppenvorschriften der Delegierten Verordnung."
+      }
+    ]
+  },
+  "z_l7": {
+    "h": "27fae7a8dcb9671ea78b2fe412824fc0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Alle als Bestandteil des Governance-Systems erforderlichen Leitlinien sind mit der Geschäftsstrategie und untereinander abzustimmen. Jede Leitlinie muss bestimmte Mindestangaben enthalten, die auch für IKT-Richtlinien gelten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ziele der Leitlinie"
+          },
+          {
+            "m": "2.",
+            "t": "Auszuführende Aufgaben und die dafür zuständige Person oder Funktion"
+          },
+          {
+            "m": "3.",
+            "t": "Anzuwendende Prozesse und Berichtsverfahren"
+          },
+          {
+            "m": "4.",
+            "t": "Pflicht der Organisationseinheiten, die Risikomanagement-, Revisions-, Compliance- und versicherungsmathematische Funktion über relevante Sachverhalte zu unterrichten"
+          },
+          {
+            "m": "5.",
+            "t": "Leitlinien zu Schlüsselfunktionen regeln auch deren Stellung, Rechte und Befugnisse"
+          },
+          {
+            "m": "6.",
+            "t": "Auf Gruppenebene kohärente Umsetzung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Leitlinienverzeichnis mit den vier Mindestangaben je Leitlinie."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 41 Absatz 3 der Richtlinie 2009/138/EG; die Richtlinien zur IKT-Sicherheit nach dem RTS zu DORA (Delegierte Verordnung 2024/1774, Artikel 2) knüpfen daran an."
+      }
+    ]
+  },
+  "z_l8": {
+    "h": "db0370375bb7ddb04c6d85e0ee5a0609",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Bereiche, in denen sich das Unternehmen gefährdet sieht, sind die Risiken zu ermitteln, die durch Notfallpläne abgedeckt werden sollen. Diese Pläne sind regelmäßig zu überprüfen, zu aktualisieren und zu erproben. Es ist die knappe Vorgabe, auf der die weit ausführlicheren Anforderungen von DORA an IKT-Geschäftsfortführung aufbauen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Gefährdete Bereiche und abzudeckende Risiken ermitteln"
+          },
+          {
+            "m": "2.",
+            "t": "Notfallpläne regelmäßig überprüfen, aktualisieren und erproben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Notfallplanung mit Testnachweisen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 49 und Artikel 258 Absatz 1 der Delegierten Verordnung; für IKT Artikel 11 und 12 DORA und Kapitel 14 MaGo."
+      }
+    ]
+  },
+  "z_l9_l16": {
+    "h": "1d426a43e25681d9fbd35c6d9c85622d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Abschnitt II legt fest, wie weit die Vergütungsleitlinie reicht und wie ein Vergütungsausschuss zusammenzusetzen ist. Abschnitt III konkretisiert die Eignungsanforderungen an alle, die das Unternehmen tatsächlich leiten oder Schlüsselfunktionen innehaben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Geltungsbereich der Vergütungsleitlinie (Leitlinie 9) und Vergütungsausschuss (Leitlinie 10)"
+          },
+          {
+            "m": "2.",
+            "t": "Anforderungen an die fachliche Qualifikation (11) und persönliche Zuverlässigkeit (12) sowie Leitlinien und Verfahren dazu (13)"
+          },
+          {
+            "m": "3.",
+            "t": "Outsourcing von Schlüsselfunktionen (14): zuständig bleibt die Person, die das Outsourcing im Unternehmen überwacht"
+          },
+          {
+            "m": "4.",
+            "t": "Mitteilung an die Aufsicht (15) und deren Bewertung (16)"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Eignungsnachweise und Verfahren zur Prüfung der Zuverlässigkeit, Vergütungsleitlinie."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 42 und 43 der Richtlinie, Artikel 273 und 275 der Delegierten Verordnung; Artikel 5 Absatz 4 DORA verlangt zusätzlich IKT-Kenntnisse im Leitungsorgan."
+      }
+    ]
+  }
+}

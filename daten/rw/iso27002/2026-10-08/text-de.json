@@ -1,0 +1,3146 @@
+{
+  "z_5_1": {
+    "h": "7008a17b93e6426f64a9b52b36f8bfe8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Leitung gibt die Richtung vor und unterstützt die Informationssicherheit entsprechend den Geschäfts-, Rechts- und Vertragsanforderungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Eine übergeordnete Leitlinie, von der Leitung genehmigt, dazu themenspezifische Richtlinien (etwa Zugangssteuerung, Kryptografie, Lieferanten, Vorfälle)"
+          },
+          {
+            "m": "2.",
+            "t": "Richtlinien in geplanten Abständen und bei wesentlichen Änderungen überprüfen"
+          },
+          {
+            "m": "3.",
+            "t": "Allen relevanten Beschäftigten und Externen bekannt machen und deren Kenntnisnahme sicherstellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinienverzeichnis mit Freigabe und Überprüfungsdatum, Nachweis der Bekanntgabe."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.1 der ISO/IEC 27001:2022. Vergleichbar mit der IKT-Sicherheitsrichtlinie nach Artikel 9 DORA und Artikel 2 der Delegierten Verordnung (EU) 2024/1774."
+      }
+    ]
+  },
+  "z_5_10": {
+    "h": "aa9d694894d12c3c91ad02fb2cd39449",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen und Werte werden angemessen gebraucht, geschützt und behandelt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln für den zulässigen Gebrauch dokumentieren und kommunizieren"
+          },
+          {
+            "m": "2.",
+            "t": "Genehmigte Geräte, Dienste und Verfahren festlegen, Verbote benennen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinie zum zulässigen Gebrauch, Kenntnisnahmenachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.10 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_5_11": {
+    "h": "69c4cd50bf1c449607b7798e23de5148",
+    "b": [
+      {
+        "art": "p",
+        "t": "Werte der Organisation werden bei Änderung oder Beendigung der Beschäftigung oder Vereinbarung geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Alle Werte, Zugangsmittel und Daten bei Austritt oder Wechsel zurückgeben lassen"
+          },
+          {
+            "m": "2.",
+            "t": "Bei privaten Geräten die geschäftlichen Daten sicher entfernen"
+          },
+          {
+            "m": "3.",
+            "t": "Wissen vor dem Austritt übergeben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Checkliste für Austritt und Wechsel."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.11 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_5_12": {
+    "h": "d75d8b18738b871bf305ea212551c374",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Schutzbedarf von Informationen wird nach Vertraulichkeit, Integrität, Verfügbarkeit und Anforderungen Dritter bestimmt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ein Klassifizierungsschema festlegen, vom Eigentümer anwenden lassen, konsistent halten"
+          },
+          {
+            "m": "2.",
+            "t": "Das Schema regelmäßig überprüfen und an Änderungen anpassen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Klassifizierungsrichtlinie, Klassifizierte Informationsbestände."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.12 der ISO/IEC 27001:2022. Klassifizierung der Informationsassets nach Artikel 8 DORA."
+      }
+    ]
+  },
+  "z_5_13": {
+    "h": "aae86980f8c1e1d7bbf640bb63ae3419",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen werden nach dem Klassifizierungsschema erkennbar gekennzeichnet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren zur Kennzeichnung entwickeln, für Papier, Dateien und Metadaten"
+          },
+          {
+            "m": "2.",
+            "t": "Behandlungshinweise an die Kennzeichnung knüpfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kennzeichnungsrichtlinie."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.13 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_5_14": {
+    "h": "50ff18bd22128791c6f40822966307d0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Sicherheit von Informationen bei der Übertragung innerhalb und außerhalb der Organisation bleibt erhalten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln, Verfahren und Vereinbarungen für alle Übertragungsarten festlegen: elektronisch, auf Datenträgern, mündlich"
+          },
+          {
+            "m": "2.",
+            "t": "Absicherung, Nachweisbarkeit und Haftung regeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Übertragungsrichtlinie, Vereinbarungen zur Informationsübertragung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.14 der ISO/IEC 27001:2022. Schutz von Daten während der Übertragung nach Artikel 14 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_5_15": {
+    "h": "e74ba3dfbed960451cf0a915fa776bfe",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Zugang zu Informationen und Werten ist nach Geschäfts- und Sicherheitsanforderungen gesteuert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln zur physischen und logischen Zugangssteuerung festlegen, nach Need-to-know und Need-to-use"
+          },
+          {
+            "m": "2.",
+            "t": "Grundsatz: Was nicht ausdrücklich erlaubt ist, ist verboten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zugangssteuerungsrichtlinie, Berechtigungskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.15 der ISO/IEC 27001:2022. Artikel 21 des RTS zum IKT-Risikomanagementrahmen (Zugriffsmanagement)."
+      }
+    ]
+  },
+  "z_5_16": {
+    "h": "1fe676533a1240365848406f532a735f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die vollständige Lebensdauer von Identitäten wird gesteuert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Jede Person erhält eine eindeutige Identität, geteilte Identitäten nur in begründeten Ausnahmen"
+          },
+          {
+            "m": "2.",
+            "t": "Registrierung, Änderung und Deregistrierung nachvollziehbar abwickeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Identitätsverzeichnis, Lebenszyklusprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.16 der ISO/IEC 27001:2022. Artikel 20 des RTS zum IKT-Risikomanagementrahmen (Identitätsmanagement)."
+      }
+    ]
+  },
+  "z_5_17": {
+    "h": "ece9d1b23f4465efe4016b8d4272fbb2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die korrekte Authentisierung und die Handhabung von Authentisierungsinformationen sind sichergestellt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vergabe und Verwaltung kontrollieren, sichere Erstübergabe und Änderung"
+          },
+          {
+            "m": "2.",
+            "t": "Pflichten der Nutzer festlegen und unsichere Speicherung vermeiden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Passwort- und Authentisierungsrichtlinie."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.17 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_5_18": {
+    "h": "f1e4108b3fc99dc6709fb1e2afb5b681",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zugang zu Informationen und Werten ist gemäß Geschäftsanforderungen vergeben, geändert und entzogen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vergabe nach Genehmigung durch den Eigentümer"
+          },
+          {
+            "m": "2.",
+            "t": "Regelmäßig überprüfen und bei Austritt oder Wechsel zeitnah anpassen oder entziehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Rezertifizierungsprotokolle, Genehmigungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.18 der ISO/IEC 27001:2022. Rezertifizierung mindestens halbjährlich bei kritischen oder wichtigen Funktionen (Artikel 21 des RTS zum IKT-Risikomanagementrahmen)."
+      }
+    ]
+  },
+  "z_5_19": {
+    "h": "3133c31467befabf5fddd8c56bbf5c4a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die mit Lieferanten verbundenen Risiken für die Informationssicherheit werden gesteuert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prozesse zur Steuerung der Risiken aus Produkten und Dienstleistungen von Lieferanten festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Lieferantentypen unterscheiden, Sicherheitsanforderungen festlegen, Leistung überwachen, Vorfälle und Ausstieg regeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Lieferantenrichtlinie, Lieferantenregister mit Einstufung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.19 der ISO/IEC 27001:2022. Artikel 28 DORA; Delegierte Verordnung (EU) 2024/1773."
+      }
+    ]
+  },
+  "z_5_2": {
+    "h": "0591877ed4b307ab8307aacac0226218",
+    "b": [
+      {
+        "art": "p",
+        "t": "Es gibt eine definierte, anerkannte Struktur für Umsetzung, Betrieb und Steuerung der Informationssicherheit."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Rollen und Verantwortlichkeiten nach dem Bedarf der Organisation zuweisen, auch für Eigentümer von Werten und Risiken"
+          },
+          {
+            "m": "2.",
+            "t": "Eine Delegation ändert nichts an der Verantwortung; Vertretungen regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Bereiche, für die jemand verantwortlich ist, schriftlich festhalten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Rollenbeschreibungen, Zuständigkeitsmatrix."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.2 der ISO/IEC 27001:2022. Entspricht der Zuweisung von Aufgaben im IKT-Risikomanagement nach Artikel 5 und 6 DORA."
+      }
+    ]
+  },
+  "z_5_20": {
+    "h": "9426033c4043c4739c3b843d50f22077",
+    "b": [
+      {
+        "art": "p",
+        "t": "Mit jedem Lieferanten sind die relevanten Sicherheitsanforderungen vereinbart."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen an Informationen, Zugriff, Prüfrechte, Vorfallmeldung, Rückgabe und Löschung vertraglich festhalten"
+          },
+          {
+            "m": "2.",
+            "t": "Auch Unterlieferanten einbeziehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vertragsprüfung gegen Sicherheitsanforderungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.20 der ISO/IEC 27001:2022. Pflichtinhalte nach Artikel 30 DORA."
+      }
+    ]
+  },
+  "z_5_21": {
+    "h": "3b3dca362a554b8fc28b0027671c9a25",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die mit der IKT-Lieferkette verbundenen Risiken sind gesteuert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen an die Weitergabe von Sicherheitsanforderungen entlang der Lieferkette festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Herkunft von Komponenten und Zusagen der Lieferanten überprüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Lieferkettenanalyse, Anforderungskatalog an Lieferanten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.21 der ISO/IEC 27001:2022. Unterauftragsvergabe nach Artikel 30 DORA und Delegierte Verordnung (EU) 2025/532."
+      }
+    ]
+  },
+  "z_5_22": {
+    "h": "22c52fb476719976b5644dfd8373dc45",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der vereinbarte Stand der Informationssicherheit und der Leistungserbringung bleibt erhalten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Leistung regelmäßig überwachen und überprüfen, Berichte und Prüfungen auswerten"
+          },
+          {
+            "m": "2.",
+            "t": "Änderungen bei Lieferanten bewerten und Vorfälle bearbeiten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Überwachungsberichte, Auditberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.22 der ISO/IEC 27001:2022. Fortlaufende Überwachung nach Artikel 28 DORA."
+      }
+    ]
+  },
+  "z_5_23": {
+    "h": "8b8a2e5c8615178a61617398783991f3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheit bei Erwerb, Nutzung, Verwaltung und Beendigung von Cloud-Diensten ist festgelegt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prozesse für Erwerb, Nutzung, Verwaltung und Ausstieg aus Cloud-Diensten festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Geteilte Verantwortung von Kunde und Anbieter eindeutig regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Ausstiegsregelung mit Datenrückgabe vorsehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Cloud-Richtlinie, Verantwortungsmatrix."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.23 der ISO/IEC 27001:2022. Siehe ISO/IEC 27017 und BSI C5; Ausstiegsstrategie nach Artikel 28 Absatz 8 DORA."
+      }
+    ]
+  },
+  "z_5_24": {
+    "h": "df1ec2b69089ca33c40b9042ac5989c6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Reaktion auf Vorfälle ist durch Prozesse, Rollen und Verantwortlichkeiten vorbereitet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prozesse, Rollen, Meldewege und Kommunikationswege festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Fachkundiges Personal und Werkzeuge bereitstellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vorfallmanagement-Konzept, Alarmierungsplan."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.24 der ISO/IEC 27001:2022. Artikel 17 DORA verlangt genau diesen Prozess."
+      }
+    ]
+  },
+  "z_5_25": {
+    "h": "7071da24e823abd63c780bc354a59172",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ereignisse werden effizient eingestuft und gegebenenfalls zu Vorfällen erklärt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ein Schema zur Klassifizierung und Priorisierung nutzen"
+          },
+          {
+            "m": "2.",
+            "t": "Entscheidung dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Klassifizierungsschema, Entscheidungsprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.25 der ISO/IEC 27001:2022. Klassifizierung nach Artikel 18 DORA und Delegierter Verordnung (EU) 2024/1772."
+      }
+    ]
+  },
+  "z_5_26": {
+    "h": "37d0bda2e144784ce795133bc70c8d02",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vorfälle werden nach dokumentierten Verfahren bearbeitet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Eindämmen, beseitigen und wiederherstellen, intern und extern kommunizieren"
+          },
+          {
+            "m": "2.",
+            "t": "Eskalation nach Schwere"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vorfallakten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.26 der ISO/IEC 27001:2022. Meldung nach Artikel 19 DORA."
+      }
+    ]
+  },
+  "z_5_27": {
+    "h": "c4a0cc9035f0cbf5ee11fc789f14b92f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Wahrscheinlichkeit und Folgen künftiger Vorfälle sinken."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Erkenntnisse zur Verbesserung der Kontrollen und der Schulung verwenden"
+          },
+          {
+            "m": "2.",
+            "t": "Wiederholte Vorfälle erkennen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachbetrachtungen, Vorfallstatistik."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.27 der ISO/IEC 27001:2022. Ursachenanalyse nach Artikel 13 Absatz 2 DORA."
+      }
+    ]
+  },
+  "z_5_28": {
+    "h": "5a360c195c691e6ff82ca5b24837d229",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beweismaterial wird für Disziplinar- und Rechtsverfahren einheitlich und rechtssicher gesichert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren zur Identifizierung, Sammlung, Beschaffung und Aufbewahrung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Beweiskette und Zeitstempel dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Beweissicherungsverfahren."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.28 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_5_29": {
+    "h": "051a25f4f41c783f034f06ba3a592fce",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationssicherheit bleibt bei Störungen auf angemessenem Niveau."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Planen, wie Sicherheitskontrollen auch im Notbetrieb wirken"
+          },
+          {
+            "m": "2.",
+            "t": "Ausnahmen und Abweichungen dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Notfallkonzept mit Sicherheitsvorgaben."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.29 der ISO/IEC 27001:2022. Artikel 11 DORA (Geschäftsfortführung)."
+      }
+    ]
+  },
+  "z_5_3": {
+    "h": "37453a67c93af1a8f8f342cbc2dc4d20",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Risiko von Betrug und Fehlern wird verringert, indem widerstreitende Aufgaben und Verantwortungsbereiche getrennt werden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Konfligierende Aufgaben identifizieren und trennen, etwa Beantragen, Genehmigen und Umsetzen"
+          },
+          {
+            "m": "2.",
+            "t": "Ist eine Trennung nicht möglich, ersatzweise Überwachung, Protokollierung und Aufsicht"
+          },
+          {
+            "m": "3.",
+            "t": "Die Aufgabentrennung bei der Vergabe von Zugangsrechten berücksichtigen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Rollenkonzept mit Konfliktmatrix, Ausnahmeregister mit kompensierenden Kontrollen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.3 der ISO/IEC 27001:2022. Funktionstrennung verlangt auch Artikel 6 Absatz 4 DORA für die IKT-Risikokontrollfunktion."
+      }
+    ]
+  },
+  "z_5_30": {
+    "h": "8f86ddee48f18b14998047bae2ff82db",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verfügbarkeit von Informationen und Werten im Fall von Störungen ist sichergestellt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "IKT-Bereitschaft nach den Zielen der Geschäftsfortführung und der Auswirkungsanalyse planen, umsetzen, pflegen und testen"
+          },
+          {
+            "m": "2.",
+            "t": "Wiederherstellungsziele, Redundanz und Tests festlegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Business-Impact-Analyse, Wiederherstellungstests."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.30 der ISO/IEC 27001:2022. Artikel 11 und 12 DORA; ISO 22301."
+      }
+    ]
+  },
+  "z_5_31": {
+    "h": "3df8a64f0b37c06a12078f50bdaeed71",
+    "b": [
+      {
+        "art": "p",
+        "t": "Rechtliche und vertragliche Pflichten zur Informationssicherheit werden eingehalten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen identifizieren, dokumentieren und aktuell halten"
+          },
+          {
+            "m": "2.",
+            "t": "Zuständigkeit für Beobachtung und Umsetzung festlegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Anforderungsverzeichnis."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.31 der ISO/IEC 27001:2022. Genau diese Aufgabe unterstützt der Aufsichtskompass."
+      }
+    ]
+  },
+  "z_5_32": {
+    "h": "bf3b138f6685c49f18df15e3959f3d3f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Rechte am geistigen Eigentum werden geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren für Lizenzen, Urheberrecht und Nachweise festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Nicht lizenzierte Software untersagen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Lizenzverwaltung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.32 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_5_33": {
+    "h": "e7ee43c445cb1d3168ee4a80ddeb3aaf",
+    "b": [
+      {
+        "art": "p",
+        "t": "Aufzeichnungen sind vor Verlust, Zerstörung, Fälschung und unberechtigtem Zugriff geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Aufbewahrungsfristen, Speicherformate und Löschung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Aufzeichnungen nach Art und Frist schützen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Aufbewahrungsrichtlinie."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.33 der ISO/IEC 27001:2022. Aufbewahrungspflichten nach § 257 HGB, § 147 AO und GoBD."
+      }
+    ]
+  },
+  "z_5_34": {
+    "h": "f7b60ac59f2dbe302b2aea31b346b35f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Anforderungen zu Privatsphäre und personenbezogenen Daten werden erfüllt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen identifizieren, Verantwortlichkeiten und Richtlinie festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Rechte Betroffener berücksichtigen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Datenschutzkonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.34 der ISO/IEC 27001:2022. Artikel 5, 25 und 32 DSGVO; ISO/IEC 27018 für Cloud."
+      }
+    ]
+  },
+  "z_5_35": {
+    "h": "6890681e67615eb27358356e401adc51",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Ansatz der Organisation zur Informationssicherheit bleibt geeignet, angemessen und wirksam."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "In geplanten Abständen und bei wesentlichen Änderungen unabhängig überprüfen lassen"
+          },
+          {
+            "m": "2.",
+            "t": "Ergebnisse an die Leitung berichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Revisions- oder Auditberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.35 der ISO/IEC 27001:2022. Interne Revision nach § 30 VAG."
+      }
+    ]
+  },
+  "z_5_36": {
+    "h": "077308605e76073adccab5063323b634",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Informationssicherheit wird nach den eigenen Richtlinien und Standards umgesetzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regelmäßig prüfen, ob Beschäftigte, Prozesse und Systeme die Vorgaben einhalten"
+          },
+          {
+            "m": "2.",
+            "t": "Abweichungen beheben und berichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Compliance-Prüfplan und Ergebnisse."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.36 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_5_37": {
+    "h": "3fb9ce040040b849373c9c67aec0497c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der korrekte und sichere Betrieb von Informationsverarbeitungseinrichtungen ist sichergestellt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Betriebsverfahren dokumentieren und zugänglich machen: Installation, Sicherung, Zeitpläne, Fehlerbehandlung, Neustart"
+          },
+          {
+            "m": "2.",
+            "t": "Aktuell halten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Betriebshandbücher."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.37 der ISO/IEC 27001:2022. Betriebsdokumentation der Verfahren nach GoBD."
+      }
+    ]
+  },
+  "z_5_4": {
+    "h": "70cfbd578b7a62fa16cd7e440ef851e4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Leitung stellt sicher, dass alle Beschäftigten ihre Verantwortung für Informationssicherheit verstehen und wahrnehmen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Beschäftigte und Externe auffordern, die Informationssicherheit nach den Richtlinien umzusetzen"
+          },
+          {
+            "m": "2.",
+            "t": "Angemessene Ressourcen, Schulung und Meldewege bereitstellen"
+          },
+          {
+            "m": "3.",
+            "t": "Verhalten einfordern, auch durch ein Disziplinarverfahren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Leitungsbeschlüsse und Berichte, Schulungsnachweise der Leitung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.4 der ISO/IEC 27001:2022. Letztverantwortung des Leitungsorgans nach Artikel 5 DORA."
+      }
+    ]
+  },
+  "z_5_5": {
+    "h": "ed8958fe3e8644c221fd6d4d73ead7d3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Informationsfluss zwischen der Organisation und den zuständigen Behörden ist sichergestellt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Festlegen, wer wann mit welcher Behörde Kontakt aufnimmt, etwa mit Aufsicht, Strafverfolgung oder Datenschutzbehörde"
+          },
+          {
+            "m": "2.",
+            "t": "Meldewege und Fristen kennen"
+          },
+          {
+            "m": "3.",
+            "t": "Kontaktliste aktuell halten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kontakt- und Meldeverzeichnis."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.5 der ISO/IEC 27001:2022. Meldewege zur Aufsicht nach Artikel 19 DORA und Artikel 33 DSGVO."
+      }
+    ]
+  },
+  "z_5_6": {
+    "h": "d6df8dd8616c0fe39a343dd770c9eaa3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Informationsfluss mit Fachgruppen und Foren ist sichergestellt, das Wissen bleibt aktuell."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Mitgliedschaft in relevanten Fach- und Sicherheitsgruppen"
+          },
+          {
+            "m": "2.",
+            "t": "Frühwarnungen, Hinweise zu Schwachstellen und bewährte Verfahren nutzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Mitgliedschaftsliste, Auswertung erhaltener Hinweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.6 der ISO/IEC 27001:2022. Freiwilliger Informationsaustausch zu Cyberbedrohungen nach Artikel 45 DORA."
+      }
+    ]
+  },
+  "z_5_7": {
+    "h": "fbc014407a4d842ca60d1ebe96727e63",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Bedrohungslage ist bekannt, sodass geeignete Gegenmaßnahmen getroffen werden können."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Informationen zu Bedrohungen aus internen und externen Quellen sammeln und analysieren, auf strategischer, taktischer und operativer Ebene"
+          },
+          {
+            "m": "2.",
+            "t": "Ergebnisse in das Risikomanagement und die technischen Kontrollen einspeisen und teilen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Bedrohungsberichte, Nachweis der Verwertung in Maßnahmen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.7 der ISO/IEC 27001:2022. Frühwarnindikatoren nach Artikel 17 Absatz 3 DORA; Quellen siehe Screening."
+      }
+    ]
+  },
+  "z_5_8": {
+    "h": "3535b2df7d277f12ce34a83bb9b54e72",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationssicherheitsrisiken in Projekten werden früh behandelt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "In jedes Projekt, unabhängig von der Art, die Informationssicherheit aufnehmen"
+          },
+          {
+            "m": "2.",
+            "t": "Risiken identifizieren und bewerten, Anforderungen festlegen, Sicherheit in allen Projektphasen prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Sicherheitsanforderungen im Projektauftrag, Risikobewertung je Projekt."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.8 der ISO/IEC 27001:2022. Artikel 15 des RTS zum IKT-Risikomanagementrahmen (IKT-Projektmanagement)."
+      }
+    ]
+  },
+  "z_5_9": {
+    "h": "7d360c1ea764a654fcdb3ee5c9d2ff65",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen und Werte sind identifiziert und ihre Verantwortlichen bekannt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ein Inventar der Informationen und Werte mit einem Eigentümer je Eintrag führen"
+          },
+          {
+            "m": "2.",
+            "t": "Aktuell, konsistent und mit der Klassifizierung abgestimmt halten"
+          },
+          {
+            "m": "3.",
+            "t": "Auch Werte außerhalb der eigenen Räume und von Dritten erfassen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Wertinventar mit Eigentümern und Klassifizierung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.5.9 der ISO/IEC 27001:2022. Inventar der IKT-Assets nach Artikel 8 DORA; Register nach Artikel 28 Absatz 3."
+      }
+    ]
+  },
+  "z_6_1": {
+    "h": "b7d3d68b4dfb1df5994636c4ff1f4bfd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kandidaten und Beschäftigte sind für ihre Rolle geeignet und bleiben es."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Hintergrundüberprüfung vor der Einstellung und fortlaufend, nach Gesetz und Funktion abgestuft"
+          },
+          {
+            "m": "2.",
+            "t": "Verhältnismäßigkeit und Datenschutz wahren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Überprüfungsverfahren und Nachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.6.1 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_6_2": {
+    "h": "e8bdb78e640d35076492a11459fe3ab7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beschäftigte kennen ihre Pflichten zur Informationssicherheit."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verantwortlichkeiten, Vertraulichkeit und Datenschutz vertraglich festhalten"
+          },
+          {
+            "m": "2.",
+            "t": "Verhalten bei Verstößen benennen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Arbeitsvertragsklauseln."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.6.2 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_6_3": {
+    "h": "80753175b96a4487696d8d9a43fc6992",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beschäftigte und Externe haben das nötige Bewusstsein und die Fähigkeiten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ein Sensibilisierungsprogramm, regelmäßig und rollenbezogen, mit Wirksamkeitsprüfung"
+          },
+          {
+            "m": "2.",
+            "t": "Auch Externe und die Leitung einbeziehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Schulungsplan, Teilnahmenachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.6.3 der ISO/IEC 27001:2022. Artikel 13 Absatz 6 DORA verlangt Programme zur Sensibilisierung und Schulung."
+      }
+    ]
+  },
+  "z_6_4": {
+    "h": "404ab114b1b23b73e811e9c51fa62e28",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verstöße gegen die Informationssicherheit haben angemessene, bekannte Folgen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ein förmliches, abgestuftes Verfahren festlegen und kommunizieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Disziplinarverfahren."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.6.4 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_6_5": {
+    "h": "18d31f25dfec0ce89c4d2676490a163b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Interessen der Organisation bleiben beim Ausscheiden oder Wechsel geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Fortbestehende Pflichten wie Vertraulichkeit festlegen und mitteilen"
+          },
+          {
+            "m": "2.",
+            "t": "Verantwortlichkeiten übergeben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Austrittsverfahren."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.6.5 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_6_6": {
+    "h": "d5159b0e2c5f8636bc3f5ac7a51d0abf",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vertrauliche Informationen sind durch Vereinbarungen geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vereinbarungen mit Beschäftigten und Externen schließen und regelmäßig überprüfen"
+          },
+          {
+            "m": "2.",
+            "t": "Inhalte: geschützte Informationen, Dauer, Pflichten, Rechte"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vertraulichkeitsvereinbarungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.6.6 der ISO/IEC 27001:2022. Artikel 14 Absatz 1 Buchstabe c des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_6_7": {
+    "h": "d6707b3141b1c6be05b9c0d56a00a3a4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen sind geschützt, wenn Beschäftigte außerhalb der Räume arbeiten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Richtlinie und Schutzmaßnahmen für Geräte, Verbindungen und Umgebung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Zugang und Zugriffskontrolle anpassen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinie zum mobilen Arbeiten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.6.7 der ISO/IEC 27001:2022. Regeln für mobiles Arbeiten nach Artikel 11 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_6_8": {
+    "h": "1028f6ff494811fd4aa86af792901665",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ereignisse werden zeitnah und konsistent gemeldet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Einen einfachen, bekannten Meldeweg bereitstellen"
+          },
+          {
+            "m": "2.",
+            "t": "Alle Beschäftigten und Externen zur Meldung verpflichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Meldeweg und Meldestatistik."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.6.8 der ISO/IEC 27001:2022. Artikel 17 DORA."
+      }
+    ]
+  },
+  "z_7_1": {
+    "h": "438c4c36094a32d7af13e89c080c5933",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unbefugter physischer Zugang, Schäden und Störungen werden verhindert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitszonen mit definierter Schutzwirkung nach der Bedeutung der Werte abgrenzen"
+          },
+          {
+            "m": "2.",
+            "t": "Wände, Türen und Barrieren dem Risiko entsprechend auslegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zonenkonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.1 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_10": {
+    "h": "7861cb3f5ca9099bd6a102354be138f3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nur genehmigte Offenlegung, Änderung, Entfernung oder Vernichtung von Informationen auf Speichermedien."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Lebenszyklus von Speichermedien steuern: Nutzung, Transport, Löschung, Entsorgung"
+          },
+          {
+            "m": "2.",
+            "t": "Verschlüsselung für transportierte Medien"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Medienverzeichnis, Entsorgungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.10 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_11": {
+    "h": "b2088cf84e22a7e6d9183829ad47fbbd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ausfälle von Strom, Kühlung und Telekommunikation beeinträchtigen den Betrieb nicht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Versorgungseinrichtungen redundant auslegen und regelmäßig prüfen"
+          },
+          {
+            "m": "2.",
+            "t": "Notstrom vorsehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Wartungs- und Testnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.11 der ISO/IEC 27001:2022. Redundante Kapazitäten nach Artikel 12 Absatz 4 DORA."
+      }
+    ]
+  },
+  "z_7_12": {
+    "h": "cfddf596717fd8597496caea32f8a13a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Strom- und Netzwerkverkabelung sind vor Abhören, Störung und Beschädigung geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kabelwege schützen, Netz- und Stromkabel trennen"
+          },
+          {
+            "m": "2.",
+            "t": "Zugang zu Verteilern beschränken"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verkabelungsplan."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.12 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_13": {
+    "h": "19fe6a1490ce7081877e7bc8d1f0a62e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verfügbarkeit, Integrität und Vertraulichkeit werden durch Wartung erhalten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Wartung nach Herstellerangaben, durch befugtes Personal, mit Aufzeichnung"
+          },
+          {
+            "m": "2.",
+            "t": "Daten vor Wartung außer Haus schützen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Wartungsprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.13 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_14": {
+    "h": "fbf649603ba828e79681867da61a2453",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen gelangen nicht durch Entsorgung oder Wiederverwendung in falsche Hände."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Datenträger vor Entsorgung oder Wiederverwendung verifizieren und sicher löschen oder zerstören"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Löschnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.14 der ISO/IEC 27001:2022. Verfahren zum sicheren Löschen nach Artikel 11 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_7_2": {
+    "h": "996fad43c7d97068ac799369ae488d4d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nur befugter Zutritt zu den Räumen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zutrittskontrolle mit Berechtigungen, Besucherregelung und Protokollierung"
+          },
+          {
+            "m": "2.",
+            "t": "Anlieferzonen trennen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zutrittsprotokolle, Besucherverwaltung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.2 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_3": {
+    "h": "b639bda8990aae3c079e4cd1b7b3c2db",
+    "b": [
+      {
+        "art": "p",
+        "t": "Physische Sicherheit für Büros, Räume und Einrichtungen ist umgesetzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kritische Einrichtungen vor Einblick und Zugang schützen"
+          },
+          {
+            "m": "2.",
+            "t": "Kennzeichnung sensibler Bereiche vermeiden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Begehungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.3 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_4": {
+    "h": "73aa07615004b8342569156892b17890",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unbefugter Zutritt wird erkannt und abgeschreckt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Überwachung durch Wachpersonal, Videoüberwachung und Einbruchmeldesysteme"
+          },
+          {
+            "m": "2.",
+            "t": "Wirksamkeit regelmäßig prüfen; Datenschutz beachten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Überwachungskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.4 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_5": {
+    "h": "40759cd72ffd01a296b777803aee4d28",
+    "b": [
+      {
+        "art": "p",
+        "t": "Schäden durch Naturereignisse und andere Bedrohungen werden verhindert oder verringert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Risikobewertung für Feuer, Wasser, Sturm und andere Ereignisse"
+          },
+          {
+            "m": "2.",
+            "t": "Schutzmaßnahmen entsprechend umsetzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Gefährdungsanalyse."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.5 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_6": {
+    "h": "2e9633d825ff4334d05eab9d232b667a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen sind bei der Arbeit in Sicherheitsbereichen geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln für Aufenthalt und Arbeit festlegen, Begleitung von Dritten"
+          },
+          {
+            "m": "2.",
+            "t": "Foto- und Aufzeichnungsgeräte beschränken"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verhaltensregeln für Sicherheitsbereiche."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.6 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_7": {
+    "h": "06a4fc66dfa271e8d2a25ee82818c08b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unbefugter Zugriff auf Informationen am Arbeitsplatz wird verhindert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln zum Wegschließen von Unterlagen und zur Bildschirmsperre festlegen und durchsetzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinie und stichprobenartige Prüfung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.7 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_8": {
+    "h": "9e35989f8e4bacb31b06da1a4ef697ba",
+    "b": [
+      {
+        "art": "p",
+        "t": "Risiken durch Umweltgefahren und unbefugten Zugriff auf Geräte sind verringert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Geräte so aufstellen, dass Einsicht und Zugang erschwert sind"
+          },
+          {
+            "m": "2.",
+            "t": "Schutz vor Umwelteinflüssen und Stromausfall"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Aufstellungskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.8 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_7_9": {
+    "h": "1c64a43fb494c106d6427fb7e260d1d3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verlust, Beschädigung und Diebstahl außerhalb der Räume werden verhindert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln für Mitnahme und Nutzung von Geräten außerhalb festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Schutz gegen Diebstahl und Einsicht"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinie für Geräte außer Haus."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.7.9 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_1": {
+    "h": "370163e78de38b8bda691e9f87bc41ee",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen auf Endgeräten sind geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Richtlinie zum Schutz von Endgeräten, Registrierung, Verschlüsselung, Sperre, Fernlöschung"
+          },
+          {
+            "m": "2.",
+            "t": "Eigengeräte nur unter Auflagen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Endgerätestandard."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.1 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_10": {
+    "h": "c21a94362443807dc5ba29ffed962493",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unnötige Offenlegung wird verhindert, Datenschutzvorgaben werden erfüllt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Informationen löschen, wenn sie nicht mehr benötigt werden"
+          },
+          {
+            "m": "2.",
+            "t": "Löschung nachweisbar und wirksam"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Löschkonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.10 der ISO/IEC 27001:2022. Speicherbegrenzung nach Artikel 5 DSGVO."
+      }
+    ]
+  },
+  "z_8_11": {
+    "h": "851d4b22b1b6bd20d66869119c058d65",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Offenlegung sensibler Daten wird eingeschränkt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Maskierung, Pseudonymisierung oder Anonymisierung nach Bedarf, auch für Testdaten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Maskierungsverfahren."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.11 der ISO/IEC 27001:2022. Pseudonymisierung nach Artikel 32 DSGVO."
+      }
+    ]
+  },
+  "z_8_12": {
+    "h": "c1b8037c7be4040bc744faefe4b549d0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unbefugte Offenlegung und Extraktion von Informationen werden verhindert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Datenabflusskanäle identifizieren und überwachen, Maßnahmen gegen Abfluss einsetzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Überwachung und Regeln gegen Datenabfluss."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.12 der ISO/IEC 27001:2022. Schutz vor Datenverlust nach Artikel 11 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_13": {
+    "h": "4bee0834962e957104d503f35f272237",
+    "b": [
+      {
+        "art": "p",
+        "t": "Daten sind gegen Verlust wiederherstellbar."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherungsrichtlinie, regelmäßige Sicherung, Aufbewahrung getrennt vom Quellsystem"
+          },
+          {
+            "m": "2.",
+            "t": "Wiederherstellung testen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Sicherungs- und Wiederherstellungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.13 der ISO/IEC 27001:2022. Artikel 12 DORA verlangt Trennung und Datenprüfungen nach der Wiederherstellung."
+      }
+    ]
+  },
+  "z_8_14": {
+    "h": "202679efdda7a6a8c75c800e2b990caa",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verfügbarkeit ist durch Redundanz gesichert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Redundanz nach den Verfügbarkeitsanforderungen auslegen und testen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Redundanzkonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.14 der ISO/IEC 27001:2022. Artikel 12 Absatz 4 DORA."
+      }
+    ]
+  },
+  "z_8_15": {
+    "h": "bab6dbdb6e69382ba1948baa79057c41",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ereignisse werden aufgezeichnet und sind auswertbar."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Protokolle erzeugen, schützen und auswerten"
+          },
+          {
+            "m": "2.",
+            "t": "Aufbewahrung begründen, Schutz vor Manipulation und Löschung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Protokollierungskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.15 der ISO/IEC 27001:2022. Artikel 12 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_16": {
+    "h": "e1d95bd476cc7a2d04380941ade47dc9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Anomales Verhalten wird erkannt und bewertet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Netze, Systeme und Anwendungen auf Anomalien überwachen, Alarmschwellen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Reaktion definieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Überwachungskonzept, Alarmauswertungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.16 der ISO/IEC 27001:2022. Artikel 10 DORA verlangt Erkennungsmechanismen mit Alarmschwellen."
+      }
+    ]
+  },
+  "z_8_17": {
+    "h": "618985584ae846d80f615b6914f3944a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zeitstempel sind über Systeme hinweg vergleichbar."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Alle Systeme mit einer verlässlichen Referenzzeit synchronisieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zeitdienstkonfiguration."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.17 der ISO/IEC 27001:2022. Artikel 12 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_18": {
+    "h": "f2eaf0319dfd24d847f3996af260acf8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Hilfsprogramme, die Kontrollen umgehen können, werden eingeschränkt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Gebrauch beschränken, genehmigen und überwachen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Liste zugelassener Hilfsprogramme."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.18 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_19": {
+    "h": "ef06ef30b8c46edd675e19bd54a05340",
+    "b": [
+      {
+        "art": "p",
+        "t": "Produktivbetrieb bleibt integer."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Nur genehmigte Software und Versionen, Installation durch befugte Personen, Rückfalloption"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Freigabe- und Installationsprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.19 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_2": {
+    "h": "55d89afb89e83f92b73632e6fd2016ed",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nur autorisierte Benutzer erhalten privilegierte Rechte."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vergabe nach Genehmigung, zeitlich und sachlich begrenzt, getrennt vom normalen Konto"
+          },
+          {
+            "m": "2.",
+            "t": "Nutzung protokollieren und regelmäßig überprüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verzeichnis privilegierter Konten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.2 der ISO/IEC 27001:2022. Zugriffsmanagement nach Artikel 21 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_20": {
+    "h": "4ff7873053ea6ec794ac3e79e241b234",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen in Netzen und die unterstützenden Einrichtungen sind geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Netze und Netzgeräte verwalten und steuern, Sicherheitsmechanismen festlegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Netzsicherheitskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.20 der ISO/IEC 27001:2022. Artikel 13 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_21": {
+    "h": "b16bd3953c9a6f714208f099ce63db9a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheit bei der Nutzung von Netzdiensten ist festgelegt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsmerkmale, Dienstgüte und Anforderungen von Netzdiensten identifizieren und vereinbaren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vereinbarungen zu Netzdiensten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.21 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_22": {
+    "h": "46652095ba774bedff295f12e03f6539",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ausbreitung von Angriffen wird begrenzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Netze nach Schutzbedarf in Domänen trennen, Übergänge kontrollieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Netzsegmentierungskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.22 der ISO/IEC 27001:2022. Segmentierung nach Artikel 13 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_23": {
+    "h": "fb44289dac78628820754cf9c5d42a31",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zugriff auf schädliche Webseiten wird verhindert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugriff auf Webseiten nach Regeln begrenzen, Schadseiten sperren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Filterregeln."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.23 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_24": {
+    "h": "3f578c26e817aba12b42361dbeb4ad50",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kryptografie wird wirksam und angemessen eingesetzt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Richtlinie zu Einsatz und Schlüsselverwaltung über den gesamten Lebenszyklus"
+          },
+          {
+            "m": "2.",
+            "t": "Anforderungen nach Schutzbedarf und Recht"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kryptokonzept, Schlüsselverwaltung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.24 der ISO/IEC 27001:2022. Artikel 9 Absatz 2 DORA und Artikel 6 und 7 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_25": {
+    "h": "08eebf1eed81f96d8b434546559ec95f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationssicherheit ist über den Entwicklungslebenszyklus eingebaut."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Regeln für sichere Entwicklung von Software und Systemen festlegen und anwenden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Entwicklungsrichtlinie."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.25 der ISO/IEC 27001:2022. Artikel 16 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_26": {
+    "h": "91969e0b27c81de4f09e03475fbc7270",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheitsanforderungen werden bei Entwicklung und Beschaffung festgelegt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen identifizieren, spezifizieren und genehmigen, auch für Datenübertragung und Transaktionen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Anforderungskatalog."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.26 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_27": {
+    "h": "5392182d8a08853c8d39b28712107496",
+    "b": [
+      {
+        "art": "p",
+        "t": "Systeme werden nach Sicherheitsgrundsätzen gebaut."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Grundsätze wie Schutz in der Tiefe und geringste Rechte festlegen und anwenden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Architekturprinzipien."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.27 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_28": {
+    "h": "058f668d32fe3b65ab7f6b35834361bc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Software wird mit weniger Schwachstellen geschrieben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Grundsätze sicherer Programmierung, Prüfungen und Umgang mit Fremdcode und quelloffenen Bibliotheken"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Programmierrichtlinie, Codeprüfungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.28 der ISO/IEC 27001:2022. Quellcodeprüfung nach Artikel 16 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_29": {
+    "h": "0320a9ac0b44f6b28035d1aa863278a2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheitsanforderungen sind vor der Inbetriebnahme geprüft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüf- und Abnahmeverfahren mit Sicherheitstests, auch für ausgelagerte Entwicklung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Testberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.29 der ISO/IEC 27001:2022. Tests nach Artikel 16 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_3": {
+    "h": "c3e75c1d6a43fe357ca72bcd0f522876",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unbefugter Zugriff wird verhindert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugriff nach der Zugangssteuerungsrichtlinie technisch durchsetzen"
+          },
+          {
+            "m": "2.",
+            "t": "Zugriff auf sensible Anwendungen und Daten beschränken"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berechtigungsauswertung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.3 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_30": {
+    "h": "13bf0d8eefad4d24484e21c809d4bd94",
+    "b": [
+      {
+        "art": "p",
+        "t": "Sicherheit bei ausgelagerter Entwicklung ist gewährleistet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anforderungen vertraglich festlegen, Entwicklung überwachen und prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verträge und Prüfberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.30 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_31": {
+    "h": "f3e882a68965369cc7d776dc042be79d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Produktionsrisiken durch Entwicklung und Test sind verringert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Umgebungen trennen, Daten und Zugriffe entsprechend beschränken"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Umgebungskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.31 der ISO/IEC 27001:2022. Artikel 8 Absatz 7 DORA verlangt getrennte Umgebungen."
+      }
+    ]
+  },
+  "z_8_32": {
+    "h": "c38309d6473d48ecc94e2bbe43a8d2f7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Änderungen werden kontrolliert und nachvollziehbar durchgeführt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Änderungsverfahren für Einrichtungen und Systeme mit Test, Genehmigung, Rückfall"
+          },
+          {
+            "m": "2.",
+            "t": "Notfalländerungen nachträglich dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Änderungsverzeichnis."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.32 der ISO/IEC 27001:2022. Artikel 17 des RTS zum IKT-Risikomanagementrahmen; keine Wesentlichkeitsgrenze."
+      }
+    ]
+  },
+  "z_8_33": {
+    "h": "80fa25a8926de45d2517cad90e04a2ad",
+    "b": [
+      {
+        "art": "p",
+        "t": "Relevante Tests sind möglich, Testdaten sind geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Testdaten sorgfältig auswählen, schützen und verwalten, möglichst nicht Echtdaten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Testdatenkonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.33 der ISO/IEC 27001:2022. Datenschutz nach DSGVO und Artikel 8 Absatz 7 DORA."
+      }
+    ]
+  },
+  "z_8_34": {
+    "h": "9cbf1e08ddc40ab599fd08a9408bef7c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Audits stören den Betrieb nicht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfungen im Voraus planen, vereinbaren und begrenzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfplan."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.34 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_4": {
+    "h": "be22d4882b17e5ca40c62583d989e098",
+    "b": [
+      {
+        "art": "p",
+        "t": "Quellcode und Entwicklungswerkzeuge sind vor Änderung und Missbrauch geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Lese- und Schreibzugriff beschränken, Versionsverwaltung mit Protokoll"
+          },
+          {
+            "m": "2.",
+            "t": "Änderungen nachvollziehbar freigeben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berechtigungen im Repository."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.4 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_5": {
+    "h": "ee8c7d4b65aff0d344541e8de1aa4cb1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Benutzer und Entitäten werden sicher authentisiert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren nach Schutzbedarf, bei hohem Bedarf mehrere Faktoren"
+          },
+          {
+            "m": "2.",
+            "t": "Fehlversuche begrenzen, Anmeldedaten schützen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Authentisierungskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.5 der ISO/IEC 27001:2022. Starke Authentisierung nach Artikel 9 Absatz 4 Buchstabe d DORA."
+      }
+    ]
+  },
+  "z_8_6": {
+    "h": "3e61af775b77b076fcd82bb3c7fd0e96",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Bedarf an Ressourcen ist gedeckt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Bedarf überwachen und Kapazitäten vorausschauend anpassen"
+          },
+          {
+            "m": "2.",
+            "t": "Engpässe vermeiden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kapazitätsplanung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.6 der ISO/IEC 27001:2022. Kapazitätsmanagement nach Artikel 9 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_8_7": {
+    "h": "afeafce124157d3f8e93cd634a6910ed",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen und Werte sind gegen Schadsoftware geschützt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Erkennung und Abwehr einsetzen, Benutzer sensibilisieren"
+          },
+          {
+            "m": "2.",
+            "t": "Regelmäßig aktualisieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Schutzkonzept, Meldungen und Auswertungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.7 der ISO/IEC 27001:2022."
+      }
+    ]
+  },
+  "z_8_8": {
+    "h": "1c9409c376f1ef2041f18e783428096c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ausnutzung technischer Schwachstellen wird verhindert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Schwachstellen erkennen, bewerten und abstellen, priorisiert nach Risiko"
+          },
+          {
+            "m": "2.",
+            "t": "Patch-Management mit Fristen und Eskalation"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Scan- und Patchberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.8 der ISO/IEC 27001:2022. Artikel 10 des RTS zum IKT-Risikomanagementrahmen (Schwachstellenmanagement)."
+      }
+    ]
+  },
+  "z_8_9": {
+    "h": "4a0ef4511ac03358d488112c8c4f43dd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Hardware, Software, Dienste und Netze sind sicher konfiguriert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Standardkonfigurationen festlegen, dokumentieren, überwachen und überprüfen"
+          },
+          {
+            "m": "2.",
+            "t": "Abweichungen erkennen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Konfigurationsstandards."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Control A.8.9 der ISO/IEC 27001:2022. Artikel 8 DORA (Konfiguration der Assets)."
+      }
+    ]
+  },
+  "z_e": {
+    "h": "3c7a009a1bb8676ef8a6c2a005638275",
+    "b": [
+      {
+        "art": "p",
+        "t": "ISO/IEC 27002:2022 ist der Leitfaden zu den Informationssicherheitsmaßnahmen. Er fasst 93 Controls in vier Themen zusammen und verbindet jedes mit Zweck, Beschreibung und Umsetzungshinweisen. Er ist kein Zertifizierungsstandard: Zertifiziert wird nach ISO/IEC 27001, deren Annex A dieselben 93 Controls nennt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vier Themen: organisatorisch (37), personenbezogen (8), physisch (14), technologisch (34)"
+          },
+          {
+            "m": "2.",
+            "t": "Je Control Attribute zur Einordnung: Controltyp (präventiv, detektiv, korrektiv), Schutzziele (Vertraulichkeit, Integrität, Verfügbarkeit), Cybersicherheitskonzepte, operative Fähigkeiten und Sicherheitsdomänen"
+          },
+          {
+            "m": "3.",
+            "t": "Gegenüber der Ausgabe von 2013 wurden 11 Controls neu aufgenommen, viele zusammengelegt und die bisherigen 14 Abschnitte auf vier Themen verdichtet"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zuordnung der eigenen Maßnahmen zu den Controls (Anwendbarkeitserklärung)."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Annex A der ISO/IEC 27001:2022 ist im Bestand; die Controls entsprechen einander eins zu eins."
+      }
+    ]
+  }
+}

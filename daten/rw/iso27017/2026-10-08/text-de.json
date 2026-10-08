@@ -1,0 +1,282 @@
+{
+  "z_cld_12_1_5": {
+    "h": "9fc269c385c3c41199fde1571777c7f5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Administrative Tätigkeiten in der Cloud-Umgebung sind zu dokumentieren und zu überwachen; Kunden müssen ihre Verwaltungsrechte nachvollziehbar nutzen und Anbieter ihre Administratorenzugriffe offenlegen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren für administrative Zugriffe, mit Protokoll und Überprüfung"
+          },
+          {
+            "m": "2.",
+            "t": "Informationen über Verfahren der Anbieter einholen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Administrationsrichtlinie, Zugriffsprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Privilegierte Zugriffe nach Control 8.2 der ISO/IEC 27002 und Artikel 21 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_cld_12_4_5": {
+    "h": "2c493eca1946d11aa96c765b5e8dd429",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Kunde muss Aspekte des Betriebs seiner Cloud-Dienste überwachen können; der Anbieter muss entsprechende Möglichkeiten bereitstellen und eigene Überwachungsdaten zugänglich machen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Überwachungsmöglichkeiten und Zugang zu Protokollen vertraglich festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Kennzahlen zu Verfügbarkeit und Sicherheit überwachen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berichte und Dashboards des Anbieters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Überwachung der Dienstleister nach Artikel 28 DORA."
+      }
+    ]
+  },
+  "z_cld_13_1_4": {
+    "h": "03c7489061462f3606c97639687e3c90",
+    "b": [
+      {
+        "art": "p",
+        "t": "Beim Einrichten von virtuellen Netzen sind die Sicherheitsrichtlinien des physischen Netzes zugrunde zu legen und abzugleichen, damit keine Lücken entstehen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Konfiguration virtueller Netze mit der Richtlinie des physischen Netzes abgleichen"
+          },
+          {
+            "m": "2.",
+            "t": "Änderungen in beiden Welten gemeinsam steuern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Netzkonzept physisch und virtuell."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Segmentierung nach Artikel 13 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_cld_6_3_1": {
+    "h": "aa8e1cd713aa611e54dc754f4a3ca53c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kunde und Anbieter teilen sich die Verantwortung für die Informationssicherheit. Die Aufteilung ist festzulegen, zu dokumentieren, zu kommunizieren und umzusetzen – für Kunden wie für Anbieter."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verantwortlichkeiten je Sicherheitsaufgabe zwischen Kunde und Anbieter zuordnen"
+          },
+          {
+            "m": "2.",
+            "t": "Kontakt- und Eskalationswege festhalten"
+          },
+          {
+            "m": "3.",
+            "t": "Gemeinsame Verantwortung nicht stillschweigend voraussetzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verantwortungsmatrix im Vertrag."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht der Rollenaufteilung, die Artikel 30 DORA in den Verträgen verlangt."
+      }
+    ]
+  },
+  "z_cld_8_1_5": {
+    "h": "0111d5541da721bfa7a94bf1e9599623",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei Beendigung des Dienstes werden die Werte des Kunden zurückgegeben und beim Anbieter entfernt. Das Verfahren ist im Voraus zu vereinbaren."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Rückgabe- und Löschverfahren mit Format und Fristen vereinbaren"
+          },
+          {
+            "m": "2.",
+            "t": "Vollständigkeit der Löschung nachweisbar machen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Beschreibung des Ausstiegsverfahrens, Löschbestätigung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Datenrückgabe als Teil der Ausstiegsstrategie nach Artikel 28 Absatz 8 DORA."
+      }
+    ]
+  },
+  "z_cld_9_5_1": {
+    "h": "b19d19cfb5d3653100b2bd517ce7ae96",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Daten und Anwendungen eines Cloud-Kunden sind von denen anderer Kunden und vom Anbieter getrennt. Anbieter sichern die logische Trennung der Mandanten zu."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Trennung von Mandanten technisch und organisatorisch durchsetzen"
+          },
+          {
+            "m": "2.",
+            "t": "Dem Kunden Informationen zur Trennung bereitstellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Beschreibung der Mandantentrennung, Prüfberichte zum Anbieter."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht dem Kriterienbereich Kommunikationssicherheit im BSI C5."
+      }
+    ]
+  },
+  "z_cld_9_5_2": {
+    "h": "fad5c363aea8bc996f059f94ea9ab2ca",
+    "b": [
+      {
+        "art": "p",
+        "t": "Virtuelle Maschinen sind so zu konfigurieren, dass nur notwendige Ports, Protokolle und Dienste aktiv sind und technische Schutzmaßnahmen wie Schadsoftware- und Protokollierungsschutz bestehen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sicherheitsbasislinien für virtuelle Maschinen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Nicht benötigte Funktionen deaktivieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Härtungsstandard, Konfigurationsprüfung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Härtung nach Artikel 11 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_l": {
+    "h": "798df54cae8ccaa4afe859a4244aa1b9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zu zahlreichen Controls der ISO/IEC 27002 ergänzt die Norm Hinweise für Kunden und für Anbieter: Beziehungen zu Anbietern und Unterauftragnehmern, Zugangssteuerung und Rechtevergabe in der Cloud, Schutz kundeneigener Daten, Kryptografie, Protokollierung, Vorfallbearbeitung und Rechtsanforderungen wie Datenstandort und Prüfrechte."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Pflichten des Anbieters werden an der Cloud-Kundenseite ausgerichtet"
+          },
+          {
+            "m": "2.",
+            "t": "Der Anbieter dokumentiert, wer auf welche Kundendaten zugreifen darf"
+          },
+          {
+            "m": "3.",
+            "t": "Datenstandort und Rechtsrahmen offenlegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Anbieternachweise (Zertifikate, Prüfberichte), Vertrag mit Sicherheitsanhang."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Zusammenhang mit Control 5.23 der ISO/IEC 27002 und mit Artikel 28 DORA."
+      }
+    ]
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "z_p1": {
+    "h": "45bf80f135c066e37fd00b7ee0a01cd2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Leitfaden beschreibt, wie Informationssicherheitsrisiken in einem Managementsystem systematisch beurteilt und behandelt werden. Er folgt dem allgemeinen Risikomanagementprozess der ISO 31000 und liefert die Methodik, die die ISO/IEC 27001 verlangt, ohne eine bestimmte Methode vorzuschreiben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ein dokumentiertes, wiederholbares Verfahren statt einer festen Methode"
+          },
+          {
+            "m": "2.",
+            "t": "Anschluss an das übrige Risikomanagement der Organisation"
+          },
+          {
+            "m": "3.",
+            "t": "Risikobeurteilung in geplanten Abständen und bei wesentlichen Änderungen wiederholen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikomanagementrichtlinie, Beschreibung der angewandten Methode."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Der IKT-Risikomanagementrahmen nach Artikel 6 DORA ist weiter gefasst, ein Informationssicherheits-Risikoprozess nach diesem Leitfaden füllt einen großen Teil davon aus."
+      }
+    ]
+  },
+  "z_p2": {
+    "h": "3ed672e04efc3a0cf81f2ed2bf44101e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Zu Beginn werden Anwendungsbereich und Grenzen festgelegt und die Kriterien bestimmt, nach denen Risiken eingeordnet werden: Risikokriterien, Kriterien zur Bewertung der Auswirkungen und Kriterien für die Risikoakzeptanz. Ohne sie sind Ergebnisse nicht vergleichbar."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Anwendungsbereich, Schnittstellen und Abhängigkeiten abgrenzen"
+          },
+          {
+            "m": "2.",
+            "t": "Skalen für Eintrittswahrscheinlichkeit und Auswirkung festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Akzeptanzschwelle durch die Leitung festlegen lassen"
+          },
+          {
+            "m": "4.",
+            "t": "Rollen und Verantwortlichkeiten (Risikoeigentümer) benennen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikokriterien mit Genehmigung, Festlegung des Anwendungsbereichs."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht der Festlegung von Risikotoleranzen nach Artikel 6 Absatz 8 DORA."
+      }
+    ]
+  },
+  "z_p3": {
+    "h": "1d945a3b86fe0429f9465da511ebb13f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Risiken werden identifiziert, indem entweder Ereignisszenarien (ereignisbasiert) oder Werte mit ihren Bedrohungen und Schwachstellen (wertebasiert) betrachtet werden. Die Ausgabe 2022 stellt beide Wege nebeneinander; sie lassen sich kombinieren."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ereignisbasiert: Szenarien mit Quellen, Wegen und Folgen entwickeln, auch auf strategischer Ebene"
+          },
+          {
+            "m": "2.",
+            "t": "Wertebasiert: Werte inventarisieren, Bedrohungen und Schwachstellen zuordnen, Folgen für die Schutzziele bestimmen"
+          },
+          {
+            "m": "3.",
+            "t": "Risikoeigentümer festlegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikoregister mit identifizierten Risiken, Werteverzeichnis."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Das Inventar der Werte deckt sich mit Artikel 8 DORA und Control 5.9 der ISO/IEC 27002."
+      }
+    ]
+  },
+  "z_p4": {
+    "h": "d39a5909ae241c594c1ddfdc8a5d18e3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für jedes identifizierte Risiko werden Eintrittswahrscheinlichkeit und mögliche Auswirkung bestimmt. Dies kann qualitativ, quantitativ oder gemischt erfolgen, abhängig vom Reifegrad der Organisation und der Datenlage."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Auswirkungen auf Vertraulichkeit, Integrität und Verfügbarkeit bewerten"
+          },
+          {
+            "m": "2.",
+            "t": "Wahrscheinlichkeit mit vorhandenen Kontrollen betrachten"
+          },
+          {
+            "m": "3.",
+            "t": "Annahmen und Unsicherheiten dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Bewertungsprotokolle mit Annahmen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die Klassifizierung von Vorfällen nach Artikel 18 DORA arbeitet mit vergleichbaren Auswirkungskriterien."
+      }
+    ]
+  },
+  "z_p5": {
+    "h": "458dd02080bd0e8cc53370daafff76ea",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Analyseergebnisse werden mit den Kriterien verglichen und nach Priorität geordnet. Daraus ergibt sich, welche Risiken behandelt werden müssen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vergleich mit den Akzeptanzkriterien"
+          },
+          {
+            "m": "2.",
+            "t": "Priorisierung für die Behandlung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Priorisierte Risikoliste."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die Risikoberichte an das Leitungsorgan nach Artikel 5 DORA beruhen darauf."
+      }
+    ]
+  },
+  "z_p6": {
+    "h": "83871168014bf0640cbb576c7afd7bca",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Risiken über der Akzeptanzschwelle werden Behandlungsoptionen gewählt – Risiko verringern, beibehalten, vermeiden oder teilen –, passende Kontrollen bestimmt und mit den Controls der ISO/IEC 27001 Annex A abgeglichen, um nichts zu übersehen. Das Ergebnis sind ein Risikobehandlungsplan und die Anwendbarkeitserklärung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kontrollen bestimmen und gegen Annex A der ISO/IEC 27001 abgleichen"
+          },
+          {
+            "m": "2.",
+            "t": "Risikobehandlungsplan mit Verantwortlichen und Terminen"
+          },
+          {
+            "m": "3.",
+            "t": "Restrisiken durch die Risikoeigentümer akzeptieren lassen und dokumentieren"
+          },
+          {
+            "m": "4.",
+            "t": "Anwendbarkeitserklärung pflegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikobehandlungsplan, Anwendbarkeitserklärung, Freigabe der Restrisiken."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Maßnahmenkatalog: ISO/IEC 27002; die Behandlung von IKT-Risiken im Rahmen von Artikel 9 DORA."
+      }
+    ]
+  },
+  "z_p7": {
+    "h": "0371693984ad858a383b32bc6917dfcd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der gesamte Prozess wird von Kommunikation mit den Beteiligten begleitet: Ergebnisse und Entscheidungen werden berichtet, Fachwissen der Betroffenen fließt ein."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Beteiligte identifizieren und Kommunikationswege festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Ergebnisse adressatengerecht berichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kommunikationsplan Risikomanagement."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Berichtspflicht an das Leitungsorgan nach Artikel 13 Absatz 5 DORA."
+      }
+    ]
+  },
+  "z_p8": {
+    "h": "2f25a6a74de2a5afc578d96a83cb426b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Risiken, Kontrollen und der Prozess selbst werden laufend überwacht und überprüft; Änderungen von Bedrohungen, Werten und Umfeld werden aufgenommen. Alle Schritte und Entscheidungen werden aufgezeichnet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Risikoregister laufend pflegen, Auslöser für Neubewertung festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Wirksamkeit der Kontrollen überwachen"
+          },
+          {
+            "m": "3.",
+            "t": "Aufzeichnungen nachvollziehbar aufbewahren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Überprüfungsprotokolle, Änderungshistorie des Risikoregisters."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Mindestens jährliche Überprüfung des IKT-Risikomanagementrahmens nach Artikel 6 Absatz 5 DORA."
+      }
+    ]
+  }
+}

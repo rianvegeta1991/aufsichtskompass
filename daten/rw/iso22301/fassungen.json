@@ -1,0 +1,17 @@
+{
+  "regelwerk": "iso22301",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:07Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISO 22301:2019 – Sicherheit und Resilienz – Business-Continuity-Managementsysteme – Anforderungen",
+        "url": "https://www.iso.org/standard/75106.html",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO 22301 (ISO 22301:2019 – Sicherheit und Resilienz – Business-Continuity-Managementsysteme – Anforderungen)."
+      },
+      "hash": "bec8a37406a659552c25f73ddd2a5bece0c5620d2dfff3af29f70b5357c56959",
+      "fundstellen": 12
+    }
+  ]
+}

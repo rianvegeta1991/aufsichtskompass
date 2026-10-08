@@ -13,6 +13,7 @@
 mod bafin;
 mod cellar;
 mod gii;
+mod oscal;
 mod modell;
 mod netz;
 mod screening;
@@ -123,6 +124,7 @@ fn abruf(daten: &Path, nur: Option<&str>, erzwingen: bool) -> Result<()> {
             "cellar" => abruf_cellar(daten, &leine, k, erzwingen)?,
             "gii" => abruf_gii(daten, &leine, k, erzwingen)?,
             "bafin" => abruf_bafin(daten, &leine, k, erzwingen)?,
+            "oscal" => abruf_oscal(daten, &leine, k, erzwingen)?,
             sonst => println!("[{}] Konnektortyp '{sonst}' noch nicht umgesetzt - uebersprungen", k.regelwerk),
         }
     }
@@ -254,6 +256,51 @@ fn abruf_bafin(daten: &Path, leine: &netz::Leine, k: &Konnektor, erzwingen: bool
             stand: geparst.stand.clone().or(haupt.stand),
             knoten: geparst.knoten,
             sprachtexte: vec![("de".to_string(), texte_aus(&geparst.texte))],
+        },
+        erzwingen,
+    )
+}
+
+/// OSCAL-Kataloge (NIST SP 800-53). Gemeinfrei, Volltext zulaessig - siehe `oscal.rs`.
+fn abruf_oscal(daten: &Path, leine: &netz::Leine, k: &Konnektor, erzwingen: bool) -> Result<()> {
+    let rw = &k.regelwerk;
+    let url = k
+        .url
+        .as_deref()
+        .with_context(|| format!("[{rw}] Konnektor 'oscal' ohne url"))?;
+    let (_, _, _, etag) = register_laden(daten, rw, erzwingen)?;
+
+    println!("[{rw}] OSCAL-Katalog - Abruf laeuft ...");
+    let Some(haupt) = oscal::hole(leine, url, etag.as_deref())? else {
+        println!("[{rw}] unveraendert (ETag der Quelle stimmt) - nichts zu tun.");
+        return Ok(());
+    };
+    let geparst = oscal::parse(&haupt.json)?;
+    println!(
+        "[{rw}] {} Controls mit Text geparst, Katalogversion {}.",
+        geparst.texte.len(),
+        geparst.version.as_deref().unwrap_or("unbekannt")
+    );
+
+    uebernehmen(
+        daten,
+        Uebernahme {
+            rw: rw.clone(),
+            quelle: Quelle {
+                // Der Titel der Quelle nennt auch SP 800-53A, dessen Bewertungsteile hier fehlen.
+                name: format!(
+                    "OSCAL-Katalog, Version {}",
+                    geparst.version.as_deref().unwrap_or("unbekannt")
+                ),
+                url: url.to_string(),
+                celex: None,
+                hinweis: oscal::HINWEIS.to_string(),
+            },
+            etag: haupt.etag,
+            // Der Stand im Katalog geht vor der Kopfzeile: GitHub liefert dort das Abrufdatum.
+            stand: geparst.stand.clone().or(haupt.stand),
+            knoten: geparst.knoten,
+            sprachtexte: vec![("en".to_string(), texte_aus(&geparst.texte))],
         },
         erzwingen,
     )

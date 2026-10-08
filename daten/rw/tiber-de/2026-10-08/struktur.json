@@ -1,0 +1,93 @@
+{
+  "regelwerk": "tiber-de",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:14Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts (Umsetzungsdokument vollständig gelesen, das TIBER-EU-Rahmenwerk selbst nicht), ungeprüft) – Bezugsfassung: Deutsche Bundesbank, „Implementierung von TIBER-DE“, Version 4.0, Juli 2025 (8 Seiten); darauf aufbauend das TIBER-EU-Rahmenwerk der EZB in der überarbeiteten Fassung vom Januar 2025",
+    "url": "https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/tiber-de",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein Deutsche Bundesbank, TIBER-DE (Deutsche Bundesbank, „Implementierung von TIBER-DE“, Version 4.0, Juli 2025 (8 Seiten); darauf aufbauend das TIBER-EU-Rahmenwerk der EZB in der überarbeiteten Fassung vom Januar 2025)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_t",
+      "art": "abschnitt",
+      "nummer": "T",
+      "bez": "T",
+      "titel": {
+        "de": "Umsetzungsdokument Version 4.0"
+      },
+      "pfad": "gr/t",
+      "kinder": [
+        {
+          "id": "z_1",
+          "art": "control",
+          "nummer": "1",
+          "bez": "1",
+          "titel": {
+            "de": "Hintergrund: bedrohungsgeleitete Tests und TIBER-EU"
+          },
+          "pfad": "t/1",
+          "text": true
+        },
+        {
+          "id": "z_2",
+          "art": "control",
+          "nummer": "2",
+          "bez": "2",
+          "titel": {
+            "de": "Regelungsgehalt und Anwendungsbereich"
+          },
+          "pfad": "t/2",
+          "text": true
+        },
+        {
+          "id": "z_3",
+          "art": "control",
+          "nummer": "3",
+          "bez": "3",
+          "titel": {
+            "de": "Verhältnis zu den verpflichtenden Tests nach DORA (TLPT)"
+          },
+          "pfad": "t/3",
+          "text": true
+        },
+        {
+          "id": "z_4",
+          "art": "control",
+          "nummer": "4",
+          "bez": "4",
+          "titel": {
+            "de": "Rolle der Deutschen Bundesbank"
+          },
+          "pfad": "t/4",
+          "text": true
+        },
+        {
+          "id": "z_5",
+          "art": "control",
+          "nummer": "5",
+          "bez": "5",
+          "titel": {
+            "de": "Finanzaufsichtliche Einbindung"
+          },
+          "pfad": "t/5",
+          "text": true
+        },
+        {
+          "id": "z_6",
+          "art": "control",
+          "nummer": "6",
+          "bez": "6",
+          "titel": {
+            "de": "Haftungsausschluss"
+          },
+          "pfad": "t/6",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

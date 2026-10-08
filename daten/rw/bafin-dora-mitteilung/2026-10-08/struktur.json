@@ -1,0 +1,476 @@
+{
+  "regelwerk": "bafin-dora-mitteilung",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:20:57Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts, ungeprüft) – Bezugsfassung: BaFin-Aufsichtsmitteilung „Hinweise zur Umsetzung von DORA im IKT-Risikomanagement und IKT-Drittparteienrisikomanagement“, Stand Juni 2024, Anhang aktualisiert am 19.09.2024 (41 Seiten)",
+    "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Anlage/Aufsichtsmitteilung/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA.html",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein BaFin, Aufsichtsmitteilung Umsetzungshinweise DORA (BaFin-Aufsichtsmitteilung „Hinweise zur Umsetzung von DORA im IKT-Risikomanagement und IKT-Drittparteienrisikomanagement“, Stand Juni 2024, Anhang aktualisiert am 19.09.2024 (41 Seiten))."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_i",
+      "art": "abschnitt",
+      "nummer": "I",
+      "bez": "I",
+      "titel": {
+        "de": "Vorwort"
+      },
+      "pfad": "gr/i",
+      "kinder": [
+        {
+          "id": "z_i",
+          "art": "control",
+          "nummer": "I",
+          "bez": "I",
+          "titel": {
+            "de": "Zweck, Adressaten und Methode der Aufsichtsmitteilung"
+          },
+          "pfad": "ab/vorwort",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_1",
+      "art": "abschnitt",
+      "nummer": "1",
+      "bez": "1",
+      "titel": {
+        "de": "Governance und Organisation"
+      },
+      "pfad": "gr/1",
+      "kinder": [
+        {
+          "id": "z_1_1",
+          "art": "control",
+          "nummer": "1.1",
+          "bez": "1.1",
+          "titel": {
+            "de": "Neue Strategie für die digitale operationale Resilienz"
+          },
+          "pfad": "ab/1.1",
+          "text": true
+        },
+        {
+          "id": "z_1_2",
+          "art": "control",
+          "nummer": "1.2",
+          "bez": "1.2",
+          "titel": {
+            "de": "Umfassender, aber IKT-spezifischer Governance- und Kontrollrahmen"
+          },
+          "pfad": "ab/1.2",
+          "text": true
+        },
+        {
+          "id": "z_1_3",
+          "art": "control",
+          "nummer": "1.3",
+          "bez": "1.3",
+          "titel": {
+            "de": "Deutlich erweiterte Aufgaben des Leitungsorgans"
+          },
+          "pfad": "ab/1.3",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_2",
+      "art": "abschnitt",
+      "nummer": "2",
+      "bez": "2",
+      "titel": {
+        "de": "Informationsrisiko- und Informationssicherheitsmanagement"
+      },
+      "pfad": "gr/2",
+      "kinder": [
+        {
+          "id": "z_2_1",
+          "art": "control",
+          "nummer": "2.1",
+          "bez": "2.1",
+          "titel": {
+            "de": "Akzentverschiebung von Informationssicherheit zu IKT-Risikomanagement"
+          },
+          "pfad": "ab/2.1",
+          "text": true
+        },
+        {
+          "id": "z_2_2",
+          "art": "control",
+          "nummer": "2.2",
+          "bez": "2.2",
+          "titel": {
+            "de": "Größerer Fokus auf Analyse- und Kontrollhandlungen"
+          },
+          "pfad": "ab/2.2",
+          "text": true
+        },
+        {
+          "id": "z_2_3",
+          "art": "control",
+          "nummer": "2.3",
+          "bez": "2.3",
+          "titel": {
+            "de": "Stärkung von Schulung und Kommunikation"
+          },
+          "pfad": "ab/2.3",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_3",
+      "art": "abschnitt",
+      "nummer": "3",
+      "bez": "3",
+      "titel": {
+        "de": "IT-Betrieb"
+      },
+      "pfad": "gr/3",
+      "kinder": [
+        {
+          "id": "z_3_1",
+          "art": "control",
+          "nummer": "3.1",
+          "bez": "3.1",
+          "titel": {
+            "de": "Gestärkte Betriebsstabilität"
+          },
+          "pfad": "ab/3.1",
+          "text": true
+        },
+        {
+          "id": "z_3_2",
+          "art": "control",
+          "nummer": "3.2",
+          "bez": "3.2",
+          "titel": {
+            "de": "Klassifizierung der IKT-Systeme und -Informationen"
+          },
+          "pfad": "ab/3.2",
+          "text": true
+        },
+        {
+          "id": "z_3_3",
+          "art": "control",
+          "nummer": "3.3",
+          "bez": "3.3",
+          "titel": {
+            "de": "Ausweitung auf alle Änderungen an IKT-Systemen"
+          },
+          "pfad": "ab/3.3",
+          "text": true
+        },
+        {
+          "id": "z_3_4",
+          "art": "control",
+          "nummer": "3.4",
+          "bez": "3.4",
+          "titel": {
+            "de": "Getrennte Datenhaltung und Abgleich der Datensicherung"
+          },
+          "pfad": "ab/3.4",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_4",
+      "art": "abschnitt",
+      "nummer": "4",
+      "bez": "4",
+      "titel": {
+        "de": "IKT-Geschäftsfortführungsmanagement"
+      },
+      "pfad": "gr/4",
+      "kinder": [
+        {
+          "id": "z_4_1",
+          "art": "control",
+          "nummer": "4.1",
+          "bez": "4.1",
+          "titel": {
+            "de": "Veränderte Struktur und Inhalte von Leitlinien und Plänen"
+          },
+          "pfad": "ab/4.1",
+          "text": true
+        },
+        {
+          "id": "z_4_2",
+          "art": "control",
+          "nummer": "4.2",
+          "bez": "4.2",
+          "titel": {
+            "de": "Erweiterung verpflichtender Szenarien"
+          },
+          "pfad": "ab/4.2",
+          "text": true
+        },
+        {
+          "id": "z_4_3",
+          "art": "control",
+          "nummer": "4.3",
+          "bez": "4.3",
+          "titel": {
+            "de": "Regelmäßige Überprüfung des IKT-Geschäftsfortführungsmanagements"
+          },
+          "pfad": "ab/4.3",
+          "text": true
+        },
+        {
+          "id": "z_4_4",
+          "art": "control",
+          "nummer": "4.4",
+          "bez": "4.4",
+          "titel": {
+            "de": "Stärkung von Krisenmanagement und Kommunikation"
+          },
+          "pfad": "ab/4.4",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_5",
+      "art": "abschnitt",
+      "nummer": "5",
+      "bez": "5",
+      "titel": {
+        "de": "IT-Projektmanagement und Anwendungsentwicklung"
+      },
+      "pfad": "gr/5",
+      "kinder": [
+        {
+          "id": "z_5_1",
+          "art": "control",
+          "nummer": "5.1",
+          "bez": "5.1",
+          "titel": {
+            "de": "Vergleichbare Anforderungen im IKT-Projektmanagement"
+          },
+          "pfad": "ab/5.1",
+          "text": true
+        },
+        {
+          "id": "z_5_2",
+          "art": "control",
+          "nummer": "5.2",
+          "bez": "5.2",
+          "titel": {
+            "de": "Detailvorgaben zu Beschaffung, Entwicklung und Instandhaltung"
+          },
+          "pfad": "ab/5.2",
+          "text": true
+        },
+        {
+          "id": "z_5_3",
+          "art": "control",
+          "nummer": "5.3",
+          "bez": "5.3",
+          "titel": {
+            "de": "Wegfall der Wesentlichkeitsgrenze im IKT-Änderungsmanagement"
+          },
+          "pfad": "ab/5.3",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_6",
+      "art": "abschnitt",
+      "nummer": "6",
+      "bez": "6",
+      "titel": {
+        "de": "IKT-Drittparteienrisikomanagement"
+      },
+      "pfad": "gr/6",
+      "kinder": [
+        {
+          "id": "z_6_1",
+          "art": "control",
+          "nummer": "6.1",
+          "bez": "6.1",
+          "titel": {
+            "de": "Abgrenzung zu Auslagerung und Ausgliederung"
+          },
+          "pfad": "ab/6.1",
+          "text": true
+        },
+        {
+          "id": "z_6_2",
+          "art": "control",
+          "nummer": "6.2",
+          "bez": "6.2",
+          "titel": {
+            "de": "Ausweitung der Vertragsanforderungen"
+          },
+          "pfad": "ab/6.2",
+          "text": true
+        },
+        {
+          "id": "z_6_3",
+          "art": "control",
+          "nummer": "6.3",
+          "bez": "6.3",
+          "titel": {
+            "de": "Neuregelung von Unterauftragsvergaben"
+          },
+          "pfad": "ab/6.3",
+          "text": true
+        },
+        {
+          "id": "z_6_4",
+          "art": "control",
+          "nummer": "6.4",
+          "bez": "6.4",
+          "titel": {
+            "de": "Umfangreiche Anforderungen an Risikoanalysen und Due Diligence"
+          },
+          "pfad": "ab/6.4",
+          "text": true
+        },
+        {
+          "id": "z_6_5",
+          "art": "control",
+          "nummer": "6.5",
+          "bez": "6.5",
+          "titel": {
+            "de": "Geänderte Anforderungen an den Ausstieg und an Konzentrationsrisiken"
+          },
+          "pfad": "ab/6.5",
+          "text": true
+        },
+        {
+          "id": "z_6_6",
+          "art": "control",
+          "nummer": "6.6",
+          "bez": "6.6",
+          "titel": {
+            "de": "Veränderungen an der Governance des IKT-Drittparteienrisikos"
+          },
+          "pfad": "ab/6.6",
+          "text": true
+        },
+        {
+          "id": "z_6_7",
+          "art": "control",
+          "nummer": "6.7",
+          "bez": "6.7",
+          "titel": {
+            "de": "Hinweis zu Meldepflichten und Informationsregister"
+          },
+          "pfad": "ab/6.7",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_7",
+      "art": "abschnitt",
+      "nummer": "7",
+      "bez": "7",
+      "titel": {
+        "de": "Operative Informationssicherheit"
+      },
+      "pfad": "gr/7",
+      "kinder": [
+        {
+          "id": "z_7_1",
+          "art": "control",
+          "nummer": "7.1",
+          "bez": "7.1",
+          "titel": {
+            "de": "Gestärkte Netzwerksicherheit"
+          },
+          "pfad": "ab/7.1",
+          "text": true
+        },
+        {
+          "id": "z_7_2",
+          "art": "control",
+          "nummer": "7.2",
+          "bez": "7.2",
+          "titel": {
+            "de": "Verschlüsselung von Daten auch während der Verarbeitung"
+          },
+          "pfad": "ab/7.2",
+          "text": true
+        },
+        {
+          "id": "z_7_3",
+          "art": "control",
+          "nummer": "7.3",
+          "bez": "7.3",
+          "titel": {
+            "de": "Zeitnahe Erkennung und Behandlung von Schwachstellen und Anomalien"
+          },
+          "pfad": "ab/7.3",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_8",
+      "art": "abschnitt",
+      "nummer": "8",
+      "bez": "8",
+      "titel": {
+        "de": "Identitäts- und Rechtemanagement"
+      },
+      "pfad": "gr/8",
+      "kinder": [
+        {
+          "id": "z_8_1",
+          "art": "control",
+          "nummer": "8.1",
+          "bez": "8.1",
+          "titel": {
+            "de": "Explizite Anforderungen an das Identitätsmanagement"
+          },
+          "pfad": "ab/8.1",
+          "text": true
+        },
+        {
+          "id": "z_8_2",
+          "art": "control",
+          "nummer": "8.2",
+          "bez": "8.2",
+          "titel": {
+            "de": "Einführung des „need-to-use“-Prinzips"
+          },
+          "pfad": "ab/8.2",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_a",
+      "art": "abschnitt",
+      "nummer": "A",
+      "bez": "A",
+      "titel": {
+        "de": "Anhang"
+      },
+      "pfad": "gr/a",
+      "kinder": [
+        {
+          "id": "z_a",
+          "art": "control",
+          "nummer": "A",
+          "bez": "A",
+          "titel": {
+            "de": "Anhang: Mindestvertragsinhalte"
+          },
+          "pfad": "ab/anhang",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

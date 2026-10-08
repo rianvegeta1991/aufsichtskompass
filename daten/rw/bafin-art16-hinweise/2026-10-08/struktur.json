@@ -1,0 +1,60 @@
+{
+  "regelwerk": "bafin-art16-hinweise",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:20:57Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts, ungeprüft) – Bezugsfassung: BaFin, Hinweise zu den Dokumentationsanforderungen an Finanzunternehmen gemäß Artikel 16 DORA – Fragen und Antworten zur Übersicht (2 Seiten), Stand 21.08.2025",
+    "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Anlage/dl_2025_08_21_Hinweise_Uebersicht_Artikel_16_DORA.html",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein BaFin, Hinweise zu den Dokumentationsanforderungen nach Artikel 16 DORA (BaFin, Hinweise zu den Dokumentationsanforderungen an Finanzunternehmen gemäß Artikel 16 DORA – Fragen und Antworten zur Übersicht (2 Seiten), Stand 21.08.2025)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_faq",
+      "art": "abschnitt",
+      "nummer": "FAQ",
+      "bez": "FAQ",
+      "titel": {
+        "de": "Fragen und Antworten zur Übersicht"
+      },
+      "pfad": "gr/faq",
+      "kinder": [
+        {
+          "id": "z_1",
+          "art": "control",
+          "nummer": "1",
+          "bez": "1",
+          "titel": {
+            "de": "Wozu dient die Übersicht und an wen richtet sie sich?"
+          },
+          "pfad": "a16/1",
+          "text": true
+        },
+        {
+          "id": "z_2",
+          "art": "control",
+          "nummer": "2",
+          "bez": "2",
+          "titel": {
+            "de": "Aufbau der Übersicht und verwendete Abkürzungen"
+          },
+          "pfad": "a16/2",
+          "text": true
+        },
+        {
+          "id": "z_3",
+          "art": "control",
+          "nummer": "3",
+          "bez": "3",
+          "titel": {
+            "de": "Was die Übersicht nicht leistet"
+          },
+          "pfad": "a16/3",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

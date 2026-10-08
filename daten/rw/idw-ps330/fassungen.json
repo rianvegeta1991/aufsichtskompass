@@ -1,0 +1,17 @@
+{
+  "regelwerk": "idw-ps330",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:04Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: IDW PS 330 – Abschlussprüfung bei Einsatz von Informationstechnologie",
+        "url": "https://www.idw.de/",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein IDW PS 330 (IDW PS 330 – Abschlussprüfung bei Einsatz von Informationstechnologie)."
+      },
+      "hash": "9f951c0f80611c1bc524f979c5c4fa7f2df0d019f32afe1a1808d77279c2368a",
+      "fundstellen": 3
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "regelwerk": "iso22301",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:07Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISO 22301:2019 – Sicherheit und Resilienz – Business-Continuity-Managementsysteme – Anforderungen",
+    "url": "https://www.iso.org/standard/75106.html",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO 22301 (ISO 22301:2019 – Sicherheit und Resilienz – Business-Continuity-Managementsysteme – Anforderungen)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_k",
+      "art": "abschnitt",
+      "nummer": "K",
+      "bez": "K",
+      "titel": {
+        "de": "Klauseln 4 bis 10"
+      },
+      "pfad": "gr/k",
+      "kinder": [
+        {
+          "id": "z_4",
+          "art": "control",
+          "nummer": "4",
+          "bez": "4",
+          "titel": {
+            "de": "Kontext der Organisation"
+          },
+          "pfad": "b/4",
+          "text": true
+        },
+        {
+          "id": "z_5",
+          "art": "control",
+          "nummer": "5",
+          "bez": "5",
+          "titel": {
+            "de": "Führung"
+          },
+          "pfad": "b/5",
+          "text": true
+        },
+        {
+          "id": "z_6",
+          "art": "control",
+          "nummer": "6",
+          "bez": "6",
+          "titel": {
+            "de": "Planung"
+          },
+          "pfad": "b/6",
+          "text": true
+        },
+        {
+          "id": "z_7",
+          "art": "control",
+          "nummer": "7",
+          "bez": "7",
+          "titel": {
+            "de": "Unterstützung"
+          },
+          "pfad": "b/7",
+          "text": true
+        },
+        {
+          "id": "z_8_1",
+          "art": "control",
+          "nummer": "8.1",
+          "bez": "8.1",
+          "titel": {
+            "de": "Betriebliche Planung und Steuerung"
+          },
+          "pfad": "b/8.1",
+          "text": true
+        },
+        {
+          "id": "z_8_2",
+          "art": "control",
+          "nummer": "8.2",
+          "bez": "8.2",
+          "titel": {
+            "de": "Business-Impact-Analyse und Risikobeurteilung"
+          },
+          "pfad": "b/8.2",
+          "text": true
+        },
+        {
+          "id": "z_8_3",
+          "art": "control",
+          "nummer": "8.3",
+          "bez": "8.3",
+          "titel": {
+            "de": "Strategien und Lösungen für die Geschäftsfortführung"
+          },
+          "pfad": "b/8.3",
+          "text": true
+        },
+        {
+          "id": "z_8_4",
+          "art": "control",
+          "nummer": "8.4",
+          "bez": "8.4",
+          "titel": {
+            "de": "Business-Continuity-Pläne und -Verfahren"
+          },
+          "pfad": "b/8.4",
+          "text": true
+        },
+        {
+          "id": "z_8_5",
+          "art": "control",
+          "nummer": "8.5",
+          "bez": "8.5",
+          "titel": {
+            "de": "Übungsprogramm"
+          },
+          "pfad": "b/8.5",
+          "text": true
+        },
+        {
+          "id": "z_8_6",
+          "art": "control",
+          "nummer": "8.6",
+          "bez": "8.6",
+          "titel": {
+            "de": "Bewertung der Dokumentation und der Fähigkeiten der Geschäftsfortführung"
+          },
+          "pfad": "b/8.6",
+          "text": true
+        },
+        {
+          "id": "z_9",
+          "art": "control",
+          "nummer": "9",
+          "bez": "9",
+          "titel": {
+            "de": "Bewertung der Leistung"
+          },
+          "pfad": "b/9",
+          "text": true
+        },
+        {
+          "id": "z_10",
+          "art": "control",
+          "nummer": "10",
+          "bez": "10",
+          "titel": {
+            "de": "Verbesserung"
+          },
+          "pfad": "b/10",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

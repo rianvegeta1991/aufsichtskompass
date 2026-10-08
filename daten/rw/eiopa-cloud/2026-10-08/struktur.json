@@ -1,0 +1,203 @@
+{
+  "regelwerk": "eiopa-cloud",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:01Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts, ungeprüft) – Bezugsfassung: EIOPA-Leitlinien zum Outsourcing an Cloud-Anbieter (EIOPA-BoS-20-002 DE), 19 Seiten; veröffentlicht 06.02.2020",
+    "url": "https://www.eiopa.europa.eu/publications/guidelines-outsourcing-cloud-service-providers_en",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein EIOPA, Guidelines on outsourcing to cloud service providers (EIOPA-BoS-20-002) (EIOPA-Leitlinien zum Outsourcing an Cloud-Anbieter (EIOPA-BoS-20-002 DE), 19 Seiten; veröffentlicht 06.02.2020)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_ll",
+      "art": "abschnitt",
+      "nummer": "LL",
+      "bez": "LL",
+      "titel": {
+        "de": "Leitlinien 1 bis 16"
+      },
+      "pfad": "gr/ll",
+      "kinder": [
+        {
+          "id": "z_l1",
+          "art": "control",
+          "nummer": "L1",
+          "bez": "L1",
+          "titel": {
+            "de": "Leitlinie 1 – Cloud-Dienste und Outsourcing"
+          },
+          "pfad": "c/l1",
+          "text": true
+        },
+        {
+          "id": "z_l2",
+          "art": "control",
+          "nummer": "L2",
+          "bez": "L2",
+          "titel": {
+            "de": "Leitlinie 2 – Allgemeine Governance-Grundsätze für Cloud-Outsourcing"
+          },
+          "pfad": "c/l2",
+          "text": true
+        },
+        {
+          "id": "z_l3",
+          "art": "control",
+          "nummer": "L3",
+          "bez": "L3",
+          "titel": {
+            "de": "Leitlinie 3 – Aktualisierung der schriftlich festgelegten Auslagerungsstrategie"
+          },
+          "pfad": "c/l3",
+          "text": true
+        },
+        {
+          "id": "z_l4",
+          "art": "control",
+          "nummer": "L4",
+          "bez": "L4",
+          "titel": {
+            "de": "Leitlinie 4 – Schriftliche Mitteilung an die Aufsichtsbehörde"
+          },
+          "pfad": "c/l4",
+          "text": true
+        },
+        {
+          "id": "z_l5",
+          "art": "control",
+          "nummer": "L5",
+          "bez": "L5",
+          "titel": {
+            "de": "Leitlinie 5 – Dokumentationsanforderungen"
+          },
+          "pfad": "c/l5",
+          "text": true
+        },
+        {
+          "id": "z_l6",
+          "art": "control",
+          "nummer": "L6",
+          "bez": "L6",
+          "titel": {
+            "de": "Leitlinie 6 – Analyse vor der Auslagerung"
+          },
+          "pfad": "c/l6",
+          "text": true
+        },
+        {
+          "id": "z_l7",
+          "art": "control",
+          "nummer": "L7",
+          "bez": "L7",
+          "titel": {
+            "de": "Leitlinie 7 – Prüfung kritischer oder wichtiger operativer Funktionen und Tätigkeiten"
+          },
+          "pfad": "c/l7",
+          "text": true
+        },
+        {
+          "id": "z_l8",
+          "art": "control",
+          "nummer": "L8",
+          "bez": "L8",
+          "titel": {
+            "de": "Leitlinie 8 – Bewertung der mit dem Cloud-Outsourcing verbundenen Risiken"
+          },
+          "pfad": "c/l8",
+          "text": true
+        },
+        {
+          "id": "z_l9",
+          "art": "control",
+          "nummer": "L9",
+          "bez": "L9",
+          "titel": {
+            "de": "Leitlinie 9 – Due-Diligence-Prüfung des Cloud-Anbieters"
+          },
+          "pfad": "c/l9",
+          "text": true
+        },
+        {
+          "id": "z_l10",
+          "art": "control",
+          "nummer": "L10",
+          "bez": "L10",
+          "titel": {
+            "de": "Leitlinie 10 – Vertraglich geregelte Anforderungen"
+          },
+          "pfad": "c/l10",
+          "text": true
+        },
+        {
+          "id": "z_l11",
+          "art": "control",
+          "nummer": "L11",
+          "bez": "L11",
+          "titel": {
+            "de": "Leitlinie 11 – Zugangs- und Prüfungsrechte"
+          },
+          "pfad": "c/l11",
+          "text": true
+        },
+        {
+          "id": "z_l12",
+          "art": "control",
+          "nummer": "L12",
+          "bez": "L12",
+          "titel": {
+            "de": "Leitlinie 12 – Sicherheit von Daten und Systemen"
+          },
+          "pfad": "c/l12",
+          "text": true
+        },
+        {
+          "id": "z_l13",
+          "art": "control",
+          "nummer": "L13",
+          "bez": "L13",
+          "titel": {
+            "de": "Leitlinie 13 – Weiterauslagerung von kritischen oder wichtigen operativen Funktionen oder Tätigkeiten"
+          },
+          "pfad": "c/l13",
+          "text": true
+        },
+        {
+          "id": "z_l14",
+          "art": "control",
+          "nummer": "L14",
+          "bez": "L14",
+          "titel": {
+            "de": "Leitlinie 14 – Überwachung und Kontrolle von Vereinbarungen über Cloud-Outsourcing"
+          },
+          "pfad": "c/l14",
+          "text": true
+        },
+        {
+          "id": "z_l15",
+          "art": "control",
+          "nummer": "L15",
+          "bez": "L15",
+          "titel": {
+            "de": "Leitlinie 15 – Kündigungsrechte und Ausstiegsstrategien"
+          },
+          "pfad": "c/l15",
+          "text": true
+        },
+        {
+          "id": "z_l16",
+          "art": "control",
+          "nummer": "L16",
+          "bez": "L16",
+          "titel": {
+            "de": "Leitlinie 16 – Beaufsichtigung von Vereinbarungen über Cloud-Outsourcing durch Aufsichtsbehörden"
+          },
+          "pfad": "c/l16",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

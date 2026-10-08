@@ -1,0 +1,115 @@
+{
+  "regelwerk": "iso27005",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:10Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISO/IEC 27005 – Leitfaden zum Management von Informationssicherheitsrisiken (Ausgabe 2022)",
+    "url": "https://www.iso.org/standard/80585.html",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27005 (ISO/IEC 27005 – Leitfaden zum Management von Informationssicherheitsrisiken (Ausgabe 2022))."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_p",
+      "art": "abschnitt",
+      "nummer": "P",
+      "bez": "P",
+      "titel": {
+        "de": "Risikomanagementprozess für die Informationssicherheit"
+      },
+      "pfad": "gr/p",
+      "kinder": [
+        {
+          "id": "z_p1",
+          "art": "control",
+          "nummer": "P1",
+          "bez": "P1",
+          "titel": {
+            "de": "Einordnung und Zusammenspiel mit ISO/IEC 27001 und ISO 31000"
+          },
+          "pfad": "r/einordnung",
+          "text": true
+        },
+        {
+          "id": "z_p2",
+          "art": "control",
+          "nummer": "P2",
+          "bez": "P2",
+          "titel": {
+            "de": "Kontext festlegen: Anwendungsbereich und Kriterien"
+          },
+          "pfad": "r/kontext",
+          "text": true
+        },
+        {
+          "id": "z_p3",
+          "art": "control",
+          "nummer": "P3",
+          "bez": "P3",
+          "titel": {
+            "de": "Risikoidentifikation: ereignisbasierter und werte­basierter Ansatz"
+          },
+          "pfad": "r/identifikation",
+          "text": true
+        },
+        {
+          "id": "z_p4",
+          "art": "control",
+          "nummer": "P4",
+          "bez": "P4",
+          "titel": {
+            "de": "Risikoanalyse"
+          },
+          "pfad": "r/analyse",
+          "text": true
+        },
+        {
+          "id": "z_p5",
+          "art": "control",
+          "nummer": "P5",
+          "bez": "P5",
+          "titel": {
+            "de": "Risikobewertung"
+          },
+          "pfad": "r/bewertung",
+          "text": true
+        },
+        {
+          "id": "z_p6",
+          "art": "control",
+          "nummer": "P6",
+          "bez": "P6",
+          "titel": {
+            "de": "Risikobehandlung: Optionen, Kontrollen und Restrisiko"
+          },
+          "pfad": "r/behandlung",
+          "text": true
+        },
+        {
+          "id": "z_p7",
+          "art": "control",
+          "nummer": "P7",
+          "bez": "P7",
+          "titel": {
+            "de": "Kommunikation und Beratung"
+          },
+          "pfad": "r/kommunikation",
+          "text": true
+        },
+        {
+          "id": "z_p8",
+          "art": "control",
+          "nummer": "P8",
+          "bez": "P8",
+          "titel": {
+            "de": "Überwachung, Überprüfung und Aufzeichnung"
+          },
+          "pfad": "r/ueberwachung",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

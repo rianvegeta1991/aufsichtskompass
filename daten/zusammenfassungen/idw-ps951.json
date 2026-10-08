@@ -1,0 +1,73 @@
+{
+  "regelwerk": "idw-ps951",
+  "bezugsfassung": "IDW PS 951 – Die Prüfung des internen Kontrollsystems bei Dienstleistungsunternehmen",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen",
+  "geprueft": false,
+  "hinweis": "Der Prüfungsstandard des Instituts der Wirtschaftsprüfer (IDW) ist nicht frei zugänglich, die Zusammenfassung beschreibt Zweck und Anwendungsfall in eigenen Worten und nur grob (so verlangt es der Auftrag für IDW-Standards). Der IDW überarbeitet seine Prüfungsstandards fortlaufend; ob die hier beschriebene Fassung noch gilt oder durch eine neue Fassung ersetzt wurde, ist vor einer Verwendung beim IDW zu prüfen. Die Beschreibung stammt aus dem Gedächtnis. Der Standard ist inhaltlich mit ISAE 3402 abgestimmt.",
+  "quelle": {
+    "name": "IDW PS 951",
+    "url": "https://www.idw.de/"
+  },
+  "gruppen": [
+    {
+      "kennung": "P",
+      "titel": "Prüfungsstandard"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "Z",
+      "titel": "Zweck und Anwendungsfall",
+      "gruppe": "P",
+      "pfad": "a/zweck",
+      "zweck": "Ein Dienstleistungsunternehmen, das Leistungen erbringt, die für die Rechnungslegung seiner Kunden bedeutsam sind, lässt sein internes Kontrollsystem durch einen Wirtschaftsprüfer prüfen. Der Bericht dient den Kunden und deren Abschlussprüfern als Nachweis, ohne dass jeder Kunde selbst prüfen muss.",
+      "anforderungen": [
+        "Beschreibung des Systems durch das Dienstleistungsunternehmen",
+        "Erklärung der gesetzlichen Vertreter",
+        "Prüfung der Beschreibung und der Kontrollen durch den Wirtschaftsprüfer"
+      ],
+      "nachweise": [
+        "Bericht über die Prüfung des internen Kontrollsystems"
+      ],
+      "bezuege": [
+        "Üblicher Nachweis bei der Auslagerung; ersetzt aber nicht die eigene Überwachung nach Artikel 28 DORA."
+      ]
+    },
+    {
+      "kennung": "T",
+      "titel": "Typen der Berichte",
+      "gruppe": "P",
+      "pfad": "a/typen",
+      "zweck": "Wie bei ISAE 3402 gibt es Berichte zum Aufbau der Kontrollen zu einem Stichtag (Typ A) und zusätzlich zur Wirksamkeit über einen Zeitraum (Typ B).",
+      "anforderungen": [
+        "Typ A: Angemessenheit des Aufbaus zu einem Zeitpunkt",
+        "Typ B: zusätzlich Wirksamkeit über einen Zeitraum"
+      ],
+      "nachweise": [
+        "Berichtstyp und Berichtszeitraum prüfen"
+      ],
+      "bezuege": [
+        "Entspricht Typ 1 und Typ 2 nach ISAE 3402."
+      ]
+    },
+    {
+      "kennung": "N",
+      "titel": "Nutzung durch das auslagernde Unternehmen",
+      "gruppe": "P",
+      "pfad": "a/nutzung",
+      "zweck": "Das auslagernde Unternehmen prüft Umfang, Zeitraum, Ausnahmen und die ergänzenden Kontrollen, die es selbst beim Kunden umsetzen muss, und ob nachgelagerte Dienstleister enthalten sind.",
+      "anforderungen": [
+        "Abdeckung des Berichts gegen die eigenen Anforderungen abgleichen",
+        "Ergänzende Kontrollen beim Kunden umsetzen",
+        "Feststellungen verfolgen"
+      ],
+      "nachweise": [
+        "Auswertung des Berichts mit Abgleich zu den eigenen Anforderungen"
+      ],
+      "bezuege": [
+        "Nutzung von Prüfberichten als Teil der Due Diligence nach Artikel 28 DORA und der Prüfung von Auslagerungen nach MaGo."
+      ]
+    }
+  ]
+}

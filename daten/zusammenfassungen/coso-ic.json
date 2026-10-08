@@ -1,0 +1,372 @@
+{
+  "regelwerk": "coso-ic",
+  "bezugsfassung": "COSO, Internal Control – Integrated Framework (2013): fünf Komponenten, siebzehn Prinzipien",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen",
+  "geprueft": false,
+  "hinweis": "Kein zulässiger Volltext: Das COSO-Rahmenwerk ist urheberrechtlich geschützt. Hier stehen die fünf Komponenten und die siebzehn Prinzipien, wie sie allgemein bekannt sind, jeweils in eigenen Worten und mit stichwortartigen Merkmalen – die „Points of Focus“ des Originals sind nicht wiedergegeben. Das Rahmenwerk dient als Referenz für das interne Kontrollsystem; es ist keine Rechtsvorschrift. Titel und Zählung der Prinzipien stammen aus dem Gedächtnis; sie sind allgemein bekannt, aber gegen das Original abzugleichen.",
+  "quelle": {
+    "name": "COSO Internal Control – Integrated Framework",
+    "url": "https://www.coso.org/"
+  },
+  "gruppen": [
+    {
+      "kennung": "KP",
+      "titel": "Fünf Komponenten und siebzehn Prinzipien"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "K1",
+      "titel": "Kontrollumfeld",
+      "gruppe": "KP",
+      "pfad": "i/k1",
+      "zweck": "Die Grundlage des internen Kontrollsystems: Haltung, Werte und Strukturen der Organisation. Fünf Prinzipien (1 bis 5).",
+      "anforderungen": [
+        "Integrität und ethische Werte, Aufsicht durch das Aufsichtsorgan, Strukturen und Befugnisse, Kompetenz, Rechenschaft"
+      ],
+      "nachweise": [
+        "Dokumentation der Kontrollen und der Beurteilungen"
+      ],
+      "bezuege": [
+        "Entspricht der Governance nach § 23 VAG und Artikel 5 DORA."
+      ]
+    },
+    {
+      "kennung": "P1",
+      "titel": "Prinzip 1: Bekenntnis zu Integrität und ethischen Werten",
+      "gruppe": "KP",
+      "pfad": "i/p1",
+      "zweck": "Die Organisation zeigt, dass sie Integrität und ethische Werte ernst nimmt.",
+      "anforderungen": [
+        "Verhaltensregeln, Vorbildfunktion der Leitung, Umgang mit Abweichungen"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Compliance-Kultur nach § 29 VAG."
+      ]
+    },
+    {
+      "kennung": "P2",
+      "titel": "Prinzip 2: Unabhängige Aufsicht durch das Aufsichtsorgan",
+      "gruppe": "KP",
+      "pfad": "i/p2",
+      "zweck": "Das Aufsichtsorgan ist von der Geschäftsleitung unabhängig und überwacht Entwicklung und Funktion der internen Kontrolle.",
+      "anforderungen": [
+        "Unabhängigkeit und Fachkunde, regelmäßige Berichterstattung"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Überwachung durch das Leitungs- und Aufsichtsorgan nach Artikel 5 DORA."
+      ]
+    },
+    {
+      "kennung": "P3",
+      "titel": "Prinzip 3: Strukturen, Berichtslinien, Zuständigkeiten",
+      "gruppe": "KP",
+      "pfad": "i/p3",
+      "zweck": "Die Leitung legt unter der Aufsicht des Aufsichtsorgans Strukturen, Berichtslinien und angemessene Befugnisse fest.",
+      "anforderungen": [
+        "Organisationsstruktur, Rollenbeschreibungen, Berichtswege"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Aufbau- und Ablauforganisation nach MaGo Kapitel 9."
+      ]
+    },
+    {
+      "kennung": "P4",
+      "titel": "Prinzip 4: Bekenntnis zu Kompetenz",
+      "gruppe": "KP",
+      "pfad": "i/p4",
+      "zweck": "Die Organisation gewinnt, entwickelt und hält kompetente Personen im Einklang mit den Zielen.",
+      "anforderungen": [
+        "Qualifikationsanforderungen, Schulung, Nachfolgeplanung"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Fachliche Qualifikation nach § 24 VAG."
+      ]
+    },
+    {
+      "kennung": "P5",
+      "titel": "Prinzip 5: Rechenschaftspflicht",
+      "gruppe": "KP",
+      "pfad": "i/p5",
+      "zweck": "Die Organisation zieht Personen für ihre Verantwortung im internen Kontrollsystem zur Rechenschaft.",
+      "anforderungen": [
+        "Leistungsmessung, Anreize, Konsequenzen"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Verantwortlichkeit der Schlüsselfunktionen."
+      ]
+    },
+    {
+      "kennung": "K2",
+      "titel": "Risikobeurteilung",
+      "gruppe": "KP",
+      "pfad": "i/k2",
+      "zweck": "Die Organisation erkennt und bewertet die Risiken, die der Zielerreichung entgegenstehen. Vier Prinzipien (6 bis 9).",
+      "anforderungen": [
+        "Ziele festlegen, Risiken identifizieren und analysieren, Betrugsrisiken betrachten, wesentliche Änderungen berücksichtigen"
+      ],
+      "nachweise": [
+        "Dokumentation der Kontrollen und der Beurteilungen"
+      ],
+      "bezuege": [
+        "Risikomanagement nach § 26 VAG."
+      ]
+    },
+    {
+      "kennung": "P6",
+      "titel": "Prinzip 6: Geeignete Ziele festlegen",
+      "gruppe": "KP",
+      "pfad": "i/p6",
+      "zweck": "Ziele sind so klar, dass sich Risiken ermitteln und beurteilen lassen: operative, berichtsbezogene und Compliance-Ziele.",
+      "anforderungen": [
+        "Messbare, abgestimmte Ziele auf allen Ebenen"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Zielvorgaben der Geschäftsstrategie."
+      ]
+    },
+    {
+      "kennung": "P7",
+      "titel": "Prinzip 7: Risiken identifizieren und analysieren",
+      "gruppe": "KP",
+      "pfad": "i/p7",
+      "zweck": "Die Organisation identifiziert Risiken für ihre Ziele über alle Ebenen und analysiert sie, um zu bestimmen, wie sie gesteuert werden.",
+      "anforderungen": [
+        "Risikoinventur, Bewertung nach Eintritt und Auswirkung, Risikotoleranzen"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "IKT-Risikoidentifizierung nach Artikel 8 DORA."
+      ]
+    },
+    {
+      "kennung": "P8",
+      "titel": "Prinzip 8: Betrugsrisiken berücksichtigen",
+      "gruppe": "KP",
+      "pfad": "i/p8",
+      "zweck": "Bei der Beurteilung der Risiken werden die Möglichkeiten von Betrug einbezogen.",
+      "anforderungen": [
+        "Betrugsszenarien, Anreize und Gelegenheiten, Rationalisierung"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Missbrauchsbekämpfung im Versicherungsgeschäft."
+      ]
+    },
+    {
+      "kennung": "P9",
+      "titel": "Prinzip 9: Wesentliche Änderungen identifizieren und analysieren",
+      "gruppe": "KP",
+      "pfad": "i/p9",
+      "zweck": "Änderungen, die das interne Kontrollsystem erheblich beeinflussen können, werden erkannt und bewertet.",
+      "anforderungen": [
+        "Änderungen im Umfeld, im Geschäftsmodell, in der Führung und in der Technik"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Änderungsmanagement nach Artikel 17 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "K3",
+      "titel": "Kontrollaktivitäten",
+      "gruppe": "KP",
+      "pfad": "i/k3",
+      "zweck": "Maßnahmen, die durch Richtlinien und Verfahren sicherstellen, dass Vorgaben der Leitung zur Risikominderung umgesetzt werden. Drei Prinzipien (10 bis 12).",
+      "anforderungen": [
+        "Kontrollaktivitäten auswählen, technologische Kontrollen, Umsetzung durch Richtlinien"
+      ],
+      "nachweise": [
+        "Dokumentation der Kontrollen und der Beurteilungen"
+      ],
+      "bezuege": [
+        "Entspricht dem internen Kontrollsystem nach § 29 VAG."
+      ]
+    },
+    {
+      "kennung": "P10",
+      "titel": "Prinzip 10: Kontrollaktivitäten auswählen und entwickeln",
+      "gruppe": "KP",
+      "pfad": "i/p10",
+      "zweck": "Die Organisation wählt Kontrollaktivitäten aus, die zur Minderung der Risiken auf ein akzeptables Niveau beitragen.",
+      "anforderungen": [
+        "Mix aus präventiven und detektiven, manuellen und automatisierten Kontrollen, Funktionstrennung"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Kontrolldesign nach MaGo Kapitel 12."
+      ]
+    },
+    {
+      "kennung": "P11",
+      "titel": "Prinzip 11: Allgemeine Kontrollen über Technologie",
+      "gruppe": "KP",
+      "pfad": "i/p11",
+      "zweck": "Die Organisation wählt allgemeine Kontrollen über die Technologie aus und entwickelt sie, um die Zielerreichung zu unterstützen.",
+      "anforderungen": [
+        "IT-Infrastruktur, Sicherheitsmanagement, Beschaffung, Entwicklung und Wartung"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Allgemeine IT-Kontrollen entsprechen den Anforderungen des Kapitels II DORA; prüfungsrelevant nach IDW PS 330."
+      ]
+    },
+    {
+      "kennung": "P12",
+      "titel": "Prinzip 12: Umsetzung durch Richtlinien und Verfahren",
+      "gruppe": "KP",
+      "pfad": "i/p12",
+      "zweck": "Kontrollaktivitäten werden durch Richtlinien umgesetzt, die Erwartungen festlegen, und durch Verfahren, die sie umsetzen.",
+      "anforderungen": [
+        "Schriftliche Richtlinien, Zuständigkeiten, zeitnahe Anwendung, Überprüfung"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Schriftlich fixierte Leitlinien nach Artikel 41 Absatz 3 der Richtlinie 2009/138/EG."
+      ]
+    },
+    {
+      "kennung": "K4",
+      "titel": "Information und Kommunikation",
+      "gruppe": "KP",
+      "pfad": "i/k4",
+      "zweck": "Relevante Informationen werden in nutzbarer Form und rechtzeitig erfasst und kommuniziert. Drei Prinzipien (13 bis 15).",
+      "anforderungen": [
+        "Qualitätsinformationen, interne Kommunikation, externe Kommunikation"
+      ],
+      "nachweise": [
+        "Dokumentation der Kontrollen und der Beurteilungen"
+      ],
+      "bezuege": [
+        "Berichtswesen nach Artikel 13 DORA."
+      ]
+    },
+    {
+      "kennung": "P13",
+      "titel": "Prinzip 13: Relevante, hochwertige Informationen nutzen",
+      "gruppe": "KP",
+      "pfad": "i/p13",
+      "zweck": "Die Organisation erhält, erzeugt und nutzt relevante, hochwertige Informationen zur Unterstützung der internen Kontrolle.",
+      "anforderungen": [
+        "Informationsbedarf bestimmen, Quellen und Datenqualität sichern"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Datenqualität nach MaGo."
+      ]
+    },
+    {
+      "kennung": "P14",
+      "titel": "Prinzip 14: Interne Kommunikation",
+      "gruppe": "KP",
+      "pfad": "i/p14",
+      "zweck": "Informationen, die für die interne Kontrolle nötig sind, werden intern kommuniziert, auch Ziele und Verantwortlichkeiten.",
+      "anforderungen": [
+        "Kommunikation zwischen Leitung und Mitarbeitern, Meldewege, Hinweisgebersystem"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Hinweisgeberschutz und Meldewege."
+      ]
+    },
+    {
+      "kennung": "P15",
+      "titel": "Prinzip 15: Externe Kommunikation",
+      "gruppe": "KP",
+      "pfad": "i/p15",
+      "zweck": "Die Organisation kommuniziert mit externen Parteien über Angelegenheiten, die das Funktionieren der internen Kontrolle betreffen.",
+      "anforderungen": [
+        "Kommunikation mit Aufsicht, Prüfern, Kunden und Lieferanten"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Meldungen an die Aufsicht nach Artikel 19 DORA."
+      ]
+    },
+    {
+      "kennung": "K5",
+      "titel": "Überwachungsaktivitäten",
+      "gruppe": "KP",
+      "pfad": "i/k5",
+      "zweck": "Laufende und gesonderte Beurteilungen stellen fest, ob die fünf Komponenten vorhanden sind und wirksam funktionieren. Zwei Prinzipien (16 und 17).",
+      "anforderungen": [
+        "Laufende und gesonderte Beurteilung, Mängelbewertung und -mitteilung"
+      ],
+      "nachweise": [
+        "Dokumentation der Kontrollen und der Beurteilungen"
+      ],
+      "bezuege": [
+        "Überprüfung durch interne Revision nach § 30 VAG."
+      ]
+    },
+    {
+      "kennung": "P16",
+      "titel": "Prinzip 16: Laufende und gesonderte Beurteilungen",
+      "gruppe": "KP",
+      "pfad": "i/p16",
+      "zweck": "Die Organisation wählt laufende und/oder gesonderte Beurteilungen aus, entwickelt und führt sie durch.",
+      "anforderungen": [
+        "Selbstbeurteilung, Kontrolltests, interne und externe Prüfung"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Wirksamkeitsprüfung nach MaGo Kapitel 12."
+      ]
+    },
+    {
+      "kennung": "P17",
+      "titel": "Prinzip 17: Mängel bewerten und mitteilen",
+      "gruppe": "KP",
+      "pfad": "i/p17",
+      "zweck": "Mängel der internen Kontrolle werden zeitnah an die verantwortlichen Stellen mitgeteilt, einschließlich Leitung und Aufsichtsorgan, und behoben.",
+      "anforderungen": [
+        "Mängelbewertung, Berichtswege, Nachverfolgung"
+      ],
+      "nachweise": [
+        "Nachweise zur Umsetzung dieses Prinzips"
+      ],
+      "bezuege": [
+        "Maßnahmenverfolgung; Berichte an das Leitungsorgan nach Artikel 13 Absatz 5 DORA."
+      ]
+    }
+  ]
+}

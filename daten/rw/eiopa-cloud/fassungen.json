@@ -1,0 +1,17 @@
+{
+  "regelwerk": "eiopa-cloud",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:01Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts, ungeprüft) – Bezugsfassung: EIOPA-Leitlinien zum Outsourcing an Cloud-Anbieter (EIOPA-BoS-20-002 DE), 19 Seiten; veröffentlicht 06.02.2020",
+        "url": "https://www.eiopa.europa.eu/publications/guidelines-outsourcing-cloud-service-providers_en",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein EIOPA, Guidelines on outsourcing to cloud service providers (EIOPA-BoS-20-002) (EIOPA-Leitlinien zum Outsourcing an Cloud-Anbieter (EIOPA-BoS-20-002 DE), 19 Seiten; veröffentlicht 06.02.2020)."
+      },
+      "hash": "d853321dddc2c7c3682bed7c5553b69eb121af53a86c13d37d41ad592954f5e2",
+      "fundstellen": 16
+    }
+  ]
+}

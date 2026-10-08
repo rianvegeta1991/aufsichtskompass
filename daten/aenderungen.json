@@ -237,6 +237,132 @@
       "fassung": "2026-09-01",
       "art": "Erstaufnahme",
       "quelle": "https://publications.europa.eu/resource/celex/32023R2854"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:20:33Z",
+      "regelwerk": "bafin-art16-hinweise",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.bafin.de/SharedDocs/Downloads/DE/Anlage/dl_2025_08_21_Hinweise_Uebersicht_Artikel_16_DORA.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:20:34Z",
+      "regelwerk": "bafin-dora-mitteilung",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.bafin.de/SharedDocs/Downloads/DE/Anlage/Aufsichtsmitteilung/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:20:36Z",
+      "regelwerk": "coso-ic",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.coso.org/"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:20:38Z",
+      "regelwerk": "eiopa-cloud",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.eiopa.europa.eu/publications/guidelines-outsourcing-cloud-service-providers_en"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:20:38Z",
+      "regelwerk": "eiopa-governance",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.eiopa.europa.eu/publications/guidelines-system-governance_en"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:20:40Z",
+      "regelwerk": "gobd",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Weitere_Steuerthemen/Abgabenordnung/2025-07-14-GoBD-2-aenderung.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:20:41Z",
+      "regelwerk": "idw-ps330",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.idw.de/"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:05Z",
+      "regelwerk": "idw-ps860",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.idw.de/"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:06Z",
+      "regelwerk": "idw-ps951",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.idw.de/"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:07Z",
+      "regelwerk": "isae3402",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.iaasb.org/"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:07Z",
+      "regelwerk": "iso22301",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.iso.org/standard/75106.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:09Z",
+      "regelwerk": "iso27002",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.iso.org/standard/75652.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:10Z",
+      "regelwerk": "iso27005",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.iso.org/standard/80585.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:11Z",
+      "regelwerk": "iso27017",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.iso.org/standard/43757.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:11Z",
+      "regelwerk": "iso27018",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.iso.org/standard/76559.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:13Z",
+      "regelwerk": "marisk",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.bafin.de/SharedDocs/Downloads/DE/Rundschreiben/dl_rs_0626_9_marisk.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:21:14Z",
+      "regelwerk": "tiber-de",
+      "fassung": "2026-10-08",
+      "art": "Erstaufnahme",
+      "quelle": "https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/tiber-de"
+    },
+    {
+      "zeitpunkt": "2026-10-08T20:25:44Z",
+      "regelwerk": "nist-800-53",
+      "fassung": "2026-05-11",
+      "art": "Erstaufnahme",
+      "quelle": "https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json"
     }
   ]
 }

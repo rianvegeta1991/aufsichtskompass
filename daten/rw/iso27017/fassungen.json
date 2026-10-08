@@ -1,0 +1,17 @@
+{
+  "regelwerk": "iso27017",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:11Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISO/IEC 27017:2015 – Verhaltenskodex für Informationssicherheitsmaßnahmen für Cloud-Dienste auf der Grundlage von ISO/IEC 27002",
+        "url": "https://www.iso.org/standard/43757.html",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27017 (ISO/IEC 27017:2015 – Verhaltenskodex für Informationssicherheitsmaßnahmen für Cloud-Dienste auf der Grundlage von ISO/IEC 27002)."
+      },
+      "hash": "61aa71c4c9eadfed865c0923a45f9267aa7500261537914bcfccc2a4c0c4dbff",
+      "fundstellen": 8
+    }
+  ]
+}

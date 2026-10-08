@@ -1,0 +1,163 @@
+{
+  "regelwerk": "iso27017",
+  "bezugsfassung": "ISO/IEC 27017:2015 – Verhaltenskodex für Informationssicherheitsmaßnahmen für Cloud-Dienste auf der Grundlage von ISO/IEC 27002",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen",
+  "geprueft": false,
+  "hinweis": "Kein zulässiger Volltext: ISO/IEC 27017 ist urheberrechtlich geschützt und kostenpflichtig. Hier stehen ausschließlich eigene, knappe Beschreibungen in eigenen Worten – keine übernommenen Formulierungen. Die Norm besteht aus zwei Teilen: ergänzende Umsetzungshinweise zu bestehenden Controls der ISO/IEC 27002 und sieben eigene, cloudspezifische Controls (Präfix CLD). Sie richtet sich sowohl an Cloud-Kunden als auch an Cloud-Anbieter. Die Bezeichnungen und Nummern stammen aus der Ausgabe 2015, die an die 27002:2013 gebunden ist. Ob inzwischen eine an die 27002:2022 angepasste Neuausgabe vorliegt, ist zu prüfen. Zuordnung und Wortlaut sind gegen die Norm abzugleichen.",
+  "quelle": {
+    "name": "ISO/IEC 27017",
+    "url": "https://www.iso.org/standard/43757.html"
+  },
+  "gruppen": [
+    {
+      "kennung": "C",
+      "titel": "Cloud-spezifische Controls und Leitlinien"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "CLD.6.3.1",
+      "titel": "Gemeinsame Rollen und Verantwortlichkeiten in der Cloud-Umgebung",
+      "gruppe": "C",
+      "pfad": "c/cld.6.3.1",
+      "zweck": "Kunde und Anbieter teilen sich die Verantwortung für die Informationssicherheit. Die Aufteilung ist festzulegen, zu dokumentieren, zu kommunizieren und umzusetzen – für Kunden wie für Anbieter.",
+      "anforderungen": [
+        "Verantwortlichkeiten je Sicherheitsaufgabe zwischen Kunde und Anbieter zuordnen",
+        "Kontakt- und Eskalationswege festhalten",
+        "Gemeinsame Verantwortung nicht stillschweigend voraussetzen"
+      ],
+      "nachweise": [
+        "Verantwortungsmatrix im Vertrag"
+      ],
+      "bezuege": [
+        "Entspricht der Rollenaufteilung, die Artikel 30 DORA in den Verträgen verlangt."
+      ]
+    },
+    {
+      "kennung": "CLD.8.1.5",
+      "titel": "Rückgabe von Werten der Cloud-Kunden",
+      "gruppe": "C",
+      "pfad": "c/cld.8.1.5",
+      "zweck": "Bei Beendigung des Dienstes werden die Werte des Kunden zurückgegeben und beim Anbieter entfernt. Das Verfahren ist im Voraus zu vereinbaren.",
+      "anforderungen": [
+        "Rückgabe- und Löschverfahren mit Format und Fristen vereinbaren",
+        "Vollständigkeit der Löschung nachweisbar machen"
+      ],
+      "nachweise": [
+        "Beschreibung des Ausstiegsverfahrens",
+        "Löschbestätigung"
+      ],
+      "bezuege": [
+        "Datenrückgabe als Teil der Ausstiegsstrategie nach Artikel 28 Absatz 8 DORA."
+      ]
+    },
+    {
+      "kennung": "CLD.9.5.1",
+      "titel": "Trennung in virtuellen Rechenumgebungen",
+      "gruppe": "C",
+      "pfad": "c/cld.9.5.1",
+      "zweck": "Die Daten und Anwendungen eines Cloud-Kunden sind von denen anderer Kunden und vom Anbieter getrennt. Anbieter sichern die logische Trennung der Mandanten zu.",
+      "anforderungen": [
+        "Trennung von Mandanten technisch und organisatorisch durchsetzen",
+        "Dem Kunden Informationen zur Trennung bereitstellen"
+      ],
+      "nachweise": [
+        "Beschreibung der Mandantentrennung",
+        "Prüfberichte zum Anbieter"
+      ],
+      "bezuege": [
+        "Entspricht dem Kriterienbereich Kommunikationssicherheit im BSI C5."
+      ]
+    },
+    {
+      "kennung": "CLD.9.5.2",
+      "titel": "Härtung virtueller Maschinen",
+      "gruppe": "C",
+      "pfad": "c/cld.9.5.2",
+      "zweck": "Virtuelle Maschinen sind so zu konfigurieren, dass nur notwendige Ports, Protokolle und Dienste aktiv sind und technische Schutzmaßnahmen wie Schadsoftware- und Protokollierungsschutz bestehen.",
+      "anforderungen": [
+        "Sicherheitsbasislinien für virtuelle Maschinen festlegen",
+        "Nicht benötigte Funktionen deaktivieren"
+      ],
+      "nachweise": [
+        "Härtungsstandard",
+        "Konfigurationsprüfung"
+      ],
+      "bezuege": [
+        "Härtung nach Artikel 11 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "CLD.12.1.5",
+      "titel": "Betriebliche Sicherheit der Administratoren",
+      "gruppe": "C",
+      "pfad": "c/cld.12.1.5",
+      "zweck": "Administrative Tätigkeiten in der Cloud-Umgebung sind zu dokumentieren und zu überwachen; Kunden müssen ihre Verwaltungsrechte nachvollziehbar nutzen und Anbieter ihre Administratorenzugriffe offenlegen.",
+      "anforderungen": [
+        "Verfahren für administrative Zugriffe, mit Protokoll und Überprüfung",
+        "Informationen über Verfahren der Anbieter einholen"
+      ],
+      "nachweise": [
+        "Administrationsrichtlinie",
+        "Zugriffsprotokolle"
+      ],
+      "bezuege": [
+        "Privilegierte Zugriffe nach Control 8.2 der ISO/IEC 27002 und Artikel 21 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "CLD.12.4.5",
+      "titel": "Überwachung von Cloud-Diensten",
+      "gruppe": "C",
+      "pfad": "c/cld.12.4.5",
+      "zweck": "Der Kunde muss Aspekte des Betriebs seiner Cloud-Dienste überwachen können; der Anbieter muss entsprechende Möglichkeiten bereitstellen und eigene Überwachungsdaten zugänglich machen.",
+      "anforderungen": [
+        "Überwachungsmöglichkeiten und Zugang zu Protokollen vertraglich festlegen",
+        "Kennzahlen zu Verfügbarkeit und Sicherheit überwachen"
+      ],
+      "nachweise": [
+        "Berichte und Dashboards des Anbieters"
+      ],
+      "bezuege": [
+        "Überwachung der Dienstleister nach Artikel 28 DORA."
+      ]
+    },
+    {
+      "kennung": "CLD.13.1.4",
+      "titel": "Abstimmung der Sicherheitsverwaltung für virtuelle und physische Netze",
+      "gruppe": "C",
+      "pfad": "c/cld.13.1.4",
+      "zweck": "Beim Einrichten von virtuellen Netzen sind die Sicherheitsrichtlinien des physischen Netzes zugrunde zu legen und abzugleichen, damit keine Lücken entstehen.",
+      "anforderungen": [
+        "Konfiguration virtueller Netze mit der Richtlinie des physischen Netzes abgleichen",
+        "Änderungen in beiden Welten gemeinsam steuern"
+      ],
+      "nachweise": [
+        "Netzkonzept physisch und virtuell"
+      ],
+      "bezuege": [
+        "Segmentierung nach Artikel 13 des RTS zum IKT-Risikomanagementrahmen."
+      ]
+    },
+    {
+      "kennung": "L",
+      "titel": "Ergänzende Leitlinien zu bestehenden Controls",
+      "gruppe": "C",
+      "pfad": "c/leitlinien",
+      "zweck": "Zu zahlreichen Controls der ISO/IEC 27002 ergänzt die Norm Hinweise für Kunden und für Anbieter: Beziehungen zu Anbietern und Unterauftragnehmern, Zugangssteuerung und Rechtevergabe in der Cloud, Schutz kundeneigener Daten, Kryptografie, Protokollierung, Vorfallbearbeitung und Rechtsanforderungen wie Datenstandort und Prüfrechte.",
+      "anforderungen": [
+        "Pflichten des Anbieters werden an der Cloud-Kundenseite ausgerichtet",
+        "Der Anbieter dokumentiert, wer auf welche Kundendaten zugreifen darf",
+        "Datenstandort und Rechtsrahmen offenlegen"
+      ],
+      "nachweise": [
+        "Anbieternachweise (Zertifikate, Prüfberichte)",
+        "Vertrag mit Sicherheitsanhang"
+      ],
+      "bezuege": [
+        "Zusammenhang mit Control 5.23 der ISO/IEC 27002 und mit Artikel 28 DORA."
+      ]
+    }
+  ]
+}

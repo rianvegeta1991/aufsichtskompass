@@ -1,0 +1,309 @@
+{
+  "regelwerk": "eiopa-cloud",
+  "bezugsfassung": "EIOPA-Leitlinien zum Outsourcing an Cloud-Anbieter (EIOPA-BoS-20-002 DE), 19 Seiten; veröffentlicht 06.02.2020",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt nach Durchsicht des Originaltexts",
+  "geprueft": false,
+  "hinweis": "STATUS: Nach der EIOPA-Seite endet die Anwendung dieser Leitlinien am 17.01.2025 – dem Tag, ab dem DORA gilt. Sie sind also nicht mehr anzuwenden; die Zusammenfassung steht als Referenz und für den Abgleich mit DORA. Die Leitlinien galten laut Originaltext ab 01.01.2021 für alle neu geschlossenen oder geänderten Cloud-Vereinbarungen, bestehende Vereinbarungen über kritische oder wichtige Funktionen waren bis 31.12.2022 anzupassen (die EIOPA-Seite nennt als Beginn der Anwendung den 01.07.2021 – ein Unterschied, der hier nicht aufgelöst wurde). Die Leitlinien beruhen auf Artikel 13, 38 und 49 der Richtlinie 2009/138/EG und Artikel 274 der Delegierten Verordnung (EU) 2015/35 und knüpfen an die Governance-Leitlinien an. Ausgenommen sind Einrichtungen, die anderen sektorbezogenen Anforderungen unterliegen und Teil einer Gruppe sind.",
+  "quelle": {
+    "name": "EIOPA, Guidelines on outsourcing to cloud service providers (EIOPA-BoS-20-002)",
+    "url": "https://www.eiopa.europa.eu/publications/guidelines-outsourcing-cloud-service-providers_en"
+  },
+  "gruppen": [
+    {
+      "kennung": "LL",
+      "titel": "Leitlinien 1 bis 16"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "L1",
+      "titel": "Leitlinie 1 – Cloud-Dienste und Outsourcing",
+      "gruppe": "LL",
+      "pfad": "c/l1",
+      "zweck": "Das Unternehmen prüft, ob eine Vereinbarung mit einem Cloud-Anbieter unter den Begriff „Outsourcing“ der Solvabilität-II-Richtlinie fällt. Maßgeblich ist, ob die Funktion periodisch oder kontinuierlich ausgeführt wird, ob sie sonst zu den operativen Funktionen gehörte, die das Unternehmen selbst erbrächte, und ob es sie selbst erbringen könnte.",
+      "anforderungen": [
+        "Einordnung jeder Cloud-Vereinbarung als Outsourcing oder Nicht-Outsourcing anhand der Kriterien",
+        "Cloud-Dienste in Form von SaaS, PaaS oder IaaS sind erfasst"
+      ],
+      "nachweise": [
+        "Einordnungsvermerk je Cloud-Vereinbarung"
+      ],
+      "bezuege": [
+        "Entspricht der heutigen Frage, ob eine IKT-Dienstleistung nach Artikel 3 Nummer 21 DORA vorliegt (weiter gefasst)."
+      ]
+    },
+    {
+      "kennung": "L2",
+      "titel": "Leitlinie 2 – Allgemeine Governance-Grundsätze für Cloud-Outsourcing",
+      "gruppe": "LL",
+      "pfad": "c/l2",
+      "zweck": "Das Verwaltungs-, Management- oder Aufsichtsorgan stellt sicher, dass Entscheidungen über die Auslagerung kritischer oder wichtiger Funktionen an Cloud-Anbieter auf einer eingehenden Risikobewertung beruhen, die alle relevanten Risiken einbezieht, etwa für IKT, Geschäftskontinuität und Einhaltung von Rechtsvorschriften.",
+      "anforderungen": [
+        "Entscheidung des Organs auf Basis einer umfassenden Risikobewertung",
+        "Die Verantwortung bleibt beim Unternehmen"
+      ],
+      "nachweise": [
+        "Entscheidungsvorlage mit Risikobewertung und Organbeschluss"
+      ],
+      "bezuege": [
+        "Artikel 5 und Artikel 28 Absatz 2 DORA (Verantwortung des Leitungsorgans); Artikel 274 Absatz 3 der Delegierten Verordnung."
+      ]
+    },
+    {
+      "kennung": "L3",
+      "titel": "Leitlinie 3 – Aktualisierung der schriftlich festgelegten Auslagerungsstrategie",
+      "gruppe": "LL",
+      "pfad": "c/l3",
+      "zweck": "Die Auslagerungsstrategie und weitere interne Leitlinien, etwa zur Informationssicherheit, sind für Cloud-Auslagerungen zu aktualisieren, durch Überprüfung, Anhang oder eigene Strategien. Zu berücksichtigen sind die Besonderheiten des Cloud-Outsourcings.",
+      "anforderungen": [
+        "Aufgaben und Zuständigkeiten der betroffenen Funktionen festlegen",
+        "Auswahl- und Bewertungsverfahren für Cloud-Anbieter regeln",
+        "Weitere Aspekte zu Sicherheit, Verträgen, Ausstieg und Überwachung aufnehmen"
+      ],
+      "nachweise": [
+        "Aktualisierte Auslagerungsleitlinie"
+      ],
+      "bezuege": [
+        "Artikel 28 Absatz 2 DORA verlangt eine Strategie für das IKT-Drittparteienrisiko."
+      ]
+    },
+    {
+      "kennung": "L4",
+      "titel": "Leitlinie 4 – Schriftliche Mitteilung an die Aufsichtsbehörde",
+      "gruppe": "LL",
+      "pfad": "c/l4",
+      "zweck": "Die Mitteilungspflicht aus Artikel 49 Absatz 3 der Richtlinie gilt für alle Auslagerungen kritischer oder wichtiger Funktionen an Cloud-Anbieter. Wird eine zunächst nicht kritische Funktion später kritisch oder wichtig, ist die Aufsicht entsprechend zu informieren.",
+      "anforderungen": [
+        "Mitteilung vor der Auslagerung kritischer oder wichtiger Funktionen",
+        "Nachträgliche Information bei geänderter Einstufung"
+      ],
+      "nachweise": [
+        "Mitteilungen an die Aufsicht"
+      ],
+      "bezuege": [
+        "Heute Informationsregister und Vorabmeldung nach Artikel 28 Absatz 3 DORA."
+      ]
+    },
+    {
+      "kennung": "L5",
+      "titel": "Leitlinie 5 – Dokumentationsanforderungen",
+      "gruppe": "LL",
+      "pfad": "c/l5",
+      "zweck": "Das Unternehmen führt ein fortlaufend aktualisiertes Register seiner Cloud-Vereinbarungen und bewahrt Aufzeichnungen über beendete Vereinbarungen für eine angemessene Frist auf. Für kritische oder wichtige Funktionen sind zusätzliche Angaben zu erfassen.",
+      "anforderungen": [
+        "Register der Cloud-Vereinbarungen",
+        "Aufbewahrung beendeter Vereinbarungen nach nationalem Recht",
+        "Erweiterte Angaben zu kritischen oder wichtigen Funktionen"
+      ],
+      "nachweise": [
+        "Register mit den Pflichtangaben"
+      ],
+      "bezuege": [
+        "Vorläufer des Informationsregisters nach Artikel 28 Absatz 3 DORA und der Durchführungsverordnung (EU) 2024/2956."
+      ]
+    },
+    {
+      "kennung": "L6",
+      "titel": "Leitlinie 6 – Analyse vor der Auslagerung",
+      "gruppe": "LL",
+      "pfad": "c/l6",
+      "zweck": "Vor dem Vertragsschluss sind drei Prüfungen zu verbinden: Betrifft die Vereinbarung eine kritische oder wichtige Funktion (Leitlinie 7), welche Risiken ergeben sich (Leitlinie 8), und ist der Anbieter geeignet (Leitlinie 9). Hinzu kommt die Prüfung von Interessenkonflikten nach Artikel 274 Absatz 3 Buchstabe b der Delegierten Verordnung.",
+      "anforderungen": [
+        "Einstufung, Risikobewertung und Due Diligence vor Abschluss",
+        "Interessenkonflikte ermitteln"
+      ],
+      "nachweise": [
+        "Vorab-Analyse als Teil der Vertragsakte"
+      ],
+      "bezuege": [
+        "Artikel 28 Absatz 4 DORA (Vorabbewertung) und Artikel 5 bis 7 der Delegierten Verordnung (EU) 2024/1773."
+      ]
+    },
+    {
+      "kennung": "L7",
+      "titel": "Leitlinie 7 – Prüfung kritischer oder wichtiger operativer Funktionen und Tätigkeiten",
+      "gruppe": "LL",
+      "pfad": "c/l7",
+      "zweck": "Das Unternehmen prüft vor dem Abschluss, ob die Vereinbarung eine kritische oder wichtige operative Funktion betrifft, und erwägt, ob sie es künftig werden könnte. Bereits ausgelagerte Funktionen werden erneut geprüft.",
+      "anforderungen": [
+        "Einstufung vor Vertragsschluss und danach in Abständen",
+        "Beurteilung der möglichen künftigen Kritikalität"
+      ],
+      "nachweise": [
+        "Einstufungsdokumentation mit Kriterien"
+      ],
+      "bezuege": [
+        "Artikel 3 Nummer 22 DORA (kritische oder wichtige Funktion); FAQs der BaFin, Frage 5."
+      ]
+    },
+    {
+      "kennung": "L8",
+      "titel": "Leitlinie 8 – Bewertung der mit dem Cloud-Outsourcing verbundenen Risiken",
+      "gruppe": "LL",
+      "pfad": "c/l8",
+      "zweck": "Der Ansatz steht in angemessenem Verhältnis zu Art, Umfang und Komplexität der Risiken der ausgelagerten Dienste. Das Unternehmen prüft insbesondere die möglichen Auswirkungen auf seine operativen Risiken und Reputationsrisiken. Bei kritischen oder wichtigen Funktionen kommen eine Abwägung von Nutzen und Kosten sowie eine Betrachtung rechtlicher, IKT-bezogener, Compliance- und Reputationsrisiken hinzu.",
+      "anforderungen": [
+        "Verhältnismäßige Bewertung der Auswirkungen auf operative Risiken und Reputation",
+        "Bei kritischen oder wichtigen Funktionen: erwartete Vorteile und Kosten abwägen, einschließlich erheblicher Risiken, die verringert werden oder neu entstehen",
+        "Rechtliche, IKT-, Compliance- und Reputationsrisiken sowie aufsichtsrechtliche Einschränkungen prüfen, die sich aus dem gewählten Cloud-Dienst und Bereitstellungsmodell (öffentliche, private, hybride oder Community-Cloud) und aus Migration und Ausführung ergeben",
+        "Die Datenschutz-Grundverordnung ist zu beachten"
+      ],
+      "nachweise": [
+        "Risikoanalyse je Vereinbarung"
+      ],
+      "bezuege": [
+        "Artikel 28 Absatz 4 und Artikel 29 DORA (Konzentrationsrisiko); Artikel 5 der Delegierten Verordnung (EU) 2024/1773 mit einem Mindestkatalog an Risiken."
+      ]
+    },
+    {
+      "kennung": "L9",
+      "titel": "Leitlinie 9 – Due-Diligence-Prüfung des Cloud-Anbieters",
+      "gruppe": "LL",
+      "pfad": "c/l9",
+      "zweck": "Durch ein Auswahl- und Bewertungsverfahren stellt das Unternehmen sicher, dass der Anbieter den Kriterien seiner Auslagerungsstrategie entspricht. Die Prüfung erfolgt vor der Auslagerung; bei einem zweiten Vertrag mit einem bereits geprüften Anbieter entscheidet es risikobasiert, ob eine zweite Prüfung nötig ist.",
+      "anforderungen": [
+        "Sorgfaltsprüfung vor Beginn",
+        "Risikobasierte Entscheidung bei erneutem Vertrag mit geprüftem Anbieter"
+      ],
+      "nachweise": [
+        "Due-Diligence-Bericht"
+      ],
+      "bezuege": [
+        "Artikel 28 Absatz 4 DORA und Artikel 6 der Delegierten Verordnung (EU) 2024/1773."
+      ]
+    },
+    {
+      "kennung": "L10",
+      "titel": "Leitlinie 10 – Vertraglich geregelte Anforderungen",
+      "gruppe": "LL",
+      "pfad": "c/l10",
+      "zweck": "Rechte und Pflichten von Unternehmen und Cloud-Anbieter sind eindeutig zu verteilen und schriftlich festzuhalten. Für kritische oder wichtige Funktionen muss die Vereinbarung zusätzlich zu Artikel 274 der Delegierten Verordnung einen Katalog von Inhalten enthalten.",
+      "anforderungen": [
+        "Klare Beschreibung der ausgelagerten Funktion einschließlich der Unterstützungsdienste",
+        "Beginn, gegebenenfalls Ende und Kündigungsfristen beider Seiten",
+        "Gerichtliche Zuständigkeit und anwendbares Recht",
+        "Finanzielle Pflichten",
+        "Ob und unter welchen Bedingungen eine Weiterauslagerung zulässig ist",
+        "Standorte der Datenspeicherung und -verarbeitung samt Benachrichtigung bei geplantem Wechsel",
+        "Bedingungen für Zugänglichkeit, Verfügbarkeit, Integrität, Vertraulichkeit, Schutz und Sicherheit der Daten"
+      ],
+      "nachweise": [
+        "Vertragsprüfung gegen den Katalog"
+      ],
+      "bezuege": [
+        "Abgelöst durch die Mindestvertragsinhalte nach Artikel 30 DORA und die Delegierte Verordnung (EU) 2024/1773; der Katalog war enger."
+      ]
+    },
+    {
+      "kennung": "L11",
+      "titel": "Leitlinie 11 – Zugangs- und Prüfungsrechte",
+      "gruppe": "LL",
+      "pfad": "c/l11",
+      "zweck": "Die Vereinbarung darf die tatsächliche Ausübung von Zugangs- und Prüfungsrechten des Unternehmens und die Kontrollmöglichkeiten nicht einschränken. Häufigkeit und Umfang richten sich nach Kritikalität und Risiko.",
+      "anforderungen": [
+        "Prüfhäufigkeit, Bereiche und Dienstleistungen risikobasiert festlegen",
+        "Entstehen durch eine Prüfung Risiken für andere Kunden des Anbieters, Alternativen mit vergleichbarem Sicherheitsniveau vereinbaren, etwa spezielle Berichte oder Zertifizierungen",
+        "Zur effizienten Prüfung dürfen Zertifizierungen Dritter, Prüfberichte und gemeinsame Prüfungen mit anderen Kunden (pooled audits) genutzt werden; die Verantwortung bleibt beim Unternehmen",
+        "Bei kritischen oder wichtigen Funktionen darf das Unternehmen sich nicht allein auf Zertifikate und Berichte verlassen (Absatz 43)"
+      ],
+      "nachweise": [
+        "Prüfplan mit Begründung",
+        "Nachweise genutzter Zertifikate und Sammelprüfungen"
+      ],
+      "bezuege": [
+        "Artikel 30 Absatz 3 Buchstabe e DORA verlangt uneingeschränkte Zugangs-, Einsichts- und Prüfungsrechte; vergleichbar die Regeln der MaRisk zur Internen Revision."
+      ]
+    },
+    {
+      "kennung": "L12",
+      "titel": "Leitlinie 12 – Sicherheit von Daten und Systemen",
+      "gruppe": "LL",
+      "pfad": "c/l12",
+      "zweck": "Das Unternehmen stellt sicher, dass Cloud-Anbieter europäische und nationale Vorschriften sowie IKT-Sicherheitsstandards einhalten. Für kritische oder wichtige Funktionen legt es Anforderungen an die Informationssicherheit in der Vereinbarung fest und überwacht deren Einhaltung regelmäßig.",
+      "anforderungen": [
+        "Einhaltung der IKT-Sicherheitsstandards sicherstellen",
+        "Informationssicherheitsanforderungen vertraglich festlegen",
+        "Einhaltung regelmäßig überwachen"
+      ],
+      "nachweise": [
+        "Sicherheitsanforderungen im Vertrag",
+        "Überwachungsberichte"
+      ],
+      "bezuege": [
+        "Artikel 9 DORA und Artikel 28 Absatz 5; Cloud-Controls in ISO/IEC 27017 und im BSI C5."
+      ]
+    },
+    {
+      "kennung": "L13",
+      "titel": "Leitlinie 13 – Weiterauslagerung von kritischen oder wichtigen operativen Funktionen oder Tätigkeiten",
+      "gruppe": "LL",
+      "pfad": "c/l13",
+      "zweck": "Ist die Weiterauslagerung kritischer oder wichtiger Funktionen zulässig, muss die Vereinbarung festlegen, welche Tätigkeiten ausgeschlossen sind und unter welchen Bedingungen sie erfolgt. Die Rechenschafts- und Kontrollpflicht für weiterausgelagerte Leistungen bleibt beim Cloud-Anbieter.",
+      "anforderungen": [
+        "Alle von einer Weiterauslagerung ausgeschlossenen Tätigkeiten benennen",
+        "Bedingungen festlegen, etwa dass auch der Unterauftragnehmer die Pflichten des Anbieters voll erfüllt, darunter Prüf- und Zugangsrechte und Sicherheit von Daten und Systemen",
+        "Festhalten, dass die umfassende Rechenschafts- und Kontrollpflicht für weiterausgelagerte Leistungen beim Cloud-Anbieter verbleibt",
+        "Verpflichtung des Anbieters, über geplante erhebliche Änderungen bei Unterauftragnehmern oder weiterausgelagerten Leistungen zu informieren, mit einer Frist, die dem Unternehmen mindestens eine Risikobewertung erlaubt"
+      ],
+      "nachweise": [
+        "Dokumentation der Unterauftragsketten"
+      ],
+      "bezuege": [
+        "Artikel 30 Absatz 2 und 5 DORA und Delegierte Verordnung (EU) 2025/532 (Unterauftragsvergabe)."
+      ]
+    },
+    {
+      "kennung": "L14",
+      "titel": "Leitlinie 14 – Überwachung und Kontrolle von Vereinbarungen über Cloud-Outsourcing",
+      "gruppe": "LL",
+      "pfad": "c/l14",
+      "zweck": "Das Unternehmen überwacht die Ausführung der Tätigkeiten, die Sicherheitsmaßnahmen und die vereinbarte Dienstleistungsgüte regelmäßig und risikobasiert. Der Schwerpunkt liegt auf kritischen oder wichtigen Funktionen.",
+      "anforderungen": [
+        "Überwachungs- und Kontrollmechanismen einrichten",
+        "Kennzahlen zur Dienstleistungsgüte und zur Sicherheit überwachen"
+      ],
+      "nachweise": [
+        "Service-Reports und deren Auswertung"
+      ],
+      "bezuege": [
+        "Artikel 28 Absatz 2 und Artikel 30 Absatz 3 DORA; Delegierte Verordnung (EU) 2024/1773, Artikel 9."
+      ]
+    },
+    {
+      "kennung": "L15",
+      "titel": "Leitlinie 15 – Kündigungsrechte und Ausstiegsstrategien",
+      "gruppe": "LL",
+      "pfad": "c/l15",
+      "zweck": "Bei kritischen oder wichtigen Funktionen enthält die Vereinbarung eine eindeutige Klausel zu einer Ausstiegsstrategie, die die Kündigung ermöglicht, ohne Kontinuität und Qualität der Leistung gegenüber den Versicherungsnehmern zu gefährden.",
+      "anforderungen": [
+        "Ausstiegspläne: umfassend, dienstleistungsbasiert, dokumentiert und hinreichend erprobt, mit Analyse von Kosten, Auswirkungen, Ressourcen und Zeit",
+        "Alternative Lösungen und machbare Übergangspläne, um Tätigkeiten und Daten abzuziehen und auf andere Dienstleister zu übertragen oder wieder einzugliedern – mit Berücksichtigung des Datenstandorts"
+      ],
+      "nachweise": [
+        "Ausstiegsplan mit Testbericht"
+      ],
+      "bezuege": [
+        "Artikel 28 Absatz 8 DORA verlangt Ausstiegsstrategien, die Delegierte Verordnung (EU) 2024/1773 Artikel 10 konkretisiert sie; Data Act, Artikel 23 ff. (Wechsel)."
+      ]
+    },
+    {
+      "kennung": "L16",
+      "titel": "Leitlinie 16 – Beaufsichtigung von Vereinbarungen über Cloud-Outsourcing durch Aufsichtsbehörden",
+      "gruppe": "LL",
+      "pfad": "c/l16",
+      "zweck": "Diese Leitlinie richtet sich an die Aufsichtsbehörden: Sie analysieren die Auswirkungen von Cloud-Vereinbarungen im Rahmen des aufsichtlichen Überprüfungsverfahrens, mit Schwerpunkt auf kritischen oder wichtigen Funktionen.",
+      "anforderungen": [
+        "Analyse im aufsichtlichen Überprüfungsverfahren",
+        "Zu berücksichtigende Risiken: IKT-Risiken, sonstige operative Risiken einschließlich rechtlicher Risiken, Compliance-Risiken, der Auslagerungssteuerung und des Third-Party-Managements, Reputationsrisiko sowie Konzentrationsrisiko einschließlich der Länder- und Sektorebene",
+        "Prüfung der Governance- und operativen Verfahren des Unternehmens für Genehmigung, Umsetzung, Überwachung und Verwaltung der Vereinbarungen auf risikobasierter Grundlage"
+      ],
+      "nachweise": [
+        "Für das Unternehmen nicht unmittelbar einschlägig – es genügt, die Prüfungsschwerpunkte zu kennen"
+      ],
+      "bezuege": [
+        "Artikel 29 DORA und der Überwachungsrahmen für kritische IKT-Drittdienstleister (Kapitel V Abschnitt II)."
+      ]
+    }
+  ]
+}

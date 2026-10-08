@@ -1,5 +1,5 @@
 {
-  "gebaut": "2026-10-08T20:01:32Z",
+  "gebaut": "2026-10-08T20:31:55Z",
   "indizes": [
     {
       "regelwerk": "ai-act",
@@ -16,11 +16,25 @@
       "dokumente": 26
     },
     {
+      "regelwerk": "bafin-art16-hinweise",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/bafin-art16-hinweise/2026-10-08/index-de.json",
+      "dokumente": 3
+    },
+    {
       "regelwerk": "bafin-dora-faq",
       "sprache": "de",
       "fassung": "2026-10-02",
       "datei": "rw/bafin-dora-faq/2026-10-02/index-de.json",
       "dokumente": 44
+    },
+    {
+      "regelwerk": "bafin-dora-mitteilung",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/bafin-dora-mitteilung/2026-10-08/index-de.json",
+      "dokumente": 31
     },
     {
       "regelwerk": "bdsg",
@@ -49,6 +63,13 @@
       "fassung": "2026-10-01",
       "datei": "rw/cobit2019/2026-10-01/index-de.json",
       "dokumente": 40
+    },
+    {
+      "regelwerk": "coso-ic",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/coso-ic/2026-10-08/index-de.json",
+      "dokumente": 22
     },
     {
       "regelwerk": "cra",
@@ -177,11 +198,32 @@
       "dokumente": 568
     },
     {
+      "regelwerk": "eiopa-cloud",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/eiopa-cloud/2026-10-08/index-de.json",
+      "dokumente": 16
+    },
+    {
+      "regelwerk": "eiopa-governance",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/eiopa-governance/2026-10-08/index-de.json",
+      "dokumente": 13
+    },
+    {
       "regelwerk": "gdv-coc",
       "sprache": "de",
       "fassung": "2026-10-01",
       "datei": "rw/gdv-coc/2026-10-01/index-de.json",
       "dokumente": 12
+    },
+    {
+      "regelwerk": "gobd",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/gobd/2026-10-08/index-de.json",
+      "dokumente": 10
     },
     {
       "regelwerk": "hgb",
@@ -191,11 +233,74 @@
       "dokumente": 11
     },
     {
+      "regelwerk": "idw-ps330",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/idw-ps330/2026-10-08/index-de.json",
+      "dokumente": 3
+    },
+    {
+      "regelwerk": "idw-ps860",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/idw-ps860/2026-10-08/index-de.json",
+      "dokumente": 3
+    },
+    {
+      "regelwerk": "idw-ps951",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/idw-ps951/2026-10-08/index-de.json",
+      "dokumente": 3
+    },
+    {
+      "regelwerk": "isae3402",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/isae3402/2026-10-08/index-de.json",
+      "dokumente": 4
+    },
+    {
+      "regelwerk": "iso22301",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/iso22301/2026-10-08/index-de.json",
+      "dokumente": 12
+    },
+    {
       "regelwerk": "iso27001",
       "sprache": "de",
       "fassung": "2026-10-01",
       "datei": "rw/iso27001/2026-10-01/index-de.json",
       "dokumente": 100
+    },
+    {
+      "regelwerk": "iso27002",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/iso27002/2026-10-08/index-de.json",
+      "dokumente": 94
+    },
+    {
+      "regelwerk": "iso27005",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/iso27005/2026-10-08/index-de.json",
+      "dokumente": 8
+    },
+    {
+      "regelwerk": "iso27017",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/iso27017/2026-10-08/index-de.json",
+      "dokumente": 8
+    },
+    {
+      "regelwerk": "iso27018",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/iso27018/2026-10-08/index-de.json",
+      "dokumente": 10
     },
     {
       "regelwerk": "itil4",
@@ -212,11 +317,25 @@
       "dokumente": 256
     },
     {
+      "regelwerk": "marisk",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/marisk/2026-10-08/index-de.json",
+      "dokumente": 18
+    },
+    {
       "regelwerk": "nis2",
       "sprache": "de",
       "fassung": "2024-10-15",
       "datei": "rw/nis2/2024-10-15/index-de.json",
       "dokumente": 353
+    },
+    {
+      "regelwerk": "nist-800-53",
+      "sprache": "en",
+      "fassung": "2026-05-11",
+      "datei": "rw/nist-800-53/2026-05-11/index-en.json",
+      "dokumente": 1196
     },
     {
       "regelwerk": "nist-csf2",
@@ -238,6 +357,13 @@
       "fassung": "2025-10-17",
       "datei": "rw/sii-rl/2025-10-17/index-de.json",
       "dokumente": 900
+    },
+    {
+      "regelwerk": "tiber-de",
+      "sprache": "de",
+      "fassung": "2026-10-08",
+      "datei": "rw/tiber-de/2026-10-08/index-de.json",
+      "dokumente": 6
     },
     {
       "regelwerk": "vag",

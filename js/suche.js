@@ -79,11 +79,24 @@ export function proben() {
 
 let geladen = null;
 
-/** Lädt alle Indexdateien der gewünschten Sprache (einmalig). */
+/**
+ * Lädt die Indexdateien der gewünschten Sprache (einmalig). Hat ein Regelwerk in dieser
+ * Sprache keinen Index (NIST SP 800-53 gibt es nur auf Englisch), nimmt es seinen ersten –
+ * genau wie der Viewer, der auf die erste Sprache des Regelwerks zurückfällt. Sonst wäre
+ * der Text zwar lesbar, aber über die Suche nie zu finden.
+ */
 export async function laden(sprache = 'de') {
   if (geladen && geladen.sprache === sprache) return geladen.indizes;
   const verz = await daten.suchindex();
-  const passend = (verz.indizes || []).filter((i) => i.sprache === sprache);
+  const alle = verz.indizes || [];
+  const mitSprache = new Set(alle.filter((i) => i.sprache === sprache).map((i) => i.regelwerk));
+  const vorgemerkt = new Set();
+  const passend = alle.filter((i) => {
+    if (i.sprache === sprache) return true;
+    if (mitSprache.has(i.regelwerk) || vorgemerkt.has(i.regelwerk)) return false;
+    vorgemerkt.add(i.regelwerk);
+    return true;
+  });
   const indizes = await Promise.all(passend.map(async (i) => {
     const d = await daten.index(i.datei);
     return { ...d, datei: i.datei };

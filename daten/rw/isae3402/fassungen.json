@@ -1,0 +1,17 @@
+{
+  "regelwerk": "isae3402",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:07Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISAE 3402 – Assurance Reports on Controls at a Service Organization (IAASB)",
+        "url": "https://www.iaasb.org/",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein IAASB, ISAE 3402 (ISAE 3402 – Assurance Reports on Controls at a Service Organization (IAASB))."
+      },
+      "hash": "63c73cefa718f23c6480d613f7717a8ae90c7c39b3f65941ae47f8aec51afc53",
+      "fundstellen": 4
+    }
+  ]
+}

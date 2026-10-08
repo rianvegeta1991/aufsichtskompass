@@ -1,0 +1,17 @@
+{
+  "regelwerk": "idw-ps860",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:05Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: IDW PS 860 – IT-Prüfung außerhalb der Abschlussprüfung",
+        "url": "https://www.idw.de/",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein IDW PS 860 (IDW PS 860 – IT-Prüfung außerhalb der Abschlussprüfung)."
+      },
+      "hash": "b25c1ebda83ed9e44696f9dee88962ab0891e7dbe5dd6bc2779eaab7c086d3e3",
+      "fundstellen": 3
+    }
+  ]
+}

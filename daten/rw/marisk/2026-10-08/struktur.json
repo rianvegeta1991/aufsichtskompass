@@ -1,0 +1,237 @@
+{
+  "regelwerk": "marisk",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:13Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts (Gliederung vollständig, DORA-bezogene Passagen im Wortlaut gelesen, übrige Abschnitte nur auf Strukturebene), ungeprüft) – Bezugsfassung: BaFin-Rundschreiben 06/2026 (BA) „Mindestanforderungen an das Risikomanagement – MaRisk“ (9. MaRisk-Novelle), Stand 30.06.2026, 82 Seiten",
+    "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Rundschreiben/dl_rs_0626_9_marisk.html",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein BaFin, Rundschreiben 06/2026 (BA) MaRisk (BaFin-Rundschreiben 06/2026 (BA) „Mindestanforderungen an das Risikomanagement – MaRisk“ (9. MaRisk-Novelle), Stand 30.06.2026, 82 Seiten)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_at",
+      "art": "abschnitt",
+      "nummer": "AT",
+      "bez": "AT",
+      "titel": {
+        "de": "Allgemeiner Teil"
+      },
+      "pfad": "gr/at",
+      "kinder": [
+        {
+          "id": "z_at_1",
+          "art": "control",
+          "nummer": "AT 1",
+          "bez": "AT 1",
+          "titel": {
+            "de": "Ziel des Rundschreibens"
+          },
+          "pfad": "m/at1",
+          "text": true
+        },
+        {
+          "id": "z_at_2",
+          "art": "control",
+          "nummer": "AT 2",
+          "bez": "AT 2",
+          "titel": {
+            "de": "Anwendungsbereich: Anwenderkreis, Risiken, Geschäfte"
+          },
+          "pfad": "m/at2",
+          "text": true
+        },
+        {
+          "id": "z_at_3",
+          "art": "control",
+          "nummer": "AT 3",
+          "bez": "AT 3",
+          "titel": {
+            "de": "Verantwortung der Geschäftsleitung und des Aufsichtsorgans"
+          },
+          "pfad": "m/at3",
+          "text": true
+        },
+        {
+          "id": "z_at_4_1",
+          "art": "control",
+          "nummer": "AT 4.1",
+          "bez": "AT 4.1",
+          "titel": {
+            "de": "Risikotragfähigkeit"
+          },
+          "pfad": "m/at41",
+          "text": true
+        },
+        {
+          "id": "z_at_4_2",
+          "art": "control",
+          "nummer": "AT 4.2",
+          "bez": "AT 4.2",
+          "titel": {
+            "de": "Strategien, einschließlich IKT-Strategie und DOR-Strategie"
+          },
+          "pfad": "m/at42",
+          "text": true
+        },
+        {
+          "id": "z_at_4_3",
+          "art": "control",
+          "nummer": "AT 4.3",
+          "bez": "AT 4.3",
+          "titel": {
+            "de": "Internes Kontrollsystem (Aufbau- und Ablauforganisation, Steuerungs- und Controllingprozesse, Stresstests, Modelle)"
+          },
+          "pfad": "m/at43",
+          "text": true
+        },
+        {
+          "id": "z_at_4_4",
+          "art": "control",
+          "nummer": "AT 4.4",
+          "bez": "AT 4.4",
+          "titel": {
+            "de": "Besondere Funktionen: Risikocontrolling, Compliance, Interne Revision"
+          },
+          "pfad": "m/at44",
+          "text": true
+        },
+        {
+          "id": "z_at_5",
+          "art": "control",
+          "nummer": "AT 5",
+          "bez": "AT 5",
+          "titel": {
+            "de": "Organisationsrichtlinien"
+          },
+          "pfad": "m/at5",
+          "text": true
+        },
+        {
+          "id": "z_at_6",
+          "art": "control",
+          "nummer": "AT 6",
+          "bez": "AT 6",
+          "titel": {
+            "de": "Dokumentation"
+          },
+          "pfad": "m/at6",
+          "text": true
+        },
+        {
+          "id": "z_at_7_1",
+          "art": "control",
+          "nummer": "AT 7.1",
+          "bez": "AT 7.1",
+          "titel": {
+            "de": "Ressourcen: Personal"
+          },
+          "pfad": "m/at71",
+          "text": true
+        },
+        {
+          "id": "z_at_7_2",
+          "art": "control",
+          "nummer": "AT 7.2",
+          "bez": "AT 7.2",
+          "titel": {
+            "de": "Ressourcen: Technisch-organisatorische Ausstattung"
+          },
+          "pfad": "m/at72",
+          "text": true
+        },
+        {
+          "id": "z_at_7_3",
+          "art": "control",
+          "nummer": "AT 7.3",
+          "bez": "AT 7.3",
+          "titel": {
+            "de": "Ressourcen: Notfallmanagement"
+          },
+          "pfad": "m/at73",
+          "text": true
+        },
+        {
+          "id": "z_at_8",
+          "art": "control",
+          "nummer": "AT 8",
+          "bez": "AT 8",
+          "titel": {
+            "de": "Anpassungsprozesse: Neu-Produkt-Prozess und Änderungen"
+          },
+          "pfad": "m/at8",
+          "text": true
+        },
+        {
+          "id": "z_at_9",
+          "art": "control",
+          "nummer": "AT 9",
+          "bez": "AT 9",
+          "titel": {
+            "de": "Auslagerung – einschließlich der Abgrenzung zu DORA"
+          },
+          "pfad": "m/at9",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_bt",
+      "art": "abschnitt",
+      "nummer": "BT",
+      "bez": "BT",
+      "titel": {
+        "de": "Besonderer Teil"
+      },
+      "pfad": "gr/bt",
+      "kinder": [
+        {
+          "id": "z_bt_1",
+          "art": "control",
+          "nummer": "BT 1",
+          "bez": "BT 1",
+          "titel": {
+            "de": "Besondere Anforderungen an das interne Kontrollsystem"
+          },
+          "pfad": "m/bt1",
+          "text": true
+        },
+        {
+          "id": "z_btr_1_3__5",
+          "art": "control",
+          "nummer": "BTR 1-3, 5",
+          "bez": "BTR 1-3, 5",
+          "titel": {
+            "de": "Adressenausfall-, Marktpreis-, Liquiditäts- und Kreditspreadrisiken"
+          },
+          "pfad": "m/btr",
+          "text": true
+        },
+        {
+          "id": "z_btr_4",
+          "art": "control",
+          "nummer": "BTR 4",
+          "bez": "BTR 4",
+          "titel": {
+            "de": "Operationelle Risiken"
+          },
+          "pfad": "m/btr4",
+          "text": true
+        },
+        {
+          "id": "z_bt_2",
+          "art": "control",
+          "nummer": "BT 2",
+          "bez": "BT 2",
+          "titel": {
+            "de": "Anforderungen an die Risikoberichterstattung"
+          },
+          "pfad": "m/bt2",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

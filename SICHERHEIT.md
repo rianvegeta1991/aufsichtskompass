@@ -51,7 +51,8 @@ dokumentierte Bedingung dasteht.
 | EU-Recht (CELLAR) | Beschluss 2011/833/EU – Weiterverwendung mit Quellenangabe | Volltext, Quellenangabe und Hinweis auf die amtliche Fassung |
 | Deutsche Gesetze (gesetze-im-internet.de) | amtliche Werke, § 5 UrhG | Volltext, Quellenangabe |
 | **BaFin** (bafin.de) | Nutzungsbedingungen „Haftungsausschluss & Copyright", geprüft am 01.10.2026: Inhalte dürfen gespeichert, weitergegeben und vervielfältigt werden, **nur mit deutlicher Quellenangabe**; amtliche Werke nach § 5 Absatz 2 UrhG dürfen **nicht verändert** werden | Volltext der HTML-Veröffentlichungen, mit „© Bundesanstalt für Finanzdienstleistungsaufsicht / www.bafin.de" an jeder Fassung und unverändertem Wortlaut |
-| Normen und Frameworks (ISO, COBIT, ITIL, C5, CSA, NIST, GDV) | kostenpflichtig bzw. eigene Bedingungen | **kein** Volltext, nur eigene Zusammenfassungen mit Pflichthinweis |
+| **NIST SP 800-53** (OSCAL-Fassung von NIST selbst, `raw.githubusercontent.com`) | Werk der US-Bundesregierung, in den USA gemeinfrei (17 U.S.C. § 105); ein Urheberrecht außerhalb der USA ist nicht ausgeschlossen, der Auftrag sieht NIST dennoch als Volltextquelle vor | Volltext (englisch) ohne die Bewertungsverfahren aus SP 800-53A, mit Quellenangabe an der Fassung |
+| Übrige Normen und Frameworks (ISO, COBIT, ITIL, C5, CSA, NIST CSF, GDV, COSO, IDW) | kostenpflichtig bzw. eigene Bedingungen | **kein** Volltext, nur eigene Zusammenfassungen mit Pflichthinweis |
 
 Zwei Vorbehalte sind in den BaFin-Bedingungen ausdrücklich genannt und deshalb
 Teil des Verfahrens: Ein einzelnes Dokument kann abweichende Bedingungen tragen,
@@ -122,22 +123,23 @@ Standard-Token (`contents: write`, `actions: write`), kein eigenes Geheimnis.
 
 ## Testabdeckung
 
-Gemessen mit `cargo llvm-cov` (Stand 02.10.2026, 62 Tests):
+Gemessen mit `cargo llvm-cov` (Stand 08.10.2026, 75 Tests):
 
 | Teil | Zeilen abgedeckt |
 |---|---|
 | `verweise.rs` (Verweise aus dem Wortlaut) | 99 % |
 | `suche.rs` (Stammbildung, Index) | 96 % |
 | `zusammenfassung.rs` (eigene Zusammenfassungen) | 96 % |
-| `screening.rs` (Feeds, Relevanz, Dedup, Datum) | 90 % |
-| `netz.rs` (Leine) | 89 % |
-| `bafin.rs` (BaFin-Parser) | 88 % |
+| `screening.rs` (Feeds, Relevanz, Dedup, Datum) | 91 % |
+| `oscal.rs` (OSCAL-Parser, NIST SP 800-53) | 90 % |
+| `netz.rs` (Leine) | 84 % |
+| `bafin.rs` (BaFin-Parser) | 89 % |
 | `modell.rs` (Datenmodell) | 84 % |
-| `cellar.rs` (EU-Recht-Parser) | 84 % |
-| `gii.rs` (Parser deutsche Gesetze) | 81 % |
-| **Kernlogik zusammen** | **89,3 %** |
-| `main.rs` (Ablaufsteuerung, Versionierung) | 54 % |
-| ganzes Werkzeug | 77 % |
+| `cellar.rs` (EU-Recht-Parser) | 89 % |
+| `gii.rs` (Parser deutsche Gesetze) | 82 % |
+| **Kernlogik zusammen** | **90,0 %** |
+| `main.rs` (Ablaufsteuerung, Versionierung) | 52 % |
+| ganzes Werkzeug | 79 % |
 
 Das Kriterium des Auftrags („Kernlogik ≥ 80 %“) ist damit erfüllt. Was in
 `main.rs` offen bleibt, sind die **Abrufpfade** – sie werden in Tests bewusst nicht

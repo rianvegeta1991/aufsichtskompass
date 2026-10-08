@@ -1,0 +1,116 @@
+{
+  "z_1": {
+    "h": "de07aca64ae8682a15d4189e2c71d243",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die strukturierte Übersicht hilft Finanzunternehmen, die Dokumentationsanforderungen des vereinfachten IKT-Risikomanagementrahmens umzusetzen. Sie nennt die in DORA und den technischen Regulierungs- und Durchführungsstandards namentlich verlangten Mindestdokumente und soll die Orientierung in den verschiedenen Rechtstexten beschleunigen. Adressaten sind vor allem die von der BaFin beaufsichtigten Unternehmen im Anwendungsbereich des vereinfachten Rahmens."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Die Übersicht ist eine nicht verpflichtende Hilfestellung"
+          },
+          {
+            "m": "2.",
+            "t": "Sie ist keine verbindliche Auslegung der BaFin und keine Auslegung im Rahmen der Q&A-Prozesse der europäischen Aufsichtsbehörden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Eigenes Dokumentenverzeichnis, das die Mindestdokumente den Rechtsgrundlagen zuordnet."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 16 DORA; Delegierte Verordnung (EU) 2024/1774 (RTS zum IKT-Risikomanagementrahmen)."
+      }
+    ]
+  },
+  "z_2": {
+    "h": "e0ddac875ea221594f42973eb40881c4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Mindestdokumente sind in der Struktur der Rechtstexte angeordnet: Die Spalten spiegeln Kapitel, Abschnitte und Artikel von DORA und den Standards wider, die Zeilen bilden die Dokumente hierarchisch ab. Anforderungen aus den technischen Standards sind den Spalten themenbezogen zugeordnet. Wo ein Dokument im Rechtstext nicht ausdrücklich benannt ist, etwa bei Artikel 31 und 34 des RTS zum IKT-Risikomanagementrahmen, wurde ein zusammenfassender Oberbegriff gewählt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "RTS RMF: RTS zum IKT-Risikomanagementrahmen"
+          },
+          {
+            "m": "2.",
+            "t": "RTS CCI: Kriterien zur Klassifizierung von Vorfällen"
+          },
+          {
+            "m": "3.",
+            "t": "RTS CTIR: Inhalt und Fristen von Vorfallmeldungen"
+          },
+          {
+            "m": "4.",
+            "t": "ITS TIR: Vorlagen für Vorfallmeldungen"
+          },
+          {
+            "m": "5.",
+            "t": "ITS RoI: Informationsregister"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zuordnungsmatrix Dokument – Rechtsgrundlage."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Delegierte Verordnungen (EU) 2024/1774, 2024/1772 und 2025/301 sowie Durchführungsverordnungen (EU) 2024/2956 und 2025/302, soweit im Bestand."
+      }
+    ]
+  },
+  "z_3": {
+    "h": "3122e4cbd333115270580d0237c272a9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Weder die Form noch den Inhalt der aufgeführten Dokumente behandelt die Übersicht. Spezielle Verfahren, Protokolle oder Werkzeuge sind nicht beschrieben. Die Dokumente sollen nachvollziehbar und unter Beachtung der Verhältnismäßigkeit erstellt werden; manche Dokumentationspflichten lassen sich auch über Eingaben in Systemen und Werkzeugen abdecken."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verhältnismäßigkeit nach Artikel 4 DORA berücksichtigen"
+          },
+          {
+            "m": "2.",
+            "t": "Dokumentation darf teilweise durch Eingaben in Systeme erfolgen (Artikel 34 und 35 des RTS zum IKT-Risikomanagementrahmen)"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dokumentationskonzept mit Begründung der gewählten Tiefe."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 4 und 16 DORA; Artikel 34 und 35 RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  }
+}

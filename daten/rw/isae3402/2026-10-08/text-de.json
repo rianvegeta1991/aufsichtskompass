@@ -1,0 +1,138 @@
+{
+  "z_k": {
+    "h": "ea7a3388703a0c3410d2de3773c27d65",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Bericht benennt Kontrollen, die der Kunde selbst umsetzen muss, damit die Ziele erreicht werden (complementary user entity controls), und behandelt Unterdienstleister entweder im Bericht (inklusive Methode) oder ausgeschlossen (Carve-out-Methode)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ergänzende Kundenkontrollen identifizieren und umsetzen"
+          },
+          {
+            "m": "2.",
+            "t": "Bei Carve-out Berichte der Unterdienstleister gesondert beschaffen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Liste der ergänzenden Kundenkontrollen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Unterauftragsketten nach Artikel 30 DORA und Delegierter Verordnung (EU) 2025/532."
+      }
+    ]
+  },
+  "z_n": {
+    "h": "23d8c76ffbff85b08cbb4db16a7cd8bd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das auslagernde Unternehmen und dessen Prüfer werten den Bericht aus: Eignung der Kontrollziele, Abdeckung der relevanten Systeme, Ausnahmen, Zeitraum und Lücken."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Abdeckung gegen die eigenen Anforderungen prüfen"
+          },
+          {
+            "m": "2.",
+            "t": "Ausnahmen und Feststellungen nachverfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Auswertung des Berichts."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die Aufsicht kann zusätzliche Prüf- und Zugangsrechte verlangen (Artikel 30 Absatz 3 DORA); ein Bericht ersetzt diese nicht."
+      }
+    ]
+  },
+  "z_t": {
+    "h": "c3387946d766e9406f0c8d53647b5d6e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Typ 1 beurteilt Beschreibung und Angemessenheit des Aufbaus der Kontrollen zu einem bestimmten Stichtag. Typ 2 beurteilt zusätzlich die Wirksamkeit der Kontrollen über einen Zeitraum, der üblicherweise sechs Monate oder länger beträgt (die Norm selbst schreibt nach meiner Kenntnis keine feste Mindestdauer vor)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Typ 1: Stichtag, Aufbau"
+          },
+          {
+            "m": "2.",
+            "t": "Typ 2: Zeitraum, Aufbau und Wirksamkeit mit Testergebnissen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berichtstyp und Zeitraum prüfen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Für kritische oder wichtige Funktionen reicht ein Typ-1-Bericht kaum aus; ein Typ-2-Bericht trägt mehr."
+      }
+    ]
+  },
+  "z_z": {
+    "h": "8510c44f147417b4178fcf3ee7cd132c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein Dienstleistungsunternehmen (Service Organization) lässt die Kontrollen, die für das interne Kontrollsystem seiner Kunden bedeutsam sind, von einem Prüfer beurteilen. Der Bericht ersetzt viele Einzelprüfungen durch die Kunden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Das Dienstleistungsunternehmen beschreibt sein System und erklärt, dass die Beschreibung zutrifft und die Kontrollen angemessen aufgebaut sind (und wirken)"
+          },
+          {
+            "m": "2.",
+            "t": "Ein unabhängiger Prüfer erteilt darüber ein Urteil mit hinreichender Sicherheit"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Bericht des Prüfers mit Systembeschreibung und Erklärung der Leitung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Auslagerungen: Berichte sind gängige Nachweise nach Artikel 28 DORA, ersetzen aber nicht die eigene Überwachung."
+      }
+    ]
+  }
+}

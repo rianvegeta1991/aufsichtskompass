@@ -18,7 +18,7 @@ import * as analyse from './analyse.js';
 import * as news from './news.js';
 import * as lernen from './lernen.js';
 
-export const APP_VERSION = '1.11';
+export const APP_VERSION = '1.12';
 
 const seite = document.getElementById('seite');
 
@@ -245,15 +245,15 @@ async function start(wurzel) {
     el('h2', 'Ausbaustand'),
     tabelle(['Phase', 'Inhalt', 'Stand'], [
       phasenzeile('1', 'Fundament: Datenmodell, Design-Tokens hell/dunkel, Gerüst, Werkzeugkette', 'fertig'),
-      phasenzeile('2', 'Bibliothek und Viewer: CELLAR-Konnektor, DORA (DE/EN) und Level-2-Rechtsakte, Solvency II (Richtlinie und DVO), AI Act, CRA, Data Act, Anhänge, Deep-Links, Suche', 'fertig (Solvency II noch ohne Konsolidierung)'),
+      phasenzeile('2', 'Bibliothek und Viewer: CELLAR-Konnektor, DORA (DE/EN) und Level-2-Rechtsakte, Solvency II (Richtlinie und DVO), AI Act, CRA, Data Act, Anhänge, Deep-Links, Suche, NIST SP 800-53 (1.196 Controls im Originaltext)', 'fertig (Solvency II in der Ursprungsfassung, noch ohne Konsolidierung)'),
       phasenzeile('2b', 'Konnektor für gesetze-im-internet.de: VAG, BSIG, BDSG vollständig, HGB und AO als Auszug', 'fertig'),
-      phasenzeile('2c', 'BaFin: MaGo für SII-VU im Volltext (256 Randziffern) und DORA-FAQ (44 Fragen) – Nutzungsbedingungen geprüft und dokumentiert', 'fertig (PDF-Werke wie MaRisk bleiben Zusammenfassung)'),
-      phasenzeile('3', 'Eigene Zusammenfassungen: ISO 27001 (100 Einträge), COBIT 2019 (40 Objectives), ITIL 4 (34 Practices), BSI C5, GDV-Verhaltensregeln, CSA CCM, NIST CSF 2.0', 'fertig (Kennungen noch abzugleichen)'),
+      phasenzeile('2c', 'BaFin: MaGo für SII-VU im Volltext (256 Randziffern) und DORA-FAQ (44 Fragen) – Nutzungsbedingungen geprüft und dokumentiert', 'fertig (PDF-Werke wie MaRisk bleiben Zusammenfassung; MaGo für kleine VU nicht auffindbar)'),
+      phasenzeile('3', 'Eigene Zusammenfassungen zu 24 Werken ohne zulässigen Volltext: ISO-Normen (27001, 27002, 27005, 27017, 27018, 22301), COBIT 2019, ITIL 4, BSI C5, CSA CCM, NIST CSF 2.0, MaRisk, BaFin-Aufsichtsmitteilungen, EIOPA-Leitlinien, TIBER-DE, GoBD, COSO, IDW, ISAE 3402', 'fertig, aber ungeprüft: Kennungen und viele Inhalte stammen aus dem Gedächtnis'),
       phasenzeile('4', 'Themenseiten mit Fundstellen, Beziehungsmodell, Matrizen, Heatmap, Meldepflichten, Rollen, Graph, Zeitstrahl, CSV-Export', 'fertig'),
       phasenzeile('5', 'Tägliches Screening: 14 Feeds, Seitenüberwachung, neue Rechtsakte über SPARQL, Newsfeed, Digest, Protokoll', 'fertig'),
       phasenzeile('6', 'Change Detection, Archiv, Diff-Ansicht, Benachrichtigung', 'Grundlage steht (Hashes, Änderungslog)'),
       phasenzeile('7', 'Lernbereich: Lektionen, sechs Quiz-Arten, Fallstudie mit Entscheidungsbaum, Karteikarten, Cheat Sheets, Bestätigung', 'fertig'),
-      phasenzeile('8', 'Härtung: ASVS-L2-Prüfung, CSP, SSRF-Leine, Löschfunktion, 56 Tests (Kernlogik 89 %), Betriebsdoku', 'fertig (cargo audit offen)'),
+      phasenzeile('8', 'Härtung: ASVS-L2-Prüfung, CSP, SSRF-Leine, Löschfunktion, 75 Tests (Kernlogik 90 %), Betriebsdoku', 'fertig (cargo audit offen)'),
     ])));
 }
 

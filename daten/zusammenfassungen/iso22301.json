@@ -1,0 +1,242 @@
+{
+  "regelwerk": "iso22301",
+  "bezugsfassung": "ISO 22301:2019 – Sicherheit und Resilienz – Business-Continuity-Managementsysteme – Anforderungen",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen",
+  "geprueft": false,
+  "hinweis": "Kein zulässiger Volltext: ISO 22301 ist urheberrechtlich geschützt und kostenpflichtig. Hier stehen ausschließlich eigene, knappe Beschreibungen in eigenen Worten – keine übernommenen Formulierungen. Die Norm folgt der übergeordneten Struktur für Managementsystemnormen (High Level Structure) mit den Klauseln 4 bis 10; die Unterklauseln im Betrieb (Klausel 8) sind das Besondere. Die Zählung stammt aus dem Gedächtnis und ist gegen die Norm abzugleichen. Zertifiziert wird nach der ISO 22301; die ISO 22313 ist der zugehörige Leitfaden.",
+  "quelle": {
+    "name": "ISO 22301",
+    "url": "https://www.iso.org/standard/75106.html"
+  },
+  "gruppen": [
+    {
+      "kennung": "K",
+      "titel": "Klauseln 4 bis 10"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "4",
+      "titel": "Kontext der Organisation",
+      "gruppe": "K",
+      "pfad": "b/4",
+      "zweck": "Die Organisation versteht ihr Umfeld, die Erwartungen der interessierten Parteien und die rechtlichen Anforderungen und legt den Anwendungsbereich des Business-Continuity-Managementsystems fest.",
+      "anforderungen": [
+        "Interne und externe Themen bestimmen",
+        "Anforderungen interessierter Parteien und rechtliche Pflichten ermitteln",
+        "Anwendungsbereich dokumentieren"
+      ],
+      "nachweise": [
+        "Kontextanalyse",
+        "Festlegung des Anwendungsbereichs"
+      ],
+      "bezuege": [
+        "Der Bezug zu kritischen oder wichtigen Funktionen nach Artikel 3 Nummer 22 DORA liefert den Anwendungsbereich für IKT."
+      ]
+    },
+    {
+      "kennung": "5",
+      "titel": "Führung",
+      "gruppe": "K",
+      "pfad": "b/5",
+      "zweck": "Die oberste Leitung zeigt Führung und Verpflichtung, legt eine Business-Continuity-Politik fest und weist Rollen und Verantwortlichkeiten zu.",
+      "anforderungen": [
+        "Politik, Ziele und Ressourcen bereitstellen",
+        "Rollen, Verantwortlichkeiten und Befugnisse festlegen"
+      ],
+      "nachweise": [
+        "Business-Continuity-Politik mit Freigabe"
+      ],
+      "bezuege": [
+        "Verantwortung des Leitungsorgans nach Artikel 5 DORA."
+      ]
+    },
+    {
+      "kennung": "6",
+      "titel": "Planung",
+      "gruppe": "K",
+      "pfad": "b/6",
+      "zweck": "Risiken und Chancen für das Managementsystem werden bestimmt, Ziele für die Geschäftsfortführung werden festgelegt und geplant erreicht; Änderungen am Managementsystem werden geplant durchgeführt.",
+      "anforderungen": [
+        "Risiken und Chancen des Managementsystems ermitteln",
+        "Messbare Ziele mit Verantwortlichen und Zeitplänen festlegen",
+        "Änderungen planen"
+      ],
+      "nachweise": [
+        "Zielplanung",
+        "Maßnahmenplan"
+      ],
+      "bezuege": [
+        "Strategie für die digitale operationale Resilienz nach Artikel 6 Absatz 8 DORA."
+      ]
+    },
+    {
+      "kennung": "7",
+      "titel": "Unterstützung",
+      "gruppe": "K",
+      "pfad": "b/7",
+      "zweck": "Ressourcen, Kompetenz, Bewusstsein, Kommunikation und dokumentierte Information werden bereitgestellt.",
+      "anforderungen": [
+        "Personal und Technik bereitstellen",
+        "Kompetenz sicherstellen, Bewusstsein schaffen",
+        "Interne und externe Kommunikation regeln",
+        "Dokumentierte Information lenken"
+      ],
+      "nachweise": [
+        "Schulungsnachweise",
+        "Dokumentenlenkung"
+      ],
+      "bezuege": [
+        "Schulungen nach Artikel 13 Absatz 6 DORA."
+      ]
+    },
+    {
+      "kennung": "8.1",
+      "titel": "Betriebliche Planung und Steuerung",
+      "gruppe": "K",
+      "pfad": "b/8.1",
+      "zweck": "Prozesse zur Erfüllung der Anforderungen werden geplant, umgesetzt und gesteuert, auch bei ausgelagerten Prozessen.",
+      "anforderungen": [
+        "Kriterien für Prozesse festlegen",
+        "Ausgelagerte Prozesse und Lieferketten kontrollieren"
+      ],
+      "nachweise": [
+        "Prozessbeschreibungen"
+      ],
+      "bezuege": [
+        "Auslagerungen berücksichtigt Artikel 25 des RTS zum IKT-Risikomanagementrahmen bei den Geschäftsfortführungsplänen."
+      ]
+    },
+    {
+      "kennung": "8.2",
+      "titel": "Business-Impact-Analyse und Risikobeurteilung",
+      "gruppe": "K",
+      "pfad": "b/8.2",
+      "zweck": "Die Business-Impact-Analyse ermittelt, welche Aktivitäten wie schnell wieder laufen müssen: Auswirkungen einer Unterbrechung, Wiederanlaufzeiten, Prioritäten, Abhängigkeiten. Die Risikobeurteilung erfasst die Risiken von Unterbrechungen dieser priorisierten Aktivitäten.",
+      "anforderungen": [
+        "Auswirkungen über abgestufte Zeiträume ermitteln",
+        "Zeitrahmen für die Wiederaufnahme und Mindestniveaus bestimmen",
+        "Abhängigkeiten und unterstützende Ressourcen erfassen",
+        "Unterbrechungsrisiken bewerten"
+      ],
+      "nachweise": [
+        "Business-Impact-Analyse",
+        "Risikobeurteilung"
+      ],
+      "bezuege": [
+        "Business-Impact-Analyse nach Artikel 11 Absatz 5 DORA; Wiederherstellungsziele nach Artikel 12 Absatz 5."
+      ]
+    },
+    {
+      "kennung": "8.3",
+      "titel": "Strategien und Lösungen für die Geschäftsfortführung",
+      "gruppe": "K",
+      "pfad": "b/8.3",
+      "zweck": "Auf Grundlage der Analyse werden Strategien und Lösungen gewählt, die Schäden begrenzen und Aktivitäten innerhalb der Zeitrahmen fortführen oder wiederherstellen; dazu gehört der Bedarf an Ressourcen.",
+      "anforderungen": [
+        "Strategien zum Schutz priorisierter Aktivitäten, Fortführung und Wiederherstellung auswählen",
+        "Ressourcenbedarf bestimmen: Personal, Informationen, Technik, Standorte, Lieferanten",
+        "Lösungen umsetzen"
+      ],
+      "nachweise": [
+        "Strategiepapier",
+        "Ressourcenplan"
+      ],
+      "bezuege": [
+        "Redundante Kapazitäten nach Artikel 12 Absatz 4 DORA."
+      ]
+    },
+    {
+      "kennung": "8.4",
+      "titel": "Business-Continuity-Pläne und -Verfahren",
+      "gruppe": "K",
+      "pfad": "b/8.4",
+      "zweck": "Dokumentierte Verfahren legen die Reaktionsstruktur, Warn- und Kommunikationswege und die Wiederherstellung fest. Pläne enthalten Rollen, Auslöser, Maßnahmen und Kontaktdaten.",
+      "anforderungen": [
+        "Reaktionsstruktur mit Rollen festlegen",
+        "Warnung und Kommunikation intern und extern regeln",
+        "Pläne mit klaren Auslösekriterien",
+        "Wiederherstellungsverfahren zurück zum Normalbetrieb"
+      ],
+      "nachweise": [
+        "Business-Continuity-Pläne",
+        "Kommunikationsplan"
+      ],
+      "bezuege": [
+        "IKT-Reaktions- und Wiederherstellungspläne nach Artikel 11 Absatz 3 DORA."
+      ]
+    },
+    {
+      "kennung": "8.5",
+      "titel": "Übungsprogramm",
+      "gruppe": "K",
+      "pfad": "b/8.5",
+      "zweck": "Verfahren werden in geplanten Abständen geübt und getestet; Ergebnisse werden ausgewertet und führen zu Verbesserungen.",
+      "anforderungen": [
+        "Übungsprogramm mit Zielen und Szenarien",
+        "Nachbetrachtung und Maßnahmen aus Übungen"
+      ],
+      "nachweise": [
+        "Übungsplan",
+        "Übungsberichte"
+      ],
+      "bezuege": [
+        "Mindestens jährliche Tests nach Artikel 11 Absatz 6 DORA."
+      ]
+    },
+    {
+      "kennung": "8.6",
+      "titel": "Bewertung der Dokumentation und der Fähigkeiten der Geschäftsfortführung",
+      "gruppe": "K",
+      "pfad": "b/8.6",
+      "zweck": "Die Organisation bewertet die Eignung und Wirksamkeit ihrer Analyse, Strategien, Lösungen, Pläne und Verfahren, auch nach Vorfällen und bei wesentlichen Änderungen.",
+      "anforderungen": [
+        "Bewertungen in geplanten Abständen und anlassbezogen",
+        "Ergebnisse dokumentieren und an die Leitung berichten"
+      ],
+      "nachweise": [
+        "Bewertungsberichte"
+      ],
+      "bezuege": [
+        "Überprüfung nach Artikel 11 Absatz 6 DORA."
+      ]
+    },
+    {
+      "kennung": "9",
+      "titel": "Bewertung der Leistung",
+      "gruppe": "K",
+      "pfad": "b/9",
+      "zweck": "Das Managementsystem wird überwacht, gemessen und bewertet, durch interne Audits und die Managementbewertung.",
+      "anforderungen": [
+        "Kennzahlen und Überwachungsmethoden festlegen",
+        "Interne Audits planen und durchführen",
+        "Managementbewertung mit Entscheidungen zu Verbesserungen"
+      ],
+      "nachweise": [
+        "Auditberichte",
+        "Protokolle der Managementbewertung"
+      ],
+      "bezuege": [
+        "Prüfung nach Artikel 24 DORA und durch die interne Revision."
+      ]
+    },
+    {
+      "kennung": "10",
+      "titel": "Verbesserung",
+      "gruppe": "K",
+      "pfad": "b/10",
+      "zweck": "Nichtkonformitäten werden behandelt, Ursachen beseitigt und das Managementsystem fortlaufend verbessert.",
+      "anforderungen": [
+        "Korrekturmaßnahmen mit Ursachenanalyse",
+        "Fortlaufende Verbesserung der Eignung und Wirksamkeit"
+      ],
+      "nachweise": [
+        "Maßnahmenverfolgung"
+      ],
+      "bezuege": [
+        "Lernen aus Vorfällen und Tests nach Artikel 13 DORA."
+      ]
+    }
+  ]
+}

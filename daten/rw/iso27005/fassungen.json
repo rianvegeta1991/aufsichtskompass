@@ -1,0 +1,17 @@
+{
+  "regelwerk": "iso27005",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:10Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISO/IEC 27005 – Leitfaden zum Management von Informationssicherheitsrisiken (Ausgabe 2022)",
+        "url": "https://www.iso.org/standard/80585.html",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27005 (ISO/IEC 27005 – Leitfaden zum Management von Informationssicherheitsrisiken (Ausgabe 2022))."
+      },
+      "hash": "88820f2ffc47c280305a673c71942a4ecf6dd15f98d8c252a34f3770ba5f7f33",
+      "fundstellen": 8
+    }
+  ]
+}

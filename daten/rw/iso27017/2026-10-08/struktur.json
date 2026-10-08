@@ -1,0 +1,115 @@
+{
+  "regelwerk": "iso27017",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:11Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISO/IEC 27017:2015 – Verhaltenskodex für Informationssicherheitsmaßnahmen für Cloud-Dienste auf der Grundlage von ISO/IEC 27002",
+    "url": "https://www.iso.org/standard/43757.html",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27017 (ISO/IEC 27017:2015 – Verhaltenskodex für Informationssicherheitsmaßnahmen für Cloud-Dienste auf der Grundlage von ISO/IEC 27002)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_c",
+      "art": "abschnitt",
+      "nummer": "C",
+      "bez": "C",
+      "titel": {
+        "de": "Cloud-spezifische Controls und Leitlinien"
+      },
+      "pfad": "gr/c",
+      "kinder": [
+        {
+          "id": "z_cld_6_3_1",
+          "art": "control",
+          "nummer": "CLD.6.3.1",
+          "bez": "CLD.6.3.1",
+          "titel": {
+            "de": "Gemeinsame Rollen und Verantwortlichkeiten in der Cloud-Umgebung"
+          },
+          "pfad": "c/cld.6.3.1",
+          "text": true
+        },
+        {
+          "id": "z_cld_8_1_5",
+          "art": "control",
+          "nummer": "CLD.8.1.5",
+          "bez": "CLD.8.1.5",
+          "titel": {
+            "de": "Rückgabe von Werten der Cloud-Kunden"
+          },
+          "pfad": "c/cld.8.1.5",
+          "text": true
+        },
+        {
+          "id": "z_cld_9_5_1",
+          "art": "control",
+          "nummer": "CLD.9.5.1",
+          "bez": "CLD.9.5.1",
+          "titel": {
+            "de": "Trennung in virtuellen Rechenumgebungen"
+          },
+          "pfad": "c/cld.9.5.1",
+          "text": true
+        },
+        {
+          "id": "z_cld_9_5_2",
+          "art": "control",
+          "nummer": "CLD.9.5.2",
+          "bez": "CLD.9.5.2",
+          "titel": {
+            "de": "Härtung virtueller Maschinen"
+          },
+          "pfad": "c/cld.9.5.2",
+          "text": true
+        },
+        {
+          "id": "z_cld_12_1_5",
+          "art": "control",
+          "nummer": "CLD.12.1.5",
+          "bez": "CLD.12.1.5",
+          "titel": {
+            "de": "Betriebliche Sicherheit der Administratoren"
+          },
+          "pfad": "c/cld.12.1.5",
+          "text": true
+        },
+        {
+          "id": "z_cld_12_4_5",
+          "art": "control",
+          "nummer": "CLD.12.4.5",
+          "bez": "CLD.12.4.5",
+          "titel": {
+            "de": "Überwachung von Cloud-Diensten"
+          },
+          "pfad": "c/cld.12.4.5",
+          "text": true
+        },
+        {
+          "id": "z_cld_13_1_4",
+          "art": "control",
+          "nummer": "CLD.13.1.4",
+          "bez": "CLD.13.1.4",
+          "titel": {
+            "de": "Abstimmung der Sicherheitsverwaltung für virtuelle und physische Netze"
+          },
+          "pfad": "c/cld.13.1.4",
+          "text": true
+        },
+        {
+          "id": "z_l",
+          "art": "control",
+          "nummer": "L",
+          "bez": "L",
+          "titel": {
+            "de": "Ergänzende Leitlinien zu bestehenden Controls"
+          },
+          "pfad": "c/leitlinien",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

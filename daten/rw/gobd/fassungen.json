@@ -1,0 +1,17 @@
+{
+  "regelwerk": "gobd",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:04Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, Änderungsstand gegen die BMF-Seite geprüft, ungeprüft) – Bezugsfassung: BMF-Schreiben „Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff (GoBD)“ vom 28.11.2019, zuletzt geändert durch BMF-Schreiben vom 14.07.2025 (2. Änderung aufgrund verschiedener gesetzlicher Änderungen); 1. Änderung am 11.03.2024",
+        "url": "https://www.bundesfinanzministerium.de/Content/DE/Downloads/BMF_Schreiben/Weitere_Steuerthemen/Abgabenordnung/2025-07-14-GoBD-2-aenderung.html",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein Bundesministerium der Finanzen, GoBD (BMF-Schreiben „Grundsätze zur ordnungsmäßigen Führung und Aufbewahrung von Büchern, Aufzeichnungen und Unterlagen in elektronischer Form sowie zum Datenzugriff (GoBD)“ vom 28.11.2019, zuletzt geändert durch BMF-Schreiben vom 14.07.2025 (2. Änderung aufgrund verschiedener gesetzlicher Änderungen); 1. Änderung am 11.03.2024)."
+      },
+      "hash": "6ca8d757631f1dbf6ae19a067c18d23f3923fa92816ee987254c6404315331ab",
+      "fundstellen": 10
+    }
+  ]
+}

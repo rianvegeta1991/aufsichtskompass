@@ -1,0 +1,17 @@
+{
+  "regelwerk": "marisk",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:13Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts (Gliederung vollständig, DORA-bezogene Passagen im Wortlaut gelesen, übrige Abschnitte nur auf Strukturebene), ungeprüft) – Bezugsfassung: BaFin-Rundschreiben 06/2026 (BA) „Mindestanforderungen an das Risikomanagement – MaRisk“ (9. MaRisk-Novelle), Stand 30.06.2026, 82 Seiten",
+        "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Rundschreiben/dl_rs_0626_9_marisk.html",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein BaFin, Rundschreiben 06/2026 (BA) MaRisk (BaFin-Rundschreiben 06/2026 (BA) „Mindestanforderungen an das Risikomanagement – MaRisk“ (9. MaRisk-Novelle), Stand 30.06.2026, 82 Seiten)."
+      },
+      "hash": "7fa58a633d671af2d54aaa533e3cbb39204fa656364a511182658c205341c60c",
+      "fundstellen": 18
+    }
+  ]
+}

@@ -1703,6 +1703,810 @@
       "themen": [
         "informationsregister"
       ]
+    },
+    {
+      "rw": "marisk",
+      "pfad": "m/at3",
+      "themen": [
+        "leitungsorgan",
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "marisk",
+      "pfad": "m/at42",
+      "themen": [
+        "it-governance",
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "marisk",
+      "pfad": "m/at43",
+      "themen": [
+        "iks",
+        "funktionstrennung"
+      ]
+    },
+    {
+      "rw": "marisk",
+      "pfad": "m/at44",
+      "themen": [
+        "iks",
+        "funktionstrennung"
+      ]
+    },
+    {
+      "rw": "marisk",
+      "pfad": "m/at72",
+      "themen": [
+        "asset-konfiguration",
+        "ikt-risikomanagement",
+        "infosec"
+      ]
+    },
+    {
+      "rw": "marisk",
+      "pfad": "m/at73",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "marisk",
+      "pfad": "m/at8",
+      "themen": [
+        "change-management"
+      ]
+    },
+    {
+      "rw": "marisk",
+      "pfad": "m/at9",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "marisk",
+      "pfad": "m/btr4",
+      "themen": [
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/1.1",
+      "themen": [
+        "ikt-risikomanagement",
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/1.2",
+      "themen": [
+        "it-governance",
+        "iks"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/1.3",
+      "themen": [
+        "leitungsorgan"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/2.1",
+      "themen": [
+        "ikt-risikomanagement",
+        "infosec"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/2.3",
+      "themen": [
+        "awareness"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/3.2",
+      "themen": [
+        "asset-konfiguration"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/3.3",
+      "themen": [
+        "change-management"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/3.4",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/4.1",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/4.2",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/4.3",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/4.4",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/5.1",
+      "themen": [
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/5.2",
+      "themen": [
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/5.3",
+      "themen": [
+        "change-management",
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/6.1",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/6.2",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/6.3",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/6.4",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/6.5",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/6.6",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/anhang",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/6.7",
+      "themen": [
+        "informationsregister",
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/7.1",
+      "themen": [
+        "opsec",
+        "infosec"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/7.2",
+      "themen": [
+        "kryptografie"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/7.3",
+      "themen": [
+        "logging-monitoring",
+        "opsec"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/8.1",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "bafin-dora-mitteilung",
+      "pfad": "ab/8.2",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "eiopa-governance",
+      "pfad": "g/i-organisation",
+      "themen": [
+        "it-governance",
+        "leitungsorgan"
+      ]
+    },
+    {
+      "rw": "eiopa-governance",
+      "pfad": "g/l7",
+      "themen": [
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "eiopa-governance",
+      "pfad": "g/l8",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "eiopa-governance",
+      "pfad": "g/iv-risikomanagement",
+      "themen": [
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "eiopa-governance",
+      "pfad": "g/l21",
+      "themen": [
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "eiopa-governance",
+      "pfad": "g/vii-kontrollen",
+      "themen": [
+        "iks"
+      ]
+    },
+    {
+      "rw": "eiopa-governance",
+      "pfad": "g/xi-outsourcing",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l2",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l3",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l4",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l5",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l6",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l7",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l8",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l9",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l10",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l11",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l12",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l13",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l14",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l15",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "eiopa-cloud",
+      "pfad": "c/l16",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "tiber-de",
+      "pfad": "t/2",
+      "themen": [
+        "resilienztests"
+      ]
+    },
+    {
+      "rw": "tiber-de",
+      "pfad": "t/3",
+      "themen": [
+        "resilienztests"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.19",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.20",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.21",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.22",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.23",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.24",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.25",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.26",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.27",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.28",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.29",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.30",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.15",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.16",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.17",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.18",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.9",
+      "themen": [
+        "asset-konfiguration"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/5.10",
+      "themen": [
+        "asset-konfiguration"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/6.3",
+      "themen": [
+        "awareness"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.13",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.15",
+      "themen": [
+        "logging-monitoring"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.16",
+      "themen": [
+        "logging-monitoring"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.24",
+      "themen": [
+        "kryptografie"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.25",
+      "themen": [
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.26",
+      "themen": [
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.27",
+      "themen": [
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.28",
+      "themen": [
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.29",
+      "themen": [
+        "sdlc"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.32",
+      "themen": [
+        "change-management"
+      ]
+    },
+    {
+      "rw": "iso27002",
+      "pfad": "k/8.9",
+      "themen": [
+        "asset-konfiguration"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/ac",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/at",
+      "themen": [
+        "awareness"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/au",
+      "themen": [
+        "logging-monitoring"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/ca",
+      "themen": [
+        "iks",
+        "test-anforderungsmanagement"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/cm",
+      "themen": [
+        "asset-konfiguration",
+        "change-management"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/cp",
+      "themen": [
+        "bcm-backup"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/ia",
+      "themen": [
+        "iam"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/ir",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/ma",
+      "themen": [
+        "opsec"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/mp",
+      "themen": [
+        "infosec"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/pe",
+      "themen": [
+        "infosec"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/pl",
+      "themen": [
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/pm",
+      "themen": [
+        "it-governance",
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/ps",
+      "themen": [
+        "infosec"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/pt",
+      "themen": [
+        "datenschutz"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/ra",
+      "themen": [
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/sa",
+      "themen": [
+        "sdlc",
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/sc",
+      "themen": [
+        "infosec",
+        "kryptografie"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/si",
+      "themen": [
+        "opsec",
+        "logging-monitoring"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "fam/sr",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "nist-800-53",
+      "pfad": "c/ca-8",
+      "themen": [
+        "resilienztests"
+      ]
     }
   ]
 }

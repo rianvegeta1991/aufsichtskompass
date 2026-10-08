@@ -1,0 +1,112 @@
+{
+  "z_n": {
+    "h": "84138cb0f714c1790c527c9fe5c5732d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das auslagernde Unternehmen prüft Umfang, Zeitraum, Ausnahmen und die ergänzenden Kontrollen, die es selbst beim Kunden umsetzen muss, und ob nachgelagerte Dienstleister enthalten sind."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Abdeckung des Berichts gegen die eigenen Anforderungen abgleichen"
+          },
+          {
+            "m": "2.",
+            "t": "Ergänzende Kontrollen beim Kunden umsetzen"
+          },
+          {
+            "m": "3.",
+            "t": "Feststellungen verfolgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Auswertung des Berichts mit Abgleich zu den eigenen Anforderungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Nutzung von Prüfberichten als Teil der Due Diligence nach Artikel 28 DORA und der Prüfung von Auslagerungen nach MaGo."
+      }
+    ]
+  },
+  "z_t": {
+    "h": "56ff9b44bea3b4a8b0e2aaa8e8ade38d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wie bei ISAE 3402 gibt es Berichte zum Aufbau der Kontrollen zu einem Stichtag (Typ A) und zusätzlich zur Wirksamkeit über einen Zeitraum (Typ B)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Typ A: Angemessenheit des Aufbaus zu einem Zeitpunkt"
+          },
+          {
+            "m": "2.",
+            "t": "Typ B: zusätzlich Wirksamkeit über einen Zeitraum"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berichtstyp und Berichtszeitraum prüfen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht Typ 1 und Typ 2 nach ISAE 3402."
+      }
+    ]
+  },
+  "z_z": {
+    "h": "3c86100a918510e162ffa9eec9969315",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein Dienstleistungsunternehmen, das Leistungen erbringt, die für die Rechnungslegung seiner Kunden bedeutsam sind, lässt sein internes Kontrollsystem durch einen Wirtschaftsprüfer prüfen. Der Bericht dient den Kunden und deren Abschlussprüfern als Nachweis, ohne dass jeder Kunde selbst prüfen muss."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Beschreibung des Systems durch das Dienstleistungsunternehmen"
+          },
+          {
+            "m": "2.",
+            "t": "Erklärung der gesetzlichen Vertreter"
+          },
+          {
+            "m": "3.",
+            "t": "Prüfung der Beschreibung und der Kontrollen durch den Wirtschaftsprüfer"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Bericht über die Prüfung des internen Kontrollsystems."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Üblicher Nachweis bei der Auslagerung; ersetzt aber nicht die eigene Überwachung nach Artikel 28 DORA."
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "regelwerk": "idw-ps330",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:04Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: IDW PS 330 – Abschlussprüfung bei Einsatz von Informationstechnologie",
+    "url": "https://www.idw.de/",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein IDW PS 330 (IDW PS 330 – Abschlussprüfung bei Einsatz von Informationstechnologie)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_p",
+      "art": "abschnitt",
+      "nummer": "P",
+      "bez": "P",
+      "titel": {
+        "de": "Prüfungsstandard"
+      },
+      "pfad": "gr/p",
+      "kinder": [
+        {
+          "id": "z_z",
+          "art": "control",
+          "nummer": "Z",
+          "bez": "Z",
+          "titel": {
+            "de": "Zweck und Anwendungsfall"
+          },
+          "pfad": "a/zweck",
+          "text": true
+        },
+        {
+          "id": "z_k",
+          "art": "control",
+          "nummer": "K",
+          "bez": "K",
+          "titel": {
+            "de": "Generelle IT-Kontrollen und Anwendungskontrollen"
+          },
+          "pfad": "a/kontrollen",
+          "text": true
+        },
+        {
+          "id": "z_a",
+          "art": "control",
+          "nummer": "A",
+          "bez": "A",
+          "titel": {
+            "de": "Auslagerung der IT"
+          },
+          "pfad": "a/auslagerung",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

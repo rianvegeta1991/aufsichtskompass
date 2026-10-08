@@ -1,0 +1,198 @@
+{
+  "regelwerk": "iso27018",
+  "bezugsfassung": "ISO/IEC 27018:2019 – Leitfaden zum Schutz personenbezogener Daten (PII) in öffentlichen Clouds, in denen der Anbieter als Auftragsverarbeiter handelt",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen",
+  "geprueft": false,
+  "hinweis": "Kein zulässiger Volltext: ISO/IEC 27018 ist urheberrechtlich geschützt und kostenpflichtig. Hier stehen ausschließlich eigene, knappe Beschreibungen in eigenen Worten – keine übernommenen Formulierungen. Die Zusammenfassung ist nach THEMEN gegliedert, NICHT nach den Nummern der Norm: Deren Anhang A ordnet die zusätzlichen Controls den Datenschutzgrundsätzen der ISO/IEC 29100 zu, die genaue Zuordnung ist hier nicht gesichert. Die Norm ergänzt die ISO/IEC 27002 um Controls für Anbieter, die personenbezogene Daten im Auftrag verarbeiten; sie ist kein Ersatz für eine Bewertung nach der Datenschutz-Grundverordnung und begründet keine Konformität mit ihr.",
+  "quelle": {
+    "name": "ISO/IEC 27018",
+    "url": "https://www.iso.org/standard/76559.html"
+  },
+  "gruppen": [
+    {
+      "kennung": "D",
+      "titel": "Schutz personenbezogener Daten in öffentlichen Clouds"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "D1",
+      "titel": "Rolle als Auftragsverarbeiter und Weisungsbindung",
+      "gruppe": "D",
+      "pfad": "p/rolle",
+      "zweck": "Der Cloud-Anbieter verarbeitet personenbezogene Daten nur im Auftrag und nach Weisung des Kunden und für den vereinbarten Zweck. Die Norm geht davon aus, dass der Kunde der Verantwortliche ist.",
+      "anforderungen": [
+        "Verarbeitung ausschließlich nach den Weisungen des Kunden",
+        "Keine Nutzung der Daten für Werbung oder eigene Zwecke ohne ausdrückliche Zustimmung",
+        "Zweck und Art der Verarbeitung vertraglich festhalten"
+      ],
+      "nachweise": [
+        "Auftragsverarbeitungsvertrag"
+      ],
+      "bezuege": [
+        "Artikel 28 DSGVO; Verhaltensregeln des GDV, Regelungsfeld Auftragsverarbeitung."
+      ]
+    },
+    {
+      "kennung": "D2",
+      "titel": "Unterstützung bei den Rechten der Betroffenen",
+      "gruppe": "D",
+      "pfad": "p/rechte",
+      "zweck": "Der Anbieter hilft dem Kunden, Auskunfts-, Berichtigungs- und Löschansprüche der Betroffenen zu erfüllen, und benennt dafür Ansprechpartner und Verfahren.",
+      "anforderungen": [
+        "Verfahren zur Unterstützung der Betroffenenrechte vereinbaren",
+        "Fristen und Kommunikationswege regeln"
+      ],
+      "nachweise": [
+        "Vertragsklauseln und Ansprechpartner"
+      ],
+      "bezuege": [
+        "Artikel 15 bis 22 DSGVO."
+      ]
+    },
+    {
+      "kennung": "D3",
+      "titel": "Datenminimierung und Löschung temporärer Dateien",
+      "gruppe": "D",
+      "pfad": "p/minimierung",
+      "zweck": "Personenbezogene Daten werden nur so lange und in dem Umfang vorgehalten, wie nötig; temporäre Dateien, die bei der Verarbeitung entstehen, werden innerhalb einer festgelegten Frist gelöscht.",
+      "anforderungen": [
+        "Löschfristen für temporäre Dateien festlegen",
+        "Keine unnötigen Kopien"
+      ],
+      "nachweise": [
+        "Löschkonzept"
+      ],
+      "bezuege": [
+        "Datenminimierung und Speicherbegrenzung nach Artikel 5 DSGVO."
+      ]
+    },
+    {
+      "kennung": "D4",
+      "titel": "Offenlegung und Herausgabeersuchen",
+      "gruppe": "D",
+      "pfad": "p/offenlegung",
+      "zweck": "Verlangt eine Stelle die Herausgabe personenbezogener Daten, informiert der Anbieter den Kunden, soweit das Recht nicht entgegensteht, und prüft die Rechtmäßigkeit. Offenlegungen werden aufgezeichnet.",
+      "anforderungen": [
+        "Benachrichtigung des Kunden vor einer Offenlegung, soweit zulässig",
+        "Aufzeichnung jeder Offenlegung mit Empfänger, Zeitpunkt und Inhalt",
+        "Rechtmäßigkeit der Anfrage prüfen"
+      ],
+      "nachweise": [
+        "Verfahren zu Auskunftsersuchen",
+        "Offenlegungsprotokoll"
+      ],
+      "bezuege": [
+        "Drittlandübermittlung nach Kapitel V DSGVO; Kriterienbereich Umgang mit Ermittlungsanfragen im BSI C5."
+      ]
+    },
+    {
+      "kennung": "D5",
+      "titel": "Unterauftragsverarbeitung",
+      "gruppe": "D",
+      "pfad": "p/unterauftrag",
+      "zweck": "Der Anbieter legt gegenüber dem Kunden offen, welche Unterauftragnehmer personenbezogene Daten verarbeiten, und bindet diese an dieselben Pflichten. Änderungen werden vorab mitgeteilt.",
+      "anforderungen": [
+        "Liste der Unterauftragnehmer bereitstellen",
+        "Pflichten an Unterauftragnehmer weitergeben",
+        "Kunden die Möglichkeit zum Widerspruch geben"
+      ],
+      "nachweise": [
+        "Unterauftragnehmerverzeichnis"
+      ],
+      "bezuege": [
+        "Artikel 28 Absatz 2 und 4 DSGVO; Unterauftragsvergabe nach Artikel 30 DORA."
+      ]
+    },
+    {
+      "kennung": "D6",
+      "titel": "Rückgabe, Übertragung und Entsorgung",
+      "gruppe": "D",
+      "pfad": "p/rueckgabe",
+      "zweck": "Bei Vertragsende werden personenbezogene Daten zurückgegeben, übertragen oder sicher gelöscht, einschließlich Kopien und Sicherungen.",
+      "anforderungen": [
+        "Verfahren und Fristen vorab festlegen",
+        "Löschung bei Sicherungsmedien und Papier berücksichtigen"
+      ],
+      "nachweise": [
+        "Rückgabe- und Löschprotokolle"
+      ],
+      "bezuege": [
+        "Artikel 28 Absatz 3 Buchstabe g DSGVO."
+      ]
+    },
+    {
+      "kennung": "D7",
+      "titel": "Technische und organisatorische Sicherheitsmaßnahmen",
+      "gruppe": "D",
+      "pfad": "p/sicherheit",
+      "zweck": "Die Norm ergänzt die Sicherheitsmaßnahmen der ISO/IEC 27002 um Punkte für personenbezogene Daten: Vertraulichkeitsvereinbarungen mit Personal, Verschlüsselung bei Übertragung über öffentliche Netze und auf tragbaren Speichermedien, Kontrolle und Protokollierung der Datenwiederherstellung, Schutz von Datenträgern außer Haus, sichere Entsorgung von Papier sowie eindeutige Benutzerkennungen mit Nachweis der Berechtigten.",
+      "anforderungen": [
+        "Verschlüsselung für Übertragungen und tragbare Medien",
+        "Eindeutige Benutzerkennungen und Verzeichnis berechtigter Benutzer",
+        "Wiederherstellung von Daten kontrollieren und protokollieren",
+        "Papierkopien begrenzen und sicher entsorgen"
+      ],
+      "nachweise": [
+        "Sicherheitskonzept mit Bezug zu personenbezogenen Daten"
+      ],
+      "bezuege": [
+        "Artikel 32 DSGVO; Controls 8.5, 8.13, 8.15 und 8.24 der ISO/IEC 27002."
+      ]
+    },
+    {
+      "kennung": "D8",
+      "titel": "Meldung von Datenschutzverletzungen",
+      "gruppe": "D",
+      "pfad": "p/panne",
+      "zweck": "Bei Verletzung des Schutzes personenbezogener Daten benachrichtigt der Anbieter den Kunden unverzüglich, damit dieser seine Meldepflichten erfüllen kann; Aufzeichnungen über Verletzungen werden geführt.",
+      "anforderungen": [
+        "Meldefristen vertraglich festlegen",
+        "Inhalt der Meldung festlegen",
+        "Verletzungen und Folgen aufzeichnen"
+      ],
+      "nachweise": [
+        "Meldeverfahren",
+        "Verletzungsregister"
+      ],
+      "bezuege": [
+        "Artikel 33 DSGVO und Artikel 19 DORA."
+      ]
+    },
+    {
+      "kennung": "D9",
+      "titel": "Datenstandort und Zielort",
+      "gruppe": "D",
+      "pfad": "p/standort",
+      "zweck": "Der Anbieter gibt an, in welchen Ländern personenbezogene Daten gespeichert und verarbeitet werden können, und informiert über beabsichtigte Wechsel.",
+      "anforderungen": [
+        "Standorte benennen",
+        "Vorherige Information über Standortwechsel"
+      ],
+      "nachweise": [
+        "Angaben zu Datenstandorten im Vertrag"
+      ],
+      "bezuege": [
+        "Standort der Datenverarbeitung nach Artikel 30 Absatz 2 DORA."
+      ]
+    },
+    {
+      "kennung": "D10",
+      "titel": "Dokumentation und Nachweise",
+      "gruppe": "D",
+      "pfad": "p/nachweis",
+      "zweck": "Der Anbieter hält Richtlinien und Aufzeichnungen zur Einhaltung bereit und kann Kunden Nachweise zur Verfügung stellen, etwa über unabhängige Prüfungen.",
+      "anforderungen": [
+        "Aufbewahrungsdauer für Richtlinien und Leitlinien festlegen",
+        "Unabhängige Prüfungen zugänglich machen"
+      ],
+      "nachweise": [
+        "Zertifikate und Prüfberichte"
+      ],
+      "bezuege": [
+        "Rechenschaftspflicht nach Artikel 5 Absatz 2 DSGVO; Nachweise im Sinne des Artikels 30 Absatz 3 DORA."
+      ]
+    }
+  ]
+}

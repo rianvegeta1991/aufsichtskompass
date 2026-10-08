@@ -1,0 +1,137 @@
+{
+  "regelwerk": "iso27018",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:11Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISO/IEC 27018:2019 – Leitfaden zum Schutz personenbezogener Daten (PII) in öffentlichen Clouds, in denen der Anbieter als Auftragsverarbeiter handelt",
+    "url": "https://www.iso.org/standard/76559.html",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27018 (ISO/IEC 27018:2019 – Leitfaden zum Schutz personenbezogener Daten (PII) in öffentlichen Clouds, in denen der Anbieter als Auftragsverarbeiter handelt)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_d",
+      "art": "abschnitt",
+      "nummer": "D",
+      "bez": "D",
+      "titel": {
+        "de": "Schutz personenbezogener Daten in öffentlichen Clouds"
+      },
+      "pfad": "gr/d",
+      "kinder": [
+        {
+          "id": "z_d1",
+          "art": "control",
+          "nummer": "D1",
+          "bez": "D1",
+          "titel": {
+            "de": "Rolle als Auftragsverarbeiter und Weisungsbindung"
+          },
+          "pfad": "p/rolle",
+          "text": true
+        },
+        {
+          "id": "z_d2",
+          "art": "control",
+          "nummer": "D2",
+          "bez": "D2",
+          "titel": {
+            "de": "Unterstützung bei den Rechten der Betroffenen"
+          },
+          "pfad": "p/rechte",
+          "text": true
+        },
+        {
+          "id": "z_d3",
+          "art": "control",
+          "nummer": "D3",
+          "bez": "D3",
+          "titel": {
+            "de": "Datenminimierung und Löschung temporärer Dateien"
+          },
+          "pfad": "p/minimierung",
+          "text": true
+        },
+        {
+          "id": "z_d4",
+          "art": "control",
+          "nummer": "D4",
+          "bez": "D4",
+          "titel": {
+            "de": "Offenlegung und Herausgabeersuchen"
+          },
+          "pfad": "p/offenlegung",
+          "text": true
+        },
+        {
+          "id": "z_d5",
+          "art": "control",
+          "nummer": "D5",
+          "bez": "D5",
+          "titel": {
+            "de": "Unterauftragsverarbeitung"
+          },
+          "pfad": "p/unterauftrag",
+          "text": true
+        },
+        {
+          "id": "z_d6",
+          "art": "control",
+          "nummer": "D6",
+          "bez": "D6",
+          "titel": {
+            "de": "Rückgabe, Übertragung und Entsorgung"
+          },
+          "pfad": "p/rueckgabe",
+          "text": true
+        },
+        {
+          "id": "z_d7",
+          "art": "control",
+          "nummer": "D7",
+          "bez": "D7",
+          "titel": {
+            "de": "Technische und organisatorische Sicherheitsmaßnahmen"
+          },
+          "pfad": "p/sicherheit",
+          "text": true
+        },
+        {
+          "id": "z_d8",
+          "art": "control",
+          "nummer": "D8",
+          "bez": "D8",
+          "titel": {
+            "de": "Meldung von Datenschutzverletzungen"
+          },
+          "pfad": "p/panne",
+          "text": true
+        },
+        {
+          "id": "z_d9",
+          "art": "control",
+          "nummer": "D9",
+          "bez": "D9",
+          "titel": {
+            "de": "Datenstandort und Zielort"
+          },
+          "pfad": "p/standort",
+          "text": true
+        },
+        {
+          "id": "z_d10",
+          "art": "control",
+          "nummer": "D10",
+          "bez": "D10",
+          "titel": {
+            "de": "Dokumentation und Nachweise"
+          },
+          "pfad": "p/nachweis",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

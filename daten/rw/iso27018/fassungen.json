@@ -1,0 +1,17 @@
+{
+  "regelwerk": "iso27018",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:11Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISO/IEC 27018:2019 – Leitfaden zum Schutz personenbezogener Daten (PII) in öffentlichen Clouds, in denen der Anbieter als Auftragsverarbeiter handelt",
+        "url": "https://www.iso.org/standard/76559.html",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27018 (ISO/IEC 27018:2019 – Leitfaden zum Schutz personenbezogener Daten (PII) in öffentlichen Clouds, in denen der Anbieter als Auftragsverarbeiter handelt)."
+      },
+      "hash": "6de5cc6764984810c043d1b4e2261a889d55fa9bee85d7fbe4245bf4d706f864",
+      "fundstellen": 10
+    }
+  ]
+}

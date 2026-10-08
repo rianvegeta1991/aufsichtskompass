@@ -1,0 +1,47 @@
+{
+  "regelwerk": "tiber-de",
+  "bezugsfassung": "Deutsche Bundesbank, „Implementierung von TIBER-DE“, Version 4.0, Juli 2025 (8 Seiten); darauf aufbauend das TIBER-EU-Rahmenwerk der EZB in der überarbeiteten Fassung vom Januar 2025",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt nach Durchsicht des Originaltexts (Umsetzungsdokument vollständig gelesen, das TIBER-EU-Rahmenwerk selbst nicht)",
+  "geprueft": false,
+  "hinweis": "Das hier zusammengefasste Umsetzungsdokument ist kurz; die eigentlichen Testschritte stehen im TIBER-EU-Rahmenwerk auf der Webseite der EZB und in den Leitfäden der Bundesbank (Scoping-Vorlage, White-Team-Leitfaden, Hinweise zur Beschaffung von Dienstleistern). Diese sind nicht Teil der Zusammenfassung. Eine Wiedergabe im Volltext wäre bei Veröffentlichungen der Bundesbank je nach Bedingungen möglich, diese sind hier nicht geprüft. Im Original steht in einer Fußnote versehentlich „Verordnung (EU) 2022/2254“ statt 2022/2554 (DORA).",
+  "quelle": {
+    "name": "Deutsche Bundesbank, TIBER-DE",
+    "url": "https://www.bundesbank.de/de/aufgaben/unbarer-zahlungsverkehr/tiber-de"
+  },
+  "gruppen": [
+    { "kennung": "T", "titel": "Umsetzungsdokument Version 4.0" }
+  ],
+  "eintraege": [
+    { "kennung": "1", "titel": "Hintergrund: bedrohungsgeleitete Tests und TIBER-EU", "gruppe": "T", "pfad": "t/1",
+      "zweck": "Cyberangriffe gehören für die Finanzwirtschaft zu den relevantesten Risiken, auch weil immer mehr Akteure vernetzt sind und einzelne Unternehmen kritische IT-Dienstleistungen bereitstellen. Bedrohungsorientierte Penetrationstests ahmen die Vorgehensweise realer Angreifer unter kontrollierten Bedingungen nach und prüfen damit die Cyberwiderstandsfähigkeit realitätsnah. Die Notenbanken der EU haben dafür mit TIBER-EU (Threat Intelligence-based Ethical Red Teaming) ein einheitliches Rahmenwerk für freiwillige Tests geschaffen.",
+      "anforderungen": ["Ergänzt, ersetzt nicht, die Ausrichtung an Standards der Cybersicherheit wie IT-Grundschutz oder ISO/IEC 27001", "TIBER-EU legt Umfang und Ablauf der Tests fest"],
+      "nachweise": ["Ergebnisbericht und Behebungsplan eines Tests"],
+      "bezuege": ["Gegenstück zu den Resilienztests nach Kapitel IV DORA; Standards zu Informationssicherheit: ISO/IEC 27001 und BSI C5."] },
+    { "kennung": "2", "titel": "Regelungsgehalt und Anwendungsbereich", "gruppe": "T", "pfad": "t/2",
+      "zweck": "Die Bundesbank hat im August 2019 gemeinsam mit dem Bundesfinanzministerium beschlossen, TIBER-EU in Deutschland als TIBER-DE umzusetzen; seit 2020 können Unternehmen des deutschen Finanzsektors teilnehmen. Banken, Versicherungen, Finanzmarktinfrastrukturen und wichtige Dienstleister dieser Gruppen können freiwillig mitmachen. TIBER-DE richtet sich in erster Linie an große und kritische Unternehmen.",
+      "anforderungen": ["Seit der umfassenden Überarbeitung von TIBER-EU im Januar 2025 sind keine nationalen Anpassungen einzelner Prozessbestandteile mehr nötig: Das EU-Rahmenwerk gilt bei TIBER-DE-Tests direkt und vollständig", "Das Test-Team der Bundesbank kann vor der Vorbereitungsphase einen Bericht zur nationalen Bedrohungslage (Generic Threat Landscape) bereitstellen; das wird bei TIBER-DE-Tests genutzt und dient als Grundlage für die unternehmensspezifische Bedrohungsanalyse"],
+      "nachweise": ["Entscheidung des Unternehmens zur Teilnahme"],
+      "bezuege": ["Für Versicherer als Teilnehmer ausdrücklich genannt; verpflichtende Tests nach DORA treffen nur ausgewählte Finanzunternehmen (Kriterien in der Delegierten Verordnung (EU) 2025/1190)."] },
+    { "kennung": "3", "titel": "Verhältnis zu den verpflichtenden Tests nach DORA (TLPT)", "gruppe": "T", "pfad": "t/3",
+      "zweck": "Die Vorgaben von TIBER-EU stehen im vollen Einklang mit den technischen Regulierungsstandards für bedrohungsorientierte Penetrationstests nach DORA (Delegierte Verordnung (EU) 2025/1190). TIBER-EU bildet damit die operationelle Grundlage sowohl für die verpflichtenden Tests nach DORA als auch für die freiwilligen TIBER-DE-Tests.",
+      "anforderungen": ["Ein und dasselbe Verfahren trägt beides; Unterschiede bestehen in Verpflichtung und Aufsichtseinbindung, nicht im Testablauf"],
+      "nachweise": ["Dokumentation, ob ein Test freiwillig (TIBER-DE) oder angeordnet (TLPT nach DORA) erfolgt"],
+      "bezuege": ["Artikel 26 und 27 DORA; Delegierte Verordnung (EU) 2025/1190; FAQs der BaFin zu DORA (Fragen zu TLPT, zu Pooled Tests und Joint TLPT)."] },
+    { "kennung": "4", "titel": "Rolle der Deutschen Bundesbank", "gruppe": "T", "pfad": "t/4",
+      "zweck": "Das TIBER Cyber Team (TCT) ist als nationales Kompetenzzentrum im Bereich Zahlungsverkehr und Abwicklungssysteme der Bundesbank angesiedelt. Es betreut sowohl freiwillig angesetzte TIBER-DE-Tests als auch durch die BaFin, die EZB oder eine andere Behörde angeordnete Tests nach DORA und stellt sicher, dass alle Tests einheitlich nach TIBER-EU durchgeführt werden.",
+      "anforderungen": ["Das TCT ist an grenzüberschreitenden Tests gemeinsam mit den Test-Teams anderer Länder beteiligt", "Anordnungen durch die EZB werden vom TCT betreut, sofern die EZB die Durchführung nicht selbst übernimmt; andere Behörden sind etwa die Börsenaufsichtsbehörden der Länder"],
+      "nachweise": ["Ansprechpartner beim TCT"],
+      "bezuege": ["Die Zuständigkeiten der Aufsicht ergeben sich aus Artikel 26 DORA und dem nationalen Umsetzungsrecht; das Umsetzungsdokument beschreibt sie nur in der Rollenbeschreibung."] },
+    { "kennung": "5", "titel": "Finanzaufsichtliche Einbindung", "gruppe": "T", "pfad": "t/5",
+      "zweck": "Bei verpflichtenden Tests nach DORA wird die zuständige Finanzaufsicht grundsätzlich an festen Punkten eingebunden: Sie bestimmt die zu testenden Unternehmen, validiert den Testumfang und erhält den Abschlussbericht und den Behebungsplan. Bei freiwilligen Tests richtet sich die Einbindung nach individuellen Vereinbarungen.",
+      "anforderungen": ["Austausch zwischen Unternehmen und Aufsicht läuft grundsätzlich über das TCT, soweit nichts anderes vereinbart oder gesetzlich geregelt ist", "Unter „Finanzaufsicht“ fallen die jeweils zuständigen Stellen in BaFin, Bundesbank, EZB und anderen Aufsichtsbehörden"],
+      "nachweise": ["Abschlussbericht und Behebungsplan, an die Aufsicht übermittelt"],
+      "bezuege": ["Artikel 26 DORA; Delegierte Verordnung (EU) 2025/1190 zum Abschluss und zur Behebung."] },
+    { "kennung": "6", "titel": "Haftungsausschluss", "gruppe": "T", "pfad": "t/6",
+      "zweck": "Das Dokument dient ausschließlich der Information und ist keine rechtliche oder fachliche Bewertung. Das Unternehmen bleibt für die rechtliche und fachliche Beurteilung seiner Testvorhaben selbst verantwortlich; die Bundesbank haftet nicht für Schäden aus der Nutzung des Dokuments oder aus durchgeführten Tests.",
+      "anforderungen": ["Eigene Bewertung durch das Unternehmen"],
+      "nachweise": ["Eigene Risikobewertung vor dem Test"],
+      "bezuege": ["Ein Test kann produktive Systeme berühren; die Risikosteuerung liegt beim Unternehmen."] }
+  ]
+}

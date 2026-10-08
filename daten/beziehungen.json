@@ -556,13 +556,14 @@
         "pfad": "art/26"
       },
       "nach": {
-        "rw": "tiber-de"
+        "rw": "tiber-de",
+        "pfad": "t/3"
       },
       "typ": "entspricht",
       "themen": [
         "resilienztests"
       ],
-      "begruendung": "TIBER-DE ist das in Deutschland etablierte Rahmenwerk für bedrohungsgeleitete Tests; die TLPT-Anforderungen der DORA bauen auf demselben Vorgehensmodell auf. Ob ein nach TIBER-DE durchgeführter Test die DORA-Anforderungen vollständig erfüllt, ist im Einzelfall zu prüfen.",
+      "begruendung": "TIBER-DE ist das in Deutschland etablierte Rahmenwerk für bedrohungsgeleitete Tests und setzt in der Fassung 4.0 (Juli 2025) unmittelbar das TIBER-EU-Rahmenwerk der EZB um; die TLPT-Anforderungen der DORA bauen auf demselben Vorgehensmodell auf. Ob ein nach TIBER-DE durchgeführter Test die DORA-Anforderungen vollständig erfüllt, ist im Einzelfall zu prüfen.",
       "quelle": "eigene Analyse",
       "konfidenz": "mittel",
       "geprueft": false
@@ -1816,6 +1817,350 @@
       "begruendung": "Anhang I des Durchführungsstandards ist die Anleitung zum Ausfüllen des Informationsregisters, das Artikel 28 Absatz 3 DORA verlangt: welche Felder wie zu füllen sind.",
       "quelle": "eigene Analyse",
       "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-marisk-at9",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "nach": {
+        "rw": "marisk",
+        "pfad": "m/at9"
+      },
+      "typ": "lex-specialis",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die MaRisk-Novelle 06/2026 nimmt in AT 9 ausdrücklich IKT-Dienstleistungen im Sinne von Artikel 3 Nummer 21 DORA aus, die dem IKT-Drittparteienrisikomanagement nach Artikel 28 bis 30 DORA unterliegen. Für Kreditinstitute läuft die Abgrenzung damit eindeutig zugunsten von DORA. Die MaRisk gilt für Versicherer nicht; sie dient hier als Vergleichsmaßstab.",
+      "quelle": "MaRisk 06/2026, AT 9 (Zusammenfassung nach Durchsicht des Rundschreibens)",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "mago-209-marisk-at9",
+      "von": {
+        "rw": "mago-va",
+        "pfad": "rz/209"
+      },
+      "nach": {
+        "rw": "marisk",
+        "pfad": "m/at9"
+      },
+      "typ": "spannungsfeld",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die MaRisk grenzt AT 9 ausdrücklich gegen DORA ab. Die MaGo (Kapitel 13, ab Randziffer 209) enthält keine solche Ausnahme und erwähnt DORA nur in Randziffer 11. Wer als Versicherer MaRisk-Erläuterungen zur Abgrenzung heranzieht, übernimmt eine Entlastung, die die MaGo nicht vorsieht. Dazu stellen die BaFin-FAQ zu DORA klar, dass DORA die sektoralen Auslagerungsregeln ergänzt.",
+      "quelle": "Vergleich MaRisk AT 9 und MaGo Rz. 209 ff., BaFin FAQ DORA",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dora-5-bafin-mitt-13",
+      "von": {
+        "rw": "bafin-dora-mitteilung",
+        "pfad": "ab/1.3"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/5"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "leitungsorgan"
+      ],
+      "begruendung": "Die Aufsichtsmitteilung stellt die deutlich erweiterten Aufgaben des Leitungsorgans gegenüber BAIT und VAIT dar; die Grundlage ist Artikel 5 DORA. Die Mitteilung ist keine verbindliche Auslegung.",
+      "quelle": "BaFin, Aufsichtsmitteilung Umsetzungshinweise DORA, Abschnitt 1.3",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-6-bafin-mitt-11",
+      "von": {
+        "rw": "bafin-dora-mitteilung",
+        "pfad": "ab/1.1"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/6"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "ikt-risikomanagement",
+        "it-governance"
+      ],
+      "begruendung": "Die Aufsichtsmitteilung ordnet die neue Strategie für die digitale operationale Resilienz ein, die Artikel 6 DORA verlangt, und vergleicht sie mit den bisherigen Strategieanforderungen aus BAIT und VAIT.",
+      "quelle": "BaFin, Aufsichtsmitteilung Umsetzungshinweise DORA, Abschnitt 1.1",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-bafin-mitt-61",
+      "von": {
+        "rw": "bafin-dora-mitteilung",
+        "pfad": "ab/6.1"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die Aufsichtsmitteilung grenzt IKT-Drittparteienrisiko nach Artikel 28 DORA von Auslagerung und Ausgliederung nach dem Aufsichtsrecht ab und zeigt, wo die Begriffe nicht deckungsgleich sind.",
+      "quelle": "BaFin, Aufsichtsmitteilung Umsetzungshinweise DORA, Abschnitt 6.1",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-30-bafin-mitt-62",
+      "von": {
+        "rw": "bafin-dora-mitteilung",
+        "pfad": "ab/6.2"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/30"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die Aufsichtsmitteilung beschreibt, wie sich die Vertragsanforderungen gegenüber BAIT und VAIT erweitern; maßgeblich ist die abschließende Liste der Mindestinhalte in Artikel 30 DORA.",
+      "quelle": "BaFin, Aufsichtsmitteilung Umsetzungshinweise DORA, Abschnitt 6.2 und Anhang",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-bafin-mitt-64",
+      "von": {
+        "rw": "bafin-dora-mitteilung",
+        "pfad": "ab/6.4"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Risikoanalyse, Due Diligence, Ausstiegsstrategie und Konzentrationsrisiko stützen sich auf Artikel 28 DORA; die Aufsichtsmitteilung beschreibt, wie sich die Anforderungen gegenüber der bisherigen Aufsichtspraxis ändern.",
+      "quelle": "BaFin, Aufsichtsmitteilung Umsetzungshinweise DORA, Abschnitte 6.4 und 6.5",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-9-bafin-mitt-8",
+      "von": {
+        "rw": "bafin-dora-mitteilung",
+        "pfad": "ab/8.1"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/9"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "iam"
+      ],
+      "begruendung": "Die Aufsichtsmitteilung nennt die ausdrücklichen Anforderungen an das Identitätsmanagement und das need-to-use-Prinzip; sie stützen sich auf den Schutz und die Prävention nach Artikel 9 DORA.",
+      "quelle": "BaFin, Aufsichtsmitteilung Umsetzungshinweise DORA, Abschnitt 8",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-eiopa-cloud-6",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "nach": {
+        "rw": "eiopa-cloud",
+        "pfad": "c/l6"
+      },
+      "typ": "ersetzt",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die EIOPA-Leitlinien zum Cloud-Outsourcing sind seit dem 17.01.2025 nicht mehr anzuwenden; für IKT-Dienstleistungen tritt das IKT-Drittparteienrisikomanagement nach DORA an ihre Stelle. Die Analyse vor der Auslagerung (Leitlinie 6) findet sich in Artikel 28 Absatz 4 DORA wieder.",
+      "quelle": "EIOPA, Hinweis zum Ende der Anwendung der Leitlinien; eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-30-eiopa-cloud-10",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/30"
+      },
+      "nach": {
+        "rw": "eiopa-cloud",
+        "pfad": "c/l10"
+      },
+      "typ": "ersetzt",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die vertraglichen Mindestanforderungen aus Leitlinie 10 und die Zugangs- und Prüfungsrechte aus Leitlinie 11 sind für IKT-Dienstleistungen durch Artikel 30 DORA abgelöst.",
+      "quelle": "EIOPA, Hinweis zum Ende der Anwendung; eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-eiopa-cloud-15",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "nach": {
+        "rw": "eiopa-cloud",
+        "pfad": "c/l15"
+      },
+      "typ": "ersetzt",
+      "themen": [
+        "drittparteien-auslagerung",
+        "bcm-backup"
+      ],
+      "begruendung": "Kündigungsrechte und Ausstiegsstrategien (Leitlinie 15) regelt für IKT-Dienstleistungen jetzt Artikel 28 DORA zusammen mit Artikel 30.",
+      "quelle": "EIOPA, Hinweis zum Ende der Anwendung; eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "eiopa-gov-outs-sii-dvo-274",
+      "von": {
+        "rw": "eiopa-governance",
+        "pfad": "g/xi-outsourcing"
+      },
+      "nach": {
+        "rw": "sii-dvo",
+        "pfad": "art/274"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die Leitlinien 60 bis 64 der EIOPA zum Outsourcing erläutern, wie Versicherer die Auslagerungsvorgaben der Delegierten Verordnung (EU) 2015/35 anwenden. Für IKT-Dienstleistungen kommt DORA hinzu.",
+      "quelle": "EIOPA-BoS-14/253; eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "eiopa-gov-l21-dora-6",
+      "von": {
+        "rw": "eiopa-governance",
+        "pfad": "g/l21"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/6"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "ikt-risikomanagement"
+      ],
+      "begruendung": "Leitlinie 21 verlangt eine Risikomanagementleitlinie für das operationelle Risiko, zu dem auch IKT-Risiken zählen. Artikel 6 DORA verlangt für diesen Teil einen eigenen, detaillierten Rahmen; beide gelten nebeneinander.",
+      "quelle": "EIOPA-BoS-14/253; eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-17-nist-ir",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/17"
+      },
+      "nach": {
+        "rw": "nist-800-53",
+        "pfad": "fam/ir"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "incident-meldewesen"
+      ],
+      "begruendung": "Beide verlangen einen geregelten Umgang mit Sicherheitsvorfällen von der Erkennung bis zur Nachbereitung. DORA ergänzt feste Klassifizierungs- und Meldepflichten gegenüber der Aufsicht, die der Katalog nicht kennt.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-11-nist-cp",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/11"
+      },
+      "nach": {
+        "rw": "nist-800-53",
+        "pfad": "fam/cp"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "bcm-backup"
+      ],
+      "begruendung": "Die Familie Contingency Planning deckt Notfallpläne, Datensicherung und Wiederanlauf; Artikel 11 und 12 DORA fordern dasselbe mit festen Vorgaben zu Szenarien, Wiederherstellungszielen und Tests.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-9-nist-ac",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/9"
+      },
+      "nach": {
+        "rw": "nist-800-53",
+        "pfad": "fam/ac"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "iam"
+      ],
+      "begruendung": "Zugriffs- und Berechtigungsverwaltung gehören zu den Schutzmaßnahmen nach Artikel 9 DORA; die Familien Access Control und Identification and Authentication beschreiben dafür einen weit ausgearbeiteten Maßnahmenkatalog.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-24-nist-ca8",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/24"
+      },
+      "nach": {
+        "rw": "nist-800-53",
+        "pfad": "c/ca-8"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "resilienztests"
+      ],
+      "begruendung": "CA-8 verlangt Penetrationstests; Artikel 24 DORA verlangt ein umfassendes Testprogramm, dessen Teil auch Penetrationstests sind, und Artikel 26 DORA zusätzlich bedrohungsgeleitete Tests.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-nist-sr",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "nach": {
+        "rw": "nist-800-53",
+        "pfad": "fam/sr"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die Familie Supply Chain Risk Management behandelt das Lieferkettenrisiko; Artikel 28 DORA verlangt für IKT-Drittparteien zusätzlich Informationsregister, Vertragsinhalte und Ausstiegsstrategien.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
       "geprueft": false
     }
   ]

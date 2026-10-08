@@ -1,0 +1,72 @@
+{
+  "regelwerk": "idw-ps330",
+  "bezugsfassung": "IDW PS 330 – Abschlussprüfung bei Einsatz von Informationstechnologie",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen",
+  "geprueft": false,
+  "hinweis": "Der Prüfungsstandard des Instituts der Wirtschaftsprüfer (IDW) ist nicht frei zugänglich, die Zusammenfassung beschreibt Zweck und Anwendungsfall in eigenen Worten und nur grob (so verlangt es der Auftrag für IDW-Standards). Der IDW überarbeitet seine Prüfungsstandards fortlaufend; ob die hier beschriebene Fassung noch gilt oder durch eine neue Fassung ersetzt wurde, ist vor einer Verwendung beim IDW zu prüfen. Die Beschreibung stammt aus dem Gedächtnis.",
+  "quelle": {
+    "name": "IDW PS 330",
+    "url": "https://www.idw.de/"
+  },
+  "gruppen": [
+    {
+      "kennung": "P",
+      "titel": "Prüfungsstandard"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "Z",
+      "titel": "Zweck und Anwendungsfall",
+      "gruppe": "P",
+      "pfad": "a/zweck",
+      "zweck": "Der Standard beschreibt, wie der Abschlussprüfer den Einsatz von IT bei der Prüfung des Jahresabschlusses berücksichtigt: Er beurteilt die IT-gestützte Rechnungslegung als Teil des Prüfungsrisikos und legt davon Art und Umfang seiner Prüfungshandlungen ab.",
+      "anforderungen": [
+        "IT-Umfeld und IT-Organisation verstehen",
+        "IT-gestützte Rechnungslegungssysteme und die darauf wirkenden Kontrollen beurteilen",
+        "Zwischen Prüfung der Funktion und aussagebezogenen Prüfungshandlungen abwägen"
+      ],
+      "nachweise": [
+        "Prüfungsprogramm zur IT-Prüfung im Rahmen der Abschlussprüfung"
+      ],
+      "bezuege": [
+        "Prüfungsmaßstab für die IT-Kontrollen, die auch COSO (Prinzip 11) und die GoBD verlangen."
+      ]
+    },
+    {
+      "kennung": "K",
+      "titel": "Generelle IT-Kontrollen und Anwendungskontrollen",
+      "gruppe": "P",
+      "pfad": "a/kontrollen",
+      "zweck": "Der Prüfer unterscheidet generelle IT-Kontrollen, die für das Umfeld der Systeme gelten (Zugriff, Änderungen, Betrieb), und Anwendungskontrollen in den einzelnen Verfahren (Eingabe, Verarbeitung, Ausgabe).",
+      "anforderungen": [
+        "Generelle IT-Kontrollen prüfen: Zugriffsschutz, Änderungsmanagement, Datensicherung, Betrieb",
+        "Anwendungskontrollen in den Verfahren prüfen: Vollständigkeit, Richtigkeit, Autorisierung"
+      ],
+      "nachweise": [
+        "Prüfungsnachweise zu IT-Kontrollen"
+      ],
+      "bezuege": [
+        "Entspricht den Kontrollen nach DORA Kapitel II (Zugriff, Änderungen, Sicherung)."
+      ]
+    },
+    {
+      "kennung": "A",
+      "titel": "Auslagerung der IT",
+      "gruppe": "P",
+      "pfad": "a/auslagerung",
+      "zweck": "Wird IT an einen Dienstleister ausgelagert, muss der Prüfer beurteilen, wie sich dies auf die Rechnungslegung auswirkt; dafür kann er auf Prüfungsberichte beim Dienstleister zurückgreifen.",
+      "anforderungen": [
+        "Auswirkungen der Auslagerung auf das interne Kontrollsystem beurteilen",
+        "Berichte über das Kontrollsystem des Dienstleisters verwerten"
+      ],
+      "nachweise": [
+        "Berichte nach IDW PS 951 oder ISAE 3402"
+      ],
+      "bezuege": [
+        "Berichte nach IDW PS 951 bzw. ISAE 3402 sind die übliche Quelle; für IKT-Dienstleister zusätzlich Artikel 28 bis 30 DORA."
+      ]
+    }
+  ]
+}

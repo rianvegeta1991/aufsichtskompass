@@ -10,15 +10,17 @@ amtlich veröffentlichte Fassung.
 
 ## Was drin ist
 
-- **Regelwerks-Bibliothek** mit 52 Katalogeinträgen – Gesetze, Verordnungen, Rundschreiben,
+- **Regelwerks-Bibliothek** mit 53 Katalogeinträgen – Gesetze, Verordnungen, Rundschreiben,
   Leitlinien, Normen und Frameworks, jeweils mit Typ, Herausgeber, Verbindlichkeit, Status,
   Darstellungsmodus, Tiefe und Prüfstatus.
-- **Originaltext-Viewer** für 22 Regelwerke: DORA (deutsch und englisch), die zwölf
-  Level-2-Rechtsakte (RTS/ITS), NIS2, DSGVO, dazu VAG, BSIG, BDSG vollständig und HGB
-  und AO als IT-relevanter Auszug – und von der BaFin die **MaGo für SII-VU**
+- **Originaltext-Viewer** für 28 Regelwerke: DORA (deutsch und englisch), die zwölf
+  Level-2-Rechtsakte (RTS/ITS), NIS2, DSGVO, Solvency II (Richtlinie und Delegierte
+  Verordnung), AI Act, Cyber Resilience Act, Data Act, dazu VAG, BSIG, BDSG vollständig
+  und HGB und AO als IT-relevanter Auszug – und von der BaFin die **MaGo für SII-VU**
   (Rundschreiben 09/2025 (VA), adressierbar je Randziffer: `rz/31`) sowie die
-  **FAQs zu DORA** (44 Fragen). Dazu sieben Werke als eigene Zusammenfassung –
-  zusammen **29 Regelwerke mit 4.278 Fundstellen**.
+  **FAQs zu DORA** (44 Fragen) und **NIST SP 800-53 Rev. 5** (1.196 Controls, englisch).
+  Dazu 24 Werke als eigene Zusammenfassung –
+  zusammen **52 Regelwerke mit 9.460 Fundstellen**.
   Gliederungsbaum, Deep-Link auf jeden Absatz bzw. Paragrafen, Glossar aus den
   Begriffsbestimmungen, Zitat-Export mit Quellenangabe, Lesezeichen und Notizen.
 - **Volltextsuche** über alle Fundstellen (BM25, deutsche Stammbildung), clientseitig.
@@ -40,8 +42,8 @@ amtlich veröffentlichte Fassung.
   Grundlage der Änderungserkennung.
 - Hell und dunkel, WCAG 2.2 AA, offlinefähig als PWA.
 - **Gehärtet**: Content-Security-Policy ohne Drittinhalte, Allowlist für alle Abrufe
-  des Werkzeugs (Schutz vor SSRF), Export und Löschung der eigenen Daten, 56 Tests
-  (Kernlogik zu 89 % abgedeckt). Einzelheiten in [SICHERHEIT.md](SICHERHEIT.md)
+  des Werkzeugs (Schutz vor SSRF), Export und Löschung der eigenen Daten, 75 Tests
+  (Kernlogik zu 90 % abgedeckt). Einzelheiten in [SICHERHEIT.md](SICHERHEIT.md)
   und [BETRIEB.md](BETRIEB.md).
 - **Auf dem Smartphone** ein eigenes Format: untere Navigationsleiste, Viewer mit den
   Reitern Text, Gliederung und Kontext, gestapelte Tabellen statt Querscrollen.
@@ -76,13 +78,16 @@ Ausschließlich kostenlose, amtliche Quellen ohne Anmeldung:
 | Level-2-Rechtsakte | SPARQL-Dienst des Amts für Veröffentlichungen | wie oben |
 | Deutsche Gesetze | gesetze-im-internet.de, XML-Fassung je Gesetz (ZIP) | amtliche Werke, § 5 UrhG |
 | BaFin-Veröffentlichungen | bafin.de, HTML-Fassung je Veröffentlichung | Nutzungsbedingungen der BaFin: Wiedergabe unverändert und mit Quellenangabe („© Bundesanstalt für Finanzdienstleistungsaufsicht / www.bafin.de") |
+| NIST SP 800-53 | OSCAL-Katalog, den NIST im Repository `usnistgov/oscal-content` pflegt | Werk der US-Bundesregierung, in den USA gemeinfrei; Quellenangabe |
 
 Wo kein Volltext zulässig ist, stehen eigene Zusammenfassungen – in eigenen Worten, mit
 Bezugsfassung, Herkunft, Prüfstatus und Verweis auf die Bezugsquelle. Enthalten sind
-**ISO/IEC 27001:2022** (Klauseln 4–10 und alle 93 Annex-A-Controls), **COBIT 2019**
-(40 Governance- und Management-Objectives), **ITIL 4** (34 Practices), **BSI C5**
-(17 Kriterienbereiche), die **GDV-Verhaltensregeln** (12 Regelungsfelder) sowie
-**CSA CCM v4** und **NIST CSF 2.0** im Überblick. Sie laufen durch dieselbe Maschinerie
+**ISO/IEC 27001:2022** (Klauseln 4–10 und alle 93 Annex-A-Controls), **ISO/IEC 27002**
+(93 Controls), 27005, 27017, 27018 und 22301, **COBIT 2019** (40 Objectives), **ITIL 4**
+(34 Practices), **BSI C5**, die **GDV-Verhaltensregeln**, **CSA CCM v4**, **NIST CSF 2.0**,
+**COSO**, **IDW PS 330/860/951**, **ISAE 3402**, die **GoBD**, **MaRisk** (Rundschreiben
+06/2026), die beiden **BaFin-Mitteilungen** zu DORA, die **EIOPA-Leitlinien** zu
+Governance und Cloud sowie **TIBER-DE**. Sie laufen durch dieselbe Maschinerie
 wie die Originaltexte und sind deshalb genauso durchsuchbar, verlinkbar und in den
 Matrizen verankert. Jede Fundstelle trägt den Hinweis, dass hier nicht der Originaltext
 steht; die Kennungen der kostenpflichtigen Werke sind noch gegen die Norm abzugleichen.
@@ -94,8 +99,10 @@ CELLAR), 2b (deutsche Gesetze), 2c (BaFin), 3 (eigene Zusammenfassungen), 4 (The
 Beziehungen, Matrizen), 5 (tägliches Screening), 6 (Versionierung und Änderungserkennung,
 Diff-Ansicht offen), 7 (Lernbereich) und 8 (Härtung nach ASVS Level 2).
 
-Offen bleiben: der fachliche Abgleich der Kennungen aus den kostenpflichtigen Werken
-(ISO, COBIT, ITIL – dort steht überall „ungeprüft"), die BaFin-Werke, die nur als PDF
-erscheinen (MaRisk, Aufsichtsmitteilung DORA – dafür fehlt ein PDF-Textextraktor),
-ein regelmäßiger `cargo audit` sowie XLSX- und PDF-Export. Der Ausbaustand steht auch
+Offen bleiben: der fachliche Abgleich der Zusammenfassungen – ISO, COBIT, ITIL, COSO, IDW, ISAE
+und GoBD stammen aus dem Gedächtnis und stehen überall als „ungeprüft" da; MaRisk und die
+BaFin-Mitteilungen sind nach dem Original zusammengefasst, aber nur als PDF verfügbar
+(dafür fehlt ein PDF-Textextraktor). Die MaGo für kleine Versicherungsunternehmen ließ sich
+nicht auffinden. Solvency II liegt in der Ursprungsfassung vor, nicht konsolidiert.
+Außerdem offen: ein regelmäßiger `cargo audit`, die Diff-Ansicht sowie XLSX- und PDF-Export. Der Ausbaustand steht auch
 in der App auf der Startseite.

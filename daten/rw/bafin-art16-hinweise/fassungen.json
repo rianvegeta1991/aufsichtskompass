@@ -1,0 +1,17 @@
+{
+  "regelwerk": "bafin-art16-hinweise",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:20:57Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts, ungeprüft) – Bezugsfassung: BaFin, Hinweise zu den Dokumentationsanforderungen an Finanzunternehmen gemäß Artikel 16 DORA – Fragen und Antworten zur Übersicht (2 Seiten), Stand 21.08.2025",
+        "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Anlage/dl_2025_08_21_Hinweise_Uebersicht_Artikel_16_DORA.html",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein BaFin, Hinweise zu den Dokumentationsanforderungen nach Artikel 16 DORA (BaFin, Hinweise zu den Dokumentationsanforderungen an Finanzunternehmen gemäß Artikel 16 DORA – Fragen und Antworten zur Übersicht (2 Seiten), Stand 21.08.2025)."
+      },
+      "hash": "ca918e22fea2e9e8b01d3bdbd3f641eb4168e421ec12863e0f8cec498f67e533",
+      "fundstellen": 3
+    }
+  ]
+}

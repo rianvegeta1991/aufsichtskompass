@@ -1,0 +1,17 @@
+{
+  "regelwerk": "bafin-dora-mitteilung",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:20:57Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts, ungeprüft) – Bezugsfassung: BaFin-Aufsichtsmitteilung „Hinweise zur Umsetzung von DORA im IKT-Risikomanagement und IKT-Drittparteienrisikomanagement“, Stand Juni 2024, Anhang aktualisiert am 19.09.2024 (41 Seiten)",
+        "url": "https://www.bafin.de/SharedDocs/Downloads/DE/Anlage/Aufsichtsmitteilung/dl_2024_07_08_Aufsichtsmitteilung_Umsetzungshinweise_DORA.html",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein BaFin, Aufsichtsmitteilung Umsetzungshinweise DORA (BaFin-Aufsichtsmitteilung „Hinweise zur Umsetzung von DORA im IKT-Risikomanagement und IKT-Drittparteienrisikomanagement“, Stand Juni 2024, Anhang aktualisiert am 19.09.2024 (41 Seiten))."
+      },
+      "hash": "2b91b46fec3f00c239444f48922925a05db7f0c25067e2642fe4e1b22715f508",
+      "fundstellen": 31
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "regelwerk": "idw-ps860",
+  "bezugsfassung": "IDW PS 860 – IT-Prüfung außerhalb der Abschlussprüfung",
+  "stand": "2026-10-08",
+  "herkunft": "KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen",
+  "geprueft": false,
+  "hinweis": "Der Prüfungsstandard des Instituts der Wirtschaftsprüfer (IDW) ist nicht frei zugänglich, die Zusammenfassung beschreibt Zweck und Anwendungsfall in eigenen Worten und nur grob (so verlangt es der Auftrag für IDW-Standards). Der IDW überarbeitet seine Prüfungsstandards fortlaufend; ob die hier beschriebene Fassung noch gilt oder durch eine neue Fassung ersetzt wurde, ist vor einer Verwendung beim IDW zu prüfen. Die Beschreibung stammt aus dem Gedächtnis.",
+  "quelle": {
+    "name": "IDW PS 860",
+    "url": "https://www.idw.de/"
+  },
+  "gruppen": [
+    {
+      "kennung": "P",
+      "titel": "Prüfungsstandard"
+    }
+  ],
+  "eintraege": [
+    {
+      "kennung": "Z",
+      "titel": "Zweck und Anwendungsfall",
+      "gruppe": "P",
+      "pfad": "a/zweck",
+      "zweck": "Der Standard regelt, wie Wirtschaftsprüfer IT-Prüfungen durchführen, die nicht Teil einer Abschlussprüfung sind: etwa die Prüfung von IT-Systemen, IT-Prozessen und IT-Sicherheit auf Beauftragung des Unternehmens. Er gibt einen einheitlichen Rahmen für Auftragsannahme, Durchführung und Berichterstattung.",
+      "anforderungen": [
+        "Prüfungsgegenstand und Prüfungsmaßstäbe vorab festlegen",
+        "Prüfungsergebnisse in einem Bericht oder einer Bescheinigung darstellen"
+      ],
+      "nachweise": [
+        "Prüfungsauftrag mit Gegenstand und Maßstab"
+      ],
+      "bezuege": [
+        "Für Versicherer als Rahmen für Prüfungen von IT-Sicherheit und Notfallvorsorge denkbar; die Prüfung nach DORA richtet sich nach Kapitel II und IV."
+      ]
+    },
+    {
+      "kennung": "A",
+      "titel": "Arten der Prüfung",
+      "gruppe": "P",
+      "pfad": "a/arten",
+      "zweck": "Unterschieden werden Systemprüfungen, projektbegleitende Prüfungen und Prüfungen einzelner IT-Aspekte. Je nach Auftrag wird die Angemessenheit der Ausgestaltung (Aufbau) oder zusätzlich die Wirksamkeit im Zeitablauf geprüft.",
+      "anforderungen": [
+        "Aufbauprüfung zu einem Zeitpunkt",
+        "Wirksamkeitsprüfung über einen Zeitraum",
+        "Projektbegleitung mit Zwischenberichten"
+      ],
+      "nachweise": [
+        "Prüfungsbericht"
+      ],
+      "bezuege": [
+        "Der Unterschied zwischen Aufbau- und Wirksamkeitsprüfung entspricht Typ 1 und Typ 2 nach ISAE 3402."
+      ]
+    },
+    {
+      "kennung": "B",
+      "titel": "Berichterstattung und Verwendung der Ergebnisse",
+      "gruppe": "P",
+      "pfad": "a/bericht",
+      "zweck": "Das Ergebnis wird in einem Prüfungsbericht oder einer Bescheinigung dargestellt, mit Auftrag, Prüfungsgegenstand, angewandten Maßstäben, Vorgehen, Feststellungen und Urteil. Der Bericht richtet sich an den Auftraggeber; die Weitergabe an Dritte ist zu regeln.",
+      "anforderungen": [
+        "Prüfungsmaßstab und Reichweite des Urteils ausdrücklich benennen",
+        "Feststellungen nach Schwere einordnen",
+        "Verwendung und Weitergabe des Berichts beschränken"
+      ],
+      "nachweise": [
+        "Bericht mit Verteiler und Verwendungsbeschränkung"
+      ],
+      "bezuege": [
+        "Prüfungsfeststellungen sind Maßnahmen zu überführen und dem Leitungsorgan zu berichten (Artikel 13 Absatz 5 DORA)."
+      ]
+    }
+  ]
+}

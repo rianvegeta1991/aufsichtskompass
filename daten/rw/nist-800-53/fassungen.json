@@ -1,0 +1,18 @@
+{
+  "regelwerk": "nist-800-53",
+  "fassungen": [
+    {
+      "id": "2026-05-11",
+      "stand": "2026-05-11T16:01:09Z",
+      "abgerufen": "2026-10-08T20:31:53Z",
+      "quelle": {
+        "name": "OSCAL-Katalog, Version 5.2.0",
+        "url": "https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json",
+        "hinweis": "NIST Special Publication 800-53 Revision 5 (OSCAL-Fassung, Quelle: usnistgov/oscal-content). Werk der US-Bundesregierung, gemeinfrei; englischer Originaltext ohne die Bewertungsverfahren aus SP 800-53A. Dient hier als Referenzkatalog für Mappings, nicht als Rechtsvorschrift."
+      },
+      "etag": "W/\"b6f656d846cc5be77e60730864f964e3e92d105342e8b012f4a55c1399c8757c\"",
+      "hash": "aeb58ea234450ea7dee660820691aac4f3489aaf7b9d652c7f058d26bfe74b72",
+      "fundstellen": 1196
+    }
+  ]
+}

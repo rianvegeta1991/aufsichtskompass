@@ -1,0 +1,230 @@
+{
+  "regelwerk": "eiopa-governance",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:02Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts (Gliederung vollständig, einzelne Leitlinien im Wortlaut gelesen), ungeprüft) – Bezugsfassung: EIOPA-Leitlinien zum Governance-System (EIOPA-BoS-14/253 DE), deutsche Fassung, 28 Seiten; Bereitstellung auf der EIOPA-Seite zuletzt am 31.01.2023",
+    "url": "https://www.eiopa.europa.eu/publications/guidelines-system-governance_en",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein EIOPA, Guidelines on System of Governance (EIOPA-BoS-14/253) (EIOPA-Leitlinien zum Governance-System (EIOPA-BoS-14/253 DE), deutsche Fassung, 28 Seiten; Bereitstellung auf der EIOPA-Seite zuletzt am 31.01.2023)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_e",
+      "art": "abschnitt",
+      "nummer": "E",
+      "bez": "E",
+      "titel": {
+        "de": "Einleitung"
+      },
+      "pfad": "gr/e",
+      "kinder": [
+        {
+          "id": "z_1",
+          "art": "control",
+          "nummer": "1",
+          "bez": "1",
+          "titel": {
+            "de": "Einleitung: Grundlagen und Leitgedanken"
+          },
+          "pfad": "g/einleitung",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_i",
+      "art": "abschnitt",
+      "nummer": "I",
+      "bez": "I",
+      "titel": {
+        "de": "Abschnitt I: Governance-System"
+      },
+      "pfad": "gr/i",
+      "kinder": [
+        {
+          "id": "z_l1_l6",
+          "art": "control",
+          "nummer": "L1-L6",
+          "bez": "L1-L6",
+          "titel": {
+            "de": "Leitlinien 1 bis 6: Organ, Organisation, Entscheidungen, Aufgabenverteilung, interne Überprüfung"
+          },
+          "pfad": "g/i-organisation",
+          "text": true
+        },
+        {
+          "id": "z_l7",
+          "art": "control",
+          "nummer": "L7",
+          "bez": "L7",
+          "titel": {
+            "de": "Leitlinie 7: Schriftliche Leitlinien"
+          },
+          "pfad": "g/l7",
+          "text": true
+        },
+        {
+          "id": "z_l8",
+          "art": "control",
+          "nummer": "L8",
+          "bez": "L8",
+          "titel": {
+            "de": "Leitlinie 8: Notfallpläne"
+          },
+          "pfad": "g/l8",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_ii_iii",
+      "art": "abschnitt",
+      "nummer": "II-III",
+      "bez": "II-III",
+      "titel": {
+        "de": "Abschnitte II und III: Vergütung, fachliche Qualifikation und Zuverlässigkeit"
+      },
+      "pfad": "gr/ii_iii",
+      "kinder": [
+        {
+          "id": "z_l9_l16",
+          "art": "control",
+          "nummer": "L9-L16",
+          "bez": "L9-L16",
+          "titel": {
+            "de": "Leitlinien 9 bis 16: Vergütung sowie fachliche Qualifikation und persönliche Zuverlässigkeit"
+          },
+          "pfad": "g/ii-iii",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_iv_vi",
+      "art": "abschnitt",
+      "nummer": "IV-VI",
+      "bez": "IV-VI",
+      "titel": {
+        "de": "Abschnitte IV bis VI: Risikomanagement, Anlagen, Kapital"
+      },
+      "pfad": "gr/iv_vi",
+      "kinder": [
+        {
+          "id": "z_l17_l26",
+          "art": "control",
+          "nummer": "L17-L26",
+          "bez": "L17-L26",
+          "titel": {
+            "de": "Leitlinien 17 bis 26: Risikomanagement"
+          },
+          "pfad": "g/iv-risikomanagement",
+          "text": true
+        },
+        {
+          "id": "z_l21",
+          "art": "control",
+          "nummer": "L21",
+          "bez": "L21",
+          "titel": {
+            "de": "Leitlinie 21: Risikomanagementleitlinie für das operationelle Risiko"
+          },
+          "pfad": "g/l21",
+          "text": true
+        },
+        {
+          "id": "z_l27_l35",
+          "art": "control",
+          "nummer": "L27-L35",
+          "bez": "L27-L35",
+          "titel": {
+            "de": "Leitlinien 27 bis 35 und Kapitalmanagement: Grundsatz der unternehmerischen Vorsicht und Eigenmittel"
+          },
+          "pfad": "g/v-vi",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_vii_x",
+      "art": "abschnitt",
+      "nummer": "VII-X",
+      "bez": "VII-X",
+      "titel": {
+        "de": "Abschnitte VII bis X: Interne Kontrolle, Revision, Versicherungsmathematik, Bewertung"
+      },
+      "pfad": "gr/vii_x",
+      "kinder": [
+        {
+          "id": "z_l38_l39",
+          "art": "control",
+          "nummer": "L38-L39",
+          "bez": "L38-L39",
+          "titel": {
+            "de": "Leitlinien 38 und 39: Interne Kontrollen"
+          },
+          "pfad": "g/vii-kontrollen",
+          "text": true
+        },
+        {
+          "id": "z_l40_l44",
+          "art": "control",
+          "nummer": "L40-L44",
+          "bez": "L40-L44",
+          "titel": {
+            "de": "Leitlinien 40 bis 44: Interne Revision"
+          },
+          "pfad": "g/viii-revision",
+          "text": true
+        },
+        {
+          "id": "z_l46_l59",
+          "art": "control",
+          "nummer": "L46-L59",
+          "bez": "L46-L59",
+          "titel": {
+            "de": "Leitlinien 46 bis 59: Versicherungsmathematische Funktion und Bewertung"
+          },
+          "pfad": "g/ix-x",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "g_xi_xii",
+      "art": "abschnitt",
+      "nummer": "XI-XII",
+      "bez": "XI-XII",
+      "titel": {
+        "de": "Abschnitte XI und XII: Outsourcing und Gruppe"
+      },
+      "pfad": "gr/xi_xii",
+      "kinder": [
+        {
+          "id": "z_l60_l64",
+          "art": "control",
+          "nummer": "L60-L64",
+          "bez": "L60-L64",
+          "titel": {
+            "de": "Leitlinien 60 bis 64: Outsourcing"
+          },
+          "pfad": "g/xi-outsourcing",
+          "text": true
+        },
+        {
+          "id": "z_l65_l66",
+          "art": "control",
+          "nummer": "L65-L66",
+          "bez": "L65-L66",
+          "titel": {
+            "de": "Leitlinien 65 und 66: Gruppenspezifische Governance-Anforderungen"
+          },
+          "pfad": "g/xii-gruppe",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

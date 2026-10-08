@@ -1,0 +1,450 @@
+{
+  "z_10": {
+    "h": "72dde654367aabd7011047bcda8003fc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Nichtkonformitäten werden behandelt, Ursachen beseitigt und das Managementsystem fortlaufend verbessert."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Korrekturmaßnahmen mit Ursachenanalyse"
+          },
+          {
+            "m": "2.",
+            "t": "Fortlaufende Verbesserung der Eignung und Wirksamkeit"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Maßnahmenverfolgung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Lernen aus Vorfällen und Tests nach Artikel 13 DORA."
+      }
+    ]
+  },
+  "z_4": {
+    "h": "d80a908343d5ab7bc9336a676d2937a2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation versteht ihr Umfeld, die Erwartungen der interessierten Parteien und die rechtlichen Anforderungen und legt den Anwendungsbereich des Business-Continuity-Managementsystems fest."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Interne und externe Themen bestimmen"
+          },
+          {
+            "m": "2.",
+            "t": "Anforderungen interessierter Parteien und rechtliche Pflichten ermitteln"
+          },
+          {
+            "m": "3.",
+            "t": "Anwendungsbereich dokumentieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kontextanalyse, Festlegung des Anwendungsbereichs."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Der Bezug zu kritischen oder wichtigen Funktionen nach Artikel 3 Nummer 22 DORA liefert den Anwendungsbereich für IKT."
+      }
+    ]
+  },
+  "z_5": {
+    "h": "4a1e70f4f8e7ce1ea7161dadc7836c13",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die oberste Leitung zeigt Führung und Verpflichtung, legt eine Business-Continuity-Politik fest und weist Rollen und Verantwortlichkeiten zu."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Politik, Ziele und Ressourcen bereitstellen"
+          },
+          {
+            "m": "2.",
+            "t": "Rollen, Verantwortlichkeiten und Befugnisse festlegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Business-Continuity-Politik mit Freigabe."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Verantwortung des Leitungsorgans nach Artikel 5 DORA."
+      }
+    ]
+  },
+  "z_6": {
+    "h": "a52990ba8f0e1ae7361dd9e0371885d7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Risiken und Chancen für das Managementsystem werden bestimmt, Ziele für die Geschäftsfortführung werden festgelegt und geplant erreicht; Änderungen am Managementsystem werden geplant durchgeführt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Risiken und Chancen des Managementsystems ermitteln"
+          },
+          {
+            "m": "2.",
+            "t": "Messbare Ziele mit Verantwortlichen und Zeitplänen festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Änderungen planen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zielplanung, Maßnahmenplan."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Strategie für die digitale operationale Resilienz nach Artikel 6 Absatz 8 DORA."
+      }
+    ]
+  },
+  "z_7": {
+    "h": "04ca8777d198a87daf1ba3b14791104e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ressourcen, Kompetenz, Bewusstsein, Kommunikation und dokumentierte Information werden bereitgestellt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Personal und Technik bereitstellen"
+          },
+          {
+            "m": "2.",
+            "t": "Kompetenz sicherstellen, Bewusstsein schaffen"
+          },
+          {
+            "m": "3.",
+            "t": "Interne und externe Kommunikation regeln"
+          },
+          {
+            "m": "4.",
+            "t": "Dokumentierte Information lenken"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Schulungsnachweise, Dokumentenlenkung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Schulungen nach Artikel 13 Absatz 6 DORA."
+      }
+    ]
+  },
+  "z_8_1": {
+    "h": "c3f95f1cfd24118f161828b0f68f6ee6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Prozesse zur Erfüllung der Anforderungen werden geplant, umgesetzt und gesteuert, auch bei ausgelagerten Prozessen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kriterien für Prozesse festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Ausgelagerte Prozesse und Lieferketten kontrollieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prozessbeschreibungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Auslagerungen berücksichtigt Artikel 25 des RTS zum IKT-Risikomanagementrahmen bei den Geschäftsfortführungsplänen."
+      }
+    ]
+  },
+  "z_8_2": {
+    "h": "bd387f4547a90109cdd26c02714f0917",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Business-Impact-Analyse ermittelt, welche Aktivitäten wie schnell wieder laufen müssen: Auswirkungen einer Unterbrechung, Wiederanlaufzeiten, Prioritäten, Abhängigkeiten. Die Risikobeurteilung erfasst die Risiken von Unterbrechungen dieser priorisierten Aktivitäten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Auswirkungen über abgestufte Zeiträume ermitteln"
+          },
+          {
+            "m": "2.",
+            "t": "Zeitrahmen für die Wiederaufnahme und Mindestniveaus bestimmen"
+          },
+          {
+            "m": "3.",
+            "t": "Abhängigkeiten und unterstützende Ressourcen erfassen"
+          },
+          {
+            "m": "4.",
+            "t": "Unterbrechungsrisiken bewerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Business-Impact-Analyse, Risikobeurteilung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Business-Impact-Analyse nach Artikel 11 Absatz 5 DORA; Wiederherstellungsziele nach Artikel 12 Absatz 5."
+      }
+    ]
+  },
+  "z_8_3": {
+    "h": "de9e158f870b10b5446b32832266ebbe",
+    "b": [
+      {
+        "art": "p",
+        "t": "Auf Grundlage der Analyse werden Strategien und Lösungen gewählt, die Schäden begrenzen und Aktivitäten innerhalb der Zeitrahmen fortführen oder wiederherstellen; dazu gehört der Bedarf an Ressourcen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Strategien zum Schutz priorisierter Aktivitäten, Fortführung und Wiederherstellung auswählen"
+          },
+          {
+            "m": "2.",
+            "t": "Ressourcenbedarf bestimmen: Personal, Informationen, Technik, Standorte, Lieferanten"
+          },
+          {
+            "m": "3.",
+            "t": "Lösungen umsetzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Strategiepapier, Ressourcenplan."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Redundante Kapazitäten nach Artikel 12 Absatz 4 DORA."
+      }
+    ]
+  },
+  "z_8_4": {
+    "h": "c5e8f030b3b18edf12617401ef04231b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Dokumentierte Verfahren legen die Reaktionsstruktur, Warn- und Kommunikationswege und die Wiederherstellung fest. Pläne enthalten Rollen, Auslöser, Maßnahmen und Kontaktdaten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Reaktionsstruktur mit Rollen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Warnung und Kommunikation intern und extern regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Pläne mit klaren Auslösekriterien"
+          },
+          {
+            "m": "4.",
+            "t": "Wiederherstellungsverfahren zurück zum Normalbetrieb"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Business-Continuity-Pläne, Kommunikationsplan."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: IKT-Reaktions- und Wiederherstellungspläne nach Artikel 11 Absatz 3 DORA."
+      }
+    ]
+  },
+  "z_8_5": {
+    "h": "4154ece505ba2518722aeb1b0da2f887",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verfahren werden in geplanten Abständen geübt und getestet; Ergebnisse werden ausgewertet und führen zu Verbesserungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Übungsprogramm mit Zielen und Szenarien"
+          },
+          {
+            "m": "2.",
+            "t": "Nachbetrachtung und Maßnahmen aus Übungen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Übungsplan, Übungsberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Mindestens jährliche Tests nach Artikel 11 Absatz 6 DORA."
+      }
+    ]
+  },
+  "z_8_6": {
+    "h": "8f46bb1f5ce7958dd9b40b4efb4e76d8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation bewertet die Eignung und Wirksamkeit ihrer Analyse, Strategien, Lösungen, Pläne und Verfahren, auch nach Vorfällen und bei wesentlichen Änderungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Bewertungen in geplanten Abständen und anlassbezogen"
+          },
+          {
+            "m": "2.",
+            "t": "Ergebnisse dokumentieren und an die Leitung berichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Bewertungsberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Überprüfung nach Artikel 11 Absatz 6 DORA."
+      }
+    ]
+  },
+  "z_9": {
+    "h": "6f572067cb397fa37a96d2729d8171f4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Managementsystem wird überwacht, gemessen und bewertet, durch interne Audits und die Managementbewertung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kennzahlen und Überwachungsmethoden festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Interne Audits planen und durchführen"
+          },
+          {
+            "m": "3.",
+            "t": "Managementbewertung mit Entscheidungen zu Verbesserungen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Auditberichte, Protokolle der Managementbewertung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Prüfung nach Artikel 24 DORA und durch die interne Revision."
+      }
+    ]
+  }
+}

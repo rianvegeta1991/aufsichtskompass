@@ -1,0 +1,394 @@
+{
+  "z_g1": {
+    "h": "4f5f57d6ba8e1db7b3bf0159e88dd0e2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die GoBD legen aus Sicht der Finanzverwaltung aus, was die Ordnungsmäßigkeit der Buchführung und der Aufzeichnungen nach den §§ 145 bis 147 der Abgabenordnung bei elektronischer Führung bedeutet, und regeln den Zugriff der Finanzverwaltung auf die Daten. Sie gelten für alle, die buchführungs- oder aufzeichnungspflichtig sind, unabhängig vom eingesetzten System."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Die Ordnungsmäßigkeit ist für Haupt-, Vor- und Nebensysteme zu gewährleisten, soweit sie aufzeichnungs- oder aufbewahrungspflichtige Daten enthalten"
+          },
+          {
+            "m": "2.",
+            "t": "Das Schreiben ist technologieneutral und verlangt kein bestimmtes Produkt"
+          },
+          {
+            "m": "3.",
+            "t": "Für Aufzeichnungen auf Papier gilt das Gleiche, soweit sie elektronisch erzeugt oder verarbeitet werden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zuordnung der Systeme zu den aufzeichnungs- und aufbewahrungspflichtigen Daten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Grundlage in der Abgabenordnung (§§ 145 bis 147 AO) und im Handelsgesetzbuch (§§ 238, 239, 257 HGB); beide im Bestand."
+      }
+    ]
+  },
+  "z_g10": {
+    "h": "8b9b2d1482f33ed645887265bbee0a29",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Finanzverwaltung darf bei einer Außenprüfung auf die aufbewahrungspflichtigen Daten zugreifen. Es gibt drei Zugriffsrechte: den unmittelbaren Zugriff (Z1), den mittelbaren Zugriff (Z2) und die Überlassung eines Datenträgers (Z3)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Z1: Nur-Lesezugriff auf das System des Steuerpflichtigen"
+          },
+          {
+            "m": "2.",
+            "t": "Z2: Maschinelle Auswertung nach den Vorgaben der Prüfer durch den Steuerpflichtigen oder einen beauftragten Dritten"
+          },
+          {
+            "m": "3.",
+            "t": "Z3: Überlassung der Daten auf einem Datenträger zur Auswertung durch die Prüfer"
+          },
+          {
+            "m": "4.",
+            "t": "Der Steuerpflichtige muss die Daten in auswertbarer Form vorhalten und den Zugriff ermöglichen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Beschreibung der Zugriffswege im Prüfungsfall, Zugriffsberechtigung für Prüfer."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Zugriff und Prüfungsrechte sind auch Gegenstand der Vertragsgestaltung mit Dienstleistern (Artikel 30 DORA)."
+      }
+    ]
+  },
+  "z_g2": {
+    "h": "e7fa3b35639ac3e7a62a2f811320b769",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verantwortlich für die Ordnungsmäßigkeit ist der Steuerpflichtige, auch wenn er einzelne Aufgaben oder die Datenverarbeitung an Dritte überträgt; die Verantwortung für die Einhaltung ist nicht übertragbar."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Die Verantwortung bleibt auch bei Auslagerung der Buchführung oder bei Cloud-Lösungen beim Steuerpflichtigen"
+          },
+          {
+            "m": "2.",
+            "t": "Der Steuerpflichtige muss Zugriff und Aufbewahrung auch dann sicherstellen, wenn Daten bei einem Dienstleister liegen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vertragliche Regelung von Zugriff, Aufbewahrung und Rückgabe der Daten beim Dienstleister."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Bei IKT-Dienstleistern treffen die GoBD und DORA (Artikel 28 bis 30) zusammen, insbesondere bei Ausstiegsstrategie und Datenrückgabe."
+      }
+    ]
+  },
+  "z_g3": {
+    "h": "d71aa3c30906ebe002bcebee363ade87",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ein sachverständiger Dritter muss sich innerhalb angemessener Zeit einen Überblick über die Geschäftsvorfälle und die Lage des Unternehmens verschaffen können. Jeder Geschäftsvorfall muss sich von seinem Ursprung über die Verarbeitung bis zum Ergebnis verfolgen lassen, in beiden Richtungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Belegfunktion, Journalfunktion und Kontenfunktion müssen erkennbar sein"
+          },
+          {
+            "m": "2.",
+            "t": "Verfahrensdokumentation und Nachvollziehbarkeit der Verarbeitung"
+          },
+          {
+            "m": "3.",
+            "t": "Prüfbarkeit der angewandten Verfahren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfpfad vom Beleg bis zur Bilanz."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Ergänzt die Protokollierungsanforderungen von Artikel 12 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_g4": {
+    "h": "55e5fc33a61bb5727d6cfbc4e337065a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Aufzeichnungen müssen vollständig, richtig, zeitgerecht, geordnet und unveränderbar sein. Das sind die fünf Qualitätsmerkmale, an denen sich ein elektronisches System messen lassen muss."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vollständigkeit: Geschäftsvorfälle sind lückenlos zu erfassen"
+          },
+          {
+            "m": "2.",
+            "t": "Richtigkeit: Eintragungen geben den Vorfall inhaltlich zutreffend wieder"
+          },
+          {
+            "m": "3.",
+            "t": "Zeitgerechtheit: zeitnahe Erfassung, bei unbaren Vorgängen in angemessener Frist"
+          },
+          {
+            "m": "4.",
+            "t": "Ordnung: Systematisches Erfassen, schnelles Auffinden"
+          },
+          {
+            "m": "5.",
+            "t": "Unveränderbarkeit: Eintragungen und Aufzeichnungen dürfen nicht so verändert werden, dass der ursprüngliche Inhalt nicht mehr feststellbar ist; Änderungen sind zu protokollieren"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berechtigungskonzept, Änderungsprotokolle, Schutz vor nachträglicher Veränderung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Unveränderbarkeit berührt die Protokollsicherheit nach Artikel 12 des RTS zum IKT-Risikomanagementrahmen (Schutz vor Manipulation und Löschung)."
+      }
+    ]
+  },
+  "z_g5": {
+    "h": "c19d1f34f2b720f30050bb710aa85241",
+    "b": [
+      {
+        "art": "p",
+        "t": "Keine Buchung ohne Beleg: Der Beleg sichert und erklärt den Geschäftsvorfall. Dazu gehören die zeitnahe Sicherung der Belege, die Zuordnung zum Buchungssatz und der Umgang mit elektronischen Belegen und Konvertierungen; das bildliche Erfassen von Papierbelegen ist zulässig, wenn die Anforderungen eingehalten sind."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Belege sind zeitnah gegen Verlust zu sichern und mit der Buchung verbunden"
+          },
+          {
+            "m": "2.",
+            "t": "Bildliche Erfassung (Scannen) mit dokumentiertem Verfahren"
+          },
+          {
+            "m": "3.",
+            "t": "Elektronische Belege sind in der Form aufzubewahren, in der sie empfangen wurden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verfahrensdokumentation zum Scannen und zur Belegablage."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Zu elektronischen Rechnungen haben die Änderungen von 2024 und 2025 Anpassungen gebracht; Einzelheiten dem aktuellen Schreiben entnehmen."
+      }
+    ]
+  },
+  "z_g6": {
+    "h": "c8310b0bf46e70d231b4f2673574d807",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Ordnungsmäßigkeit setzt ein wirksames IKS voraus: Zugriffs- und Berechtigungskontrollen, Funktionstrennung, Erfassungskontrollen, Abstimmungen und Plausibilitätsprüfungen, Maßnahmen zur Verhinderung von Missbrauch und die Prüfung der Verfahren durch Stichproben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Zugriffs- und Berechtigungskonzept"
+          },
+          {
+            "m": "2.",
+            "t": "Funktionstrennung und Genehmigungsverfahren"
+          },
+          {
+            "m": "3.",
+            "t": "Kontrollen zur Vollständigkeit und Richtigkeit der Erfassung"
+          },
+          {
+            "m": "4.",
+            "t": "Das Fehlen eines wirksamen IKS führt nicht automatisch zur Nichtordnungsmäßigkeit, ist aber ein wesentliches Indiz"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kontrollverzeichnis, Berechtigungsauswertungen, Abstimmprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: § 29 VAG verlangt ein internes Kontrollsystem; Funktionstrennung und Berechtigungen decken sich mit Artikel 21 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_g7": {
+    "h": "4df8131ec659263eee611ae1aa5963e9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Daten sind gegen Verlust und unberechtigte Veränderung zu sichern. Die Datensicherheit dient der Ordnungsmäßigkeit und der Verfügbarkeit der Aufbewahrungsdaten über die gesamte Frist."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Maßnahmen gegen Verlust und Manipulation"
+          },
+          {
+            "m": "2.",
+            "t": "Sicherungskonzept, das auch die Aufbewahrungsdaten abdeckt"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Datensicherungs- und Wiederherstellungsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Deckt sich in der Zielrichtung mit Artikel 12 DORA (Datensicherung und Wiederherstellung); DORA stellt strengere Anforderungen an die technische Trennung."
+      }
+    ]
+  },
+  "z_g8": {
+    "h": "8ccccab799fa2eb75776f6aaf5a97b46",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Verfahrensdokumentation beschreibt den organisatorisch und technisch gewollten Prozess: Sie erklärt, wie Belege behandelt, Daten verarbeitet, Kontrollen durchgeführt und Aufbewahrung sowie Zugriff sichergestellt werden. Sie muss für einen sachverständigen Dritten nachvollziehbar sein. Praktisch ist sie das Dokument, das eine Betriebsprüfung zuerst verlangt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Bestandteile: allgemeine Beschreibung, Anwenderdokumentation, technische Systemdokumentation und Betriebsdokumentation"
+          },
+          {
+            "m": "2.",
+            "t": "Sie ist aktuell zu halten; Änderungen sind nachvollziehbar zu machen und in früheren Fassungen aufzubewahren"
+          },
+          {
+            "m": "3.",
+            "t": "Mängel der Verfahrensdokumentation führen nicht automatisch zur Nichtordnungsmäßigkeit, wenn die Nachvollziehbarkeit sonst gegeben ist"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verfahrensdokumentation je Buchführungs- und Aufzeichnungsverfahren mit Versionsstand."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht inhaltlich der Dokumentation der IKT-Systeme nach Artikel 8 DORA und dem Assetinventar."
+      }
+    ]
+  },
+  "z_g9": {
+    "h": "52b0b7dd003ab1d90dd0f7bc81a98c59",
+    "b": [
+      {
+        "art": "p",
+        "t": "Aufbewahrungspflichtige Unterlagen sind für die gesetzliche Frist in einer Form aufzubewahren, die ihre Lesbarkeit und Maschinenauswertbarkeit gewährleistet. Das gilt auch bei Systemwechsel, Migration, Konvertierung und Archivierung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Aufbewahrungsfristen nach § 147 AO und § 257 HGB"
+          },
+          {
+            "m": "2.",
+            "t": "Maschinelle Auswertbarkeit der originär digitalen Unterlagen muss erhalten bleiben"
+          },
+          {
+            "m": "3.",
+            "t": "Bei Systemwechsel oder Auslagerung bleibt die Verfügbarkeit der Daten für die Dauer der Frist zu sichern; Konvertierungen sind zu dokumentieren und zu prüfen"
+          },
+          {
+            "m": "4.",
+            "t": "Löschung nach Fristablauf, soweit keine anderen Pflichten bestehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Aufbewahrungs- und Löschkonzept, Migrationsdokumentation."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Kollidiert mit der Speicherbegrenzung nach Artikel 5 Absatz 1 Buchstabe e DSGVO nur scheinbar: die gesetzliche Aufbewahrungspflicht trägt die Speicherung."
+      }
+    ]
+  }
+}

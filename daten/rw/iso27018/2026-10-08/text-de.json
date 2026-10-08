@@ -1,0 +1,366 @@
+{
+  "z_d1": {
+    "h": "57ee11f03e0a458d5863d81c4b3b5bc9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Cloud-Anbieter verarbeitet personenbezogene Daten nur im Auftrag und nach Weisung des Kunden und für den vereinbarten Zweck. Die Norm geht davon aus, dass der Kunde der Verantwortliche ist."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verarbeitung ausschließlich nach den Weisungen des Kunden"
+          },
+          {
+            "m": "2.",
+            "t": "Keine Nutzung der Daten für Werbung oder eigene Zwecke ohne ausdrückliche Zustimmung"
+          },
+          {
+            "m": "3.",
+            "t": "Zweck und Art der Verarbeitung vertraglich festhalten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Auftragsverarbeitungsvertrag."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 DSGVO; Verhaltensregeln des GDV, Regelungsfeld Auftragsverarbeitung."
+      }
+    ]
+  },
+  "z_d10": {
+    "h": "3ffad063f2c4eab3a3a53361b1db708c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Anbieter hält Richtlinien und Aufzeichnungen zur Einhaltung bereit und kann Kunden Nachweise zur Verfügung stellen, etwa über unabhängige Prüfungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Aufbewahrungsdauer für Richtlinien und Leitlinien festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Unabhängige Prüfungen zugänglich machen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Zertifikate und Prüfberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Rechenschaftspflicht nach Artikel 5 Absatz 2 DSGVO; Nachweise im Sinne des Artikels 30 Absatz 3 DORA."
+      }
+    ]
+  },
+  "z_d2": {
+    "h": "0c51c20151c0d7706f10f47099c3ce41",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Anbieter hilft dem Kunden, Auskunfts-, Berichtigungs- und Löschansprüche der Betroffenen zu erfüllen, und benennt dafür Ansprechpartner und Verfahren."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren zur Unterstützung der Betroffenenrechte vereinbaren"
+          },
+          {
+            "m": "2.",
+            "t": "Fristen und Kommunikationswege regeln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vertragsklauseln und Ansprechpartner."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 15 bis 22 DSGVO."
+      }
+    ]
+  },
+  "z_d3": {
+    "h": "780171aea40b8f57b83c62122a2329b3",
+    "b": [
+      {
+        "art": "p",
+        "t": "Personenbezogene Daten werden nur so lange und in dem Umfang vorgehalten, wie nötig; temporäre Dateien, die bei der Verarbeitung entstehen, werden innerhalb einer festgelegten Frist gelöscht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Löschfristen für temporäre Dateien festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Keine unnötigen Kopien"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Löschkonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Datenminimierung und Speicherbegrenzung nach Artikel 5 DSGVO."
+      }
+    ]
+  },
+  "z_d4": {
+    "h": "40f72879404c28b484b8f8d6208201f9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Verlangt eine Stelle die Herausgabe personenbezogener Daten, informiert der Anbieter den Kunden, soweit das Recht nicht entgegensteht, und prüft die Rechtmäßigkeit. Offenlegungen werden aufgezeichnet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Benachrichtigung des Kunden vor einer Offenlegung, soweit zulässig"
+          },
+          {
+            "m": "2.",
+            "t": "Aufzeichnung jeder Offenlegung mit Empfänger, Zeitpunkt und Inhalt"
+          },
+          {
+            "m": "3.",
+            "t": "Rechtmäßigkeit der Anfrage prüfen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Verfahren zu Auskunftsersuchen, Offenlegungsprotokoll."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Drittlandübermittlung nach Kapitel V DSGVO; Kriterienbereich Umgang mit Ermittlungsanfragen im BSI C5."
+      }
+    ]
+  },
+  "z_d5": {
+    "h": "cfeacedaaa9992148eebee8dc50858bc",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Anbieter legt gegenüber dem Kunden offen, welche Unterauftragnehmer personenbezogene Daten verarbeiten, und bindet diese an dieselben Pflichten. Änderungen werden vorab mitgeteilt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Liste der Unterauftragnehmer bereitstellen"
+          },
+          {
+            "m": "2.",
+            "t": "Pflichten an Unterauftragnehmer weitergeben"
+          },
+          {
+            "m": "3.",
+            "t": "Kunden die Möglichkeit zum Widerspruch geben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Unterauftragnehmerverzeichnis."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 Absatz 2 und 4 DSGVO; Unterauftragsvergabe nach Artikel 30 DORA."
+      }
+    ]
+  },
+  "z_d6": {
+    "h": "84cb0911eaa5334ac49d5e339bb9df63",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei Vertragsende werden personenbezogene Daten zurückgegeben, übertragen oder sicher gelöscht, einschließlich Kopien und Sicherungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verfahren und Fristen vorab festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Löschung bei Sicherungsmedien und Papier berücksichtigen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Rückgabe- und Löschprotokolle."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 Absatz 3 Buchstabe g DSGVO."
+      }
+    ]
+  },
+  "z_d7": {
+    "h": "e629ae0ed4634ad875010a736cb4208f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Norm ergänzt die Sicherheitsmaßnahmen der ISO/IEC 27002 um Punkte für personenbezogene Daten: Vertraulichkeitsvereinbarungen mit Personal, Verschlüsselung bei Übertragung über öffentliche Netze und auf tragbaren Speichermedien, Kontrolle und Protokollierung der Datenwiederherstellung, Schutz von Datenträgern außer Haus, sichere Entsorgung von Papier sowie eindeutige Benutzerkennungen mit Nachweis der Berechtigten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verschlüsselung für Übertragungen und tragbare Medien"
+          },
+          {
+            "m": "2.",
+            "t": "Eindeutige Benutzerkennungen und Verzeichnis berechtigter Benutzer"
+          },
+          {
+            "m": "3.",
+            "t": "Wiederherstellung von Daten kontrollieren und protokollieren"
+          },
+          {
+            "m": "4.",
+            "t": "Papierkopien begrenzen und sicher entsorgen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Sicherheitskonzept mit Bezug zu personenbezogenen Daten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 32 DSGVO; Controls 8.5, 8.13, 8.15 und 8.24 der ISO/IEC 27002."
+      }
+    ]
+  },
+  "z_d8": {
+    "h": "6a586bb8a308c9162cb0b1f460d5ab0c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei Verletzung des Schutzes personenbezogener Daten benachrichtigt der Anbieter den Kunden unverzüglich, damit dieser seine Meldepflichten erfüllen kann; Aufzeichnungen über Verletzungen werden geführt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Meldefristen vertraglich festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Inhalt der Meldung festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Verletzungen und Folgen aufzeichnen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Meldeverfahren, Verletzungsregister."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 33 DSGVO und Artikel 19 DORA."
+      }
+    ]
+  },
+  "z_d9": {
+    "h": "9da7824954c63ec4a4e0cea277121acb",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Anbieter gibt an, in welchen Ländern personenbezogene Daten gespeichert und verarbeitet werden können, und informiert über beabsichtigte Wechsel."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Standorte benennen"
+          },
+          {
+            "m": "2.",
+            "t": "Vorherige Information über Standortwechsel"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Angaben zu Datenstandorten im Vertrag."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Standort der Datenverarbeitung nach Artikel 30 Absatz 2 DORA."
+      }
+    ]
+  }
+}

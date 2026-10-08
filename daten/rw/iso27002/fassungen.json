@@ -1,0 +1,17 @@
+{
+  "regelwerk": "iso27002",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:09Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen die Norm abgeglichen, ungeprüft) – Bezugsfassung: ISO/IEC 27002:2022 – Informationssicherheit, Cybersicherheit und Datenschutz – Informationssicherheitsmaßnahmen (93 Controls)",
+        "url": "https://www.iso.org/standard/75652.html",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein ISO/IEC 27002:2022 (ISO/IEC 27002:2022 – Informationssicherheit, Cybersicherheit und Datenschutz – Informationssicherheitsmaßnahmen (93 Controls))."
+      },
+      "hash": "c488667cf41ba37b12385cac9992de762470947a7a7f6db0e5efef258717d991",
+      "fundstellen": 94
+    }
+  ]
+}

@@ -1,0 +1,606 @@
+{
+  "z_l1": {
+    "h": "ccaf1e5e5bce227ded44e0b6a92f19e8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen prüft, ob eine Vereinbarung mit einem Cloud-Anbieter unter den Begriff „Outsourcing“ der Solvabilität-II-Richtlinie fällt. Maßgeblich ist, ob die Funktion periodisch oder kontinuierlich ausgeführt wird, ob sie sonst zu den operativen Funktionen gehörte, die das Unternehmen selbst erbrächte, und ob es sie selbst erbringen könnte."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Einordnung jeder Cloud-Vereinbarung als Outsourcing oder Nicht-Outsourcing anhand der Kriterien"
+          },
+          {
+            "m": "2.",
+            "t": "Cloud-Dienste in Form von SaaS, PaaS oder IaaS sind erfasst"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Einordnungsvermerk je Cloud-Vereinbarung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht der heutigen Frage, ob eine IKT-Dienstleistung nach Artikel 3 Nummer 21 DORA vorliegt (weiter gefasst)."
+      }
+    ]
+  },
+  "z_l10": {
+    "h": "6937be40f973eb566749d9b10ba46814",
+    "b": [
+      {
+        "art": "p",
+        "t": "Rechte und Pflichten von Unternehmen und Cloud-Anbieter sind eindeutig zu verteilen und schriftlich festzuhalten. Für kritische oder wichtige Funktionen muss die Vereinbarung zusätzlich zu Artikel 274 der Delegierten Verordnung einen Katalog von Inhalten enthalten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Klare Beschreibung der ausgelagerten Funktion einschließlich der Unterstützungsdienste"
+          },
+          {
+            "m": "2.",
+            "t": "Beginn, gegebenenfalls Ende und Kündigungsfristen beider Seiten"
+          },
+          {
+            "m": "3.",
+            "t": "Gerichtliche Zuständigkeit und anwendbares Recht"
+          },
+          {
+            "m": "4.",
+            "t": "Finanzielle Pflichten"
+          },
+          {
+            "m": "5.",
+            "t": "Ob und unter welchen Bedingungen eine Weiterauslagerung zulässig ist"
+          },
+          {
+            "m": "6.",
+            "t": "Standorte der Datenspeicherung und -verarbeitung samt Benachrichtigung bei geplantem Wechsel"
+          },
+          {
+            "m": "7.",
+            "t": "Bedingungen für Zugänglichkeit, Verfügbarkeit, Integrität, Vertraulichkeit, Schutz und Sicherheit der Daten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vertragsprüfung gegen den Katalog."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Abgelöst durch die Mindestvertragsinhalte nach Artikel 30 DORA und die Delegierte Verordnung (EU) 2024/1773; der Katalog war enger."
+      }
+    ]
+  },
+  "z_l11": {
+    "h": "98d49c7c3acfc8020b664c3547ca1509",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Vereinbarung darf die tatsächliche Ausübung von Zugangs- und Prüfungsrechten des Unternehmens und die Kontrollmöglichkeiten nicht einschränken. Häufigkeit und Umfang richten sich nach Kritikalität und Risiko."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfhäufigkeit, Bereiche und Dienstleistungen risikobasiert festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Entstehen durch eine Prüfung Risiken für andere Kunden des Anbieters, Alternativen mit vergleichbarem Sicherheitsniveau vereinbaren, etwa spezielle Berichte oder Zertifizierungen"
+          },
+          {
+            "m": "3.",
+            "t": "Zur effizienten Prüfung dürfen Zertifizierungen Dritter, Prüfberichte und gemeinsame Prüfungen mit anderen Kunden (pooled audits) genutzt werden; die Verantwortung bleibt beim Unternehmen"
+          },
+          {
+            "m": "4.",
+            "t": "Bei kritischen oder wichtigen Funktionen darf das Unternehmen sich nicht allein auf Zertifikate und Berichte verlassen (Absatz 43)"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfplan mit Begründung, Nachweise genutzter Zertifikate und Sammelprüfungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 30 Absatz 3 Buchstabe e DORA verlangt uneingeschränkte Zugangs-, Einsichts- und Prüfungsrechte; vergleichbar die Regeln der MaRisk zur Internen Revision."
+      }
+    ]
+  },
+  "z_l12": {
+    "h": "d48861bd0137e38b37624774243816d2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen stellt sicher, dass Cloud-Anbieter europäische und nationale Vorschriften sowie IKT-Sicherheitsstandards einhalten. Für kritische oder wichtige Funktionen legt es Anforderungen an die Informationssicherheit in der Vereinbarung fest und überwacht deren Einhaltung regelmäßig."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Einhaltung der IKT-Sicherheitsstandards sicherstellen"
+          },
+          {
+            "m": "2.",
+            "t": "Informationssicherheitsanforderungen vertraglich festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Einhaltung regelmäßig überwachen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Sicherheitsanforderungen im Vertrag, Überwachungsberichte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 9 DORA und Artikel 28 Absatz 5; Cloud-Controls in ISO/IEC 27017 und im BSI C5."
+      }
+    ]
+  },
+  "z_l13": {
+    "h": "6a152076cf857cd60329ec282afc92b5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ist die Weiterauslagerung kritischer oder wichtiger Funktionen zulässig, muss die Vereinbarung festlegen, welche Tätigkeiten ausgeschlossen sind und unter welchen Bedingungen sie erfolgt. Die Rechenschafts- und Kontrollpflicht für weiterausgelagerte Leistungen bleibt beim Cloud-Anbieter."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Alle von einer Weiterauslagerung ausgeschlossenen Tätigkeiten benennen"
+          },
+          {
+            "m": "2.",
+            "t": "Bedingungen festlegen, etwa dass auch der Unterauftragnehmer die Pflichten des Anbieters voll erfüllt, darunter Prüf- und Zugangsrechte und Sicherheit von Daten und Systemen"
+          },
+          {
+            "m": "3.",
+            "t": "Festhalten, dass die umfassende Rechenschafts- und Kontrollpflicht für weiterausgelagerte Leistungen beim Cloud-Anbieter verbleibt"
+          },
+          {
+            "m": "4.",
+            "t": "Verpflichtung des Anbieters, über geplante erhebliche Änderungen bei Unterauftragnehmern oder weiterausgelagerten Leistungen zu informieren, mit einer Frist, die dem Unternehmen mindestens eine Risikobewertung erlaubt"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dokumentation der Unterauftragsketten."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 30 Absatz 2 und 5 DORA und Delegierte Verordnung (EU) 2025/532 (Unterauftragsvergabe)."
+      }
+    ]
+  },
+  "z_l14": {
+    "h": "2a603ae7571ce9bae4cd3a5721c633c1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen überwacht die Ausführung der Tätigkeiten, die Sicherheitsmaßnahmen und die vereinbarte Dienstleistungsgüte regelmäßig und risikobasiert. Der Schwerpunkt liegt auf kritischen oder wichtigen Funktionen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Überwachungs- und Kontrollmechanismen einrichten"
+          },
+          {
+            "m": "2.",
+            "t": "Kennzahlen zur Dienstleistungsgüte und zur Sicherheit überwachen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Service-Reports und deren Auswertung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 Absatz 2 und Artikel 30 Absatz 3 DORA; Delegierte Verordnung (EU) 2024/1773, Artikel 9."
+      }
+    ]
+  },
+  "z_l15": {
+    "h": "140c3ba79e30b2bb0f839eb58b733634",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei kritischen oder wichtigen Funktionen enthält die Vereinbarung eine eindeutige Klausel zu einer Ausstiegsstrategie, die die Kündigung ermöglicht, ohne Kontinuität und Qualität der Leistung gegenüber den Versicherungsnehmern zu gefährden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ausstiegspläne: umfassend, dienstleistungsbasiert, dokumentiert und hinreichend erprobt, mit Analyse von Kosten, Auswirkungen, Ressourcen und Zeit"
+          },
+          {
+            "m": "2.",
+            "t": "Alternative Lösungen und machbare Übergangspläne, um Tätigkeiten und Daten abzuziehen und auf andere Dienstleister zu übertragen oder wieder einzugliedern – mit Berücksichtigung des Datenstandorts"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Ausstiegsplan mit Testbericht."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 Absatz 8 DORA verlangt Ausstiegsstrategien, die Delegierte Verordnung (EU) 2024/1773 Artikel 10 konkretisiert sie; Data Act, Artikel 23 ff. (Wechsel)."
+      }
+    ]
+  },
+  "z_l16": {
+    "h": "8fbbefd8958ed7a9c47b437b96867ba9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Leitlinie richtet sich an die Aufsichtsbehörden: Sie analysieren die Auswirkungen von Cloud-Vereinbarungen im Rahmen des aufsichtlichen Überprüfungsverfahrens, mit Schwerpunkt auf kritischen oder wichtigen Funktionen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Analyse im aufsichtlichen Überprüfungsverfahren"
+          },
+          {
+            "m": "2.",
+            "t": "Zu berücksichtigende Risiken: IKT-Risiken, sonstige operative Risiken einschließlich rechtlicher Risiken, Compliance-Risiken, der Auslagerungssteuerung und des Third-Party-Managements, Reputationsrisiko sowie Konzentrationsrisiko einschließlich der Länder- und Sektorebene"
+          },
+          {
+            "m": "3.",
+            "t": "Prüfung der Governance- und operativen Verfahren des Unternehmens für Genehmigung, Umsetzung, Überwachung und Verwaltung der Vereinbarungen auf risikobasierter Grundlage"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Für das Unternehmen nicht unmittelbar einschlägig – es genügt, die Prüfungsschwerpunkte zu kennen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 29 DORA und der Überwachungsrahmen für kritische IKT-Drittdienstleister (Kapitel V Abschnitt II)."
+      }
+    ]
+  },
+  "z_l2": {
+    "h": "e615284f64b6df355c6c1115467c762b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Verwaltungs-, Management- oder Aufsichtsorgan stellt sicher, dass Entscheidungen über die Auslagerung kritischer oder wichtiger Funktionen an Cloud-Anbieter auf einer eingehenden Risikobewertung beruhen, die alle relevanten Risiken einbezieht, etwa für IKT, Geschäftskontinuität und Einhaltung von Rechtsvorschriften."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Entscheidung des Organs auf Basis einer umfassenden Risikobewertung"
+          },
+          {
+            "m": "2.",
+            "t": "Die Verantwortung bleibt beim Unternehmen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Entscheidungsvorlage mit Risikobewertung und Organbeschluss."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 5 und Artikel 28 Absatz 2 DORA (Verantwortung des Leitungsorgans); Artikel 274 Absatz 3 der Delegierten Verordnung."
+      }
+    ]
+  },
+  "z_l3": {
+    "h": "79b8f684f48289cf9ceb7712500e2982",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Auslagerungsstrategie und weitere interne Leitlinien, etwa zur Informationssicherheit, sind für Cloud-Auslagerungen zu aktualisieren, durch Überprüfung, Anhang oder eigene Strategien. Zu berücksichtigen sind die Besonderheiten des Cloud-Outsourcings."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Aufgaben und Zuständigkeiten der betroffenen Funktionen festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Auswahl- und Bewertungsverfahren für Cloud-Anbieter regeln"
+          },
+          {
+            "m": "3.",
+            "t": "Weitere Aspekte zu Sicherheit, Verträgen, Ausstieg und Überwachung aufnehmen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Aktualisierte Auslagerungsleitlinie."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 Absatz 2 DORA verlangt eine Strategie für das IKT-Drittparteienrisiko."
+      }
+    ]
+  },
+  "z_l4": {
+    "h": "e3ea918c99f232d8859dbfc5344a9834",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Mitteilungspflicht aus Artikel 49 Absatz 3 der Richtlinie gilt für alle Auslagerungen kritischer oder wichtiger Funktionen an Cloud-Anbieter. Wird eine zunächst nicht kritische Funktion später kritisch oder wichtig, ist die Aufsicht entsprechend zu informieren."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Mitteilung vor der Auslagerung kritischer oder wichtiger Funktionen"
+          },
+          {
+            "m": "2.",
+            "t": "Nachträgliche Information bei geänderter Einstufung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Mitteilungen an die Aufsicht."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Heute Informationsregister und Vorabmeldung nach Artikel 28 Absatz 3 DORA."
+      }
+    ]
+  },
+  "z_l5": {
+    "h": "c77484d6bba891cba2126a4d607f19bf",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen führt ein fortlaufend aktualisiertes Register seiner Cloud-Vereinbarungen und bewahrt Aufzeichnungen über beendete Vereinbarungen für eine angemessene Frist auf. Für kritische oder wichtige Funktionen sind zusätzliche Angaben zu erfassen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Register der Cloud-Vereinbarungen"
+          },
+          {
+            "m": "2.",
+            "t": "Aufbewahrung beendeter Vereinbarungen nach nationalem Recht"
+          },
+          {
+            "m": "3.",
+            "t": "Erweiterte Angaben zu kritischen oder wichtigen Funktionen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Register mit den Pflichtangaben."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vorläufer des Informationsregisters nach Artikel 28 Absatz 3 DORA und der Durchführungsverordnung (EU) 2024/2956."
+      }
+    ]
+  },
+  "z_l6": {
+    "h": "f21f12807aeeed18d4bf051bdc3bc316",
+    "b": [
+      {
+        "art": "p",
+        "t": "Vor dem Vertragsschluss sind drei Prüfungen zu verbinden: Betrifft die Vereinbarung eine kritische oder wichtige Funktion (Leitlinie 7), welche Risiken ergeben sich (Leitlinie 8), und ist der Anbieter geeignet (Leitlinie 9). Hinzu kommt die Prüfung von Interessenkonflikten nach Artikel 274 Absatz 3 Buchstabe b der Delegierten Verordnung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Einstufung, Risikobewertung und Due Diligence vor Abschluss"
+          },
+          {
+            "m": "2.",
+            "t": "Interessenkonflikte ermitteln"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Vorab-Analyse als Teil der Vertragsakte."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 Absatz 4 DORA (Vorabbewertung) und Artikel 5 bis 7 der Delegierten Verordnung (EU) 2024/1773."
+      }
+    ]
+  },
+  "z_l7": {
+    "h": "fa56d2af2ef3ed30e368d5da0338dcf5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Unternehmen prüft vor dem Abschluss, ob die Vereinbarung eine kritische oder wichtige operative Funktion betrifft, und erwägt, ob sie es künftig werden könnte. Bereits ausgelagerte Funktionen werden erneut geprüft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Einstufung vor Vertragsschluss und danach in Abständen"
+          },
+          {
+            "m": "2.",
+            "t": "Beurteilung der möglichen künftigen Kritikalität"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Einstufungsdokumentation mit Kriterien."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 3 Nummer 22 DORA (kritische oder wichtige Funktion); FAQs der BaFin, Frage 5."
+      }
+    ]
+  },
+  "z_l8": {
+    "h": "b84f311517373e6036e4b13423c30842",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Ansatz steht in angemessenem Verhältnis zu Art, Umfang und Komplexität der Risiken der ausgelagerten Dienste. Das Unternehmen prüft insbesondere die möglichen Auswirkungen auf seine operativen Risiken und Reputationsrisiken. Bei kritischen oder wichtigen Funktionen kommen eine Abwägung von Nutzen und Kosten sowie eine Betrachtung rechtlicher, IKT-bezogener, Compliance- und Reputationsrisiken hinzu."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verhältnismäßige Bewertung der Auswirkungen auf operative Risiken und Reputation"
+          },
+          {
+            "m": "2.",
+            "t": "Bei kritischen oder wichtigen Funktionen: erwartete Vorteile und Kosten abwägen, einschließlich erheblicher Risiken, die verringert werden oder neu entstehen"
+          },
+          {
+            "m": "3.",
+            "t": "Rechtliche, IKT-, Compliance- und Reputationsrisiken sowie aufsichtsrechtliche Einschränkungen prüfen, die sich aus dem gewählten Cloud-Dienst und Bereitstellungsmodell (öffentliche, private, hybride oder Community-Cloud) und aus Migration und Ausführung ergeben"
+          },
+          {
+            "m": "4.",
+            "t": "Die Datenschutz-Grundverordnung ist zu beachten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikoanalyse je Vereinbarung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 Absatz 4 und Artikel 29 DORA (Konzentrationsrisiko); Artikel 5 der Delegierten Verordnung (EU) 2024/1773 mit einem Mindestkatalog an Risiken."
+      }
+    ]
+  },
+  "z_l9": {
+    "h": "5ec059ed6a3431eadc66c6880c86835d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Durch ein Auswahl- und Bewertungsverfahren stellt das Unternehmen sicher, dass der Anbieter den Kriterien seiner Auslagerungsstrategie entspricht. Die Prüfung erfolgt vor der Auslagerung; bei einem zweiten Vertrag mit einem bereits geprüften Anbieter entscheidet es risikobasiert, ob eine zweite Prüfung nötig ist."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Sorgfaltsprüfung vor Beginn"
+          },
+          {
+            "m": "2.",
+            "t": "Risikobasierte Entscheidung bei erneutem Vertrag mit geprüftem Anbieter"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Due-Diligence-Bericht."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 28 Absatz 4 DORA und Artikel 6 der Delegierten Verordnung (EU) 2024/1773."
+      }
+    ]
+  }
+}

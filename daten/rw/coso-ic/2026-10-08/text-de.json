@@ -1,0 +1,662 @@
+{
+  "z_k1": {
+    "h": "72f2acede7e9ad0980591f957d80c8ae",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Grundlage des internen Kontrollsystems: Haltung, Werte und Strukturen der Organisation. Fünf Prinzipien (1 bis 5)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Integrität und ethische Werte, Aufsicht durch das Aufsichtsorgan, Strukturen und Befugnisse, Kompetenz, Rechenschaft"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dokumentation der Kontrollen und der Beurteilungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht der Governance nach § 23 VAG und Artikel 5 DORA."
+      }
+    ]
+  },
+  "z_k2": {
+    "h": "d92e65338dca73002593489434686125",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation erkennt und bewertet die Risiken, die der Zielerreichung entgegenstehen. Vier Prinzipien (6 bis 9)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ziele festlegen, Risiken identifizieren und analysieren, Betrugsrisiken betrachten, wesentliche Änderungen berücksichtigen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dokumentation der Kontrollen und der Beurteilungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Risikomanagement nach § 26 VAG."
+      }
+    ]
+  },
+  "z_k3": {
+    "h": "66fd8d70e604f5eb61862fc5f72fc7f0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Maßnahmen, die durch Richtlinien und Verfahren sicherstellen, dass Vorgaben der Leitung zur Risikominderung umgesetzt werden. Drei Prinzipien (10 bis 12)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kontrollaktivitäten auswählen, technologische Kontrollen, Umsetzung durch Richtlinien"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dokumentation der Kontrollen und der Beurteilungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht dem internen Kontrollsystem nach § 29 VAG."
+      }
+    ]
+  },
+  "z_k4": {
+    "h": "b7b97f8b99fade87a811b6020fb54ad8",
+    "b": [
+      {
+        "art": "p",
+        "t": "Relevante Informationen werden in nutzbarer Form und rechtzeitig erfasst und kommuniziert. Drei Prinzipien (13 bis 15)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Qualitätsinformationen, interne Kommunikation, externe Kommunikation"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dokumentation der Kontrollen und der Beurteilungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Berichtswesen nach Artikel 13 DORA."
+      }
+    ]
+  },
+  "z_k5": {
+    "h": "d7b9d1cdf4dcd6afcc86a0de6c9fe1a2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Laufende und gesonderte Beurteilungen stellen fest, ob die fünf Komponenten vorhanden sind und wirksam funktionieren. Zwei Prinzipien (16 und 17)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Laufende und gesonderte Beurteilung, Mängelbewertung und -mitteilung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dokumentation der Kontrollen und der Beurteilungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Überprüfung durch interne Revision nach § 30 VAG."
+      }
+    ]
+  },
+  "z_p1": {
+    "h": "33072dfa87a96fa7833b6dfbbb42622d",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation zeigt, dass sie Integrität und ethische Werte ernst nimmt."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verhaltensregeln, Vorbildfunktion der Leitung, Umgang mit Abweichungen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Compliance-Kultur nach § 29 VAG."
+      }
+    ]
+  },
+  "z_p10": {
+    "h": "ad46549172ef64e00263d9ae21bfdc08",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation wählt Kontrollaktivitäten aus, die zur Minderung der Risiken auf ein akzeptables Niveau beitragen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Mix aus präventiven und detektiven, manuellen und automatisierten Kontrollen, Funktionstrennung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Kontrolldesign nach MaGo Kapitel 12."
+      }
+    ]
+  },
+  "z_p11": {
+    "h": "bea42dc12694a7002c8bcf3685d42ba7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation wählt allgemeine Kontrollen über die Technologie aus und entwickelt sie, um die Zielerreichung zu unterstützen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "IT-Infrastruktur, Sicherheitsmanagement, Beschaffung, Entwicklung und Wartung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Allgemeine IT-Kontrollen entsprechen den Anforderungen des Kapitels II DORA; prüfungsrelevant nach IDW PS 330."
+      }
+    ]
+  },
+  "z_p12": {
+    "h": "18d0d7c16ddd4d3b69d88455c126f3f1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Kontrollaktivitäten werden durch Richtlinien umgesetzt, die Erwartungen festlegen, und durch Verfahren, die sie umsetzen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Schriftliche Richtlinien, Zuständigkeiten, zeitnahe Anwendung, Überprüfung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Schriftlich fixierte Leitlinien nach Artikel 41 Absatz 3 der Richtlinie 2009/138/EG."
+      }
+    ]
+  },
+  "z_p13": {
+    "h": "ce5320ab686f2a2af70ce9dbebf4e65f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation erhält, erzeugt und nutzt relevante, hochwertige Informationen zur Unterstützung der internen Kontrolle."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Informationsbedarf bestimmen, Quellen und Datenqualität sichern"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Datenqualität nach MaGo."
+      }
+    ]
+  },
+  "z_p14": {
+    "h": "0aeac0e8b56dbf1e9d7ac4ac83adc6d9",
+    "b": [
+      {
+        "art": "p",
+        "t": "Informationen, die für die interne Kontrolle nötig sind, werden intern kommuniziert, auch Ziele und Verantwortlichkeiten."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kommunikation zwischen Leitung und Mitarbeitern, Meldewege, Hinweisgebersystem"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Hinweisgeberschutz und Meldewege."
+      }
+    ]
+  },
+  "z_p15": {
+    "h": "4a10061883c50c4b4060eafd57a013c7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation kommuniziert mit externen Parteien über Angelegenheiten, die das Funktionieren der internen Kontrolle betreffen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Kommunikation mit Aufsicht, Prüfern, Kunden und Lieferanten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Meldungen an die Aufsicht nach Artikel 19 DORA."
+      }
+    ]
+  },
+  "z_p16": {
+    "h": "1687f3baece0445daedfba19c4798693",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation wählt laufende und/oder gesonderte Beurteilungen aus, entwickelt und führt sie durch."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Selbstbeurteilung, Kontrolltests, interne und externe Prüfung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Wirksamkeitsprüfung nach MaGo Kapitel 12."
+      }
+    ]
+  },
+  "z_p17": {
+    "h": "aab3b36f146769dd5c475f905fc16be5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Mängel der internen Kontrolle werden zeitnah an die verantwortlichen Stellen mitgeteilt, einschließlich Leitung und Aufsichtsorgan, und behoben."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Mängelbewertung, Berichtswege, Nachverfolgung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Maßnahmenverfolgung; Berichte an das Leitungsorgan nach Artikel 13 Absatz 5 DORA."
+      }
+    ]
+  },
+  "z_p2": {
+    "h": "c4b14f2dafa572dac6597dd093a751ce",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Aufsichtsorgan ist von der Geschäftsleitung unabhängig und überwacht Entwicklung und Funktion der internen Kontrolle."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Unabhängigkeit und Fachkunde, regelmäßige Berichterstattung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Überwachung durch das Leitungs- und Aufsichtsorgan nach Artikel 5 DORA."
+      }
+    ]
+  },
+  "z_p3": {
+    "h": "569e727cf7416c7f515eaec8090207f0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Leitung legt unter der Aufsicht des Aufsichtsorgans Strukturen, Berichtslinien und angemessene Befugnisse fest."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Organisationsstruktur, Rollenbeschreibungen, Berichtswege"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Aufbau- und Ablauforganisation nach MaGo Kapitel 9."
+      }
+    ]
+  },
+  "z_p4": {
+    "h": "7a60413bdee58b0b6c3c4849fd0348d5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation gewinnt, entwickelt und hält kompetente Personen im Einklang mit den Zielen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Qualifikationsanforderungen, Schulung, Nachfolgeplanung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Fachliche Qualifikation nach § 24 VAG."
+      }
+    ]
+  },
+  "z_p5": {
+    "h": "db38285199763c813578e4f5799abbd6",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation zieht Personen für ihre Verantwortung im internen Kontrollsystem zur Rechenschaft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Leistungsmessung, Anreize, Konsequenzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Verantwortlichkeit der Schlüsselfunktionen."
+      }
+    ]
+  },
+  "z_p6": {
+    "h": "d84c8ff5179a65e5db39b98d3d50d8dd",
+    "b": [
+      {
+        "art": "p",
+        "t": "Ziele sind so klar, dass sich Risiken ermitteln und beurteilen lassen: operative, berichtsbezogene und Compliance-Ziele."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Messbare, abgestimmte Ziele auf allen Ebenen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Zielvorgaben der Geschäftsstrategie."
+      }
+    ]
+  },
+  "z_p7": {
+    "h": "63ceb9dbcacd38864e368d0cdce00df2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Organisation identifiziert Risiken für ihre Ziele über alle Ebenen und analysiert sie, um zu bestimmen, wie sie gesteuert werden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Risikoinventur, Bewertung nach Eintritt und Auswirkung, Risikotoleranzen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: IKT-Risikoidentifizierung nach Artikel 8 DORA."
+      }
+    ]
+  },
+  "z_p8": {
+    "h": "1819ff65778d77005e58537e37e65612",
+    "b": [
+      {
+        "art": "p",
+        "t": "Bei der Beurteilung der Risiken werden die Möglichkeiten von Betrug einbezogen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Betrugsszenarien, Anreize und Gelegenheiten, Rationalisierung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Missbrauchsbekämpfung im Versicherungsgeschäft."
+      }
+    ]
+  },
+  "z_p9": {
+    "h": "3d3d8fcd24ae2587604ed6c8d880e858",
+    "b": [
+      {
+        "art": "p",
+        "t": "Änderungen, die das interne Kontrollsystem erheblich beeinflussen können, werden erkannt und bewertet."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Änderungen im Umfeld, im Geschäftsmodell, in der Führung und in der Technik"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nachweise zur Umsetzung dieses Prinzips."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Änderungsmanagement nach Artikel 17 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  }
+}

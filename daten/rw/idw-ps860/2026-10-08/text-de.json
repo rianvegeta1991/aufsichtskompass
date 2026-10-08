@@ -1,0 +1,112 @@
+{
+  "z_a": {
+    "h": "ecfc8ad650eb44478da8e7ceedba7dc7",
+    "b": [
+      {
+        "art": "p",
+        "t": "Unterschieden werden Systemprüfungen, projektbegleitende Prüfungen und Prüfungen einzelner IT-Aspekte. Je nach Auftrag wird die Angemessenheit der Ausgestaltung (Aufbau) oder zusätzlich die Wirksamkeit im Zeitablauf geprüft."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Aufbauprüfung zu einem Zeitpunkt"
+          },
+          {
+            "m": "2.",
+            "t": "Wirksamkeitsprüfung über einen Zeitraum"
+          },
+          {
+            "m": "3.",
+            "t": "Projektbegleitung mit Zwischenberichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsbericht."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Der Unterschied zwischen Aufbau- und Wirksamkeitsprüfung entspricht Typ 1 und Typ 2 nach ISAE 3402."
+      }
+    ]
+  },
+  "z_b": {
+    "h": "b85b2f5bf84dd70c177f7465acdf445c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Ergebnis wird in einem Prüfungsbericht oder einer Bescheinigung dargestellt, mit Auftrag, Prüfungsgegenstand, angewandten Maßstäben, Vorgehen, Feststellungen und Urteil. Der Bericht richtet sich an den Auftraggeber; die Weitergabe an Dritte ist zu regeln."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfungsmaßstab und Reichweite des Urteils ausdrücklich benennen"
+          },
+          {
+            "m": "2.",
+            "t": "Feststellungen nach Schwere einordnen"
+          },
+          {
+            "m": "3.",
+            "t": "Verwendung und Weitergabe des Berichts beschränken"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Bericht mit Verteiler und Verwendungsbeschränkung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Prüfungsfeststellungen sind Maßnahmen zu überführen und dem Leitungsorgan zu berichten (Artikel 13 Absatz 5 DORA)."
+      }
+    ]
+  },
+  "z_z": {
+    "h": "da2f3b45abc6600bb5a789979580a5f4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Standard regelt, wie Wirtschaftsprüfer IT-Prüfungen durchführen, die nicht Teil einer Abschlussprüfung sind: etwa die Prüfung von IT-Systemen, IT-Prozessen und IT-Sicherheit auf Beauftragung des Unternehmens. Er gibt einen einheitlichen Rahmen für Auftragsannahme, Durchführung und Berichterstattung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Prüfungsgegenstand und Prüfungsmaßstäbe vorab festlegen"
+          },
+          {
+            "m": "2.",
+            "t": "Prüfungsergebnisse in einem Bericht oder einer Bescheinigung darstellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsauftrag mit Gegenstand und Maßstab."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Für Versicherer als Rahmen für Prüfungen von IT-Sicherheit und Notfallvorsorge denkbar; die Prüfung nach DORA richtet sich nach Kapitel II und IV."
+      }
+    ]
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "z_at_1": {
+    "h": "a45947e2bc248d84658cd1596072b583",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Rundschreiben gibt auf Grundlage von § 25a Absatz 1 KWG einen flexiblen, praxisnahen Rahmen für das Risikomanagement der Institute und präzisiert die Auslagerung (§ 25b KWG) und ESG-Risiken (§ 26c KWG). Es setzt zugleich eine Reihe von EBA-Leitlinien um und legt den Rahmen für die proportionale Anwendung fest."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Umgesetzt sind unter anderem die EBA-Leitlinien zu Stresstests, zum Umgang mit notleidenden Risikopositionen, zur Auslagerung, zur Kreditvergabe, zur internen Governance, zum Zinsänderungs- und Kreditspreadrisiko und zu ESG-Risiken"
+          },
+          {
+            "m": "2.",
+            "t": "Abschnitte aus diesen Leitlinien gelten nur zusätzlich, wenn die MaRisk darauf verweisen"
+          },
+          {
+            "m": "3.",
+            "t": "Größenklassen: kleine Institute (kleine und nicht komplexe Institute nach der Kapitaladäquanzverordnung) und sehr kleine Institute (Vierjahresdurchschnitt der Bilanzsumme unter 1 Milliarde Euro) erhalten ausdrücklich geregelte Erleichterungen"
+          },
+          {
+            "m": "4.",
+            "t": "Daneben konkretisiert es über das Wertpapierhandelsgesetz Anforderungen der Finanzmarktrichtlinie (MiFID II)"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Einordnung des Instituts in die Größenklassen, Umsetzungsdokumentation zu den EBA-Leitlinien."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit der Rolle der MaGo für Versicherer, die die Geschäftsorganisation nach VAG auslegt."
+      }
+    ]
+  },
+  "z_at_2": {
+    "h": "d98e5f5687d39dcd5725138d19bac8a4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Rundschreiben nennt den Anwenderkreis, die als grundsätzlich wesentlich geltenden Risikoarten und die erfassten Geschäfte. Als wesentlich gelten Adressenausfall-, Marktpreis-, Liquiditäts- und operationelle Risiken; dafür kann eine gesonderte Wesentlichkeitsanalyse entfallen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "IKT-Risiken sind ein Bestandteil der operationellen Risiken und ausdrücklich in die Risikoinventur einzubeziehen"
+          },
+          {
+            "m": "2.",
+            "t": "Mit wesentlichen Risiken verbundene Risikokonzentrationen berücksichtigen"
+          },
+          {
+            "m": "3.",
+            "t": "Für als nicht wesentlich eingestufte Risiken angemessene Vorkehrungen treffen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Risikoinventur mit ausgewiesenen IKT-Risiken."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: IKT-Risiken als Teil der operationellen Risiken entspricht dem Ansatz der MaGo und Artikel 260 Buchstabe f der Delegierten Verordnung (EU) 2015/35; DORA verlangt zusätzlich einen eigenen IKT-Risikomanagementrahmen (Artikel 6)."
+      }
+    ]
+  },
+  "z_at_3": {
+    "h": "1379d80a26ed803eca17ef87cdc2cd79",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Geschäftsleitung trägt die Gesamtverantwortung für ein ordnungsgemäßes Risikomanagement; das Aufsichtsorgan und seine Ausschüsse haben eigene Überwachungsaufgaben. Bei CRD-Drittstaatenzweigstellen, die kein Aufsichtsorgan haben, wird die Unternehmenszentrale einbezogen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Gesamtverantwortung besteht unabhängig von einer Ressortverteilung"
+          },
+          {
+            "m": "2.",
+            "t": "Geschäftsleitung muss die Risiken verstehen und die Strategien festlegen"
+          },
+          {
+            "m": "3.",
+            "t": "Das Aufsichtsorgan überwacht und lässt sich berichten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Geschäftsverteilungsplan, Protokolle des Aufsichtsorgans."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht dem Grundgedanken von Artikel 5 DORA und Randziffer 15 MaGo."
+      }
+    ]
+  },
+  "z_at_4_1": {
+    "h": "9b6d88b485303696ddf991a043cc7c5f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Institut muss durch einen internen Prozess sicherstellen, dass das interne Kapital zur Abdeckung aller wesentlichen Risiken ausreicht (ICAAP). Das ist das bankaufsichtliche Gegenstück zur unternehmenseigenen Risiko- und Solvabilitätsbeurteilung der Versicherer."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Risikotragfähigkeit laufend sicherstellen"
+          },
+          {
+            "m": "2.",
+            "t": "Wesentliche Risiken in die Betrachtung einbeziehen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: ICAAP-Dokumentation."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit dem ORSA nach Artikel 45 der Richtlinie 2009/138/EG."
+      }
+    ]
+  },
+  "z_at_4_2": {
+    "h": "ff26ed58d30adf0d24cd5f6c286cebf0",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Geschäftsleitung legt eine nachhaltige Geschäfts- und eine mit ihr konsistente Risikostrategie fest. Die Novelle ergänzt die Strategien um eine IKT-Strategie und stellt klar, wie sie zur Strategie für die digitale operationale Resilienz steht."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Die Geschäftsleitung legt eine mit der Geschäftsstrategie konsistente und nachhaltige IKT-Strategie fest"
+          },
+          {
+            "m": "2.",
+            "t": "Ist das Institut zu einer DOR-Strategie verpflichtet, dürfen IKT-Strategie und DOR-Strategie je nach Größe und Gesamtrisikoprofil in einem gemeinsamen Dokument stehen; das gilt auch für IKT-Strategie und Geschäftsstrategie"
+          },
+          {
+            "m": "3.",
+            "t": "Der Detaillierungsgrad richtet sich nach Umfang, Komplexität und Risikogehalt; Risikostrategie und IKT/DOR-Strategie dürfen in die Geschäftsstrategie integriert werden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Strategiedokumente mit erkennbarer IKT- und DOR-Komponente."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 6 Absatz 8 DORA verlangt die DOR-Strategie; die Aufsichtsmitteilung der BaFin (Abschnitt 1.1) hält die IT-Strategie als Bindeglied für sinnvoll."
+      }
+    ]
+  },
+  "z_at_4_3": {
+    "h": "ad84724120e99f911a9e9ab525d097c2",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das interne Kontrollsystem umfasst die Aufbau- und Ablauforganisation, die Risikosteuerungs- und -controllingprozesse, Stresstests und die Verwendung von Modellen. Zuständigkeiten, Kompetenzen und Kommunikationswege sind klar zu definieren und aufeinander abzustimmen; Interessenkonflikte, auch beim Arbeitsplatzwechsel, sind zu vermeiden."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Klare Funktionstrennung und Kompetenzordnung"
+          },
+          {
+            "m": "2.",
+            "t": "Prozesse zur Identifizierung, Beurteilung, Steuerung, Überwachung und Kommunikation der wesentlichen Risiken"
+          },
+          {
+            "m": "3.",
+            "t": "Regelmäßige und anlassbezogene Stresstests"
+          },
+          {
+            "m": "4.",
+            "t": "Beherrschung der Modellrisiken bei der Verwendung von Modellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Organisationsrichtlinien, Stresstestberichte, Modellvalidierung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht dem internen Kontrollsystem nach § 29 VAG und Artikel 46 der Richtlinie 2009/138/EG; Details unter AT 4.4 und BT 1."
+      }
+    ]
+  },
+  "z_at_4_4": {
+    "h": "2c18d9b8b3d9350f9a21a2bcdd7b832c",
+    "b": [
+      {
+        "art": "p",
+        "t": "Jedes Institut braucht eine Risikocontrolling-Funktion, eine Compliance-Funktion und eine funktionsfähige Interne Revision. Die Risikocontrolling-Funktion muss bis einschließlich der Geschäftsleiterebene von den Geschäftsbereichen getrennt sein, die Geschäfte initiieren oder abschließen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Erleichterungen für kleine und sehr kleine Institute sind ausdrücklich geregelt, jeweils mit Maßnahmen gegen Interessenkonflikte"
+          },
+          {
+            "m": "2.",
+            "t": "Die Compliance-Funktion kann bei geeigneten anderen Funktionen angebunden werden, sofern eine direkte Berichtslinie zur Geschäftsleitung besteht; als Beispiele nennt das Rundschreiben die IKT-Risikokontrollfunktion nach Artikel 6 Absatz 4 DORA und den Datenschutzbeauftragten"
+          },
+          {
+            "m": "3.",
+            "t": "Die Compliance-Funktion bleibt von Markt- und Handelsbereichen unabhängig, ein Compliance-Beauftragter ist zu benennen"
+          },
+          {
+            "m": "4.",
+            "t": "Die Interne Revision hat uneingeschränkte Informations- und Zugriffsrechte; ihre Planung, Methoden und Qualität werden regelmäßig überprüft"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Funktionsbeschreibungen mit Berichtslinien, Revisionsplan."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die ausdrückliche Verknüpfung mit der IKT-Risikokontrollfunktion zeigt, dass sie als Funktion neben den klassischen Kontrollfunktionen gedacht ist (Artikel 6 Absatz 4 DORA); für Versicherer die vier Schlüsselfunktionen nach Artikel 269 bis 272 der Delegierten Verordnung (EU) 2015/35."
+      }
+    ]
+  },
+  "z_at_5": {
+    "h": "3db8d82914fc36212cf7f75b814eeef5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Institut hat schriftlich fixierte Ordnungen, die die Aufbau- und Ablauforganisation, die Aufgaben, Kompetenzen und Verantwortlichkeiten sowie die Prozesse festhalten und den Mitarbeitern bekannt machen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Schriftliche Organisationsrichtlinien"
+          },
+          {
+            "m": "2.",
+            "t": "Bekanntmachung und Pflege"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Richtlinienverzeichnis mit Freigabe- und Überprüfungsdatum."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Vergleichbar mit den schriftlich festgelegten Leitlinien nach Artikel 41 Absatz 3 der Richtlinie 2009/138/EG."
+      }
+    ]
+  },
+  "z_at_6": {
+    "h": "94487e7b0565a94d63b03d3db1026bab",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Geschäftstätigkeit, die Risikomanagemententscheidungen und die Kontrollen sind nachvollziehbar zu dokumentieren und aufzubewahren; die Dokumentation muss sachkundigen Dritten die Prüfung ermöglichen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Nachvollziehbare Dokumentation der Entscheidungen"
+          },
+          {
+            "m": "2.",
+            "t": "Aufbewahrung in angemessener Frist"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Dokumentationskonzept."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Für Aufbewahrungsfristen ergänzend HGB, AO und GoBD."
+      }
+    ]
+  },
+  "z_at_7_1": {
+    "h": "21e8cfb23b6da83fa9ab55ffcb091d6b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Quantitative und qualitative Personalausstattung sowie Vertretungsregelungen müssen zu Art, Umfang, Komplexität und Risikogehalt der Geschäftsaktivitäten passen; Mitarbeiter sind für ihre Aufgaben zu qualifizieren."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Angemessene Personalausstattung und Qualifikation"
+          },
+          {
+            "m": "2.",
+            "t": "Vertretungsregelungen und Weiterbildung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Personalplanung, Qualifikationsnachweise."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 5 Absatz 2 Buchstabe g DORA verlangt ausreichende Ressourcen und IKT-Kompetenzen."
+      }
+    ]
+  },
+  "z_at_7_2": {
+    "h": "2f9d9036202d86c8e426a3b2a05f4b9a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Umfang und Qualität der technisch-organisatorischen Ausstattung richten sich nach den internen Erfordernissen, den Geschäftsaktivitäten und der Risikosituation. Der Abschnitt ist in der Fassung 2026 auf zwei Textziffern geschrumpft: Die früher hier verankerten detaillierten IT-Anforderungen stehen jetzt in DORA."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Angemessene technische und organisatorische Kapazitäten für die Daten und Informationen zu den wesentlichen Risikoarten"
+          },
+          {
+            "m": "2.",
+            "t": "Wirksame Prozesse für die Datenqualität, die eine korrekte und vollständige Erfassung der wesentlichen Risikokomponenten erlauben"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Datenqualitätskonzept für das Risikoreporting."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Die IT-Anforderungen sind in Kapitel II DORA und in der Delegierten Verordnung (EU) 2024/1774 aufgegangen; die BaFin hat BAIT und VAIT dafür aufheben wollen (Aufsichtsmitteilung)."
+      }
+    ]
+  },
+  "z_at_7_3": {
+    "h": "ee8c2d98564b797404614ace3b091ab4",
+    "b": [
+      {
+        "art": "p",
+        "t": "Für Aktivitäten und Prozesse, die kritische oder wichtige Funktionen darstellen, ist durch ein Notfallkonzept Vorsorge zu treffen. Auswirkungsanalysen (Business-Impact-Analysen) identifizieren die Risiken für schwerwiegende Störungen und bilden die Grundlage; dazu dient eine Übersicht über alle Funktionen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Notfallkonzept jährlich und anlassbezogen aktualisieren und angemessen kommunizieren; die Geschäftsleitung mindestens quartalsweise und anlassbezogen schriftlich informieren"
+          },
+          {
+            "m": "2.",
+            "t": "Verantwortlichkeiten, Ziele und Maßnahmen zur Fortführung oder Wiederherstellung; Kriterien für die Einstufung und das Auslösen der Pläne"
+          },
+          {
+            "m": "3.",
+            "t": "Geschäftsfortführungs- und Wiederherstellungspläne auf plausiblen Szenarien und vernünftigen Annahmen; interne und externe Kommunikation im Notfall"
+          },
+          {
+            "m": "4.",
+            "t": "Bei Auslagerung kritischer oder wichtiger Funktionen abgestimmte Notfallkonzepte von Institut und Auslagerungsunternehmen"
+          },
+          {
+            "m": "5.",
+            "t": "Wirksamkeit und Angemessenheit regelmäßig prüfen, für kritische oder wichtige Funktionen jährlich; Prüfungen protokollieren, Ergebnisse analysieren und schriftlich mitteilen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Notfallkonzept, Business-Impact-Analyse, Prüf- und Übungsprotokolle, Quartalsbericht an die Geschäftsleitung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht der Sache nach Artikel 11 und 12 DORA; die Aufsichtsmitteilung zeigt, dass DORA Begriffe (IKT-Geschäftsfortführungsleitlinie, Reaktions- und Wiederherstellungspläne) und Szenarien erweitert."
+      }
+    ]
+  },
+  "z_at_8": {
+    "h": "11c4d104b655fadb74ba5b7ef0871c69",
+    "b": [
+      {
+        "art": "p",
+        "t": "Das Institut muss die betriebenen Geschäftsaktivitäten verstehen. Vor neuen Produkten oder Märkten ist ein Konzept zu erarbeiten, das die Konsequenzen für Organisation, Risiken, Personal, IKT-Systeme und Bewertung darstellt; Gleiches gilt für wesentliche Änderungen in Aufbau- und Ablauforganisation oder IKT-Systemen sowie bei Übernahmen und Fusionen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Vorab-Konzept mit Auswirkungen auf das Risikoprofil"
+          },
+          {
+            "m": "2.",
+            "t": "Beteiligung der relevanten Bereiche"
+          },
+          {
+            "m": "3.",
+            "t": "Prüfung der Auswirkungen wesentlicher Veränderungen vor ihrer Umsetzung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Neu-Produkt-Prozess mit Dokumentation je Vorhaben."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Berührt das IKT-Änderungsmanagement nach Artikel 17 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_at_9": {
+    "h": "3c7a950360609808d320b47fe015e961",
+    "b": [
+      {
+        "art": "p",
+        "t": "Eine Auslagerung liegt vor, wenn ein anderes Unternehmen mit Aktivitäten und Prozessen beauftragt wird, die sonst das Institut selbst erbringen würde. Sonstiger Fremdbezug ist keine Auslagerung, darf aber die Ordnungsmäßigkeit der Geschäftsorganisation nicht beeinträchtigen. Der entscheidende Satz der Novelle betrifft DORA."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Ausgelagerte oder fremdbezogene IKT-Dienstleistungen im Sinne von Artikel 3 Nummer 21 DORA, die dem IKT-Drittparteienrisikomanagement nach Artikel 28 bis 30 DORA unterliegen, fallen nicht in den Anwendungsbereich von AT 9"
+          },
+          {
+            "m": "2.",
+            "t": "Risikoanalyse zur Bestimmung wesentlicher Auslagerungen, regelmäßig zu überprüfen, bei kleinen Instituten alle drei Jahre; ergänzt durch eine Szenarioanalyse, soweit sinnvoll und verhältnismäßig"
+          },
+          {
+            "m": "3.",
+            "t": "Auslagerung darf die Ordnungsmäßigkeit nicht beeinträchtigen (keine leere Hülle), Leitungsaufgaben der Geschäftsleitung dürfen nicht ausgelagert werden, die Verantwortung bleibt beim Institut"
+          },
+          {
+            "m": "4.",
+            "t": "Das Auslagerungsunternehmen muss nach dem Recht seines Sitzlandes befugt sein"
+          },
+          {
+            "m": "5.",
+            "t": "Besondere Maßstäbe bei Auslagerung der besonderen Funktionen; die Interne Revision darf auf Zertifikate zurückgreifen, sich bei wesentlichen Auslagerungen aber nicht allein darauf stützen"
+          },
+          {
+            "m": "6.",
+            "t": "Das Geldwäschegesetz und die Verordnung (EU) 2024/1624 sind anzuwenden"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Auslagerungsregister mit Risikoanalyse, Abgrenzungsdokumentation: DORA-Verträge gegenüber AT-9-Auslagerungen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Für Banken ist die Abgrenzung damit klar geregelt: IKT-Dienstleistungen laufen nach DORA, nicht mehr nach AT 9. Für Versicherer gilt das nicht automatisch – die MaGo (Kapitel 13, Randziffer 209 ff.) kennt eine solche Ausnahme nicht, und die FAQs der BaFin zu DORA stellen klar, dass DORA die sektoralen Auslagerungsregeln ergänzt."
+      }
+    ]
+  },
+  "z_bt_1": {
+    "h": "abf13afe3fe6fe87820de81b41a19d76",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Besondere Teil konkretisiert das interne Kontrollsystem für einzelne Geschäfte und Risiken. BTO regelt die Aufbau- und Ablauforganisation (Kreditgeschäft, Handelsgeschäft, Immobiliengeschäft), BTR die Risikosteuerungs- und -controllingprozesse, BT 2 die Risikoberichterstattung."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Funktionstrennung und Votierung im Kreditgeschäft, Handel und Abwicklung sind getrennt zu organisieren"
+          },
+          {
+            "m": "2.",
+            "t": "Prozesse für Kreditvergabe, -weiterbearbeitung, -bearbeitungskontrolle, Intensivbetreuung, Problemkredite und Risikovorsorge"
+          },
+          {
+            "m": "3.",
+            "t": "Früherkennung von Risiken und Behandlung von Forbearance; Risikoklassifizierungsverfahren"
+          },
+          {
+            "m": "4.",
+            "t": "Bei IKT-gestützter Bearbeitung ist die Funktionstrennung durch Verfahren und Schutzmaßnahmen sicherzustellen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Kompetenzordnung, Prozessbeschreibungen je Geschäftsart."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Für Versicherer ohne unmittelbare Entsprechung; die Funktionstrennung bei IKT-gestützter Bearbeitung berührt Artikel 21 des RTS zum IKT-Risikomanagementrahmen."
+      }
+    ]
+  },
+  "z_bt_2": {
+    "h": "11a0d78790889cd49eb0a169dd4c8a19",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Risikoberichte an die Geschäftsleitung und das Aufsichtsorgan müssen allgemeine Anforderungen erfüllen; die Risikocontrolling-Funktion berichtet gesondert über wesentliche Risiken."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Verständliche, aussagekräftige und regelmäßige Berichte"
+          },
+          {
+            "m": "2.",
+            "t": "Berichte der Risikocontrolling-Funktion über die Risikolage"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berichtswesen mit Adressaten, Inhalt und Takt."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Artikel 13 Absatz 5 DORA verlangt zusätzlich Berichte der leitenden IKT-Mitarbeiter an das Leitungsorgan."
+      }
+    ]
+  },
+  "z_btr_1_3__5": {
+    "h": "fea2c939a1d3457284d60160eca39d1e",
+    "b": [
+      {
+        "art": "p",
+        "t": "Diese Module stellen Anforderungen an die Steuerung und das Controlling der klassischen Bankrisiken: Adressenausfallrisiken, Marktpreisrisiken in Handels- und Anlagebuch einschließlich Zinsänderungsrisiken, Liquiditätsrisiken und Kreditspreadrisiken im Anlagebuch. Sie sind hier nur mit Gegenstand beschrieben, ohne Einzelanforderungen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Liquiditätspuffer müssen den in den Stresstests ermittelten Bedarf über einen dem Risikoappetit entsprechenden Zeitraum, mindestens einen Monat, abdecken"
+          },
+          {
+            "m": "2.",
+            "t": "Ansonsten bankspezifisch"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Nicht erhoben – bankspezifisch."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Für Versicherer nicht anwendbar; die versicherungstechnischen und Marktrisiken sind in Solvabilität II geregelt."
+      }
+    ]
+  },
+  "z_btr_4": {
+    "h": "a93816f3eabb5de42dbb7d805b50e62f",
+    "b": [
+      {
+        "art": "p",
+        "t": "Operationellen Risiken ist durch ein angemessenes Risikomanagement Rechnung zu tragen, mit einheitlicher Definition und Abgrenzung, die den Mitarbeitern verständlich kommuniziert wird. IKT-Risiken sind ein Bestandteil davon."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Wesentliche operationelle Risiken mindestens einmal jährlich identifizieren und bewerten"
+          },
+          {
+            "m": "2.",
+            "t": "Schadensfälle angemessen erfassen, bedeutende unverzüglich analysieren, zusammengehörige Fälle aggregieren; auch Beinaheverluste und Grenzfälle zu Markt- oder Kreditrisiko einbeziehen"
+          },
+          {
+            "m": "3.",
+            "t": "Beurteilungsverfahren erfassen die wesentlichen Ausprägungen unter Berücksichtigung historischer Erkenntnisse und potenzieller Ereignisse"
+          },
+          {
+            "m": "4.",
+            "t": "Auf dieser Basis entscheiden, ob Ursachen zu beseitigen oder Risikosteuerungsmaßnahmen zu ergreifen sind, etwa Versicherungen, Ersatzverfahren, Neuausrichtung oder Notfallmanagement"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Schadensfalldatenbank, Jährliche Risikoinventur operationeller Risiken."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht dem Management des operationellen Risikos nach Artikel 260 Buchstabe f der Delegierten Verordnung (EU) 2015/35; die IKT-Seite regelt DORA."
+      }
+    ]
+  }
+}

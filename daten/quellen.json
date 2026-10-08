@@ -4,6 +4,7 @@
   "typen": {
     "cellar": "EUR-Lex ueber CELLAR (publications.europa.eu/resource/celex/<CELEX>), Content-Negotiation auf XHTML. Umgesetzt.",
     "gii": "gesetze-im-internet.de, XML-Fassung je Gesetz (ZIP). Umgesetzt; optional auf einzelne Paragrafen beschraenkbar.",
+    "oscal": "OSCAL-Katalog als JSON (zunaechst NIST SP 800-53 Rev. 5). Gliederung Familie > Control > Erweiterung, Fundstelle je Control (Deep-Link c/<id>), Platzhalter ausgeschrieben, Bewertungsteile aus SP 800-53A bleiben draussen. Umgesetzt.",
     "bafin-pdf": "BaFin-Veroeffentlichung nur als PDF (z. B. MaRisk, Aufsichtsmitteilung DORA). Nicht umgesetzt: ein PDF-Textextraktor fehlt. Diese Werke bleiben auf \"Zusammenfassung\" mit Link auf die Quelle.",
     "rss": "RSS-/Atom-Feed. Umgesetzt; Abruf mit ETag und Last-Modified, Fehler je Quelle brechen den Lauf nicht ab.",
     "seite": "Seitenueberwachung fuer Quellen ohne Feed: Bereich per CSS-Selektor herausloesen, Hash vergleichen. Umgesetzt.",
@@ -23,12 +24,14 @@
     "www.enisa.europa.eu",
     "finance.ec.europa.eu",
     "www.gdv.de",
-    "cloudsecurityalliance.org"
+    "cloudsecurityalliance.org",
+    "raw.githubusercontent.com"
   ],
   "nutzungsbedingungen": {
     "eu": "Weiterverwendung von EU-Rechtstexten mit Quellenangabe zulaessig (Beschluss 2011/833/EU). Rechtsverbindlich ist nur die im Amtsblatt veroeffentlichte Fassung.",
     "gii": "Amtliche Werke, § 5 UrhG - gemeinfrei. Quellenangabe trotzdem verpflichtend.",
     "bafin": "Nutzungsbedingungen der BaFin (\"Haftungsausschluss & Copyright\", abgerufen am 01.10.2026): Die abrufbaren Inhalte und Dokumente duerfen grundsaetzlich gespeichert, weitergegeben und vervielfaeltigt werden, nur unter deutlicher Angabe der Quelle; amtliche Werke im Sinne des § 5 Absatz 2 UrhG duerfen nicht veraendert oder verfaelscht werden. Deshalb traegt jede Fassung den Hinweis \"© Bundesanstalt fuer Finanzdienstleistungsaufsicht / www.bafin.de\" und den Wortlaut unveraendert. Vorbehalt: abweichende Bedingungen am einzelnen Dokument gehen vor, und fuer Inhalte Dritter in einem Dokument gilt deren Urheberrecht - deshalb wird je Veroeffentlichung geprueft, ob ein abweichender Hinweis vorhanden ist.",
+    "nist": "NIST-Veroeffentlichungen sind Werke der US-Bundesregierung und in den USA gemeinfrei (17 U.S.C. § 105); ein Urheberrecht ausserhalb der USA ist damit nicht ausgeschlossen, der Auftrag (Abschnitt 4.1) sieht NIST dennoch ausdruecklich als Volltextquelle vor. Die maschinenlesbare Fassung pflegt NIST selbst im Repository usnistgov/oscal-content; abgerufen wird die Rohdatei ueber raw.githubusercontent.com. Quelle wird trotzdem genannt.",
     "feed": "Oeffentlich angebotener Feed der jeweiligen Stelle. Uebernommen werden nur Titel, Adresse, Datum und ein kurzer Auszug; der Volltext bleibt bei der Quelle. Kostenlos, ohne Anmeldung."
   },
   "konnektoren": [
@@ -323,6 +326,16 @@
       "bauart": "faq",
       "url": "https://www.bafin.de/SharedDocs/Fragen-antworten/DE/faq-dora/faq-dora_node.html",
       "nutzung": "bafin",
+      "aktiv": true
+    },
+    {
+      "regelwerk": "nist-800-53",
+      "typ": "oscal",
+      "url": "https://raw.githubusercontent.com/usnistgov/oscal-content/main/nist.gov/SP800-53/rev5/json/NIST_SP-800-53_rev5_catalog.json",
+      "sprachen": [
+        "eng"
+      ],
+      "nutzung": "nist",
       "aktiv": true
     }
   ],

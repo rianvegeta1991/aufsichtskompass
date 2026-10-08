@@ -1,0 +1,17 @@
+{
+  "regelwerk": "eiopa-governance",
+  "fassungen": [
+    {
+      "id": "2026-10-08",
+      "stand": "2026-10-08T00:00:00Z",
+      "abgerufen": "2026-10-08T20:21:02Z",
+      "quelle": {
+        "name": "Eigene Zusammenfassung (KI-erstellt nach Durchsicht des Originaltexts (Gliederung vollständig, einzelne Leitlinien im Wortlaut gelesen), ungeprüft) – Bezugsfassung: EIOPA-Leitlinien zum Governance-System (EIOPA-BoS-14/253 DE), deutsche Fassung, 28 Seiten; Bereitstellung auf der EIOPA-Seite zuletzt am 31.01.2023",
+        "url": "https://www.eiopa.europa.eu/publications/guidelines-system-governance_en",
+        "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein EIOPA, Guidelines on System of Governance (EIOPA-BoS-14/253) (EIOPA-Leitlinien zum Governance-System (EIOPA-BoS-14/253 DE), deutsche Fassung, 28 Seiten; Bereitstellung auf der EIOPA-Seite zuletzt am 31.01.2023)."
+      },
+      "hash": "fc4308e5a1d44e166963f21f3a23f39c7c78ade40a804c1e67436412b27b06d0",
+      "fundstellen": 13
+    }
+  ]
+}

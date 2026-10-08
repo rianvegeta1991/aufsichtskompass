@@ -1,0 +1,71 @@
+{
+  "regelwerk": "isae3402",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:07Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: ISAE 3402 – Assurance Reports on Controls at a Service Organization (IAASB)",
+    "url": "https://www.iaasb.org/",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein IAASB, ISAE 3402 (ISAE 3402 – Assurance Reports on Controls at a Service Organization (IAASB))."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_s",
+      "art": "abschnitt",
+      "nummer": "S",
+      "bez": "S",
+      "titel": {
+        "de": "Standard"
+      },
+      "pfad": "gr/s",
+      "kinder": [
+        {
+          "id": "z_z",
+          "art": "control",
+          "nummer": "Z",
+          "bez": "Z",
+          "titel": {
+            "de": "Zweck und Anwendungsfall"
+          },
+          "pfad": "i/zweck",
+          "text": true
+        },
+        {
+          "id": "z_t",
+          "art": "control",
+          "nummer": "T",
+          "bez": "T",
+          "titel": {
+            "de": "Typ 1 und Typ 2"
+          },
+          "pfad": "i/typen",
+          "text": true
+        },
+        {
+          "id": "z_k",
+          "art": "control",
+          "nummer": "K",
+          "bez": "K",
+          "titel": {
+            "de": "Ergänzende Kontrollen der Kunden und Unterdienstleister"
+          },
+          "pfad": "i/kunden",
+          "text": true
+        },
+        {
+          "id": "z_n",
+          "art": "control",
+          "nummer": "N",
+          "bez": "N",
+          "titel": {
+            "de": "Nutzung der Berichte durch Auslagerer und Aufsicht"
+          },
+          "pfad": "i/nutzung",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

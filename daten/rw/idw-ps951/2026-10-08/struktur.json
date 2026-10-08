@@ -1,0 +1,60 @@
+{
+  "regelwerk": "idw-ps951",
+  "fassung": "2026-10-08",
+  "abgerufen": "2026-10-08T20:21:06Z",
+  "quelle": {
+    "name": "Eigene Zusammenfassung (KI-erstellt aus dem Gedächtnis, nicht gegen das Original abgeglichen, ungeprüft) – Bezugsfassung: IDW PS 951 – Die Prüfung des internen Kontrollsystems bei Dienstleistungsunternehmen",
+    "url": "https://www.idw.de/",
+    "hinweis": "Eigene Zusammenfassung – ersetzt nicht das Original. Maßgeblich ist allein IDW PS 951 (IDW PS 951 – Die Prüfung des internen Kontrollsystems bei Dienstleistungsunternehmen)."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "g_p",
+      "art": "abschnitt",
+      "nummer": "P",
+      "bez": "P",
+      "titel": {
+        "de": "Prüfungsstandard"
+      },
+      "pfad": "gr/p",
+      "kinder": [
+        {
+          "id": "z_z",
+          "art": "control",
+          "nummer": "Z",
+          "bez": "Z",
+          "titel": {
+            "de": "Zweck und Anwendungsfall"
+          },
+          "pfad": "a/zweck",
+          "text": true
+        },
+        {
+          "id": "z_t",
+          "art": "control",
+          "nummer": "T",
+          "bez": "T",
+          "titel": {
+            "de": "Typen der Berichte"
+          },
+          "pfad": "a/typen",
+          "text": true
+        },
+        {
+          "id": "z_n",
+          "art": "control",
+          "nummer": "N",
+          "bez": "N",
+          "titel": {
+            "de": "Nutzung durch das auslagernde Unternehmen"
+          },
+          "pfad": "a/nutzung",
+          "text": true
+        }
+      ]
+    }
+  ]
+}

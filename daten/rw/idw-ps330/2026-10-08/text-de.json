@@ -1,0 +1,108 @@
+{
+  "z_a": {
+    "h": "e1c278bd201c5aee0d46032abd32ee78",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wird IT an einen Dienstleister ausgelagert, muss der Prüfer beurteilen, wie sich dies auf die Rechnungslegung auswirkt; dafür kann er auf Prüfungsberichte beim Dienstleister zurückgreifen."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Auswirkungen der Auslagerung auf das interne Kontrollsystem beurteilen"
+          },
+          {
+            "m": "2.",
+            "t": "Berichte über das Kontrollsystem des Dienstleisters verwerten"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Berichte nach IDW PS 951 oder ISAE 3402."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Berichte nach IDW PS 951 bzw. ISAE 3402 sind die übliche Quelle; für IKT-Dienstleister zusätzlich Artikel 28 bis 30 DORA."
+      }
+    ]
+  },
+  "z_k": {
+    "h": "9e153c4daef412926ed8b6da78580f56",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Prüfer unterscheidet generelle IT-Kontrollen, die für das Umfeld der Systeme gelten (Zugriff, Änderungen, Betrieb), und Anwendungskontrollen in den einzelnen Verfahren (Eingabe, Verarbeitung, Ausgabe)."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Generelle IT-Kontrollen prüfen: Zugriffsschutz, Änderungsmanagement, Datensicherung, Betrieb"
+          },
+          {
+            "m": "2.",
+            "t": "Anwendungskontrollen in den Verfahren prüfen: Vollständigkeit, Richtigkeit, Autorisierung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsnachweise zu IT-Kontrollen."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Entspricht den Kontrollen nach DORA Kapitel II (Zugriff, Änderungen, Sicherung)."
+      }
+    ]
+  },
+  "z_z": {
+    "h": "ce1918bd08e937eb68ae15a9b8d87f4b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Standard beschreibt, wie der Abschlussprüfer den Einsatz von IT bei der Prüfung des Jahresabschlusses berücksichtigt: Er beurteilt die IT-gestützte Rechnungslegung als Teil des Prüfungsrisikos und legt davon Art und Umfang seiner Prüfungshandlungen ab."
+      },
+      {
+        "art": "p",
+        "t": "Kernanforderungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "IT-Umfeld und IT-Organisation verstehen"
+          },
+          {
+            "m": "2.",
+            "t": "IT-gestützte Rechnungslegungssysteme und die darauf wirkenden Kontrollen beurteilen"
+          },
+          {
+            "m": "3.",
+            "t": "Zwischen Prüfung der Funktion und aussagebezogenen Prüfungshandlungen abwägen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Typische Nachweise: Prüfungsprogramm zur IT-Prüfung im Rahmen der Abschlussprüfung."
+      },
+      {
+        "art": "p",
+        "t": "Bezüge: Prüfungsmaßstab für die IT-Kontrollen, die auch COSO (Prinzip 11) und die GoBD verlangen."
+      }
+    ]
+  }
+}
