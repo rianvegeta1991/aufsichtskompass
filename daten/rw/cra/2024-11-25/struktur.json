@@ -1,0 +1,3938 @@
+{
+  "regelwerk": "cra",
+  "fassung": "2024-11-25",
+  "abgerufen": "2026-10-08T20:01:30Z",
+  "quelle": {
+    "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+    "url": "https://publications.europa.eu/resource/celex/32024R2847",
+    "celex": "32024R2847",
+    "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+  },
+  "sprachen": [
+    "de"
+  ],
+  "knoten": [
+    {
+      "id": "bezug",
+      "art": "praeambel",
+      "titel": {
+        "de": "Bezugsvermerke",
+        "en": "Citations"
+      },
+      "pfad": "bezug",
+      "kinder": [
+        {
+          "id": "cit_1",
+          "art": "bezugsvermerk",
+          "nummer": "1",
+          "pfad": "bezug/1",
+          "text": true
+        },
+        {
+          "id": "cit_2",
+          "art": "bezugsvermerk",
+          "nummer": "2",
+          "pfad": "bezug/2",
+          "text": true
+        },
+        {
+          "id": "cit_3",
+          "art": "bezugsvermerk",
+          "nummer": "3",
+          "pfad": "bezug/3",
+          "text": true
+        },
+        {
+          "id": "cit_4",
+          "art": "bezugsvermerk",
+          "nummer": "4",
+          "pfad": "bezug/4",
+          "text": true
+        },
+        {
+          "id": "cit_5",
+          "art": "bezugsvermerk",
+          "nummer": "5",
+          "pfad": "bezug/5",
+          "text": true
+        },
+        {
+          "id": "cit_6",
+          "art": "bezugsvermerk",
+          "nummer": "6",
+          "pfad": "bezug/6",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "eg",
+      "art": "praeambel",
+      "titel": {
+        "de": "Erwägungsgründe",
+        "en": "Recitals"
+      },
+      "pfad": "eg",
+      "kinder": [
+        {
+          "id": "rct_1",
+          "art": "erwaegungsgrund",
+          "nummer": "1",
+          "pfad": "eg/1",
+          "text": true
+        },
+        {
+          "id": "rct_2",
+          "art": "erwaegungsgrund",
+          "nummer": "2",
+          "pfad": "eg/2",
+          "text": true
+        },
+        {
+          "id": "rct_3",
+          "art": "erwaegungsgrund",
+          "nummer": "3",
+          "pfad": "eg/3",
+          "text": true
+        },
+        {
+          "id": "rct_4",
+          "art": "erwaegungsgrund",
+          "nummer": "4",
+          "pfad": "eg/4",
+          "text": true
+        },
+        {
+          "id": "rct_5",
+          "art": "erwaegungsgrund",
+          "nummer": "5",
+          "pfad": "eg/5",
+          "text": true
+        },
+        {
+          "id": "rct_6",
+          "art": "erwaegungsgrund",
+          "nummer": "6",
+          "pfad": "eg/6",
+          "text": true
+        },
+        {
+          "id": "rct_7",
+          "art": "erwaegungsgrund",
+          "nummer": "7",
+          "pfad": "eg/7",
+          "text": true
+        },
+        {
+          "id": "rct_8",
+          "art": "erwaegungsgrund",
+          "nummer": "8",
+          "pfad": "eg/8",
+          "text": true
+        },
+        {
+          "id": "rct_9",
+          "art": "erwaegungsgrund",
+          "nummer": "9",
+          "pfad": "eg/9",
+          "text": true
+        },
+        {
+          "id": "rct_10",
+          "art": "erwaegungsgrund",
+          "nummer": "10",
+          "pfad": "eg/10",
+          "text": true
+        },
+        {
+          "id": "rct_11",
+          "art": "erwaegungsgrund",
+          "nummer": "11",
+          "pfad": "eg/11",
+          "text": true
+        },
+        {
+          "id": "rct_12",
+          "art": "erwaegungsgrund",
+          "nummer": "12",
+          "pfad": "eg/12",
+          "text": true
+        },
+        {
+          "id": "rct_13",
+          "art": "erwaegungsgrund",
+          "nummer": "13",
+          "pfad": "eg/13",
+          "text": true
+        },
+        {
+          "id": "rct_14",
+          "art": "erwaegungsgrund",
+          "nummer": "14",
+          "pfad": "eg/14",
+          "text": true
+        },
+        {
+          "id": "rct_15",
+          "art": "erwaegungsgrund",
+          "nummer": "15",
+          "pfad": "eg/15",
+          "text": true
+        },
+        {
+          "id": "rct_16",
+          "art": "erwaegungsgrund",
+          "nummer": "16",
+          "pfad": "eg/16",
+          "text": true
+        },
+        {
+          "id": "rct_17",
+          "art": "erwaegungsgrund",
+          "nummer": "17",
+          "pfad": "eg/17",
+          "text": true
+        },
+        {
+          "id": "rct_18",
+          "art": "erwaegungsgrund",
+          "nummer": "18",
+          "pfad": "eg/18",
+          "text": true
+        },
+        {
+          "id": "rct_19",
+          "art": "erwaegungsgrund",
+          "nummer": "19",
+          "pfad": "eg/19",
+          "text": true
+        },
+        {
+          "id": "rct_20",
+          "art": "erwaegungsgrund",
+          "nummer": "20",
+          "pfad": "eg/20",
+          "text": true
+        },
+        {
+          "id": "rct_21",
+          "art": "erwaegungsgrund",
+          "nummer": "21",
+          "pfad": "eg/21",
+          "text": true
+        },
+        {
+          "id": "rct_22",
+          "art": "erwaegungsgrund",
+          "nummer": "22",
+          "pfad": "eg/22",
+          "text": true
+        },
+        {
+          "id": "rct_23",
+          "art": "erwaegungsgrund",
+          "nummer": "23",
+          "pfad": "eg/23",
+          "text": true
+        },
+        {
+          "id": "rct_24",
+          "art": "erwaegungsgrund",
+          "nummer": "24",
+          "pfad": "eg/24",
+          "text": true
+        },
+        {
+          "id": "rct_25",
+          "art": "erwaegungsgrund",
+          "nummer": "25",
+          "pfad": "eg/25",
+          "text": true
+        },
+        {
+          "id": "rct_26",
+          "art": "erwaegungsgrund",
+          "nummer": "26",
+          "pfad": "eg/26",
+          "text": true
+        },
+        {
+          "id": "rct_27",
+          "art": "erwaegungsgrund",
+          "nummer": "27",
+          "pfad": "eg/27",
+          "text": true
+        },
+        {
+          "id": "rct_28",
+          "art": "erwaegungsgrund",
+          "nummer": "28",
+          "pfad": "eg/28",
+          "text": true
+        },
+        {
+          "id": "rct_29",
+          "art": "erwaegungsgrund",
+          "nummer": "29",
+          "pfad": "eg/29",
+          "text": true
+        },
+        {
+          "id": "rct_30",
+          "art": "erwaegungsgrund",
+          "nummer": "30",
+          "pfad": "eg/30",
+          "text": true
+        },
+        {
+          "id": "rct_31",
+          "art": "erwaegungsgrund",
+          "nummer": "31",
+          "pfad": "eg/31",
+          "text": true
+        },
+        {
+          "id": "rct_32",
+          "art": "erwaegungsgrund",
+          "nummer": "32",
+          "pfad": "eg/32",
+          "text": true
+        },
+        {
+          "id": "rct_33",
+          "art": "erwaegungsgrund",
+          "nummer": "33",
+          "pfad": "eg/33",
+          "text": true
+        },
+        {
+          "id": "rct_34",
+          "art": "erwaegungsgrund",
+          "nummer": "34",
+          "pfad": "eg/34",
+          "text": true
+        },
+        {
+          "id": "rct_35",
+          "art": "erwaegungsgrund",
+          "nummer": "35",
+          "pfad": "eg/35",
+          "text": true
+        },
+        {
+          "id": "rct_36",
+          "art": "erwaegungsgrund",
+          "nummer": "36",
+          "pfad": "eg/36",
+          "text": true
+        },
+        {
+          "id": "rct_37",
+          "art": "erwaegungsgrund",
+          "nummer": "37",
+          "pfad": "eg/37",
+          "text": true
+        },
+        {
+          "id": "rct_38",
+          "art": "erwaegungsgrund",
+          "nummer": "38",
+          "pfad": "eg/38",
+          "text": true
+        },
+        {
+          "id": "rct_39",
+          "art": "erwaegungsgrund",
+          "nummer": "39",
+          "pfad": "eg/39",
+          "text": true
+        },
+        {
+          "id": "rct_40",
+          "art": "erwaegungsgrund",
+          "nummer": "40",
+          "pfad": "eg/40",
+          "text": true
+        },
+        {
+          "id": "rct_41",
+          "art": "erwaegungsgrund",
+          "nummer": "41",
+          "pfad": "eg/41",
+          "text": true
+        },
+        {
+          "id": "rct_42",
+          "art": "erwaegungsgrund",
+          "nummer": "42",
+          "pfad": "eg/42",
+          "text": true
+        },
+        {
+          "id": "rct_43",
+          "art": "erwaegungsgrund",
+          "nummer": "43",
+          "pfad": "eg/43",
+          "text": true
+        },
+        {
+          "id": "rct_44",
+          "art": "erwaegungsgrund",
+          "nummer": "44",
+          "pfad": "eg/44",
+          "text": true
+        },
+        {
+          "id": "rct_45",
+          "art": "erwaegungsgrund",
+          "nummer": "45",
+          "pfad": "eg/45",
+          "text": true
+        },
+        {
+          "id": "rct_46",
+          "art": "erwaegungsgrund",
+          "nummer": "46",
+          "pfad": "eg/46",
+          "text": true
+        },
+        {
+          "id": "rct_47",
+          "art": "erwaegungsgrund",
+          "nummer": "47",
+          "pfad": "eg/47",
+          "text": true
+        },
+        {
+          "id": "rct_48",
+          "art": "erwaegungsgrund",
+          "nummer": "48",
+          "pfad": "eg/48",
+          "text": true
+        },
+        {
+          "id": "rct_49",
+          "art": "erwaegungsgrund",
+          "nummer": "49",
+          "pfad": "eg/49",
+          "text": true
+        },
+        {
+          "id": "rct_50",
+          "art": "erwaegungsgrund",
+          "nummer": "50",
+          "pfad": "eg/50",
+          "text": true
+        },
+        {
+          "id": "rct_51",
+          "art": "erwaegungsgrund",
+          "nummer": "51",
+          "pfad": "eg/51",
+          "text": true
+        },
+        {
+          "id": "rct_52",
+          "art": "erwaegungsgrund",
+          "nummer": "52",
+          "pfad": "eg/52",
+          "text": true
+        },
+        {
+          "id": "rct_53",
+          "art": "erwaegungsgrund",
+          "nummer": "53",
+          "pfad": "eg/53",
+          "text": true
+        },
+        {
+          "id": "rct_54",
+          "art": "erwaegungsgrund",
+          "nummer": "54",
+          "pfad": "eg/54",
+          "text": true
+        },
+        {
+          "id": "rct_55",
+          "art": "erwaegungsgrund",
+          "nummer": "55",
+          "pfad": "eg/55",
+          "text": true
+        },
+        {
+          "id": "rct_56",
+          "art": "erwaegungsgrund",
+          "nummer": "56",
+          "pfad": "eg/56",
+          "text": true
+        },
+        {
+          "id": "rct_57",
+          "art": "erwaegungsgrund",
+          "nummer": "57",
+          "pfad": "eg/57",
+          "text": true
+        },
+        {
+          "id": "rct_58",
+          "art": "erwaegungsgrund",
+          "nummer": "58",
+          "pfad": "eg/58",
+          "text": true
+        },
+        {
+          "id": "rct_59",
+          "art": "erwaegungsgrund",
+          "nummer": "59",
+          "pfad": "eg/59",
+          "text": true
+        },
+        {
+          "id": "rct_60",
+          "art": "erwaegungsgrund",
+          "nummer": "60",
+          "pfad": "eg/60",
+          "text": true
+        },
+        {
+          "id": "rct_61",
+          "art": "erwaegungsgrund",
+          "nummer": "61",
+          "pfad": "eg/61",
+          "text": true
+        },
+        {
+          "id": "rct_62",
+          "art": "erwaegungsgrund",
+          "nummer": "62",
+          "pfad": "eg/62",
+          "text": true
+        },
+        {
+          "id": "rct_63",
+          "art": "erwaegungsgrund",
+          "nummer": "63",
+          "pfad": "eg/63",
+          "text": true
+        },
+        {
+          "id": "rct_64",
+          "art": "erwaegungsgrund",
+          "nummer": "64",
+          "pfad": "eg/64",
+          "text": true
+        },
+        {
+          "id": "rct_65",
+          "art": "erwaegungsgrund",
+          "nummer": "65",
+          "pfad": "eg/65",
+          "text": true
+        },
+        {
+          "id": "rct_66",
+          "art": "erwaegungsgrund",
+          "nummer": "66",
+          "pfad": "eg/66",
+          "text": true
+        },
+        {
+          "id": "rct_67",
+          "art": "erwaegungsgrund",
+          "nummer": "67",
+          "pfad": "eg/67",
+          "text": true
+        },
+        {
+          "id": "rct_68",
+          "art": "erwaegungsgrund",
+          "nummer": "68",
+          "pfad": "eg/68",
+          "text": true
+        },
+        {
+          "id": "rct_69",
+          "art": "erwaegungsgrund",
+          "nummer": "69",
+          "pfad": "eg/69",
+          "text": true
+        },
+        {
+          "id": "rct_70",
+          "art": "erwaegungsgrund",
+          "nummer": "70",
+          "pfad": "eg/70",
+          "text": true
+        },
+        {
+          "id": "rct_71",
+          "art": "erwaegungsgrund",
+          "nummer": "71",
+          "pfad": "eg/71",
+          "text": true
+        },
+        {
+          "id": "rct_72",
+          "art": "erwaegungsgrund",
+          "nummer": "72",
+          "pfad": "eg/72",
+          "text": true
+        },
+        {
+          "id": "rct_73",
+          "art": "erwaegungsgrund",
+          "nummer": "73",
+          "pfad": "eg/73",
+          "text": true
+        },
+        {
+          "id": "rct_74",
+          "art": "erwaegungsgrund",
+          "nummer": "74",
+          "pfad": "eg/74",
+          "text": true
+        },
+        {
+          "id": "rct_75",
+          "art": "erwaegungsgrund",
+          "nummer": "75",
+          "pfad": "eg/75",
+          "text": true
+        },
+        {
+          "id": "rct_76",
+          "art": "erwaegungsgrund",
+          "nummer": "76",
+          "pfad": "eg/76",
+          "text": true
+        },
+        {
+          "id": "rct_77",
+          "art": "erwaegungsgrund",
+          "nummer": "77",
+          "pfad": "eg/77",
+          "text": true
+        },
+        {
+          "id": "rct_78",
+          "art": "erwaegungsgrund",
+          "nummer": "78",
+          "pfad": "eg/78",
+          "text": true
+        },
+        {
+          "id": "rct_79",
+          "art": "erwaegungsgrund",
+          "nummer": "79",
+          "pfad": "eg/79",
+          "text": true
+        },
+        {
+          "id": "rct_80",
+          "art": "erwaegungsgrund",
+          "nummer": "80",
+          "pfad": "eg/80",
+          "text": true
+        },
+        {
+          "id": "rct_81",
+          "art": "erwaegungsgrund",
+          "nummer": "81",
+          "pfad": "eg/81",
+          "text": true
+        },
+        {
+          "id": "rct_82",
+          "art": "erwaegungsgrund",
+          "nummer": "82",
+          "pfad": "eg/82",
+          "text": true
+        },
+        {
+          "id": "rct_83",
+          "art": "erwaegungsgrund",
+          "nummer": "83",
+          "pfad": "eg/83",
+          "text": true
+        },
+        {
+          "id": "rct_84",
+          "art": "erwaegungsgrund",
+          "nummer": "84",
+          "pfad": "eg/84",
+          "text": true
+        },
+        {
+          "id": "rct_85",
+          "art": "erwaegungsgrund",
+          "nummer": "85",
+          "pfad": "eg/85",
+          "text": true
+        },
+        {
+          "id": "rct_86",
+          "art": "erwaegungsgrund",
+          "nummer": "86",
+          "pfad": "eg/86",
+          "text": true
+        },
+        {
+          "id": "rct_87",
+          "art": "erwaegungsgrund",
+          "nummer": "87",
+          "pfad": "eg/87",
+          "text": true
+        },
+        {
+          "id": "rct_88",
+          "art": "erwaegungsgrund",
+          "nummer": "88",
+          "pfad": "eg/88",
+          "text": true
+        },
+        {
+          "id": "rct_89",
+          "art": "erwaegungsgrund",
+          "nummer": "89",
+          "pfad": "eg/89",
+          "text": true
+        },
+        {
+          "id": "rct_90",
+          "art": "erwaegungsgrund",
+          "nummer": "90",
+          "pfad": "eg/90",
+          "text": true
+        },
+        {
+          "id": "rct_91",
+          "art": "erwaegungsgrund",
+          "nummer": "91",
+          "pfad": "eg/91",
+          "text": true
+        },
+        {
+          "id": "rct_92",
+          "art": "erwaegungsgrund",
+          "nummer": "92",
+          "pfad": "eg/92",
+          "text": true
+        },
+        {
+          "id": "rct_93",
+          "art": "erwaegungsgrund",
+          "nummer": "93",
+          "pfad": "eg/93",
+          "text": true
+        },
+        {
+          "id": "rct_94",
+          "art": "erwaegungsgrund",
+          "nummer": "94",
+          "pfad": "eg/94",
+          "text": true
+        },
+        {
+          "id": "rct_95",
+          "art": "erwaegungsgrund",
+          "nummer": "95",
+          "pfad": "eg/95",
+          "text": true
+        },
+        {
+          "id": "rct_96",
+          "art": "erwaegungsgrund",
+          "nummer": "96",
+          "pfad": "eg/96",
+          "text": true
+        },
+        {
+          "id": "rct_97",
+          "art": "erwaegungsgrund",
+          "nummer": "97",
+          "pfad": "eg/97",
+          "text": true
+        },
+        {
+          "id": "rct_98",
+          "art": "erwaegungsgrund",
+          "nummer": "98",
+          "pfad": "eg/98",
+          "text": true
+        },
+        {
+          "id": "rct_99",
+          "art": "erwaegungsgrund",
+          "nummer": "99",
+          "pfad": "eg/99",
+          "text": true
+        },
+        {
+          "id": "rct_100",
+          "art": "erwaegungsgrund",
+          "nummer": "100",
+          "pfad": "eg/100",
+          "text": true
+        },
+        {
+          "id": "rct_101",
+          "art": "erwaegungsgrund",
+          "nummer": "101",
+          "pfad": "eg/101",
+          "text": true
+        },
+        {
+          "id": "rct_102",
+          "art": "erwaegungsgrund",
+          "nummer": "102",
+          "pfad": "eg/102",
+          "text": true
+        },
+        {
+          "id": "rct_103",
+          "art": "erwaegungsgrund",
+          "nummer": "103",
+          "pfad": "eg/103",
+          "text": true
+        },
+        {
+          "id": "rct_104",
+          "art": "erwaegungsgrund",
+          "nummer": "104",
+          "pfad": "eg/104",
+          "text": true
+        },
+        {
+          "id": "rct_105",
+          "art": "erwaegungsgrund",
+          "nummer": "105",
+          "pfad": "eg/105",
+          "text": true
+        },
+        {
+          "id": "rct_106",
+          "art": "erwaegungsgrund",
+          "nummer": "106",
+          "pfad": "eg/106",
+          "text": true
+        },
+        {
+          "id": "rct_107",
+          "art": "erwaegungsgrund",
+          "nummer": "107",
+          "pfad": "eg/107",
+          "text": true
+        },
+        {
+          "id": "rct_108",
+          "art": "erwaegungsgrund",
+          "nummer": "108",
+          "pfad": "eg/108",
+          "text": true
+        },
+        {
+          "id": "rct_109",
+          "art": "erwaegungsgrund",
+          "nummer": "109",
+          "pfad": "eg/109",
+          "text": true
+        },
+        {
+          "id": "rct_110",
+          "art": "erwaegungsgrund",
+          "nummer": "110",
+          "pfad": "eg/110",
+          "text": true
+        },
+        {
+          "id": "rct_111",
+          "art": "erwaegungsgrund",
+          "nummer": "111",
+          "pfad": "eg/111",
+          "text": true
+        },
+        {
+          "id": "rct_112",
+          "art": "erwaegungsgrund",
+          "nummer": "112",
+          "pfad": "eg/112",
+          "text": true
+        },
+        {
+          "id": "rct_113",
+          "art": "erwaegungsgrund",
+          "nummer": "113",
+          "pfad": "eg/113",
+          "text": true
+        },
+        {
+          "id": "rct_114",
+          "art": "erwaegungsgrund",
+          "nummer": "114",
+          "pfad": "eg/114",
+          "text": true
+        },
+        {
+          "id": "rct_115",
+          "art": "erwaegungsgrund",
+          "nummer": "115",
+          "pfad": "eg/115",
+          "text": true
+        },
+        {
+          "id": "rct_116",
+          "art": "erwaegungsgrund",
+          "nummer": "116",
+          "pfad": "eg/116",
+          "text": true
+        },
+        {
+          "id": "rct_117",
+          "art": "erwaegungsgrund",
+          "nummer": "117",
+          "pfad": "eg/117",
+          "text": true
+        },
+        {
+          "id": "rct_118",
+          "art": "erwaegungsgrund",
+          "nummer": "118",
+          "pfad": "eg/118",
+          "text": true
+        },
+        {
+          "id": "rct_119",
+          "art": "erwaegungsgrund",
+          "nummer": "119",
+          "pfad": "eg/119",
+          "text": true
+        },
+        {
+          "id": "rct_120",
+          "art": "erwaegungsgrund",
+          "nummer": "120",
+          "pfad": "eg/120",
+          "text": true
+        },
+        {
+          "id": "rct_121",
+          "art": "erwaegungsgrund",
+          "nummer": "121",
+          "pfad": "eg/121",
+          "text": true
+        },
+        {
+          "id": "rct_122",
+          "art": "erwaegungsgrund",
+          "nummer": "122",
+          "pfad": "eg/122",
+          "text": true
+        },
+        {
+          "id": "rct_123",
+          "art": "erwaegungsgrund",
+          "nummer": "123",
+          "pfad": "eg/123",
+          "text": true
+        },
+        {
+          "id": "rct_124",
+          "art": "erwaegungsgrund",
+          "nummer": "124",
+          "pfad": "eg/124",
+          "text": true
+        },
+        {
+          "id": "rct_125",
+          "art": "erwaegungsgrund",
+          "nummer": "125",
+          "pfad": "eg/125",
+          "text": true
+        },
+        {
+          "id": "rct_126",
+          "art": "erwaegungsgrund",
+          "nummer": "126",
+          "pfad": "eg/126",
+          "text": true
+        },
+        {
+          "id": "rct_127",
+          "art": "erwaegungsgrund",
+          "nummer": "127",
+          "pfad": "eg/127",
+          "text": true
+        },
+        {
+          "id": "rct_128",
+          "art": "erwaegungsgrund",
+          "nummer": "128",
+          "pfad": "eg/128",
+          "text": true
+        },
+        {
+          "id": "rct_129",
+          "art": "erwaegungsgrund",
+          "nummer": "129",
+          "pfad": "eg/129",
+          "text": true
+        },
+        {
+          "id": "rct_130",
+          "art": "erwaegungsgrund",
+          "nummer": "130",
+          "pfad": "eg/130",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_I",
+      "art": "kapitel",
+      "nummer": "I",
+      "titel": {
+        "de": "ALLGEMEINE BESTIMMUNGEN"
+      },
+      "pfad": "kap/I",
+      "kinder": [
+        {
+          "id": "art_1",
+          "art": "artikel",
+          "nummer": "1",
+          "titel": {
+            "de": "Gegenstand"
+          },
+          "pfad": "art/1",
+          "text": true
+        },
+        {
+          "id": "art_2",
+          "art": "artikel",
+          "nummer": "2",
+          "titel": {
+            "de": "Anwendungsbereich"
+          },
+          "pfad": "art/2",
+          "kinder": [
+            {
+              "id": "002.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/2/abs/1",
+              "text": true
+            },
+            {
+              "id": "002.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/2/abs/2",
+              "text": true
+            },
+            {
+              "id": "002.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/2/abs/3",
+              "text": true
+            },
+            {
+              "id": "002.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/2/abs/4",
+              "text": true
+            },
+            {
+              "id": "002.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/2/abs/5",
+              "text": true
+            },
+            {
+              "id": "002.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/2/abs/6",
+              "text": true
+            },
+            {
+              "id": "002.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/2/abs/7",
+              "text": true
+            },
+            {
+              "id": "002.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/2/abs/8",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_3",
+          "art": "artikel",
+          "nummer": "3",
+          "titel": {
+            "de": "Begriffsbestimmungen"
+          },
+          "pfad": "art/3",
+          "text": true
+        },
+        {
+          "id": "art_4",
+          "art": "artikel",
+          "nummer": "4",
+          "titel": {
+            "de": "Freier Verkehr"
+          },
+          "pfad": "art/4",
+          "kinder": [
+            {
+              "id": "004.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/4/abs/1",
+              "text": true
+            },
+            {
+              "id": "004.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/4/abs/2",
+              "text": true
+            },
+            {
+              "id": "004.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/4/abs/3",
+              "text": true
+            },
+            {
+              "id": "004.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/4/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_5",
+          "art": "artikel",
+          "nummer": "5",
+          "titel": {
+            "de": "Beschaffung oder Nutzung von Produkten mit digitalen Elementen"
+          },
+          "pfad": "art/5",
+          "kinder": [
+            {
+              "id": "005.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/5/abs/1",
+              "text": true
+            },
+            {
+              "id": "005.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/5/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_6",
+          "art": "artikel",
+          "nummer": "6",
+          "titel": {
+            "de": "Anforderungen an Produkte mit digitalen Elementen"
+          },
+          "pfad": "art/6",
+          "text": true
+        },
+        {
+          "id": "art_7",
+          "art": "artikel",
+          "nummer": "7",
+          "titel": {
+            "de": "Wichtige Produkte mit digitalen Elementen"
+          },
+          "pfad": "art/7",
+          "kinder": [
+            {
+              "id": "007.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/7/abs/1",
+              "text": true
+            },
+            {
+              "id": "007.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/7/abs/2",
+              "text": true
+            },
+            {
+              "id": "007.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/7/abs/3",
+              "text": true
+            },
+            {
+              "id": "007.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/7/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_8",
+          "art": "artikel",
+          "nummer": "8",
+          "titel": {
+            "de": "Kritische Produkte mit digitalen Elementen"
+          },
+          "pfad": "art/8",
+          "kinder": [
+            {
+              "id": "008.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/8/abs/1",
+              "text": true
+            },
+            {
+              "id": "008.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/8/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_9",
+          "art": "artikel",
+          "nummer": "9",
+          "titel": {
+            "de": "Konsultation der Interessenträger"
+          },
+          "pfad": "art/9",
+          "kinder": [
+            {
+              "id": "009.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/9/abs/1",
+              "text": true
+            },
+            {
+              "id": "009.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/9/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_10",
+          "art": "artikel",
+          "nummer": "10",
+          "titel": {
+            "de": "Ausbau der Kompetenzen in einem digitalen Umfeld mit Cyberabwehrfähigkeit"
+          },
+          "pfad": "art/10",
+          "text": true
+        },
+        {
+          "id": "art_11",
+          "art": "artikel",
+          "nummer": "11",
+          "titel": {
+            "de": "Allgemeine Produktsicherheit"
+          },
+          "pfad": "art/11",
+          "text": true
+        },
+        {
+          "id": "art_12",
+          "art": "artikel",
+          "nummer": "12",
+          "titel": {
+            "de": "Hochrisiko-KI-Systeme"
+          },
+          "pfad": "art/12",
+          "kinder": [
+            {
+              "id": "012.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/12/abs/1",
+              "text": true
+            },
+            {
+              "id": "012.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/12/abs/2",
+              "text": true
+            },
+            {
+              "id": "012.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/12/abs/3",
+              "text": true
+            },
+            {
+              "id": "012.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/12/abs/4",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_II",
+      "art": "kapitel",
+      "nummer": "II",
+      "titel": {
+        "de": "PFLICHTEN DER WIRTSCHAFTSAKTEURE UND BESTIMMUNGEN IN BEZUG AUF FREIE UND QUELLOFFENE SOFTWARE"
+      },
+      "pfad": "kap/II",
+      "kinder": [
+        {
+          "id": "art_13",
+          "art": "artikel",
+          "nummer": "13",
+          "titel": {
+            "de": "Pflichten der Hersteller"
+          },
+          "pfad": "art/13",
+          "kinder": [
+            {
+              "id": "013.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/13/abs/1",
+              "text": true
+            },
+            {
+              "id": "013.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/13/abs/2",
+              "text": true
+            },
+            {
+              "id": "013.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/13/abs/3",
+              "text": true
+            },
+            {
+              "id": "013.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/13/abs/4",
+              "text": true
+            },
+            {
+              "id": "013.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/13/abs/5",
+              "text": true
+            },
+            {
+              "id": "013.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/13/abs/6",
+              "text": true
+            },
+            {
+              "id": "013.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/13/abs/7",
+              "text": true
+            },
+            {
+              "id": "013.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/13/abs/8",
+              "text": true
+            },
+            {
+              "id": "013.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/13/abs/9",
+              "text": true
+            },
+            {
+              "id": "013.010",
+              "art": "absatz",
+              "nummer": "10",
+              "pfad": "art/13/abs/10",
+              "text": true
+            },
+            {
+              "id": "013.011",
+              "art": "absatz",
+              "nummer": "11",
+              "pfad": "art/13/abs/11",
+              "text": true
+            },
+            {
+              "id": "013.012",
+              "art": "absatz",
+              "nummer": "12",
+              "pfad": "art/13/abs/12",
+              "text": true
+            },
+            {
+              "id": "013.013",
+              "art": "absatz",
+              "nummer": "13",
+              "pfad": "art/13/abs/13",
+              "text": true
+            },
+            {
+              "id": "013.014",
+              "art": "absatz",
+              "nummer": "14",
+              "pfad": "art/13/abs/14",
+              "text": true
+            },
+            {
+              "id": "013.015",
+              "art": "absatz",
+              "nummer": "15",
+              "pfad": "art/13/abs/15",
+              "text": true
+            },
+            {
+              "id": "013.016",
+              "art": "absatz",
+              "nummer": "16",
+              "pfad": "art/13/abs/16",
+              "text": true
+            },
+            {
+              "id": "013.017",
+              "art": "absatz",
+              "nummer": "17",
+              "pfad": "art/13/abs/17",
+              "text": true
+            },
+            {
+              "id": "013.018",
+              "art": "absatz",
+              "nummer": "18",
+              "pfad": "art/13/abs/18",
+              "text": true
+            },
+            {
+              "id": "013.019",
+              "art": "absatz",
+              "nummer": "19",
+              "pfad": "art/13/abs/19",
+              "text": true
+            },
+            {
+              "id": "013.020",
+              "art": "absatz",
+              "nummer": "20",
+              "pfad": "art/13/abs/20",
+              "text": true
+            },
+            {
+              "id": "013.021",
+              "art": "absatz",
+              "nummer": "21",
+              "pfad": "art/13/abs/21",
+              "text": true
+            },
+            {
+              "id": "013.022",
+              "art": "absatz",
+              "nummer": "22",
+              "pfad": "art/13/abs/22",
+              "text": true
+            },
+            {
+              "id": "013.023",
+              "art": "absatz",
+              "nummer": "23",
+              "pfad": "art/13/abs/23",
+              "text": true
+            },
+            {
+              "id": "013.024",
+              "art": "absatz",
+              "nummer": "24",
+              "pfad": "art/13/abs/24",
+              "text": true
+            },
+            {
+              "id": "013.025",
+              "art": "absatz",
+              "nummer": "25",
+              "pfad": "art/13/abs/25",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_14",
+          "art": "artikel",
+          "nummer": "14",
+          "titel": {
+            "de": "Meldepflichten der Hersteller"
+          },
+          "pfad": "art/14",
+          "kinder": [
+            {
+              "id": "014.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/14/abs/1",
+              "text": true
+            },
+            {
+              "id": "014.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/14/abs/2",
+              "text": true
+            },
+            {
+              "id": "014.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/14/abs/3",
+              "text": true
+            },
+            {
+              "id": "014.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/14/abs/4",
+              "text": true
+            },
+            {
+              "id": "014.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/14/abs/5",
+              "text": true
+            },
+            {
+              "id": "014.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/14/abs/6",
+              "text": true
+            },
+            {
+              "id": "014.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/14/abs/7",
+              "text": true
+            },
+            {
+              "id": "014.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/14/abs/8",
+              "text": true
+            },
+            {
+              "id": "014.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/14/abs/9",
+              "text": true
+            },
+            {
+              "id": "014.010",
+              "art": "absatz",
+              "nummer": "10",
+              "pfad": "art/14/abs/10",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_15",
+          "art": "artikel",
+          "nummer": "15",
+          "titel": {
+            "de": "Freiwillige Meldungen"
+          },
+          "pfad": "art/15",
+          "kinder": [
+            {
+              "id": "015.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/15/abs/1",
+              "text": true
+            },
+            {
+              "id": "015.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/15/abs/2",
+              "text": true
+            },
+            {
+              "id": "015.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/15/abs/3",
+              "text": true
+            },
+            {
+              "id": "015.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/15/abs/4",
+              "text": true
+            },
+            {
+              "id": "015.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/15/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_16",
+          "art": "artikel",
+          "nummer": "16",
+          "titel": {
+            "de": "Einrichtung einer einheitlichen Meldeplattform"
+          },
+          "pfad": "art/16",
+          "kinder": [
+            {
+              "id": "016.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/16/abs/1",
+              "text": true
+            },
+            {
+              "id": "016.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/16/abs/2",
+              "text": true
+            },
+            {
+              "id": "016.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/16/abs/3",
+              "text": true
+            },
+            {
+              "id": "016.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/16/abs/4",
+              "text": true
+            },
+            {
+              "id": "016.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/16/abs/5",
+              "text": true
+            },
+            {
+              "id": "016.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/16/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_17",
+          "art": "artikel",
+          "nummer": "17",
+          "titel": {
+            "de": "Sonstige Bestimmungen im Zusammenhang mit der Berichterstattung"
+          },
+          "pfad": "art/17",
+          "kinder": [
+            {
+              "id": "017.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/17/abs/1",
+              "text": true
+            },
+            {
+              "id": "017.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/17/abs/2",
+              "text": true
+            },
+            {
+              "id": "017.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/17/abs/3",
+              "text": true
+            },
+            {
+              "id": "017.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/17/abs/4",
+              "text": true
+            },
+            {
+              "id": "017.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/17/abs/5",
+              "text": true
+            },
+            {
+              "id": "017.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/17/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_18",
+          "art": "artikel",
+          "nummer": "18",
+          "titel": {
+            "de": "Bevollmächtigte"
+          },
+          "pfad": "art/18",
+          "kinder": [
+            {
+              "id": "018.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/18/abs/1",
+              "text": true
+            },
+            {
+              "id": "018.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/18/abs/2",
+              "text": true
+            },
+            {
+              "id": "018.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/18/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_19",
+          "art": "artikel",
+          "nummer": "19",
+          "titel": {
+            "de": "Pflichten der Einführer"
+          },
+          "pfad": "art/19",
+          "kinder": [
+            {
+              "id": "019.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/19/abs/1",
+              "text": true
+            },
+            {
+              "id": "019.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/19/abs/2",
+              "text": true
+            },
+            {
+              "id": "019.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/19/abs/3",
+              "text": true
+            },
+            {
+              "id": "019.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/19/abs/4",
+              "text": true
+            },
+            {
+              "id": "019.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/19/abs/5",
+              "text": true
+            },
+            {
+              "id": "019.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/19/abs/6",
+              "text": true
+            },
+            {
+              "id": "019.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/19/abs/7",
+              "text": true
+            },
+            {
+              "id": "019.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/19/abs/8",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_20",
+          "art": "artikel",
+          "nummer": "20",
+          "titel": {
+            "de": "Pflichten der Händler"
+          },
+          "pfad": "art/20",
+          "kinder": [
+            {
+              "id": "020.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/20/abs/1",
+              "text": true
+            },
+            {
+              "id": "020.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/20/abs/2",
+              "text": true
+            },
+            {
+              "id": "020.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/20/abs/3",
+              "text": true
+            },
+            {
+              "id": "020.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/20/abs/4",
+              "text": true
+            },
+            {
+              "id": "020.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/20/abs/5",
+              "text": true
+            },
+            {
+              "id": "020.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/20/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_21",
+          "art": "artikel",
+          "nummer": "21",
+          "titel": {
+            "de": "Fälle, in denen die Pflichten der Hersteller auch für Einführer und Händler gelten"
+          },
+          "pfad": "art/21",
+          "text": true
+        },
+        {
+          "id": "art_22",
+          "art": "artikel",
+          "nummer": "22",
+          "titel": {
+            "de": "Sonstige Fälle, in denen die Pflichten der Hersteller gelten"
+          },
+          "pfad": "art/22",
+          "kinder": [
+            {
+              "id": "022.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/22/abs/1",
+              "text": true
+            },
+            {
+              "id": "022.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/22/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_23",
+          "art": "artikel",
+          "nummer": "23",
+          "titel": {
+            "de": "Identifizierung der Wirtschaftsakteure"
+          },
+          "pfad": "art/23",
+          "kinder": [
+            {
+              "id": "023.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/23/abs/1",
+              "text": true
+            },
+            {
+              "id": "023.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/23/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_24",
+          "art": "artikel",
+          "nummer": "24",
+          "titel": {
+            "de": "Pflichten der Verwalter quelloffener Software"
+          },
+          "pfad": "art/24",
+          "kinder": [
+            {
+              "id": "024.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/24/abs/1",
+              "text": true
+            },
+            {
+              "id": "024.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/24/abs/2",
+              "text": true
+            },
+            {
+              "id": "024.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/24/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_25",
+          "art": "artikel",
+          "nummer": "25",
+          "titel": {
+            "de": "Sicherheitsbescheinigung für freie und quelloffene Software"
+          },
+          "pfad": "art/25",
+          "text": true
+        },
+        {
+          "id": "art_26",
+          "art": "artikel",
+          "nummer": "26",
+          "titel": {
+            "de": "Leitlinien"
+          },
+          "pfad": "art/26",
+          "kinder": [
+            {
+              "id": "026.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/26/abs/1",
+              "text": true
+            },
+            {
+              "id": "026.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/26/abs/2",
+              "text": true
+            },
+            {
+              "id": "026.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/26/abs/3",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_III",
+      "art": "kapitel",
+      "nummer": "III",
+      "titel": {
+        "de": "KONFORMITÄT DES PRODUKTS MIT DIGITALEN ELEMENTEN"
+      },
+      "pfad": "kap/III",
+      "kinder": [
+        {
+          "id": "art_27",
+          "art": "artikel",
+          "nummer": "27",
+          "titel": {
+            "de": "Konformitätsvermutung"
+          },
+          "pfad": "art/27",
+          "kinder": [
+            {
+              "id": "027.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/27/abs/1",
+              "text": true
+            },
+            {
+              "id": "027.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/27/abs/2",
+              "text": true
+            },
+            {
+              "id": "027.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/27/abs/3",
+              "text": true
+            },
+            {
+              "id": "027.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/27/abs/4",
+              "text": true
+            },
+            {
+              "id": "027.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/27/abs/5",
+              "text": true
+            },
+            {
+              "id": "027.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/27/abs/6",
+              "text": true
+            },
+            {
+              "id": "027.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/27/abs/7",
+              "text": true
+            },
+            {
+              "id": "027.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/27/abs/8",
+              "text": true
+            },
+            {
+              "id": "027.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/27/abs/9",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_28",
+          "art": "artikel",
+          "nummer": "28",
+          "titel": {
+            "de": "EU-Konformitätserklärung"
+          },
+          "pfad": "art/28",
+          "kinder": [
+            {
+              "id": "028.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/28/abs/1",
+              "text": true
+            },
+            {
+              "id": "028.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/28/abs/2",
+              "text": true
+            },
+            {
+              "id": "028.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/28/abs/3",
+              "text": true
+            },
+            {
+              "id": "028.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/28/abs/4",
+              "text": true
+            },
+            {
+              "id": "028.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/28/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_29",
+          "art": "artikel",
+          "nummer": "29",
+          "titel": {
+            "de": "Allgemeine Grundsätze der CE-Kennzeichnung"
+          },
+          "pfad": "art/29",
+          "text": true
+        },
+        {
+          "id": "art_30",
+          "art": "artikel",
+          "nummer": "30",
+          "titel": {
+            "de": "Vorschriften und Bedingungen für die Anbringung der CE-Kennzeichnung"
+          },
+          "pfad": "art/30",
+          "kinder": [
+            {
+              "id": "030.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/30/abs/1",
+              "text": true
+            },
+            {
+              "id": "030.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/30/abs/2",
+              "text": true
+            },
+            {
+              "id": "030.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/30/abs/3",
+              "text": true
+            },
+            {
+              "id": "030.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/30/abs/4",
+              "text": true
+            },
+            {
+              "id": "030.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/30/abs/5",
+              "text": true
+            },
+            {
+              "id": "030.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/30/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_31",
+          "art": "artikel",
+          "nummer": "31",
+          "titel": {
+            "de": "Technische Dokumentation"
+          },
+          "pfad": "art/31",
+          "kinder": [
+            {
+              "id": "031.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/31/abs/1",
+              "text": true
+            },
+            {
+              "id": "031.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/31/abs/2",
+              "text": true
+            },
+            {
+              "id": "031.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/31/abs/3",
+              "text": true
+            },
+            {
+              "id": "031.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/31/abs/4",
+              "text": true
+            },
+            {
+              "id": "031.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/31/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_32",
+          "art": "artikel",
+          "nummer": "32",
+          "titel": {
+            "de": "Konformitätsbewertungsverfahren für Produkte mit digitalen Elementen"
+          },
+          "pfad": "art/32",
+          "kinder": [
+            {
+              "id": "032.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/32/abs/1",
+              "text": true
+            },
+            {
+              "id": "032.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/32/abs/2",
+              "text": true
+            },
+            {
+              "id": "032.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/32/abs/3",
+              "text": true
+            },
+            {
+              "id": "032.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/32/abs/4",
+              "text": true
+            },
+            {
+              "id": "032.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/32/abs/5",
+              "text": true
+            },
+            {
+              "id": "032.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/32/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_33",
+          "art": "artikel",
+          "nummer": "33",
+          "titel": {
+            "de": "Unterstützungsmaßnahmen für Kleinstunternehmen sowie kleine und mittlere Unternehmen, einschließlich Start-up-Unternehmen"
+          },
+          "pfad": "art/33",
+          "kinder": [
+            {
+              "id": "033.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/33/abs/1",
+              "text": true
+            },
+            {
+              "id": "033.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/33/abs/2",
+              "text": true
+            },
+            {
+              "id": "033.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/33/abs/3",
+              "text": true
+            },
+            {
+              "id": "033.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/33/abs/4",
+              "text": true
+            },
+            {
+              "id": "033.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/33/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_34",
+          "art": "artikel",
+          "nummer": "34",
+          "titel": {
+            "de": "Abkommen über die gegenseitige Anerkennung"
+          },
+          "pfad": "art/34",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_IV",
+      "art": "kapitel",
+      "nummer": "IV",
+      "titel": {
+        "de": "NOTIFIZIERUNG VON KONFORMITÄTSBEWERTUNGSSTELLEN"
+      },
+      "pfad": "kap/IV",
+      "kinder": [
+        {
+          "id": "art_35",
+          "art": "artikel",
+          "nummer": "35",
+          "titel": {
+            "de": "Notifizierung"
+          },
+          "pfad": "art/35",
+          "kinder": [
+            {
+              "id": "035.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/35/abs/1",
+              "text": true
+            },
+            {
+              "id": "035.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/35/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_36",
+          "art": "artikel",
+          "nummer": "36",
+          "titel": {
+            "de": "Notifizierende Behörden"
+          },
+          "pfad": "art/36",
+          "kinder": [
+            {
+              "id": "036.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/36/abs/1",
+              "text": true
+            },
+            {
+              "id": "036.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/36/abs/2",
+              "text": true
+            },
+            {
+              "id": "036.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/36/abs/3",
+              "text": true
+            },
+            {
+              "id": "036.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/36/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_37",
+          "art": "artikel",
+          "nummer": "37",
+          "titel": {
+            "de": "Anforderungen an notifizierende Behörden"
+          },
+          "pfad": "art/37",
+          "kinder": [
+            {
+              "id": "037.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/37/abs/1",
+              "text": true
+            },
+            {
+              "id": "037.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/37/abs/2",
+              "text": true
+            },
+            {
+              "id": "037.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/37/abs/3",
+              "text": true
+            },
+            {
+              "id": "037.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/37/abs/4",
+              "text": true
+            },
+            {
+              "id": "037.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/37/abs/5",
+              "text": true
+            },
+            {
+              "id": "037.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/37/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_38",
+          "art": "artikel",
+          "nummer": "38",
+          "titel": {
+            "de": "Informationspflichten der notifizierenden Behörden"
+          },
+          "pfad": "art/38",
+          "kinder": [
+            {
+              "id": "038.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/38/abs/1",
+              "text": true
+            },
+            {
+              "id": "038.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/38/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_39",
+          "art": "artikel",
+          "nummer": "39",
+          "titel": {
+            "de": "Anforderungen an notifizierte Stellen"
+          },
+          "pfad": "art/39",
+          "kinder": [
+            {
+              "id": "039.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/39/abs/1",
+              "text": true
+            },
+            {
+              "id": "039.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/39/abs/2",
+              "text": true
+            },
+            {
+              "id": "039.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/39/abs/3",
+              "text": true
+            },
+            {
+              "id": "039.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/39/abs/4",
+              "text": true
+            },
+            {
+              "id": "039.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/39/abs/5",
+              "text": true
+            },
+            {
+              "id": "039.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/39/abs/6",
+              "text": true
+            },
+            {
+              "id": "039.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/39/abs/7",
+              "text": true
+            },
+            {
+              "id": "039.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/39/abs/8",
+              "text": true
+            },
+            {
+              "id": "039.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/39/abs/9",
+              "text": true
+            },
+            {
+              "id": "039.010",
+              "art": "absatz",
+              "nummer": "10",
+              "pfad": "art/39/abs/10",
+              "text": true
+            },
+            {
+              "id": "039.011",
+              "art": "absatz",
+              "nummer": "11",
+              "pfad": "art/39/abs/11",
+              "text": true
+            },
+            {
+              "id": "039.012",
+              "art": "absatz",
+              "nummer": "12",
+              "pfad": "art/39/abs/12",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_40",
+          "art": "artikel",
+          "nummer": "40",
+          "titel": {
+            "de": "Vermutung der Konformität von notifizierten Stellen"
+          },
+          "pfad": "art/40",
+          "text": true
+        },
+        {
+          "id": "art_41",
+          "art": "artikel",
+          "nummer": "41",
+          "titel": {
+            "de": "Zweigstellen notifizierter Stellen und Vergabe von Unteraufträgen durch notifizierte Stellen"
+          },
+          "pfad": "art/41",
+          "kinder": [
+            {
+              "id": "041.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/41/abs/1",
+              "text": true
+            },
+            {
+              "id": "041.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/41/abs/2",
+              "text": true
+            },
+            {
+              "id": "041.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/41/abs/3",
+              "text": true
+            },
+            {
+              "id": "041.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/41/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_42",
+          "art": "artikel",
+          "nummer": "42",
+          "titel": {
+            "de": "Antrag auf Notifizierung"
+          },
+          "pfad": "art/42",
+          "kinder": [
+            {
+              "id": "042.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/42/abs/1",
+              "text": true
+            },
+            {
+              "id": "042.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/42/abs/2",
+              "text": true
+            },
+            {
+              "id": "042.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/42/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_43",
+          "art": "artikel",
+          "nummer": "43",
+          "titel": {
+            "de": "Notifizierungsverfahren"
+          },
+          "pfad": "art/43",
+          "kinder": [
+            {
+              "id": "043.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/43/abs/1",
+              "text": true
+            },
+            {
+              "id": "043.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/43/abs/2",
+              "text": true
+            },
+            {
+              "id": "043.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/43/abs/3",
+              "text": true
+            },
+            {
+              "id": "043.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/43/abs/4",
+              "text": true
+            },
+            {
+              "id": "043.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/43/abs/5",
+              "text": true
+            },
+            {
+              "id": "043.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/43/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_44",
+          "art": "artikel",
+          "nummer": "44",
+          "titel": {
+            "de": "Kennnummern und Verzeichnisse notifizierter Stellen"
+          },
+          "pfad": "art/44",
+          "kinder": [
+            {
+              "id": "044.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/44/abs/1",
+              "text": true
+            },
+            {
+              "id": "044.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/44/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_45",
+          "art": "artikel",
+          "nummer": "45",
+          "titel": {
+            "de": "Änderungen der Notifizierungen"
+          },
+          "pfad": "art/45",
+          "kinder": [
+            {
+              "id": "045.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/45/abs/1",
+              "text": true
+            },
+            {
+              "id": "045.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/45/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_46",
+          "art": "artikel",
+          "nummer": "46",
+          "titel": {
+            "de": "Anfechtung der Kompetenz notifizierter Stellen"
+          },
+          "pfad": "art/46",
+          "kinder": [
+            {
+              "id": "046.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/46/abs/1",
+              "text": true
+            },
+            {
+              "id": "046.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/46/abs/2",
+              "text": true
+            },
+            {
+              "id": "046.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/46/abs/3",
+              "text": true
+            },
+            {
+              "id": "046.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/46/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_47",
+          "art": "artikel",
+          "nummer": "47",
+          "titel": {
+            "de": "Operative Pflichten der notifizierten Stellen"
+          },
+          "pfad": "art/47",
+          "kinder": [
+            {
+              "id": "047.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/47/abs/1",
+              "text": true
+            },
+            {
+              "id": "047.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/47/abs/2",
+              "text": true
+            },
+            {
+              "id": "047.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/47/abs/3",
+              "text": true
+            },
+            {
+              "id": "047.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/47/abs/4",
+              "text": true
+            },
+            {
+              "id": "047.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/47/abs/5",
+              "text": true
+            },
+            {
+              "id": "047.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/47/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_48",
+          "art": "artikel",
+          "nummer": "48",
+          "titel": {
+            "de": "Einspruch gegen Entscheidungen notifizierter Stellen"
+          },
+          "pfad": "art/48",
+          "text": true
+        },
+        {
+          "id": "art_49",
+          "art": "artikel",
+          "nummer": "49",
+          "titel": {
+            "de": "Meldepflichten der notifizierten Stellen"
+          },
+          "pfad": "art/49",
+          "kinder": [
+            {
+              "id": "049.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/49/abs/1",
+              "text": true
+            },
+            {
+              "id": "049.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/49/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_50",
+          "art": "artikel",
+          "nummer": "50",
+          "titel": {
+            "de": "Erfahrungsaustausch"
+          },
+          "pfad": "art/50",
+          "text": true
+        },
+        {
+          "id": "art_51",
+          "art": "artikel",
+          "nummer": "51",
+          "titel": {
+            "de": "Koordinierung der notifizierten Stellen"
+          },
+          "pfad": "art/51",
+          "kinder": [
+            {
+              "id": "051.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/51/abs/1",
+              "text": true
+            },
+            {
+              "id": "051.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/51/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_V",
+      "art": "kapitel",
+      "nummer": "V",
+      "titel": {
+        "de": "MARKTÜBERWACHUNG UND DURCHSETZUNG"
+      },
+      "pfad": "kap/V",
+      "kinder": [
+        {
+          "id": "art_52",
+          "art": "artikel",
+          "nummer": "52",
+          "titel": {
+            "de": "Marktüberwachung und Kontrolle von Produkten mit digitalen Elementen auf dem Unionsmarkt"
+          },
+          "pfad": "art/52",
+          "kinder": [
+            {
+              "id": "052.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/52/abs/1",
+              "text": true
+            },
+            {
+              "id": "052.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/52/abs/2",
+              "text": true
+            },
+            {
+              "id": "052.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/52/abs/3",
+              "text": true
+            },
+            {
+              "id": "052.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/52/abs/4",
+              "text": true
+            },
+            {
+              "id": "052.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/52/abs/5",
+              "text": true
+            },
+            {
+              "id": "052.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/52/abs/6",
+              "text": true
+            },
+            {
+              "id": "052.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/52/abs/7",
+              "text": true
+            },
+            {
+              "id": "052.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/52/abs/8",
+              "text": true
+            },
+            {
+              "id": "052.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/52/abs/9",
+              "text": true
+            },
+            {
+              "id": "052.010",
+              "art": "absatz",
+              "nummer": "10",
+              "pfad": "art/52/abs/10",
+              "text": true
+            },
+            {
+              "id": "052.011",
+              "art": "absatz",
+              "nummer": "11",
+              "pfad": "art/52/abs/11",
+              "text": true
+            },
+            {
+              "id": "052.012",
+              "art": "absatz",
+              "nummer": "12",
+              "pfad": "art/52/abs/12",
+              "text": true
+            },
+            {
+              "id": "052.013",
+              "art": "absatz",
+              "nummer": "13",
+              "pfad": "art/52/abs/13",
+              "text": true
+            },
+            {
+              "id": "052.014",
+              "art": "absatz",
+              "nummer": "14",
+              "pfad": "art/52/abs/14",
+              "text": true
+            },
+            {
+              "id": "052.015",
+              "art": "absatz",
+              "nummer": "15",
+              "pfad": "art/52/abs/15",
+              "text": true
+            },
+            {
+              "id": "052.016",
+              "art": "absatz",
+              "nummer": "16",
+              "pfad": "art/52/abs/16",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_53",
+          "art": "artikel",
+          "nummer": "53",
+          "titel": {
+            "de": "Zugang zu Daten und zur Dokumentation"
+          },
+          "pfad": "art/53",
+          "text": true
+        },
+        {
+          "id": "art_54",
+          "art": "artikel",
+          "nummer": "54",
+          "titel": {
+            "de": "Nationale Verfahren für Produkte mit digitalen Elementen, die ein erhebliches Cybersicherheitsrisiko bergen"
+          },
+          "pfad": "art/54",
+          "kinder": [
+            {
+              "id": "054.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/54/abs/1",
+              "text": true
+            },
+            {
+              "id": "054.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/54/abs/2",
+              "text": true
+            },
+            {
+              "id": "054.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/54/abs/3",
+              "text": true
+            },
+            {
+              "id": "054.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/54/abs/4",
+              "text": true
+            },
+            {
+              "id": "054.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/54/abs/5",
+              "text": true
+            },
+            {
+              "id": "054.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/54/abs/6",
+              "text": true
+            },
+            {
+              "id": "054.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/54/abs/7",
+              "text": true
+            },
+            {
+              "id": "054.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/54/abs/8",
+              "text": true
+            },
+            {
+              "id": "054.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/54/abs/9",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_55",
+          "art": "artikel",
+          "nummer": "55",
+          "titel": {
+            "de": "Schutzklauselverfahren der Union"
+          },
+          "pfad": "art/55",
+          "kinder": [
+            {
+              "id": "055.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/55/abs/1",
+              "text": true
+            },
+            {
+              "id": "055.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/55/abs/2",
+              "text": true
+            },
+            {
+              "id": "055.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/55/abs/3",
+              "text": true
+            },
+            {
+              "id": "055.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/55/abs/4",
+              "text": true
+            },
+            {
+              "id": "055.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/55/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_56",
+          "art": "artikel",
+          "nummer": "56",
+          "titel": {
+            "de": "Verfahren auf Unionsebene für Produkte mit digitalen Elementen, die ein erhebliches Cybersicherheitsrisiko bergen"
+          },
+          "pfad": "art/56",
+          "kinder": [
+            {
+              "id": "056.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/56/abs/1",
+              "text": true
+            },
+            {
+              "id": "056.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/56/abs/2",
+              "text": true
+            },
+            {
+              "id": "056.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/56/abs/3",
+              "text": true
+            },
+            {
+              "id": "056.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/56/abs/4",
+              "text": true
+            },
+            {
+              "id": "056.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/56/abs/5",
+              "text": true
+            },
+            {
+              "id": "056.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/56/abs/6",
+              "text": true
+            },
+            {
+              "id": "056.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/56/abs/7",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_57",
+          "art": "artikel",
+          "nummer": "57",
+          "titel": {
+            "de": "Konforme Produkte mit digitalen Elementen, die ein erhebliches Cybersicherheitsrisiko bergen"
+          },
+          "pfad": "art/57",
+          "kinder": [
+            {
+              "id": "057.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/57/abs/1",
+              "text": true
+            },
+            {
+              "id": "057.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/57/abs/2",
+              "text": true
+            },
+            {
+              "id": "057.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/57/abs/3",
+              "text": true
+            },
+            {
+              "id": "057.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/57/abs/4",
+              "text": true
+            },
+            {
+              "id": "057.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/57/abs/5",
+              "text": true
+            },
+            {
+              "id": "057.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/57/abs/6",
+              "text": true
+            },
+            {
+              "id": "057.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/57/abs/7",
+              "text": true
+            },
+            {
+              "id": "057.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/57/abs/8",
+              "text": true
+            },
+            {
+              "id": "057.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/57/abs/9",
+              "text": true
+            },
+            {
+              "id": "057.010",
+              "art": "absatz",
+              "nummer": "10",
+              "pfad": "art/57/abs/10",
+              "text": true
+            },
+            {
+              "id": "057.011",
+              "art": "absatz",
+              "nummer": "11",
+              "pfad": "art/57/abs/11",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_58",
+          "art": "artikel",
+          "nummer": "58",
+          "titel": {
+            "de": "Formale Nichtkonformität"
+          },
+          "pfad": "art/58",
+          "kinder": [
+            {
+              "id": "058.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/58/abs/1",
+              "text": true
+            },
+            {
+              "id": "058.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/58/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_59",
+          "art": "artikel",
+          "nummer": "59",
+          "titel": {
+            "de": "Gemeinsame Tätigkeiten der Marktüberwachungsbehörden"
+          },
+          "pfad": "art/59",
+          "kinder": [
+            {
+              "id": "059.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/59/abs/1",
+              "text": true
+            },
+            {
+              "id": "059.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/59/abs/2",
+              "text": true
+            },
+            {
+              "id": "059.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/59/abs/3",
+              "text": true
+            },
+            {
+              "id": "059.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/59/abs/4",
+              "text": true
+            },
+            {
+              "id": "059.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/59/abs/5",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_60",
+          "art": "artikel",
+          "nummer": "60",
+          "titel": {
+            "de": "Koordinierte Kontrollen (Sweeps)"
+          },
+          "pfad": "art/60",
+          "kinder": [
+            {
+              "id": "060.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/60/abs/1",
+              "text": true
+            },
+            {
+              "id": "060.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/60/abs/2",
+              "text": true
+            },
+            {
+              "id": "060.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/60/abs/3",
+              "text": true
+            },
+            {
+              "id": "060.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/60/abs/4",
+              "text": true
+            },
+            {
+              "id": "060.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/60/abs/5",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_VI",
+      "art": "kapitel",
+      "nummer": "VI",
+      "titel": {
+        "de": "ÜBERTRAGENE BEFUGNISSE UND AUSSCHUSSVERFAHREN"
+      },
+      "pfad": "kap/VI",
+      "kinder": [
+        {
+          "id": "art_61",
+          "art": "artikel",
+          "nummer": "61",
+          "titel": {
+            "de": "Ausübung der Befugnisübertragung"
+          },
+          "pfad": "art/61",
+          "kinder": [
+            {
+              "id": "061.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/61/abs/1",
+              "text": true
+            },
+            {
+              "id": "061.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/61/abs/2",
+              "text": true
+            },
+            {
+              "id": "061.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/61/abs/3",
+              "text": true
+            },
+            {
+              "id": "061.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/61/abs/4",
+              "text": true
+            },
+            {
+              "id": "061.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/61/abs/5",
+              "text": true
+            },
+            {
+              "id": "061.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/61/abs/6",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_62",
+          "art": "artikel",
+          "nummer": "62",
+          "titel": {
+            "de": "Ausschussverfahren"
+          },
+          "pfad": "art/62",
+          "kinder": [
+            {
+              "id": "062.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/62/abs/1",
+              "text": true
+            },
+            {
+              "id": "062.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/62/abs/2",
+              "text": true
+            },
+            {
+              "id": "062.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/62/abs/3",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kap_VII",
+      "art": "kapitel",
+      "nummer": "VII",
+      "titel": {
+        "de": "VERTRAULICHKEIT UND SANKTIONEN"
+      },
+      "pfad": "kap/VII",
+      "kinder": [
+        {
+          "id": "art_63",
+          "art": "artikel",
+          "nummer": "63",
+          "titel": {
+            "de": "Vertraulichkeit"
+          },
+          "pfad": "art/63",
+          "kinder": [
+            {
+              "id": "063.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/63/abs/1",
+              "text": true
+            },
+            {
+              "id": "063.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/63/abs/2",
+              "text": true
+            },
+            {
+              "id": "063.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/63/abs/3",
+              "text": true
+            },
+            {
+              "id": "063.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/63/abs/4",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_64",
+          "art": "artikel",
+          "nummer": "64",
+          "titel": {
+            "de": "Sanktionen"
+          },
+          "pfad": "art/64",
+          "kinder": [
+            {
+              "id": "064.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/64/abs/1",
+              "text": true
+            },
+            {
+              "id": "064.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/64/abs/2",
+              "text": true
+            },
+            {
+              "id": "064.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/64/abs/3",
+              "text": true
+            },
+            {
+              "id": "064.004",
+              "art": "absatz",
+              "nummer": "4",
+              "pfad": "art/64/abs/4",
+              "text": true
+            },
+            {
+              "id": "064.005",
+              "art": "absatz",
+              "nummer": "5",
+              "pfad": "art/64/abs/5",
+              "text": true
+            },
+            {
+              "id": "064.006",
+              "art": "absatz",
+              "nummer": "6",
+              "pfad": "art/64/abs/6",
+              "text": true
+            },
+            {
+              "id": "064.007",
+              "art": "absatz",
+              "nummer": "7",
+              "pfad": "art/64/abs/7",
+              "text": true
+            },
+            {
+              "id": "064.008",
+              "art": "absatz",
+              "nummer": "8",
+              "pfad": "art/64/abs/8",
+              "text": true
+            },
+            {
+              "id": "064.009",
+              "art": "absatz",
+              "nummer": "9",
+              "pfad": "art/64/abs/9",
+              "text": true
+            },
+            {
+              "id": "064.010",
+              "art": "absatz",
+              "nummer": "10",
+              "pfad": "art/64/abs/10",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_65",
+          "art": "artikel",
+          "nummer": "65",
+          "titel": {
+            "de": "Verbandsklagen"
+          },
+          "pfad": "art/65",
+          "text": true
+        }
+      ]
+    },
+    {
+      "id": "kap_VIII",
+      "art": "kapitel",
+      "nummer": "VIII",
+      "titel": {
+        "de": "ÜBERGANGS- UND SCHLUSSBESTIMMUNGEN"
+      },
+      "pfad": "kap/VIII",
+      "kinder": [
+        {
+          "id": "art_66",
+          "art": "artikel",
+          "nummer": "66",
+          "titel": {
+            "de": "Änderung der Verordnung (EU) 2019/1020"
+          },
+          "pfad": "art/66",
+          "text": true
+        },
+        {
+          "id": "art_67",
+          "art": "artikel",
+          "nummer": "67",
+          "titel": {
+            "de": "Änderung der Richtlinie (EU) 2020/1828"
+          },
+          "pfad": "art/67",
+          "text": true
+        },
+        {
+          "id": "art_68",
+          "art": "artikel",
+          "nummer": "68",
+          "titel": {
+            "de": "Änderungen der Verordnung (EU) Nr. 168/2013"
+          },
+          "pfad": "art/68",
+          "text": true
+        },
+        {
+          "id": "art_69",
+          "art": "artikel",
+          "nummer": "69",
+          "titel": {
+            "de": "Übergangsbestimmungen"
+          },
+          "pfad": "art/69",
+          "kinder": [
+            {
+              "id": "069.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/69/abs/1",
+              "text": true
+            },
+            {
+              "id": "069.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/69/abs/2",
+              "text": true
+            },
+            {
+              "id": "069.003",
+              "art": "absatz",
+              "nummer": "3",
+              "pfad": "art/69/abs/3",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_70",
+          "art": "artikel",
+          "nummer": "70",
+          "titel": {
+            "de": "Bewertung und Überprüfung"
+          },
+          "pfad": "art/70",
+          "kinder": [
+            {
+              "id": "070.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/70/abs/1",
+              "text": true
+            },
+            {
+              "id": "070.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/70/abs/2",
+              "text": true
+            }
+          ]
+        },
+        {
+          "id": "art_71",
+          "art": "artikel",
+          "nummer": "71",
+          "titel": {
+            "de": "Inkrafttreten und Geltungsbeginn"
+          },
+          "pfad": "art/71",
+          "kinder": [
+            {
+              "id": "071.001",
+              "art": "absatz",
+              "nummer": "1",
+              "pfad": "art/71/abs/1",
+              "text": true
+            },
+            {
+              "id": "071.002",
+              "art": "absatz",
+              "nummer": "2",
+              "pfad": "art/71/abs/2",
+              "text": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anx_I",
+      "art": "anhang",
+      "nummer": "I",
+      "titel": {
+        "de": "GRUNDLEGENDE CYBERSECURITYANFORDERUNGEN"
+      },
+      "pfad": "anh/I",
+      "text": true
+    },
+    {
+      "id": "anx_II",
+      "art": "anhang",
+      "nummer": "II",
+      "titel": {
+        "de": "INFORMATIONEN UND ANLEITUNGEN FÜR DEN NUTZER"
+      },
+      "pfad": "anh/II",
+      "text": true
+    },
+    {
+      "id": "anx_III",
+      "art": "anhang",
+      "nummer": "III",
+      "titel": {
+        "de": "WICHTIGE PRODUKTE MIT DIGITALEN ELEMENTEN"
+      },
+      "pfad": "anh/III",
+      "text": true
+    },
+    {
+      "id": "anx_IV",
+      "art": "anhang",
+      "nummer": "IV",
+      "titel": {
+        "de": "KRITISCHE PRODUKTE MIT DIGITALEN ELEMENTEN"
+      },
+      "pfad": "anh/IV",
+      "text": true
+    },
+    {
+      "id": "anx_V",
+      "art": "anhang",
+      "nummer": "V",
+      "titel": {
+        "de": "EU-KONFORMITÄTSERKLÄRUNG"
+      },
+      "pfad": "anh/V",
+      "text": true
+    },
+    {
+      "id": "anx_VI",
+      "art": "anhang",
+      "nummer": "VI",
+      "titel": {
+        "de": "VEREINFACHTE EU-KONFORMITÄTSERKLÄRUNG"
+      },
+      "pfad": "anh/VI",
+      "text": true
+    },
+    {
+      "id": "anx_VII",
+      "art": "anhang",
+      "nummer": "VII",
+      "titel": {
+        "de": "INHALT DER TECHNISCHEN DOKUMENTATION"
+      },
+      "pfad": "anh/VII",
+      "text": true
+    },
+    {
+      "id": "anx_VIII",
+      "art": "anhang",
+      "nummer": "VIII",
+      "titel": {
+        "de": "KONFORMITÄTSBEWERTUNGSVERFAHREN"
+      },
+      "pfad": "anh/VIII",
+      "text": true
+    }
+  ]
+}

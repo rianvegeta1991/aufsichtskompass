@@ -1,7 +1,7 @@
 {
   "regelwerk": "dora-its-2956",
   "fassung": "2024-12-06",
-  "abgerufen": "2026-09-29T21:26:22Z",
+  "abgerufen": "2026-10-08T19:57:07Z",
   "quelle": {
     "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
     "url": "https://publications.europa.eu/resource/celex/32024R2956",
@@ -316,6 +316,46 @@
         "de": "Inkrafttreten"
       },
       "pfad": "art/7",
+      "text": true
+    },
+    {
+      "id": "anx_I",
+      "art": "anhang",
+      "nummer": "I",
+      "titel": {
+        "de": "Anleitung zum Ausfüllen des Informationsregisters"
+      },
+      "pfad": "anh/I",
+      "text": true
+    },
+    {
+      "id": "anx_II",
+      "art": "anhang",
+      "nummer": "II",
+      "titel": {
+        "de": "Liste der Tätigkeiten nach Art des Unternehmens"
+      },
+      "pfad": "anh/II",
+      "text": true
+    },
+    {
+      "id": "anx_III",
+      "art": "anhang",
+      "nummer": "III",
+      "titel": {
+        "de": "Art der IKT-Dienstleistungen"
+      },
+      "pfad": "anh/III",
+      "text": true
+    },
+    {
+      "id": "anx_IV",
+      "art": "anhang",
+      "nummer": "IV",
+      "titel": {
+        "de": "Anleitung zur Meldung des „Gesamtwerts der Aktiva“"
+      },
+      "pfad": "anh/IV",
       "text": true
     }
   ]

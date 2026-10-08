@@ -176,6 +176,874 @@
       }
     ]
   },
+  "anx_I": {
+    "h": "990d41b56c4b388a3a781d45b454d9a0",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Feld-nummer | Datenfeld"
+          },
+          {
+            "m": "",
+            "t": "Allgemeine Angaben zum Finanzunternehmen"
+          },
+          {
+            "m": "",
+            "t": "1.1 | Art der Übermittlung"
+          },
+          {
+            "m": "",
+            "t": "1.2 | Name des Unternehmens, das die Meldung übermittelt"
+          },
+          {
+            "m": "",
+            "t": "1.3 | Identifikationscode des Unternehmens, das die Meldung übermittelt"
+          },
+          {
+            "m": "",
+            "t": "1.4 | Art des betroffenen Finanzunternehmens"
+          },
+          {
+            "m": "",
+            "t": "1.5 | Name des betroffenen Finanzunternehmens"
+          },
+          {
+            "m": "",
+            "t": "1.6 | LEI-Code des betroffenen Finanzunternehmens"
+          },
+          {
+            "m": "",
+            "t": "1.7 | Name des Hauptansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "1.8 | E-Mail-Adresse des Hauptansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "1.9 | Telefonnummer des Hauptansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "1.10 | Name des zweiten Ansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "1.11 | E-Mail-Adresse des zweiten Ansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "1.12 | Telefonnummer des zweiten Ansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "1.13 | Name des obersten Mutterunternehmens"
+          },
+          {
+            "m": "",
+            "t": "1.14 | LEI-Code des obersten Mutterunternehmens"
+          },
+          {
+            "m": "",
+            "t": "1.15 | Meldewährung"
+          },
+          {
+            "m": "",
+            "t": "Inhalt der Erstmeldung"
+          },
+          {
+            "m": "",
+            "t": "2.1 | Vom Finanzunternehmen zugewiesener Referenzcode für den Vorfall"
+          },
+          {
+            "m": "",
+            "t": "2.2 | Datum und Uhrzeit der Feststellung des schwerwiegenden IKT-bezogenen Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "2.3 | Datum und Uhrzeit der Einstufung des IKT-bezogenen Vorfalls als schwerwiegend"
+          },
+          {
+            "m": "",
+            "t": "2.4 | Beschreibung des schwerwiegenden IKT-bezogenen Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "2.5 | Einstufungskriterien, die die Meldung des Vorfalls ausgelöst haben"
+          },
+          {
+            "m": "",
+            "t": "2.6 | Wesentlichkeitsschwellen für das Einstufungskriterium „Geografische Ausbreitung“"
+          },
+          {
+            "m": "",
+            "t": "2.7 | Feststellung des schwerwiegenden IKT-bezogenen Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "2.8 | Angabe, ob der schwerwiegende IKT-bezogene Vorfall bei einem Drittdienstleister oder einem anderen Finanzunternehmen seinen Ursprung hat"
+          },
+          {
+            "m": "",
+            "t": "2.9 | Aktivierung des Plans zur Aufrechterhaltung des Geschäftsbetriebs, falls aktiviert"
+          },
+          {
+            "m": "",
+            "t": "2.10 | Sonstige zweckdienliche Angaben"
+          },
+          {
+            "m": "",
+            "t": "Inhalt der Zwischenmeldung"
+          },
+          {
+            "m": "",
+            "t": "3.1 | Von der zuständigen Behörde bereitgestellter Referenzcode für den Vorfall"
+          },
+          {
+            "m": "",
+            "t": "3.2 | Datum und Uhrzeit des Eintretens des schwerwiegenden IKT-bezogenen Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "3.3 | Datum und Uhrzeit der Wiederherstellung der Dienste, Tätigkeiten oder Vorgänge"
+          },
+          {
+            "m": "",
+            "t": "3.4 | Anzahl der betroffenen Kunden"
+          },
+          {
+            "m": "",
+            "t": "3.5 | Prozentsatz der betroffenen Kunden"
+          },
+          {
+            "m": "",
+            "t": "3.6 | Anzahl der betroffenen Gegenparteien im Finanzbereich"
+          },
+          {
+            "m": "",
+            "t": "3.7 | Prozentsatz der betroffenen Gegenparteien im Finanzbereich"
+          },
+          {
+            "m": "",
+            "t": "3.8 | Auswirkungen auf einschlägige Kunden oder Gegenparteien im Finanzbereich"
+          },
+          {
+            "m": "",
+            "t": "3.9 | Anzahl der betroffenen Transaktionen"
+          },
+          {
+            "m": "",
+            "t": "3.10 | Prozentsatz der betroffenen Transaktionen"
+          },
+          {
+            "m": "",
+            "t": "3.11 | Wert der betroffenen Transaktionen"
+          },
+          {
+            "m": "",
+            "t": "3.12 | Angaben dazu, ob es sich um tatsächliche Zahlen oder Schätzungen handelt oder ob es keine Auswirkungen gegeben hat"
+          },
+          {
+            "m": "",
+            "t": "3.13 | Reputationsschaden"
+          },
+          {
+            "m": "",
+            "t": "3.14 | Kontextbezogene Angaben zum Reputationsschaden"
+          },
+          {
+            "m": "",
+            "t": "3.15 | Dauer des schwerwiegenden IKT-bezogenen Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "3.16 | Ausfallzeiten"
+          },
+          {
+            "m": "",
+            "t": "3.17 | Angaben dazu, ob es sich bei der Dauer und den Ausfallzeiten um tatsächliche Zahlen oder Schätzungen handelt"
+          },
+          {
+            "m": "",
+            "t": "3.18 | Arten von Auswirkungen in den Mitgliedstaaten"
+          },
+          {
+            "m": "",
+            "t": "3.19 | Beschreibung der Auswirkungen des schwerwiegenden IKT-bezogenen Vorfalls in anderen Mitgliedstaaten"
+          },
+          {
+            "m": "",
+            "t": "3.20 | Wesentlichkeitsschwellen für das Einstufungskriterium „Datenverluste“"
+          },
+          {
+            "m": "",
+            "t": "3.21 | Beschreibung der Datenverluste"
+          },
+          {
+            "m": "",
+            "t": "3.22 | Einstufungskriterium „Betroffene kritische Dienstleistungen“"
+          },
+          {
+            "m": "",
+            "t": "3.23 | Art des schwerwiegenden IKT-bezogenen Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "3.24 | Andere Arten von Vorfällen"
+          },
+          {
+            "m": "",
+            "t": "3.25 | Bedrohungen und Techniken des Angreifers"
+          },
+          {
+            "m": "",
+            "t": "3.26 | Andere Arten von Techniken"
+          },
+          {
+            "m": "",
+            "t": "3.27 | Angaben zu betroffenen Funktionsbereichen und Geschäftsprozessen"
+          },
+          {
+            "m": "",
+            "t": "3.28 | Betroffene Infrastrukturkomponenten, die Geschäftsprozesse unterstützen"
+          },
+          {
+            "m": "",
+            "t": "3.29 | Angaben zu betroffenen Infrastrukturkomponenten, die Geschäftsprozesse unterstützen"
+          },
+          {
+            "m": "",
+            "t": "3.30 | Auswirkungen auf die finanziellen Interessen von Kunden"
+          },
+          {
+            "m": "",
+            "t": "3.31 | Meldung an andere Behörden"
+          },
+          {
+            "m": "",
+            "t": "3.32 | Angabe der „anderen“ Behörden"
+          },
+          {
+            "m": "",
+            "t": "3.33 | Ergriffene oder geplante befristete Maßnahmen zur Wiederherstellung nach dem Vorfall"
+          },
+          {
+            "m": "",
+            "t": "3.34 | Beschreibung etwaiger ergriffener oder geplanter befristeter Maßnahmen zur Wiederherstellung nach dem Vorfall"
+          },
+          {
+            "m": "",
+            "t": "3.35 | Kompromittierungsindikatoren"
+          },
+          {
+            "m": "",
+            "t": "Inhalt der Abschlussmeldung"
+          },
+          {
+            "m": "",
+            "t": "4.1 | Übergeordnete Einstufung der Ursachen des Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "4.2 | Detaillierte Einstufung der Ursachen des Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "4.3 | Weitergehende Einstufung der Ursachen des Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "4.4 | Andere Arten von Ursachen"
+          },
+          {
+            "m": "",
+            "t": "4.5 | Angaben zu den Ursachen des Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "4.6 | Zusammenfassung der Behebung des Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "4.7 | Datum und Uhrzeit der Behebung der Ursache des Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "4.8 | Datum und Uhrzeit der Behebung des Vorfalls"
+          },
+          {
+            "m": "",
+            "t": "4.9 | Angabe, falls das Datum der dauerhaften Behebung des Vorfalls von dem ursprünglich geplanten Umsetzungsdatum abweicht"
+          },
+          {
+            "m": "",
+            "t": "4.10 | Bewertung des Risikos für kritische Funktionen für Abwicklungszwecke"
+          },
+          {
+            "m": "",
+            "t": "4.11 | Für Abwicklungsbehörden relevante Angaben"
+          },
+          {
+            "m": "",
+            "t": "4.12 | Wesentlichkeitsschwelle für das Einstufungskriterium „Wirtschaftliche Auswirkungen“"
+          },
+          {
+            "m": "",
+            "t": "4.13 | Betrag der direkten und indirekten Bruttokosten und Verluste"
+          },
+          {
+            "m": "",
+            "t": "4.14 | Betrag der finanziellen Rückflüsse"
+          },
+          {
+            "m": "",
+            "t": "4.15 | Angaben dazu, ob sich die nicht schwerwiegenden Vorfälle wiederholt haben"
+          },
+          {
+            "m": "",
+            "t": "4.16 | Datum und Uhrzeit des Eintretens wiederholter Vorfälle"
+          }
+        ]
+      }
+    ]
+  },
+  "anx_II": {
+    "h": "e8f0086c20cfd07e31a5c66c39b8ba10",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Datenfeld | Beschreibung | Verpflichtend für die Erstmeldung | Verpflich-tend für die Zwischen-meldung | Verpflich-tend für die Abschluss-meldung | Feldtyp"
+          },
+          {
+            "m": "",
+            "t": "Allgemeine Angaben zum Finanzunternehmen"
+          },
+          {
+            "m": "",
+            "t": "Geben Sie die Art der Meldung des Vorfalls an, die der zuständigen Behörde übermittelt wird. | Ja | Ja | Ja | Auswahl:"
+          },
+          {
+            "m": "",
+            "t": "Vollständige juristische Bezeichnung des Unternehmens, das die Meldung übermittelt. | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Identifikationscode des Unternehmens, das die Meldung übermittelt. Übermitteln Finanzunternehmen die Meldung, ist die Rechtsträgerkennung (Legal Entity Identifier; LEI-Code), ein eindeutiger alphanumerischer 20-stelliger Code nach ISO 17442-1:2020. Ein Drittdienstleister, der eine Meldung für ein Finanzunternehmen übermittelt, kann eine Rechtsträgerkennung verwenden, die in den gemäß Artikel 28 Absatz 9 der Verordnung (EU) 2022/2554 angenommenen technischen Durchführungsstandards festgelegt ist. | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Art des Unternehmens gemäß Artikel 2 Absatz 1 Buchstaben a bis t der Verordnung (EU) 2022/2554, für das die Meldung übermittelt wird. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung sind die verschiedenen Arten von Finanzunternehmen auszuwählen, die in der aggregierten Meldung erfasst sind. | Ja | Ja | Ja | Auswahl (Mehrfach-auswahl):"
+          },
+          {
+            "m": "",
+            "t": "Vollständige juristische Bezeichnung des von dem schwerwiegenden IKT-bezogenen Vorfall betroffenen Finanzunternehmens, das gemäß Artikel 19 der Verordnung (EU) 2022/2554 seiner zuständigen Behörde den schwerwiegenden Vorfall melden muss. Bei aggregierter Meldung: | Ja, wenn es sich bei dem von dem Vorfall betroffenen Finanzunter-nehmen nicht um das Unternehmen handelt, das die Meldung übermittelt, und im Falle einer aggregierten Meldung | Ja, wenn es sich bei dem von dem Vorfall betroffe-nen Finanz-unter-nehmen nicht um das Unter-nehmen handelt, das die Meldung übermit-telt, und im Falle einer aggre-gierten Meldung | Ja, wenn es sich bei dem von dem Vorfall betroffenen Finanzun-ternehmen nicht um das Unterneh-men handelt, das die Meldung übermittelt, und im Falle einer aggregierten Meldung | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Der nach der Internationalen Organisation für Normung zugewiesene LEI-Code des von dem schwerwiegenden IKT-bezogenen Vorfall betroffenen Finanzunternehmens. Bei aggregierter Meldung: Die Reihenfolge der Auflistung der LEI-Codes muss mit derjenigen der Namen der Finanzunternehmen identisch sein. | Ja, wenn es sich bei dem von dem schwerwiegenden IKT-bezogenen Vorfall betroffenen Finanzunter-nehmen nicht um das Unternehmen handelt, das die Meldung übermittelt, und bei einer aggregierten Meldung | Ja, wenn es sich bei dem von dem schwer-wiegenden IKT-bezogenen Vorfall betroffe-nen Finanz-unterneh-men nicht um das Unterneh-men handelt, das die Meldung übermittelt, und bei einer aggre-gierten Meldung | Ja, wenn es sich bei dem von dem schwer-wiegenden IKT-bezogenen Vorfall betroffenen Finanzun-ternehmen nicht um das Unterneh-men handelt, das die Meldung übermittelt, und bei einer aggregierten Meldung | Eindeutiger alphanumerischer Code mit 20 Zeichen nach ISO 17442-1:2020"
+          },
+          {
+            "m": "",
+            "t": "Vor- und Nachname des Hauptansprechpartners des Finanzunternehmens. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung der Name des Hauptansprechpartners in dem Unternehmen, das die aggregierte Meldung übermittelt. | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "E-Mail-Adresse des Hauptansprechpartners, an den sich die zuständige Behörde in der Folgemitteilung wenden kann. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung die E-Mail-Adresse des Hauptansprechpartners in dem Unternehmen, das die aggregierte Meldung übermittelt. | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Telefonnummer des Hauptansprechpartners, an den sich die zuständige Behörde in der Folgemitteilung wenden kann. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung die Telefonnummer des Hauptansprechpartners in dem Unternehmen, das die aggregierte Meldung übermittelt. Die Telefonnummer ist mit allen internationalen Vorwahlen anzugeben (z. B. +33 XXXXXXXXX). | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Vor- und Nachname des zweiten Ansprechpartners oder Name des verantwortlichen Teams des Finanzunternehmens oder des Unternehmens, das die Meldung im Namen des Finanzunternehmens übermittelt | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "E-Mail-Adresse des zweiten Ansprechpartners oder die funktionale E-Mail-Adresse des Teams, an die bzw. das sich die zuständige Behörde in der Folgemitteilung wenden kann. | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Telefonnummer des zweiten Ansprechpartners oder eines Teams, an den bzw. das sich die zuständige Behörde in der Folgemitteilung wenden kann. Die Telefonnummer ist mit allen internationalen Vorwahlen anzugeben (z. B. +33 XXXXXXXXX). | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Gegebenenfalls Name des obersten Mutterunternehmens der Gruppe, der das betroffene Finanzunternehmen angehört. | Ja, wenn das Finanzunter-nehmen einer Gruppe angehört | Ja, wenn das Finanz-unterneh-men einer Gruppe angehört | Ja, wenn das Finanzun-ternehmen einer Gruppe angehört | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Gegebenenfalls LEI-Code des obersten Mutterunternehmens der Gruppe, der das betroffene Finanzunternehmen angehört. Zugewiesen gemäß der Internationalen Organisation für Normung. | Ja, wenn das Finanzunter-nehmen einer Gruppe angehört | Ja, wenn das Finanz-unter-nehmen einer Gruppe angehört | Ja, wenn das Finanzun-ternehmen einer Gruppe angehört | Eindeutiger alphanumerischer Code mit 20 Zeichen nach ISO 17442-1:2020"
+          },
+          {
+            "m": "",
+            "t": "Währung, die für die Meldung des Vorfalls verwendet wird. | Ja | Ja | Ja | Auswahl ist anhand der ISO 4217 Währungscodes zu treffen"
+          },
+          {
+            "m": "",
+            "t": "Inhalt der Erstmeldung"
+          },
+          {
+            "m": "",
+            "t": "Vom Finanzunternehmen vergebener eindeutiger Referenzcode zur eindeutigen Identifizierung des schwerwiegenden IKT-bezogenen Vorfalls. Bei einer aggregierten Meldung gemäß Artikel 7 der vorliegenden Verordnung der vom Drittdienstleister zugewiesene Referenzcode für den Vorfall. | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Datum und Uhrzeit der Kenntnisnahme des IKT-bezogenen Vorfalls durch das Finanzunternehmen. Bei wiederholten Vorfällen das Datum und die Uhrzeit der Feststellung des letzten IKT-bezogenen Vorfalls. | Ja | Ja | Ja | ISO 8601 UTC-Format (JJJJ-MM-TT hh: mm:ss)"
+          },
+          {
+            "m": "",
+            "t": "Datum und Uhrzeit der Einstufung des IKT-bezogenen Vorfall als schwerwiegend gemäß den in der Delegierten Verordnung (EU) 2024/1772 festgelegten Einstufungskriterien. | Ja | Ja | Ja | ISO 8601 UTC-Format (JJJJ-MM-TT hh: mm:ss)"
+          },
+          {
+            "m": "",
+            "t": "Beschreibung der relevantesten Aspekte des schwerwiegenden IKT-bezogenen Vorfalls. Finanzunternehmen geben einen allgemeinen Überblick über die folgenden Informationen, z. B. mögliche Ursachen, unmittelbare Auswirkungen, betroffene Systeme usw. Finanzunternehmen geben an, sofern bekannt oder nach vernünftigem Ermessen zu erwarten, ob sich der Vorfall auf Drittdienstleister oder andere Finanzunternehmen auswirkt, die Art des Dienstleisters oder Finanzunternehmens, ihren Namen, ihre jeweiligen Identifikationscodes und die Art des Identifikationscodes (z. B. LEI-Code oder EUID). In nachfolgenden Meldungen kann sich der Feldinhalt im Zeitverlauf ändern, um dem jeweils aktuellen Verständnis des IKT-bezogenen Vorfalls Rechnung zu tragen und andere relevante Informationen über den IKT-bezogenen Vorfall zu beschreiben, die nicht von den Datenfeldern erfasst werden, einschließlich der internen Bewertung der Schwere des IKT-bezogenen Vorfalls durch das Finanzunternehmen (z. B. sehr niedrig, niedrig, mittel, hoch, sehr hoch) und eines Hinweises auf Ebene und Name der höchsten Entscheidungsstrukturen, die an der Reaktion auf den IKT-bezogenen Vorfall beteiligt waren. | Ja | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Einstufungskriterien gemäß der Delegierten Verordnung (EU) 2024/1772, die dazu geführt haben, dass der IKT-bezogene Vorfall als schwerwiegender Vorfall eingestuft und gemeldet wurde. Bei einer aggregierten Meldung gemäß Artikel 7 der vorliegenden Verordnung die Einstufungskriterien, die dazu geführt haben, dass der IKT-bezogene Vorfall für mindestens ein oder mehrere Finanzunternehmen als schwerwiegend eingestuft wurde. | Ja | Ja | Ja | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "EWR-Mitgliedstaaten, die von dem schwerwiegenden IKT-bezogenen Vorfall betroffen sind. Bei der Bewertung der Auswirkungen des schwerwiegenden IKT-bezogenen Vorfalls in anderen Mitgliedstaaten berücksichtigen Finanzunternehmen die Artikel 4 und 12 der Delegierten Verordnung (EU) 2024/1772. | Ja, wenn der Schwellenwert für „Geografische Ausbreitung“ erreicht ist | Ja, wenn der Schwel-lenwert für „Geogra-fische Ausbrei-tung“ erreicht ist | Ja, wenn der Schwellen-wert für „Geografi-sche Ausbrei-tung“ erreicht ist | Die Auswahl (Mehrfachauswahl) wird mithilfe von ISO 3166 ALPHA-2 der betroffenen Länder ausgefüllt"
+          },
+          {
+            "m": "",
+            "t": "Angaben dazu, wie der schwerwiegende IKT-bezogene Vorfall festgestellt wurde. | Ja | Ja | Ja | Auswahl:"
+          },
+          {
+            "m": "",
+            "t": "Angaben dazu, ob der schwerwiegende IKT-bezogene Vorfall bei einem Drittdienstleister oder einem anderen Finanzunternehmen seinen Ursprung hat. Finanzunternehmen geben an, ob der schwerwiegende IKT-bezogene Vorfall bei einem Drittdienstleister oder einem anderen Finanzunternehmen (einschließlich Finanzunternehmen, die derselben Gruppe wie das meldende Unternehmen angehören) seinen Ursprung hat, und nennen den Namen, den Identifikationscode des Drittdienstleisters oder des Finanzunternehmens und die Art des Identifikationscodes (z. B. LEI-Code oder EUID). | Ja, wenn der Vorfall seinen Ursprung bei einem Drittdienst-leister oder einem anderen Finanzunter-nehmen hat | Ja, wenn der Vorfall seinen Ursprung bei einem Dritt-dienst-leister oder einem anderen Finanz-unterneh-men hat | Ja, wenn der Vorfall seinen Ursprung bei einem Drittdienst-leister oder einem anderen Finanzun-ternehmen hat | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Angabe, ob die Maßnahmen zur Aufrechterhaltung des Geschäftsbetriebs des Finanzunternehmens formal aktiviert wurden. | Ja | Ja | Ja | Boolesch (Ja oder Nein)"
+          },
+          {
+            "m": "",
+            "t": "Alle weiteren Informationen, die nicht in der Vorlage erfasst sind. Finanzunternehmen, die einen schwerwiegenden IKT-bezogenen Vorfall in nicht schwerwiegend zurückgestuft haben, beschreiben die Gründe, aus denen der IKT-bezogene Vorfall die Kriterien für die Einstufung als schwerwiegend nicht erfüllt und voraussichtlich nicht erfüllen wird. | Ja, wenn es andere Informationen gibt, die nicht in der Vorlage erfasst sind, oder wenn der schwerwiegende IKT-bezogene Vorfall in nicht schwerwie-gend zurückgestuft wurde | Ja, wenn es andere Informationen gibt, die nicht in der Vorlage erfasst sind, oder wenn der schwer-wiegende IKT-bezogene Vorfall in nicht schwer-wiegend zurück-gestuft wurde | Ja, wenn es andere Informationen gibt, die nicht in der Vorlage erfasst sind, oder wenn der schwer-wiegende IKT-bezogene Vorfall in nicht schwer-wiegend zurück-gestuft wurde | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Inhalt der Zwischenmeldung"
+          },
+          {
+            "m": "",
+            "t": "Von der zuständigen Behörde zum Zeitpunkt des Eingangs der Erstmeldung zugewiesener eindeutiger Referenzcode zur eindeutigen Identifizierung des schwerwiegenden IKT-bezogenen Vorfalls. | Nein | Ja, falls zutreffend | Ja, falls zutreffend | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Datum und Uhrzeit des Eintretens des schwerwiegenden IKT-bezogenen Vorfalls, falls abweichend von dem Zeitpunkt, zu dem das Finanzunternehmen von dem schwerwiegenden IKT-bezogenen Vorfall Kenntnis erlangt hat. Bei wiederholten schwerwiegenden IKT-bezogenen Vorfällen Datum und Uhrzeit des Eintretens des letzten schwerwiegenden IKT-bezogenen Vorfalls. | Nein | Ja | Ja | ISO 8601 UTC-Format (JJJJ-MM-TT hh: mm:ss)"
+          },
+          {
+            "m": "",
+            "t": "Angaben zu Datum und Uhrzeit der Wiederherstellung der von dem schwerwiegenden IKT-bezogenen Vorfall betroffenen Dienste, Tätigkeiten oder Vorgänge. | Nein | Ja, wenn Datenfeld 3.16 „Ausfall-zeiten“ ausgefüllt wurde | Ja, wenn Datenfeld 3.16 „Ausfall-zeiten“ ausgefüllt wurde | ISO 8601 UTC-Format (JJJJ-MM-TT hh: mm:ss)"
+          },
+          {
+            "m": "",
+            "t": "Anzahl der Kunden, die von dem schwerwiegenden IKT-bezogenen Vorfall betroffen sind und die Dienste des Finanzunternehmens in Anspruch nehmen. Bei der Ermittlung der Anzahl der betroffenen Kunden berücksichtigen Finanzunternehmen Artikel 1 Absatz 1 und Artikel 9 Absatz 1 Buchstabe b der Delegierten Verordnung (EU) 2024/1772. Ein Finanzunternehmen, das die tatsächliche Anzahl der betroffenen Kunden nicht bestimmen kann, verwendet Schätzungen auf der Grundlage verfügbarer Daten aus vergleichbaren Referenzzeiträumen. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung die Gesamtzahl der betroffenen Kunden in allen Finanzunternehmen. | Nein | Ja | Ja | Numerische ganze Zahl"
+          },
+          {
+            "m": "",
+            "t": "Prozentsatz der von dem schwerwiegenden IKT-bezogenen Vorfall betroffenen Kunden im Verhältnis zur Gesamtzahl der Kunden, die die betroffenen Dienste des Finanzunternehmens in Anspruch nehmen. Bei mehr als einer betroffenen Dienstleistung werden die Dienstleistungen aggregiert. Finanzunternehmen berücksichtigen bei der Ermittlung der Zahlen die Artikel 1 Absatz 1 und Artikel 9 Absatz 1 Buchstabe a der Delegierten Verordnung (EU) 2024/1772. Ein Finanzunternehmen, das den tatsächlichen Prozentsatz der betroffenen Kunden nicht bestimmen kann, verwendet Schätzungen auf der Grundlage verfügbarer Daten aus vergleichbaren Referenzzeiträumen. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung teilt das Finanzunternehmen die Summe aller betroffenen Kunden durch die Gesamtzahl der Kunden aller betroffenen Finanzunternehmen. | Nein | Ja | Ja | Wird als Prozentwert mitgeteilt — ein Wert mit bis zu fünf numerischen Zeichen, die bis zu eine Dezimalstelle umfassen, ausgedrückt als Prozentsatz (z. B. 2,4, nicht 2,4 %). Hat der Wert mehr als eine Stelle nach dem Dezimaltrenn-zeichen, wenden die meldenden Gegenparteien die kaufmännische Rundung an."
+          },
+          {
+            "m": "",
+            "t": "Anzahl der Gegenparteien im Finanzbereich, die von dem schwerwiegenden IKT-bezogenen Vorfall betroffen sind und einen Vertrag mit dem Finanzunternehmen geschlossen haben. Bei der Ermittlung der Anzahl der betroffenen Gegenparteien im Finanzbereich berücksichtigen die Finanzunternehmen Artikel 1 Absatz 2 der Delegierten Verordnung (EU) 2024/1772. Ein Finanzunternehmen, das die tatsächliche Anzahl der betroffenen Gegenparteien im Finanzbereich nicht bestimmen kann, verwendet Schätzungen auf der Grundlage verfügbarer Daten aus vergleichbaren Referenzzeiträumen. Bei einer aggregierten Meldung gemäß Artikel 7 der vorliegenden Verordnung die Gesamtzahl der betroffenen Gegenparteien im Finanzbereich in allen Finanzunternehmen. | Nein | Ja | Ja | Numerische ganze Zahl"
+          },
+          {
+            "m": "",
+            "t": "Prozentsatz der Gegenparteien im Finanzbereich, die von dem schwerwiegenden IKT-bezogenen Vorfall betroffen sind und einen Vertrag mit dem Finanzunternehmen geschlossen haben, im Verhältnis zur Gesamtzahl der Gegenparteien im Finanzbereich. Bei der Ermittlung des Prozentsatzes der betroffenen Gegenparteien im Finanzbereich berücksichtigen die Finanzunternehmen die Artikel 1 Absatz 1 und Artikel 9 Absatz 1 Buchstabe c der Delegierten Verordnung (EU) 2024/1772. Ein Finanzunternehmen, das den tatsächlichen Prozentsatz der betroffenen Gegenparteien im Finanzbereich nicht bestimmen kann, verwendet Schätzungen auf der Grundlage verfügbarer Daten aus vergleichbaren Referenzzeiträumen. Bei einer aggregierten Meldung gemäß Artikel 7 der vorliegenden Verordnung ist die Summe aller betroffenen Gegenparteien im Finanzbereich geteilt durch die Gesamtzahl der Gegenparteien im Finanzbereich aller betroffenen Finanzunternehmen anzugeben. | Nein | Ja | Ja | Wird als Prozentwert mitgeteilt — ein Wert mit bis zu fünf numerischen Zeichen, die bis zu eine Dezimalstelle umfassen, ausgedrückt als Prozentsatz (z. B. 2,4, nicht 2,4 %). Hat der Wert mehr als eine Stelle nach dem Dezimaltrenn-zeichen, wenden die meldenden Gegenparteien die kaufmännische Rundung an."
+          },
+          {
+            "m": "",
+            "t": "Festgestellte Auswirkungen auf relevante Kunden oder Gegenparteien im Finanzbereich gemäß Artikel 1 Absatz 3 und Artikel 9 Absatz 1 Buchstabe f der Delegierten Verordnung (EU) 2024/1772. | Nein | Ja, wenn der Schwel-lenwert für „Relevanz der Kunden und der Gegen-parteien im Finanz-bereich“ erreicht ist | Ja, wenn der Schwellen-wert für „Relevanz der Kunden und der Gegenparteien im Finanz-bereich“ erreicht ist | Boolesch (Ja oder Nein)"
+          },
+          {
+            "m": "",
+            "t": "Anzahl der Transaktionen, die von dem schwerwiegenden IKT-bezogenen Vorfall betroffen sind. Bei der Bewertung der Auswirkungen auf Transaktionen berücksichtigen die Finanzunternehmen Artikel 1 Absatz 4 der Delegierten Verordnung (EU) 2024/1772; dies schließt alle betroffenen inländischen und grenzüberschreitenden Transaktionen ein, die einen Geldbetrag beinhalten, der mindestens teilweise mit einer in der Union ausgeführten Transaktion in Zusammenhang steht. Ein Finanzunternehmen, das die tatsächliche Anzahl der betroffenen Transaktionen nicht bestimmen kann, verwendet Schätzungen auf der Grundlage verfügbarer Daten aus vergleichbaren Referenzzeiträumen. Bei einer aggregierten Meldung gemäß Artikel 7 der vorliegenden Verordnung ist die Gesamtzahl der betroffenen Transaktionen in allen Finanzunternehmen anzugeben. | Nein | Ja, wenn eine Transak-tion von dem Vorfall betroffen war | Ja, wenn eine Transaktion von dem Vorfall betroffen war | Numerische ganze Zahl"
+          },
+          {
+            "m": "",
+            "t": "Prozentsatz der betroffenen Transaktionen im Verhältnis zur durchschnittlichen Anzahl inländischer und grenzüberschreitender Transaktionen des Finanzunternehmens im Zusammenhang mit der betroffenen Dienstleistung. Finanzunternehmen berücksichtigen die Artikel 1 Absatz 4 und Artikel 9 Absatz 1 Buchstabe d der Delegierten Verordnung (EU) 2024/1772. Ein Finanzunternehmen, das den tatsächlichen Prozentsatz der betroffenen Transaktionen nicht bestimmen kann, verwendet Schätzungen. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung teilt das Finanzunternehmen die Summe aller betroffenen Transaktionen durch die Gesamtzahl der Transaktionen aller betroffenen Finanzunternehmen. | Nein | Ja, wenn eine Transak-tion von dem Vorfall betroffen war | Ja, wenn eine Transaktion von dem Vorfall betroffen war | Wird als Prozentwert mitgeteilt — ein Wert mit bis zu fünf numerischen Zeichen, die bis zu eine Dezimalstelle umfassen, ausgedrückt als Prozentsatz (z. B. 2,4, nicht 2,4 %). Hat der Wert mehr als eine Stelle nach dem Dezimaltrenn-zeichen, wenden die meldenden Gegenparteien die kaufmännische Rundung an."
+          },
+          {
+            "m": "",
+            "t": "Der Gesamtwert der von dem schwerwiegenden IKT-bezogenen Vorfall betroffenen Transaktionen wird gemäß Artikel 1 Absatz 4 und Artikel 9 Absatz 1 Buchstabe e der Delegierten Verordnung (EU) 2024/1772 ermittelt. Ein Finanzunternehmen, das den tatsächlichen Wert der betroffenen Transaktionen nicht bestimmen kann, verwendet Schätzungen auf der Grundlage verfügbarer Daten aus vergleichbaren Referenzzeiträumen. Ein Finanzunternehmen hat den Geldbetrag als positiven Wert auszuweisen. Bei einer aggregierten Meldung gemäß Artikel 7 der vorliegenden Verordnung der Gesamtwert der betroffenen Transaktionen in allen Finanzunternehmen. | Nein | Ja, wenn Transaktionen von dem Vorfall betroffen waren | Ja, wenn eine Transaktion von dem Vorfall betroffen war | Monetär Finanzunternehmen weisen den Datenpunkt mit einer Mindestpräzision aus, die tausend Einheiten entspricht (z. B. 2,5, nicht 2 500 EUR)."
+          },
+          {
+            "m": "",
+            "t": "Angaben dazu, ob es sich bei den in den Datenfeldern 3.4 bis 3.11 ausgewiesenen Werten um tatsächliche Werte oder Schätzungen handelt oder ob es keine Auswirkungen gegeben hat. | Nein | Ja | Ja | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Angaben zum Reputationsschaden infolge des schwerwiegenden IKT-bezogenen Vorfalls im Sinne der Artikel 2 und 10 der Delegierten Verordnung (EU) 2024/1772. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung die Kategorien von Reputationsschaden, die auf mindestens ein Finanzunternehmen zutreffen. | Nein | Ja, wenn das Kriterium „Reputa-tions-schaden“ erfüllt ist | Ja, wenn das Kriterium „Reputa-tions-schaden“ erfüllt ist | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Angaben dazu, wie der schwerwiegende IKT-bezogene Vorfall die Reputation des Finanzunternehmens beeinträchtigt hat oder beeinträchtigen könnte, einschließlich Verstößen gegen Rechtsvorschriften, nicht erfüllter regulatorischer Anforderungen, Anzahl der Kundenbeschwerden usw. Die kontextbezogenen Angaben umfassen die Art der Medien (z. B. traditionelle und digitale Medien, Blogs, Streaming-Plattformen) und die Medienberichterstattung, einschließlich der Reichweite der Medien (lokal, national, international). Die Medienberichterstattung bezieht sich in diesem Zusammenhang nicht auf vereinzelte negative Kommentare von Followern oder Nutzern sozialer Netzwerke. Das Finanzunternehmen gibt auch an, ob die Medienberichterstattung erhebliche Risiken für seine Kunden im Zusammenhang mit dem schwerwiegenden IKT-bezogenen Vorfall aufgezeigt hat, einschließlich des Risikos der Insolvenz des Finanzunternehmens oder des Risikos, Mittel zu verlieren. Die Finanzunternehmen geben auch an, ob sie den Medien Informationen zur Verfügung gestellt haben, die dazu dienten, die Öffentlichkeit zuverlässig über den schwerwiegenden IKT-bezogenen Vorfall und seine Folgen zu informieren. Die Finanzunternehmen können auch angeben, ob in den Medien im Zusammenhang mit dem IKT-bezogenen Vorfall Falschinformationen verbreitet wurden, worunter auch solche fallen, die sich auf vorsätzlich vom Angreifer verbreitete Falschinformationen stützen, oder die mutwillige Veränderung der Website des Finanzunternehmens betreffen oder zum Ausdruck bringen. | Nein | Ja, wenn das Kriterium „Reputa-tions-schaden“ erfüllt ist | Ja, wenn das Kriterium „Reputa-tions-schaden“ erfüllt ist | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Finanzunternehmen bestimmen die Dauer des schwerwiegenden IKT-bezogenen Vorfalls vom Zeitpunkt des Eintretens des schwerwiegenden IKT-bezogenen Vorfalls bis zu dem Zeitpunkt, zu dem der Vorfall behoben wurde. Finanzunternehmen, die nicht in der Lage sind, den Zeitpunkt zu bestimmen, zu dem der schwerwiegende IKT-bezogene Vorfall eingetreten ist, bestimmen die Dauer des schwerwiegenden IKT-bezogenen Vorfalls ab dem Zeitpunkt, zu dem das Finanzunternehmen den Vorfall festgestellt hat, bis zu dem Zeitpunkt, zu dem das Finanzunternehmen den Vorfall in Netzwerk- oder Systemprotokollen oder anderen Datenquellen aufgezeichnet hat, je nachdem, welcher Zeitpunkt zuerst eintritt. Finanzunternehmen, die den Zeitpunkt der Behebung des schwerwiegenden IKT-bezogenen Vorfalls noch nicht kennen, verwenden Schätzungen. Der Wert ist in Tagen, Stunden und Minuten anzugeben. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung bestimmen Finanzunternehmen bei Unterschieden zwischen den Finanzunternehmen die längste Dauer des schwerwiegenden IKT-bezogenen Vorfalls. | Nein | Ja | Ja | TT:HH:MM"
+          },
+          {
+            "m": "",
+            "t": "Ausfallzeiten, gemessen ab dem Zeitpunkt, zu dem der Dienst für Kunden, Gegenparteien im Finanzbereich oder andere interne oder externe Nutzer vollständig oder teilweise nicht mehr verfügbar ist, bis zu dem Zeitpunkt, zu dem die regulären Tätigkeiten oder Vorgänge in dem vor dem schwerwiegenden IKT-bezogenen Vorfall herrschenden Umfang wiederhergestellt sind. Führen die Ausfallzeiten nach der Wiederherstellung der regulären Tätigkeiten oder Vorgänge zu einer Verzögerung bei der Bereitstellung von Dienstleistungen, so messen die Finanzunternehmen die Ausfallzeiten vom Beginn des schwerwiegenden IKT-bezogenen Vorfalls bis zu dem Zeitpunkt, zu dem die verzögerte Dienstleistung erbracht ist. Finanzunternehmen, die den Beginn der Ausfallzeiten nicht bestimmen können, messen die Dauer der Ausfallzeiten ab dem Zeitpunkt der Feststellung des Vorfalls bis zu dem Zeitpunkt, zu dem sie aufgezeichnet wurde, je nachdem, welcher Zeitpunkt zuerst eintritt. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung bestimmen Finanzunternehmen bei Unterschieden zwischen den Finanzunternehmen die längste Dauer der Ausfallzeiten. | Nein | Ja, wenn der Vorfall zu Ausfall-zeiten geführt hat | Ja, wenn der Vorfall zu Ausfall-zeiten geführt hat | TT:HH:MM"
+          },
+          {
+            "m": "",
+            "t": "Angaben dazu, ob es sich bei den in den Datenfeldern 3.15 und 3.16 ausgewiesenen Werten um tatsächliche Werte oder Schätzungen handelt. | Nein | Ja, wenn das Kriterium „Dauer und Ausfall-zeiten“ erfüllt ist | Ja, wenn das Kriterium „Dauer und Ausfall-zeiten“ erfüllt ist | Auswahl:"
+          },
+          {
+            "m": "",
+            "t": "Art der Auswirkung in den jeweiligen EWR-Mitgliedstaaten. Angabe, ob der schwerwiegende IKT-bezogene Vorfall Auswirkungen in anderen EWR-Mitgliedstaaten (ausgenommen der Mitgliedstaat der zuständigen Behörde, der der Vorfall direkt gemeldet wird) gemäß Artikel 4 der Delegierten Verordnung (EU) 2024/1772 hat und insbesondere im Hinblick auf die Bedeutung der Auswirkungen in Bezug auf: | Nein | Ja, wenn der Schwel-lenwert für „Geogra-fische Ausbrei-tung“ erreicht ist | Ja, wenn der Schwellen-wert für „Geogra-fische Ausbreitung“ erreicht ist | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Beschreibung der Auswirkungen und Schwere des schwerwiegenden IKT-bezogenen Vorfalls in jedem betroffenen Mitgliedstaat, einschließlich einer Bewertung der Auswirkungen und Schwere in Bezug auf: | Nein | Ja, wenn der Schwel-lenwert für „Geogra-fische Ausbrei-tung“ erreicht ist | Ja, wenn der Schwellen-wert für „Geogra-fische Ausbrei-tung“ erreicht ist | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Art der mit dem schwerwiegenden IKT-bezogenen Vorfall verbundenen Verfügbarkeits-, Authentizitäts-, Integritäts- und Vertraulichkeitsverluste von Daten. Finanzunternehmen berücksichtigen bei ihrer Bewertung die Artikel 5 und 13 der Delegierten Verordnung (EU) 2024/1772. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung die Datenverluste, die mindestens ein Finanzunternehmen betreffen. | Nein | Ja, wenn das Kriterium „Daten-verluste“ erfüllt ist | Ja, wenn das Kriterium „Daten-verluste“ erfüllt ist | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Beschreibung der Auswirkungen des schwerwiegenden IKT-bezogenen Vorfalls auf die Verfügbarkeit, Authentizität, Integrität und Vertraulichkeit kritischer Daten gemäß den Artikeln 5 und 13 der Delegierten Verordnung (EU) 2024/1772. Angaben zu den Auswirkungen auf die Umsetzung der Geschäftsziele des Finanzunternehmens oder auf die Erfüllung regulatorischer Anforderungen. Als Teil der bereitgestellten Informationen geben Finanzunternehmen an, ob es sich bei den betroffenen Daten um Kundendaten, Daten anderer Unternehmen (z. B. Gegenparteien im Finanzbereich) oder um Daten des Finanzunternehmens selbst handelt. Das Finanzunternehmen kann auch die Art der von dem Vorfall betroffenen Daten angeben, insbesondere, ob die Daten vertraulich sind und um welche Art von Vertraulichkeit es sich handelt (z. B. Geschäftsgeheimnisse, personenbezogene Daten, Berufsgeheimnis wie etwa Bankgeheimnis, Versicherungsgeheimnis, Zahlungsdienstegeheimnis usw.). Die Informationen können auch mögliche Risiken im Zusammenhang mit den Datenverlusten umfassen, z. B. ob die von dem Vorfall betroffenen Daten zur Identifizierung einzelner Personen verwendet werden können und von dem Angreifer genutzt werden könnten, um Kredite oder Darlehen ohne die Zustimmung dieser Personen zu erhalten, Spear-Phishing-Angriffe durchzuführen oder Informationen öffentlich preiszugeben. Bei einer aggregierten Meldung gemäß Artikel 7 der vorliegenden Verordnung eine allgemeine Beschreibung der Auswirkungen des Vorfalls auf die betroffenen Finanzunternehmen. Gibt es Unterschiede bei den Auswirkungen, so sind in der Beschreibung der Auswirkungen die spezifischen Auswirkungen auf die verschiedenen Finanzunternehmen eindeutig anzugeben. | Nein | Ja, wenn das Kriterium „Daten-verluste“ erfüllt ist | Ja, wenn das Kriterium „Daten-verluste“ erfüllt ist | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Angaben beim Kriterium „Betroffene kritische Dienstleistungen“. Finanzunternehmen berücksichtigen bei ihrer Bewertung Artikel 6 der Delegierten Verordnung (EU) 2024/1772, einschließlich Informationen über Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung die Auswirkungen auf kritische Dienstleistungen, die auf mindestens ein Finanzunternehmen zutreffen. | Nein | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Einstufung der Vorfälle nach Art. | Nein | Ja | Ja | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Andere Arten von IKT-bezogenen Vorfällen: Finanzunternehmen, die im Datenfeld 3.23 „Sonstiges“ als Art des Vorfalls ausgewählt haben, geben die Art des IKT-bezogenen Vorfalls an. | Nein | Ja, wenn in Datenfeld 3.23 „Sonsti-ges“ als Art des Vorfalls ausge-wählt wurde | Ja, wenn in Datenfeld 3.23 „Sonstiges“ als Art des Vorfalls ausgewählt wurde | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Geben Sie die Bedrohungen und Techniken an, die der Angreifer einsetzt, wie zum Beispiel: | Nein | Ja, wenn als Art des IKT-bezogenen Vorfalls in Feld 3.23 „Cyber-sicher-heitsbezo-gen“ ausge-wählt wurde | Ja, wenn als Art des IKT-bezogenen Vorfalls in Feld 3.23 „Cyber-sicherheits-bezogen“ ausgewählt wurde | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Andere Arten von Techniken Finanzunternehmen, die im Datenfeld 3.25 „Sonstiges“ als Art der Technik ausgewählt haben, geben die Art der Technik an. | Nein | Ja, wenn in Datenfeld 3.25 „Sonstiges“ als Art der Technik ausge-wählt wurde | Ja, wenn in Datenfeld 3.25 „Sonstiges“ als Art der Technik ausgewählt wurde | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Angabe der Funktionsbereiche und Geschäftsprozesse, die von dem Vorfall betroffen sind, einschließlich Produkten und Dienstleistungen. Die Funktionsbereiche umfassen unter anderem: Die Geschäftsprozesse umfassen unter anderem: Bei einer aggregierten Meldung gemäß Artikel 7 der vorliegenden Verordnung die betroffenen Funktionsbereiche und Geschäftsprozesse bei mindestens einem Finanzunternehmen. | Nein | Ja | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Angaben dazu, ob Infrastrukturkomponenten (Server, Betriebssysteme, Software, Anwendungsserver, Middleware, Netzwerkkomponenten usw.), die Geschäftsprozesse unterstützen, von dem schwerwiegenden IKT-bezogenen Vorfall betroffen sind. | Nein | Ja | Ja | Auswahl:"
+          },
+          {
+            "m": "",
+            "t": "Beschreibung der Auswirkungen des schwerwiegenden IKT-bezogenen Vorfalls auf Infrastrukturkomponenten, die Geschäftsprozesse unterstützen, einschließlich Hardware und Software. Hardware umfasst Server, Computer, Rechenzentren, Switches, Router und Hubs. Software umfasst Betriebssysteme, Anwendungen, Datenbanken, Sicherheitstools und Netzwerkkomponenten. Bei „Sonstiges“ bitte Angaben machen. In den Beschreibungen sind die betroffenen Infrastrukturkomponenten oder -systeme zu beschreiben oder zu benennen und, soweit verfügbar, folgende Angaben zu machen: | Nein | Ja, wenn der Vorfall Infra-struktur-komponenten beein-trächtigt hat, die Geschäfts-prozesse unter-stützen | Ja, wenn der Vorfall Infra-struktur-kompo-nenten beeinträch-tigt hat, die Geschäfts-prozesse unterstützen | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Angaben dazu, ob sich der schwerwiegende IKT-bezogene Vorfall auf die finanziellen Interessen der Kunden ausgewirkt hat. | Nein | Ja | Ja | Auswahl:"
+          },
+          {
+            "m": "",
+            "t": "Angabe, welche Behörden über den schwerwiegenden IKT-bezogenen Vorfall informiert wurden. Unter Berücksichtigung der Unterschiede, die sich aus den nationalen Rechtsvorschriften der Mitgliedstaaten ergeben, ist der Begriff der Strafverfolgungsbehörde von den Finanzunternehmen im weitesten Sinne so zu verstehen, dass er Behörden umfasst, die zur Verfolgung von Cyberkriminalität befugt sind, einschließlich Polizei, Organe zur Aufrechterhaltung der öffentlichen Ordnung und Staatsanwaltschaften. | Nein | Ja | Ja | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Angabe, welche „anderen“ Behörden über den schwerwiegenden IKT-bezogenen Vorfall informiert wurden. Falls in Datenfeld 3.31 „Andere“ ausgewählt wurde: In die Beschreibung sind nähere Informationen über die Behörde, der das Finanzunternehmen Informationen über den schwerwiegenden IKT-bezogenen Vorfall übermittelt hat, aufzunehmen. | Nein | Ja, wenn das Finanz-unterneh-men „andere“ Behörden über den schwer-wiegenden IKT-bezogenen Vorfall informiert hat | Ja, wenn das Finanzun-ternehmen „andere“ Behörden über den schwer-wiegenden IKT-bezogenen Vorfall informiert hat | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Angabe, ob das Finanzunternehmen befristete Maßnahmen umgesetzt hat (oder dies plant), die ergriffen wurden (oder geplant sind), um den normalen Geschäftsbetrieb nach dem schwerwiegenden IKT-bezogenen Vorfall wiederherzustellen. | Nein | Ja | Ja | Boolesch (Ja oder Nein)"
+          },
+          {
+            "m": "",
+            "t": "Es ist zu beschreiben, welche Sofortmaßnahmen ergriffen wurden, einschließlich der Isolierung des Vorfalls auf Netzwerkebene, der Aktivierung von Workaround-Verfahren, der Sperrung von USB-Ports, der Aktivierung der Site für die Wiederherstellung im Notfall und anderer vorübergehend eingerichteter zusätzlicher Sicherheitsmechanismen. Finanzunternehmen geben das Datum und die Uhrzeit der Umsetzung der befristeten Maßnahmen sowie den voraussichtlichen Zeitpunkt der Rückkehr zur primären Site an. Bei befristeten Maßnahmen, die nicht umgesetzt wurden, aber noch geplant sind, ist das Datum anzugeben, bis zu dem sie voraussichtlich umgesetzt werden. Falls keine befristeten Maßnahmen ergriffen wurden, bitte den Grund angeben. | Nein | Ja, wenn befristete Maß-nahmen ergriffen wurden oder geplant sind (Daten-feld 3.33) | Ja, wenn befristete Maßnahmen ergriffen wurden oder geplant sind (Daten-feld 3.33) | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Gegebenenfalls Informationen im Zusammenhang mit dem schwerwiegenden IKT-bezogenen Vorfall, die dazu beitragen können, böswillige Aktivitäten innerhalb eines Netzwerks oder Informationssystems zu erkennen (Kompromittierungsindikatoren). Das Feld betrifft nur Finanzunternehmen, die in den Anwendungsbereich der Richtlinie (EU) 2022/2555 des Europäischen Parlaments und des Rates () fallen, und Finanzunternehmen, die gegebenenfalls gemäß den nationalen Vorschriften zur Umsetzung des Artikels 3 der Richtlinie (EU) 2022/2555 als wesentliche oder wichtige Unternehmen ermittelt wurden. Die von dem Finanzunternehmen bereitgestellten Kompromittierungsindikatoren enthalten die folgenden Datenkategorien: Diese Art von Informationen kann in der Praxis Daten umfassen, die sich unter anderem auf Indikatoren, die Muster im Netzwerkverkehr im Zusammenhang mit bekannten Angriffen/Botnetkommunikation beschreiben, IP-Adressen von mit Schadsoftware infizierten Rechnern (Bots), Daten über von Schadsoftware genutzte „Command and Control“-Server (in der Regel Domains oder IP-Adressen) und URLs in Bezug auf Phishing-Websites oder Websites, bei denen beobachtet wurde, dass sie für das Hosting von Schadsoftware oder Exploit Kits genutzt werden, beziehen. | Nein | Ja, wenn „Cyber-sicher-heitsbe-zogen“ als Art des Vorfalls in Datenfeld 3.23 ausge-wählt wurde | Ja, wenn „Cyber-sicherheits-bezogen“ als Art des Vorfalls in Daten-feld 3.23 ausgewählt wurde | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Inhalt der Abschlussmeldung"
+          },
+          {
+            "m": "",
+            "t": "Übergeordnete Einstufung der Ursache des schwerwiegenden IKT-bezogenen Vorfalls bei den Arten von Vorfällen, einschließlich der folgenden übergeordneten Kategorien: | Nein | Nein | Ja | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Detaillierte Einstufung der Ursachen des schwerwiegenden IKT-bezogenen Vorfalls bei den Arten von Vorfällen, einschließlich der folgenden detaillierten Kategorien im Zusammenhang mit den in Datenfeld 4.1 ausgewiesenen übergeordneten Kategorien: Finanzunternehmen achten darauf, dass bei wiederholten schwerwiegenden IKT-bezogenen Vorfällen die spezifische offensichtliche Ursache des Sicherheitsvorfalls und nicht die in diesem Feld enthaltenen allgemeinen Kategorien berücksichtigt werden. | Nein | Nein | Ja | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Weitergehende Einstufung der Ursachen des schwerwiegenden IKT-bezogenen Vorfalls bei der Art des Vorfalls, einschließlich der folgenden weitergehenden Einstufungskategorien im Zusammenhang mit den in Datenfeld 4.2 ausgewiesenen detaillierten Kategorien Das Feld ist bei der Abschlussmeldung ein Pflichtfeld, wenn bestimmte Kategorien, die weiter ausgeführt werden müssen, in Datenfeld 4.2 angegeben werden. | Nein | Nein | Ja | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Finanzunternehmen, die in Datenfeld 4.2 „Sonstiges“ als Art der Ursache ausgewählt haben, geben die anderen Arten von Ursachen an. | Nein | Nein | Ja, wenn in Datenfeld 4.2 „Sonstiges“ als Art der Ursache ausgewählt wurde. | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Beschreibung der Abfolge der Ereignisse, die zu dem schwerwiegenden IKT-bezogenen Vorfall geführt haben, und Beschreibung, wie der schwerwiegende IKT-bezogene Vorfall eine offensichtlich ähnliche Ursache hat, wenn dieser Sicherheitsvorfall als wiederholter Vorfall eingestuft wird, einschließlich einer kurzen Beschreibung aller zugrunde liegenden Gründe und Hauptfaktoren, die zum Eintreten des schwerwiegenden IKT-bezogenen Vorfalls beigetragen haben. Bei böswilligen Handlungen Beschreibung des Mechanismus der böswilligen Handlung, einschließlich der verwendeten Taktiken, Techniken und Verfahren, sowie des Eintrittsvektors des schwerwiegenden IKT-bezogenen Vorfalls, gegebenenfalls einschließlich einer Beschreibung der Untersuchungen und Analysen, die zur Ermittlung der Ursachen geführt haben. | Nein | Nein | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Zusätzliche Angaben zu den Maßnahmen, die ergriffen wurden/geplant sind, um den schwerwiegenden IKT-bezogenen Vorfall dauerhaft zu beheben und zu verhindern, dass sich dieser Vorfall erneut ereignet. Aus dem schwerwiegenden IKT-bezogenen Vorfall gewonnene Erkenntnisse. Die Beschreibung muss folgende Punkte enthalten: | Nein | Nein | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Datum und Uhrzeit der Behebung der Ursache des Vorfalls. | Nein | Nein | Ja | ISO 8601 UTC-Format (JJJJ-MM-TT hh: mm:ss)"
+          },
+          {
+            "m": "",
+            "t": "Datum und Uhrzeit der Behebung des Vorfalls. | Nein | Nein | Ja | ISO 8601 UTC-Format (JJJJ-MM-TT hh: mm:ss)"
+          },
+          {
+            "m": "",
+            "t": "Gegebenenfalls eine Beschreibung des Grundes, warum das Datum der dauerhaften Behebung der schwerwiegenden IKT-bezogenen Vorfälle von dem ursprünglich geplanten Umsetzungsdatum abweicht. | Nein | Nein | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Bewertung, ob der schwerwiegende IKT-bezogene Vorfall ein Risiko für kritische Funktionen im Sinne des Artikels 2 Absatz 1 Nummer 35 der Richtlinie 2014/59/EU des Europäischen Parlaments und des Rates () darstellt. Die in Artikel 1 Absatz 1 der Richtlinie 2014/59/EU genannten Unternehmen geben an, ob der in der Vorlage Z07.01 der Durchführungsverordnung (EU) 2018/1624 der Kommission () gemeldete und dem betreffenden Unternehmen in der Vorlage Z07.02 zugeordnete Vorfall ein Risiko für kritische Funktionen im Sinne des Artikels 2 Absatz 1 Nummer 35 der Richtlinie 2014/59/EU darstellt. | Nein | Nein | Ja, wenn der Vorfall ein Risiko für kritische Funktionen von Finanz-unterneh-men im Sinne des Artikels 2 Absatz 1 Nummer 35 der Richtlinie 2014/59/EU darstellt | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Beschreibung, ob und, wenn ja, wie sich der schwerwiegende IKT-bezogene Vorfall auf die Abwicklungsfähigkeit des Unternehmens oder der Gruppe ausgewirkt hat. Die in Artikel 1 Absatz 1 der Richtlinie 2014/59/EU genannten Unternehmen stellen Informationen darüber bereit, ob und, wenn ja, wie sich der schwerwiegende IKT-bezogene Vorfall auf die Abwicklungsfähigkeit des Unternehmens oder der Gruppe ausgewirkt hat. Diese Unternehmen geben auch an, ob sich der schwerwiegende IKT-bezogene Vorfall auf die Solvenz oder Liquidität des Finanzunternehmens auswirkt, und geben die potenzielle Quantifizierung der Auswirkungen an. Diese Unternehmen machen auch Angaben zu den Auswirkungen auf die Aufrechterhaltung des Geschäftsbetriebs, den Auswirkungen auf die Abwicklungsfähigkeit des Unternehmens, etwaigen weitergehenden Auswirkungen des schwerwiegenden IKT-bezogenen Vorfalls auf die Kosten und Verluste, einschließlich der Kapitalposition des Finanzunternehmens, und geben an, ob die vertraglichen Vereinbarungen über die Nutzung von IKT-Diensten im Falle einer Abwicklung des Unternehmens nach wie vor robust und uneingeschränkt durchsetzbar sind. | Nein | Nein | Ja, wenn der Vorfall die Abwick-lungsfähig-keit des Unterneh-mens oder der Gruppe beeinträch-tigt hat | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Detaillierte Informationen über Schwellenwerte, die der schwerwiegende IKT-bezogene Vorfall am Ende erreicht hat, in Bezug auf das in den Artikeln 7 und 14 der Delegierten Verordnung (EU) 2024/1772 genannte Kriterium „Wirtschaftliche Auswirkungen“. | Nein | Nein | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Gesamtbetrag der direkten und indirekten Bruttokosten und Verluste, die dem Finanzunternehmen aufgrund des schwerwiegenden IKT-bezogenen Vorfalls entstanden sind, einschließlich Finanzunternehmen berücksichtigen bei ihrer Bewertung Artikel 7 Absätze 1 und 2 der Delegierten Verordnung (EU) 2024/1772. Finanzunternehmen dürfen in diesen Wert keine wie auch immer gearteten Rückflüsse einbeziehen. Finanzunternehmen weisen den Geldbetrag als positiven Wert aus. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung berücksichtigen Finanzunternehmen den Gesamtbetrag der Kosten und Verluste in allen Finanzunternehmen. Finanzunternehmen weisen den Datenpunkt mit einer Mindestpräzision aus, die tausend Einheiten entspricht. | Nein | Nein | Ja | Monetär"
+          },
+          {
+            "m": "",
+            "t": "Gesamtbetrag der finanziellen Rückflüsse. Finanzielle Rückflüsse müssen sich auf den ursprünglichen Verlust beziehen, der durch das Ereignis verursacht wurde, unabhängig davon, wann sie in Form von Geldern oder Zuflüssen wirtschaftlichen Nutzens vereinnahmt werden. Finanzunternehmen weisen den Geldbetrag als positiven Wert aus. Bei einer aggregierten Meldung gemäß Artikel 7 dieser Verordnung berücksichtigen Finanzunternehmen den Gesamtbetrag der finanziellen Rückflüsse in allen Finanzunternehmen. | Nein | Nein | Ja | Monetär Finanzunternehmen weisen den Datenpunkt mit einer Mindestpräzision aus, die tausend Einheiten entspricht."
+          },
+          {
+            "m": "",
+            "t": "Angaben dazu, ob ein nicht schwerwiegender IKT-bezogener Vorfall wiederholt eingetreten ist und diese Vorfälle zusammen als schwerwiegender Vorfall im Sinne des Artikels 8 Absatz 2 der Delegierten Verordnung (EU) 2024/1772 zu betrachten sind. Finanzunternehmen geben an, ob sich die nicht schwerwiegenden IKT-bezogenen Vorfälle wiederholt haben und zusammen als ein schwerwiegender IKT-bezogener Vorfall zu betrachten sind. Finanzunternehmen geben auch an, wie oft diese nicht schwerwiegenden IKT-bezogenen Vorfälle eingetreten sind. | Nein | Nein | Ja, wenn der schwer-wiegende Vorfall mehr als einen nicht schwer-wiegenden wieder-holten Vorfall umfasst | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Wenn Finanzunternehmen wiederholte IKT-bezogene Vorfälle melden, Datum und Uhrzeit des ersten IKT-bezogenen Vorfalls. | Nein | Nein | Ja, bei wieder-holten Vorfällen | ISO 8601 UTC-Format (JJJJ-MM-TT hh: mm:ss)"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "(1) Richtlinie (EU) 2022/2555 des Europäischen Parlaments und des Rates vom 14. Dezember 2022 über Maßnahmen für ein hohes gemeinsames Cybersicherheitsniveau in der Union, zur Änderung der Verordnung (EU) Nr. 910/2014 und der Richtlinie (EU) 2018/1972 sowie zur Aufhebung der Richtlinie (EU) 2016/1148 (NIS-2-Richtlinie) (ABl. L 333 vom 27.12.2022, S. 80, ELI: http://data.europa.eu/eli/dir/2022/2555/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(2) Richtlinie 2014/59/EU des Europäischen Parlaments und des Rates vom 15. Mai 2014 zur Festlegung eines Rahmens für die Sanierung und Abwicklung von Kreditinstituten und Wertpapierfirmen und zur Änderung der Richtlinie 82/891/EWG des Rates, der Richtlinien 2001/24/EG, 2002/47/EG, 2004/25/EG, 2005/56/EG, 2007/36/EG, 2011/35/EU, 2012/30/EU und 2013/36/EU sowie der Verordnungen (EU) Nr. 1093/2010 und (EU) Nr. 648/2012 des Europäischen Parlaments und des Rates (ABl. L 173 vom 12.6.2014, S. 190, ELI: http://data.europa.eu/eli/dir/2014/59/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(3) Durchführungsverordnung (EU) 2018/1624 der Kommission vom 23. Oktober 2018 zur Festlegung technischer Durchführungsstandards in Bezug auf Verfahren, Standardformulare und Meldebögen für die Bereitstellung von Informationen für die Erstellung von Abwicklungsplänen für Kreditinstitute und Wertpapierfirmen gemäß der Richtlinie 2014/59/EU des Europäischen Parlaments und des Rates und zur Aufhebung der Durchführungsverordnung (EU) 2016/1066 der Kommission (ABl. L 277 vom 7.11.2018, S. 1, ELI: http://data.europa.eu/eli/reg_impl/2018/1624/oj)."
+      }
+    ]
+  },
+  "anx_III": {
+    "h": "431a380e898d57e174cd4ef816acea77",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Feldnummer | Datenfeld"
+          },
+          {
+            "m": "",
+            "t": "1 | Name des Unternehmens, das die Meldung übermittelt"
+          },
+          {
+            "m": "",
+            "t": "2 | Identifikationscode des Unternehmens, das die Meldung übermittelt"
+          },
+          {
+            "m": "",
+            "t": "3 | Art des Finanzunternehmens, das die Meldung übermittelt"
+          },
+          {
+            "m": "",
+            "t": "4 | Name des Finanzunternehmens"
+          },
+          {
+            "m": "",
+            "t": "5 | LEI-Code des Finanzunternehmens"
+          },
+          {
+            "m": "",
+            "t": "6 | Name des Hauptansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "7 | E-Mail-Adresse des Hauptansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "8 | Telefonnummer des Hauptansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "9 | Name des zweiten Ansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "10 | E-Mail-Adresse des zweiten Ansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "11 | Telefonnummer des zweiten Ansprechpartners"
+          },
+          {
+            "m": "",
+            "t": "12 | Datum und Uhrzeit der Feststellung der Cyberbedrohung"
+          },
+          {
+            "m": "",
+            "t": "13 | Beschreibung der erheblichen Cyberbedrohung"
+          },
+          {
+            "m": "",
+            "t": "14 | Angaben zu möglichen Auswirkungen"
+          },
+          {
+            "m": "",
+            "t": "15 | Kriterien für die Einstufung potenzieller Vorfälle"
+          },
+          {
+            "m": "",
+            "t": "16 | Status der Cyberbedrohung"
+          },
+          {
+            "m": "",
+            "t": "17 | Zur Verhinderung des Eintretens ergriffene Maßnahmen"
+          },
+          {
+            "m": "",
+            "t": "18 | Benachrichtigung anderer Beteiligter"
+          },
+          {
+            "m": "",
+            "t": "19 | Kompromittierungsindikatoren"
+          },
+          {
+            "m": "",
+            "t": "20 | Sonstige zweckdienliche Angaben"
+          }
+        ]
+      }
+    ]
+  },
+  "anx_IV": {
+    "h": "dc9e82a8a289fd453c849e9a69adb8c5",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Datenfeld | Beschreibung | Pflichtfeld | Feldtyp"
+          },
+          {
+            "m": "",
+            "t": "Vollständige juristische Bezeichnung des Unternehmens, das die Meldung übermittelt. | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Identifikationscode des Unternehmens, das die Meldung übermittelt. Übermitteln Finanzunternehmen die Meldung, ist die Rechtsträgerkennung (Legal Entity Identifier; LEI-Code), ein eindeutiger alphanumerischer 20-stelliger Code nach ISO 17442-1:2020. Übermittelt ein Drittdienstleister eine Meldung für ein Finanzunternehmen, kann er einen Identifikationscode verwenden, der in den gemäß Artikel 28 Absatz 9 der Verordnung (EU) 2022/2554 angenommenen technischen Durchführungsstandards festgelegt ist. | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Art des Unternehmens gemäß Artikel 2 Absatz 1 Buchstaben a bis t der Verordnung (EU) 2022/2554, das die Meldung übermittelt. | Ja, wenn die Meldung nicht direkt von dem betroffenen Finanzunternehmen übermittelt wird | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Vollständige juristische Bezeichnung des Finanzunternehmens, das die erhebliche Cyberbedrohung meldet. | Ja, wenn es sich bei dem Finanzunternehmen nicht um das Unternehmen handelt, das die Meldung übermittelt | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Die nach der Internationalen Organisation für Normung zugewiesene Rechtsträgerkennung (LEI-Code) des Finanzunternehmens, das die erhebliche Cyberbedrohung meldet. | Ja, wenn das Finanzunternehmen, das die erhebliche Cyberbedrohung meldet, nicht mit dem meldenden Unternehmen identisch ist | Eindeutiger alphanumerischer Code mit 20 Zeichen nach ISO 17442-1:2020"
+          },
+          {
+            "m": "",
+            "t": "Vor- und Nachname des Hauptansprechpartners des Finanzunternehmens. | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "E-Mail-Adresse des Hauptansprechpartners, an den sich die zuständige Behörde in der Folgemitteilung wenden kann. | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Telefonnummer des Hauptansprechpartners, an den sich die zuständige Behörde in der Folgemitteilung wenden kann. Die Telefonnummer ist mit allen internationalen Vorwahlen anzugeben (z. B. +33 XXXXXXXXX). | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Vor- und Nachname des zweiten Ansprechpartners des Finanzunternehmens oder des Unternehmens, das die Meldung im Namen des Finanzunternehmens übermittelt. | Ja, wenn Vor- und Nachname des zweiten Ansprechpartners des Finanzunternehmens oder eines Unternehmens, das die Meldung für das Finanzunternehmen übermittelt, vorliegen | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Gegebenenfalls E-Mail-Adresse des zweiten Ansprechpartners oder die funktionale E-Mail-Adresse des Teams, an den bzw. das sich die zuständige Behörde in der Folgemitteilung wenden kann. | Ja, wenn die E-Mail-Adresse des zweiten Ansprechpartners oder die funktionale E-Mail-Adresse des Teams, an den bzw. das sich die zuständige Behörde in der Folgemitteilung wenden kann, vorliegen | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Gegebenenfalls Telefonnummer des zweiten Ansprechpartners, an den sich die zuständige Behörde in der Folgemitteilung wenden kann. Die Telefonnummer ist mit allen internationalen Vorwahlen anzugeben (z. B. +33 XXXXXXXXX). | Ja, wenn die Telefonnummer des zweiten Ansprechpartners, an den sich die zuständige Behörde in der Folgemitteilung wenden kann, vorliegt | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Datum und Uhrzeit der Kenntnisnahme der erheblichen Cyberbedrohung durch das Finanzunternehmen. | Ja | ISO 8601 UTC-Format (JJJJ-MM-TT hh: mm:ss)"
+          },
+          {
+            "m": "",
+            "t": "Beschreibung der wichtigsten Aspekte der erheblichen Cyberbedrohung. Finanzunternehmen übermitteln folgende Informationen: | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Angaben zu den möglichen Auswirkungen der Cyberbedrohung auf das Finanzunternehmen, seine Kunden oder Gegenparteien im Finanzbereich, wenn die Cyberbedrohung eingetreten ist | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Die Einstufungskriterien, die eine Meldung über einen schwerwiegenden Vorfall hätten auslösen können, wenn die Cyberbedrohung eingetreten wäre. | Ja | Auswahl (Mehrfachauswahl):"
+          },
+          {
+            "m": "",
+            "t": "Angaben zum Status der Cyberbedrohung für das Finanzunternehmen und dazu, ob sich die Bedrohungsaktivität verändert hat. Wenn die Cyberbedrohung nicht mehr mit den Informationssystemen des Finanzunternehmens kommuniziert, kann der Status auf inaktiv gesetzt werden. Liegen dem Finanzunternehmen Informationen darüber vor, dass die Bedrohung gegen andere Parteien oder das Finanzsystem insgesamt aktiv bleibt, ist der Status als aktiv zu kennzeichnen. | Ja | Auswahl:"
+          },
+          {
+            "m": "",
+            "t": "Gegebenenfalls detaillierte Informationen über die Maßnahmen, die das Finanzunternehmen ergriffen hat, um das Eintreten der erheblichen Cyberbedrohungen zu verhindern. | Ja | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Angaben zur Benachrichtigung anderer Finanzunternehmen oder Behörden über die Cyberbedrohung. | Ja, wenn andere Finanzunternehmen oder Behörden über die Cyberbedrohung informiert wurden | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Gegebenenfalls Informationen im Zusammenhang mit der erheblichen Cyberbedrohung, die dazu beitragen können, böswillige Aktivitäten innerhalb eines Netzwerks oder Informationssystems zu erkennen (Kompromittierungsindikatoren). Die von dem Finanzunternehmen bereitgestellten Kompromittierungsindikatoren können unter anderem die folgenden Datenkategorien enthalten: Diese Art von Informationen kann Daten umfassen, die sich unter anderem auf Indikatoren, die Muster im Netzwerkverkehr im Zusammenhang mit bekannten Angriffen/Botnetkommunikation beschreiben, IP-Adressen von mit Schadsoftware infizierten Rechnern (Bots), Daten über von Schadsoftware genutzte „Command and Control“-Server (in der Regel Domains oder IP-Adressen) und URLs in Bezug auf Phishing-Websites oder Websites, bei denen beobachtet wurde, dass sie für das Hosting von Schadsoftware oder Exploit Kits genutzt wird, beziehen. | Ja, wenn Informationen über Kompromittierungs-indikatoren im Zusammenhang mit der Cyberbedrohung verfügbar sind | Alphanumerisch"
+          },
+          {
+            "m": "",
+            "t": "Sonstige zweckdienliche Angaben zu der erheblichen Cyberbedrohung. | Ja, falls zutreffend und wenn andere Informationen verfügbar sind, die nicht in der Vorlage ausgewiesen sind. | Alphanumerisch"
+          }
+        ]
+      }
+    ]
+  },
   "art_2": {
     "h": "5d95e468015c7053e1b4f85006510585",
     "b": [

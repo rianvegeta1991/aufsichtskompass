@@ -1,0 +1,19 @@
+{
+  "regelwerk": "sii-dvo",
+  "fassungen": [
+    {
+      "id": "2025-06-13",
+      "stand": "Fri, 13 Jun 2025 07:06:40 GMT",
+      "abgerufen": "2026-10-08T20:01:27Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32015R0035",
+        "celex": "32015R0035",
+        "hinweis": "Ursprungsfassung der Delegierten Verordnung (ABl. L 12 vom 17.01.2015) – spätere Änderungen sind NICHT eingearbeitet. Die geltende konsolidierte Fassung (EUR-Lex: 02015R0035-20241114) weicht ab; eine weitere Änderung gilt ab 30.01.2027 (02015R0035-20270130). Für Aussagen zum geltenden Recht die konsolidierte Fassung heranziehen. Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20250613090640000\"",
+      "hash": "558102017774518c806f609b23127b95e87baf9f771178559bef29fca32806ad",
+      "fundstellen": 1273
+    }
+  ]
+}

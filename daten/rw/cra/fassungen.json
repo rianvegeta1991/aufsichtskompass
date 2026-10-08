@@ -1,0 +1,19 @@
+{
+  "regelwerk": "cra",
+  "fassungen": [
+    {
+      "id": "2024-11-25",
+      "stand": "Mon, 25 Nov 2024 16:45:08 GMT",
+      "abgerufen": "2026-10-08T20:01:30Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32024R2847",
+        "celex": "32024R2847",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20241125174508000\"",
+      "hash": "80e8942bb4fd0a86312dec76804929bfe3130eb4fa215da1cba4c1ddadca938c",
+      "fundstellen": 449
+    }
+  ]
+}

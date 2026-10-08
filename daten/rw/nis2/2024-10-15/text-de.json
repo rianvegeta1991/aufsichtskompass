@@ -2925,6 +2925,520 @@
       }
     ]
   },
+  "anx_I": {
+    "h": "0a22ade7daf83229b90a49194967606e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Sektor | Teilsektor | Art der Einrichtung"
+          },
+          {
+            "m": "",
+            "t": "Kreditinstitute im Sinne von Artikel 4 Nummer 1 der Verordnung (EU) Nr. 575/2013 des Europäischen Parlaments und des Rates ()"
+          },
+          {
+            "m": "",
+            "t": "Lieferanten von und Unternehmen der Versorgung mit „Wasser für den menschlichen Gebrauch“ im Sinne des Artikels 2 Nummer 1 Buchstabe a der Richtlinie (EU) 2020/2184 des Europäischen Parlaments und des Rates (), jedoch unter Ausschluss der Lieferanten, für die die Lieferung von Wasser für den menschlichen Gebrauch ein nicht wesentlicher Teil ihrer allgemeinen Tätigkeit der Lieferung anderer Rohstoffe und Güter ist"
+          },
+          {
+            "m": "",
+            "t": "Unternehmen, die kommunales Abwasser, häusliches Abwasser oder industrielles Abwasser im Sinne des Artikels 2 Nummern 1, 2 und 3 der Richtlinie 91/271/EWG des Rates () sammeln, entsorgen oder behandeln, jedoch unter Ausschluss der Unternehmen, für die das Sammeln, die Entsorgung oder die Behandlung solchen Abwassers ein nicht wesentlicher Teil ihrer allgemeinen Tätigkeit ist"
+          },
+          {
+            "m": "",
+            "t": "Betreiber von Bodeninfrastrukturen, die sich im Eigentum von Mitgliedstaaten oder privaten Parteien befinden und von diesen verwaltet und betrieben werden und die Erbringung von weltraumgestützten Diensten unterstützen, ausgenommen Anbieter öffentlicher elektronischer Kommunikationsnetze"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "(1) Richtlinie (EU) 2019/944 des Europäischen Parlaments und des Rates vom 5. Juni 2019 mit gemeinsamen Vorschriften für den Elektrizitätsbinnenmarkt und zur Änderung der Richtlinie 2012/27/EU (ABl. L 158 vom 14.6.2019, S. 125)."
+      },
+      {
+        "art": "p",
+        "t": "(2) Verordnung (EU) 2019/943 des Europäischen Parlaments und des Rates vom 5. Juni 2019 über den Elektrizitätsbinnenmarkt (ABl. L 158 vom 14.6.2019, S. 54)."
+      },
+      {
+        "art": "p",
+        "t": "(3) Richtlinie (EU) 2018/2001 des Europäischen Parlaments und des Rates vom 11. Dezember 2018 zur Förderung der Nutzung von Energie aus erneuerbaren Quellen (ABl. L 328 vom 21.12.2018, S. 82)."
+      },
+      {
+        "art": "p",
+        "t": "(4) Richtlinie 2009/119/EG des Rates vom 14. September 2009 zur Verpflichtung der Mitgliedstaaten, Mindestvorräte an Erdöl und/oder Erdölerzeugnissen zu halten (ABl. L 265 vom 9.10.2009, S. 9)."
+      },
+      {
+        "art": "p",
+        "t": "(5) Richtlinie 2009/73/EG des Europäischen Parlaments und des Rates vom 13. Juli 2009 über gemeinsame Vorschriften für den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 2003/55/EG (ABl. L 211 vom 14.8.2009, S. 94)."
+      },
+      {
+        "art": "p",
+        "t": "(6) Richtlinie 2009/12/EG des Europäischen Parlaments und des Rates vom 11. März 2009 über Flughafenentgelte (ABl. L 70 vom 14.3.2009, S. 11)."
+      },
+      {
+        "art": "p",
+        "t": "(7) Verordnung (EU) Nr. 1315/2013 des Europäischen Parlaments und des Rates vom 11. Dezember 2013 über Leitlinien der Union für den Aufbau eines transeuropäischen Verkehrsnetzes und zur Aufhebung des Beschlusses Nr. 661/2010/EU (ABl. L 348 vom 20.12.2013, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(8) Verordnung (EG) Nr. 549/2004 des Europäischen Parlaments und des Rates vom 10. März 2004 zur Festlegung des Rahmens für die Schaffung eines einheitlichen europäischen Luftraums („Rahmenverordnung“) (ABl. L 96 vom 31.3.2004, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(9) Richtlinie 2012/34/EU des Europäischen Parlaments und des Rates vom 21. November 2012 zur Schaffung eines einheitlichen europäischen Eisenbahnraums (ABl. L 343 vom 14.12.2012, S. 32)."
+      },
+      {
+        "art": "p",
+        "t": "(10) Verordnung (EG) Nr. 725/2004 des Europäischen Parlaments und des Rates vom 31. März 2004 zur Erhöhung der Gefahrenabwehr auf Schiffen und in Hafenanlagen (ABl. L 129 vom 29.4.2004, S. 6)."
+      },
+      {
+        "art": "p",
+        "t": "(11) Richtlinie 2005/65/EG des Europäischen Parlaments und des Rates vom 26. Oktober 2005 zur Erhöhung der Gefahrenabwehr in Häfen (ABl. L 310 vom 25.11.2005, S. 28)."
+      },
+      {
+        "art": "p",
+        "t": "(12) Richtlinie 2002/59/EG des Europäischen Parlaments und des Rates vom 27. Juni 2002 über die Einrichtung eines gemeinschaftlichen Überwachungs- und Informationssystems für den Schiffsverkehr und zur Aufhebung der Richtlinie 93/75/EWG des Rates (ABl. L 208 vom 5.8.2002, S. 10)."
+      },
+      {
+        "art": "p",
+        "t": "(13) Delegierte Verordnung (EU) 2015/962 der Kommission vom 18. Dezember 2014 zur Ergänzung der Richtlinie 2010/40/EU des Europäischen Parlaments und des Rates hinsichtlich der Bereitstellung EU-weiter Echtzeit-Verkehrsinformationsdienste (ABl. L 157 vom 23.6.2015, S. 21)."
+      },
+      {
+        "art": "p",
+        "t": "(14) Richtlinie 2010/40/EU des Europäischen Parlaments und des Rates vom 7. Juli 2010 zum Rahmen für die Einführung intelligenter Verkehrssysteme im Straßenverkehr und für deren Schnittstellen zu anderen Verkehrsträgern (ABl. L 207 vom 6.8.2010, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(15) Verordnung (EU) Nr. 575/2013 des Europäischen Parlaments und des Rates vom 26. Juni 2013 über Aufsichtsanforderungen an Kreditinstitute und zur Änderung der Verordnung (EU) Nr. 648/2012 (ABl. L 176 vom 27.6.2013, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(16) Richtlinie 2014/65/EU des Europäischen Parlaments und des Rates vom 15. Mai 2014 über Märkte für Finanzinstrumente sowie zur Änderung der Richtlinien 2002/92/EG und 2011/61/EU (ABl. L 173 vom 12.6.2014, S. 349)."
+      },
+      {
+        "art": "p",
+        "t": "(17) Verordnung (EU) Nr. 648/2012 des Europäischen Parlaments und des Rates vom 4. Juli 2012 über OTC-Derivate, zentrale Gegenparteien und Transaktionsregister (ABl. L 201 vom 27.7.2012, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(18) Richtlinie 2011/24/EU des Europäischen Parlaments und des Rates vom 9. März 2011 über die Ausübung der Patientenrechte in der grenzüberschreitenden Gesundheitsversorgung (ABl. L 88 vom 4.4.2011, S. 45)."
+      },
+      {
+        "art": "p",
+        "t": "(19) Verordnung (EU) 2022/2371 des Europäischen Parlaments und des Rates vom 23. November 2022 zu schwerwiegenden grenzüberschreitenden Gesundheitsgefahren und zur Aufhebung des Beschlusses Nr. 1082/2013/EU (ABl. L 314 vom 6.12.2022, S. 26)."
+      },
+      {
+        "art": "p",
+        "t": "(20) Richtlinie 2001/83/EG des Europäischen Parlaments und des Rates vom 6. November 2001 zur Schaffung eines Gemeinschaftskodexes für Humanarzneimittel (ABl. L 311 vom 28.11.2001, S. 67)."
+      },
+      {
+        "art": "p",
+        "t": "(21) Verordnung (EU) 2022/123 des Europäischen Parlaments und des Rates vom 25. Januar 2022 zu einer verstärkten Rolle der Europäischen Arzneimittel-Agentur bei der Krisenvorsorge und -bewältigung in Bezug auf Arzneimittel und Medizinprodukte (ABl. L 20 vom 31.1.2022, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(22) Richtlinie (EU) 2020/2184 des Europäischen Parlaments und des Rates vom 16. Dezember 2020 über die Qualität von Wasser für den menschlichen Gebrauch (ABl. L 435 vom 23.12.2020, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(23) Richtlinie 91/271/EWG des Rates vom 21. Mai 1991 über die Behandlung von kommunalem Abwasser (ABl. L 135 vom 30.5.1991, S. 40)."
+      }
+    ]
+  },
+  "anx_II": {
+    "h": "eb972ddfc6271b3b1c9d204b753e6743",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Sektor | Teilsektor | Art der Einrichtung"
+          },
+          {
+            "m": "",
+            "t": "Anbieter von Postdiensten im Sinne des Artikels 2 Nummer 1a der Richtlinie 97/67/EG, einschließlich Anbieter von Kurierdiensten"
+          },
+          {
+            "m": "",
+            "t": "Unternehmen der Abfallbewirtschaftung im Sinne des Artikels 3 Nummer 9 der Richtlinie 2008/98/EG des Europäischen Parlaments und des Rates (), ausgenommen Unternehmen, für die Abfallbewirtschaftung nicht ihre Hauptwirtschaftstätigkeit ist"
+          },
+          {
+            "m": "",
+            "t": "Unternehmen im Sinne des Artikels 3 Nummern 9 und 14 der Verordnung (EG) Nr. 1907/2006 des Europäischen Parlaments und des Rates (), die Stoffe herstellen und mit Stoffen oder Gemischen handeln, und Unternehmen, die Erzeugnisse im Sinne des Artikels 3 Nummer 3 der genannten Verordnung aus Stoffen oder Gemischen produzieren"
+          },
+          {
+            "m": "",
+            "t": "Lebensmittelunternehmen im Sinne des Artikels 3 Nummer 2 der Verordnung (EG) Nr. 178/2002 des Europäischen Parlaments und des Rates (), die im Großhandel sowie in der industriellen Produktion und Verarbeitung tätig sind"
+          },
+          {
+            "m": "",
+            "t": "Einrichtungen, die Medizinprodukte im Sinne des Artikels 2 Nummer 1 der Verordnung (EU) 2017/745 des Europäischen Parlaments und des Rates () herstellen, und Einrichtungen, die In-vitro-Diagnostika im Sinne des Artikels 2 Nummer 2 der Verordnung (EU) 2017/746 des Europäischen Parlaments und des Rates () herstellen, mit Ausnahme der unter Anhang I Nummer 5 fünfter Gedankenstrich dieser Richtlinie aufgeführten Einrichtungen, die Medizinprodukte herstellen"
+          },
+          {
+            "m": "",
+            "t": "Unternehmen, die eine der Wirtschaftstätigkeiten im Sinne des Abschnitts C Abteilung 26 der Statistischen Systematik der Wirtschaftszweige in der Europäischen Gemeinschaft (NACE Rev. 2) ausüben"
+          },
+          {
+            "m": "",
+            "t": "Unternehmen, die eine der Wirtschaftstätigkeiten im Sinne des Abschnitts C Abteilung 27 der Statistischen Systematik der Wirtschaftszweige in der Europäischen Gemeinschaft (NACE Rev. 2) ausüben"
+          },
+          {
+            "m": "",
+            "t": "Unternehmen, die eine der Wirtschaftstätigkeiten im Sinne des Abschnitts C Abteilung 28 der Statistischen Systematik der Wirtschaftszweige in der Europäischen Gemeinschaft (NACE Rev. 2) ausüben"
+          },
+          {
+            "m": "",
+            "t": "Unternehmen, die eine der Wirtschaftstätigkeiten im Sinne des Abschnitts C Abteilung 29 der Statistischen Systematik der Wirtschaftszweige in der Europäischen Gemeinschaft (NACE Rev. 2) ausüben"
+          },
+          {
+            "m": "",
+            "t": "Unternehmen, die eine der Wirtschaftstätigkeiten im Sinne des Abschnitts C Abteilung 30 der Statistischen Systematik der Wirtschaftszweige in der Europäischen Gemeinschaft (NACE Rev. 2) ausüben"
+          },
+          {
+            "m": "",
+            "t": "Forschungseinrichtungen"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "(1) Richtlinie 2008/98/EG des Europäischen Parlaments und des Rates vom 19. November 2008 über Abfälle und zur Aufhebung bestimmter Richtlinien (ABl. L 312 vom 22.11.2008, S. 3)."
+      },
+      {
+        "art": "p",
+        "t": "(2) Verordnung (EG) Nr. 1907/2006 des Europäischen Parlaments und des Rates vom 18. Dezember 2006 zur Registrierung, Bewertung, Zulassung und Beschränkung chemischer Stoffe (REACH), zur Schaffung einer Europäischen Chemikalienagentur, zur Änderung der Richtlinie 1999/45/EG und zur Aufhebung der Verordnung (EWG) Nr. 793/93 des Rates, der Verordnung (EG) Nr. 1488/94 der Kommission, der Richtlinie 76/769/EWG des Rates sowie der Richtlinien 91/155/EWG, 93/67/EWG, 93/105/EG und 2000/21/EG der Kommission (ABl. L 396 vom 30.12.2006, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(3) Verordnung (EG) Nr. 178/2002 des Europäischen Parlaments und des Rates vom 28. Januar 2002 zur Festlegung der allgemeinen Grundsätze und Anforderungen des Lebensmittelrechts, zur Errichtung der Europäischen Behörde für Lebensmittelsicherheit und zur Festlegung von Verfahren zur Lebensmittelsicherheit (ABl. L 31 vom 1.2.2002, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(4) Verordnung (EU) 2017/745 des Europäischen Parlaments und des Rates vom 5. April 2017 über Medizinprodukte, zur Änderung der Richtlinie 2001/83/EG, der Verordnung (EG) Nr. 178/2002 und der Verordnung (EG) Nr. 1223/2009 und zur Aufhebung der Richtlinien 90/385/EWG und 93/42/EWG des Rates (ABl. L 117 vom 5.5.2017, S. 1)."
+      },
+      {
+        "art": "p",
+        "t": "(5) Verordnung (EU) 2017/746 des Europäischen Parlaments und des Rates vom 5. April 2017 über In-vitro-Diagnostika und zur Aufhebung der Richtlinie 98/79/EG und des Beschlusses 2010/227/EU der Kommission (ABl. L 117 vom 5.5.2017, S. 176)."
+      }
+    ]
+  },
+  "anx_III": {
+    "h": "8303e0ee932a30903076628031acb359",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Richtlinie (EU) 2016/1148 | Vorliegende Richtlinie"
+          },
+          {
+            "m": "",
+            "t": "Artikel 1 Absatz 1 | Artikel 1 Absatz 1"
+          },
+          {
+            "m": "",
+            "t": "Artikel 1 Absatz 2 | Artikel 1 Absatz 2"
+          },
+          {
+            "m": "",
+            "t": "Artikel 1 Absatz 3 | —"
+          },
+          {
+            "m": "",
+            "t": "Artikel 1 Absatz 4 | Artikel 2 Absatz 12"
+          },
+          {
+            "m": "",
+            "t": "Artikel 1 Absatz 5 | Artikel 2 Absatz 13"
+          },
+          {
+            "m": "",
+            "t": "Artikel 1 Absatz 6 | Artikel 2 Absätze 6 und 11"
+          },
+          {
+            "m": "",
+            "t": "Artikel 1 Absatz 7 | Artikel 4"
+          },
+          {
+            "m": "",
+            "t": "Artikel 2 | Artikel 2 Absatz 14"
+          },
+          {
+            "m": "",
+            "t": "Artikel 3 | Artikel 5"
+          },
+          {
+            "m": "",
+            "t": "Artikel 4 | Artikel 6"
+          },
+          {
+            "m": "",
+            "t": "Artikel 5 | —"
+          },
+          {
+            "m": "",
+            "t": "Artikel 6 | —"
+          },
+          {
+            "m": "",
+            "t": "Artikel 7 Absatz 1 | Artikel 7 Absätze 1 und 2"
+          },
+          {
+            "m": "",
+            "t": "Artikel 7 Absatz 2 | Artikel 7 Absatz 4"
+          },
+          {
+            "m": "",
+            "t": "Artikel 7 Absatz 3 | Artikel 7 Absatz 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 8 Absätze 1 bis 5 | Artikel 8 Absätze 1 bis 5"
+          },
+          {
+            "m": "",
+            "t": "Artikel 8 Absatz 6 | Artikel 13 Absatz 4"
+          },
+          {
+            "m": "",
+            "t": "Artikel 8 Absatz 7 | Artikel 8 Absatz 6"
+          },
+          {
+            "m": "",
+            "t": "Artikel 9 Absätze 1, 2 und 3 | Artikel 10 Absätze 1, 2 und 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 9 Absatz 4 | Artikel 10 Absatz 9"
+          },
+          {
+            "m": "",
+            "t": "Artikel 9 Absatz 5 | Artikel 10 Absatz 10"
+          },
+          {
+            "m": "",
+            "t": "Artikel 10 Absätze 1 und 2 und Absatz 3 Unterabsatz 1 | Artikel 13 Absätze 1, 2 und 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 10 Absatz 3 Unterabsatz 2 | Artikel 23 Absatz 9"
+          },
+          {
+            "m": "",
+            "t": "Artikel 11 Absatz 1 | Artikel 14 Absätze 1 und 2"
+          },
+          {
+            "m": "",
+            "t": "Artikel 11 Absatz 2 | Artikel 14 Absatz 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 11 Absatz 3 | Artikel 14 Absatz 4 Unterabsatz 1 Buchstaben a bis q und Buchstabe s und Absatz 7"
+          },
+          {
+            "m": "",
+            "t": "Artikel 11 Absatz 4 | Artikel 14 Absatz 4 Unterabsatz 1 Buchstabe r und Unterabsatz 2"
+          },
+          {
+            "m": "",
+            "t": "Artikel 11 Absatz 5 | Artikel 14 Absatz 8"
+          },
+          {
+            "m": "",
+            "t": "Artikel 12 Absätze 1 bis 5 | Artikel 15 Absätze 1 bis 5"
+          },
+          {
+            "m": "",
+            "t": "Artikel 13 | Artikel 17"
+          },
+          {
+            "m": "",
+            "t": "Artikel 14 Absätze 1 und 2 | Artikel 21 Absätze 1 bis 4"
+          },
+          {
+            "m": "",
+            "t": "Artikel 14 Absatz 3 | Artikel 23 Absatz 1"
+          },
+          {
+            "m": "",
+            "t": "Artikel 14 Absatz 4 | Artikel 23 Absatz 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 14 Absatz 5 | Artikel 23 Absätze 5, 6 und 8"
+          },
+          {
+            "m": "",
+            "t": "Artikel 14 Absatz 6 | Artikel 23 Absatz 7"
+          },
+          {
+            "m": "",
+            "t": "Artikel 14 Absatz 7 | Artikel 23 Absatz 11"
+          },
+          {
+            "m": "",
+            "t": "Artikel 15 Absatz 1 | Artikel 31 Absatz 1"
+          },
+          {
+            "m": "",
+            "t": "Artikel 15 Absatz 2 Unterabsatz 1 Buchstabe a | Artikel 32 Absatz 2 Buchstabe e"
+          },
+          {
+            "m": "",
+            "t": "Artikel 15 Absatz 2 Unterabsatz 1 Buchstabe b | Artikel 32 Absatz 2 Buchstabe g"
+          },
+          {
+            "m": "",
+            "t": "Artikel 15 Absatz 2 Unterabsatz 2 | Artikel 32 Absatz 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 15 Absatz 3 | Artikel 32 Absatz 4 Buchstabe b"
+          },
+          {
+            "m": "",
+            "t": "Artikel 15 Absatz 4 | Artikel 31 Absatz 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 16 Absätze 1 und 2 | Artikel 21 Absätze 1 bis 4"
+          },
+          {
+            "m": "",
+            "t": "Artikel 16 Absatz 3 | Artikel 23 Absatz 1"
+          },
+          {
+            "m": "",
+            "t": "Artikel 16 Absatz 4 | Artikel 23 Absatz 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 16 Absatz 5 | —"
+          },
+          {
+            "m": "",
+            "t": "Artikel 16 Absatz 6 | Artikel 23 Absatz 6"
+          },
+          {
+            "m": "",
+            "t": "Artikel 16 Absatz 7 | Artikel 23 Absatz 7"
+          },
+          {
+            "m": "",
+            "t": "Artikel 16 Absätze 8 und 9 | Artikel 21 Absatz 5 und Artikel 23 Absatz 11"
+          },
+          {
+            "m": "",
+            "t": "Artikel 16 Absatz 10 | —"
+          },
+          {
+            "m": "",
+            "t": "Artikel 16 Absatz 11 | Artikel 2 Absätze 1, 2 und 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 17 Absatz 1 | Artikel 33 Absatz 1"
+          },
+          {
+            "m": "",
+            "t": "Artikel 17 Absatz 2 Buchstabe a | Artikel 32 Absatz 2 Buchstabe e"
+          },
+          {
+            "m": "",
+            "t": "Artikel 17 Absatz 2 Buchstabe b | Artikel 32 Absatz 4 Buchstaben b"
+          },
+          {
+            "m": "",
+            "t": "Artikel 17 Absatz 3 | Artikel 37 Absatz 1 Buchstaben a und b"
+          },
+          {
+            "m": "",
+            "t": "Artikel 18 Absatz 1 | Artikel 26 Absatz 1 Buchstabe b und Absatz 2"
+          },
+          {
+            "m": "",
+            "t": "Artikel 18 Absatz 2 | Artikel 26 Absatz 3"
+          },
+          {
+            "m": "",
+            "t": "Artikel 18 Absatz 3 | Artikel 26 Absatz 4"
+          },
+          {
+            "m": "",
+            "t": "Artikel 19 | Artikel 25"
+          },
+          {
+            "m": "",
+            "t": "Artikel 20 | Artikel 30"
+          },
+          {
+            "m": "",
+            "t": "Artikel 21 | Artikel 36"
+          },
+          {
+            "m": "",
+            "t": "Artikel 22 | Artikel 39"
+          },
+          {
+            "m": "",
+            "t": "Artikel 23 | Artikel 40"
+          },
+          {
+            "m": "",
+            "t": "Artikel 24 | —"
+          },
+          {
+            "m": "",
+            "t": "Artikel 25 | Artikel 41"
+          },
+          {
+            "m": "",
+            "t": "Artikel 26 | Artikel 45"
+          },
+          {
+            "m": "",
+            "t": "Artikel 27 | Artikel 46"
+          },
+          {
+            "m": "",
+            "t": "Anhang I Nummer 1 | Artikel 11 Absatz 1"
+          },
+          {
+            "m": "",
+            "t": "Anhang I Nummer 2 Buchstabe a Ziffern i bis iv | Artikel 11 Absatz 2 Buchstaben a bis d"
+          },
+          {
+            "m": "",
+            "t": "Anhang I Nummer 2 Buchstabe a Ziffer v | Artikel 11 Absatz 2 Buchstabe f"
+          },
+          {
+            "m": "",
+            "t": "Anhang I Nummer 2 Buchstabe b | Artikel 11 Absatz 4"
+          },
+          {
+            "m": "",
+            "t": "Anhang I Nummer 2 Buchstabe c Ziffern i und ii | Artikel 11 Absatz 5 Buchstabe a"
+          },
+          {
+            "m": "",
+            "t": "Anhang II | Anhang I"
+          },
+          {
+            "m": "",
+            "t": "Anhang III Nummern 1 und 2 | Anhang II Nummer 6"
+          },
+          {
+            "m": "",
+            "t": "Anhang III Nummer 3 | Anhang I Nummer 8"
+          }
+        ]
+      }
+    ]
+  },
   "art_17": {
     "h": "7a89fb9ea76395c9a61a0961a9ff9a88",
     "b": [

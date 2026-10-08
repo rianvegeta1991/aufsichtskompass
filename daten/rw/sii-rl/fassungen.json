@@ -1,0 +1,19 @@
+{
+  "regelwerk": "sii-rl",
+  "fassungen": [
+    {
+      "id": "2025-10-17",
+      "stand": "Fri, 17 Oct 2025 17:31:01 GMT",
+      "abgerufen": "2026-10-08T20:01:19Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32009L0138",
+        "celex": "32009L0138",
+        "hinweis": "Ursprungsfassung der Richtlinie (ABl. L 335 vom 17.12.2009) – spätere Änderungen sind NICHT eingearbeitet. Die geltende konsolidierte Fassung (EUR-Lex: 02009L0138-20250117) weicht ab; eine weitere Änderung gilt ab 30.01.2027 (02009L0138-20270130). Für Aussagen zum geltenden Recht die konsolidierte Fassung heranziehen. Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20251017193101000\"",
+      "hash": "bc907f0c74112201557d274d030b67f36af9615cd49f8b389124e0f6fa02999b",
+      "fundstellen": 900
+    }
+  ]
+}

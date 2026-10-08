@@ -1,7 +1,7 @@
 {
   "regelwerk": "dora-rts-1190",
   "fassung": "2025-06-18",
-  "abgerufen": "2026-09-29T21:26:24Z",
+  "abgerufen": "2026-10-08T19:57:10Z",
   "quelle": {
     "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
     "url": "https://publications.europa.eu/resource/celex/32025R1190",
@@ -910,6 +910,86 @@
         "de": "Inkrafttreten"
       },
       "pfad": "art/17",
+      "text": true
+    },
+    {
+      "id": "anx_I",
+      "art": "anhang",
+      "nummer": "I",
+      "titel": {
+        "de": "Inhalt der Projektcharta (Artikel 9 Absatz 2 Buchstabe a)"
+      },
+      "pfad": "anh/I",
+      "text": true
+    },
+    {
+      "id": "anx_II",
+      "art": "anhang",
+      "nummer": "II",
+      "titel": {
+        "de": "Inhalt des Scoping-Dokuments (Artikel 9 Absatz 6)"
+      },
+      "pfad": "anh/II",
+      "text": true
+    },
+    {
+      "id": "anx_III",
+      "art": "anhang",
+      "nummer": "III",
+      "titel": {
+        "de": "Inhalt des spezifischen Bedrohungsanalyseberichts (Artikel 10 Absatz 5)"
+      },
+      "pfad": "anh/III",
+      "text": true
+    },
+    {
+      "id": "anx_IV",
+      "art": "anhang",
+      "nummer": "IV",
+      "titel": {
+        "de": "Inhalt des Red-Team-Testplans (Artikel 11 Absatz 1)"
+      },
+      "pfad": "anh/IV",
+      "text": true
+    },
+    {
+      "id": "anx_V",
+      "art": "anhang",
+      "nummer": "V",
+      "titel": {
+        "de": "Inhalt des Red-Team-Testberichts (Artikel 12 Absatz 2)"
+      },
+      "pfad": "anh/V",
+      "text": true
+    },
+    {
+      "id": "anx_VI",
+      "art": "anhang",
+      "nummer": "VI",
+      "titel": {
+        "de": "Inhalt des Blue-Team-Testberichts (Artikel 12 Absatz 4)"
+      },
+      "pfad": "anh/VI",
+      "text": true
+    },
+    {
+      "id": "anx_VII",
+      "art": "anhang",
+      "nummer": "VII",
+      "titel": {
+        "de": "Inhalt des Berichts mit einer Zusammenfassung der maßgeblichen Ergebnisse des TLPT gemäß Artikel 26 Absatz 6 der Verordnung (EU) 2022/2554"
+      },
+      "pfad": "anh/VII",
+      "text": true
+    },
+    {
+      "id": "anx_VIII",
+      "art": "anhang",
+      "nummer": "VIII",
+      "titel": {
+        "de": "Inhalt der Bescheinigung über den TLPT gemäß Artikel 26 Absatz 7 der Verordnung (EU) 2022/2554"
+      },
+      "pfad": "anh/VIII",
       "text": true
     }
   ]

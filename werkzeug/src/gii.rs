@@ -40,13 +40,12 @@ pub fn hole(
     etag: Option<&str>,
 ) -> Result<Option<Abruf>> {
     let url = format!("{BASIS}/{kennung}/xml.zip");
-    leine.erlaubt(&url)?;
     let klient = leine.klient(KENNUNG, 180)?;
-    let mut anfrage = klient.get(&url);
+    let mut kopf = Vec::new();
     if let Some(e) = etag {
-        anfrage = anfrage.header("If-None-Match", e);
+        kopf.push(("If-None-Match", e));
     }
-    let antwort = anfrage.send().with_context(|| format!("Abruf {url}"))?;
+    let antwort = leine.senden(&klient, &url, &kopf)?;
     if antwort.status() == reqwest::StatusCode::NOT_MODIFIED {
         return Ok(None);
     }

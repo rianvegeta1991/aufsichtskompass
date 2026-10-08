@@ -1,6 +1,13 @@
 {
-  "gebaut": "2026-10-02T05:35:11Z",
+  "gebaut": "2026-10-08T20:01:32Z",
   "indizes": [
+    {
+      "regelwerk": "ai-act",
+      "sprache": "de",
+      "fassung": "2024-10-17",
+      "datei": "rw/ai-act/2024-10-17/index-de.json",
+      "dokumente": 719
+    },
     {
       "regelwerk": "ao",
       "sprache": "de",
@@ -44,11 +51,25 @@
       "dokumente": 40
     },
     {
+      "regelwerk": "cra",
+      "sprache": "de",
+      "fassung": "2024-11-25",
+      "datei": "rw/cra/2024-11-25/index-de.json",
+      "dokumente": 449
+    },
+    {
       "regelwerk": "csa-ccm",
       "sprache": "de",
       "fassung": "2026-10-01",
       "datei": "rw/csa-ccm/2026-10-01/index-de.json",
       "dokumente": 17
+    },
+    {
+      "regelwerk": "data-act",
+      "sprache": "de",
+      "fassung": "2026-09-01",
+      "datei": "rw/data-act/2026-09-01/index-de.json",
+      "dokumente": 361
     },
     {
       "regelwerk": "dora",
@@ -83,21 +104,21 @@
       "sprache": "de",
       "fassung": "2024-12-06",
       "datei": "rw/dora-its-2956/2024-12-06/index-de.json",
-      "dokumente": 33
+      "dokumente": 37
     },
     {
       "regelwerk": "dora-its-302",
       "sprache": "de",
       "fassung": "2025-02-20",
       "datei": "rw/dora-its-302/2025-02-20/index-de.json",
-      "dokumente": 33
+      "dokumente": 37
     },
     {
       "regelwerk": "dora-rts-1190",
       "sprache": "de",
       "fassung": "2025-06-18",
       "datei": "rw/dora-rts-1190/2025-06-18/index-de.json",
-      "dokumente": 101
+      "dokumente": 109
     },
     {
       "regelwerk": "dora-rts-1772",
@@ -125,7 +146,7 @@
       "sprache": "de",
       "fassung": "2025-02-13",
       "datei": "rw/dora-rts-295/2025-02-13/index-de.json",
-      "dokumente": 28
+      "dokumente": 29
     },
     {
       "regelwerk": "dora-rts-301",
@@ -195,7 +216,7 @@
       "sprache": "de",
       "fassung": "2024-10-15",
       "datei": "rw/nis2/2024-10-15/index-de.json",
-      "dokumente": 350
+      "dokumente": 353
     },
     {
       "regelwerk": "nist-csf2",
@@ -203,6 +224,20 @@
       "fassung": "2026-10-01",
       "datei": "rw/nist-csf2/2026-10-01/index-de.json",
       "dokumente": 6
+    },
+    {
+      "regelwerk": "sii-dvo",
+      "sprache": "de",
+      "fassung": "2025-06-13",
+      "datei": "rw/sii-dvo/2025-06-13/index-de.json",
+      "dokumente": 1273
+    },
+    {
+      "regelwerk": "sii-rl",
+      "sprache": "de",
+      "fassung": "2025-10-17",
+      "datei": "rw/sii-rl/2025-10-17/index-de.json",
+      "dokumente": 900
     },
     {
       "regelwerk": "vag",

@@ -196,7 +196,12 @@ fn abruf_cellar(daten: &Path, leine: &netz::Leine, k: &Konnektor, erzwingen: boo
                 name: "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)".into(),
                 url: format!("{}/{celex}", cellar::BASIS),
                 celex: Some(celex.to_string()),
-                hinweis: "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung.".into(),
+                hinweis: match k.hinweis.as_deref() {
+                    Some(z) => format!(
+                        "{z} Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+                    ),
+                    None => "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung.".into(),
+                },
             },
             etag: haupt.etag,
             stand: haupt.stand,
@@ -411,6 +416,10 @@ fn uebernehmen(daten: &Path, u: Uebernahme, erzwingen: bool) -> Result<()> {
         register.fassungen[n].abgerufen = jetzt();
         register.fassungen[n].hash = gesamt;
         register.fassungen[n].fundstellen = texte.len();
+        // Auch der Quellenhinweis: die App liest ihn aus dem Register. Ohne diese Zeile
+        // blieb ein nachtraeglich geaenderter Hinweis (z. B. "Ursprungsfassung, nicht
+        // konsolidiert") unsichtbar, obwohl struktur.json ihn laengst trug.
+        register.fassungen[n].quelle = u.quelle.clone();
         schreib_json(&reg_pfad, &register, true)?;
         println!("[{rw}] Fassung {fassung_id} neu erzeugt: {} Fundstellen.", texte.len());
         ableiten(daten)?;
@@ -1122,8 +1131,7 @@ fn folgeakte(
         url_kodieren(&abfrage),
         url_kodieren("application/sparql-results+json")
     );
-    leine.erlaubt(&adresse)?;
-    let antwort = klient.get(&adresse).send()?;
+    let antwort = leine.senden(klient, &adresse, &[])?;
     if !antwort.status().is_success() {
         anyhow::bail!("SPARQL antwortete mit {}", antwort.status());
     }

@@ -80,7 +80,7 @@ Feeds, Seitenüberwachung und SPARQL-Dienst:
 3. keine Adressliterale – damit sind `127.0.0.1`, `[::1]` und `169.254.169.254`
    ausgeschlossen, ohne dass DNS befragt werden muss,
 4. keine Zugangsdaten in der Adresse,
-5. **Umleitungen werden erneut geprüft**; mehr als fünf brechen ab.
+5. **Umleitungen werden erneut geprüft**; mehr als fünf brechen ab. Sie folgt das Werkzeug selbst (`Leine::senden`), nicht der Klient: Jede Station läuft durch die Leine, und ein `http`-Ziel wird auf `https` angehoben, bevor die Leine entscheidet. Hintergrund: CELLAR leitet auf `http://publications.europa.eu/…` um – dieselbe erlaubte Adresse, nur unverschlüsselt. Das schlicht zu verbieten legte in v1.8 unbemerkt den Abruf aller EU-Rechtstexte lahm, weil kein Test und kein täglicher Lauf einen CELLAR-Abruf ausführt. Mit dem Anheben bleibt der Abruf verschlüsselt, und der Host muss weiterhin auf der Liste stehen: strenger als vorher, nicht lockerer.
 
 Die Liste ist Daten, nicht Code: eine neue Quelle braucht einen Eintrag in
 `quellen.json`. `kompass pruefen` hält jede konfigurierte Adresse dagegen – zurzeit

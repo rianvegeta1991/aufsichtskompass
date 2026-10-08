@@ -4,7 +4,7 @@
     {
       "id": "2025-02-20",
       "stand": "Thu, 20 Feb 2025 02:02:00 GMT",
-      "abgerufen": "2026-09-29T21:26:23Z",
+      "abgerufen": "2026-10-08T19:57:09Z",
       "quelle": {
         "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
         "url": "https://publications.europa.eu/resource/celex/32025R0302",
@@ -12,8 +12,8 @@
         "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
       },
       "etag": "\"Con-20250220030200000\"",
-      "hash": "8463099b6a559d33d0e3824d3e1c49a1b91bd9c31a89157f776263aafb7eb4bb",
-      "fundstellen": 33
+      "hash": "8d7faa6d236c9d62494f4ab5b6189a85a9e904dff1747531a0218c7f551f44fe",
+      "fundstellen": 37
     }
   ]
 }

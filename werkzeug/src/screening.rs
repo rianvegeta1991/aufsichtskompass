@@ -179,17 +179,16 @@ pub fn hole(
 ) -> Result<Antwort> {
     // Erst die Leine, dann die Verbindung: eine Quelle, die nicht auf der Liste
     // steht, wird gar nicht angefragt (Phase 8, Schutz vor SSRF).
-    leine.erlaubt(url)?;
-    let mut anfrage = klient.get(url);
+    let mut kopf: Vec<(&str, &str)> = Vec::new();
     if let Some(g) = gedaechtnis {
         if let Some(e) = &g.etag {
-            anfrage = anfrage.header("If-None-Match", e);
+            kopf.push(("If-None-Match", e));
         }
         if let Some(s) = &g.stand {
-            anfrage = anfrage.header("If-Modified-Since", s);
+            kopf.push(("If-Modified-Since", s));
         }
     }
-    let antwort = anfrage.send().with_context(|| format!("Abruf {url}"))?;
+    let antwort = leine.senden(klient, url, &kopf)?;
     if antwort.status() == reqwest::StatusCode::NOT_MODIFIED {
         return Ok(Antwort { koerper: String::new(), etag: None, stand: None, unveraendert: true });
     }

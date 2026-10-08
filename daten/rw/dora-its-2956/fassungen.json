@@ -4,7 +4,7 @@
     {
       "id": "2024-12-06",
       "stand": "Fri, 06 Dec 2024 13:49:31 GMT",
-      "abgerufen": "2026-09-29T21:26:22Z",
+      "abgerufen": "2026-10-08T19:57:07Z",
       "quelle": {
         "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
         "url": "https://publications.europa.eu/resource/celex/32024R2956",
@@ -12,8 +12,8 @@
         "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
       },
       "etag": "\"Con-20241206144931000\"",
-      "hash": "89ed69f15cfe945aa90b10ccb50c23ba09b9ba9f34204171d4202ae8f0c15ce2",
-      "fundstellen": 33
+      "hash": "37d78c9ae5d91095d414e8cef4dc758668984e31f816fceef89653b1cec69954",
+      "fundstellen": 37
     }
   ]
 }

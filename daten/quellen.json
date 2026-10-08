@@ -191,7 +191,8 @@
         "deu"
       ],
       "nutzung": "eu",
-      "aktiv": false
+      "aktiv": true,
+      "hinweis": "Ursprungsfassung der Richtlinie (ABl. L 335 vom 17.12.2009) – spätere Änderungen sind NICHT eingearbeitet. Die geltende konsolidierte Fassung (EUR-Lex: 02009L0138-20250117) weicht ab; eine weitere Änderung gilt ab 30.01.2027 (02009L0138-20270130). Für Aussagen zum geltenden Recht die konsolidierte Fassung heranziehen."
     },
     {
       "regelwerk": "sii-dvo",
@@ -201,7 +202,8 @@
         "deu"
       ],
       "nutzung": "eu",
-      "aktiv": false
+      "aktiv": true,
+      "hinweis": "Ursprungsfassung der Delegierten Verordnung (ABl. L 12 vom 17.01.2015) – spätere Änderungen sind NICHT eingearbeitet. Die geltende konsolidierte Fassung (EUR-Lex: 02015R0035-20241114) weicht ab; eine weitere Änderung gilt ab 30.01.2027 (02015R0035-20270130). Für Aussagen zum geltenden Recht die konsolidierte Fassung heranziehen."
     },
     {
       "regelwerk": "ai-act",
@@ -211,7 +213,7 @@
         "deu"
       ],
       "nutzung": "eu",
-      "aktiv": false
+      "aktiv": true
     },
     {
       "regelwerk": "cra",
@@ -221,7 +223,7 @@
         "deu"
       ],
       "nutzung": "eu",
-      "aktiv": false
+      "aktiv": true
     },
     {
       "regelwerk": "data-act",
@@ -231,7 +233,7 @@
         "deu"
       ],
       "nutzung": "eu",
-      "aktiv": false
+      "aktiv": true
     },
     {
       "regelwerk": "vag",

@@ -227,6 +227,1311 @@
       }
     ]
   },
+  "anx_I": {
+    "h": "da23497b4dcc561bcef07989441469c0",
+    "b": [
+      {
+        "art": "p",
+        "t": "TEIL 1"
+      },
+      {
+        "art": "p",
+        "t": "ALLGEMEINE ANLEITUNGEN"
+      },
+      {
+        "art": "p",
+        "t": "Finanzunternehmen, die das Informationsregister auf Unternehmensebene, teilkonsolidierter und konsolidierter Ebene führen und aktualisieren, tragen die Daten in die Vorlagen des Informationsregisters ein und verwenden dabei die in Teil 2 der Anleitung genannten Formate."
+      },
+      {
+        "art": "p",
+        "t": "Teil 2 enthält Anleitungen, die von den Finanzunternehmen beim Ausfüllen der einzelnen Spalten in den jeweiligen Vorlagen zu befolgen sind. Beim Ausfüllen bestimmter Spalten müssen die Finanzunternehmen auf die Anhänge II, III und IV oder andere externe Quellen zurückgreifen. In diesem Fall wird in den Anleitungen auf die entsprechenden Anhänge oder externen Quellen verwiesen."
+      },
+      {
+        "art": "p",
+        "t": "Liste der Vorlagen"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Vorlagencode | Vorlagenbezeichnung | Kurzbeschreibung"
+          },
+          {
+            "m": "",
+            "t": "B_01.01 | Unternehmen, das das Informationsregister führt | In dieser Vorlage wird das Unternehmen angegeben, das das Informationsregister auf Unternehmensebene bzw. auf teilkonsolidierter oder konsolidierter Ebene führt und aktualisiert."
+          },
+          {
+            "m": "",
+            "t": "B_01.02 | Liste der zum Konsolidierungskreis gehörenden Unternehmen | In dieser Vorlage werden alle zur Gruppe gehörenden Unternehmen aufgeführt. Gehört das für die Führung und Aktualisierung des Informationsregisters zuständige Finanzunternehmen keiner Gruppe an, ist in dieser Vorlage nur das betreffende Finanzunternehmen anzugeben."
+          },
+          {
+            "m": "",
+            "t": "B_01.03 | Liste der Zweigniederlassungen | In dieser Vorlage werden die Zweigniederlassungen der in der Vorlage B_01.02 genannten Finanzunternehmen aufgeführt."
+          },
+          {
+            "m": "",
+            "t": "B_02.01 | Vertragliche Vereinbarungen – allgemeine Informationen | In dieser Vorlage werden alle vertraglichen Vereinbarungen mit direkten IKT-Drittdienstleistern aufgeführt. Für jede vertragliche Vereinbarung mit einem direkten IKT-Drittdienstleister weist das Finanzunternehmen, das das Informationsregister führt, eine eindeutige „Kennnummer der vertraglichen Vereinbarung“ zu, mit der die vertragliche Vereinbarung selbst eindeutig identifiziert wird."
+          },
+          {
+            "m": "",
+            "t": "B_02.02 | Vertragliche Vereinbarungen – spezifische Informationen | Diese Vorlage enthält nähere Angaben zu jeder in der Vorlage B_02.01 aufgeführten vertraglichen Vereinbarung in Bezug auf:"
+          },
+          {
+            "m": "",
+            "t": "B_02.03 | Liste der gruppeninternen vertraglichen Vereinbarungen | In dieser Vorlage werden unter Angabe der Vertragskennnummern die Verbindungen zwischen gruppeninternen vertraglichen Vereinbarungen und vertraglichen Vereinbarungen mit IKT-Drittdienstleistern, die nicht der Gruppe angehören, erfasst, wenn sie Teil der IKT-Dienstleistungskette sind."
+          },
+          {
+            "m": "",
+            "t": "B_03.01 | Unternehmen, die die vertraglichen Vereinbarungen für den Erhalt der IKT-Dienstleistung(en) oder im Namen der Unternehmen, die die IKT-Dienstleistung(en) in Anspruch nehmen, unterzeichnen | Diese Vorlage enthält Informationen über das Unternehmen, das die vertraglichen Vereinbarungen mit dem direkten IKT-Drittdienstleister für das Unternehmen, das die IKT-Dienstleistungen in Anspruch nimmt, unterzeichnet. Wird das Informationsregister auf Unternehmensebene geführt und aktualisiert, ist das Unternehmen, das die vertragliche Vereinbarung unterzeichnet und die IKT-Dienstleistungen in Anspruch nimmt, das Finanzunternehmen, das das Informationsregister führt und aktualisiert. Im Falle der Teilkonsolidierung und Konsolidierung ist das Finanzunternehmen, das die erbrachten IKT-Dienstleistungen in Anspruch nimmt, nicht unbedingt das Unternehmen, das die vertragliche Vereinbarung mit den IKT-Drittdienstleistern unterzeichnet."
+          },
+          {
+            "m": "",
+            "t": "B_03.02 | IKT-Drittdienstleister, die die vertraglichen Vereinbarungen für die Erbringung der IKT-Dienstleistung(en) unterzeichnen | In dieser Vorlage sind alle in der Vorlage B_05.01 genannten IKT-Drittdienstleister aufgeführt, die die in der Vorlage B_02.01 genannten vertraglichen Vereinbarungen zur Erbringung der IKT-Dienstleistungen unterzeichnen."
+          },
+          {
+            "m": "",
+            "t": "B_03.03 | Unternehmen, die die vertraglichen Vereinbarungen über die Erbringung der IKT-Dienstleistung(en) für andere Unternehmen im Konsolidierungskreis unterzeichnen | In dieser Vorlage werden alle in der Vorlage B_01.02 genannten Unternehmen aufgeführt, die die in der Vorlage B_02.01 genannten vertraglichen Vereinbarungen über die Erbringung von IKT-Dienstleistungen für andere Unternehmen im Konsolidierungskreis unterzeichnen."
+          },
+          {
+            "m": "",
+            "t": "B_04.01 | Unternehmen, die IKT-Dienstleistungen in Anspruch nehmen | In dieser Vorlage sind alle Unternehmen aufgeführt, die IKT-Dienstleistungen nutzen, die von IKT-Drittdienstleistern erbracht werden und im Informationsregister registriert sind. Bei den Unternehmen, die IKT-Dienstleistungen in Anspruch nehmen, handelt es sich entweder um die in den Anwendungsbereich fallenden Finanzunternehmen oder um die gruppeninternen IKT-Dienstleister. Wird das Informationsregister auf Unternehmensebene geführt und aktualisiert, sind das Unternehmen, das die vertragliche Vereinbarung unterzeichnet, und das Unternehmen, das die IKT-Dienstleistungen in Anspruch nimmt, das Finanzunternehmen, das das Register führt."
+          },
+          {
+            "m": "",
+            "t": "B_05.01 | IKT-Drittdienstleister | Diese Vorlage enthält allgemeine Informationen zur Ermittlung"
+          },
+          {
+            "m": "",
+            "t": "B_05.02 | IKT-Dienstleistungskette | In dieser Vorlage werden die IKT-Drittdienstleister, die Teil derselben IKT-Dienstleistungskette sind, ausgewiesen und zueinander in Beziehung gesetzt. Die Finanzunternehmen müssen die IKT-Drittdienstleister für jede in jeder vertraglichen Vereinbarung enthaltene IKT-Dienstleistung benennen und einstufen. Beispiel: Ein Finanzunternehmen hat eine vertragliche Vereinbarung mit einem IKT-Drittdienstleister (im Folgenden „IKT-Drittdienstleister X“) getroffen, um zwei spezifische IKT-Dienstleistungen (im Folgenden „IKT-Dienstleistung A“ und „IKT-Dienstleistung B“) in Anspruch zu nehmen, und der Dienstleister nutzt einen Unterauftragnehmer („IKT-Drittdienstleister Y“), um eine dieser Dienstleistungen zu erbringen („IKT-Dienstleistung B“)."
+          },
+          {
+            "m": "",
+            "t": "B_06.01 | Angabe der Funktionen | In dieser Vorlage werden die Funktionen des Finanzunternehmens, das die IKT-Dienstleistungen in Anspruch nimmt, genannt und näher beschrieben. In den in dieser Vorlage bereitzustellenden Informationen müssen Finanzunternehmen für jede Kombination aus LEI, genehmigter Tätigkeit und Funktion eines Finanzunternehmens eine eindeutige Kennung, die „Funktionskennung“, angeben. Beispiel: Ein Finanzunternehmen (LEI: 21USLEIC20231109J3Z8), das im Rahmen von zwei genehmigten Tätigkeiten („Tätigkeit A“ und „Tätigkeit B“) agiert, erhält zwei eindeutige „Funktionskennungen“ für dieselbe Funktion X (z. B. Vertrieb), die jeweils für Tätigkeit A bzw. Tätigkeit B ausgeführt wird. Funktionskennung:"
+          },
+          {
+            "m": "",
+            "t": "B_07.01 | Bewertungen der IKT-Dienstleistungen | Diese Vorlage enthält Informationen im Zusammenhang mit der Risikobewertung der IKT-Dienstleistungen (z. B. Substituierbarkeit, Zeitpunkt des letzten Audits usw.), wenn die betreffenden IKT-Dienstleistungen eine kritische oder wichtige Funktion oder einen wesentlichen Bereich davon unterstützen."
+          },
+          {
+            "m": "",
+            "t": "B_99.01 | Begriffsbestimmungen seitens der Unternehmen, die IKT-Dienstleistungen in Anspruch nehmen | Diese Vorlage enthält unternehmensinterne Erläuterungen, Bedeutungen und Begriffsbestimmungen in Bezug auf den erschöpfenden Indikatorenkatalog, den das Finanzunternehmen im Informationsregister verwendet. Beispiel: In der Vorlage B_07.01 muss das Finanzunternehmen anhand einer erschöpfenden Liste von Optionen (gering, mittel, hoch) die Auswirkungen der Einstellung der IKT-Dienstleistungen angeben. In der Vorlage B_99.01 muss das Finanzunternehmen die Bedeutung dieser Optionen darlegen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "TEIL 2"
+      },
+      {
+        "art": "p",
+        "t": "ANLEITUNGEN ZU DEN EINZELNEN VORLAGEN"
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_01.01 – Finanzunternehmen, das das Informationsregister führt"
+      },
+      {
+        "art": "p",
+        "t": "Geben Sie das Finanzunternehmen an, das das Informationsregister führt und aktualisiert."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_01.01.0010 | LEI des Finanzunternehmens, das das Informationsregister führt | Alphanumerisch | Geben Sie anhand des 20-stelligen alphanumerischen LEI-Codes gemäß der Norm ISO 17442 das Finanzunternehmen an, das das Informationsregister führt und aktualisiert. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.01.0020 | Name des Finanzunternehmens | Alphanumerisch | Offizielle Bezeichnung des Finanzunternehmens, das das Informationsregister führt und aktualisiert | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.01.0030 | Land des Finanzunternehmens | Land | Geben Sie nach ISO 3166-1 Alpha-2 den Ländercode des Landes an, in dem die Lizenz oder die Eintragung des im Informationsregister gemeldeten Unternehmens erteilt wurde. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.01.0040 | Art des Finanzunternehmens | Erschöpfende Optionsliste | Benennen Sie anhand einer der Optionen aus der folgenden erschöpfenden Liste die Art des Finanzunternehmens: Wird das Informationsregister auf Gruppenebene vom Mutterunternehmen geführt, das selbst nicht der Pflicht zur Führung eines solchen Registers unterliegt, da es nicht unter die Definition der Finanzunternehmen gemäß Artikel 2 der Verordnung (EU) 2022/2554 fällt (z. B. Finanzholdinggesellschaft, gemischte Finanzholdinggesellschaft oder gemischte Holdinggesellschaft), ist die Option „Sonstiges Finanzunternehmen“ zu wählen. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.01.0050 | Zuständige Behörde | Alphanumerisch | Geben Sie die in Artikel 46 der Verordnung (EU) 2022/2554 genannte zuständige Behörde an, der das Informationsregister gemeldet wird. | Obligatorisch im Falle der Meldung"
+          },
+          {
+            "m": "",
+            "t": "B_01.01.0060 | Datum der Meldung | Datum | Geben Sie das Datum unter Verwendung des ISO 8601-Codes (JJJJ–MM–TT) des Meldedatums an. | Obligatorisch im Falle der Meldung"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_01.02 – Liste der Finanzunternehmen, die in den Anwendungsbereich des Informationsregisters fallen"
+      },
+      {
+        "art": "p",
+        "t": "Wird das Informationsregister auf teilkonsolidierter und konsolidierter Ebene geführt und aktualisiert, so werden in dieser Vorlage alle Finanzunternehmen aufgeführt, die zur Teilgruppe und Gruppe gehören. Gehört das für die Führung und Aktualisierung des Informationsregisters zuständige Finanzunternehmen keiner Gruppe an, ist in dieser Vorlage nur das betreffende Finanzunternehmen auszuweisen, und der Eintrag in dieser Vorlage muss mit dem Eintrag in der Vorlage B_01.01 identisch sein."
+      },
+      {
+        "art": "p",
+        "t": "Wenn ein Unternehmen für alle Tätigkeiten (einschließlich der IKT-Dienstleistungen) im Namen eines Finanzunternehmens handelt, sollten die direkten IKT-Drittdienstleister dieses Unternehmens in den einschlägigen Vorlagen des Informationsregisters des Finanzunternehmens erfasst werden. In diesem Fall wird das Unternehmen nur als Unternehmen registriert, das das Register führt, und nicht in dieser Vorlage angegeben."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0010 | LEI des Finanzunternehmens | Alphanumerisch | Geben Sie anhand des 20-stelligen alphanumerischen LEI-Codes gemäß der Norm ISO 17442 das Finanzunternehmen an, das im Informationsregister gemeldet wird. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0020 | Name des Finanzunternehmens | Alphanumerisch | Offizielle Bezeichnung des Finanzunternehmens, das im Informationsregister gemeldet wird | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0030 | Land des Finanzunternehmens | Land | Geben Sie nach ISO 3166-1 Alpha-2 den Ländercode des Landes an, in dem die Lizenz oder die Eintragung des im Informationsregister gemeldeten Finanzunternehmens erteilt wurde. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0040 | Art des Finanzunternehmens | Erschöpfende Optionsliste | Benennen Sie anhand einer der Optionen aus der folgenden erschöpfenden Liste die Art des Finanzunternehmens: | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0050 | Hierarchie des Finanzunternehmens innerhalb der Gruppe (falls zutreffend) | Erschöpfende Optionsliste | Benennen Sie anhand einer der Optionen aus der folgenden erschöpfenden Liste die Hierarchie des Finanzunternehmens im Konsolidierungskreis: Trifft auf ein Unternehmen mehr als eine Option der oben angegebenen erschöpfenden Liste zu, so ist die auf das Unternehmen zutreffende höherrangige Option auszuwählen. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0060 | LEI des direkten Mutterunternehmens des Finanzunternehmens | Alphanumerisch | Geben Sie das im Informationsregister gemeldete direkte Mutterunternehmen des Finanzunternehmens unter Verwendung des 20-stelligen alphanumerischen LEI-Codes gemäß der Norm ISO 17442 an. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0070 | Datum der letzten Aktualisierung | Datum | Geben Sie das Datum unter Verwendung des ISO 8601-Codes (JJJJ–MM–TT) des Datums der letzten Aktualisierung oder Änderung des Informationsregisters in Bezug auf das Finanzunternehmen an. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0080 | Datum der Aufnahme in das Informationsregister | Datum | Geben Sie das Datum unter Verwendung des ISO 8601-Codes (JJJJ–MM–TT) des Datums der Aufnahme des Finanzunternehmens in das Informationsregister an. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0090 | Datum der Löschung im Informationsregister | Datum | Geben Sie das Datum unter Verwendung des ISO 8601-Codes (JJJJ–MM–TT) des Datums der Löschung des Finanzunternehmens aus dem Informationsregister an. Wurde das Finanzunternehmen nicht gelöscht, ist „9999-12-31“ anzugeben. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0100 | Währung | Währung | Geben Sie den alphabetischen ISO 4217-Code der Währung an, die für die Aufstellung des Jahresabschlusses des Finanzunternehmens verwendet wird. Die Beträge sind in der Währung auszuweisen, die das Finanzunternehmen bei der Aufstellung des Jahresabschlusses je nach Sachlage auf Unternehmensebene, teilkonsolidierter oder konsolidierter Ebene verwendet. | Nur obligatorisch, wenn B_01.02.0110 gemeldet wird"
+          },
+          {
+            "m": "",
+            "t": "B_01.02.0110 | Gesamtwert der Aktiva des Finanzunternehmens | Monetär | Monetärer Gesamtwert der Aktiva des Finanzunternehmens; maßgeblich ist der im Jahresabschluss des Finanzunternehmens für das Jahr vor dem Datum der letzten Aktualisierung des Informationsregisters ausgewiesene Wert. Der monetäre Wert ist in Einheiten anzugeben. Für das Ausfüllen dieser Spalte wird auf Anhang IV verwiesen. | Obligatorisch, wenn es sich bei dem Unternehmen um ein Finanz-unternehmen handelt"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_01.03 – Liste der Zweigniederlassungen"
+      },
+      {
+        "art": "p",
+        "t": "Hat ein Finanzunternehmen Zweigniederlassungen, die sich außerhalb seines Sitzlandes befinden, so sind diese Zweigniederlassungen in dieser Vorlage anzugeben."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_01.03.0010 | Identifikationscode der Zweigniederlassung | Alphanumerisch | Geben Sie für jede Zweigniederlassung eines Finanzunternehmens, die sich außerhalb seines Sitzlandes befindet, einen eindeutigen Code an. Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.03.0020 | LEI des Hauptsitzes des Finanzunternehmens der Zweigniederlassung | Alphanumerisch | Wie in B_01.02.0010 angegeben Geben Sie anhand des 20-stelligen alphanumerischen LEI-Codes gemäß der Norm ISO 17442 den Hauptsitz des Finanzunternehmens der Zweigniederlassung an. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.03.0030 | Name der Zweigniederlassung | Alphanumerisch | Geben Sie den Namen der Zweigniederlassung an. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_01.03.0040 | Land der Zweigniederlassung | Land | Geben Sie den Code des Landes, in dem die Zweigniederlassung ansässig ist, gemäß ISO 3166-1 Alpha-2 an. | Obligatorisch"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_02.01 – Vertragliche Vereinbarungen – Allgemeine Informationen"
+      },
+      {
+        "art": "p",
+        "t": "Finanzunternehmen müssen für jede vertragliche Vereinbarung im Informationsregister eine „Kennnummer der vertraglichen Vereinbarung“ angeben. Nimmt der externe IKT-Drittdienstleister Unterauftragnehmer in Anspruch, erfassen die Finanzunternehmen im Informationsregister für Vereinbarungen zwischen den externen IKT-Drittdienstleistern und ihren Unterauftragnehmern keine „Kennnummer der vertraglichen Vereinbarung“. Im Falle eines gruppeninternen IKT-Dienstleisters erfassen die Finanzunternehmen in dieser Vorlage die „Kennnummer der vertraglichen Vereinbarung“ zwischen diesem gruppeninternen IKT-Dienstleister und seinen IKT-Drittdienstleistern und füllen die Vorlage B_02.03 (Liste der gruppeninternen vertraglichen Vereinbarungen) entsprechend aus."
+      },
+      {
+        "art": "p",
+        "t": "Die „Kennnummer der vertraglichen Vereinbarung“ bezieht sich auf die folgenden Arten von vertraglichen Vereinbarungen:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "jede Art von eigenständigen Vereinbarungen,"
+          },
+          {
+            "m": "b)",
+            "t": "jede Art von „übergeordneten Vereinbarungen oder Rahmenübereinkünften“, einschließlich Globalvereinbarungen und Rahmenübereinkünften,"
+          },
+          {
+            "m": "c)",
+            "t": "jede Art von „Folge- oder Nebenvereinbarungen“, einschließlich Durchführungsvereinbarungen, Unterdienstleistungsvereinbarungen und Bestellscheinen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Die Kennnummer der vertraglichen Vereinbarung bezieht sich nicht auf Dienstgütevereinbarungen, die einer der in den Buchstaben a, b und c oben genannten vertraglichen Vereinbarungen untergeordnet sind."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_02.01.0010 | Kennnummer der vertraglichen Vereinbarung | Alphanumerisch | Führen Sie die vertragliche Vereinbarung zwischen dem Finanzunternehmen oder – im Falle einer Gruppe – dem Tochterunternehmen der Gruppe und dem direkten IKT-Drittdienstleister auf. Die Kennnummer der vertraglichen Vereinbarung ist die interne Kennnummer der vertraglichen Vereinbarung, die vom Finanzunternehmen zugewiesen wurde. Die Kennnummer der vertraglichen Vereinbarung muss auf Unternehmensebene bzw. auf teilkonsolidierter und auf konsolidierter Ebene eindeutig sein und ist im Zeitverlauf unverändert beizubehalten. Die Kennnummer der vertraglichen Vereinbarung ist in allen Vorlagen des Informationsregisters einheitlich zu verwenden, wenn auf dieselbe vertragliche Vereinbarung Bezug genommen wird. Wenn ein Unternehmen für alle Tätigkeiten (einschließlich der IKT-Dienstleistungen) im Namen eines Finanzunternehmens handelt (siehe Erwägungsgrund 7), kann die Kennnummer der vertraglichen Vereinbarung die vertragliche Vereinbarung zwischen dem Unternehmen und seinem direkten IKT-Drittdienstleister sein. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.01.0020 | Art der vertraglichen Vereinbarung | Erschöpfende Liste von Optionen | Benennen Sie anhand einer der Optionen aus der folgenden erschöpfenden Liste die Art der vertraglichen Vereinbarung: | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.01.0030 | Kennnummer der übergeordneten vertraglichen Vereinbarung | Alphanumerisch | Entfällt, wenn es sich bei der vertraglichen Vereinbarung um die „übergeordnete vertragliche Vereinbarung“ oder um eine „eigenständige Vereinbarung“ handelt. In den anderen Fällen ist die Kennnummer der übergeordneten vertraglichen Vereinbarung anzugeben. Diese muss dem Wert entsprechen, der in Spalte B_02.01.0010 bei der Meldung der übergeordneten vertraglichen Vereinbarung angegeben wurde. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.01.0040 | Währung des in B_02.01.0050 ausgewiesenen Betrags | Währung | Geben Sie den alphabetischen ISO 4217-Code der Währung an, in der der Betrag in B_02.01.0050 ausgewiesen ist. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.01.0050 | Jährliche Ausgaben oder voraussichtliche Kosten der vertraglichen Vereinbarung für das zurückliegende Jahr | Monetär | Jährliche Ausgaben oder voraussichtliche Kosten (oder gruppeninterner Transfer) der vertraglichen Vereinbarung für IKT-Dienstleistungen für das zurückliegende Jahr. Der monetäre Wert ist in Einheiten anzugeben. Die jährlichen Ausgaben oder voraussichtlichen Kosten sind in der in B_01.02.0040 angegebenen Währung auszuweisen. Im Falle einer übergeordneten Vereinbarung mit Folge- oder Nebenvereinbarungen muss die Summe der jährlichen Ausgaben oder voraussichtlichen Kosten, die für die übergeordnete Vereinbarung und die Folge- oder Nebenvereinbarungen gemeldet werden, den Gesamtausgaben oder den gesamten voraussichtlichen Kosten für die vertragliche Gesamtvereinbarung entsprechen. Es darf keine Wiederholung oder Doppelerfassung der jährlichen Ausgaben oder voraussichtlichen Kosten geben. Die folgenden Fälle sind zu berücksichtigen: | Obligatorisch"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_02.02 – Vertragliche Vereinbarungen – Spezifische Informationen"
+      },
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen sind gehalten, diese Vorlage mit der größtmöglichen Granularität auszufüllen. Umfasst die vertragliche Vereinbarung mehrere IKT-Dienstleistungen, die mehrere Funktionen unterstützen, müssen die Finanzunternehmen entsprechend viele Zeilen für die Elemente in der Vorlage verwenden, wobei die von der vertraglichen Vereinbarung abgedeckten IKT-Dienstleistungen und die Funktionen des Finanzunternehmens kombiniert werden."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0010 | Kennnummer der vertraglichen Vereinbarung | Alphanumerisch | Wie in B_02.01.0010 angegeben | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0020 | LEI des Finanzunter-nehmens, das die IKT-Dienstleistung(en) in Anspruch nimmt | Alphanumerisch | Wie in B_04.01.0020 angegeben Geben Sie anhand des 20-stelligen alphanumerischen LEI-Codes gemäß der Norm ISO 17442 das Finanzunternehmen an, das die IKT-Dienstleistung(en) in Anspruch nimmt. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0030 | Identifikationscode des IKT-Drittdienstleisters | Alphanumerisch | Wie in B_05.01.0010 angegeben Code zur Identifizierung des IKT-Drittdienstleisters gemäß den Angaben in B_05.01.0010 für diesen Dienstleister. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0040 | Art des Codes zur Identifizierung des IKT-Drittdienstleisters | Muster | Wie in B_05.01.0020 angegeben Art des Codes zur Identifizierung des IKT-Drittdienstleisters in B_02.02.0030 gemäß den Angaben in B_05.01.0020 für diesen Dienstleister. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0050 | Funktionskennung | Muster | Gemäß Definition durch das Finanzunternehmen in B_06.01.0010 | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0060 | Art der IKT-Dienstleistungen | Erschöpfende Liste von Optionen | Eine der in Anhang III genannten Arten von IKT-Dienstleistungen | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0070 | Startdatum der vertraglichen Vereinbarung | Datum | Geben Sie unter Verwendung des ISO 8601-Codes (JJJJ-MM-TT) das Datum des Inkrafttretens der vertraglichen Vereinbarung an, das in der vertraglichen Vereinbarung festgelegt ist. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0080 | Enddatum der vertraglichen Vereinbarung | Datum | Geben Sie unter Verwendung des ISO 8601-Codes (JJJJ-MM-TT) das in der vertraglichen Vereinbarung festgelegte Enddatum an. Ist die vertragliche Vereinbarung unbefristet, ist an dieser Stelle „9999-12-31“ anzugeben. Wurde die vertragliche Vereinbarung zu einem anderen Zeitpunkt als dem Enddatum gekündigt, so ist in diesem Fall das Kündigungsdatum anzugeben. Ist in der vertraglichen Vereinbarung eine Verlängerung vorgesehen, so ist diese mit dem in der vertraglichen Vereinbarung festgelegten Datum der Vertragsverlängerung anzugeben. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0090 | Grund für die Kündigung oder Beendigung der vertraglichen Vereinbarung | Erschöpfende Liste von Optionen | Wenn die vertragliche Vereinbarung gekündigt oder beendet wurde, geben Sie anhand einer der Optionen aus der folgenden erschöpfenden Liste den Grund für die Kündigung oder Beendigung der vertraglichen Vereinbarungen an: | Obligatorisch bei Kündigung der vertraglichen Vereinbarung"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0100 | Kündigungsfrist für das Finanzunternehmen, das die IKT-Dienstleistung(en) in Anspruch nimmt | Natürliche Zahl | Geben Sie die Kündigungsfrist für die Kündigung der vertraglichen Vereinbarung durch das Finanzunternehmen in einem Szenario mit unveränderten Rahmenbedingungen an. Die Kündigungsfrist wird als Anzahl von Kalendertagen ab dem Eingang des Antrags auf Kündigung der IKT-Dienstleistung bei der Gegenpartei ausgedrückt. | Obligatorisch, wenn die IKT-Dienstleistung eine kritische oder wichtige Funktion unterstützt"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0110 | Kündigungsfrist für den IKT-Drittdienstleister | Natürliche Zahl | Geben Sie die Kündigungsfrist für die Kündigung der vertraglichen Vereinbarung durch den IKT-Drittdienstleister in einem Szenario mit unveränderten Rahmenbedingungen an. Die Kündigungsfrist wird als Anzahl von Kalendertagen ab dem Eingang des Antrags auf Kündigung der IKT-Dienstleistung bei der Gegenpartei ausgedrückt. | Obligatorisch, wenn die IKT-Dienstleistung eine kritische oder wichtige Funktion unterstützt"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0120 | Land, dessen Recht für die vertragliche Vereinbarung maßgebend ist | Land | Geben Sie den ISO 3166-1-Alpha-2-Code des Landes an, dessen Recht für die vertragliche Vereinbarung maßgebend ist. | Obligatorisch, wenn die IKT-Dienstleistung eine kritische oder wichtige Funktion unterstützt"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0130 | Land der Erbringung der IKT-Dienstleistungen | Land | Geben das Land, aus dem die IKT-Dienstleistungen erbracht werden, unter Verwendung des ISO 3166-1-Alpha-2-Codes an. | Obligatorisch, wenn die IKT-Dienstleistung eine kritische oder wichtige Funktion unterstützt"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0140 | Datenspeicherung | [Ja/Nein] | Ist die IKT-Dienstleistung mit der (vorübergehenden) Speicherung von Daten verbunden (oder sieht sie diese vor)? Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch, wenn die IKT-Dienstleistung eine kritische oder wichtige Funktion unterstützt"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0150 | Aufbewahrungsort der gespeicherten Daten (Speicherung) | Land | Geben Sie den ISO 3166-1-Alpha-2-Code des Landes an, in dem sich der Aufbewahrungsort der gespeicherten Daten (Speicherung) befindet. Handelt es sich um mehrere Länder, so ist für jedes Land eine zusätzliche Zeile zu verwenden. | Obligatorisch, wenn in B_02.02.0140 „Ja“ angegeben wurde."
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0160 | Ort der Datenverwaltung (Datenverarbeitung) | Land | Geben Sie den ISO 3166-1-Alpha-2-Code des Landes an, in dem die Datenverwaltung (Datenverarbeitung) stattfindet. Handelt es sich um mehrere Länder, so ist für jedes Land eine zusätzliche Zeile zu verwenden. | Obligatorisch, wenn die IKT-Dienstleistung sich auf die Datenver-arbeitung stützt oder diese vorsieht"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0170 | Sensibilität der vom IKT-Drittdienstleister gespeicherten Daten | Erschöpfende Liste von Optionen | Geben Sie anhand einer der Optionen, die in der folgenden erschöpfenden Liste aufgeführt sind, den Grad der Sensibilität der vom IKT-Drittdienstleister gespeicherten oder verarbeiteten Daten an: Die sensibelsten Daten haben dabei Vorrang: Wenn z. B. sowohl „Mittel“ als auch „Hoch“ zutreffend sind, ist „Hoch“ zu wählen. | Obligatorisch, wenn der IKT-Drittdienstleister Daten speichert und die IKT-Dienstleistung eine kritische oder wichtige Funktion oder einen wesentlichen Bereich davon unterstützt"
+          },
+          {
+            "m": "",
+            "t": "B_02.02.0180 | Grad der Abhängigkeit von der IKT-Dienstleistung, die die kritische oder wichtige Funktion unterstützt. | Erschöpfende Optionsliste | Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch, wenn die IKT-Dienstleistung eine kritische oder wichtige Funktion oder einen wesentlichen Bereich davon unterstützt"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_02.03 – Liste der gruppeninternen vertraglichen Vereinbarungen"
+      },
+      {
+        "art": "p",
+        "t": "In der Vorlage B_02.03 werden vertragliche Vereinbarungen aus derselben IKT-Dienstleistungskette anhand der gruppeninternen Vertragskennnummern erfasst, wenn die IKT-Dienstleistungskette gruppeninterne IKT-Dienstleister enthält, d. h. wenn mindestens einer der IKT-Drittdienstleister in der IKT-Dienstleistungskette ein Unternehmen ist, das derselben Gruppe angehört wie das Unternehmen, das die IKT-Dienstleistungen in Anspruch nimmt."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_02.03.0010 | Kennnummer der vertraglichen Vereinbarung | Alphanumerisch | Kennnummer der vertraglichen Vereinbarung zwischen dem Unternehmen, das die bereitgestellten IKT-Dienstleistung(en) in Anspruch nimmt, und dem gruppeninternen IKT-Dienstleister. Die Kennnummer der vertraglichen Vereinbarung muss eindeutig sein und ist im Zeitverlauf und über die gesamte Gruppe hinweg unverändert beizubehalten. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_02.03.0020 | Vertragliche Vereinbarung im Zusammenhang mit der in B_02.03.0010 genannten vertraglichen Vereinbarung | Alphanumerisch | Kennnummer der vertraglichen Vereinbarung zwischen dem gruppeninternen IKT-Dienstleister der vertraglichen Vereinbarung in B_02.03.0010 und seinem direkten IKT-Drittdienstleister. | Obligatorisch"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_03.01 – Unternehmen, die die vertraglichen Vereinbarungen für den Erhalt der IKT-Dienstleistung(en) im Namen der Finanzunternehmen, die die IKT-Dienstleistung(en) in Anspruch nehmen, unterzeichnen"
+      },
+      {
+        "art": "p",
+        "t": "Geben Sie alle in Vorlage B_01.02 genannten Finanzunternehmen an, die die in Vorlage B_02.01 genannten vertraglichen Vereinbarungen über den Erhalt von IKT-Dienstleistungen unterzeichnen. Wird das Informationsregister auf Unternehmensebene geführt und aktualisiert, so ist das Finanzunternehmen, das die vertraglichen Vereinbarungen unterzeichnet, das Finanzunternehmen selbst, das das Informationsregister führt und aktualisiert."
+      },
+      {
+        "art": "p",
+        "t": "Das Unternehmen, das die vertragliche Vereinbarung unterzeichnet, ist weder notwendigerweise ein Finanzunternehmen noch das Finanzunternehmen, das die vom IKT-Drittdienstleister bereitgestellten IKT-Dienstleistungen in Anspruch nimmt."
+      },
+      {
+        "art": "p",
+        "t": "Beispielsweise kann es sich bei dem Unternehmen, das die in Unterabsatz 2 genannte vertragliche Vereinbarung unterzeichnet, um einen gruppeninternen IKT-Dienstleister, um ein Finanzunternehmen oder um ein Nichtfinanzunternehmen handeln, das derselben Gruppe angehört wie die Finanzunternehmen, die die vom IKT-Drittdienstleister bereitgestellten IKT-Dienstleistungen in Anspruch nehmen."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_03.01.0010 | Kennnummer der vertraglichen Vereinbarung | Alphanumerisch | Wie in B_02.02.0010 angegeben Geben Sie die Kennnummer der vom Unternehmen unterzeichneten vertraglichen Vereinbarung an. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_03.01.0020 | LEI des Unternehmens, das die vertragliche Vereinbarung unterzeichnet | Alphanumerisch | Geben Sie anhand des 20-stelligen alphanumerischen LEI-Codes gemäß der Norm ISO 17442 oder anhand der EUID das Unternehmen an, das die vertragliche Vereinbarung unterzeichnet. | Obligatorisch"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_03.02 – IKT-Drittdienstleister, die die vertraglichen Vereinbarungen für die Erbringung der IKTDienstleistung(en) unterzeichnen"
+      },
+      {
+        "art": "p",
+        "t": "Geben Sie in dieser Vorlage alle in der Vorlage B_05.01 genannten IKT-Drittdienstleister an, die die in der Vorlage B_02.01 genannten vertraglichen Vereinbarungen zur Erbringung der IKT-Dienstleistungen unterzeichnen."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_03.02.0010 | Kennnummer der vertraglichen Vereinbarung | Alphanumerisch | Wie in B_02.02.0010 angegeben Geben Sie die Kennnummer der vertraglichen Vereinbarung an, die vom IKT-Drittdienstleister unterzeichnet wurde. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_03.02.0020 | Identifikationscode des IKT-Drittdienstleisters | Alphanumerisch | Wie in B_05.01.0010 angegeben Code zur Identifizierung des IKT-Drittdienstleisters gemäß den Angaben in B_05.01.0020 für diesen Dienstleister. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_03.02.0030 | Art des Codes zur Identifizierung des IKT-Drittdienstleisters | Muster | Wie in B_05.01.0020 angegeben Art des Codes zur Identifizierung des IKT-Drittdienstleisters in B_03.02.0020 gemäß den Angaben in B_05.01.0020 für diesen Dienstleister. | Obligatorisch"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_03.03 – Finanzunternehmen, die die vertraglichen Vereinbarungen über die Erbringung der IKTDienstleistung(en) für andere Finanzunternehmen im Konsolidierungskreis unterzeichnen"
+      },
+      {
+        "art": "p",
+        "t": "Geben Sie alle in der Vorlage B_01.02 genannten Finanzunternehmen an, die die in der Vorlage B_02.01 genannten vertraglichen Vereinbarungen über die Erbringung von IKT-Dienstleistungen für andere in der Vorlage B_01.02 genannte Unternehmen im Konsolidierungskreis unterzeichnet haben."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_03.03.0010 | Kennnummer der vertraglichen Vereinbarung | Alphanumerisch | Wie in B_02.02.0010 angegeben Geben Sie die Kennnummer der vertraglichen Vereinbarung an, die vom Unternehmen für die Erbringung der IKT-Dienstleistung(en) unterzeichnet wurde. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_03.03.0020 | LEI des Finanzunternehmens, das IKT-Dienstleistungen erbringt | Alphanumerisch | Wie in B_01.02.0010 angegeben Geben Sie anhand des 20-stelligen alphanumerischen LEI-Codes gemäß der Norm ISO 17442 das Unternehmen an, das die IKT-Dienstleistungen bereitstellt. | Obligatorisch"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_04.01 – Finanzunternehmen, die IKT-Dienstleistungen in Anspruch nehmen"
+      },
+      {
+        "art": "p",
+        "t": "In dieser Vorlage sind alle in Vorlage B_01.02 genannten Finanzunternehmen und die in Vorlage B_01.03 genannten Zweigniederlassungen von Finanzunternehmen zu melden, die IKT-Dienstleistungen eines IKT-Drittdienstleisters in Anspruch nehmen."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_04.01.0010 | Kennnummer der vertraglichen Vereinbarung | Alphanumerisch | Wie in B_02.01.0010 angegeben Geben Sie die Kennnummer der vertraglichen Vereinbarung in Bezug auf das Finanzunternehmen an, das die erbrachten IKT-Dienstleistungen in Anspruch nimmt. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_04.01.0020 | LEI des Finanzunternehmens, das die IKT-Dienstleistung(en) in Anspruch nimmt | Alphanumerisch | Geben Sie anhand des 20-stelligen alphanumerischen LEI-Codes gemäß der Norm ISO 17442 das Finanzunternehmen an, das die IKT-Dienstleistung(en) in Anspruch nimmt. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_04.01.0030 | Art des Finanzunternehmens, das die IKT-Dienstleistung(en) in Anspruch nimmt | Erschöpfende Optionsliste | Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_04.01.0040 | Identifikationscode der Zweigniederlassung | Alphanumerisch | Identifikationscode der in B_01.03.0010 gemeldeten Zweigniederlassung | Obligatorisch, wenn das Finanzunternehmen, das die IKT-Dienstleistung(en) in Anspruch nimmt, eine Zweigniederlassung eines Finanzunternehmens ist (B_04.01.0030)"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_05.01 – IKT-Drittdienstleister"
+      },
+      {
+        "art": "p",
+        "t": "Finanzunternehmen führen alle relevanten IKT-Drittdienstleister auf, darunter:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "alle direkten IKT-Drittdienstleister,"
+          },
+          {
+            "m": "b)",
+            "t": "alle gruppeninternen IKT-Dienstleister,"
+          },
+          {
+            "m": "c)",
+            "t": "alle Unterauftragnehmer, die in der Vorlage B_05.02 zur IKT-Dienstleistungskette aufgeführt sind,"
+          },
+          {
+            "m": "d)",
+            "t": "alle obersten Mutterunternehmen der unter den Buchstaben a, b und c oben genannten IKT-Drittdienstleister.",
+            "u": [
+              {
+                "m": "Spaltencode",
+                "t": "Spaltenbezeichnung"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_05.02 – IKT-Dienstleistungsketten"
+      },
+      {
+        "art": "p",
+        "t": "In dieser Vorlage werden die IKT-Drittdienstleister, die Teil derselben IKT-Dienstleistungskette sind, gemeinsam ausgewiesen und zueinander in Beziehung gesetzt."
+      },
+      {
+        "art": "p",
+        "t": "Die IKT-Dienstleistungskette umfasst gegebenenfalls Folgendes:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "alle direkten IKT-Drittdienstleister,"
+          },
+          {
+            "m": "b)",
+            "t": "alle gruppeninternen IKT-Dienstleister,"
+          },
+          {
+            "m": "c)",
+            "t": "bei IKT-Dienstleistungen, die eine kritische oder wichtige Funktion oder einen wesentlichen Bereich davon unterstützen, alle Unterauftragnehmer, die die Erbringung dieser IKT-Dienstleistungen sicherstellen (d. h. alle Unterauftragnehmer, die IKT-Dienstleistungen erbringen, deren Störung die Sicherheit oder Kontinuität des Dienstangebots beeinträchtigen würde),"
+          },
+          {
+            "m": "d)",
+            "t": "wenn ein gruppeninterner IKT-Dienstleister zur Erbringung seiner IKT-Dienstleistungen für das Finanzunternehmen Unterauftragnehmer einsetzt, zumindest den ersten Unterauftragnehmer außerhalb der Gruppe, auch wenn die erbrachten IKT-Dienstleistungen keine kritische oder wichtige Funktion oder wesentliche Bereiche davon unterstützen."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Alle IKT-Drittdienstleister, die derselben IKT-Dienstleistungskette angehören, weisen die folgenden gemeinsamen Merkmale auf:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "dieselbe „Kennnummer der vertraglichen Vereinbarung“ gemäß Vorlage B_02.01,"
+          },
+          {
+            "m": "b)",
+            "t": "dieselbe „Art von IKT-Dienstleistungen“ gemäß Anhang III."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Jedem IKT-Drittdienstleister, der zu derselben IKT-Dienstleistungskette gehört, wird ein „Rang“ (Vorlage B_05.02.0050) zugewiesen, um seine Position innerhalb der IKT-Dienstleistungskette zu kennzeichnen. Haben mehrere IKT-Drittdienstleister dieselbe Position innerhalb derselben IKT-Dienstleistungskette, so wird diesen Anbietern derselbe „Rang“ zugewiesen. Gemäß Artikel 2 liegen die direkten IKT-Drittdienstleister somit an erster Stelle (Rang 1). Ist die Rangnummer größer als 1, so sind die IKT-Drittdienstleister Unterauftragnehmer."
+      },
+      {
+        "art": "p",
+        "t": "Um die IKT-Drittdienstleister, die zu derselben IKT-Dienstleistungskette gehören, zueinander in Beziehung zu setzen, müssen die Finanzunternehmen für jeden IKT-Unterauftragnehmer (d. h. dessen „Rangnummer“ größer als 1 ist) den IKT-Drittdienstleister identifizieren, der die im Unterauftrag vergebenen Dienstleistungen erhält. Die Identifizierung des IKT-Drittdienstleisters, der die im Unterauftrag vergebenen Dienstleistungen erhält, erfolgt über die Spalten B_05.02.0060 und B_05.02.0070."
+      },
+      {
+        "art": "p",
+        "t": "Für jede IKT-Dienstleistungskette (d. h. eine Kombination aus einer „Kennnummer der vertraglichen Vereinbarung“ und einer „Art von IKT-Dienstleistungen“), bei der es mehrere IKT-Drittdienstleister gibt, die die im Unterauftrag vergebenen Dienstleistungen erhalten, sind alle diese Dienstleister in separaten Zeilen in der Vorlage auszuweisen. Diese Logik gilt für jeden Rang der IKT-Dienstleistungskette."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_05.02.0010 | Kennnummer der vertraglichen Vereinbarung | Alphanumerisch | Wie in B_02.01.0010 angegeben | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_05.02.0020 | Art der IKT-Dienstleistungen | Erschöpfende Liste von Optionen | Eine der in Anhang III genannten Arten von IKT-Dienstleistungen | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_05.02.0030 | Identifikationscode des IKT-Drittdienstleisters | Alphanumerisch | Wie in B_05.01.0010 für diesen IKT-Drittdienstleister angegeben. Beispiele: | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_05.02.0040 | Art des Codes zur Identifizierung des IKT-Drittdienstleisters | Muster | Wie in B_05.01.0020 für diesen IKT-Drittdienstleister angegeben. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_05.02.0050 | Rang | Natürliche Zahl | Wenn der IKT-Drittdienstleister die vertragliche Vereinbarung mit dem Finanzunternehmen unterzeichnet, gilt er als direkter IKT-Drittdienstleister und ist mit der „Rangnummer“ 1 zu kennzeichnen. Wenn der IKT-Drittdienstleister den Vertrag mit dem direkten IKT-Drittdienstleister unterzeichnet, gilt er als Unterauftragnehmer und ist mit der „Rangnummer“ 2 zu kennzeichnen. Diese Logik gilt auch für alle folgenden Unterauftragnehmer, deren „Rangnummer“ entsprechend jeweils um eine Zahl erhöht werden muss. Haben mehrere IKT-Drittdienstleister denselben „Rang“ in der IKT-Dienstleistungskette, so ist von den Finanzunternehmen für alle diese IKT-Drittdienstleister derselbe „Rang“ einzutragen. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_05.02.0060 | Identifikationscode des Empfängers von im Unterauftrag vergebenen IKT-Dienstleistungen | Alphanumerisch | Nicht auszufüllen, wenn der IKT-Drittdienstleister (Vorlage B_05.02.0030) ein direkter IKT-Drittdienstleister ist, d. h. den „Rang“ r = 1 hat (Vorlage B_05.02.0050). Wenn der IKT-Drittdienstleister den „Rang“ r = n hat (wobei n eine Zahl größer als 1 ist), ist der „Identifikationscode des Empfängers von im Unterauftrag vergebenen Dienstleistungen“ mit dem „Rang“ r=n-1 anzugeben, wenn eine (selbst nur teilweise) Untervergabe der IKT-Dienstleistung im Zusammenhang mit dem IKT-Drittdienstleister mit dem „Rang“ r=n erfolgt ist. Beispiele: Der zur Identifizierung des Empfängers von im Unterauftrag vergebenen IKT-Dienstleistungen verwendete Code muss mit dem in B_05.01.0010 für diesen Dienstleister angegebenen Identifikationscode übereinstimmen. | Obligatorisch; nicht zutreffend bei Rang 1"
+          },
+          {
+            "m": "",
+            "t": "B_05.02.0070 | Art des Codes zur Identifizierung des Empfängers von im Unterauftrag vergebenen IKT-Dienstleistungen | Muster | Nicht auszufüllen, wenn der IKT-Drittdienstleister (Vorlage B_05.02.0030) den Rang r = 1 hat (Vorlage B_05.02.0050). Wenn der IKT-Drittdienstleister den „Rang“ r = n hat (wobei n eine Zahl größer als 1 ist), ist die „Art des Codes zur Identifizierung des Empfängers von im Unterauftrag vergebenen Dienstleistungen“ mit dem „Rang“ r=n-1 anzugeben, wenn eine (selbst nur teilweise) Untervergabe der IKT-Dienstleistung im Zusammenhang mit dem IKT-Drittdienstleister mit dem „Rang“ r=n erfolgt ist. Die Art des Codes zur Identifizierung des Empfängers von im Unterauftrag vergebenen IKT-Dienstleistungen muss mit dem in B_05.01.0020 für diesen Dienstleister angegebenen Identifikationscode übereinstimmen. | Obligatorisch; nicht zutreffend bei Rang 1"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_06.01 – Angabe der Funktionen"
+      },
+      {
+        "art": "p",
+        "t": "Finanzunternehmen müssen entsprechend ihrer internen Organisation, die durch IKT-Dienste von IKT-Drittdienstleistern unterstützt wird, alle einschlägigen Funktionen angeben und Informationen hierüber bereitstellen."
+      },
+      {
+        "art": "p",
+        "t": "Jeder Kombination der folgenden Elemente muss eine eindeutige Funktionskennung zugewiesen werden:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "„LEI des Finanzunternehmens, das die IKT-Dienstleistung(en) in Anspruch nimmt“, Spalte B_06.01.0040,"
+          },
+          {
+            "m": "b)",
+            "t": "„Genehmigte Tätigkeit“, Spalte B_06.01.0020,"
+          },
+          {
+            "m": "c)",
+            "t": "„Bezeichnung der Funktion“, Spalte B_06.01.0030."
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen müssen zum Ausfüllen dieser Vorlage so viele Zeilen verwenden, wie Elemente in der Vorlage vorhanden sind, wenn sie die beiden obigen Punkte kombinieren."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Anleitung | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0010 | Funktionskennung | Muster | Die Funktionskennung besteht aus dem Buchstaben F (Hauptbuchstabe), gefolgt von einer natürlichen Zahl (z. B. „F1“ für die 1. Funktionskennung und „Fn“ für die n. Funktionskennung, wobei „n“ eine natürliche Zahl ist). Jede Kombination zwischen „LEI des Finanzunternehmens, das die IKT-Dienstleistung(en) in Anspruch nimmt“ (B_06.01.0040), „Bezeichnung der Funktion“ (B_06.01.0030) und „Genehmigte Tätigkeit“ (B_06.01.0020) muss eine eindeutige Funktionskennung aufweisen. Beispiel: Ein Finanzunternehmen, das im Rahmen von zwei genehmigten Tätigkeiten („Tätigkeit A“ und „Tätigkeit B“) agiert, erhält zwei eindeutige „Funktionskennungen“ für dieselbe Funktion X (z. B. Vertrieb), die jeweils für Tätigkeit A bzw. Tätigkeit B ausgeführt wird. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0020 | Genehmigte Tätigkeit | Erschöpfende Optionsliste | Eine der in den einschlägigen Rechtsakten in Anhang II genannten genehmigten Tätigkeiten für die verschiedenen Arten von Finanzunternehmen. Ist die Funktion nicht mit einer registrierten oder genehmigten Tätigkeit verbunden, so ist „Unterstützungsfunktionen“ anzugeben. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0030 | Bezeichnung der Funktion | Alphanumerisch | Funktionsbezeichnung entsprechend der internen Organisation des Finanzunternehmens. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0040 | LEI des Finanzunternehmens | Alphanumerisch | Wie in B_04.01.0020 angegeben Geben Sie anhand des 20-stelligen alphanumerischen LEI-Codes gemäß der Norm ISO 17442 das Finanzunternehmen an. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0060 | Bewertung der Kritikalität oder der Bedeutung | Erschöpfende Optionsliste | Geben Sie in dieser Spalte an, ob die Funktion nach Einschätzung des Finanzunternehmens kritisch oder wichtig ist. Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0070 | Gründe für Kritikalität oder Bedeutung | Alphanumerisch | Kurze Erläuterung der Gründe für die Einstufung der Funktion als kritisch oder wichtig (max. 300 Zeichen) | Optional"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0080 | Datum der letzten Bewertung der Kritikalität oder Bedeutung | Datum | Geben Sie das Datum unter Verwendung des ISO 8601-Codes (JJJJ-MM-TT) des Datums der letzten Bewertung der Kritikalität oder Bedeutung an, falls die Funktion durch IKT-Dienstleistungen unterstützt wird, die von IKT-Drittdienstleistern bereitgestellt werden. Wird keine Bewertung der Kritikalität oder Bedeutung der Funktion vorgenommen, ist an dieser Stelle „9999-12-31“ anzugeben. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0090 | Vorgabe für die Wiederherstellungszeit der Funktion | Natürliche Zahl | Die Angabe erfolgt in Stunden. Beträgt die Vorgabe für die Wiederherstellungszeit weniger als 1 Stunde, ist „1“ anzugeben. Ist die Vorgabe für die Wiederherstellungszeit der Funktion nicht definiert, ist „0“ anzugeben. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0100 | Vorgabe für den Wiederherstellungspunkt der Funktion | Natürliche Zahl | Die Angabe erfolgt in Stunden. Beträgt die Vorgabe für den Wiederherstellungspunkt weniger als 1 Stunde, ist „1“ anzugeben. Ist die Vorgabe für den Wiederherstellungspunkt der Funktion nicht definiert, ist „0“ anzugeben. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_06.01.0110 | Auswirkung der Einstellung der Funktion | Erschöpfende Optionsliste | Geben Sie in dieser Spalte die Auswirkung der Einstellung der Funktion nach Einschätzung des Finanzunternehmens an. Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_07.01 – Bewertung der IKT-Dienstleistungen"
+      },
+      {
+        "art": "p",
+        "t": "Wenn eine kritische oder wichtige Funktion oder wesentliche Bereiche davon unterstützt werden, ermöglicht diese Vorlage weitere Bewertungen der IKT-Dienstleistungen, die von IKT-Drittdienstleistern (einschließlich des ersten gruppenfremden Unterauftragnehmers in der IKT-Dienstleistungskette, wenn es sich bei den vorherigen IKT-Drittdienstleistern um gruppeninterne Dienstleister handelt) für das Finanzunternehmen erbracht werden."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Art | Hinweise zum Ausfüllen | Ausfülloption"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0010 | Kennnummer der vertraglichen Vereinbarung | Alphanumerisch | Wie in B_02.01.0010 angegeben | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0020 | Identifikationscode des IKT-Drittdienstleisters | Alphanumerisch | Wie in B_05.01.0010 angegeben | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0030 | Art des Codes zur Identifizierung des IKT-Drittdienstleisters | Muster | Wie in B_05.01.0020 angegeben | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0040 | Art der IKT-Dienstleistungen | Erschöpfende Optionsliste | Eine der in Anhang III genannten Arten von IKT-Dienstleistungen | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0050 | Substituierbarkeit des IKT-Drittdienstleisters | Erschöpfende Optionsliste | Geben Sie in dieser Spalte die Ergebnisse der Bewertung des Finanzunternehmens in Bezug auf den Grad der Substituierbarkeit des IKT-Drittdienstleisters für die Erbringung der spezifischen IKT-Dienstleistungen zur Unterstützung einer kritischen oder wichtigen Funktion an. Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0060 | Grund, warum der IKT-Drittdienstleister als nicht substituierbar oder schwer substituierbar angesehen wird | Erschöpfende Optionsliste | Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch, wenn in B_07.01.0041 „Nicht substituierbar“ oder „Äußerst komplizierte Substituierbarkeit“ ausgewählt wurde."
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0070 | Datum des letzten Audits über den IKT-Drittdienstleister | Datum | Geben Sie in dieser Spalte das Datum des letzten Audits über die spezifischen IKT-Dienstleistungen an, die vom IKT-Drittdienstleister erbracht werden. Diese Spalte bezieht sich auf Audits, die von einer der folgenden Stellen durchgeführt werden: Diese Spalte bezieht sich nicht auf den Eingang oder den Stichtag von Zertifizierungen durch Dritte oder von Innenrevisionsberichten des IKT-Drittdienstleisters, den Zeitpunkt der jährlichen Überwachung der Vereinbarung durch das Finanzunternehmen oder den Zeitpunkt der Überprüfung der Risikobewertung durch das Finanzunternehmen. In dieser Spalte sind alle Arten von Audits anzugeben, die von einer der unter den Buchstaben a, b und c genannten Stellen durchgeführt wurden und sich ganz oder teilweise auf die vom IKT-Drittdienstleister erbrachten IKT-Dienstleistungen beziehen. Für die Angabe des Datums ist der ISO 8601-Code (JJJJ-MM-TT) zu verwenden. Wurde kein Audit durchgeführt, ist an dieser Stelle „9999-12-31“ anzugeben. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0080 | Vorliegen eines Ausstiegsplans | [Ja/Nein] | Geben Sie in dieser Spalte an, ob ein Ausstiegsplan für den IKT-Drittdienstleister in Bezug auf die spezielle erbrachte IKT-Dienstleistung vorliegt. Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0090 | Möglichkeit der Wiedereingliederung der vertraglich vereinbarten IKT-Dienstleistung | Erschöpfende Optionsliste | Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: Verwenden Sie diese Spalte, wenn die IKT-Dienstleistung von einem IKT-Drittdienstleister erbracht wird, der kein gruppeninterner IKT-Dienstleister ist. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0100 | Auswirkung der Einstellung der IKT-Dienstleistungen | Erschöpfende Optionsliste | In dieser Spalte ist das Ausmaß der Auswirkungen anzugeben, die die Einstellung der vom IKT-Drittdienstleister erbrachten IKT-Dienstleistungen nach Einschätzung des Finanzunternehmens für das Finanzunternehmen hätte. Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0110 | Gibt es alternative IKT-Drittdienstleister? | Erschöpfende Optionsliste | Aus der folgenden erschöpfenden Liste ist eine Option auszuwählen: Für jeden IKT-Drittdienstleister, der eine kritische oder wichtige Funktion unterstützt, muss eine Bewertung zur Ermittlung eines alternativen Dienstleisters durchgeführt werden. | Obligatorisch"
+          },
+          {
+            "m": "",
+            "t": "B_07.01.0120 | Angabe alternativer IKT-Drittdienstleister | Alphanumerisch | Wenn in B_07.01.0110„Ja“ angegeben ist, können in dieser Spalte zusätzliche Angaben gemacht werden. | Optional"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "Anleitung zum Ausfüllen der Vorlage B_99.01 – Terminologie der Finanzunternehmen, die die IKT-Dienstleistungen nutzen"
+      },
+      {
+        "art": "p",
+        "t": "Die Finanzunternehmen stellen unternehmensinterne Erläuterungen, Bedeutungen und Begriffsbestimmungen in Bezug auf den erschöpfenden Indikatorenkatalog und Optionen, die im Informationsregisters verwendet werden, bereit."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "B_99.01.C0010 | B_99.01.C0020 | B_99.01.C0030 | B_99.01.C0040"
+          },
+          {
+            "m": "",
+            "t": "Spaltencode | Spaltenbezeichnung | Option | Beschreibung/Interne Definition der Option"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0010 | B_02.01.0020 | Art der vertraglichen Vereinbarung"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0020"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0030"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0040 | B_02.02.0170 | Sensibilität der vom IKT-Drittdienstleister gespeicherten Daten"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0050"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0060"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0070 | B_06.01.0110 | Auswirkung der Einstellung der Funktion"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0080"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0090"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0100 | B_07.01.0050 | Substituierbarkeit des IKT-Drittdienstleisters"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0110"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0120"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0130"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0140 | B_07.01.0090 | Möglichkeit der Wiedereingliederung der vertraglich vereinbarten IKT-Dienstleistung"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0150"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0160"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0170 | B_07.01.0100 | Auswirkung der Einstellung der IKT-Dienstleistungen"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0180"
+          },
+          {
+            "m": "",
+            "t": "B_99.01.R0190"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "(1) Richtlinie (EU) 2015/2366 des Europäischen Parlaments und des Rates vom 25. November 2015 über Zahlungsdienste im Binnenmarkt, zur Änderung der Richtlinien 2002/65/EG, 2009/110/EG und 2013/36/EU und der Verordnung (EU) Nr. 1093/2010 sowie zur Aufhebung der Richtlinie 2007/64/EG (ABl. L 337 vom 23.12.2015, S. 35, ELI: http://data.europa.eu/eli/dir/2015/2366/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(2) Richtlinie 2009/110/EG des Europäischen Parlaments und des Rates vom 16. September 2009 über die Aufnahme, Ausübung und Beaufsichtigung der Tätigkeit von E-Geld-Instituten, zur Änderung der Richtlinien 2005/60/EG und 2006/48/EG sowie zur Aufhebung der Richtlinie 2000/46/EG (ABl. L 267 vom 10.10.2009, S. 7, ELI: http://data.europa.eu/eli/dir/2009/110/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(3) Verordnung (EU) 2023/1114 des Europäischen Parlaments und des Rates vom 31. Mai 2023 über Märkte für Kryptowerte und zur Änderung der Verordnungen (EU) Nr. 1093/2010 und (EU) Nr. 1095/2010 sowie der Richtlinien 2013/36/EU und (EU) 2019/1937 (ABl. L 150 vom 9.6.2023, S. 40, ELI: http://data.europa.eu/eli/reg/2023/1114/oj)."
+      }
+    ]
+  },
+  "anx_II": {
+    "h": "20b121ddacdb0428e24cedbf501c9e27",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Art des Unternehmens | Liste der Tätigkeiten und Dienstleistungen"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten, die in Anhang I der Richtlinie 2013/36/EU aufgeführt sind, und Tätigkeiten, die in Abschnitt A und B von Anhang I der Richtlinie 2014/65/EU aufgeführt sind"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten, die in Anhang I der Richtlinie (EU) 2015/2366 aufgeführt sind"
+          },
+          {
+            "m": "",
+            "t": "Kontoinformationsdienste gemäß Anhang I Nummer 8 der Richtlinie (EU) 2015/2366"
+          },
+          {
+            "m": "",
+            "t": "Ausgabe von E-Geld gemäß der Richtlinie 2009/110/EG und Tätigkeiten, die in Anhang I der Richtlinie (EU) 2015/2366 aufgeführt sind"
+          },
+          {
+            "m": "",
+            "t": "Wertpapierdienstleistungen und Tätigkeiten, die in Abschnitt A und B des Anhangs I der Richtlinie 2014/65/EU aufgeführt sind"
+          },
+          {
+            "m": "",
+            "t": "Dienstleistungen und Tätigkeiten, die in Artikel 3 Nummer 16 der Verordnung (EU) 2023/1114 aufgeführt sind"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten gemäß Artikel 16 Absatz 1 der Verordnung (EU) 2023/1114"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten, die im Anhang der Verordnung (EU) Nr. 909/2014 des Europäischen Parlaments und des Rates aufgeführt sind ()"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeit zentraler Gegenparteien im Sinne des Artikels 2 Nummer 1 der Verordnung (EU) Nr. 648/2012"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeit von Handelsplätzen im Sinne des Artikels 4 Nummern 21 bis 24 der Richtlinie 2014/65/EU"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten von Transaktionsregistern im Sinne des Artikels 2 Nummer 2 der Verordnung (EU) Nr. 648/2012 und des Artikels 3 Nummer 1 der Verordnung (EU) 2015/2365 des Europäischen Parlaments und des Rates ()"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten, die in Artikel 6 Absatz 4 und in Anhang I der Richtlinie 2011/61/EU des Europäischen Parlaments und des Rates aufgeführt sind ()"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten, die in Artikel 6 Absatz 3 und in Anhang II der Richtlinie 2009/65/EG des Europäischen Parlaments und des Rates aufgeführt sind ()"
+          },
+          {
+            "m": "",
+            "t": "Dienstleistungen gemäß Artikel 2 Absatz 1 Nummer 34, 35 und 36 der Verordnung (EU) Nr. 600/2014 des Europäischen Parlaments und des Rates ()"
+          },
+          {
+            "m": "",
+            "t": "Zugelassene Tätigkeiten für i) die in Anhang I Abschnitt B der Richtlinie 2009/138/EG des Europäischen Parlaments und des Rates () genannten Versicherungszweige der Nichtlebensversicherung; ii) Lebensversicherungszweige gemäß Anhang II der Richtlinie; iii) Tätigkeiten der Nichtlebensrückversicherung und iv) Tätigkeiten der Lebensrückversicherung gemäß Artikel 15 Absatz 5 jener Richtlinie."
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten des Versicherungs- und Rückversicherungsvertriebs im Sinne des Artikels 2 Absatz 1 Nummer 1 und 2 der Richtlinie (EU) 2016/97 des Europäischen Parlaments und des Rates ()"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten von Einrichtungen der betrieblichen Altersversorgung gemäß Artikel 7 der Richtlinie (EU) 2016/2341 des Europäischen Parlaments und des Rates ()"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeiten von Ratingagenturen gemäß Artikel 3 Absatz 1 Buchstaben a und b der Verordnung (EG) Nr. 1060/2009 des Europäischen Parlaments und des Rates ()"
+          },
+          {
+            "m": "",
+            "t": "Bereitstellung von Referenzwerten durch Administratoren im Sinne des Artikels 3 Absatz 1 Nummern 5 und 6 der Verordnung (EU) 2016/1011 des Europäischen Parlaments und des Rates in Bezug auf kritische Referenzwerte im Sinne des Artikels 3 Absatz 1 Nummer 25 jener Verordnung"
+          },
+          {
+            "m": "",
+            "t": "Erbringung von Schwarmfinanzierungsdienstleistungen gemäß Artikel 3 der Verordnung (EU) 2020/1503 des Europäischen Parlaments und des Rates ()"
+          },
+          {
+            "m": "",
+            "t": "Tätigkeit von Verbriefungsregistern im Sinne des Artikels 2 Nummer 23 der Verordnung (EU) 2017/2402 des Europäischen Parlaments und des Rates () und Artikel 1 Nummern 4 und 5 der Delegierten Verordnung (EU) 2020/1230 der Kommission ()"
+          },
+          {
+            "m": "",
+            "t": "Nichtfinanzunternehmen: gruppeninterner IKT-Dienstleister | Nicht zutreffend"
+          },
+          {
+            "m": "",
+            "t": "Nichtfinanzunternehmen: sonstiges gruppeninternes Unternehmen | Nicht zutreffend"
+          },
+          {
+            "m": "",
+            "t": "Nichtfinanzunternehmen: IKT-Drittdienstleister | Nicht zutreffend"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "(1) Verordnung (EU) Nr. 909/2014 des Europäischen Parlaments und des Rates vom 23. Juli 2014 zur Verbesserung der Wertpapierlieferungen und -abrechnungen in der Europäischen Union und über Zentralverwahrer sowie zur Änderung der Richtlinien 98/26/EG und 2014/65/EU und der Verordnung (EU) Nr. 236/2012 (ABl. L 257 vom 28.8.2014, S. 1, ELI: http://data.europa.eu/eli/reg/2014/909/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(2) Verordnung (EU) 2015/2365 des Europäischen Parlaments und des Rates vom 25. November 2015 über die Transparenz von Wertpapierfinanzierungsgeschäften und der Weiterverwendung sowie zur Änderung der Verordnung (EU) Nr. 648/2012 (ABl. L 337 vom 23.12.2015, S. 1, ELI: http://data.europa.eu/eli/reg/2015/2365/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(3) Richtlinie 2011/61/EU des Europäischen Parlaments und des Rates vom 8. Juni 2011 über die Verwalter alternativer Investmentfonds und zur Änderung der Richtlinien 2003/41/EG und 2009/65/EG und der Verordnungen (EG) Nr. 1060/2009 und (EU) Nr. 1095/2010 (ABl. L 174 vom 1.7.2011, S. 1, ELI: http://data.europa.eu/eli/dir/2011/61/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(4) Richtlinie 2009/65/EG des Europäischen Parlaments und des Rates vom 13. Juli 2009 zur Koordinierung der Rechts- und Verwaltungsvorschriften betreffend bestimmte Organismen für gemeinsame Anlagen in Wertpapieren (OGAW) (ABl. L 302 vom 17.11.2009, S. 32, ELI: http://data.europa.eu/eli/dir/2009/65/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(5) Verordnung (EU) Nr. 600/2014 des Europäischen Parlaments und des Rates vom 15. Mai 2014 über Märkte für Finanzinstrumente und zur Änderung der Verordnung (EU) Nr. 648/2012 (ABl. L 173 vom 12.6.2014, S. 84, ELI: http://data.europa.eu/eli/reg/2014/600/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(6) Richtlinie 2009/138/EG des Europäischen Parlaments und des Rates vom 25. November 2009 betreffend die Aufnahme und Ausübung der Versicherungs- und der Rückversicherungstätigkeit (Solvabilität II) (ABl. L 335 vom 17.12.2009, S. 1, ELI: http://data.europa.eu/eli/dir/2009/138/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(7) Richtlinie (EU) 2016/97 des Europäischen Parlaments und des Rates vom 20. Januar 2016 über Versicherungsvertrieb (ABl. L 26 vom 2.2.2016, S. 19, ELI: http://data.europa.eu/eli/dir/2016/97/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(8) Richtlinie (EU) 2016/2341 des Europäischen Parlaments und des Rates vom 14. Dezember 2016 über die Tätigkeiten und die Beaufsichtigung von Einrichtungen der betrieblichen Altersversorgung (EbAV) (ABl. L 354 vom 23.12.2016, S. 37, ELI: http://data.europa.eu/eli/dir/2016/2341/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(9) Verordnung (EG) Nr. 1060/2009 des Europäischen Parlaments und des Rates vom 16. September 2009 über Ratingagenturen (ABl. L 302 vom 17.11.2009, S. 1, ELI: http://data.europa.eu/eli/reg/2009/1060/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(10) Verordnung (EU) 2020/1503 des Europäischen Parlaments und des Rates vom 7. Oktober 2020 über Europäische Schwarmfinanzierungsdienstleister für Unternehmen und zur Änderung der Verordnung (EU) 2017/1129 und der Richtlinie (EU) 2019/1937 (ABl. L 347 vom 20.10.2020, S. 1, ELI: http://data.europa.eu/eli/reg/2020/1503/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(11) Verordnung (EU) 2017/2402 des Europäischen Parlaments und des Rates vom 12. Dezember 2017 zur Festlegung eines allgemeinen Rahmens für Verbriefungen und zur Schaffung eines spezifischen Rahmens für einfache, transparente und standardisierte Verbriefung und zur Änderung der Richtlinien 2009/65/EG, 2009/138/EG, 2011/61/EU und der Verordnungen (EG) Nr. 1060/2009 und (EU) Nr. 648/2012 (ABl. L 347 vom 28.12.2017, S. 35, ELI: http://data.europa.eu/eli/reg/2017/2402/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(12) Delegierte Verordnung (EU) 2020/1230 der Kommission vom 29. November 2019 zur Ergänzung der Verordnung (EU) 2017/2402 des Europäischen Parlaments und des Rates durch technische Regulierungsstandards zur Festlegung der Einzelheiten des Antrags auf Registrierung als Verbriefungsregister und der Einzelheiten des vereinfachten Antrags auf Ausweitung der Registrierung als Transaktionsregister (ABl. L 289 vom 3.9.2020, S. 345, ELI: http://data.europa.eu/eli/reg/2020/1230/oj)."
+      }
+    ]
+  },
+  "anx_III": {
+    "h": "cd391a146f1e83a754b67a466f6e9153",
+    "b": [
+      {
+        "art": "p",
+        "t": "Wird auf eine Art von IKT-Dienstleistungen in den Vorlagen des Informationsregisters Bezug genommen, ist nur die Kennung (von S01 bis S19) der betreffenden Art von IKT-Dienstleistungen anzugeben."
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Kennung | Art der IKT-Dienstleistungen | Beschreibung"
+          },
+          {
+            "m": "",
+            "t": "S01 | Erbringung von Dienstleistungen im Zusammenhang mit dem Projektmanagement."
+          },
+          {
+            "m": "",
+            "t": "S02 | Erbringung von Dienstleistungen im Zusammenhang mit: Unternehmensanalyse, Softwaredesign und -entwicklung, Tests."
+          },
+          {
+            "m": "",
+            "t": "S03 | Erbringung von Dienstleistungen im Zusammenhang mit: Helpdesk-Support und First-Level-Support bei IKT-Vorfällen"
+          },
+          {
+            "m": "",
+            "t": "S04 | Erbringung von Dienstleistungen im Zusammenhang mit: IKT-Sicherheit (Schutz, Erkennung, Reaktion und Wiederherstellung), einschließlich Umgang mit Sicherheitsvorfällen und Forensik."
+          },
+          {
+            "m": "",
+            "t": "S05 | Abonnement der Dienste von Datenanbietern. (digitaler Datendienst)"
+          },
+          {
+            "m": "",
+            "t": "S06 | Erbringung von Dienstleistungen im Zusammenhang mit der Unterstützung der Datenanalyse. (digitaler Datendienst)"
+          },
+          {
+            "m": "",
+            "t": "S07 | Bereitstellung von IKT-Infrastruktur, Betriebsmitteln und Hostingdiensten, einschließlich Versorgungsleistungen (Energie, Wärmemanagement usw.), Telekommunikationszugang und physischer Sicherheit (ohne Cloud-Dienste), Zahlungsabwicklungstätigkeiten oder Bereitstellung von Zahlungsinfrastrukturen"
+          },
+          {
+            "m": "",
+            "t": "S08 | Bereitstellung digitaler Verarbeitungskapazitäten (einschließlich Datenrechenleistung), mit Ausnahme der im Rahmen einer Cloud-Umgebung erbrachten Rechendienste."
+          },
+          {
+            "m": "",
+            "t": "S09 | Bereitstellung von Datenspeicherplattformen (ohne Cloud-Dienste)."
+          },
+          {
+            "m": "",
+            "t": "S10 | Betrieb von Telekommunikationssystemen und Ablaufmanagement. Traditionelle analoge Telefondienste sind gemäß Artikel 3 Nummer 21 der Verordnung (EU) 2022/2554 ausdrücklich ausgeschlossen."
+          },
+          {
+            "m": "",
+            "t": "S11 | Bereitstellung von Netzwerkinfrastruktur"
+          },
+          {
+            "m": "",
+            "t": "S12 | Bereitstellung von Arbeitsplätzen, Telefonen, Servern, Datenspeichergeräten, Vorrichtungen usw. in Form einer Dienstleistung"
+          },
+          {
+            "m": "",
+            "t": "S13 | Bereitstellung von lokal ausgeführter Software."
+          },
+          {
+            "m": "",
+            "t": "S14 | Erbringung von Dienstleistungen im Zusammenhang mit: Infrastrukturkonfiguration (Systeme und Hardware mit Ausnahme des Netzwerks), Wartung, Installation, Kapazitätsmanagement, betriebliches Kontinuitätsmanagement usw. Einschließlich Anbieter von verwalteten Dienstleistungen (Managed Service Providers, MSPs)"
+          },
+          {
+            "m": "",
+            "t": "S15 | Erbringung von auf Know-how/IKT-Fachwissen beruhenden Dienstleistungen."
+          },
+          {
+            "m": "",
+            "t": "S16 | Überprüfung der Einhaltung der Anforderungen für das IKT-Risikomanagement gemäß Artikel 6 Absatz 10 der Verordnung (EU) 2022/2554"
+          },
+          {
+            "m": "",
+            "t": "S17 | Infrastructure-as-a-Service"
+          },
+          {
+            "m": "",
+            "t": "S18 | Platform-as-a-Service"
+          },
+          {
+            "m": "",
+            "t": "S19 | Software-as-a-Service"
+          }
+        ]
+      }
+    ]
+  },
+  "anx_IV": {
+    "h": "0cddf2436911ca5025f6406944ca1ed9",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Art des Unternehmens | Anleitung zur Meldung des Gesamtwerts der Aktiva in Spalte B_01.02.0110"
+          },
+          {
+            "m": "",
+            "t": "Angaben gemäß Meldebogen C40.00 Zeile 0410 Spalte 0010 in Anhang X der Durchführungsverordnung (EU) 2021/451 der Kommission ()"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Angaben gemäß Meldebogen Z01.00 Spalte 0090 in Anhang I der Durchführungsverordnung (EU) 2018/1624 der Kommission ()"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den geprüften Jahresabschlüssen, die den zuständigen Behörden gemäß Artikel 41 Buchstabe a der Delegierten Verordnung (EU) 2017/392 der Kommission gemeldet wurden ()"
+          },
+          {
+            "m": "",
+            "t": "Angaben gemäß Feld 15.2 der „Veröffentlichten quantitativen Offenlegungsstandards für zentrale Gegenparteien“ der BIZ/IOSCO."
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Angaben gemäß Anhang II und Meldebogen S02.01 Zeile 0500 Spalte 0010 in Anhang III der Durchführungsverordnung (EU) 2023/894 der Kommission ()"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Das Gesamtvermögen muss der Summe aller getrennt auf der Aktivseite der Bilanz ausgewiesenen Positionen sowie auch der Passiva insgesamt entsprechen"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Gesamtwert der Aktiva in den Rechnungslegungsdaten"
+          },
+          {
+            "m": "",
+            "t": "Nichtfinanzunternehmen: gruppeninterner IKT-Dienstleister | Nicht zutreffend"
+          },
+          {
+            "m": "",
+            "t": "Nichtfinanzunternehmen: sonstiges gruppeninternes Unternehmen | Nicht zutreffend"
+          },
+          {
+            "m": "",
+            "t": "Nichtfinanzunternehmen: IKT-Drittdienstleister | Nicht zutreffend"
+          }
+        ]
+      },
+      {
+        "art": "p",
+        "t": "(1) Durchführungsverordnung (EU) 2021/451 der Kommission vom 17. Dezember 2020 zur Festlegung technischer Durchführungsstandards für die Anwendung der Verordnung (EU) Nr. 575/2013 des Europäischen Parlaments und des Rates auf die aufsichtlichen Meldungen der Institute und zur Aufhebung der Durchführungsverordnung (EU) Nr. 680/2014 (ABl. L 97 vom 19.3.2021, S. 1, ELI: http://data.europa.eu/eli/reg_impl/2021/451/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(2) Durchführungsverordnung (EU) 2018/1624 der Kommission vom 23. Oktober 2018 zur Festlegung technischer Durchführungsstandards in Bezug auf Verfahren, Standardformulare und Meldebögen für die Bereitstellung von Informationen für die Erstellung von Abwicklungsplänen für Kreditinstitute und Wertpapierfirmen gemäß der Richtlinie 2014/59/EU des Europäischen Parlaments und des Rates und zur Aufhebung der Durchführungsverordnung (EU) 2016/1066 der Kommission (ABl. L 277 vom 7.11.2018, S. 1, ELI: http://data.europa.eu/eli/reg_impl/2018/1624/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(3) Delegierte Verordnung (EU) 2017/392 der Kommission vom 11. November 2016 zur Ergänzung der Verordnung (EU) Nr. 909/2014 des Europäischen Parlaments und des Rates durch technische Regulierungsstandards für die Zulassung von und für aufsichtliche und operationelle Anforderungen an Zentralverwahrer (ABl. L 65 vom 10.3.2017, S. 48, ELI: http://data.europa.eu/eli/reg_del/2017/392/oj)."
+      },
+      {
+        "art": "p",
+        "t": "(4) Durchführungsverordnung (EU) 2023/894 der Kommission vom 4. April 2023 zur Festlegung technischer Durchführungsstandards für die Anwendung der Richtlinie 2009/138/EG des Europäischen Parlaments und des Rates im Hinblick auf die Meldebögen zur Übermittlung für die Aufsicht erforderlicher Informationen durch Versicherungs- und Rückversicherungsunternehmen an ihre Aufsichtsbehörde und zur Aufhebung der Durchführungsverordnung (EU) 2015/2450 (ABl. L 120, 5.5.2023, S. 1, ELI: http://data.europa.eu/eli/reg_impl/2023/894/oj)."
+      }
+    ]
+  },
   "art_1": {
     "h": "4e65094ac6757d30af2554aea053d456",
     "b": [

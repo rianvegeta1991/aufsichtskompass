@@ -91,24 +91,73 @@ impl Leine {
         self.hosts.iter().any(|h| host == h || host.ends_with(&format!(".{h}")))
     }
 
-    /// Klient, der auch bei Umleitungen an der Leine bleibt.
+    /// Klient ohne automatische Umleitung. Umleitungen folgt `senden` selbst -
+    /// so laeuft **jede** Station durch die Leine, und `http` laesst sich auf
+    /// `https` anheben (siehe dort).
     pub fn klient(&self, kennung: &str, sekunden: u64) -> Result<reqwest::blocking::Client> {
-        let leine = self.clone();
-        let regel = reqwest::redirect::Policy::custom(move |versuch| {
-            if versuch.previous().len() >= 5 {
-                return versuch.error("zu viele Umleitungen");
-            }
-            match leine.erlaubt(versuch.url().as_str()) {
-                Ok(_) => versuch.follow(),
-                Err(f) => versuch.error(f.to_string()),
-            }
-        });
         Ok(reqwest::blocking::Client::builder()
             .user_agent(kennung.to_string())
             .timeout(Duration::from_secs(sekunden))
-            .redirect(regel)
+            .redirect(reqwest::redirect::Policy::none())
             .build()?)
     }
+
+    /// Schickt eine GET-Anfrage und folgt Umleitungen - jede Station wird
+    /// gegen die Leine geprueft, hoechstens fuenf.
+    ///
+    /// Warum nicht die automatische Umleitung von reqwest: CELLAR leitet auf
+    /// `http://publications.europa.eu/resource/cellar/...` um, also auf **dieselbe**
+    /// erlaubte Adresse, nur unverschluesselt. Das einfach zu verbieten legte den
+    /// Abruf aller EU-Rechtstexte lahm (so geschehen in v1.8). Stattdessen wird `http`
+    /// auf `https` angehoben, bevor die Leine pruefen darf: der Abruf bleibt
+    /// verschluesselt und der Host muss trotzdem auf der Liste stehen. Strenger als
+    /// vorher, nicht lockerer.
+    pub fn senden(
+        &self,
+        klient: &reqwest::blocking::Client,
+        url: &str,
+        kopfzeilen: &[(&str, &str)],
+    ) -> Result<reqwest::blocking::Response> {
+        let mut aktuell = self.erlaubt(url)?;
+        for _ in 0..=5 {
+            let mut anfrage = klient.get(aktuell.clone());
+            for (name, wert) in kopfzeilen {
+                anfrage = anfrage.header(*name, *wert);
+            }
+            let antwort = anfrage
+                .send()
+                .map_err(|f| anyhow::anyhow!("Abruf {aktuell}: {f}"))?;
+            let status = antwort.status();
+            // 304 ist kein Umleitungsfall, auch wenn reqwest ihn zu den 3xx zaehlt.
+            if !status.is_redirection() || status == reqwest::StatusCode::NOT_MODIFIED {
+                return Ok(antwort);
+            }
+            let Some(ziel) = antwort
+                .headers()
+                .get(reqwest::header::LOCATION)
+                .and_then(|v| v.to_str().ok())
+            else {
+                bail!("{aktuell}: Umleitung ({status}) ohne Location-Kopf");
+            };
+            let naechste = naechste_adresse(&aktuell, ziel)?;
+            // Die Leine entscheidet ueber die angehobene Adresse.
+            aktuell = self.erlaubt(naechste.as_str())?;
+        }
+        bail!("{url}: zu viele Umleitungen")
+    }
+}
+
+/// Zieladresse einer Umleitung: relative Angaben werden aufgeloest, `http` wird
+/// auf `https` angehoben. Reine Rechenarbeit, ohne Netz - deshalb testbar.
+pub fn naechste_adresse(aktuell: &Url, location: &str) -> Result<Url> {
+    let mut u = aktuell
+        .join(location)
+        .map_err(|_| anyhow::anyhow!("{aktuell}: Umleitungsziel '{location}' ist keine Adresse"))?;
+    if u.scheme() == "http" {
+        u.set_scheme("https")
+            .map_err(|_| anyhow::anyhow!("{u}: Schema laesst sich nicht auf https anheben"))?;
+    }
+    Ok(u)
 }
 
 #[cfg(test)]
@@ -161,5 +210,36 @@ mod tests {
     fn punkt_am_ende_und_grossschreibung_zaehlen_nicht() {
         let l = leine();
         assert!(l.erlaubt("https://WWW.BSI.BUND.DE./feed").is_ok());
+    }
+
+    #[test]
+    fn umleitung_wird_aufgeloest_und_auf_https_angehoben() {
+        let von = Url::parse("https://publications.europa.eu/resource/celex/32022R2554").unwrap();
+        // genau der Fall von CELLAR: dieselbe Adresse, aber unverschluesselt
+        let a = naechste_adresse(
+            &von,
+            "http://publications.europa.eu/resource/cellar/abc.0004.03/DOC_1",
+        )
+        .unwrap();
+        assert_eq!(a.as_str(), "https://publications.europa.eu/resource/cellar/abc.0004.03/DOC_1");
+        // relative Angaben werden gegen die aktuelle Adresse aufgeloest
+        let b = naechste_adresse(&von, "/resource/cellar/xyz").unwrap();
+        assert_eq!(b.as_str(), "https://publications.europa.eu/resource/cellar/xyz");
+        assert!(naechste_adresse(&von, "http://[kaputt").is_err());
+    }
+
+    #[test]
+    fn angehobene_adresse_muss_trotzdem_auf_die_liste() {
+        let l = leine();
+        let von = Url::parse("https://publications.europa.eu/resource/celex/1").unwrap();
+        // Auf die Liste: nach dem Anheben erlaubt.
+        let ok = naechste_adresse(&von, "http://publications.europa.eu/x").unwrap();
+        assert!(l.erlaubt(ok.as_str()).is_ok());
+        // Fremder Host: auch angehoben abgewiesen - Verschluesselung ersetzt keine Erlaubnis.
+        let fremd = naechste_adresse(&von, "http://beispiel.test/x").unwrap();
+        assert!(l.erlaubt(fremd.as_str()).is_err());
+        // Adressliteral und interne Adresse: ebenfalls.
+        let intern = naechste_adresse(&von, "http://169.254.169.254/latest/meta-data/").unwrap();
+        assert!(l.erlaubt(intern.as_str()).is_err());
     }
 }

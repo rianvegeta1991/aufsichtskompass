@@ -1,0 +1,19 @@
+{
+  "regelwerk": "data-act",
+  "fassungen": [
+    {
+      "id": "2026-09-01",
+      "stand": "Tue, 01 Sep 2026 13:54:41 GMT",
+      "abgerufen": "2026-10-08T20:01:31Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32023R2854",
+        "celex": "32023R2854",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20260901155441000\"",
+      "hash": "620d2d2b6686d75ba60a80aa2879634a1c76171d5a138ceb382ef10f284b7c8b",
+      "fundstellen": 361
+    }
+  ]
+}

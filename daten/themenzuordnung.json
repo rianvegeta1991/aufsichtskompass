@@ -1,5 +1,5 @@
 {
-  "stand": "2026-10-02",
+  "stand": "2026-10-08",
   "hinweis": "Ordnet einzelne Fundstellen den Themen zu. Von Hand gepflegt und gegen die Überschriften der Quelle geprüft; 'kompass pruefen' schlägt an, wenn ein Pfad im Bestand nicht existiert. Regelwerke ohne Eintrag hier erscheinen auf den Themenseiten über ihre Themen im Katalog (Ebene 'ganzes Regelwerk').",
   "herkunft": "manuell",
   "geprueft": false,
@@ -1450,6 +1450,258 @@
       "pfad": "frage/44",
       "themen": [
         "it-governance"
+      ]
+    },
+    {
+      "rw": "sii-rl",
+      "pfad": "art/40",
+      "themen": [
+        "leitungsorgan",
+        "it-governance"
+      ]
+    },
+    {
+      "rw": "sii-rl",
+      "pfad": "art/41",
+      "themen": [
+        "it-governance",
+        "iks"
+      ]
+    },
+    {
+      "rw": "sii-rl",
+      "pfad": "art/44",
+      "themen": [
+        "ikt-risikomanagement",
+        "iks"
+      ]
+    },
+    {
+      "rw": "sii-rl",
+      "pfad": "art/46",
+      "themen": [
+        "iks",
+        "funktionstrennung"
+      ]
+    },
+    {
+      "rw": "sii-rl",
+      "pfad": "art/47",
+      "themen": [
+        "iks"
+      ]
+    },
+    {
+      "rw": "sii-rl",
+      "pfad": "art/49",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "sii-dvo",
+      "pfad": "art/258",
+      "themen": [
+        "it-governance",
+        "iks"
+      ]
+    },
+    {
+      "rw": "sii-dvo",
+      "pfad": "art/259",
+      "themen": [
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "sii-dvo",
+      "pfad": "art/260",
+      "themen": [
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "sii-dvo",
+      "pfad": "art/266",
+      "themen": [
+        "iks"
+      ]
+    },
+    {
+      "rw": "sii-dvo",
+      "pfad": "art/269",
+      "themen": [
+        "funktionstrennung",
+        "iks"
+      ]
+    },
+    {
+      "rw": "sii-dvo",
+      "pfad": "art/270",
+      "themen": [
+        "iks"
+      ]
+    },
+    {
+      "rw": "sii-dvo",
+      "pfad": "art/271",
+      "themen": [
+        "iks"
+      ]
+    },
+    {
+      "rw": "sii-dvo",
+      "pfad": "art/274",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/4",
+      "themen": [
+        "awareness",
+        "ki-governance"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/5",
+      "themen": [
+        "ki-governance"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/6",
+      "themen": [
+        "ki-governance"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "anh/III",
+      "themen": [
+        "ki-governance"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/9",
+      "themen": [
+        "ki-governance",
+        "ikt-risikomanagement"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/10",
+      "themen": [
+        "ki-governance",
+        "datenschutz"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/12",
+      "themen": [
+        "ki-governance",
+        "logging-monitoring"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/14",
+      "themen": [
+        "ki-governance"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/15",
+      "themen": [
+        "ki-governance",
+        "infosec"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/17",
+      "themen": [
+        "ki-governance",
+        "iks"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/26",
+      "themen": [
+        "ki-governance"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/27",
+      "themen": [
+        "ki-governance",
+        "datenschutz"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/50",
+      "themen": [
+        "ki-governance"
+      ]
+    },
+    {
+      "rw": "ai-act",
+      "pfad": "art/86",
+      "themen": [
+        "ki-governance"
+      ]
+    },
+    {
+      "rw": "data-act",
+      "pfad": "art/23",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "data-act",
+      "pfad": "art/25",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "data-act",
+      "pfad": "art/30",
+      "themen": [
+        "drittparteien-auslagerung"
+      ]
+    },
+    {
+      "rw": "cra",
+      "pfad": "art/13",
+      "themen": [
+        "sdlc",
+        "infosec"
+      ]
+    },
+    {
+      "rw": "cra",
+      "pfad": "art/14",
+      "themen": [
+        "incident-meldewesen"
+      ]
+    },
+    {
+      "rw": "dora-its-2956",
+      "pfad": "anh/I",
+      "themen": [
+        "informationsregister"
       ]
     }
   ]

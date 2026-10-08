@@ -1,5 +1,5 @@
 {
-  "stand": "2026-10-02",
+  "stand": "2026-10-08",
   "hinweis": "Fachliche Beziehungen zwischen Fundstellen. Was sich aus dem Wortlaut ergibt (Verweise), steht dagegen in verweise.json und wird vom Werkzeug erzeugt. Jede Beziehung hier nennt Quelle der Zuordnung, Begründung, Konfidenz und Prüfstatus; 'geprueft: false' heißt: noch nicht fachlich abgenommen.",
   "typen": {
     "entspricht": "Gleiche Anforderung in anderem Regelwerk",
@@ -1370,24 +1370,6 @@
       "geprueft": false
     },
     {
-      "id": "mago-79-ai-act",
-      "von": {
-        "rw": "mago-va",
-        "pfad": "rz/79"
-      },
-      "nach": {
-        "rw": "ai-act"
-      },
-      "typ": "ueberschneidet",
-      "themen": [
-        "ki-governance"
-      ],
-      "begruendung": "Automatisierte Risikozeichnung und automatisierte Einzelfallentscheidungen in der Leistungs- bearbeitung sind genau die Anwendungen, für die die KI-Verordnung zusätzliche Pflichten begründen kann. Die MaGo verlangt dafür die organisatorische Einbettung.",
-      "quelle": "eigene Analyse",
-      "konfidenz": "mittel",
-      "geprueft": false
-    },
-    {
       "id": "mago-168-dora-6",
       "von": {
         "rw": "mago-va",
@@ -1596,6 +1578,243 @@
       ],
       "begruendung": "Die Antwort beantwortet die in der Praxis häufigste Frage zum Informationsregister: Ohne Bezug zu einer kritischen oder wichtigen Funktion genügt der Dienstleister in direktem Vertragsverhältnis (Rang 1); bei gruppeninternen Dienstleistern kommt der erste externe Dienstleister hinzu.",
       "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "vag-23-sii-41",
+      "von": {
+        "rw": "vag",
+        "pfad": "par/23"
+      },
+      "nach": {
+        "rw": "sii-rl",
+        "pfad": "art/41"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "it-governance",
+        "iks"
+      ],
+      "begruendung": "§ 23 VAG setzt die allgemeinen Governance-Anforderungen des Artikels 41 der Richtlinie 2009/138/EG um: ein wirksames Governance-System mit transparenter Organisationsstruktur, klarer Zuweisung und angemessener Trennung der Zuständigkeiten sowie regelmäßiger interner Überprüfung.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "vag-32-sii-49",
+      "von": {
+        "rw": "vag",
+        "pfad": "par/32"
+      },
+      "nach": {
+        "rw": "sii-rl",
+        "pfad": "art/49"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die Ausgliederungsvorschrift des VAG geht auf Artikel 49 der Richtlinie zurück: Das Unternehmen bleibt für die Erfüllung seiner Pflichten voll verantwortlich, und kritische oder wichtige Funktionen dürfen nicht so ausgelagert werden, dass die Governance, das operationelle Risiko, die Aufsicht oder die Dienstleistung gegenüber den Versicherungsnehmern leidet.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "sii-dvo-274-sii-49",
+      "von": {
+        "rw": "sii-dvo",
+        "pfad": "art/274"
+      },
+      "nach": {
+        "rw": "sii-rl",
+        "pfad": "art/49"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Die Delegierte Verordnung füllt Artikel 49 der Richtlinie aus: schriftlich fixierte Outsourcing-Politik, Berichts- und Überwachungsmechanismen und Anforderungen an die Outsourcing-Vereinbarung. (Der Artikel trägt in der amtlichen Fassung keinen Titel.)",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "dora-28-sii-dvo-274",
+      "von": {
+        "rw": "dora",
+        "pfad": "art/28"
+      },
+      "nach": {
+        "rw": "sii-dvo",
+        "pfad": "art/274"
+      },
+      "typ": "geht-weiter",
+      "themen": [
+        "drittparteien-auslagerung",
+        "informationsregister"
+      ],
+      "begruendung": "Für IKT-Dienstleistungen verlangt DORA mehr als die DVO: Informationsregister, Vorabbewertung einschließlich Konzentrationsrisiko, Pflichtinhalte des Vertrags und Ausstiegsstrategien. Die sektorale Outsourcing-Politik entfällt dadurch nicht – die BaFin stellt in ihren FAQ klar, dass beides parallel zu beachten ist (DORA ergänzt).",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "sii-dvo-260-dora-6",
+      "von": {
+        "rw": "sii-dvo",
+        "pfad": "art/260"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/6"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "ikt-risikomanagement"
+      ],
+      "begruendung": "Artikel 260 Buchstabe f verlangt ein Management des operationellen Risikos mit klar zugewiesenen Zuständigkeiten für Ermittlung, Dokumentation und Überwachung. IKT-Risiken sind ein Teil davon; Artikel 6 DORA verlangt dafür einen eigenen, dokumentierten Rahmen mit höherer Detailtiefe.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "ai-act-anh3-mago-79",
+      "von": {
+        "rw": "ai-act",
+        "pfad": "anh/III"
+      },
+      "nach": {
+        "rw": "mago-va",
+        "pfad": "rz/79"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "ki-governance",
+        "iks"
+      ],
+      "begruendung": "Anhang III Nummer 5 Buchstabe c stuft KI-Systeme für Risikobewertung und Preisbildung bei natürlichen Personen in der Lebens- und Krankenversicherung als Hochrisiko ein. Randziffer 79 MaGo verlangt für automatisierte Geschäftsabläufe – ausdrücklich auch automatisierte Risikozeichnung und Einzelfallentscheidungen in der Leistungsbearbeitung – Steuerung und Überwachung. Beides trifft dieselben Verfahren aus unterschiedlicher Richtung.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "ai-act-27-anh3",
+      "von": {
+        "rw": "ai-act",
+        "pfad": "art/27"
+      },
+      "nach": {
+        "rw": "ai-act",
+        "pfad": "anh/III"
+      },
+      "typ": "verweist",
+      "themen": [
+        "ki-governance",
+        "datenschutz"
+      ],
+      "begruendung": "Artikel 27 verpflichtet Betreiber von Systemen nach Anhang III Nummer 5 Buchstaben b und c – also Kreditwürdigkeitsprüfung sowie Risikobewertung und Preisbildung in der Lebens- und Krankenversicherung – zu einer Grundrechte-Folgenabschätzung vor der Inbetriebnahme. Für Versicherer ist das die Stelle, an der der AI Act am unmittelbarsten greift.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "ai-act-27-dsgvo-35",
+      "von": {
+        "rw": "ai-act",
+        "pfad": "art/27"
+      },
+      "nach": {
+        "rw": "dsgvo",
+        "pfad": "art/35"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "datenschutz",
+        "ki-governance"
+      ],
+      "begruendung": "Sind die Pflichten der Grundrechte-Folgenabschätzung bereits durch eine Datenschutz-Folgenabschätzung erfüllt, ergänzt jene diese. Beide Verfahren lassen sich also zusammen planen, ersetzen einander aber nicht.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "hoch",
+      "geprueft": false
+    },
+    {
+      "id": "ai-act-17-vag-23",
+      "von": {
+        "rw": "ai-act",
+        "pfad": "art/17"
+      },
+      "nach": {
+        "rw": "vag",
+        "pfad": "par/23"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "ki-governance",
+        "iks",
+        "it-governance"
+      ],
+      "begruendung": "Bei Anbietern, die Finanzinstitute mit Anforderungen an ihre interne Unternehmensführung sind, gilt die Pflicht zum Qualitätsmanagementsystem im Wesentlichen als erfüllt, wenn diese Governance-Vorschriften eingehalten werden. Für Versicherer ist das die Geschäftsorganisation nach § 23 VAG – ausgenommen sind einzelne Buchstaben des Absatzes 1, die gesondert zu erfüllen bleiben.",
+      "quelle": "Wortlaut der Vorschrift",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "ai-act-26-dora-12",
+      "von": {
+        "rw": "ai-act",
+        "pfad": "art/26"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/12"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "ki-governance",
+        "logging-monitoring",
+        "bcm-backup"
+      ],
+      "begruendung": "Auch die Betreiberpflichten kennen eine Sonderregel für Finanzinstitute mit interner Governance: Aufzeichnungen sind als Teil der nach Finanzdienstleistungsrecht aufzubewahrenden Dokumentation zu führen. Das trifft auf die Anforderungen zu Protokollierung und Aufbewahrung, die DORA an IKT-Systeme stellt.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "niedrig",
+      "geprueft": false
+    },
+    {
+      "id": "data-act-23-dora-28-8",
+      "von": {
+        "rw": "data-act",
+        "pfad": "art/23"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/28/abs/8"
+      },
+      "typ": "ueberschneidet",
+      "themen": [
+        "drittparteien-auslagerung"
+      ],
+      "begruendung": "Der Data Act verpflichtet Anbieter von Datenverarbeitungsdiensten, Hindernisse für einen Wechsel zu beseitigen. Das stützt die Ausstiegsstrategie, die DORA für kritische oder wichtige Funktionen verlangt – der Ausstieg scheitert dann nicht mehr allein an Vertrag und Technik des Anbieters.",
+      "quelle": "eigene Analyse",
+      "konfidenz": "mittel",
+      "geprueft": false
+    },
+    {
+      "id": "dora-its-anh1-dora-28-3",
+      "von": {
+        "rw": "dora-its-2956",
+        "pfad": "anh/I"
+      },
+      "nach": {
+        "rw": "dora",
+        "pfad": "art/28/abs/3"
+      },
+      "typ": "konkretisiert",
+      "themen": [
+        "informationsregister"
+      ],
+      "begruendung": "Anhang I des Durchführungsstandards ist die Anleitung zum Ausfüllen des Informationsregisters, das Artikel 28 Absatz 3 DORA verlangt: welche Felder wie zu füllen sind.",
+      "quelle": "eigene Analyse",
       "konfidenz": "hoch",
       "geprueft": false
     }

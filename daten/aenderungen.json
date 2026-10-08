@@ -202,6 +202,41 @@
       "fassung": "2026-10-02",
       "art": "Erstaufnahme",
       "quelle": "https://www.bafin.de/SharedDocs/Fragen-antworten/DE/faq-dora/faq-dora_node.html"
+    },
+    {
+      "zeitpunkt": "2026-10-08T19:51:01Z",
+      "regelwerk": "sii-rl",
+      "fassung": "2025-10-17",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32009L0138"
+    },
+    {
+      "zeitpunkt": "2026-10-08T19:51:10Z",
+      "regelwerk": "sii-dvo",
+      "fassung": "2025-06-13",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32015R0035"
+    },
+    {
+      "zeitpunkt": "2026-10-08T19:51:11Z",
+      "regelwerk": "ai-act",
+      "fassung": "2024-10-17",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32024R1689"
+    },
+    {
+      "zeitpunkt": "2026-10-08T19:51:12Z",
+      "regelwerk": "cra",
+      "fassung": "2024-11-25",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32024R2847"
+    },
+    {
+      "zeitpunkt": "2026-10-08T19:51:13Z",
+      "regelwerk": "data-act",
+      "fassung": "2026-09-01",
+      "art": "Erstaufnahme",
+      "quelle": "https://publications.europa.eu/resource/celex/32023R2854"
     }
   ]
 }

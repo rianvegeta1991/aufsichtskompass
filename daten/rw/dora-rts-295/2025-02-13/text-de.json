@@ -415,6 +415,60 @@
       }
     ]
   },
+  "anx_1": {
+    "h": "59e3f64f7f67ab86fea77ef00bfe45c1",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Informationskategorie | Wesentliche Informationen"
+          },
+          {
+            "m": "",
+            "t": "Allgemeine Angaben"
+          },
+          {
+            "m": "",
+            "t": "Überblick über die Vereinbarungen über die Unterauftragsvergabe"
+          },
+          {
+            "m": "",
+            "t": "Angaben zu Unterauftragnehmern"
+          },
+          {
+            "m": "",
+            "t": "Beschreibung der von Unterauftragnehmern erbrachten Dienstleistungen"
+          },
+          {
+            "m": "",
+            "t": "Governance und Überwachung der Unterauftragsvergabe"
+          },
+          {
+            "m": "",
+            "t": "Risikomanagement und Einhaltung der Vorschriften"
+          },
+          {
+            "m": "",
+            "t": "Geschäftsfortführung und Notfallplanung"
+          },
+          {
+            "m": "",
+            "t": "Berichterstattung"
+          },
+          {
+            "m": "",
+            "t": "Abhilfemaßnahmen und Behandlung von Vorfällen"
+          },
+          {
+            "m": "",
+            "t": "Zertifizierungen und Audits"
+          }
+        ]
+      }
+    ]
+  },
   "art_5": {
     "h": "6db2b8abec469f475cfc03a8b59176a4",
     "b": [

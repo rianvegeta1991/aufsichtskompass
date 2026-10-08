@@ -253,6 +253,31 @@ fn erzwingen_schreibt_dieselbe_fassung_neu_statt_eine_zu_erfinden() {
 }
 
 #[test]
+fn erzwingen_traegt_auch_den_quellenhinweis_ins_register() {
+    // Die App liest den Quellenhinweis aus dem Fassungsregister. Wird ein Werk mit
+    // `--erzwingen` neu geschrieben, muss ein geaenderter Hinweis dort ankommen.
+    let w = Werkstatt::neu("hinweis");
+    let mut d = zusammenfassung("2026-01-01", "Erster Zweck.", "");
+    w.schreib("zusammenfassungen/probe.json", &d);
+    w.muss(&["zusammenfassungen"]);
+    let register = json(&w.pfad("rw/probe/fassungen.json"));
+    let vorher = register["fassungen"][0]["quelle"]["hinweis"].as_str().unwrap().to_string();
+
+    // Gleicher Stand, aber der Quellenname in der Datei aendert sich -> anderer Hinweis.
+    d = d.replace("\"name\": \"Probewerk\"", "\"name\": \"Probewerk, 2. Auflage\"");
+    w.schreib("zusammenfassungen/probe.json", &d);
+    w.muss(&["zusammenfassungen"]);
+    let register = json(&w.pfad("rw/probe/fassungen.json"));
+    assert_eq!(register["fassungen"].as_array().unwrap().len(), 1, "keine neue Fassung");
+    let nachher = register["fassungen"][0]["quelle"]["hinweis"].as_str().unwrap();
+    assert_ne!(nachher, vorher, "der neue Hinweis steht im Register");
+    assert!(nachher.contains("2. Auflage"), "{nachher}");
+    // und in der Strukturdatei ebenso - beide muessen zusammenpassen
+    let struktur = json(&w.pfad("rw/probe/2026-01-01/struktur.json"));
+    assert_eq!(struktur["quelle"]["hinweis"].as_str().unwrap(), nachher);
+}
+
+#[test]
 fn pruefen_erkennt_falsche_zuordnungen_und_adressen() {
     let w = Werkstatt::neu("pruefen");
     w.schreib(

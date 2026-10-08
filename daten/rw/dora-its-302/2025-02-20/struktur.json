@@ -1,7 +1,7 @@
 {
   "regelwerk": "dora-its-302",
   "fassung": "2025-02-20",
-  "abgerufen": "2026-09-29T21:26:23Z",
+  "abgerufen": "2026-10-08T19:57:09Z",
   "quelle": {
     "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
     "url": "https://publications.europa.eu/resource/celex/32025R0302",
@@ -330,6 +330,46 @@
         "de": "Inkrafttreten"
       },
       "pfad": "art/9",
+      "text": true
+    },
+    {
+      "id": "anx_I",
+      "art": "anhang",
+      "nummer": "I",
+      "titel": {
+        "de": "VORLAGEN FÜR DIE MELDUNG SCHWERWIEGENDER SICHERHEITSVORFÄLLE"
+      },
+      "pfad": "anh/I",
+      "text": true
+    },
+    {
+      "id": "anx_II",
+      "art": "anhang",
+      "nummer": "II",
+      "titel": {
+        "de": "DATENGLOSSAR UND ANLEITUNG FÜR DIE MELDUNG SCHWERWIEGENDER SICHERHEITSVORFÄLLE"
+      },
+      "pfad": "anh/II",
+      "text": true
+    },
+    {
+      "id": "anx_III",
+      "art": "anhang",
+      "nummer": "III",
+      "titel": {
+        "de": "VORLAGEN FÜR DIE MELDUNG ERHEBLICHER CYBERBEDROHUNGEN"
+      },
+      "pfad": "anh/III",
+      "text": true
+    },
+    {
+      "id": "anx_IV",
+      "art": "anhang",
+      "nummer": "IV",
+      "titel": {
+        "de": "DATENGLOSSAR UND ANLEITUNG FÜR DIE MELDUNG ERHEBLICHER CYBERBEDROHUNGEN"
+      },
+      "pfad": "anh/IV",
       "text": true
     }
   ]

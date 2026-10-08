@@ -1392,6 +1392,526 @@
       }
     ]
   },
+  "anx_I": {
+    "h": "5d3b03331d77ff2b588bcee54f43e547",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "",
+            "t": "Information | Erforderliche Angaben"
+          },
+          {
+            "m": "",
+            "t": "Für den Projektplan verantwortliche Person, d. h. Leiter des Kontrollteams | Name Kontaktdaten"
+          },
+          {
+            "m": "",
+            "t": "Tester"
+          },
+          {
+            "m": "",
+            "t": "Gemäß Artikel 9 Absatz 2 Buchstabe d und Artikel 9 Absatz 4 Buchstabe a gewählte Kommunikationskanäle, einschließlich:"
+          },
+          {
+            "m": "",
+            "t": "Codename des TLPT"
+          },
+          {
+            "m": "",
+            "t": "Etwaige kritische oder wichtige Funktionen, die das Finanzunternehmen in anderen Mitgliedstaaten ausübt"
+          },
+          {
+            "m": "",
+            "t": "Etwaige kritische oder wichtige Funktionen, die von IKT-Drittdienstleistern unterstützt werden"
+          },
+          {
+            "m": "",
+            "t": "Voraussichtliche Fristen für den Abschluss"
+          },
+          {
+            "m": "",
+            "t": "JJJJ-MM-TT"
+          },
+          {
+            "m": "",
+            "t": "JJJJ-MM-TT"
+          },
+          {
+            "m": "",
+            "t": "JJJJ-MM-TT"
+          },
+          {
+            "m": "",
+            "t": "JJJJ-MM-TT"
+          }
+        ]
+      }
+    ]
+  },
+  "anx_II": {
+    "h": "694312841c6bca82492a8734446c0b6e",
+    "b": [
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Das Scoping-Dokument enthält eine Auflistung aller kritischen oder wichtigen Funktionen, die das Finanzunternehmen ermittelt hat."
+          },
+          {
+            "m": "2.",
+            "t": "Für jede ermittelte kritische oder wichtige Funktion sind folgende Angaben zu machen: a) Wenn die kritische oder wichtige Funktion nicht in den Anwendungsbereich des TLPT fällt, Erläuterung der Gründe, aus denen sie nicht einbezogen wurde. b) Wenn die kritische oder wichtige Funktion in den Anwendungsbereich des TLPT fällt:"
+          }
+        ]
+      }
+    ]
+  },
+  "anx_III": {
+    "h": "91ec74bdf96fb2b62a36c85b10c4bf2a",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der spezifische Bedrohungsanalysebericht enthält Informationen zu allen folgenden Punkten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Gesamtumfang der Bedrohungsuntersuchungen, die mindestens Folgendes einbeziehen:",
+            "u": [
+              {
+                "m": "a)",
+                "t": "kritische oder wichtige Funktionen, die in den Anwendungsbereich fallen,"
+              },
+              {
+                "m": "b)",
+                "t": "ihr geografischer Standort,"
+              },
+              {
+                "m": "c)",
+                "t": "verwendete EU-Amtssprache,"
+              },
+              {
+                "m": "d)",
+                "t": "relevante IKT-Drittdienstleister,"
+              },
+              {
+                "m": "e)",
+                "t": "Zeitraum, in dem die Untersuchungen durchgeführt wurden."
+              }
+            ]
+          },
+          {
+            "m": "2.",
+            "t": "Gesamtbewertung, welche konkreten verwertbaren Informationen über das Finanzunternehmen zu finden sind, unter anderem:",
+            "u": [
+              {
+                "m": "a)",
+                "t": "Benutzernamen und Passwörter der Mitarbeiter,"
+              },
+              {
+                "m": "b)",
+                "t": "Look-Alike-Domains, die mit offiziellen Domains des Finanzunternehmens verwechselt werden können,"
+              },
+              {
+                "m": "c)",
+                "t": "technische Auskundschaftung: (für Exploits) anfällige Software, Systeme und Technologien,"
+              },
+              {
+                "m": "d)",
+                "t": "von Mitarbeitern im Internet veröffentlichte Informationen über das Finanzunternehmen, die für die Zwecke eines Angriffs verwendet werden könnten,"
+              },
+              {
+                "m": "e)",
+                "t": "Informationen, die im Dark Web verkauft werden,"
+              },
+              {
+                "m": "f)",
+                "t": "sonstige einschlägige Informationen, die im Internet oder in öffentlichen Netzwerken verfügbar sind,"
+              },
+              {
+                "m": "g)",
+                "t": "gegebenenfalls Informationen über Möglichkeiten des physischen Zugangs, z. B. zu den Räumlichkeiten des Finanzunternehmens."
+              }
+            ]
+          },
+          {
+            "m": "3.",
+            "t": "Bedrohungsanalysen unter Berücksichtigung der allgemeinen Bedrohungslage und der besonderen Situation des Finanzunternehmens, darunter mindestens:",
+            "u": [
+              {
+                "m": "a)",
+                "t": "das geopolitische Umfeld,"
+              },
+              {
+                "m": "b)",
+                "t": "das wirtschaftliche Umfeld,"
+              },
+              {
+                "m": "c)",
+                "t": "technologische und sonstige Trends im Zusammenhang mit den Tätigkeiten im Finanzdienstleistungssektor."
+              }
+            ]
+          },
+          {
+            "m": "4.",
+            "t": "Bedrohungsprofile der böswilligen Akteure (bestimmte Einzelperson/Gruppe oder allgemeine Gruppe), die das Finanzunternehmen angreifen könnten, einschließlich der Systeme des Finanzunternehmens, die von böswilligen Akteuren am wahrscheinlichsten kompromittiert oder angegriffen werden, der möglichen Motivation, Absicht und Gründe für den möglichen zielgerichteten Angriff und der möglichen Vorgehensweise der Angreifer."
+          },
+          {
+            "m": "5.",
+            "t": "Bedrohungsszenarien: mindestens drei End-to-End-Bedrohungsszenarien für die gemäß Nummer 4 ermittelten Bedrohungsprofile, die die höchsten Werte für die Schwere der Bedrohung aufweisen. Die Bedrohungsszenarien beschreiben den End-to-End-Angriffspfad und umfassen mindestens:",
+            "u": [
+              {
+                "m": "a)",
+                "t": "ein Szenario, das u. a. eine Kompromittierung der Dienstverfügbarkeit umfasst,"
+              },
+              {
+                "m": "b)",
+                "t": "ein Szenario, das u. a. eine Kompromittierung der Datenintegrität umfasst,"
+              },
+              {
+                "m": "c)",
+                "t": "ein Szenario, das u. a. die Kompromittierung der Vertraulichkeit von Informationen umfasst."
+              }
+            ]
+          },
+          {
+            "m": "6.",
+            "t": "Gegebenenfalls eine Beschreibung des in Artikel 10 Absatz 4 genannten nicht bedrohungsorientierten Szenarios."
+          }
+        ]
+      }
+    ]
+  },
+  "anx_IV": {
+    "h": "e774ee35922b14168e22ff176cc0619b",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Red-Team-Testplan enthält Informationen zu allen folgenden Punkten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Kommunikationskanäle und -verfahren,"
+          },
+          {
+            "m": "b)",
+            "t": "für den Angriff zulässige und nicht zulässige Taktiken, Techniken und Verfahren, einschließlich ethischer Grenzen für Social Engineering,"
+          },
+          {
+            "m": "c)",
+            "t": "von den Testern zu ergreifende Risikomanagementmaßnahmen,"
+          },
+          {
+            "m": "d)",
+            "t": "Beschreibung jedes Szenarios, einschließlich",
+            "u": [
+              {
+                "m": "i)",
+                "t": "des simulierten Angreifers,"
+              },
+              {
+                "m": "ii)",
+                "t": "seiner Absicht, Motivation und Ziele,"
+              },
+              {
+                "m": "iii)",
+                "t": "der Funktionen und der unterstützenden IKT-Systeme, gegen die sich der Angriff richtet,"
+              },
+              {
+                "m": "iv)",
+                "t": "der Aspekte der Vertraulichkeit, Integrität, Verfügbarkeit und Authentizität, auf die der Angriff ausgerichtet ist,"
+              },
+              {
+                "m": "v)",
+                "t": "Flags,"
+              }
+            ]
+          },
+          {
+            "m": "e)",
+            "t": "detaillierte Beschreibung jedes voraussichtlichen Angriffspfads, einschließlich der Voraussetzungen und etwaigen Hilfestellungen durch das Kontrollteam, mit Angabe der zeitlichen Vorgaben für deren Aktivierung und potenziellen Verwendung,"
+          },
+          {
+            "m": "f)",
+            "t": "Planung der Red-Teaming-Aktivitäten, einschließlich der Zeitplanung für die Durchführung jedes Szenarios, mindestens aufgeschlüsselt nach den drei Phasen, die ein Tester während der Testphase absolviert, d. h. Eindringen in die IKT-Systeme des Finanzunternehmens, Bewegung durch die IKT-Systeme und letztlich Erreichen des Angriffsziels und Rückzug aus den IKT-Systemen (In-, Through- und Out-Phase),"
+          },
+          {
+            "m": "g)",
+            "t": "Besonderheiten der Infrastruktur der Finanzunternehmen, die bei den Tests zu berücksichtigen sind,"
+          },
+          {
+            "m": "h)",
+            "t": "gegebenenfalls zusätzliche Informationen oder sonstige Ressourcen, die die Tester für die Ausführung der Szenarien benötigen."
+          }
+        ]
+      }
+    ]
+  },
+  "anx_V": {
+    "h": "1f0a6df28214abb70b91fffa61ea81ef",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Red-Team-Testbericht enthält mindestens Informationen zu allen folgenden Punkten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Informationen über den durchgeführten Angriff, einschließlich Angaben zu",
+            "u": [
+              {
+                "m": "i)",
+                "t": "den angegriffenen kritischen oder wichtigen Funktionen und ermittelten IKT-Systemen, -Prozessen und -Technologien, die die kritische oder wichtige Funktion unterstützen, wie im Red-Team-Testplan festgelegt,"
+              },
+              {
+                "m": "ii)",
+                "t": "Zusammenfassung jedes Szenarios,"
+              },
+              {
+                "m": "iii)",
+                "t": "erreichte und nicht erreichte Flags,"
+              },
+              {
+                "m": "iv)",
+                "t": "erfolgreich und nicht erfolgreich verfolgte Angriffspfade,"
+              },
+              {
+                "m": "v)",
+                "t": "erfolgreich und nicht erfolgreich angewandte Taktiken, Techniken und Verfahren,"
+              },
+              {
+                "m": "vi)",
+                "t": "etwaige Abweichungen vom Red-Team-Testplan,"
+              },
+              {
+                "m": "vii)",
+                "t": "etwaige Hilfestellungen,"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "alle Aktivitäten, von denen die Tester wissen, dass sie vom Blue Team durchgeführt wurden, um den Angriff zu rekonstruieren und seine Auswirkungen abzumildern,"
+          },
+          {
+            "m": "c)",
+            "t": "festgestellte Schwachstellen und andere Probleme, einschließlich:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Beschreibung der Schwachstelle und anderer Probleme, einschließlich ihrer Kritikalität,"
+              },
+              {
+                "m": "ii)",
+                "t": "Ursachenanalyse erfolgreicher Angriffe,"
+              },
+              {
+                "m": "iii)",
+                "t": "Empfehlungen für Abhilfemaßnahmen mit Priorisierung."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "anx_VI": {
+    "h": "057484e70725865b40b130e879b508f1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der Blue-Team-Testbericht enthält mindestens Informationen zu allen folgenden Punkten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "1.",
+            "t": "Für jeden von den Testern im Red-Team-Testbericht beschriebenen Angriffsschritt:",
+            "u": [
+              {
+                "m": "a)",
+                "t": "Auflistung der entdeckten Angriffshandlungen,"
+              },
+              {
+                "m": "b)",
+                "t": "Protokolleinträge für diese entdeckten Handlungen,"
+              }
+            ]
+          },
+          {
+            "m": "2.",
+            "t": "Bewertung der Ergebnisse und Empfehlungen der Tester,"
+          },
+          {
+            "m": "3.",
+            "t": "vom Blue Team gesammelte Beweise für den Angriff durch die Tester,"
+          },
+          {
+            "m": "4.",
+            "t": "Blue-Team-Ursachenanalyse erfolgreicher Angriffe durch die Tester,"
+          },
+          {
+            "m": "5.",
+            "t": "Auflistung der gewonnenen Erkenntnisse und ermittelten Verbesserungspotenziale,"
+          },
+          {
+            "m": "6.",
+            "t": "Auflistung der Themen, die beim Purple-Teaming behandelt werden sollen."
+          }
+        ]
+      }
+    ]
+  },
+  "anx_VII": {
+    "h": "fa172873b6a74b19f62cfe29426efcb5",
+    "b": [
+      {
+        "art": "p",
+        "t": "Der zusammenfassende Testbericht muss mindestens Angaben zu allen folgenden Punkten enthalten:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "beteiligte Parteien,"
+          },
+          {
+            "m": "b)",
+            "t": "Projektplan,"
+          },
+          {
+            "m": "c)",
+            "t": "validierter Umfang, einschließlich der Gründe für die Einbeziehung oder den Ausschluss kritischer oder wichtiger Funktionen und ermittelter IKT-Systeme, -Prozesse und -Technologien, die die vom TLPT erfassten kritischen oder wichtigen Funktionen unterstützen,"
+          },
+          {
+            "m": "d)",
+            "t": "gewählte Szenarien und etwaige erhebliche Abweichungen vom spezifischen Bedrohungsanalysebericht,"
+          },
+          {
+            "m": "e)",
+            "t": "verfolgte Angriffspfade und angewandte Taktiken, Techniken und Verfahren,"
+          },
+          {
+            "m": "f)",
+            "t": "erreichte und nicht erreichte Flags,"
+          },
+          {
+            "m": "g)",
+            "t": "etwaige Abweichungen vom Red-Team-Testplan,"
+          },
+          {
+            "m": "h)",
+            "t": "etwaige vom Blue Team aufgedeckte Handlungen,"
+          },
+          {
+            "m": "i)",
+            "t": "Purple-Teaming in der Testphase, sofern durchgeführt, und zugrunde liegende Voraussetzungen,"
+          },
+          {
+            "m": "j)",
+            "t": "etwaige Hilfestellungen,"
+          },
+          {
+            "m": "k)",
+            "t": "ergriffene Risikomanagementmaßnahmen,"
+          },
+          {
+            "m": "l)",
+            "t": "festgestellte Schwachstellen und andere Probleme, einschließlich ihrer Kritikalität,"
+          },
+          {
+            "m": "m)",
+            "t": "Ursachenanalyse erfolgreicher Angriffe,"
+          },
+          {
+            "m": "n)",
+            "t": "umfassender Plan mit Abhilfemaßnahmen, in dem Schwachstellen und andere festgestellte Probleme, ihre Ursachen und die Priorität der Behebung zueinander in Beziehung gesetzt werden,"
+          },
+          {
+            "m": "o)",
+            "t": "Erkenntnisgewinn aus den Rückmeldungen."
+          }
+        ]
+      }
+    ]
+  },
+  "anx_VIII": {
+    "h": "80ff6255c4e6559bd6111a2fbcc360a1",
+    "b": [
+      {
+        "art": "p",
+        "t": "Die Bescheinigung enthält mindestens alle folgenden Angaben:"
+      },
+      {
+        "art": "liste",
+        "p": [
+          {
+            "m": "a)",
+            "t": "Zum durchgeführten TLPT:",
+            "u": [
+              {
+                "m": "i)",
+                "t": "Beginn und Ende des TLPT,"
+              },
+              {
+                "m": "ii)",
+                "t": "die kritischen oder wichtigen Funktionen, die Gegenstand des Tests waren,"
+              },
+              {
+                "m": "iii)",
+                "t": "gegebenenfalls Informationen über kritische oder wichtige Funktionen, die Gegenstand des Tests waren und für die der TLPT nicht durchgeführt wurde,"
+              },
+              {
+                "m": "iv)",
+                "t": "etwaige andere Finanzunternehmen, die an dem TLPT beteiligt waren,"
+              },
+              {
+                "m": "v)",
+                "t": "etwaige IKT-Drittdienstleister, die an dem TLPT beteiligt waren,"
+              },
+              {
+                "m": "vi)",
+                "t": "zu den Testern:",
+                "u": [
+                  {
+                    "m": "1.",
+                    "t": "Angabe, ob interne Tester eingesetzt wurden,"
+                  },
+                  {
+                    "m": "2.",
+                    "t": "Angabe, ob das Finanzunternehmen von Artikel 5 Absatz 3 Unterabsatz 2 Gebrauch gemacht hat,"
+                  }
+                ]
+              },
+              {
+                "m": "vii)",
+                "t": "Dauer der aktiven Red-Team-Testphase in Kalendertagen,"
+              }
+            ]
+          },
+          {
+            "m": "b)",
+            "t": "wenn mehrere TLPT-Behörden an dem TLPT beteiligt waren: Nennung der anderen TLPT-Behörden und Angabe, in welcher Eigenschaft sie daran beteiligt waren,"
+          },
+          {
+            "m": "c)",
+            "t": "Aufstellung der Dokumente, die von der TLPT-Behörde für die Ausstellung der Bescheinigung geprüft wurden."
+          }
+        ]
+      }
+    ]
+  },
   "art_1": {
     "h": "9ba7701de87f9dc5a6b5bec04c7c6203",
     "b": [

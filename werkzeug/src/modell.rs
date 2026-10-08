@@ -27,6 +27,10 @@ pub struct Konnektor {
     /// (CELLAR und gesetze-im-internet.de brauchen nur die Kennung).
     #[serde(default)]
     pub url: Option<String>,
+    /// Zusatzhinweis zur Fassung, z. B. "Ursprungsfassung, nicht konsolidiert". Er geht
+    /// in den Quellenhinweis der Fassung ein und steht damit in der App, nicht im Code.
+    #[serde(default)]
+    pub hinweis: Option<String>,
     /// Unterform innerhalb des Konnektortyps, bei `bafin`: `rundschreiben` oder `faq`.
     #[serde(default)]
     pub bauart: Option<String>,

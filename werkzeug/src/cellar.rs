@@ -44,17 +44,13 @@ pub fn hole(
     etag: Option<&str>,
 ) -> Result<Option<Abruf>> {
     let url = format!("{BASIS}/{celex}");
-    leine.erlaubt(&url)?;
     let klient = leine.klient(KENNUNG, 180)?;
-    let mut anfrage = klient
-        .get(&url)
-        .header("Accept", "application/xhtml+xml")
-        .header("Accept-Language", sprache);
+    let mut kopf = vec![("Accept", "application/xhtml+xml"), ("Accept-Language", sprache)];
     if let Some(e) = etag {
-        anfrage = anfrage.header("If-None-Match", e);
+        kopf.push(("If-None-Match", e));
     }
-    let antwort = anfrage
-        .send()
+    let antwort = leine
+        .senden(&klient, &url, &kopf)
         .with_context(|| format!("Abruf {url} ({sprache})"))?;
     if antwort.status() == reqwest::StatusCode::NOT_MODIFIED {
         return Ok(None);
@@ -118,6 +114,8 @@ struct Lauf {
     wurzel: Vec<Knoten>,
     bezug: Vec<Knoten>,
     erwaegung: Vec<Knoten>,
+    /// Anhaenge stehen im Dokument nach dem verfuegenden Teil und kommen auch so in den Baum.
+    anhaenge: Vec<Knoten>,
     /// Index des offenen Kapitels in `wurzel` und des offenen Abschnitts darin.
     kapitel: Option<usize>,
     abschnitt: Option<usize>,
@@ -154,6 +152,7 @@ impl Lauf {
             });
         }
         alles.append(&mut self.wurzel);
+        alles.append(&mut self.anhaenge);
         alles
     }
 
@@ -171,6 +170,12 @@ impl Lauf {
                 }
                 "p" if klasse.contains("oj-ti-section-2") => {
                     self.abschnitts_titel(&reintext(k));
+                    continue;
+                }
+                // Anhang: `div.eli-container#anx_III`. Nur oberste Anhaenge (ohne Punkt in
+                // der Kennung); Unterteile liegen innerhalb und gehoeren zum Anhang.
+                "div" if id.starts_with("anx_") && !id[4..].contains('.') => {
+                    self.anhang(k, &id[4..]);
                     continue;
                 }
                 "div" if klasse.contains("eli-subdivision") => {
@@ -273,6 +278,50 @@ impl Lauf {
             text: false,
             kinder: Vec::new(),
         }
+    }
+
+    /// Ein Anhang als eine Fundstelle: Kopfzeile ("ANHANG III") und Titel stehen als
+    /// `p.oj-doc-ti`, danach Absaetze und Tabellen - bei Anhaengen auch echte,
+    /// mehrzeilige Tabellen (Meldeformulare, Vorlagen), die nicht verloren gehen duerfen.
+    fn anhang(&mut self, el: ElementRef, kennung: &str) {
+        let mut zeilen: Vec<String> = Vec::new();
+        for kind in el.children().filter_map(ElementRef::wrap) {
+            let klasse = kind.value().attr("class").unwrap_or("");
+            if kind.value().name() == "p" && klasse.contains("oj-doc-ti") {
+                let t = reintext(kind);
+                if !t.is_empty() {
+                    zeilen.push(t);
+                }
+            }
+        }
+        // Erste Zeile: "ANHANG III" bzw. "ANNEX III" - die Nummer steht dahinter.
+        let kopf = zeilen.first().cloned().unwrap_or_default();
+        let nummer = kopf
+            .split_once(' ')
+            .map(|(_, n)| n.trim().to_string())
+            .filter(|n| !n.is_empty())
+            .unwrap_or_else(|| kennung.to_string());
+        let titel = zeilen.iter().skip(1).cloned().collect::<Vec<_>>().join(" ");
+
+        let id = format!("anx_{kennung}");
+        let bloecke = anhang_bloecke(el);
+        if !bloecke.is_empty() {
+            self.texte.insert(id.clone(), bloecke);
+        }
+        let mut t = BTreeMap::new();
+        if !titel.is_empty() {
+            t.insert("de".to_string(), titel);
+        }
+        self.anhaenge.push(Knoten {
+            id,
+            art: Art::Anhang,
+            nummer: Some(nummer.clone()),
+            bez: None,
+            titel: t,
+            pfad: Some(format!("anh/{nummer}")),
+            text: false,
+            kinder: Vec::new(),
+        });
     }
 
     fn artikel(&mut self, el: ElementRef, nummer_roh: &str) {
@@ -387,6 +436,105 @@ fn bloecke_von(el: ElementRef) -> Vec<Block> {
     }
     if !liste.is_empty() {
         aus.push(Block::Liste { p: liste });
+    }
+    aus
+}
+
+/// Bloecke eines Anhangs. Wie `bloecke_von`, aber ohne die Titelzeilen
+/// (`oj-doc-ti`, die stehen im Knoten), mit vollstaendigen mehrzeiligen Tabellen und
+/// rekursiv: Anhaenge liegen oft in zusaetzlichen `div`-Huellen oder tragen ihre
+/// Nummerierung in `div.oj-enumeration-spacing` (Marke und Text als zwei `p`).
+fn anhang_bloecke(el: ElementRef) -> Vec<Block> {
+    let mut aus: Vec<Block> = Vec::new();
+    let mut liste: Vec<Punkt> = Vec::new();
+    anhang_sammeln(el, &mut aus, &mut liste);
+    abschliessen(&mut aus, &mut liste);
+    aus
+}
+
+fn abschliessen(aus: &mut Vec<Block>, liste: &mut Vec<Punkt>) {
+    if !liste.is_empty() {
+        aus.push(Block::Liste { p: std::mem::take(liste) });
+    }
+}
+
+fn anhang_sammeln(el: ElementRef, aus: &mut Vec<Block>, liste: &mut Vec<Punkt>) {
+    for kind in el.children().filter_map(ElementRef::wrap) {
+        let klasse = kind.value().attr("class").unwrap_or("");
+        match kind.value().name() {
+            "p" if klasse.contains("oj-doc-ti") => {}
+            "p" => {
+                let t = reintext(kind);
+                if !t.is_empty() {
+                    abschliessen(aus, liste);
+                    aus.push(Block::P { t });
+                }
+            }
+            // Zeile aus Marke und Text: <div class="oj-enumeration-spacing"><p>1. </p><p>Text</p></div>
+            "div" if klasse.contains("oj-enumeration-spacing") => {
+                let teile: Vec<String> = kind
+                    .children()
+                    .filter_map(ElementRef::wrap)
+                    .map(reintext)
+                    .filter(|t| !t.is_empty())
+                    .collect();
+                match teile.as_slice() {
+                    [marke, rest @ ..] if !rest.is_empty() && ist_marke(marke) => {
+                        liste.push(Punkt { m: marke.clone(), t: rest.join(" "), u: Vec::new() });
+                    }
+                    [] => {}
+                    alle => {
+                        abschliessen(aus, liste);
+                        aus.push(Block::P { t: alle.join(" ") });
+                    }
+                }
+            }
+            "div" => anhang_sammeln(kind, aus, liste),
+            "table" => {
+                let zeilen = eigene_zeilen(kind);
+                if zeilen.len() > 1 {
+                    // Echte Tabelle: jede Zeile ein Punkt, die Zellen mit " | " getrennt.
+                    for tr in zeilen {
+                        let zellen: Vec<String> = tr
+                            .children()
+                            .filter_map(ElementRef::wrap)
+                            .filter(|z| z.value().name() == "td" || z.value().name() == "th")
+                            .map(reintext)
+                            .filter(|t| !t.is_empty())
+                            .collect();
+                        if !zellen.is_empty() {
+                            liste.push(Punkt { m: String::new(), t: zellen.join(" | "), u: Vec::new() });
+                        }
+                    }
+                } else if let Some(p) = punkt_von_tabelle(kind) {
+                    liste.push(p);
+                }
+            }
+            _ => {}
+        }
+    }
+}
+
+/// Kurze Aufzaehlungsmarke wie "1.", "a)", "(2)", "iii)".
+fn ist_marke(t: &str) -> bool {
+    t.chars().count() <= 6
+        && (t.ends_with('.') || t.ends_with(')'))
+        && t.chars().any(|c| c.is_alphanumeric())
+}
+
+/// Die eigenen Zeilen einer Tabelle (ohne die von verschachtelten Tabellen).
+fn eigene_zeilen(t: ElementRef) -> Vec<ElementRef> {
+    let mut aus = Vec::new();
+    for kind in t.children().filter_map(ElementRef::wrap) {
+        match kind.value().name() {
+            "tr" => aus.push(kind),
+            "tbody" | "thead" | "tfoot" => aus.extend(
+                kind.children()
+                    .filter_map(ElementRef::wrap)
+                    .filter(|k| k.value().name() == "tr"),
+            ),
+            _ => {}
+        }
     }
     aus
 }
@@ -625,6 +773,113 @@ mod tests {
         // Artikel 7 hat keine nummerierten Absaetze - der Text haengt am Artikel.
         assert!(g.texte.contains_key("art_7"));
         assert!(!g.texte.contains_key("art_6"), "Artikel 6 traegt seinen Text in den Absaetzen");
+    }
+
+    /// Anhang wie bei CELLAR: Kopfzeile und Titel als `p.oj-doc-ti`, danach Text,
+    /// eine verschachtelte Aufzaehlung und eine echte mehrzeilige Tabelle.
+    const MIT_ANHANG: &str = r#"<html><body>
+      <div class="eli-subdivision" id="art_1">
+        <div class="eli-title"><p class="oj-ti-art">Artikel 1</p><p class="oj-sti-art">Gegenstand</p></div>
+        <p class="oj-normal">Diese Verordnung regelt Folgendes.</p>
+      </div>
+      <div id="L_x.012701.fmx"><div class="eli-container" id="anx_III">
+        <p class="oj-doc-ti">ANHANG III</p>
+        <p class="oj-doc-ti">Hochrisiko-Systeme gemäß Artikel 6 Absatz 2</p>
+        <p class="oj-normal">Als Hochrisiko-Systeme gelten die folgenden Bereiche:</p>
+        <table><tbody><tr><td><p>1.</p></td><td><p>Biometrie:</p>
+          <table><tbody><tr><td><p>a)</p></td><td><p>Fernidentifizierung.</p></td></tr></tbody></table>
+        </td></tr></tbody></table>
+        <table><tbody>
+          <tr><td><p>Feld</p></td><td><p>Beschreibung</p></td></tr>
+          <tr><td><p>LEI</p></td><td><p>Kennung des Unternehmens</p></td></tr>
+          <tr><td><p>Rang</p></td><td><p>Rang des Dienstleisters</p></td></tr>
+        </tbody></table>
+      </div></div>
+      <div class="eli-container" id="anx_IV"><p class="oj-doc-ti">ANHANG IV</p>
+        <p class="oj-doc-ti">Technische Dokumentation</p><p class="oj-normal">Inhalt.</p></div>
+    </body></html>"#;
+
+    #[test]
+    fn anhang_wird_fundstelle_mit_nummer_titel_und_deep_link() {
+        let g = parse(MIT_ANHANG).unwrap();
+        let pfade: Vec<&str> = g.knoten.iter().map(|k| k.pfad.as_deref().unwrap_or("")).collect();
+        assert_eq!(pfade, ["art/1", "anh/III", "anh/IV"], "Anhaenge kommen nach den Artikeln");
+        let a3 = &g.knoten[1];
+        assert_eq!(a3.art, Art::Anhang);
+        assert_eq!(a3.nummer.as_deref(), Some("III"));
+        assert_eq!(
+            a3.titel.get("de").map(String::as_str),
+            Some("Hochrisiko-Systeme gemäß Artikel 6 Absatz 2")
+        );
+        assert!(a3.text, "der Anhang traegt Text");
+        // Die Titelzeilen stehen im Knoten, nicht zusaetzlich im Text.
+        let b = &g.texte["anx_III"];
+        assert!(b[0].nur_text().starts_with("Als Hochrisiko-Systeme gelten"));
+        assert!(!b.iter().any(|x| x.nur_text().contains("ANHANG III")));
+    }
+
+    #[test]
+    fn mehrzeilige_tabellen_im_anhang_verlieren_keine_zeile() {
+        let g = parse(MIT_ANHANG).unwrap();
+        let b = &g.texte["anx_III"];
+        let alle: Vec<String> = b
+            .iter()
+            .flat_map(|x| match x {
+                Block::Liste { p } => p.iter().map(|q| format!("{} {}", q.m, q.t)).collect::<Vec<_>>(),
+                Block::P { t } => vec![t.clone()],
+            })
+            .collect();
+        // Die verschachtelte Aufzaehlung bleibt als Liste erhalten ...
+        assert!(alle.iter().any(|z| z.contains("Biometrie")), "{alle:?}");
+        // ... und alle drei Zeilen der echten Tabelle sind da, mit ihren Zellen.
+        assert!(alle.iter().any(|z| z.trim() == "Feld | Beschreibung"), "{alle:?}");
+        assert!(alle.iter().any(|z| z.trim() == "LEI | Kennung des Unternehmens"), "{alle:?}");
+        assert!(alle.iter().any(|z| z.trim() == "Rang | Rang des Dienstleisters"), "{alle:?}");
+    }
+
+    /// Anhang, dessen Nummerierung in `div.oj-enumeration-spacing` steht (AI Act, Anhang VI),
+    /// dazu eine zusaetzliche `div`-Huelle um einen Unterabschnitt.
+    const ANHANG_OHNE_TABELLEN: &str = r#"<html><body>
+      <div class="eli-subdivision" id="art_1"><div class="eli-title"><p class="oj-sti-art">Gegenstand</p></div>
+        <p class="oj-normal">Text.</p></div>
+      <div class="eli-container" id="anx_VI">
+        <p class="oj-doc-ti">ANHANG VI</p>
+        <p class="oj-doc-ti">Konformitätsbewertung auf der Grundlage einer internen Kontrolle</p>
+        <div class="oj-enumeration-spacing"><p style="display: inline;">1. </p>
+          <p style="display: inline;"><span>Das Verfahren ist das Verfahren gemäß den Nummern 2 bis 4.</span></p></div>
+        <div class="oj-enumeration-spacing"><p style="display: inline;">2. </p>
+          <p style="display: inline;"><span>Der Anbieter überprüft das Qualitätsmanagementsystem.</span></p></div>
+        <p class="oj-ti-grseq-1">Teil B</p>
+        <div class="unterabschnitt"><p class="oj-normal">Verschachtelter Absatz.</p></div>
+      </div>
+    </body></html>"#;
+
+    #[test]
+    fn anhang_mit_nummerierungszeilen_und_huellen_behaelt_seinen_text() {
+        let g = parse(ANHANG_OHNE_TABELLEN).unwrap();
+        let a = g.knoten.iter().find(|k| k.art == Art::Anhang).expect("Anhang VI");
+        assert_eq!(a.pfad.as_deref(), Some("anh/VI"));
+        assert!(a.text, "der Anhang traegt Text");
+        let b = &g.texte["anx_VI"];
+        let Block::Liste { p } = &b[0] else { panic!("zuerst die Nummerierung als Liste: {b:?}") };
+        assert_eq!(p.len(), 2);
+        assert_eq!(p[0].m, "1.");
+        assert!(p[0].t.starts_with("Das Verfahren ist"));
+        assert_eq!(p[1].m, "2.");
+        // Zwischenueberschrift und verschachtelter Absatz bleiben erhalten.
+        let rest: Vec<String> = b[1..].iter().map(|x| x.nur_text()).collect();
+        assert_eq!(rest, ["Teil B", "Verschachtelter Absatz."]);
+    }
+
+    #[test]
+    fn aufzaehlungsmarken_werden_von_text_unterschieden() {
+        assert!(ist_marke("1."));
+        assert!(ist_marke("a)"));
+        assert!(ist_marke("(2)"));
+        assert!(ist_marke("iii)"));
+        assert!(!ist_marke("Die Verfahren"));
+        assert!(!ist_marke("."));
+        assert!(!ist_marke("Einleitung."), "zu lang fuer eine Marke");
     }
 
     #[test]

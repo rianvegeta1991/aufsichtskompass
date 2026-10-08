@@ -1,6 +1,26 @@
 {
-  "gebaut": "2026-10-02T05:35:11Z",
+  "gebaut": "2026-10-08T20:01:32Z",
   "bestand": {
+    "ai-act": {
+      "fassung": {
+        "id": "2024-10-17",
+        "stand": "Thu, 17 Oct 2024 11:39:21 GMT",
+        "abgerufen": "2026-10-08T20:01:28Z",
+        "quelle": {
+          "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+          "url": "https://publications.europa.eu/resource/celex/32024R1689",
+          "celex": "32024R1689",
+          "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"Con-20241017133921000\"",
+        "hash": "10ff27e026abbd9b80a264b06a5a98c70cd1927e4324497e6c47219fa631541c",
+        "fundstellen": 719
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
     "ao": {
       "fassung": {
         "id": "2026-08-31",
@@ -112,6 +132,26 @@
       ],
       "fassungen": 1
     },
+    "cra": {
+      "fassung": {
+        "id": "2024-11-25",
+        "stand": "Mon, 25 Nov 2024 16:45:08 GMT",
+        "abgerufen": "2026-10-08T20:01:30Z",
+        "quelle": {
+          "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+          "url": "https://publications.europa.eu/resource/celex/32024R2847",
+          "celex": "32024R2847",
+          "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"Con-20241125174508000\"",
+        "hash": "80e8942bb4fd0a86312dec76804929bfe3130eb4fa215da1cba4c1ddadca938c",
+        "fundstellen": 449
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
     "csa-ccm": {
       "fassung": {
         "id": "2026-10-01",
@@ -130,11 +170,31 @@
       ],
       "fassungen": 1
     },
+    "data-act": {
+      "fassung": {
+        "id": "2026-09-01",
+        "stand": "Tue, 01 Sep 2026 13:54:41 GMT",
+        "abgerufen": "2026-10-08T20:01:31Z",
+        "quelle": {
+          "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+          "url": "https://publications.europa.eu/resource/celex/32023R2854",
+          "celex": "32023R2854",
+          "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"Con-20260901155441000\"",
+        "hash": "620d2d2b6686d75ba60a80aa2879634a1c76171d5a138ceb382ef10f284b7c8b",
+        "fundstellen": 361
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
     "dora": {
       "fassung": {
         "id": "2024-10-15",
         "stand": "Tue, 15 Oct 2024 11:53:52 GMT",
-        "abgerufen": "2026-09-29T21:26:19Z",
+        "abgerufen": "2026-10-08T19:57:02Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32022R2554",
@@ -155,7 +215,7 @@
       "fassung": {
         "id": "2024-05-30",
         "stand": "Thu, 30 May 2024 01:27:14 GMT",
-        "abgerufen": "2026-09-29T21:26:25Z",
+        "abgerufen": "2026-10-08T19:57:13Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1502",
@@ -175,7 +235,7 @@
       "fassung": {
         "id": "2024-05-30",
         "stand": "Thu, 30 May 2024 01:32:36 GMT",
-        "abgerufen": "2026-09-29T21:26:26Z",
+        "abgerufen": "2026-10-08T19:57:14Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1505",
@@ -195,7 +255,7 @@
       "fassung": {
         "id": "2024-12-06",
         "stand": "Fri, 06 Dec 2024 13:49:31 GMT",
-        "abgerufen": "2026-09-29T21:26:22Z",
+        "abgerufen": "2026-10-08T19:57:07Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R2956",
@@ -203,8 +263,8 @@
           "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
         },
         "etag": "\"Con-20241206144931000\"",
-        "hash": "89ed69f15cfe945aa90b10ccb50c23ba09b9ba9f34204171d4202ae8f0c15ce2",
-        "fundstellen": 33
+        "hash": "37d78c9ae5d91095d414e8cef4dc758668984e31f816fceef89653b1cec69954",
+        "fundstellen": 37
       },
       "sprachen": [
         "de"
@@ -215,7 +275,7 @@
       "fassung": {
         "id": "2025-02-20",
         "stand": "Thu, 20 Feb 2025 02:02:00 GMT",
-        "abgerufen": "2026-09-29T21:26:23Z",
+        "abgerufen": "2026-10-08T19:57:09Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0302",
@@ -223,8 +283,8 @@
           "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
         },
         "etag": "\"Con-20250220030200000\"",
-        "hash": "8463099b6a559d33d0e3824d3e1c49a1b91bd9c31a89157f776263aafb7eb4bb",
-        "fundstellen": 33
+        "hash": "8d7faa6d236c9d62494f4ab5b6189a85a9e904dff1747531a0218c7f551f44fe",
+        "fundstellen": 37
       },
       "sprachen": [
         "de"
@@ -235,7 +295,7 @@
       "fassung": {
         "id": "2025-06-18",
         "stand": "Wed, 18 Jun 2025 01:03:58 GMT",
-        "abgerufen": "2026-09-29T21:26:24Z",
+        "abgerufen": "2026-10-08T19:57:10Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R1190",
@@ -243,8 +303,8 @@
           "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
         },
         "etag": "\"Con-20250618030358000\"",
-        "hash": "58bef9d3e4b64454298bc8738f9789ba98fb69b4b86a997a2d4be3af2ea17610",
-        "fundstellen": 101
+        "hash": "6d96db24e52eb1c3361cc1c160a387639838a0df5ac74af91f0152001aa306e3",
+        "fundstellen": 109
       },
       "sprachen": [
         "de"
@@ -255,7 +315,7 @@
       "fassung": {
         "id": "2024-06-25",
         "stand": "Tue, 25 Jun 2024 01:11:52 GMT",
-        "abgerufen": "2026-09-29T21:26:21Z",
+        "abgerufen": "2026-10-08T19:57:04Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1772",
@@ -275,7 +335,7 @@
       "fassung": {
         "id": "2024-06-25",
         "stand": "Tue, 25 Jun 2024 01:17:49 GMT",
-        "abgerufen": "2026-09-29T21:26:21Z",
+        "abgerufen": "2026-10-08T19:57:06Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1773",
@@ -295,7 +355,7 @@
       "fassung": {
         "id": "2024-06-25",
         "stand": "Tue, 25 Jun 2024 01:07:27 GMT",
-        "abgerufen": "2026-09-29T21:26:20Z",
+        "abgerufen": "2026-10-08T19:57:03Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32024R1774",
@@ -315,7 +375,7 @@
       "fassung": {
         "id": "2025-02-13",
         "stand": "Thu, 13 Feb 2025 02:24:29 GMT",
-        "abgerufen": "2026-09-29T21:26:27Z",
+        "abgerufen": "2026-10-08T19:57:15Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0295",
@@ -323,8 +383,8 @@
           "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
         },
         "etag": "\"Con-20250213032429000\"",
-        "hash": "f08b08e6ed0b2befc98bc474200cb9d750a608ed033d720542e1ebcea4d71812",
-        "fundstellen": 28
+        "hash": "5c3a2776fbb9d4d583c5d0867dafbc630da1301a3ff0f0580646926e92c7f174",
+        "fundstellen": 29
       },
       "sprachen": [
         "de"
@@ -335,7 +395,7 @@
       "fassung": {
         "id": "2025-02-20",
         "stand": "Thu, 20 Feb 2025 01:52:59 GMT",
-        "abgerufen": "2026-09-29T21:26:23Z",
+        "abgerufen": "2026-10-08T19:57:08Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0301",
@@ -355,7 +415,7 @@
       "fassung": {
         "id": "2025-03-24",
         "stand": "Mon, 24 Mar 2025 02:10:04 GMT",
-        "abgerufen": "2026-09-29T21:26:27Z",
+        "abgerufen": "2026-10-08T19:57:16Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0420",
@@ -375,7 +435,7 @@
       "fassung": {
         "id": "2025-07-02",
         "stand": "Wed, 02 Jul 2025 06:30:37 GMT",
-        "abgerufen": "2026-09-29T21:26:25Z",
+        "abgerufen": "2026-10-08T19:57:12Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32025R0532",
@@ -395,7 +455,7 @@
       "fassung": {
         "id": "2025-02-05",
         "stand": "Wed, 05 Feb 2025 15:31:18 GMT",
-        "abgerufen": "2026-09-29T21:26:29Z",
+        "abgerufen": "2026-10-08T19:57:19Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32016R0679",
@@ -506,7 +566,7 @@
       "fassung": {
         "id": "2024-10-15",
         "stand": "Tue, 15 Oct 2024 14:59:00 GMT",
-        "abgerufen": "2026-09-29T21:26:28Z",
+        "abgerufen": "2026-10-08T19:57:18Z",
         "quelle": {
           "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
           "url": "https://publications.europa.eu/resource/celex/32022L2555",
@@ -514,8 +574,8 @@
           "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
         },
         "etag": "\"Con-20241015165900000\"",
-        "hash": "7d0219a507c8418b84e8c826b50bd0f45f51abeaa7727a15db4eaf35f499283f",
-        "fundstellen": 350
+        "hash": "083447eb9eb0561a39195b7cd857ada8a38d0cb212706784834d2693e4d5174a",
+        "fundstellen": 353
       },
       "sprachen": [
         "de"
@@ -534,6 +594,46 @@
         },
         "hash": "2b7f76b40e4c4e4f05692555bda808ec3661633ce1a251dd4700182ee5e513cf",
         "fundstellen": 6
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
+    "sii-dvo": {
+      "fassung": {
+        "id": "2025-06-13",
+        "stand": "Fri, 13 Jun 2025 07:06:40 GMT",
+        "abgerufen": "2026-10-08T20:01:27Z",
+        "quelle": {
+          "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+          "url": "https://publications.europa.eu/resource/celex/32015R0035",
+          "celex": "32015R0035",
+          "hinweis": "Ursprungsfassung der Delegierten Verordnung (ABl. L 12 vom 17.01.2015) – spätere Änderungen sind NICHT eingearbeitet. Die geltende konsolidierte Fassung (EUR-Lex: 02015R0035-20241114) weicht ab; eine weitere Änderung gilt ab 30.01.2027 (02015R0035-20270130). Für Aussagen zum geltenden Recht die konsolidierte Fassung heranziehen. Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"Con-20250613090640000\"",
+        "hash": "558102017774518c806f609b23127b95e87baf9f771178559bef29fca32806ad",
+        "fundstellen": 1273
+      },
+      "sprachen": [
+        "de"
+      ],
+      "fassungen": 1
+    },
+    "sii-rl": {
+      "fassung": {
+        "id": "2025-10-17",
+        "stand": "Fri, 17 Oct 2025 17:31:01 GMT",
+        "abgerufen": "2026-10-08T20:01:19Z",
+        "quelle": {
+          "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+          "url": "https://publications.europa.eu/resource/celex/32009L0138",
+          "celex": "32009L0138",
+          "hinweis": "Ursprungsfassung der Richtlinie (ABl. L 335 vom 17.12.2009) – spätere Änderungen sind NICHT eingearbeitet. Die geltende konsolidierte Fassung (EUR-Lex: 02009L0138-20250117) weicht ab; eine weitere Änderung gilt ab 30.01.2027 (02009L0138-20270130). Für Aussagen zum geltenden Recht die konsolidierte Fassung heranziehen. Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+        },
+        "etag": "\"Con-20251017193101000\"",
+        "hash": "bc907f0c74112201557d274d030b67f36af9615cd49f8b389124e0f6fa02999b",
+        "fundstellen": 900
       },
       "sprachen": [
         "de"

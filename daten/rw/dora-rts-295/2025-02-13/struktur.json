@@ -1,7 +1,7 @@
 {
   "regelwerk": "dora-rts-295",
   "fassung": "2025-02-13",
-  "abgerufen": "2026-09-29T21:26:27Z",
+  "abgerufen": "2026-10-08T19:57:15Z",
   "quelle": {
     "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
     "url": "https://publications.europa.eu/resource/celex/32025R0295",
@@ -289,6 +289,16 @@
         "de": "Inkrafttreten"
       },
       "pfad": "art/7",
+      "text": true
+    },
+    {
+      "id": "anx_1",
+      "art": "anhang",
+      "nummer": "1",
+      "titel": {
+        "de": "VORLAGE FÜR DIE ÜBERMITTLUNG VON INFORMATIONEN ÜBER VEREINBARUNGEN ÜBER DIE UNTERAUFTRAGSVERGABE"
+      },
+      "pfad": "anh/1",
       "text": true
     }
   ]

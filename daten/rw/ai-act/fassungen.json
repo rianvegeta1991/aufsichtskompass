@@ -1,0 +1,19 @@
+{
+  "regelwerk": "ai-act",
+  "fassungen": [
+    {
+      "id": "2024-10-17",
+      "stand": "Thu, 17 Oct 2024 11:39:21 GMT",
+      "abgerufen": "2026-10-08T20:01:28Z",
+      "quelle": {
+        "name": "EUR-Lex / CELLAR (Amt für Veröffentlichungen der EU)",
+        "url": "https://publications.europa.eu/resource/celex/32024R1689",
+        "celex": "32024R1689",
+        "hinweis": "Rechtsverbindlich ist nur die amtlich veröffentlichte Fassung."
+      },
+      "etag": "\"Con-20241017133921000\"",
+      "hash": "10ff27e026abbd9b80a264b06a5a98c70cd1927e4324497e6c47219fa631541c",
+      "fundstellen": 719
+    }
+  ]
+}
